@@ -66,7 +66,7 @@ Both predictions are locked. Both are testable now.
 ## Contact
 
 Blake Shatto, P.E.  
-bshatto.pe@gmail.com
+modeidentitytheory@gmail.com
 
 ---
 
