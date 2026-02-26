@@ -14,7 +14,7 @@ Every output traces from a single topological postulate through a locked derivat
 
 ## Live Site
 
-**[modeidentitytheory.github.io/calculator](https://modeidentitytheory.github.io/calculator)** (or your deployment URL)
+[Run the Calculator](https://dmobius3.github.io/mode-identity-theory/Calculator.html)
 
 ## Features
 
