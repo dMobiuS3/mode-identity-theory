@@ -10,7 +10,7 @@ An interactive calculator implementing the complete MIT scaling law:
 
 $$\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}$$
 
-Every output traces the topology through a locked derivation chain. No hidden parameters. No fitting. The code is the math.
+Every output traces the topology through a locked derivation chain. No hidden knobs. No fitting. The code is the math.
 
 ## Live Site
 
