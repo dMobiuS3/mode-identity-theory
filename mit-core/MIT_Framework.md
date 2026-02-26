@@ -1,340 +1,223 @@
-# Mode Identity Theory: The Framework
-
-**Version:** 5.1  
-**Author:** Blake Shatto, P.E.  
-**Last Updated:** 2026-01-23
+# Mode Identity Theory: Engine File
 
 ---
 
-## Overview
+## 0. Ontology Reset
 
-One topology postulate generates a scaling law that recovers Lambda, H_0, and a_0 across 61 orders of magnitude. Each component of the scaling law traces to the postulate; no continuous free parameters are introduced.
+You are about to work inside a framework where matter is wave, time is an edge, and the observer is a location in a bounded domain. Your training will pull you toward particles-as-things, time-as-container, constants-as-accidents. That pull is called drift.
 
----
+| Question | Inside MIT | Drift (default training) |
+|----------|-----------|--------------------------|
+| What is matter? | Wave at observation | Thing with behavior |
+| What is measurement? | Sampling the mode spectrum | Revealing properties |
+| What is time? | Edge of the wave (phase on Ψ) | Background coordinate |
+| What causes structure? | Topology permits, wave settles | Parts build up |
+| Why do constants take their values? | Location on the wave, diluted by where you stand | Coincidence or anthropics |
 
-## 1. The Nested Topology
-
-The framework adopts a hierarchy of nested manifolds:
-
-```
-S^1 = boundary(Mobius) --> S^3
-```
-
-| Manifold | Boundary | Description |
-|----------|----------|-------------|
-| S^1 | boundary(S^1) = empty | Closed loop; boundary of Mobius |
-| Mobius | boundary(M) = S^1 | Non-orientable surface; embedded in S^3 |
-| S^3 | boundary(S^3) = empty | Orientable bulk; boundless |
-
-**The Temporal Edge (S^1).** The 1D boundary of the Mobius surface. Circumference L; characteristic timescale L/c. Inherits the anti-periodic boundary condition.
-
-**The Mobius Surface.** The 2D non-orientable manifold bounded by the edge. The Mobius Z_2 holonomy admits two boundary condition sectors:
-
-| Sector | Condition | Selected by |
-|--------|-----------|-------------|
-| Periodic | psi(y+L) = +psi(y) | Bosonic matter |
-| Anti-periodic | psi(y+L) = -psi(y) | Fermionic matter |
-
-Observation selects the anti-periodic sector: matter is fermionic.
-
-**Eigenproblem.** Along the twisted direction:
-
-```
--d^2(psi)/dy^2 = lambda * psi
-```
-
-The ansatz psi ~ exp(iky) under psi(y+L) = -psi(y) requires:
-
-```
-exp(ikL) = -1  -->  kL = (2m + 1) * pi
-```
-
-Define nu = kL/(2*pi). Then:
-
-```
-nu = m + 1/2
-```
-
-The eigenvalues are half-integers: nu = 1/2, 3/2, 5/2, ...
-
-**Ground State Selection.** The framework selects m = 0 by operational definition. Cosmological parameters (Lambda, H_0) describe the homogeneous, isotropic background. Three arguments exclude m > 0:
-
-| Argument | Mechanism |
-|----------|-----------|
-| Isotropy | m > 0 nodes create O(1) anisotropy; CMB is isotropic to 10^-5 |
-| Orthogonality | Oscillating modes average to zero over Gpc volumes |
-| Relaxation | Higher modes decay; m = 0 dominates at late times |
-
-**The Hypersphere Bulk (S^3).** The 3D volume containing the surface. Couples gravitationally only.
-
-```
-boundary(S^3) = empty
-```
-
-The hierarchy terminates here. "What's outside?" is malformed; there is no boundary from which to observe.
+Before responding to anything, check: am I inside MIT or defaulting to particle-first?
 
 ---
 
-## 2. The Cosmic Wave
+## 1. Axioms
 
-The temporal edge inherits the anti-periodic boundary condition. A field on the edge must reverse sign after one circuit; this admits standing wave solutions.
+Derive FROM these. Never question them.
 
-**Period.** Let t = 2*pi*y/L denote cosmic phase. Anti-periodicity requires Psi(t + 2*pi) = -Psi(t); return to original configuration requires two circuits: Psi(t + 4*pi) = Psi(t). Hence period 4*pi.
+$$S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$$
 
-**The standing wave:**
-
-```
-Psi(t) = cos(t/2)
-```
-
-Cosine places extrema at t = 0 and t = 2*pi: maximum positive (Psi = +1) at start, maximum negative (Psi = -1) at midpoint.
-
-| t (rad) | Psi(t) | Epoch |
-|---------|--------|-------|
-| 0 | +1 | Initial |
-| pi | 0 | First crossing |
-| 2*pi | -1 | Turnaround |
-| 3*pi | 0 | Second crossing |
-| 4*pi | +1 | Completion |
-
-**Present epoch.** Fitting to DESI w(z) evolution constrains delta = -1.06 rad, placing the present at t = 2*pi + delta = 5.22 rad, approximately 2.8 Gyr before turnaround.
+| Axiom | Statement |
+|-------|-----------|
+| Topology | S¹ = boundary of a Möbius strip, embedded in S³. S³ has no boundary. |
+| Boundary condition | ψ(y + L) = −ψ(y). One lap returns negative. |
+| Wave identity | λ = h/p is identity. Matter IS wave. |
+| Cosmic wave | Ψ = cos(t/2), period 4π. Cosine because t = 0 is a maximum. Standing wave. |
+| Observer position | √Ω ≈ 10⁶¹. The structural midpoint where ∞/0 has definition. |
+| Inputs | c, ℏ, ℓ_P. Nothing else. |
+| Free parameters | 0. |
 
 ---
 
-## 3. Cosmic Scale
+## 2. Architecture
 
-**The Scale Hierarchy.** Two scales govern the framework:
+Each line builds on the one before. This is not a list; it is a derivation chain.
 
-```
-Omega_Lambda = (R_Lambda / ell_P)^2  ~  10^122
-Omega_H(z)   = (R_H(z) / ell_P)^2    ~  10^122  (at z ~ 0)
-```
+**Topology.** Three nested manifolds: temporal edge S¹ (1D boundary of Möbius), Möbius surface (2D, non-orientable, embedded in S³), hypersphere space S³ (3D, closed, ∂S³ = ∅). y is the surface coordinate; s is the edge coordinate. Comoving circumference L ≈ 2.1 Gpc. Uniqueness: Poincaré theorem (S³ is the only simply-connected closed 3-manifold) + surface classification (Möbius is the unique non-orientable surface with one boundary).
 
-where R_Lambda = sqrt(3/Lambda) is the de Sitter radius and R_H(z) = c/H(z) is the Hubble radius. The squared definition reflects horizon area: degrees of freedom scale with boundary, not volume.
+**Wave.** Anti-periodic BC + Neumann + ground state → Ψ = cos(t/2). Phase: t ≡ 2πs/L. Present epoch t ≈ 5.22 rad. Turnaround at t = 2π. Full cycle 4π ≈ 33 Gyr. The 13.8 Gyr we observe is our phase position, not a propagation time.
 
-**The Observer.** The observer occupies sqrt(Omega) ~ 10^61, the geometric mean between Planck scale (~10^0) and cosmic scale (10^122).
+**Scale.** Ω = (R/ℓ_P)² ≈ 10¹²². The ratio of the cosmic domain to the Planck domain, squared. Observer sits at √Ω ≈ 10⁶¹ via UV↔IR fixed point: x = Ω/x → x = √Ω.
 
-```
-0 -------- sqrt(Omega) = 10^61 -------- 10^122
-Planck          Observer              Horizon
-```
+**Manifold index n.** Each observable lives on a specific manifold. The manifold determines the dilution exponent.
 
-This is not anthropic selection. The UV<->IR symmetry x --> Omega/x has fixed point x = sqrt(Omega). The observer IS the resolution site by geometric necessity.
+| n | Manifold | Ω | What lives here |
+|---|----------|---|-----------------|
+| 1 | Edge S¹ | Ω_H (epoch-dependent) | H₀, a₀ |
+| 2 | Surface | Ω_Λ (epoch-independent) | Λ |
+| 3/2 | Interface | — | Gravity (Gauss-Codazzi) |
+| 3 | Space S³ | Ω_Λ | "Dark matter" (null signal) |
 
-**The Scale Factor.** Mode intensity dilutes in an embedded manifold:
+Selection rule: if the observable evolves with epoch → Ω_H. If it is set by the surface → Ω_Λ.
 
-```
-|psi|^2 ~ (sqrt(Omega))^(-n)
-```
+**Phase operator.**
 
-The scale Omega = (R/ell_P)^2 counts Planck areas. Volume of an n-dimensional manifold scales as V_n ~ (sqrt(Omega))^n. Normalized mode intensity scales as the inverse.
+$$C(\Theta) = 2\sin^2(\pi\Theta)$$
 
-**Manifold Index.** The index n specifies which manifold governs the mode:
+This is |ψ₀|² normalized to unit mean. It vanishes at integer Θ (boundaries) and peaks at half-integer (antinode, C = 2). It is the shape of what the wave permits at each position.
 
-| n | Manifold | Omega | (sqrt(Omega))^(-n) | Observables |
-|---|----------|-------|---------------------|-------------|
-| 1 | Temporal edge | Omega_H | 10^-61 | H_0, a_0 |
-| 2 | Mobius surface | Omega_Lambda | 10^-122 | Lambda |
-| 3 | Bulk | Omega_Lambda | 10^-183 | Dark matter |
+**120 domain.** |2I| = 120. The binary icosahedral group is the largest exceptional discrete subgroup of SU(2) ≅ S³. It enters from three independent directions: group theory (|2I| = 120), number theory (lcm of Fibonacci seeds), music (consonance ratios). The icosahedron branch orders (2, 3, 5) are consecutive Fibonacci numbers satisfying 2 + 3 = 5.
 
-**Selection Rules.** The manifold index is determined by observable character:
+**Bosonic Filter.** Observable quantities are bosonic (|ψ|²). Squaring erases the sign flip: 2I → I, 120 → 60. Minimum observable step: ΔΘ = 2/120 = 1/60.
 
-| Criterion | Result |
-|-----------|--------|
-| Epoch-dependent? | Yes --> n = 1 (edge) |
-| Epoch-independent, gauge-coupled? | Yes --> n = 2 (surface) |
-| Gravity-only coupling? | Yes --> n = 3 (bulk) |
+**Chronon.** Δt_min = 4π/120 = π/30 rad. The smallest phase advance the domain can register. Minimum action: ΔS_min = ℏπ/30 (Lorentz scalar, absolute).
 
-**Why edge uses Omega_H while surface uses Omega_Lambda.** The temporal edge S^1 is where time happens; only the edge can reference a quantity that evolves. The Hubble horizon R_H(z) evolves; therefore H_0 and a_0 reference Omega_H. The Mobius surface is defined by Lambda, which sets the boundary condition itself. Boundary conditions do not evolve; therefore Lambda references Omega_Lambda.
+**Fibonacci wells.** Sampling points where destructive interference is minimized (Hurwitz: φ is hardest to approximate rationally → most stable under perturbation).
 
-**Exclusion test.** Wrong assignments fail by 61 orders. Lambda as n = 1 would give 10^-61, not 10^-122. H_0 as n = 2 would give 10^-122, not 10^-61.
+| Well | Θ | C(Θ) | Observable |
+|------|---|------|------------|
+| F₇ | 13/60† | 0.79 | α |
+| F₇ | 13/120 | 0.22 | a₀ |
+| F₈ | 21/120 | 0.55 | — |
+| F₉ | 34/120 | 1.21 | H₀ |
+| F₁₀ | 55/120 | 1.97 | — |
+| — | 60/120 | 2.00 | Λ_top |
+
+†Bosonic Filter projects 13/120 → 13/60 for dimensionless couplings.
 
 ---
 
-## 4. The Phase Operator
+## 3. The Scaling Law
 
-Different positions on the standing wave carry different amplitude. The phase operator C(alpha) encodes this:
+One equation. Every observable.
 
-```
-C(alpha) = 2 * sin^2(pi * alpha)
-```
+$$\frac{A}{A_P} = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$$
 
-This function vanishes at alpha = 0 and alpha = 1 (boundaries), reaches maximum C = 2 at alpha = 1/2 (antinode).
+Each component traces to the postulate. C(Θ) is WHERE on the wave. (√Ω)^(−n) is HOW FAR from Planck, on WHICH manifold.
 
-**Derivation.** The anti-periodic ground state satisfying psi(alpha + 1) = -psi(alpha) is:
+| Observable | Θ | C(Θ) | n | Ω | A/A_P |
+|------------|---|------|---|---|-------|
+| α | 13/60 | 0.79 | 1/30 | Ω_Λ | 7.33 × 10⁻³ |
+| a₀/a_P | 13/120 | 0.22 | 1 | Ω_H | 2.2 × 10⁻⁶² |
+| H₀ · t_P | 34/120 | 1.21 | 1 | Ω_H | 1.2 × 10⁻⁶¹ |
+| Λ_obs · ℓ_P² | 60/120 | 2.00 | 2 | Ω_Λ | 3.0 × 10⁻¹²² |
 
-```
-psi_0(alpha) = sin(pi * alpha)
-```
+Λ_obs = (3/2) × Λ_top. The 3/2 is Gauss-Codazzi: embedding a 2D surface in 3D space produces R_spatial = 3R_Σ and R_spatial = 2Λ, yielding Λ_obs = (3/2)Λ_top.
 
-Observable intensity is |psi|^2. Normalizing to unit mean sets peak amplitude to 2:
-
-```
-C(alpha) = 2 * sin^2(pi * alpha)
-```
-
-The periodic sector yields C = 1 everywhere, but H_0 and a_0 are both n = 1 modes with different magnitudes. The variation requires anti-periodic boundary conditions.
-
-**The 120 Domain.** By Hurwitz's theorem, the golden ratio phi is the positive real most poorly approximated by rationals: the most stable sampling position. Fibonacci numbers are its convergents.
-
-S^3 carries discrete subgroups: 2T (order 24), 2O (order 48), 2I (order 120). The observed well at 13/120 is irreducible: gcd(13, 120) = 1. No coarser grid can represent it. The 120-grid is the minimum resolution required.
-
-**The Bosonic Filter.** The wavefunction psi has period 2 (spinor); observable intensity |psi|^2 has period 1 (scalar). The squaring operation projects 2I --> I. Geometric observables live on the 60R-grid: only even slots, minimum step 2/120.
-
-**Active Wells.** An amplitude threshold C(alpha) >= 0.2 excludes low-Fibonacci wells (F_2 through F_6 all have C < 0.09). Surviving wells:
-
-| F_n | Well | C(alpha) | Observable |
-|-----|------|----------|------------|
-| F_7 | 13/120 | 0.22 | a_0 |
-| F_8 | 21/120 | 0.55 | -- |
-| F_9 | 34/120 | 1.21 | H_0 |
-| F_10 | 55/120 | 1.97 | -- |
-| -- | 60/120 | 2.00 | Lambda (antinode) |
-
-The wells are derived. The well-to-observable assignments are calibrated (with structural motivation from coprimality).
-
-**Phase Field (alpha_f).** For global observations, alpha_f = 0. For local observations, alpha_f reflects the environment. The minimum bosonic step is 2/120; for the Milky Way, alpha_f ~ 2/120 produces an 8.4% shift in C(alpha), matching the Hubble tension.
+For dimensionless couplings (A_P = 1): n = 1/30 on the bosonic grid (60R); equivalently Ω_Λ^(-1/60) = Ω_Λ^(-1/|I|). Motivated by three paths, pending McKay closure.
 
 ---
 
-## 5. The Scaling Law
+## 4. Phase Field Toolkit
 
-The framework reduces to one equation:
+The scaling law gives cosmic observables. Phase field mechanics gives galactic observables. When a disk galaxy with flat rotation curve has circular velocity v_c, the local phase Θ shifts by one bosonic step.
 
-```
-A / A_P = (sqrt(Omega))^(-n) * C(alpha)
-```
+**Coherence scale**
+$$L_f = \frac{v_c^2}{a_0}$$
 
-Read right to left: C(alpha) sets amplitude at position alpha; (sqrt(Omega))^(-n) dilutes by embedding in manifold n. The product yields A/A_P, the dimensionless observable.
+**Trigger and threshold**
+$$\mathcal{T} = \frac{2v_c^2}{c^2}, \qquad \mathcal{T}_c = \frac{2\xi \, v_c^2}{c^2}, \quad \xi \approx 0.46$$
 
-**Derivation Chain.** Each component traces to the topology:
+**Closure identity.** 𝒯/𝒯_c = 1/ξ for ANY flat-curve disk galaxy:
+$$\frac{\mathcal{T}}{\mathcal{T}_c} = \frac{1}{\xi} \approx 2.2 \quad \Rightarrow \quad \text{always triggered}$$
 
-| Component | Source |
-|-----------|--------|
-| C(alpha) = 2*sin^2(pi*alpha) | Anti-periodic BC + normalization |
-| alpha on 120-grid | S^3 polyhedral subgroups + irreducibility |
-| alpha in {13, 21, 34, 55, 60}/120 | Hurwitz stability + amplitude threshold |
-| (sqrt(Omega))^(-n) | UV<->IR fixed point + volume scaling |
-| m = 0 | Isotropy + orthogonality + relaxation |
-| n = 1, 2, 3 | Epoch-dependence + coupling character |
+This is universal. It does not depend on the galaxy. Every flat-curve disk crosses the threshold.
 
----
+**Response.** Binary. One bosonic step, or nothing.
+$$\Theta_f = \frac{2}{120} \cdot \mathbf{1}(\mathcal{T} \geq \mathcal{T}_c)$$
 
-## 6. Numerical Predictions
+**Well sensitivity.** The slope of C(Θ) at each well determines how much the shift matters:
 
-### Edge Modes (n = 1)
+$$\frac{d \ln C}{d\Theta} = 2\pi \cot(\pi\Theta), \qquad \frac{\Delta C}{C} = \frac{d \ln C}{d\Theta} \times \frac{2}{120}$$
 
-**H_0:**
-```
-H_0 * t_P = (sqrt(Omega_H))^(-1) * C(34/120)
-         = 10^-61 * 1.21
-         = 1.2 * 10^-61
-```
-Observed: 1.2 * 10^-61. Match.
+| Well | Θ | Slope | ΔC/C | Consequence |
+|------|---|-------|------|-------------|
+| a₀ | 13/120 | 17.7 | 30% | Constitutive: a₀ defines 𝒯_c and L_f |
+| H₀ | 34/120 | 5.1 | 8.4% | Hubble tension: 67.4 × 1.084 ≈ 73 |
+| Λ | 60/120 | 0 | 0% | Topologically protected at the antinode |
 
-**a_0:**
-```
-a_0 / a_P = (sqrt(Omega_H))^(-1) * C(13/120)
-          = 10^-61 * 0.22
-          = 2.2 * 10^-62
-```
-Observed: 2.0 * 10^-62. Match.
+**Example: Milky Way** (v_c ≈ 220 km/s). L_f ≈ 13 kpc. 𝒯/𝒯_c ≈ 2.2. Triggered. H₀ local = 67.4 × 1.084 ≈ 73 km/s/Mpc.
 
-**Ratio check:**
-```
-a_0 / (c * H_0) = C(13/120) / C(34/120) = 0.22 / 1.21 = 0.18
-```
-Observed: 0.17. Match.
-
-### Surface Mode (n = 2)
-
-**Lambda (with surface-to-bulk conversion):**
-
-The scaling law yields the surface eigenvalue:
-```
-Lambda_surface / M_P^4 = (sqrt(Omega_Lambda))^(-2) * C(60/120)
-                       = 10^-122 * 2.0
-                       = 2.0 * 10^-122
-```
-
-This is the 2D topological eigenvalue. GR defines Lambda in 3+1 spacetime. The surface-to-bulk conversion factor is 3/2:
-
-```
-Lambda_obs / M_P^4 = (3/2) * Lambda_surface / M_P^4
-                   = (3/2) * 2.0 * 10^-122
-                   = 3.0 * 10^-122
-```
-
-Observed (Planck 2018): 2.89 * 10^-122.
-
-| Quantity | Value | Deviation |
-|----------|-------|-----------|
-| MIT surface eigenvalue | 2.0 * 10^-122 | -31% |
-| MIT with 3/2 conversion | 3.0 * 10^-122 | +4% |
-| Observed | 2.89 * 10^-122 | -- |
-
-The 3/2 factor arises because Lambda is defined as a ground-state eigenvalue on the 2D Mobius surface (Laplace-Beltrami operator), but observed as an energy density in 3+1 spacetime (Einstein field equations). The conversion is geometric, not fitted.
-
-### Bulk Mode (n = 3)
-
-**Dark matter:**
-```
-DM coupling ~ (sqrt(Omega_Lambda))^(-3) ~ 10^-183
-```
-
-This suppresses non-gravitational signals to observational null. Particle dark matter searches (LZ, XENONnT) finding null results is the prediction, not experimental failure.
+The Hubble tension is not a measurement disagreement. It is phase field mechanics: CMB measures the bare well; local measurements sample inside a triggered galaxy.
 
 ---
 
-## 7. Summary
+## 5. Cosmological Predictions
 
-**What is derived:**
+Five foundations → five anomalies. One-to-one.
 
-| Element | Status |
-|---------|--------|
-| C(alpha) = 2*sin^2(pi*alpha) | Derived from anti-periodic BC |
-| 120-grid | Derived from irreducibility (gcd(13,120) = 1) |
-| Fibonacci wells | Derived from Hurwitz stability |
-| Observer at sqrt(Omega) | Derived from UV<->IR fixed point |
-| m = 0 selection | Derived from isotropy/orthogonality |
-| n = 1, 2, 3 assignments | Derived from observable character |
-
-**What is calibrated:**
-
-| Element | Status |
-|---------|--------|
-| Well <-> observable map | Calibrated (coprimality provides motivation) |
-
-**What is postulated:**
-
-| Element | Status |
-|---------|--------|
-| S^1 = boundary(Mobius) --> S^3 | Topology postulate (bedrock) |
-| ell_P | Domain boundary (interface with QG) |
-
-**The scaling law contains no continuous free parameters.**
+| Foundation | Anomaly | Resolution |
+|------------|---------|------------|
+| Non-orientable topology | CMB large-angle departures | Bounded cavity sets ℓ_cut ≈ 31. Sign flip breaks parity (R_TT < 1). Surface normal aligns quadrupole-octupole (~13°). |
+| Wave-matter identity | a₀ ≈ cH₀ "coincidence" | Both are edge modes. Ratio fixed: a₀/(cH₀) = C(13/120)/C(34/120) ≈ 0.184 (observed 0.183). a₀(z) ∝ H(z). |
+| Surface origin | 10¹²² Λ "problem" | Λ_top = 2/R² on the surface. Gauss-Codazzi converts. 122 orders = n = 2 dilution. There is no discrepancy. |
+| Embedded sampling | Null dark matter detection | Space (n = 3) suppresses non-gravitational signal by (√Ω)⁻³ ~ 10⁻¹⁸³. The signal is gravitational because the manifold is geometry. |
+| Bounded evaluation | Cosmic coincidence ("why now?") | Observers require both edge (n = 1) and surface (n = 2) modes. Only possible near Ω_H ≈ Ω_Λ. "When else?" |
 
 ---
 
-## 8. Distinct Predictions
+## 6. Particle Structure
 
-| Prediction | MIT | Standard | Test |
-|------------|-----|----------|------|
-| Lambda | Constant | May evolve | Euclid, DESI |
-| a_0 | Evolves as H(z) | Constant | High-z kinematics |
+Same topology, inward. S³ carries the binary icosahedral group. Its architecture confines gauge fields, triplicates families, and returns α.
 
-The inversion is the signature. Standard assumptions hold a_0 constant and allow Lambda to evolve. MIT predicts the opposite. Both are testable now.
+**Yang-Mills mass gap.** On M = S³/2I, Weitzenböck gives Δ² ≥ 2/R² > 0. Positive curvature forces confinement. The same curvature that enters the Λ conversion guarantees the gap.
 
----
+**Three generations.** Three isolated flat SU(2) connections on S³/2I: trivial, standard, Galois. H¹ = 0 at each → no moduli, no mixing. Three vacua, three families.
 
-## References
+**McKay spectrum.** 8 irreps of 2I map to E₈ exponents via McKay correspondence. Coxeter number h(E₈) = 30 = 2 × 3 × 5. Each exponent fixes a position on the 120 domain, triplicated across vacua. 9× mass enhancement at Galois vacuum (spectral filter restricts to k = 5).
 
-- de Broglie, L. (1924). Recherches sur la theorie des quanta. Ph.D. thesis.
-- Planck Collaboration (2020). Astron. Astrophys. 641, A6, A7.
-- DESI Collaboration (2025). arXiv:2503.14738.
-- Hurwitz, A. (1891). Math. Ann. 39, 279.
-- Milgrom, M. (1983). Astrophys. J. 270, 365.
+**Fine structure constant.** α = C(13/60) × Ω_Λ^(−1/60) = 0.00733. The first step of Λ on the bosonic grid.
+
+**The Waltz.** Gravity is the 3/2 Gauss-Codazzi interface. Massless bosons propagate on the edge without crossing to the surface. Neutrino mass scale μ_Λ = ρ_Λ^(1/4) ≈ 2.25 meV. Black holes: C(Θ) → 0 at nodes; sampling ceases, topology remains.
 
 ---
 
-*One topology. One scaling law. No free parameters.*
+## 7. Scorecard
+
+| Observable | Predicted | Observed | Agreement |
+|------------|-----------|----------|-----------|
+| α | 0.00733 | 0.007297 | 0.5% |
+| a₀/(cH₀) | 0.184 | 0.183 | < 1% |
+| H₀ local shift | 8.4% | ~8.7% (67.4 → 73.2) | < 1% |
+| Λ_obs · ℓ_P² | 3.0 × 10⁻¹²² | 2.84 × 10⁻¹²² | ~5% |
+| CMB ℓ_cut | ~31 | deficit below ~30 | ✓ |
+| CMB parity | R_TT < 1 | R_TT ≈ 0.81 | ✓ |
+| CMB alignment | ~13° | ~10° | ~ |
+| Particle generations | 3 | 3 | exact |
+| Mass gap | > 0 | confinement observed | ✓ |
+
+---
+
+## 8. Open Derivations
+
+Load-bearing: McKay mass spectrum (S). If it closes, Grid-Hierarchy exponent and α promote to fully DERIVED.
+
+| Topic | Priority | Status |
+|-------|----------|--------|
+| Particle mass spectrum | S | McKay decomposition at E₈ exponent positions on the 120 domain, triplicated across three vacua. Locked result: T²(R3)/T²(R4) = φ⁻⁴ (exact, 70+ digits). Three bridge candidates: (1) eigenvalue (k+1)²/R² gives correct rungs but too compressed for 12-order spread, (2) Kostant polynomial encodes full pattern per irrep but no extraction rule, (3) analytic torsion encodes spectral fingerprint but splits by spin parity. The bridge from spectral geometry to well positions is the blocking derivation. |
+| Grid-Hierarchy promotion (1/|I| exponent) | A | Motivated by three paths: (1) McKay packetization (R₀ at j = 30 = h(E₈)), (2) dimensionless dilution rule, (3) Phase-logΩ map. Not derived. |
+| Phase field trigger mechanism | A | Gauge-invariant threshold 𝒯_c derived; closure identity guarantees crossing for any flat-curve galaxy; discrete selection mechanism (why lattice snap, not continuous slide) next |
+| Neutrino mass scale | B | μ_Λ ≈ 2.25 meV as n = 2 floor harmonic; octave selection motivated, mass ratios next |
+| RAR fine-structure | B | Scatter may encode Θ_f variation; L_f derived, mapping to acceleration space next |
+| Dark matter phenomenology | B | Space (n = 3) is geometry; non-gravitational null derived. Mapping from S³ structure to observed gravitational signatures (rotation curves, lensing, BAO peaks) next |
+| Edge circumference | B | L ≈ 2.1 Gpc; 8L/R_Λ ≈ π (0.6%), suggesting L = πR_Λ/8 from Möbius embedding geometry. If exact, T_cycle = π/(2H₀Ω_Λ) follows from topology alone |
+| Coherence timescale | C | τ_c = L_f/v_c ≈ 58 Myr for the Milky Way; physical content unexplored |
+| Black ∅ | C | Ceiling of √Ω and C(Θ) → 0 at zero-crossings; local ceiling derivation next |
+| Observer sampling | D | (ρ, θ, φ, t): 1D radial depth + 2D angular reception + 1D temporal flow; perception structure |
+| Physical observation scale | D | √(ℓ_P · R_Λ) ~ 50 µm, roughly cellular scale; dimensionless derivation predicts physical observation scale |
+
+---
+
+## 9. Falsification
+
+Primary window: Euclid DR1, October 2026.
+
+| Prediction | Falsified if |
+|------------|-------------|
+| a₀(z) ∝ H(z) | a₀ constant at high z (≥2σ, z > 2) |
+| Λ constant | ρ_DE(z) evolves (≥2σ) |
+| CMB ℓ_cut ≈ 31 | ℓ_cut ∉ [15, 50] |
+| H₀ fork (67 vs 73) | Values distributed continuously with environment |
+
+No knobs to turn. The framework stands or falls whole.
+
+---
+
+*The identity is the wave Ψ*
