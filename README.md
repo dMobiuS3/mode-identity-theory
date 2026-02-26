@@ -1,6 +1,6 @@
 # Mode Identity Theory — Interactive Calculator
 
-**Run MIT for yourself. One postulate. Zero free parameters.**
+**One postulate. Everything else derives.**
 
 $$S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$$
 
@@ -10,7 +10,7 @@ An interactive calculator implementing the complete MIT scaling law:
 
 $$\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}$$
 
-Every output traces from a single topological postulate through a locked derivation chain. No hidden parameters. No fitting. The code is the math.
+Every output traces the topology through a locked derivation chain. No hidden parameters. No fitting. The code is the math.
 
 ## Live Site
 
@@ -21,8 +21,8 @@ Every output traces from a single topological postulate through a locked derivat
 | Tab | What it does |
 |-----|-------------|
 | **Scaling Law** | Input any well position Θ, manifold index n, and scale Ω. Get A/Aₚ. Presets for α, a₀, H₀, Λ. |
-| **Spectrum** | The mass formula. Pick any irrep and vacuum, see Formula A compute the mass. Full 24-entry table with SM assignments. All locked data: 8 C_geom values, 27 vacuum torsion entries. |
-| **Theory** | The postulate, five foundations, cosmic wave Ψ, 120 domain, manifold assignments. |
+| **Spectrum** | The mass formula. Pick any irrep and vacuum, see Formula A compute the mass. Full 24-entry table with Standard Model assignments. |
+| **Theory** | Nested manifolds are the venue -> cosmic wave Ψ over the domain -> we sample at √Ω |
 | **Scorecard** | Extended scorecard: cosmological constants through particle masses. Falsification criteria. |
 | **Registry** | All 12 Zenodo DOIs. Links to every companion paper. |
 
@@ -43,8 +43,6 @@ This is a single `index.html` file. No build step. No dependencies. No server.
 git clone https://github.com/yourusername/mit-calculator.git
 open mit-calculator/index.html
 ```
-
-That's it.
 
 ## The Math
 
