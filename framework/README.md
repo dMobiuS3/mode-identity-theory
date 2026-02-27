@@ -1,4 +1,4 @@
-# Mode Identity Theory
+# Engine Room
 
 Matter is wave, sampled. A single topological postulate produces one scaling law. It derives the constants of the universe: $\Lambda$, $H_0$, $a_0$, and $\alpha$ across 122 orders of magnitude. The topology determines boundary conditions, selects the cosmic wave $\Psi$, fixes the observer position $\sqrt{\Omega}$, and generates a discrete phase structure native to $S^3$.
 
