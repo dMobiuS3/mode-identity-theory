@@ -131,7 +131,7 @@ Order unity. At low energy, $\Omega_\Lambda \approx 10^{122}$:
 
 $$\alpha(\text{low energy}) = 0.792 \times 10^{-2.03} = 0.0073$$
 
-The running from ~1 at the Planck scale to ~1/137 at human scales is the hierarchy $\Omega^{-1/60}$ expressing itself across the bounded domain. This is the correct direction: $\alpha$ increases at higher energies (smaller local $\Omega$), consistent with QED vacuum polarization. The MIT prediction differs structurally from perturbative QED: power-law in $\Omega$ rather than logarithmic in $q^2$. At accessible energies, both may be indistinguishable; at extreme scales, they diverge.
+The running from ~1 at the Planck scale to ~1/137 at human scales is the hierarchy $\Omega^{-1/60}$ expressing itself across the bounded domain. This is the correct direction: $\alpha$ increases at higher energies (smaller local $\Omega$), consistent with QED vacuum polarization. The MIT prediction differs structurally from perturbative QED: power-law in $\Omega$ rather than logarithmic in $q^2$. At accessible energies both are indistinguishable; at extreme scales, they diverge.
 
 ### Unification
 
@@ -148,7 +148,7 @@ The sharpest near-term test requires no new measurements, only computation: appl
 | $\alpha$ value | Agreement degrades beyond 2% with improved Λ | Moderate |
 | Λ - $\alpha$ correlation | Refined Λ pushes predicted $\alpha$ further from CODATA | Weak (sensitivity suppressed by $1/60$) |
 
-The $E_8$ exponents $\{1, 7, 11, 13, 17, 19, 23, 29\}$, precisely the integers coprime to $h = 30$, are candidate well positions for other couplings. If the coupling landscape has the same grid structure as $\alpha_\text{EM}$, the framework generalizes. If it fails at every well, the $\alpha$ result is likely coincidence.
+The $E_8$ exponents $\{1, 7, 11, 13, 17, 19, 23, 29\}$, precisely the integers coprime to $h = 30$, are candidate well positions for other couplings. If the coupling landscape has the same grid structure as $\alpha_\text{EM}$, the framework generalizes. If it fails at every well, the $\alpha$ result is coincidence.
 
 ---
 
