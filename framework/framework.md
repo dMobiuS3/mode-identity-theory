@@ -24,7 +24,7 @@ Topology sets what is possible → Embedding defines the structure → The Cosmi
 
 The topology had only one choice. The temporal edge bounds the Möbius surface embedded in hypersphere space; the space has no boundary.
 
-$$S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$$
+$$S^1 = \partial(\text{Mobius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$$
 
 ### The Temporal Edge $S^1$
 
@@ -173,7 +173,7 @@ The manifold index $n$ specifies which scale governs the mode being sampled.
 |---|---|---|---|---|
 | 1 | Temporal edge | $\Omega_H$ | $10^{-61}$ | $H_0$, $a_0$, $\Delta t_{\min} = \pi/30$, $\Delta S_{\min} = \hbar\pi/30$ |
 | 2 | Möbius surface | $\Omega_\Lambda$ | $10^{-122}$ | $\Lambda$ |
-| 3/2 | Gauss-Codazzi interface | — | — | Gravity (space → surface curvature conversion) |
+| 3/2 | Gauss-Codazzi interface | -- | -- | Gravity (space → surface curvature conversion) |
 | 3 | Space | $\Omega_\Lambda$ | $10^{-183}$ | Null "dark matter" |
 
 The access hierarchy follows from boundary structure: $S^1$ is the observer's anchor (direct); Möbius is accessed through its non-orientable twist; $S^3$ has no boundary ($\partial S^3 = \emptyset$). Spatial degrees of freedom enter only through reconstruction.
@@ -286,7 +286,7 @@ The well assignments (which observable maps to which well) are identified by cop
 | $F_8$ | 21/120 | 0.55 | Unassigned |
 | $F_9$ | 34/120 | 1.21 | $H_0$ (Hubble parameter) |
 | $F_{10}$ | 55/120 | 1.97 | Unassigned |
-| — | 60/120 | 2.00 | $\Lambda_\text{top}$ (cosmological constant) |
+| -- | 60/120 | 2.00 | $\Lambda_\text{top}$ (cosmological constant) |
 
 > †The Bosonic Filter projects $13/120 \to 13/60$ on the 60R-grid.
 
@@ -416,13 +416,13 @@ $C(\Theta)$ reads the position axis: where the observable sits on the mode spect
 
 | Observable | $A_P$ | Grid | $\Theta$ | $C$ | $n$ | $A/A_P$ |
 |---|---|---|---|---|---|---|
-| $\alpha$ | 1 | 60R | 13/60 | 0.79 | $1/30$† | $7.33 \times 10^{-3}$ |
+| $\alpha$ | 1 | 60R | 13/60 | 0.79 | $1/30$ † | $7.33 \times 10^{-3}$ |
 | $a_0$ | $a_P$ | 120 | 13/120 | 0.22 | 1 | $2.2 \times 10^{-62}$ |
 | $H_0$ | $t_P^{-1}$ | 120 | 34/120 | 1.21 | 1 | $1.2 \times 10^{-61}$ |
-| $\Lambda$ | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $3.0 \times 10^{-122}$‡ |
+| $\Lambda$ | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $3.0 \times 10^{-122}$ ‡ |
 
 > †Dimensionless couplings ($A_P = 1$) project to the 60R-grid; $n$ is the minimum resolved step.
-> ‡$\Lambda_\text{obs} = (3/2) \times \Lambda_\text{top}$. The 3/2 Gauss-Codazzi conversion is included in $A/A_P$.
+> ‡ $\Lambda_\text{obs} = (3/2) \times \Lambda_\text{top}$. The 3/2 Gauss-Codazzi conversion is included in $A/A_P$.
 
 $H_0$ and $a_0$ occupy different wells on the same edge; their ratio is fixed by position. $H_0$ and $\Lambda$ occupy different manifolds; their 61-order span is fixed by dimension. $\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by resolution.
 
@@ -450,7 +450,7 @@ Observables are located in time on the edge and positioned on the mode spectrum.
 | Symbol | Name | Domain | Description |
 |---|---|---|---|
 | $t$ | Cosmic phase | $[0, 4\pi]$ | Observer's phase location on $\Psi$; time in MIT is phase |
-| $\delta$ | Epoch offset | $\sim\!-1.06$ rad | How far from turnaround |
+| $\delta$ | Epoch offset | $\sim -1.06$ rad | How far from turnaround |
 | $\Omega$ | Scale | $(R/\ell_P)^2$ | Planck areas on horizon $\sim 10^{122}$ |
 | $\Omega_H$ | Hubble scale | $(R_H/\ell_P)^2$ | Evolves with epoch |
 | $\Omega_\Lambda$ | de Sitter scale | $(R_\Lambda/\ell_P)^2$ | Fixed by $\Lambda$ |
@@ -506,7 +506,7 @@ These do not individually falsify MIT but meaningfully raise or lower credibilit
 | $H_0$ discrete | Continuous environmental variation confirmed | Histogram test |
 | $z_{\text{cross}} \approx 0.66$ | Phantom crossing outside locked range | < 0.4 or > 0.9 |
 | $w_{\text{eff}} > -1$ at all $z$ | True phantom behavior confirmed | Euclid, Rubin |
-| $w(z)$ curvature | Linear CPL preferred over cosine modulation | ΔAIC > 4 |
+| $w(z)$ curvature | Linear CPL preferred over cosine modulation | $\Delta$AIC > 4 |
 | $\mu_\Lambda \approx 2.25$ meV | Lightest $\nu$ mass inconsistent | KATRIN, cosmological bounds |
 
 ## Scope and Position
@@ -522,8 +522,3 @@ MIT is a topological framework: it specifies boundary conditions and permitted m
 The COMPACT collaboration calculates eigenmodes of non-orientable Euclidean manifolds, closely overlapping the mathematics MIT requires; their analysis of parity asymmetry from topology alone aligns with MIT's derivation of odd-$\ell$ preference.
 
 Milgrom's MOND established $a_0$ as a fundamental acceleration scale; MIT derives it as an edge mode and predicts its evolution with $H(z)$, the central fork test against MOND's constant $a_0$.
-
----
-
-*What you hold in your hand is not matter. It is where the wave resolved when you sampled it.*
-*The thing is the sample. The identity is the wave $\Psi$*
