@@ -35,7 +35,7 @@ $$E_{\text{MIT}}^2(z) = \Omega_m(1+z)^3 + \Omega_r(1+z)^4 + \Omega_\Lambda^{\tex
 
 where $\theta(z) = (2\pi + \delta)/\bigl(2(1+z)\bigr)$. The ΛCDM limit is recovered at $\varepsilon \to 0$.
 
-The surface-mode coupling is invisible to the CMB by construction: $\Omega_\Lambda^{\text{bare}} / E^2(z_\ast) \sim 10^{-9}$ at recombination. The modulation contributes ~$4 \times 10^{-10}$ to $E^2$ there, far below observational sensitivity. At low redshift, where Λ dominates the energy budget, the full BAO and supernova signatures are preserved.
+The surface-mode coupling is invisible to the CMB by construction: $\Omega_\Lambda^{\text{bare}} / E^2(z_\ast) \sim 10^{-9}$ at recombination. The modulation contributes roughly $4 \times 10^{-10}$ to $E^2$ there, far below observational sensitivity. At low redshift, where Λ dominates the energy budget, the full BAO and supernova signatures are preserved.
 
 ### The Phase Offset δ
 
