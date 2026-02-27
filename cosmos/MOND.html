@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>a₀ Evolving: High-Redshift Galaxy Masses</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body, {
+    delimiters: [
+      {left: '$$', right: '$$', display: true},
+      {left: '$', right: '$', display: false}
+    ]
+  });"></script>
+<style>
+  :root {
+    --bg: #0a0a0c;
+    --surface: #111114;
+    --text: #d4d0c8;
+    --text-dim: #8a8780;
+    --accent: #c24a3a;
+    --accent-dim: #7a2e22;
+    --border: #2a2a2e;
+    --max-w: 820px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 21px;
+    line-height: 1.72;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  /* ── Header ── */
+  header {
+    padding: 4rem 0 2rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 3rem;
+  }
+
+  header h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 400;
+    font-size: 2.9rem;
+    line-height: 1.18;
+    color: var(--text);
+    letter-spacing: -0.01em;
+  }
+
+  header h1 .a0 {
+    color: var(--accent);
+    font-style: italic;
+  }
+
+  .lambda-inline {
+    color: #c9a84c;
+  }
+
+  /* ── Intro with image ── */
+  .intro-section {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 2.5rem;
+    align-items: start;
+    margin-bottom: 3rem;
+  }
+
+  .intro-text p {
+    margin-bottom: 1.2rem;
+  }
+
+  .intro-text p:first-child::first-letter {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.8rem;
+    float: left;
+    line-height: 0.85;
+    margin-right: 0.12em;
+    margin-top: 0.08em;
+    color: var(--accent);
+  }
+
+  .intro-image {
+    position: relative;
+  }
+
+  .intro-image img {
+    width: 100%;
+    border-radius: 2px;
+    filter: contrast(1.05);
+  }
+
+  /* ── Result box ── */
+  .result-box {
+    border: 1px solid var(--border);
+    background: var(--surface);
+    padding: 1.8rem 2rem;
+    margin: 2.5rem 0 3rem;
+    border-left: 3px solid var(--accent-dim);
+  }
+
+  .result-box .result-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.3rem 0;
+  }
+
+  .result-box .result-label {
+    color: var(--text-dim);
+    font-size: 1.05rem;
+  }
+
+  .result-box .result-value {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.2rem;
+    color: var(--text);
+    letter-spacing: 0.02em;
+  }
+
+  .result-box .result-value.accent {
+    color: var(--accent);
+    font-weight: 500;
+  }
+
+  .result-box .result-divider {
+    border-top: 1px solid var(--border);
+    margin: 0.6rem 0;
+  }
+
+  .result-box .result-header {
+    font-size: 0.88rem;
+    color: var(--text-dim);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+    font-weight: 500;
+  }
+
+  /* ── Section headings ── */
+  h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: var(--text);
+    margin: 3rem 0 1.2rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  h3 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: var(--text);
+    margin: 2rem 0 0.8rem;
+    letter-spacing: 0.04em;
+  }
+
+  /* ── Body sections ── */
+  section {
+    margin-bottom: 2.5rem;
+  }
+
+  section p {
+    margin-bottom: 1rem;
+  }
+
+  /* ── Math ── */
+  .katex { font-size: 1.15em; }
+
+  .equation-block {
+    text-align: center;
+    margin: 1.8rem 0;
+    font-size: 1.2rem;
+  }
+
+  /* ── Tables ── */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 1.05rem;
+  }
+
+  thead th {
+    text-align: left;
+    padding: 0.6rem 0.8rem;
+    border-bottom: 2px solid var(--border);
+    color: var(--text-dim);
+    font-weight: 500;
+    font-size: 0.92rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  tbody td {
+    padding: 0.55rem 0.8rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 740px) {
+    body { font-size: 19px; }
+    header h1 { font-size: 2.2rem; }
+    .intro-section {
+      grid-template-columns: 1fr;
+    }
+    .intro-image { order: -1; max-width: 280px; }
+    .container { padding: 0 1.2rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <h1><span class="a0">a&thinsp;&#x2080;</span> Evolving: High-Redshift Galaxy Masses</h1>
+  </header>
+
+  <div class="intro-section">
+    <div class="intro-text">
+      <p>James Webb has found galaxies too massive, too early. Stellar masses of $\sim\!10^{10}\,M_\odot$ within 600 Myr of the Big Bang require star formation efficiencies exceeding unity under &Lambda;CDM, a physical impossibility. Mode Identity Theory predicts that the MOND acceleration scale $a_0$ is an edge mode ($n = 1$) referencing the evolving Hubble horizon: $a_0(z) = a_0(0) \times H(z)/H_0$. At $z = 10$, this gives $a_0 \approx 20 \times$ the local value, enhancing gravitational binding and accelerating structure formation without new physics.</p>
+
+      <p>Critically, MIT predicts $a_0$ evolves while &Lambda; remains fixed: the inverse of standard assumptions. Both predictions are independently testable.</p>
+    </div>
+
+    <div class="intro-image">
+      <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/ao.webp/:/cr=t:0%25,l:0%25,w:100%25,h:100%25" alt="Early galaxy formation">
+    </div>
+  </div>
+
+  <div class="result-box">
+    <div class="result-header">Edge mode scaling</div>
+    <div class="result-row">
+      <span class="result-label">Scaling law</span>
+      <span class="result-value accent">$a_0(z) = a_0(0) \times H(z)/H_0$</span>
+    </div>
+    <div class="result-divider"></div>
+    <div class="result-row">
+      <span class="result-label">$a_0/(cH_0)$ ratio</span>
+      <span class="result-value">predicted: $0.184$ &ensp;/&ensp; observed: $0.183$</span>
+    </div>
+    <div class="result-divider"></div>
+    <div class="result-row">
+      <span class="result-label">At $z = 10$</span>
+      <span class="result-value">$a_0 \approx 2.4 \times 10^{-9}$ m/s&sup2; &ensp;($20\times$ local)</span>
+    </div>
+    <div class="result-divider"></div>
+    <div class="result-row">
+      <span class="result-label">Binding enhancement</span>
+      <span class="result-value">$\sqrt{20} \approx 4.5\times$ &ensp;(collapse $\sim\!2.1\times$ faster)</span>
+    </div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- I. THE TENSION                          -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <h2>I. The Observational Tension</h2>
+  <section>
+    <p>Observations by Labb&eacute; et al. reveal stellar masses $M_\star \sim 10^{10}\,M_\odot$ formed within ~600 Myr after the Big Bang. These masses approach or exceed the maximal baryon abundance permitted in standard dark matter halos under &Lambda;CDM, creating the &ldquo;impossibly early galaxy&rdquo; problem. Resolving this within standard physics requires star formation efficiencies exceeding unity, a physical impossibility suggesting either systematic observational errors or incomplete theoretical understanding.</p>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- II. EPOCH-DEPENDENT a₀                  -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <h2>II. Epoch-Dependent Acceleration Scale</h2>
+  <section>
+    <p>Standard MOND treats $a_0 \approx 1.2 \times 10^{-10}$ m/s&sup2; as a fundamental constant. The observed coincidence $a_0 \approx cH_0$ suggests a connection to horizon physics. Within MIT, both $a_0$ and $H_0$ are edge modes ($n = 1$) referencing the Hubble horizon:</p>
+
+    <div class="equation-block">
+      $$\frac{a_0}{a_P} = C(13/120) \cdot (\sqrt{\Omega_H})^{-1}$$
+    </div>
+
+    <p>Since $\Omega_H = (R_H/\ell_P)^2$ and $R_H = c/H$, we have $\Omega_H \propto H^{-2}$. The ratio $a_0/(cH_0) = C(13/120)/C(34/120) \approx 0.184$, observed at 0.183. This is not a coincidence; both quantities sample the same edge at different well positions.</p>
+
+    <p>The phase coefficient $C(\Theta)$ occupies a Fibonacci stability well, a topological feature motivating epoch-independence. The scaling relation follows:</p>
+
+    <div class="equation-block">
+      $$a_0(z) = a_0(0) \times \frac{H(z)}{H_0}$$
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- III. z = 10                             -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <h2>III. Quantitative Estimate at $z = 10$</h2>
+  <section>
+    <p>For a standard flat cosmology with $\Omega_m \approx 0.3$ and $\Omega_\Lambda \approx 0.7$:</p>
+
+    <div class="equation-block">
+      $$\frac{H(z)}{H_0} = \sqrt{\Omega_m(1+z)^3 + \Omega_\Lambda}$$
+    </div>
+
+    <p>At $z = 10$: $(1+z)^3 = 1331$, giving $\Omega_m(1+z)^3 + \Omega_\Lambda = 0.3(1331) + 0.7 \approx 400$.</p>
+
+    <div class="equation-block">
+      $$\frac{H(z\!=\!10)}{H_0} = \sqrt{400} = 20$$
+    </div>
+
+    <p>Applying the scaling:</p>
+
+    <div class="equation-block">
+      $$a_0(z\!=\!10) \approx 20 \times a_0(0) \approx 2.4 \times 10^{-9} \;\text{m/s}^2$$
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- IV. STRUCTURE FORMATION                 -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <h2>IV. Implications for Structure Formation</h2>
+  <section>
+    <p>In the deep-MOND regime ($g \ll a_0$), effective gravitational acceleration scales as $g_\text{eff} \propto \sqrt{g_N \times a_0}$. Comparing epoch-dependent $a_0$ to the standard constant assumption:</p>
+
+    <div class="equation-block">
+      $$\frac{g_\text{eff}(z\!=\!10)}{g_\text{eff}(\text{standard})} = \sqrt{\frac{a_0(z\!=\!10)}{a_0(0)}} = \sqrt{20} \approx 4.5$$
+    </div>
+
+    <p>A factor of ~4.5 enhancement in effective gravitational binding significantly alters collapse dynamics. Since free-fall timescale scales as $t_\text{ff} \propto 1/\sqrt{g}$, structures at $z = 10$ could collapse approximately 2.1&times; faster than standard MOND would predict. For the Labb&eacute; et al. observations requiring $\varepsilon_\text{SF} > 1$ under standard assumptions, faster collapse dynamics reduce the implied efficiency into the physically permitted range.</p>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- V. CONTRASTING PREDICTIONS              -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <h2>V. Contrasting Predictions</h2>
+  <section>
+    <p>MIT&rsquo;s dimensional hierarchy makes a sharp distinction between edge modes and surface modes:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Observable</th>
+          <th>$n$</th>
+          <th>$\Omega_\text{ref}$</th>
+          <th>Prediction</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>$a_0$ (acceleration)</td>
+          <td>1</td>
+          <td>$\Omega_H$ (evolves)</td>
+          <td style="color: var(--accent); font-weight: 500;">Scales with $H(z)$</td>
+        </tr>
+        <tr>
+          <td><span class="lambda-inline">&Lambda;</span> (cosmo. const.)</td>
+          <td>2</td>
+          <td>$\Omega_\Lambda$ (fixed)</td>
+          <td>Constant across epochs</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>This is an inversion of standard assumptions, where &Lambda; is often treated as potentially evolving while $a_0$ is assumed constant. Observations of both quantities at high redshift provide independent, complementary tests.</p>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- VI. FALSIFICATION                       -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <h2>VI. Falsification</h2>
+  <section>
+    <table>
+      <thead>
+        <tr>
+          <th>Prediction</th>
+          <th>Test</th>
+          <th>Falsified if</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>$a_0(z) \propto H(z)$</td>
+          <td>Rotation curves at $z > 2$</td>
+          <td>$a_0(z)/a_0(0) = 1$ at $\geq 2\sigma$</td>
+        </tr>
+        <tr>
+          <td>&Lambda; constant</td>
+          <td>SNe Ia / BAO at high $z$</td>
+          <td>&Lambda; evolves while $a_0$ stays constant</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>At $z = 2$, the prediction is $a_0(z\!=\!2) \approx 3 \times a_0(0)$. These predictions distinguish MIT from both standard MOND (constant $a_0$) and &Lambda;CDM (no acceleration threshold).</p>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- CLOSING                                 -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <section style="margin-top: 3.5rem; border-top: 1px solid var(--border); padding-top: 2.5rem;">
+    <p>In 1983, Milgrom identified $a_0$ as a fundamental acceleration scale. Four decades the coincidence $a_0 \approx cH_0$ had no explanation. Both are edge modes; the ratio is fixed by where they sit on the standing wave. $a_0$ evolves with $H(z)$.</p>
+    <p style="color: var(--accent); font-style: italic; margin-top: 1rem; font-size: 1.25rem;">The galaxies found too early were simply formed under a stronger age.</p>
+  </section>
+
+</div>
+
+</body>
+</html>
