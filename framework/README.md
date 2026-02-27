@@ -4,21 +4,21 @@ Matter is wave, sampled. A single topological postulate produces one scaling law
 
 Five cosmological anomalies map one-to-one to five foundations. The framework produces the $3/2$ Gauss-Codazzi gravitational embedding interface. At the particle scale, the same topology confines gauge fields; three particle generations follow from three isolated vacua.
 
-## The Engine
+## The Firing Order
 
 Mode Identity Theory is built upon a specific order of operation. Each step depends on the one before, and nothing later in the sequence exists independently from what came prior:
 
-Topology sets what is possible → 
+1. Topology sets what is possible → 
 
-Embedding defines the structure → 
+2. Embedding defines the structure → 
 
-The Cosmic Wave expresses the boundary → 
+3. The Cosmic Wave expresses the boundary → 
 
-Time is phase of the wave → 
+4. Time is phase of the wave → 
 
-Sampling resolves position in the domain → 
+5. Sampling resolves position in the domain → 
 
-Meaning arises only after realization
+6. Meaning arises only after realization
 
 ## The Nested Topology
 
