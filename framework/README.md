@@ -4,16 +4,6 @@ Matter is wave, sampled. A single topological postulate produces one scaling law
 
 Five cosmological anomalies map one-to-one to five foundations. The framework produces the $3/2$ Gauss-Codazzi gravitational embedding interface. At the particle scale, the same topology confines gauge fields; three particle generations follow from three isolated vacua.
 
-## Five Foundations
-
-| Foundation | Statement |
-|---|---|
-| Wave-matter identity | $\lambda = h/p$ is identity. Matter is wave, sampled. |
-| Surface origin | Time is phase on the boundary of a 2D manifold. |
-| Topology | $\psi(y + L) = -\psi(y)$. A field traversing the manifold returns to minus itself. |
-| Bounded evaluation | $R_H/\ell_P$ has definition at the limit $\infty/0$. The observer is the structural midpoint of the bounded domain. |
-| Embedded sampling | The observable's character selects the manifold ($n = 1, 2, 3$). Dimension follows the measurement. |
-
 ## The Engine
 
 Mode Identity Theory is built upon a specific order of operation. Each step depends on the one before, and nothing later in the sequence exists independently from what came prior:
