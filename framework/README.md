@@ -12,7 +12,7 @@ Mode Identity Theory is built upon a specific order of operation. Each step depe
 
 2. Embedding defines the structure → 
 
-3. The Cosmic Wave expresses the boundary → 
+3. The cosmic wave expresses the boundary → 
 
 4. Time is phase of the wave → 
 
