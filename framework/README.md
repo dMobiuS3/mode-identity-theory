@@ -24,7 +24,7 @@ The topology had only one choice. The temporal edge bounds the Möbius surface e
 
 $$S^1 = \partial(\text{Mobius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$$
 
-### The Temporal Edge $S^1$
+### The Temporal Edge S¹
 
 The 1D boundary of the Möbius surface is the edge with comoving circumference $L \approx 2.1$ Gpc. Orientation reverses after one lap, requiring two for return. The full cycle is $4\pi$ in phase. The edge inherits the anti-periodic boundary condition.
 
@@ -54,7 +54,7 @@ Defining $\nu \equiv kL/(2\pi)$, then $kL = (2m+1)\pi$ implies $\nu = m + 1/2$. 
 
 Higher harmonics are excluded for background observables but carry perturbation structure.
 
-### The Hypersphere Space $S^3$
+### The Hypersphere Space S³
 
 The 3D volume containing the surface. Couples gravitationally; no other cross-manifold couplings are derived.
 
@@ -84,9 +84,9 @@ The hierarchy terminates here. "What's outside?" is malformed; there is no bound
 | $\hbar$ | $1.055 \times 10^{-34}$ J s | Action quantum; converts mode number to energy |
 | $\ell_P$ | $1.616 \times 10^{-35}$ m | UV floor of the bounded domain |
 | $t_P$ | $5.391 \times 10^{-44}$ s | Planck time; reference scale for $H_0$ |
-| $a_P$ | $5.561 \times 10^{51}$ m/s$^2$ | Planck acceleration; reference scale for $a_0$ |
+| $a_P$ | $5.561 \times 10^{51}$ m/s² | Planck acceleration; reference scale for $a_0$ |
 
-## The Cosmic Standing Wave $\Psi$
+## The Cosmic Standing Wave Ψ
 
 Anti-periodicity, the Neumann condition, and ground-state selection permit only one standing wave solution on the Möbius boundary: $\Psi$ is the wave that carries time.
 
@@ -94,7 +94,7 @@ Anti-periodicity, the Neumann condition, and ground-state selection permit only 
 
 A period of $4\pi$ is required to carry the sign from positive through negative and back to positive: $\Psi(t + 4\pi) = \Psi(t)$.
 
-Let $t \equiv 2\pi s/L$ denote cosmic phase, where $s$ is location along $S^1$ and $L$ is the circumference. (At Planck scale, the boundary condition manifests as the spin-$1/2$ sign flip under $2\pi$ rotation. Their correspondence is the dimensional projection of the same topological constraint.) The standing wave takes the form:
+Let $t \equiv 2\pi s/L$ denote cosmic phase, where $s$ is location along $S^1$ and $L$ is the circumference. (At Planck scale, the boundary condition manifests as the spin-1/2 sign flip under $2\pi$ rotation. Their correspondence is the dimensional projection of the same topological constraint.) The standing wave takes the form:
 
 $$\Psi = \cos(t/2)$$
 
@@ -139,7 +139,7 @@ where $R_H(z) = c/H(z)$ is the Hubble radius at redshift $z$, whose scale evolve
 
 The squared definition reflects horizon area: the relevant degrees of freedom scale with boundary. $\Omega_\Lambda$ is the asymptotic limit; $\Omega_H$ evolves with the Hubble radius.
 
-### The Observer $\sqrt{\Omega}$
+### The Observer √Ω
 
 The observer occupies $\sqrt{\Omega_H} \approx 10^{61}$ at the present epoch: the geometric mean between cosmic scale ($10^{122}$) and Planck scale ($\sim 10^0$).
 
@@ -176,7 +176,7 @@ The manifold index $n$ specifies which scale governs the mode being sampled.
 
 The access hierarchy follows from boundary structure: $S^1$ is the observer's anchor (direct); Möbius is accessed through its non-orientable twist; $S^3$ has no boundary ($\partial S^3 = \emptyset$). Spatial degrees of freedom enter only through reconstruction.
 
-### Why edge uses $\Omega_H$ while surface uses $\Omega_\Lambda$
+### Why edge uses Ω\_H while surface uses Ω\_Λ
 
 The temporal edge $S^1$ is where time happens; only the edge can reference a quantity that evolves with cosmic time. The Hubble horizon $R_H(z) = c/H(z)$ evolves; therefore epoch-dependent observables ($H_0$, $a_0$) reference $\Omega_H$. The Möbius surface and $S^3$ space are defined by $\Lambda$, which sets the boundary condition itself. Boundary conditions do not evolve; therefore epoch-independent observables reference $\Omega_\Lambda$. The space ($n = 3$) scaling of $(\sqrt{\Omega})^{-3} \sim 10^{-183}$ suppresses any non-gravitational signal to observational null.
 
@@ -197,7 +197,7 @@ The manifold index, scale, and dilution are determined by the character of the o
 
 ## The Phase Operator
 
-### The Phase Operator $C(\Theta)$
+### The Phase Operator C(Θ)
 
 Different locations on the standing wave carry different observable amplitude. The phase operator $C(\Theta)$ encodes this variation:
 
@@ -213,7 +213,7 @@ Observable intensity is $|\psi|^2$. The mean is $\int_0^1 \sin^2(\pi\Theta)\,d\T
 
 $H_0$ and $a_0$ are both edge modes ($n=1$) with different magnitudes, so the wave must vary with position. Only the anti-periodic sector does; the periodic sector would give $C(\Theta) = 1$ everywhere with no variation.
 
-### Phase Position $\Theta$
+### Phase Position Θ
 
 Phase position parametrizes where an observable resolves on the mode spectrum; it is distinct from the cosmic phase $t$. The cosmic phase $t$ locates the observer in the standing wave (*when*); the domain position $\Theta$ locates the observable (*where*).
 
@@ -269,7 +269,7 @@ The wavefunction $\psi_0$ satisfies $\psi(\Theta+1) = -\psi(\Theta)$: it carries
 
 The consequence is halved resolution. The minimum step any observable can resolve is $2/120$, not $1/120$. The squaring projects $2I \to I$, where $I$ is the icosahedral rotation group ($|I| = 60$). Dimensionless couplings ($A_P = 1$) live on the resulting 60R-grid (R for realized): only even positions on the 120 domain. Dimensionful observables ($A_P \neq 1$) remain on the 120 domain; their sign information is absorbed by whole-manifold dilution.
 
-### Fibonacci Wells ($\Theta_0$)
+### Fibonacci Wells (Θ₀)
 
 The Bosonic Filter established the 60R-grid; only certain positions carry observable amplitude. Fibonacci selects the stable wells; the antinode ($60/120$) is included as the amplitude maximum. The well at $13/120$ is irreducible: $\gcd(13, 120) = 1$. No coarser domain can represent it.
 
@@ -290,7 +290,7 @@ The well assignments (which observable maps to which well) are identified by cop
 
 **Coprimality note:** $\gcd(13, 120) = 1$. The $13/120$ well shares no factors with the domain, making it maximally detached from the domain's own symmetry. Matter lives there. The structural observables ($\Lambda$, $H_0$) occupy wells with shared factors, coupled to the domain structure itself. The assignment is forced: swapping wells inverts the ratio by a factor of 30.
 
-### Phase Field ($\Theta_f$)
+### Phase Field (Θ\_f)
 
 The wells are locked by topology. The observer is not. The local gravitational environment shifts the sampling position away from the well center.
 
@@ -404,13 +404,13 @@ Every distance ladder calibrated from inside the Milky Way has been phase shifte
 
 ## The Scaling Law
 
-**The framework reduces to one equation:**
+The framework reduces to one equation:
 
 $$\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}$$
 
 $C(\Theta)$ reads the position axis: where the observable sits on the mode spectrum. $(\sqrt{\Omega})^{-n}$ reads the time axis through $\Omega_H$ for edge modes, or the boundary condition through $\Omega_\Lambda$ for surface modes. The observer at $\sqrt{\Omega}$ is the structural midpoint where both axes resolve to finite values. Their product yields $A/A_P$: the modal realization; the ratio of the observable amplitude over its Planck scale reference. 
 
-**The sample occurs at $(t, \Theta)$.**
+**The sample occurs at** $(t, \Theta)$.
 
 ### The assembled engine
 
@@ -501,7 +501,7 @@ MIT is a topological framework: it specifies boundary conditions and permitted m
 
 **What MIT does not modify.** Einstein's field equations and the Standard Model particle content are unchanged. MIT addresses why observables take their values and why gauge fields confine into three generations.
 
-**Parallel work.** Topological cosmology has been explored since Friedmann. Luminet, Weeks, and collaborators proposed the Poincaré dodecahedral space ($S^3/2I$) as the spatial topology of the universe, matching CMB low-$\ell$ suppression; MIT adopts the same manifold and extends it from CMB anomalies to particle structure.
+**Parallel work.** Topological cosmology has been explored since Friedmann. Luminet, Weeks, and collaborators proposed the Poincaré dodecahedral space ($S^3/2I$) as the spatial topology of the universe, matching CMB low-ℓ suppression; MIT adopts the same manifold and extends it from CMB anomalies to particle structure.
 
 The COMPACT collaboration calculates eigenmodes of non-orientable Euclidean manifolds, closely overlapping the mathematics MIT requires; their analysis of parity asymmetry from topology alone aligns with MIT's derivation of odd-$\ell$ preference.
 
