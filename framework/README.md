@@ -93,10 +93,10 @@ The hierarchy terminates here. "What's outside?" is malformed; there is no bound
 | Const. | Value | Role in MIT |
 |---|---|---|
 | $c$ | 299,792,458 m/s | Propagation rate on the temporal edge $S^1$ |
-| $\hbar$ | $1.055 \times 10^{-34}$ J·s | Action quantum; converts mode number to energy |
+| $\hbar$ | $1.055 \times 10^{-34}$ J s | Action quantum; converts mode number to energy |
 | $\ell_P$ | $1.616 \times 10^{-35}$ m | UV floor of the bounded domain |
 | $t_P$ | $5.391 \times 10^{-44}$ s | Planck time; reference scale for $H_0$ |
-| $a_P$ | $5.561 \times 10^{51}$ m/s² | Planck acceleration; reference scale for $a_0$ |
+| $a_P$ | $5.561 \times 10^{51}$ m/s$^2$ | Planck acceleration; reference scale for $a_0$ |
 
 ## The Cosmic Standing Wave $\Psi$
 
@@ -340,11 +340,11 @@ The cotangent diverges near the boundary and vanishes at the antinode. $\Lambda$
 
 The Bosonic Filter fixed $\Delta\Theta_{\min} = 2/120$. Multiplying slope by step ($\Delta C/C = (d\ln C/d\Theta) \times \Delta\Theta_{\min}$) gives the fractional shift at each well:
 
-| Well | Slope × 2/120 | Shift |
+| Well | Slope x 2/120 | Shift |
 |---|---|---|
-| $a_0$ | 17.7 × 1/60 | 30% |
-| $H_0$ | 5.1 × 1/60 | 8.4% |
-| $\Lambda_\text{top}$ | 0 × 1/60 | 0% |
+| $a_0$ | 17.7 x 1/60 | 30% |
+| $H_0$ | 5.1 x 1/60 | 8.4% |
+| $\Lambda_\text{top}$ | 0 x 1/60 | 0% |
 
 The $a_0$ well is steep (one bosonic step would shift its amplitude by 30%), but $a_0$ is constitutive: it defines $\mathcal{T}_c$ and $L_f$, and is only measurable inside triggered environments. The observed $a_0$ corresponds to the Fibonacci well. $H_0$ shifts by 8.4%, matching the Hubble tension. $\Lambda$ remains unmoved.
 
@@ -403,7 +403,7 @@ $$H_0^{\text{local}} = H_0^{\text{CMB}} \times \frac{C(36/120)}{C(34/120)} = 67.
 | Quantity | Value | Source |
 |---|---|---|
 | $v_c$ | 220 km/s | Milky Way circular velocity |
-| $a_0$ | $1.2 \times 10^{-10}$ m/s² | $F_7 = 13/120$ well |
+| $a_0$ | $1.2 \times 10^{-10}$ m/s$^2$ | $F_7 = 13/120$ well |
 | $L_f$ | 13 kpc | $v_c^2/a_0$ |
 | $\xi$ | 0.46 | Geometry factor (profile-insensitive) |
 | $\mathcal{T}_c$ | $4.9 \times 10^{-7}$ | Critical threshold |
@@ -475,6 +475,22 @@ Cosmological anomalies have been resolved and particle structure has been given 
 ## Predictions and Falsification
 
 MIT has no loose knobs; discrepancies cannot be absorbed by parameter adjustment. The framework stands or falls on population-level agreement with locked predictions.
+
+### Numerical scorecard
+
+Blind outputs of the scaling law:
+
+| Observable | Predicted | Observed | Agreement |
+|---|---|---|---|
+| $\alpha$ | 0.00733 | 0.007297 | ~0.5% |
+| $a_0/(cH_0)$ | 0.184 | 0.183 | < 1% |
+| $H_0$ local shift | 8.4% | ~8.7% (67.4 → 73.2) | < 1% |
+| $\Lambda_{\text{obs}} \cdot \ell_P^2$ | $3.0 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~5% |
+| CMB suppression | $\ell \sim 31$ | $\ell < 30$ | ~ |
+| CMB parity | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | Yes |
+| CMB alignment | ~13 deg | ~10 deg | ~ |
+
+The framework also retrodicts three particle generations (three isolated vacua), massless bosons (edge-only propagation), and neutrino parity violation (non-orientability). These match known physics; they are structural consequences, checked against observation.
 
 ### Falsification hierarchy
 
