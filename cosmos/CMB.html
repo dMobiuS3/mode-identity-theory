@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CMB Anomalies from Topology</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body, {
+    delimiters: [
+      {left: '$$', right: '$$', display: true},
+      {left: '$', right: '$', display: false}
+    ]
+  });"></script>
+<style>
+  :root {
+    --bg: #0a0a0c;
+    --surface: #111114;
+    --text: #d4d0c8;
+    --text-dim: #8a8780;
+    --accent: #7a9ec2;
+    --accent-dim: #4a6a8a;
+    --border: #2a2a2e;
+    --max-w: 820px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 21px;
+    line-height: 1.72;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  /* ── Header ── */
+  header {
+    padding: 4rem 0 2rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 3rem;
+  }
+
+  header h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 400;
+    font-size: 2.9rem;
+    line-height: 1.18;
+    color: var(--text);
+    letter-spacing: -0.01em;
+  }
+
+  header h1 .cmb {
+    color: var(--accent);
+    font-style: italic;
+  }
+
+  header .subtitle {
+    font-size: 1.1rem;
+    color: var(--text-dim);
+    margin-top: 0.8rem;
+    font-style: italic;
+  }
+
+  /* ── Intro with image ── */
+  .intro-section {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 2.5rem;
+    align-items: start;
+    margin-bottom: 3rem;
+  }
+
+  .intro-text p {
+    margin-bottom: 1.2rem;
+  }
+
+  .intro-text p:first-child::first-letter {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.8rem;
+    float: left;
+    line-height: 0.85;
+    margin-right: 0.12em;
+    margin-top: 0.08em;
+    color: var(--accent);
+  }
+
+  .intro-image {
+    position: relative;
+  }
+
+  .intro-image img {
+    width: 100%;
+    border-radius: 2px;
+    filter: grayscale(5%) contrast(1.05);
+  }
+
+  .intro-image .caption {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    margin-top: 0.5rem;
+    text-align: right;
+    font-style: italic;
+  }
+
+  /* ── Result box ── */
+  .result-box {
+    border: 1px solid var(--border);
+    background: var(--surface);
+    padding: 1.8rem 2rem;
+    margin: 2.5rem 0 3rem;
+    border-left: 3px solid var(--accent-dim);
+  }
+
+  .result-box .result-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.3rem 0;
+  }
+
+  .result-box .result-label {
+    color: var(--text-dim);
+    font-size: 1.05rem;
+  }
+
+  .result-box .result-value {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.2rem;
+    color: var(--text);
+    letter-spacing: 0.02em;
+  }
+
+  .result-box .result-value.accent {
+    color: var(--accent);
+    font-weight: 500;
+  }
+
+  .result-box .result-divider {
+    border-top: 1px solid var(--border);
+    margin: 0.6rem 0;
+  }
+
+  .result-box .result-header {
+    font-size: 0.88rem;
+    color: var(--text-dim);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+    font-weight: 500;
+  }
+
+  /* ── Section headings ── */
+  h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: var(--text);
+    margin: 3rem 0 1.2rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  h3 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: var(--text);
+    margin: 2rem 0 0.8rem;
+    letter-spacing: 0.04em;
+  }
+
+  /* ── Body sections ── */
+  section {
+    margin-bottom: 2.5rem;
+  }
+
+  section p {
+    margin-bottom: 1rem;
+  }
+
+  /* ── Math ── */
+  .katex { font-size: 1.15em; }
+
+  .equation-block {
+    text-align: center;
+    margin: 1.8rem 0;
+    font-size: 1.2rem;
+  }
+
+  /* ── Tables ── */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 1.05rem;
+  }
+
+  thead th {
+    text-align: left;
+    padding: 0.6rem 0.8rem;
+    border-bottom: 2px solid var(--border);
+    color: var(--text-dim);
+    font-weight: 500;
+    font-size: 0.92rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  tbody td {
+    padding: 0.55rem 0.8rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 740px) {
+    body { font-size: 19px; }
+    header h1 { font-size: 2.2rem; }
+    .intro-section {
+      grid-template-columns: 1fr;
+    }
+    .intro-image { order: -1; max-width: 280px; }
+    .container { padding: 0 1.2rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <h1><span class="cmb">CMB</span> Anomalies from Topology</h1>
+  </header>
+
+  <div class="intro-section">
+    <div class="intro-text">
+      <p>Three large-angle CMB features have persisted across COBE, WMAP, and Planck with no explanation within &Lambda;CDM. The M&ouml;bius embedding in S&sup3; restricts the mode spectrum at large scales, breaks even-odd symmetry through the sign flip, and defines a preferred axis as the normal to the non-orientable surface. What has been called the &ldquo;axis of evil&rdquo; may be the universe revealing the geometry of its beginning.</p>
+
+    </div>
+
+    <div class="intro-image">
+      <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/CMB.webp/:/cr=t:0%25,l:0%25,w:100%25,h:100%25" alt="Radio telescope beneath the Milky Way">
+    </div>
+  </div>
+
+  <div class="result-box">
+    <div class="result-header">Three predictions</div>
+    <div class="result-row">
+      <span class="result-label">Suppression</span>
+      <span class="result-value">$\ell \sim 31$ &ensp;/&ensp; observed: $\ell \lesssim 30$</span>
+    </div>
+    <div class="result-divider"></div>
+    <div class="result-row">
+      <span class="result-label">Parity sign</span>
+      <span class="result-value">$R_{TT} < 1$ &ensp;/&ensp; observed: $R_{TT} \approx 0.81$</span>
+    </div>
+    <div class="result-divider"></div>
+    <div class="result-row">
+      <span class="result-label">Alignment</span>
+      <span class="result-value">$\sim\!13°$ &ensp;/&ensp; observed: $\sim\!10°$</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- I. THE ANOMALIES                        -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <h2>I. The Anomalies</h2>
+  <section>
+    <p>The cosmic microwave background provides a remarkably clean window into the early universe. Precision measurements from COBE, WMAP, and Planck have confirmed the standard cosmological model across a wide range of angular scales. Yet at the largest angles, multipoles $\ell < 30$, several unexpected features have persisted across all three missions.</p>
+
+    <p><strong>Low-$\ell$ suppression.</strong> The angular power spectrum shows less power at low $\ell$ than the best-fit &Lambda;CDM model predicts. The deficit below $\ell \lesssim 30$ has been documented since COBE and confirmed with increasing precision by each successor.</p>
+
+    <p><strong>Parity asymmetry.</strong> Odd-$\ell$ multipoles contain more power than even-$\ell$ multipoles at large scales. The Planck TT parity ratio $R_{TT}(30) \approx 0.81$, where unity indicates no preference, corresponding to a lower-tail probability of approximately 1%.</p>
+
+    <p><strong>Quadrupole-octupole alignment.</strong> The preferred axes of the quadrupole ($\ell = 2$) and octupole ($\ell = 3$) align to within approximately 10&deg;, an arrangement expected in only 1&ndash;3% of statistically isotropic realizations. This feature is sometimes called the &ldquo;axis of evil,&rdquo; as though the cosmos owed us uniformity.</p>
+
+    <p>Each anomaly is modest in isolation, typically 2&ndash;3&sigma;. Together, they suggest correlated large-angle structure that statistical isotropy does not anticipate. For two decades, each has been documented with increasing precision and labeled a fluke.</p>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- II. THE GEOMETRY                        -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <h2>II. The Geometry</h2>
+  <section>
+    <p>Mode Identity Theory proposes nested topology: temporal edge bounds the M&ouml;bius surface, embedded in the hypersphere venue.</p>
+
+    <div class="equation-block">
+      $$S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$$
+    </div>
+
+    <p>The hierarchy terminates at S&sup3; because &part;S&sup3; = &empty;. There is no boundary from which to observe further.</p>
+
+    <h3>Scale</h3>
+
+    <p>The comoving circumference of the fundamental domain is $L \approx 2.1$ Gpc. One lap around the belt brings you to the flip side; two laps bring you home. The transverse width of the M&ouml;bius surface follows from the embedding geometry:</p>
+
+    <div class="equation-block">
+      $$W = \frac{2L}{\pi} \approx 1.3 \; \text{Gpc}$$
+    </div>
+
+    <h3>The Eigenspectrum</h3>
+
+    <p>For scalar fields on the M&ouml;bius surface, Dirichlet boundary conditions at the strip edges (the boundary of the observable domain) set a minimum wavenumber. Modes below $k_\text{min}$ cannot fit inside the cavity.</p>
+
+    <div class="equation-block">
+      $$k_\text{min} = \frac{\pi}{W} = \frac{\pi^2}{2L}$$
+    </div>
+
+    <p>This is the geometric constraint that suppresses the low-$\ell$ spectrum. The non-orientable identification (one lap flips the sign: $\psi(y + L) = -\psi(y)$) breaks even-odd symmetry. The surface normal defines the preferred axis. Three features, one topology.</p>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- III. THREE PREDICTIONS                  -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <h2>III. Three Predictions</h2>
+  <section>
+    <p>The geometry of Section II implies specific features in the CMB power spectrum.</p>
+
+    <h3>A. Low-$\ell$ Suppression</h3>
+
+    <p>A bounded cavity has a minimum wavelength. The suppression multipole follows from the eigenspectrum and the comoving distance to last scattering $\chi_* \approx 14$ Gpc. The spherical Bessel function $j_\ell(k\chi_*)$ peaks near $k\chi_* \approx \ell + 1/2$:</p>
+
+    <div class="equation-block">
+      $$\ell_\text{cut} \approx k_\text{min} \cdot \chi_* - \tfrac{1}{2} = \frac{\pi^2}{2L} \cdot \chi_* - \tfrac{1}{2} \approx 31$$
+    </div>
+
+    <p>Observed: deficit below $\ell \lesssim 30$.</p>
+
+    <h3>B. Parity Asymmetry</h3>
+
+    <p>Non-orientable topology creates parity correlations without parity-violating microphysics. A signal traversing the identification picks up a sign flip from the twist, breaking even-odd symmetry. The COMPACT collaboration independently confirmed that non-orientable manifolds generically produce parity asymmetry of the observed sign.</p>
+
+    <p>Prediction: $R_{TT} < 1$ (odd preference). Observed: $R_{TT} \approx 0.81$.</p>
+
+    <h3>C. Quadrupole-Octupole Alignment</h3>
+
+    <p>Low-$\ell$ eigenmodes inherit the twist axis; intrinsically, they align perfectly. The BAO sound horizon $r_d \approx 150$ Mpc is the largest coherent structure scale. The observer&rsquo;s fractional displacement within the fundamental domain is:</p>
+
+    <div class="equation-block">
+      $$\Delta f = \frac{2r_d}{2L} = 0.071$$
+    </div>
+
+    <p>The anti-periodic sign flip maps fractional displacement to frame rotation:</p>
+
+    <div class="equation-block">
+      $$\Delta\theta = \pi \times 0.071 \approx 13^\circ$$
+    </div>
+
+    <p>Observed: ~10&deg;.</p>
+  </section>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- IV. ON MATCHED CIRCLES                  -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <h2>IV. On Matched Circles</h2>
+  <section>
+    <p>Standard searches for cosmic topology look for matched circles in the CMB sky. Planck found none above the noise threshold. This null result is consistent: MIT&rsquo;s identification is temporal ($t = 0$), not spatial. The CMB is not an image viewed through topology; it is the resonant pattern of the bounded domain.</p>
+
+    <p>We do not see through the boundary because the boundary is the beginning. The CMB is the oldest light, still carrying the shape of the cavity.</p>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- V. DISCUSSION                           -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <h2>V. Discussion</h2>
+  <section>
+    <h3>What Emerges from Geometry</h3>
+
+    <p><strong>Suppression scale.</strong> $W = 2L/\pi$ yields $\ell_\text{cut} \sim 31$, consistent with the observed low-$\ell$ power deficit.</p>
+
+    <p><strong>Parity preference.</strong> The non-orientable identification produces odd-$\ell$ preference ($R_{TT} < 1$), consistent with Planck and with the COMPACT collaboration&rsquo;s general result that non-orientable manifolds break parity without parity-violating microphysics.</p>
+
+    <p><strong>Preferred axis.</strong> The twist direction defines the axis; low-$\ell$ eigenmodes inherit it. The BAO-predicted displacement rotates the observed axis by ~13&deg;, consistent with the observed ~10&deg;.</p>
+
+    <p>These are not independent fits. They arise together from a topology whose parameters are set by independent considerations: the comoving circumference, spin-statistics, and mode structure.</p>
+
+    <h3>What Requires Further Work</h3>
+
+    <p><strong>Parity magnitude.</strong> The topology predicts the correct sign (odd preference). The quantitative coupling between displacement and parity ratio requires eigenmode computation on the M&ouml;bius surface.</p>
+
+    <p><strong>Axis sky direction.</strong> The topology defines an axis; it does not specify its orientation in galactic coordinates. Matching the observed sky direction would require an independent physical constraint.</p>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- VI. FALSIFICATION                       -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <h2>VI. Falsification</h2>
+  <section>
+    <p>This interpretation would be challenged if:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Prediction</th>
+          <th>Falsified if</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Suppression at $\ell \sim 31$</td>
+          <td>Onset at $\ell \ll 20$ or $\ell \gg 40$</td>
+        </tr>
+        <tr>
+          <td>Odd-$\ell$ preference</td>
+          <td>Even-$\ell$ preference observed</td>
+        </tr>
+        <tr>
+          <td>Quadrupole-octupole alignment</td>
+          <td>Axes orthogonal in refined measurements</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>CMB-S4 and LiteBIRD will sharpen these tests.</p>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- CLOSING                                 -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <section style="margin-top: 3.5rem; border-top: 1px solid var(--border); padding-top: 2.5rem;">
+    <p><strong>Three anomalies from one topology.</strong> For two decades, each has been documented with increasing precision and labeled a fluke; however, these are not accidents, but three projections of one structure: a nested, non-orientable topology whose eigenspectrum shapes the largest angles of the CMB sky.</p>
+
+    <p style="color: var(--accent); font-style: italic; margin-top: 1.5rem; font-size: 1.25rem;">Its axis not evil, the axis of light.</p>
+  </section>
+
+</div>
+
+</body>
+</html>
