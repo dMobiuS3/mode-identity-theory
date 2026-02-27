@@ -66,7 +66,7 @@ Every output traces the topology through a locked derivation chain. No hidden kn
 Two predictions separate this framework from alternatives:
 
 - **a₀(z) ∝ H(z)** while **Λ remains constant**
-- Phantom crossing at z ≈ 0.66 is inference artifact, not evolving vacuum energy
+- **Phantom crossing** at **z ≈ 0.66** is inference artifact, not evolving vacuum energy
 
 Falsification criteria are pre-registered: [Team Cosine (Euclid DR1)](https://doi.org/10.5281/zenodo.18189078)
 
