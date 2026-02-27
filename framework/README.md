@@ -476,22 +476,6 @@ Cosmological anomalies have been resolved and particle structure has been given 
 
 MIT has no loose knobs; discrepancies cannot be absorbed by parameter adjustment. The framework stands or falls on population-level agreement with locked predictions.
 
-### Numerical scorecard
-
-Blind outputs of the scaling law:
-
-| Observable | Predicted | Observed | Agreement |
-|---|---|---|---|
-| $\alpha$ | 0.00733 | 0.007297 | ~0.5% |
-| $a_0/(cH_0)$ | 0.184 | 0.183 | < 1% |
-| $H_0$ local shift | 8.4% | ~8.7% (67.4 → 73.2) | < 1% |
-| $\Lambda_{\text{obs}} \cdot \ell_P^2$ | $3.0 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~5% |
-| CMB suppression | $\ell \sim 31$ | $\ell < 30$ | ~ |
-| CMB parity | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | Yes |
-| CMB alignment | ~13 deg | ~10 deg | ~ |
-
-The framework also retrodicts three particle generations (three isolated vacua), massless bosons (edge-only propagation), and neutrino parity violation (non-orientability). These match known physics; they are structural consequences, checked against observation.
-
 ### Falsification hierarchy
 
 (1) Single-object disagreement: tension. (2) Multiple independent measurements: severe tension. (3) Statistical-sample exclusion at ≥ 2σ with controlled systematics: falsification.
