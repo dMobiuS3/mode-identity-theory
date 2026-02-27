@@ -1,8 +1,6 @@
 # The Framework
 
-Matter is wave, sampled. A single topological postulate produces one scaling law. It derives the constants of the universe: $\Lambda$, $H_0$, $a_0$, and $\alpha$ across 122 orders of magnitude. The topology determines boundary conditions, selects the cosmic wave $\Psi$, fixes the observer position $\sqrt{\Omega}$, and generates a discrete phase structure native to $S^3$.
-
-Five cosmological anomalies map one-to-one to five foundations. The framework produces the $3/2$ Gauss-Codazzi gravitational embedding interface. At the particle scale, the same topology confines gauge fields; three particle generations follow from three isolated vacua.
+Matter is wave, sampled. A single topological postulate produces one scaling law. It derives the constants of the universe: $\Lambda$, $H_0$, $a_0$, $\alpha$; and 24 fermion masses across 122 orders of magnitude. The topology determines boundary conditions, selects the cosmic wave $\Psi$, fixes the observer position $\sqrt{\Omega}$, and generates a discrete phase structure native to $S^3$.
 
 ## The Firing Order
 
@@ -114,7 +112,7 @@ The epoch offset $\delta \equiv t - 2\pi$ measures angular distance from turnaro
 |---|---|---|---|---|
 | $+1$ | 0 | 0 | Initial | 0 |
 | $0$ | 30 | $\pi$ (3.14) | First crossing | 8.3 |
-| $-0.86$ | ~50 | $2\pi + \delta$ (5.22) | Present | 13.8 |
+| $-0.86$ | *~50* | $2\pi + \delta$ (5.22) | *Present* | *13.8* |
 | $-1$ | 60 | $2\pi$ (6.28) | Turnaround | 16.6 |
 | $0$ | 90 | $3\pi$ (9.42) | Second crossing | 24.9 |
 | $+1$ | 120 | $4\pi$ (12.57) | Completion | 33 |
@@ -406,13 +404,13 @@ Every distance ladder calibrated from inside the Milky Way has been phase shifte
 
 ## The Scaling Law
 
-The framework reduces to one equation:
+**The framework reduces to one equation:**
 
 $$\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}$$
 
 $C(\Theta)$ reads the position axis: where the observable sits on the mode spectrum. $(\sqrt{\Omega})^{-n}$ reads the time axis through $\Omega_H$ for edge modes, or the boundary condition through $\Omega_\Lambda$ for surface modes. The observer at $\sqrt{\Omega}$ is the structural midpoint where both axes resolve to finite values. Their product yields $A/A_P$: the modal realization; the ratio of the observable amplitude over its Planck scale reference. 
 
-**The event occurs at $(t, \Theta)$.**
+**The sample occurs at $(t, \Theta)$.**
 
 ### The assembled engine
 
