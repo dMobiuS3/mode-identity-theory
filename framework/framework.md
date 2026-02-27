@@ -18,7 +18,17 @@ Five cosmological anomalies map one-to-one to five foundations. The framework pr
 
 Mode Identity Theory is built upon a specific order of operation. Each step depends on the one before, and nothing later in the sequence exists independently from what came prior:
 
-Topology sets what is possible → Embedding defines the structure → The Cosmic Wave expresses the boundary → Time is phase of the wave → Sampling resolves position in the domain → Meaning arises only after realization
+Topology sets what is possible → 
+
+Embedding defines the structure → 
+
+The Cosmic Wave expresses the boundary → 
+
+Time is phase of the wave → 
+
+Sampling resolves position in the domain → 
+
+Meaning arises only after realization
 
 ## The Nested Topology
 
@@ -465,22 +475,6 @@ Cosmological anomalies have been resolved and particle structure has been given 
 ## Predictions and Falsification
 
 MIT has no loose knobs; discrepancies cannot be absorbed by parameter adjustment. The framework stands or falls on population-level agreement with locked predictions.
-
-### Numerical scorecard
-
-Blind outputs of the scaling law:
-
-| Observable | Predicted | Observed | Agreement |
-|---|---|---|---|
-| $\alpha$ | 0.00733 | 0.007297 | ~0.5% |
-| $a_0/(cH_0)$ | 0.184 | 0.183 | < 1% |
-| $H_0$ local shift | 8.4% | ~8.7% (67.4 → 73.2) | < 1% |
-| $\Lambda_{\text{obs}} \cdot \ell_P^2$ | $3.0 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~5% |
-| CMB suppression | $\ell \sim 31$ | $\ell < 30$ | ~ |
-| CMB parity | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
-| CMB alignment | ~13° | ~10° | ~ |
-
-The framework also retrodicts three particle generations (three isolated vacua), massless bosons (edge-only propagation), and neutrino parity violation (non-orientability). These match known physics; they are structural consequences, checked against observation.
 
 ### Falsification hierarchy
 
