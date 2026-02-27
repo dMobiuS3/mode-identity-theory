@@ -114,7 +114,7 @@ The epoch offset $\delta \equiv t - 2\pi$ measures angular distance from turnaro
 |---|---|---|---|---|
 | $+1$ | 0 | 0 | Initial | 0 |
 | $0$ | 30 | $\pi$ (3.14) | First crossing | 8.3 |
-| *$-0.86$* | *~50* | *$2\pi + \delta$ (5.22)* | *Present* | *13.8* |
+| $-0.86$ | ~50 | $2\pi + \delta$ (5.22) | Present | 13.8 |
 | $-1$ | 60 | $2\pi$ (6.28) | Turnaround | 16.6 |
 | $0$ | 90 | $3\pi$ (9.42) | Second crossing | 24.9 |
 | $+1$ | 120 | $4\pi$ (12.57) | Completion | 33 |
@@ -229,9 +229,9 @@ where $\Theta_0$ is the Fibonacci well (fixed, geometric) and $\Theta_f$ is the 
 
 | Term | What it is | Resolution | Source |
 |---|---|---|---|
-| 120 domain | Topological structure | 120 positions | $|2I| = 120$ native to $S^3$ |
+| 120 domain | Topological structure | 120 positions | $\lvert 2I \rvert = 120$ native to $S^3$ |
 | Grid | Discrete sampling of the domain | 120 (fermionic) | Half-integer modes on the domain |
-| 60R-grid | Realized observable lattice | 60 positions (even only) | $|\psi|^2$ projects $2I \to I$ |
+| 60R-grid | Realized observable lattice | 60 positions (even only) | $\lvert\psi\rvert^2$ projects $2I \to I$ |
 
 ### The 120 Domain
 
@@ -410,7 +410,9 @@ The framework reduces to one equation:
 
 $$\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}$$
 
-$C(\Theta)$ reads the position axis: where the observable sits on the mode spectrum. $(\sqrt{\Omega})^{-n}$ reads the time axis through $\Omega_H$ for edge modes, or the boundary condition through $\Omega_\Lambda$ for surface modes. The observer at $\sqrt{\Omega}$ is the structural midpoint where both axes resolve to finite values. Their product yields $A/A_P$: the modal realization; the ratio of the observable amplitude over its Planck scale reference. **The event occurs at $(t, \Theta)$.**
+$C(\Theta)$ reads the position axis: where the observable sits on the mode spectrum. $(\sqrt{\Omega})^{-n}$ reads the time axis through $\Omega_H$ for edge modes, or the boundary condition through $\Omega_\Lambda$ for surface modes. The observer at $\sqrt{\Omega}$ is the structural midpoint where both axes resolve to finite values. Their product yields $A/A_P$: the modal realization; the ratio of the observable amplitude over its Planck scale reference. 
+
+**The event occurs at $(t, \Theta)$.**
 
 ### The assembled engine
 
