@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="refresh" content="0; url=framework/">
+</head>
+</html>
 # Mode Identity Theory
 
 **One postulate. Everything else derives.**
