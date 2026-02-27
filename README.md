@@ -20,7 +20,7 @@ Everything here traces to one topological postulate. The temporal edge S¹ bound
 
 $$A/A_P \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}$$
 
-It derives the constants of the universe across 122 orders of magnitude with zero free parameters.
+It derives the constants of the universe across 122 orders of magnitude with zero free parameters. Topology holds. Wave is. Particle samples.
 
 ---
 
@@ -70,7 +70,9 @@ Two predictions separate this framework from alternatives:
 
 Falsification criteria are pre-registered: [Team Cosine (Euclid DR1)](https://doi.org/10.5281/zenodo.18189078)
 
-**October 21, 2026.**
+**Judgment Day: October 21, 2026.**
+
+Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.
 
 ---
 
