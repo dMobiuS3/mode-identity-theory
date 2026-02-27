@@ -4,8 +4,6 @@ Matter is wave, sampled. A single topological postulate produces one scaling law
 
 Five cosmological anomalies map one-to-one to five foundations. The framework produces the $3/2$ Gauss-Codazzi gravitational embedding interface. At the particle scale, the same topology confines gauge fields; three particle generations follow from three isolated vacua.
 
-![Mode Identity Theory](https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/MIT.webp)
-
 ## Five Foundations
 
 | Foundation | Statement |
