@@ -2,15 +2,37 @@
 
 Five foundations of Mode Identity Theory map to five cosmological anomalies that standard physics catalogs separately. Each paper takes one anomaly and shows how its foundation resolves it. The topology produces the structure; the scaling law produces the result.
 
-**Wave-matter identity.** The equation $\lambda = h/p$ does not say matter behaves like a wave; it says the wavelength of matter is $h/p$. De Broglie knew this by 1923 and called it "the phase-wave." Matter IS wave. [Early Galaxies](early-galaxies.md): $a_0(z) \propto H(z)$, acceleration scale evolves with epoch. [DOI](https://doi.org/10.5281/zenodo.18072995)
+---
 
-**Surface origin.** Time is the edge of the Mobius surface; the edge exists because the surface has a boundary, and the standing wave lives on the edge. There is no singularity. [Cosmological Constant](cosmological-constant.md): Λ is the ground mode of the Mobius surface, converted at 3/2. [DOI](https://doi.org/10.5281/zenodo.18307314)
+[Early Galaxies](early-galaxies.md)
 
-**Non-orientable topology.** A field completing one lap returns with opposite sign. The Mobius strip is the simplest shape with a boundary that does this. Everything derived traces to and from the flip. [CMB Anomalies](cmb-anomalies.md): sign flip breaks parity, surface normal aligns quadrupole-octupole. [DOI](https://doi.org/10.5281/zenodo.18092169)
+**Wave-matter identity.** The equation $\lambda = h/p$ does not say matter behaves like a wave; it says the wavelength of matter is $h/p$. De Broglie knew this by 1923 and called it "the phase-wave." Matter IS wave. [DOI](https://doi.org/10.5281/zenodo.18072995)
 
-**Bounded evaluation.** The observer sits at the geometric mean $\sqrt{\Omega} \approx 10^{61}$ where $\infty/0$ has structure at the limits. [Hubble Tension](hubble-tension.md): phase field shifts $H_0$ by 8.4%, 67.4 becomes 73. [DOI](https://doi.org/10.5281/zenodo.18363693)
+---
 
-**Embedded sampling.** Nested topology dilutes a mode's intensity with scale. Epoch-dependent observables live on the edge, epoch-independent observables live on the surface, and gravity embeds them together. [Dark Energy Equation](dark-energy-equation.md): constant Λ with evolving $w_{\text{eff}}$, phantom-crossing without phantom fields. [DOI](https://doi.org/10.5281/zenodo.18081581)
+[Cosmological Constant](cosmological-constant.md)
+
+**Surface origin.** Time is the edge of the Mobius surface; the edge exists because the surface has a boundary, and the standing wave lives on the edge. There is no singularity. [DOI](https://doi.org/10.5281/zenodo.18307314)
+
+---
+
+[CMB Anomalies](cmb-anomalies.md)
+
+**Non-orientable topology.** A field completing one lap returns with opposite sign. The Mobius strip is the simplest shape with a boundary that does this. Everything derived traces to and from the flip. [DOI](https://doi.org/10.5281/zenodo.18092169)
+
+---
+
+[Hubble Tension](hubble-tension.md)
+
+**Bounded evaluation.** The observer sits at the geometric mean $\sqrt{\Omega} \approx 10^{61}$ where $\infty/0$ has structure at the limits. [DOI](https://doi.org/10.5281/zenodo.18363693)
+
+---
+
+[Dark Energy Equation](dark-energy-equation.md)
+
+**Embedded sampling.** Nested topology dilutes a mode's intensity with scale. Epoch-dependent observables live on the edge, epoch-independent observables live on the surface, and gravity embeds them together. [DOI](https://doi.org/10.5281/zenodo.18081581)
+
+---
 
 ### Cosmological Scorecard
 
