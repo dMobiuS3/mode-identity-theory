@@ -24,15 +24,15 @@ The constants of the universe follow across 122 orders of magnitude, and fermion
 
 | Folder | Contents |
 |---|---|
-| [`framework/`](framework/) | The instrument. Core derivation from topology to scaling law. |
-| [`cosmos/`](cosmos/) | Boundary outward. Five foundations produce five anomalies, one-to-one. |
-| [`spectrum/`](spectrum/) | Boundary inward. Confinement, fine structure, gravity, and 24 mass predictions. |
+| [`framework/`](framework/) | Core derivation from topology to scaling law. |
+| [`cosmos/`](cosmos/) | Five foundations resolve five cosmological anomalies, one-to-one. |
+| [`spectrum/`](spectrum/) | The same boundary produces confinement, fine structure, gravity, and 24 mass predictions. |
 
 ---
 
 ## Tools
 
-Run the postulate, trace the derivation, compute the outputs. Every link between topology and observable is live. The code is the math.
+Every link between topology and observable is live. The code is the math. There are no hidden knobs.
 
 **[Visualize the Postulate](https://dmobius3.github.io/mode-identity-theory/tools/postulate.html)**
 
