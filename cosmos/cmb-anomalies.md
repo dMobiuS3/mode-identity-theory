@@ -6,7 +6,7 @@ Three large-angle CMB features have persisted across COBE, WMAP, and Planck with
 
 | Feature | Predicted | Observed |
 |---|---|---|
-| Suppression | $\ell \sim 31$ | $\ell \lesssim 30$ |
+| Boundary | $\ell \sim 31$ | $\ell \lesssim 30$ |
 | Parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ |
 | Alignment | $\sim 13^\circ$ | $\sim 10^\circ$ |
 
@@ -14,7 +14,7 @@ Three large-angle CMB features have persisted across COBE, WMAP, and Planck with
 
 The cosmic microwave background provides a remarkably clean window into the early universe. Precision measurements from COBE, WMAP, and Planck have confirmed the standard cosmological model across a wide range of angular scales. Yet at the largest angles, multipoles $\ell < 30$, several unexpected features have persisted across all three missions.
 
-**Low-ℓ suppression.** The angular power spectrum shows less power at low ℓ than the best-fit ΛCDM model predicts. The deficit below $\ell \lesssim 30$ has been documented since COBE and confirmed with increasing precision by each successor.
+**Low-ℓ Boundary.** The angular power spectrum shows less power at low ℓ than the best-fit ΛCDM model predicts. The deficit below $\ell \lesssim 30$ has been documented since COBE and confirmed with increasing precision by each successor.
 
 **Parity asymmetry.** Odd-ℓ multipoles contain more power than even-ℓ multipoles at large scales. The Planck TT parity ratio $R_{TT}(30) \approx 0.81$, where unity indicates no preference, corresponding to a lower-tail probability of approximately 1%.
 
@@ -42,15 +42,15 @@ For scalar fields on the Möbius surface, Dirichlet boundary conditions at the s
 
 $$k_\text{min} = \frac{\pi}{W} = \frac{\pi^2}{2L}$$
 
-This is the geometric constraint that suppresses the low-ℓ spectrum. The non-orientable identification (one lap flips the sign: $\psi(y + L) = -\psi(y)$) breaks even-odd symmetry. The surface normal defines the preferred axis. Three features, one topology.
+This is the geometric constraint that bounds the low-ℓ spectrum. The non-orientable identification (one lap flips the sign: $\psi(y + L) = -\psi(y)$) breaks even-odd symmetry. The surface normal defines the preferred axis. Three features, one topology.
 
 ## III. Three Predictions
 
 The geometry of Section II implies specific features in the CMB power spectrum.
 
-### A. Low-ℓ Suppression
+### A. Low-ℓ Boundary
 
-A bounded cavity has a minimum wavelength. The suppression multipole follows from the eigenspectrum and the comoving distance to last scattering $\chi_\ast \approx 14$ Gpc. The spherical Bessel function $j_\ell(k\chi_\ast)$ peaks near $k\chi_\ast \approx \ell + 1/2$:
+A bounded cavity has a minimum wavelength. The boundary multipole follows from the eigenspectrum and the comoving distance to last scattering $\chi_\ast \approx 14$ Gpc. The spherical Bessel function $j_\ell(k\chi_\ast)$ peaks near $k\chi_\ast \approx \ell + 1/2$:
 
 $$\ell_\text{cut} \approx k_\text{min} \cdot \chi_\ast - \tfrac{1}{2} = \frac{\pi^2}{2L} \cdot \chi_\ast - \tfrac{1}{2} \approx 31$$
 
@@ -84,7 +84,7 @@ We do not see through the boundary because the boundary is the beginning. The CM
 
 ### What Emerges from Geometry
 
-**Suppression scale.** $W = 2L/\pi$ yields $\ell_\text{cut} \sim 31$, consistent with the observed low-ℓ power deficit.
+**Boundary scale.** $W = 2L/\pi$ yields $\ell_\text{cut} \sim 31$, consistent with the observed low-ℓ power deficit.
 
 **Parity preference.** The non-orientable identification produces odd-ℓ preference ($R_{TT} < 1$), consistent with Planck and with the COMPACT collaboration's general result that non-orientable manifolds break parity without parity-violating microphysics.
 
@@ -104,7 +104,7 @@ This interpretation would be challenged if:
 
 | Prediction | Falsified if |
 |---|---|
-| Suppression at $\ell \sim 31$ | Onset at $\ell \ll 20$ or $\ell \gg 40$ |
+| Boundary at $\ell \sim 31$ | Onset at $\ell \ll 20$ or $\ell \gg 40$ |
 | Odd-ℓ preference | Even-ℓ preference observed |
 | Quadrupole-octupole alignment | Axes orthogonal in refined measurements |
 
