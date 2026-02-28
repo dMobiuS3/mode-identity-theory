@@ -46,13 +46,13 @@ Blind outputs of a fixed structure, checked against observation:
 
 Run the scaling law and the mass formula yourself. Every output traces the topology through a locked derivation chain. No hidden knobs. No fitting. The code is the math.
 
-**[Interactive Calculator](https://dmobius3.github.io/mode-identity-theory/calculator.html)**
+**[Interactive Calculator](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
 
 ## Falsification
 
 Two predictions separate this framework from alternatives: $a_0(z) \propto H(z)$ while Λ remains constant, and phantom crossing at $z \approx 0.66$ is inference artifact, not evolving vacuum energy. Falsification criteria are pre-registered.
 
-**[Team Cosine: Euclid DR1 Predictions](https://dmobius3.github.io/mode-identity-theory/euclid-dr1.html)**
+**[Team Cosine: Euclid DR1 Predictions](https://dmobius3.github.io/mode-identity-theory/tools/euclid-dr1.html)**
 
 **Judgment Day: October 21, 2026.**
 
