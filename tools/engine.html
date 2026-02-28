@@ -22,8 +22,8 @@
     /* ── HEADER ── */
     .header { padding: 40px 24px 24px; text-align: center; position: relative; }
     .header::after { content: ''; display: block; width: 1px; height: 32px; background: linear-gradient(to bottom, var(--accent), transparent); margin: 20px auto 0; }
-    .header h1 { font-family: var(--serif); font-size: 36px; font-weight: 300; letter-spacing: 4px; color: #e0eaf0; }
-    .header .sub { font-size: 11px; color: var(--dim); letter-spacing: 3px; margin-top: 8px; text-transform: uppercase; }
+    .header h1 { font-family: var(--serif); font-size: 44px; font-weight: 300; letter-spacing: 4px; color: #e0eaf0; }
+    .header .sub { font-size: 13px; color: var(--dim); letter-spacing: 3px; margin-top: 8px; text-transform: uppercase; }
 
     /* ── FLOW CONTAINER ── */
     .flow { max-width: 780px; margin: 0 auto; padding: 0 20px 60px; position: relative; }
@@ -45,15 +45,15 @@
     .node:hover { border-color: rgba(110,193,228,0.3); background: rgba(110,193,228,0.04); transform: translateY(-1px); }
 
     .node-label {
-      font-size: 9px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+      font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
       color: var(--accent); margin-bottom: 8px; opacity: 0.7;
     }
     .node-math {
-      font-family: var(--serif); font-size: 22px; font-weight: 400;
+      font-family: var(--serif); font-size: 26px; font-weight: 400;
       color: #e8f0f4; letter-spacing: 0.5px; line-height: 1.4;
     }
-    .node-math .small { font-size: 16px; color: var(--text); }
-    .node-body { font-size: 12px; color: var(--dim); line-height: 1.65; margin-top: 8px; }
+    .node-math .small { font-size: 20px; color: var(--text); }
+    .node-body { font-size: 14px; color: var(--dim); line-height: 1.65; margin-top: 8px; }
 
     /* ── CONNECTOR DOT ── */
     .dot {
@@ -75,7 +75,7 @@
       background: rgba(110,193,228,0.06); border: 1px solid rgba(110,193,228,0.2);
       border-radius: 10px; max-width: 520px; margin: 0 auto 8px;
     }
-    .postulate .node-math { font-size: 26px; }
+    .postulate .node-math { font-size: 30px; }
 
     /* ── SCALING LAW (special) ── */
     .scaling-law {
@@ -84,9 +84,9 @@
       border: 1px solid rgba(110,193,228,0.25); border-radius: 10px;
       max-width: 560px; margin: 0 auto 8px;
     }
-    .scaling-law .node-math { font-size: 28px; letter-spacing: 1px; }
+    .scaling-law .node-math { font-size: 32px; letter-spacing: 1px; }
     .scaling-law .annotation {
-      font-family: var(--serif); font-style: italic; font-size: 15px;
+      font-family: var(--serif); font-style: italic; font-size: 18px;
       color: var(--dimmer); margin-top: 10px; letter-spacing: 0.5px;
     }
 
@@ -115,20 +115,20 @@
       transition: border-color 0.3s, transform 0.2s;
     }
     .real-card:hover { border-color: rgba(110,193,228,0.25); transform: translateY(-1px); }
-    .real-card .obs { font-family: var(--serif); font-size: 20px; font-weight: 500; letter-spacing: 1px; }
+    .real-card .obs { font-family: var(--serif); font-size: 24px; font-weight: 500; letter-spacing: 1px; }
     .real-card .obs.c-red { color: var(--red); }
     .real-card .obs.c-blue { color: var(--accent); }
     .real-card .obs.c-gold { color: var(--gold); }
     .real-card .obs.c-purple { color: var(--purple); }
-    .real-card .params { font-size: 11px; color: var(--dim); margin-top: 6px; line-height: 1.6; }
-    .real-card .result { font-size: 13px; color: var(--green); margin-top: 6px; font-weight: 500; }
+    .real-card .params { font-size: 13px; color: var(--dim); margin-top: 6px; line-height: 1.6; }
+    .real-card .result { font-size: 15px; color: var(--green); margin-top: 6px; font-weight: 500; }
 
     /* ── CONSEQUENCE CARDS ── */
     .conseq {
       padding: 16px 20px; border-radius: 8px; max-width: 520px; margin: 0 auto 8px;
       background: rgba(255,255,255,0.02); border: 1px solid rgba(120,160,200,0.1);
     }
-    .conseq .title { font-family: var(--serif); font-size: 16px; color: #d0dce6; margin-bottom: 6px; }
+    .conseq .title { font-family: var(--serif); font-size: 19px; color: #d0dce6; margin-bottom: 6px; }
 
     /* ── FOOTER INSCRIPTION ── */
     .inscription {
@@ -136,11 +136,11 @@
       border-top: 1px solid rgba(110,193,228,0.1);
     }
     .inscription p {
-      font-family: var(--serif); font-size: 16px; font-style: italic;
+      font-family: var(--serif); font-size: 19px; font-style: italic;
       color: var(--dimmer); letter-spacing: 0.5px; line-height: 1.8;
     }
     .inscription .closing {
-      font-size: 14px; color: rgba(180,200,220,0.3); margin-top: 16px; letter-spacing: 2px;
+      font-size: 17px; color: rgba(180,200,220,0.3); margin-top: 16px; letter-spacing: 2px;
     }
 
     /* ── FADE-IN ANIMATION ── */
@@ -187,11 +187,11 @@
     .branch-grid .node, .real-grid .real-card, .two-grid .node { animation: fadeUp 0.5s ease forwards; }
 
     /* ── TABLE inside nodes ── */
-    .node table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 11px; }
-    .node th { text-align: left; padding: 4px 6px; color: var(--dim); font-size: 9px; letter-spacing: 0.8px; text-transform: uppercase; border-bottom: 1px solid rgba(120,160,200,0.12); font-weight: 500; }
+    .node table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 13px; }
+    .node th { text-align: left; padding: 4px 6px; color: var(--dim); font-size: 11px; letter-spacing: 0.8px; text-transform: uppercase; border-bottom: 1px solid rgba(120,160,200,0.12); font-weight: 500; }
     .node td { padding: 4px 6px; border-bottom: 1px solid rgba(120,160,200,0.06); }
 
-    .tag { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 9px; font-weight: 600; letter-spacing: 0.5px; margin-right: 4px; }
+    .tag { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 11px; font-weight: 600; letter-spacing: 0.5px; margin-right: 4px; }
     .tag-blue { background: rgba(110,193,228,0.15); color: var(--accent); }
     .tag-gold { background: rgba(240,192,64,0.15); color: var(--gold); }
     .tag-green { background: rgba(139,196,160,0.15); color: var(--green); }
@@ -200,13 +200,13 @@
     sub { font-size: 0.65em; vertical-align: sub; }
 
     @media (max-width: 600px) {
-      .header h1 { font-size: 24px; letter-spacing: 2px; }
+      .header h1 { font-size: 30px; letter-spacing: 2px; }
       .branch-grid { grid-template-columns: 1fr; max-width: 520px; }
       .real-grid { grid-template-columns: 1fr; }
       .two-grid { grid-template-columns: 1fr; }
-      .postulate .node-math { font-size: 20px; }
-      .scaling-law .node-math { font-size: 22px; }
-      .node-math { font-size: 18px; }
+      .postulate .node-math { font-size: 24px; }
+      .scaling-law .node-math { font-size: 26px; }
+      .node-math { font-size: 22px; }
       .flow::before { left: 20px; }
     }
   </style>
@@ -252,7 +252,7 @@
         Native to S<sup>3</sup> ≅ SU(2)<br>
         Domain: 120 positions<br>
         Hurwitz → <span style="color:var(--gold)">Fibonacci wells</span><br>
-        <span style="font-size:10px">{13, 21, 34, 55, 60}/120</span>
+        <span style="font-size:12px">{13, 21, 34, 55, 60}/120</span>
       </div>
     </div>
 
@@ -265,7 +265,7 @@
         IR↔UV: x ↦ Ω/x<br>
         Fixed point: x = √Ω<br>
         <span style="color:var(--accent)">√Ω ≈ 10<sup>61</sup></span>
-        <span style="font-size:10px;color:var(--dimmer)">The observer</span>
+        <span style="font-size:12px;color:var(--dimmer)">The observer</span>
       </div>
     </div>
   </div>
@@ -382,7 +382,7 @@
       <div class="node-body">
         L<sub>f</sub> = v<sub>c</sub><sup>2</sup>/a<sub>0</sub> ≈ 13 kpc<br>
         <span style="color:var(--green)">H<sub>0</sub> shifts 8.4%</span><br>
-        <span style="font-size:10px">67.4 × 1.084 ≈ 73 km/s/Mpc</span>
+        <span style="font-size:12px">67.4 × 1.084 ≈ 73 km/s/Mpc</span>
       </div>
     </div>
     <div class="node">
@@ -400,8 +400,7 @@
 
   <!-- ═══ INSCRIPTION ═══ -->
   <div class="inscription">
-    <p>Topology sets what is possible.<br>The wave expresses the boundary.<br>Sampling resolves the domain.</p>
-    <div class="closing"><em>The identity is the wave Ψ</em></div>
+    <p>Topology holds.<br>Wave is.<br>Particle samples.</p>
   </div>
 
 </div>
