@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mode Identity Theory | The Engine</title>
+  <meta name="description" content="The complete derivation engine of Mode Identity Theory. One postulate, zero free parameters.">
+  <meta name="author" content="Blake Shatto, P.E.">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0a0e14; --bg2: #0d1520; --text: #c8dce8;
+      --dim: rgba(180,200,220,0.55); --dimmer: rgba(180,200,220,0.35);
+      --line: rgba(120,160,200,0.12); --accent: #6ec1e4;
+      --green: #8bc4a0; --gold: #f0c040; --red: #e07050; --purple: #c090e0;
+      --serif: 'Cormorant Garamond', Georgia, serif;
+      --mono: 'IBM Plex Mono', monospace;
+    }
+    body { background: var(--bg); color: var(--text); font-family: var(--mono); min-height: 100vh; overflow-x: hidden; }
+
+    /* ── HEADER ── */
+    .header { padding: 40px 24px 24px; text-align: center; position: relative; }
+    .header::after { content: ''; display: block; width: 1px; height: 32px; background: linear-gradient(to bottom, var(--accent), transparent); margin: 20px auto 0; }
+    .header h1 { font-family: var(--serif); font-size: 36px; font-weight: 300; letter-spacing: 4px; color: #e0eaf0; }
+    .header .sub { font-size: 11px; color: var(--dim); letter-spacing: 3px; margin-top: 8px; text-transform: uppercase; }
+
+    /* ── FLOW CONTAINER ── */
+    .flow { max-width: 780px; margin: 0 auto; padding: 0 20px 60px; position: relative; }
+
+    /* ── VERTICAL SPINE ── */
+    .flow::before {
+      content: ''; position: absolute; left: 50%; top: 0; bottom: 60px;
+      width: 1px; background: linear-gradient(to bottom, var(--accent), rgba(110,193,228,0.3) 20%, rgba(110,193,228,0.15) 60%, rgba(110,193,228,0.06));
+      transform: translateX(-50%);
+    }
+
+    /* ── NODE STYLES ── */
+    .node {
+      position: relative; margin: 0 auto 8px; padding: 20px 24px;
+      background: rgba(255,255,255,0.025); border: 1px solid var(--line);
+      border-radius: 8px; max-width: 520px;
+      transition: border-color 0.3s, background 0.3s, transform 0.2s;
+    }
+    .node:hover { border-color: rgba(110,193,228,0.3); background: rgba(110,193,228,0.04); transform: translateY(-1px); }
+
+    .node-label {
+      font-size: 9px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+      color: var(--accent); margin-bottom: 8px; opacity: 0.7;
+    }
+    .node-math {
+      font-family: var(--serif); font-size: 22px; font-weight: 400;
+      color: #e8f0f4; letter-spacing: 0.5px; line-height: 1.4;
+    }
+    .node-math .small { font-size: 16px; color: var(--text); }
+    .node-body { font-size: 12px; color: var(--dim); line-height: 1.65; margin-top: 8px; }
+
+    /* ── CONNECTOR DOT ── */
+    .dot {
+      display: block; width: 7px; height: 7px; border-radius: 50%;
+      background: var(--accent); margin: 0 auto; position: relative; z-index: 2;
+      box-shadow: 0 0 8px rgba(110,193,228,0.4);
+    }
+    .dot.gold { background: var(--gold); box-shadow: 0 0 8px rgba(240,192,64,0.4); }
+    .dot.green { background: var(--green); box-shadow: 0 0 8px rgba(139,196,160,0.4); }
+    .dot.red { background: var(--red); box-shadow: 0 0 8px rgba(224,112,80,0.3); }
+    .dot.purple { background: var(--purple); box-shadow: 0 0 8px rgba(192,144,224,0.3); }
+
+    .spacer { height: 16px; }
+    .spacer-sm { height: 8px; }
+
+    /* ── POSTULATE (special) ── */
+    .postulate {
+      text-align: center; padding: 28px 32px;
+      background: rgba(110,193,228,0.06); border: 1px solid rgba(110,193,228,0.2);
+      border-radius: 10px; max-width: 520px; margin: 0 auto 8px;
+    }
+    .postulate .node-math { font-size: 26px; }
+
+    /* ── SCALING LAW (special) ── */
+    .scaling-law {
+      text-align: center; padding: 28px 32px;
+      background: linear-gradient(135deg, rgba(110,193,228,0.08) 0%, rgba(192,144,224,0.06) 100%);
+      border: 1px solid rgba(110,193,228,0.25); border-radius: 10px;
+      max-width: 560px; margin: 0 auto 8px;
+    }
+    .scaling-law .node-math { font-size: 28px; letter-spacing: 1px; }
+    .scaling-law .annotation {
+      font-family: var(--serif); font-style: italic; font-size: 15px;
+      color: var(--dimmer); margin-top: 10px; letter-spacing: 0.5px;
+    }
+
+    /* ── BRANCH GRID (three columns) ── */
+    .branch-grid {
+      display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px;
+      max-width: 720px; margin: 0 auto 8px; position: relative;
+    }
+    .branch-grid .node { max-width: none; margin: 0; }
+
+    /* ── TWO-COL GRID ── */
+    .two-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
+      max-width: 600px; margin: 0 auto 8px; position: relative;
+    }
+    .two-grid .node { max-width: none; margin: 0; }
+
+    /* ── REALIZATION CARDS ── */
+    .real-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
+      max-width: 600px; margin: 0 auto 8px;
+    }
+    .real-card {
+      padding: 16px 18px; border-radius: 8px;
+      background: rgba(255,255,255,0.02); border: 1px solid var(--line);
+      transition: border-color 0.3s, transform 0.2s;
+    }
+    .real-card:hover { border-color: rgba(110,193,228,0.25); transform: translateY(-1px); }
+    .real-card .obs { font-family: var(--serif); font-size: 20px; font-weight: 500; letter-spacing: 1px; }
+    .real-card .obs.c-red { color: var(--red); }
+    .real-card .obs.c-blue { color: var(--accent); }
+    .real-card .obs.c-gold { color: var(--gold); }
+    .real-card .obs.c-purple { color: var(--purple); }
+    .real-card .params { font-size: 11px; color: var(--dim); margin-top: 6px; line-height: 1.6; }
+    .real-card .result { font-size: 13px; color: var(--green); margin-top: 6px; font-weight: 500; }
+
+    /* ── CONSEQUENCE CARDS ── */
+    .conseq {
+      padding: 16px 20px; border-radius: 8px; max-width: 520px; margin: 0 auto 8px;
+      background: rgba(255,255,255,0.02); border: 1px solid rgba(120,160,200,0.1);
+    }
+    .conseq .title { font-family: var(--serif); font-size: 16px; color: #d0dce6; margin-bottom: 6px; }
+
+    /* ── FOOTER INSCRIPTION ── */
+    .inscription {
+      text-align: center; max-width: 560px; margin: 32px auto 0; padding: 24px 20px;
+      border-top: 1px solid rgba(110,193,228,0.1);
+    }
+    .inscription p {
+      font-family: var(--serif); font-size: 16px; font-style: italic;
+      color: var(--dimmer); letter-spacing: 0.5px; line-height: 1.8;
+    }
+    .inscription .closing {
+      font-size: 14px; color: rgba(180,200,220,0.3); margin-top: 16px; letter-spacing: 2px;
+    }
+
+    /* ── FADE-IN ANIMATION ── */
+    .node, .postulate, .scaling-law, .real-card, .conseq, .branch-grid .node {
+      opacity: 0; transform: translateY(12px);
+      animation: fadeUp 0.5s ease forwards;
+    }
+    @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+
+    /* stagger */
+    .flow > *:nth-child(1)  { animation-delay: 0.05s; }
+    .flow > *:nth-child(2)  { animation-delay: 0.1s; }
+    .flow > *:nth-child(3)  { animation-delay: 0.15s; }
+    .flow > *:nth-child(4)  { animation-delay: 0.2s; }
+    .flow > *:nth-child(5)  { animation-delay: 0.25s; }
+    .flow > *:nth-child(6)  { animation-delay: 0.3s; }
+    .flow > *:nth-child(7)  { animation-delay: 0.35s; }
+    .flow > *:nth-child(8)  { animation-delay: 0.4s; }
+    .flow > *:nth-child(9)  { animation-delay: 0.45s; }
+    .flow > *:nth-child(10) { animation-delay: 0.5s; }
+    .flow > *:nth-child(11) { animation-delay: 0.55s; }
+    .flow > *:nth-child(12) { animation-delay: 0.6s; }
+    .flow > *:nth-child(13) { animation-delay: 0.65s; }
+    .flow > *:nth-child(14) { animation-delay: 0.7s; }
+    .flow > *:nth-child(15) { animation-delay: 0.75s; }
+    .flow > *:nth-child(16) { animation-delay: 0.8s; }
+    .flow > *:nth-child(17) { animation-delay: 0.85s; }
+    .flow > *:nth-child(18) { animation-delay: 0.9s; }
+    .flow > *:nth-child(19) { animation-delay: 0.95s; }
+    .flow > *:nth-child(20) { animation-delay: 1.0s; }
+    .flow > *:nth-child(21) { animation-delay: 1.05s; }
+    .flow > *:nth-child(22) { animation-delay: 1.1s; }
+    .flow > *:nth-child(23) { animation-delay: 1.15s; }
+    .flow > *:nth-child(24) { animation-delay: 1.2s; }
+    .flow > *:nth-child(25) { animation-delay: 1.25s; }
+    .flow > *:nth-child(26) { animation-delay: 1.3s; }
+    .flow > *:nth-child(27) { animation-delay: 1.35s; }
+    .flow > *:nth-child(28) { animation-delay: 1.4s; }
+    .flow > *:nth-child(29) { animation-delay: 1.45s; }
+    .flow > *:nth-child(30) { animation-delay: 1.5s; }
+    .flow > *:nth-child(31) { animation-delay: 1.55s; }
+    .flow > *:nth-child(32) { animation-delay: 1.6s; }
+
+    .branch-grid .node, .real-grid .real-card, .two-grid .node { animation: fadeUp 0.5s ease forwards; }
+
+    /* ── TABLE inside nodes ── */
+    .node table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 11px; }
+    .node th { text-align: left; padding: 4px 6px; color: var(--dim); font-size: 9px; letter-spacing: 0.8px; text-transform: uppercase; border-bottom: 1px solid rgba(120,160,200,0.12); font-weight: 500; }
+    .node td { padding: 4px 6px; border-bottom: 1px solid rgba(120,160,200,0.06); }
+
+    .tag { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 9px; font-weight: 600; letter-spacing: 0.5px; margin-right: 4px; }
+    .tag-blue { background: rgba(110,193,228,0.15); color: var(--accent); }
+    .tag-gold { background: rgba(240,192,64,0.15); color: var(--gold); }
+    .tag-green { background: rgba(139,196,160,0.15); color: var(--green); }
+
+    sup { font-size: 0.65em; vertical-align: super; }
+    sub { font-size: 0.65em; vertical-align: sub; }
+
+    @media (max-width: 600px) {
+      .header h1 { font-size: 24px; letter-spacing: 2px; }
+      .branch-grid { grid-template-columns: 1fr; max-width: 520px; }
+      .real-grid { grid-template-columns: 1fr; }
+      .two-grid { grid-template-columns: 1fr; }
+      .postulate .node-math { font-size: 20px; }
+      .scaling-law .node-math { font-size: 22px; }
+      .node-math { font-size: 18px; }
+      .flow::before { left: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>THE ENGINE</h1>
+  <div class="sub">Derivation Map</div>
+</div>
+
+<div class="flow">
+
+  <!-- ═══ POSTULATE ═══ -->
+  <div class="postulate">
+    <div class="node-label">Postulate</div>
+    <div class="node-math">S<sup>1</sup> = ∂(Mobius) ↪ S<sup>3</sup>, &nbsp; ∂S<sup>3</sup> = ∅</div>
+  </div>
+
+  <div class="spacer-sm"></div>
+  <span class="dot"></span>
+  <div class="spacer"></div>
+
+  <!-- ═══ THREE BRANCHES: BC | 120 Domain | Scale ═══ -->
+  <div class="branch-grid">
+
+    <!-- LEFT: Anti-periodic BC -->
+    <div class="node">
+      <div class="node-label">Boundary Condition</div>
+      <div class="node-math"><span class="small">ψ(y + L) = -ψ(y)</span></div>
+      <div class="node-body">
+        Half-integer modes: ν = m + ½<br>
+        Ground state m = 0:<br>
+        <span style="color:var(--green)">ψ<sub>0</sub> = sin(πΘ)</span>
+      </div>
+    </div>
+
+    <!-- CENTER: 120 Domain -->
+    <div class="node">
+      <div class="node-label">120 Domain</div>
+      <div class="node-math"><span class="small">|2I| = 120</span></div>
+      <div class="node-body">
+        Native to S<sup>3</sup> ≅ SU(2)<br>
+        Domain: 120 positions<br>
+        Hurwitz → <span style="color:var(--gold)">Fibonacci wells</span><br>
+        <span style="font-size:10px">{13, 21, 34, 55, 60}/120</span>
+      </div>
+    </div>
+
+    <!-- RIGHT: Bounded Scale -->
+    <div class="node">
+      <div class="node-label">Bounded Domain</div>
+      <div class="node-math"><span class="small">ℓ<sub>P</sub> → R<sub>H</sub></span></div>
+      <div class="node-body">
+        Spans 10<sup>122</sup><br>
+        IR↔UV: x ↦ Ω/x<br>
+        Fixed point: x = √Ω<br>
+        <span style="color:var(--accent)">√Ω ≈ 10<sup>61</sup></span>
+        <span style="font-size:10px;color:var(--dimmer)">The observer</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="spacer-sm"></div>
+  <span class="dot green"></span>
+  <div class="spacer"></div>
+
+  <!-- ═══ TWO BRANCHES: Phase Operator | Embedding ═══ -->
+  <div class="two-grid">
+
+    <!-- LEFT: Bosonic Filter → C(Θ) -->
+    <div class="node">
+      <div class="node-label">Bosonic Filter → Phase Operator</div>
+      <div class="node-math">C(Θ) = 2 sin<sup>2</sup>(πΘ)</div>
+      <div class="node-body">
+        |ψ|<sup>2</sup> projects 2I → I<br>
+        60R-grid (even only)<br>
+        <span style="color:var(--gold)">Position on the wave</span>
+      </div>
+    </div>
+
+    <!-- RIGHT: Embedding Hierarchy -->
+    <div class="node">
+      <div class="node-label">Embedding Hierarchy</div>
+      <div class="node-math"><span class="small">S<sup>1</sup> ⊂ Mobius ⊂ S<sup>3</sup></span></div>
+      <div class="node-body">
+        Volume dilution: V<sub>n</sub> ~ (√Ω)<sup>n</sup><br>
+        Squared amplitude: |ψ|<sup>2</sup> ~ (√Ω)<sup>-n</sup><br>
+        <span style="color:var(--accent)">How far from Planck, on which manifold</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="spacer-sm"></div>
+  <span class="dot purple"></span>
+  <div class="spacer"></div>
+
+  <!-- ═══ SELECTION RULES ═══ -->
+  <div class="node" style="max-width:560px">
+    <div class="node-label">Selection Rules</div>
+    <table>
+      <thead><tr><th>n</th><th>Manifold</th><th>Scale</th><th>Observables</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>Edge S<sup>1</sup></td><td><span class="tag tag-blue">Ω<sub>H</sub></span></td><td>H<sub>0</sub>, a<sub>0</sub></td></tr>
+        <tr><td>2</td><td>Surface</td><td><span class="tag tag-gold">Ω<sub>Λ</sub></span></td><td>Λ</td></tr>
+        <tr><td>3</td><td>Space S<sup>3</sup></td><td><span class="tag tag-gold">Ω<sub>Λ</sub></span></td><td>Null "dark matter"</td></tr>
+        <tr><td>3/2</td><td>Interface</td><td></td><td>Gravity (Gauss-Codazzi)</td></tr>
+      </tbody>
+    </table>
+    <div class="node-body" style="margin-top:10px">If it evolves with epoch → Ω<sub>H</sub>. If it is set by the surface → Ω<sub>Λ</sub>.</div>
+  </div>
+
+  <div class="spacer-sm"></div>
+  <span class="dot gold"></span>
+  <div class="spacer"></div>
+
+  <!-- ═══ THE SCALING LAW ═══ -->
+  <div class="scaling-law">
+    <div class="node-label">The Scaling Law</div>
+    <div class="node-math">A / A<sub>P</sub> ≈ C(Θ) · (√Ω)<sup>-n</sup></div>
+    <div class="annotation">The event occurs at (t, Θ)</div>
+  </div>
+
+  <div class="spacer-sm"></div>
+  <span class="dot gold"></span>
+  <div class="spacer"></div>
+
+  <!-- ═══ FOUR NUMERICAL REALIZATIONS ═══ -->
+  <div class="real-grid">
+    <div class="real-card">
+      <div class="obs c-red">a<sub>0</sub></div>
+      <div class="params">
+        Θ = 13/120 · n = 1 · Ω<sub>H</sub><br>
+        C = 0.22
+      </div>
+      <div class="result">→ 2.2 × 10<sup>-62</sup> a<sub>P</sub></div>
+    </div>
+    <div class="real-card">
+      <div class="obs c-blue">H<sub>0</sub></div>
+      <div class="params">
+        Θ = 34/120 · n = 1 · Ω<sub>H</sub><br>
+        C = 1.21
+      </div>
+      <div class="result">→ 1.2 × 10<sup>-61</sup> t<sub>P</sub><sup>-1</sup></div>
+    </div>
+    <div class="real-card">
+      <div class="obs c-gold">Λ</div>
+      <div class="params">
+        Θ = 60/120 · n = 2 · Ω<sub>Λ</sub><br>
+        C = 2.00
+      </div>
+      <div class="result">→ 3.0 × 10<sup>-122</sup> ℓ<sub>P</sub><sup>-2</sup></div>
+    </div>
+    <div class="real-card">
+      <div class="obs c-purple">α</div>
+      <div class="params">
+        Θ = 13/60 · n = 1/30 · Ω<sub>Λ</sub><br>
+        C = 0.79
+      </div>
+      <div class="result">→ 0.00733</div>
+    </div>
+  </div>
+
+  <div class="spacer-sm"></div>
+  <span class="dot red"></span>
+  <div class="spacer"></div>
+
+  <!-- ═══ TWO CONSEQUENCES: Phase Field | Gauss-Codazzi ═══ -->
+  <div class="two-grid">
+    <div class="node">
+      <div class="node-label">Phase Field</div>
+      <div class="node-math"><span class="small">Θ<sub>f</sub> = <sup>2</sup>/<sub>120</sub> · 𝟙(𝒯 ≥ 𝒯<sub>c</sub>)</span></div>
+      <div class="node-body">
+        L<sub>f</sub> = v<sub>c</sub><sup>2</sup>/a<sub>0</sub> ≈ 13 kpc<br>
+        <span style="color:var(--green)">H<sub>0</sub> shifts 8.4%</span><br>
+        <span style="font-size:10px">67.4 × 1.084 ≈ 73 km/s/Mpc</span>
+      </div>
+    </div>
+    <div class="node">
+      <div class="node-label">Gauss-Codazzi</div>
+      <div class="node-math"><span class="small">Λ<sub>obs</sub> = <sup>3</sup>/<sub>2</sub> Λ<sub>top</sub></span></div>
+      <div class="node-body">
+        R<sub>Σ</sub> = Λ<sub>top</sub> (intrinsic surface curvature)<br>
+        R<sub>spatial</sub> = 3R<sub>Σ</sub> = 2Λ<br>
+        <span style="color:var(--accent)">3D embedding of 2D surface</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+
+  <!-- ═══ INSCRIPTION ═══ -->
+  <div class="inscription">
+    <p>Topology sets what is possible.<br>The wave expresses the boundary.<br>Sampling resolves the domain.</p>
+    <div class="closing"><em>The identity is the wave Ψ</em></div>
+  </div>
+
+</div>
+
+</body>
+</html>
