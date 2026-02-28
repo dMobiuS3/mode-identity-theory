@@ -22,7 +22,7 @@ Mode Identity Theory is built upon a specific order of operation. Each step depe
 
 The topology had only one choice. The temporal edge bounds the Möbius surface embedded in hypersphere space; the space has no boundary.
 
-$$S^1 = \partial(\text{Mobius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$$
+$$\Large \boxed{S^1 = \partial(\text{Mobius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
 
 ### The Temporal Edge S¹
 
@@ -58,7 +58,7 @@ Higher harmonics are excluded for background observables but carry perturbation 
 
 The 3D volume containing the surface. Couples gravitationally; no other cross-manifold couplings are derived.
 
-$$\partial S^3 = \emptyset$$
+$$\Large \boxed{\partial S^3 = \emptyset}$$
 
 The hierarchy terminates here. "What's outside?" is malformed; there is no boundary from which to observe.
 
@@ -96,7 +96,7 @@ A period of $4\pi$ is required to carry the sign from positive through negative 
 
 Let $t \equiv 2\pi s/L$ denote cosmic phase, where $s$ is location along $S^1$ and $L$ is the circumference. (At Planck scale, the boundary condition manifests as the spin-1/2 sign flip under $2\pi$ rotation. Their correspondence is the dimensional projection of the same topological constraint.) The standing wave takes the form:
 
-$$\Psi = \cos(t/2)$$
+  $$\Large \boxed{\Psi = \cos(t/2)}$$
 
 Cosine is inherited because the universe initiates at maximum amplitude $\Psi = +1$ rather than mid-slope.
 
@@ -406,7 +406,7 @@ Every distance ladder calibrated from inside the Milky Way has been phase shifte
 
 The framework reduces to one equation:
 
-$$\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}$$
+  $$\Large \boxed{\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
 $C(\Theta)$ reads the position axis: where the observable sits on the mode spectrum. $(\sqrt{\Omega})^{-n}$ reads the time axis through $\Omega_H$ for edge modes, or the boundary condition through $\Omega_\Lambda$ for surface modes. The observer at $\sqrt{\Omega}$ is the structural midpoint where both axes resolve to finite values. Their product yields $A/A_P$: the modal realization; the ratio of the observable amplitude over its Planck scale reference. 
 
