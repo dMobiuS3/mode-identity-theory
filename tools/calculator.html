@@ -81,7 +81,7 @@
       <h3>Scaling Law Calculator</h3>
       <div class="eq-box">A / A<sub>P</sub> ≈ C(Θ) · (√Ω)<sup>−n</sup></div>
       <label class="field"><span>Preset</span>
-        <select id="preset"><option value="custom">Custom</option><option value="alpha">α (fine structure)</option><option value="a0">a₀ (acceleration scale)</option><option value="H0">H₀ (Hubble parameter)</option><option value="lambda">Λ (cosmological constant)</option></select>
+        <select id="preset"><option value="custom">Custom</option><option value="alpha">α (fine structure)</option><option value="a0">a₀ (acceleration scale)</option><option value="H0">H₀ (Hubble parameter)</option><option value="lambda">Λ (cosmological constant)</option><option value="dm">DM null (n = 3 suppression)</option></select>
       </label>
       <div class="form-row">
         <label class="field"><span>Θ numerator</span><input type="number" id="thetaNum" value="13" step="1"></label>
@@ -189,6 +189,9 @@
       <tr><td>m<sub>u</sub></td><td>2.03×10⁻³ GeV</td><td>2.16×10⁻³ GeV</td><td>6%</td></tr>
       <tr><td>m<sub>μ</sub></td><td>1.03×10⁻¹ GeV</td><td>1.057×10⁻¹ GeV</td><td>2%</td></tr>
       <tr><td>12 SM fermions</td><td>24 entries</td><td>12 targets</td><td>10/12 ≤3×</td></tr>
+      <tr><td>ν floor</td><td id="scNuFloor">μ<sub>Λ</sub></td><td>&lt; 800 meV (KATRIN)</td><td>awaiting</td></tr>
+      <tr><td>Dead zone</td><td id="scDeadZone">—</td><td>no SM fermions in range</td><td>open</td></tr>
+      <tr><td>Null DM</td><td id="scNullDM">—</td><td>ongoing null results</td><td>✓</td></tr>
     </tbody></table></div>
     <div class="section"><h3>Fibonacci Wells</h3><table><thead><tr><th>Well</th><th>Θ</th><th>C(Θ)</th><th>Grid</th><th>n</th><th>Observable</th></tr></thead><tbody id="wellsTable"></tbody></table></div>
     <div class="section"><h3>Falsification</h3><p class="body">MIT has no free knobs. The framework stands or falls on locked predictions.</p><table><thead><tr><th>Prediction</th><th>Falsified if</th><th>Threshold</th></tr></thead><tbody>
@@ -223,11 +226,11 @@
     <div class="section"><h3>Source Code</h3><p class="body">Both the scaling law and the Spectrum mass formula. Zero hidden parameters. The code is the math.</p>
       <div class="code-block"><div class="comment">// Scaling law (4 cosmological constants):</div><div>A/Aₚ = C(Θ) · (√Ω)⁻ⁿ</div><div>&nbsp;</div><div class="comment">// Mass formula (24 particle masses):</div><div>m(ρ,σ) = μΛ · Cgeom(ρ) · (√ΩΛ)^(dist/30) · T²(ρ⊗σ)</div><div>&nbsp;</div><div class="comment">// Inputs: c, ℏ, ℓP. Free parameters: 0.</div></div>
     </div>
-    <div class="section"><h3>Contact</h3><p class="body">blake shatto, p.e. · <a href="mailto:bshatto.pe@gmail.com">bshatto.pe@gmail.com</a><br><a href="https://modeidentitytheory.com">modeidentitytheory.com</a> · <a href="https://zenodo.org/communities/modeidentitytheory">Zenodo community</a></p></div>
+    <div class="section"><h3>Contact</h3><p class="body">blake shatto, p.e. · <a href="/cdn-cgi/l/email-protection#95f7e6fdf4e1e1fabbe5f0d5f2f8f4fcf9bbf6faf8"><span class="__cf_email__" data-cfemail="eb8998838a9f9f84c59b8eab8c868a8287c5888486">[email&#160;protected]</span></a><br><a href="https://modeidentitytheory.com">modeidentitytheory.com</a> · <a href="https://zenodo.org/communities/modeidentitytheory">Zenodo community</a></p></div>
   </div>
 </div>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 // ══════════════════════════════════════════════════════════════
 //  DERIVATION CHAIN: From first principles, not hardcoded
 // ══════════════════════════════════════════════════════════════
@@ -408,7 +411,8 @@ var P = {
   alpha:  {tN:13, tD:60,  nN:1, nD:30, om:"L"},
   a0:     {tN:13, tD:120, nN:1, nD:1,  om:"H"},
   H0:     {tN:34, tD:120, nN:1, nD:1,  om:"H"},
-  lambda: {tN:60, tD:120, nN:2, nD:1,  om:"L"}
+  lambda: {tN:60, tD:120, nN:2, nD:1,  om:"L"},
+  dm:     {tN:60, tD:120, nN:3, nD:1,  om:"L"}
 };
 
 var E = {
@@ -549,6 +553,26 @@ function build() {
       s.r.toFixed(2) + '</td><td>' + w3 + ' ' + badge(s.r) + '</td></tr>';
   }).join('');
 
+  // ── Populate dynamic scorecard rows ──
+  // ν floor: μΛ in meV
+  var nuEl = document.getElementById('scNuFloor');
+  if (nuEl) nuEl.innerHTML = "μ<sub>Λ</sub> = " + (MU_L * 1e3).toFixed(2) + " meV";
+
+  // Dead zone: count and mass range from sorted mass table
+  var dzEl = document.getElementById('scDeadZone');
+  if (dzEl) {
+    var dzEntries = ent.filter(function(e) { return e.dz; });
+    var dzMin = dzEntries[0].m, dzMax = dzEntries[dzEntries.length - 1].m;
+    dzEl.innerHTML = dzEntries.length + " states, " + fS(dzMin) + " to " + fS(dzMax) + " GeV";
+  }
+
+  // Null DM: n=3 suppression computed from scaling law
+  var dmEl = document.getElementById('scNullDM');
+  if (dmEl) {
+    var dmSupp = Cph(60/120) * Math.pow(SQRT_OL, -3);
+    dmEl.innerHTML = "C(½)·(√Ω<sub>Λ</sub>)<sup>−3</sup> = " + fS(dmSupp);
+  }
+
   document.querySelector('#cgeomTable tbody').innerHTML = Object.keys(IR).map(function(k) {
     var ir = IR[k];
     return '<tr><td>' + ir.l + '</td><td>' + ir.sp + '</td><td>' + ir.D +
@@ -667,11 +691,4 @@ function drawWave() {
   x.fillText("−1", p.l - 6, p.t + h); x.fillText("Ψ", p.l - 6, my + 4);
 }
 
-// ══════════════════════════════════════════════════════════════
-//  INIT
-// ══════════════════════════════════════════════════════════════
-build();
-comp();
-</script>
-</body>
-</html>
+// ═════════════════════════════════════════════════════════════
