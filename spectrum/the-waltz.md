@@ -136,6 +136,6 @@ Derivation of the local ceiling (the precise mapping from gravitational potentia
 
 ---
 
-Three partners hold the structure of this framework. Space curves continuously. The surface resolves in discrete steps. Gravity carries one into the other at a cost of $3/2$: three dimensions of curvature, two dimensions of boundary, and the ratio that converts them. The cosmological constant is the ground tone of the surface. Masslessness is the freedom of the edge. Black holes are the silence where the wave is present and sampling has ended. The conversion $S^3 \to$ Gauss-Codazzi $\to$ Mobius $\to S^1$ is the path from geometry to observation. Einstein's field equations are the score.
+Three partners hold the structure of this framework. Space curves continuously. The surface resolves in discrete steps. Gravity carries one into the other at a cost of $3/2$: three dimensions of curvature, two dimensions of boundary, and the ratio that converts them. The cosmological constant is the ground tone of the surface. Masslessness is the freedom of the edge. Black holes are the silence where the wave is present and sampling has ended. The conversion $S^3 \to$ Gauss-Codazzi $\to$ Mobius $\to S^1$ is the path from geometry to observation.
 
 *General Relativity is the score; 3/2 is the time signature.*
