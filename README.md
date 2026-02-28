@@ -14,7 +14,7 @@ $(\sqrt{\Omega})^{-n}$ is the observer; the square root of scale, diluted by the
 
 Their product yields the modal realization, $A/A_P$ , the ratio of the observable amplitude over its Planck-scale reference. 
 
-The constants of the universe follow across 122 orders of magnitude, and fermionic mass is realized through the structure.
+The constants of the universe follow across 122 orders of magnitude, and fermionic mass is realized through structure.
 
 ---
 
