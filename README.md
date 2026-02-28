@@ -32,15 +32,15 @@ Blind outputs of a fixed structure, checked against observation:
 | $a_0 / (cH_0)$ | 0.184 | 0.183 | < 1% |
 | $H_0$ local shift | 8.4% | ~8.7% (67.4 to 73.2) | < 1% |
 | $\Lambda_{\text{obs}} \cdot \ell_P^2$ | $3.0 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~5% |
-| $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
-| $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
-| $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | 2% |
-| Particle generations | 3 | 3 | exact |
-| Mass gap | > 0 | confinement observed | ✓ |
-| 12 SM fermions | 24 entries | All 12 SM within x10 | 10 of 12 within x3 |
 | CMB multipole cut | ~31 | deficit below ~30 | ✓ |
 | CMB parity | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
 | CMB alignment | ~13° | ~10° | ~ |
+| Mass gap | > 0 | confinement observed | ✓ |
+| Particle generations | 3 | 3 | exact |
+| $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
+| $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
+| $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | 2% |
+| 12 SM fermions | 24 entries | All 12 SM within x10 | 10 of 12 within x3 |
 
 ## Tools
 
