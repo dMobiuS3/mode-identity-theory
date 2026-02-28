@@ -31,11 +31,11 @@
       pointer-events: none;
     }
     .title-bar h1 {
-      font-family: var(--serif); font-size: 28px; font-weight: 300;
+      font-family: var(--serif); font-size: 36px; font-weight: 300;
       letter-spacing: 5px; color: rgba(230,240,248,0.9);
     }
     .title-bar .eq {
-      font-family: var(--serif); font-size: 15px; font-weight: 400;
+      font-family: var(--serif); font-size: 19px; font-weight: 400;
       color: var(--dim); letter-spacing: 1px; margin-top: 6px;
     }
 
@@ -48,7 +48,7 @@
       display: flex; align-items: center; gap: 10px;
       background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
       border-radius: 6px; padding: 10px 14px; cursor: pointer;
-      font-family: var(--mono); font-size: 11px; color: var(--dim);
+      font-family: var(--mono); font-size: 13px; color: var(--dim);
       transition: all 0.3s; letter-spacing: 0.3px; min-width: 160px;
       -webkit-user-select: none; user-select: none;
     }
@@ -74,18 +74,18 @@
       transition: opacity 0.4s;
     }
     .annotation .a-label {
-      font-size: 9px; font-weight: 600; letter-spacing: 2px;
+      font-size: 11px; font-weight: 600; letter-spacing: 2px;
       text-transform: uppercase; margin-bottom: 6px; opacity: 0.5;
     }
     .annotation .a-name {
-      font-family: var(--serif); font-size: 20px; font-weight: 400;
+      font-family: var(--serif); font-size: 26px; font-weight: 400;
       margin-bottom: 8px; letter-spacing: 0.5px;
     }
     .annotation .a-body {
-      font-size: 11px; color: var(--dim); line-height: 1.65;
+      font-size: 14px; color: var(--dim); line-height: 1.65;
     }
     .annotation .a-math {
-      font-family: var(--serif); font-size: 15px; color: var(--accent);
+      font-family: var(--serif); font-size: 19px; color: var(--accent);
       margin: 8px 0; letter-spacing: 0.5px;
     }
 
@@ -97,21 +97,21 @@
       pointer-events: none;
     }
     .bottom-bar .hint {
-      font-size: 10px; color: rgba(180,200,220,0.3); letter-spacing: 1px;
+      font-size: 12px; color: rgba(180,200,220,0.3); letter-spacing: 1px;
     }
     .bottom-bar .inscription {
-      font-family: var(--serif); font-size: 14px; font-style: italic;
+      font-family: var(--serif); font-size: 18px; font-style: italic;
       color: rgba(180,200,220,0.25); letter-spacing: 0.5px; margin-top: 4px;
     }
 
     @media (max-width: 700px) {
-      .title-bar h1 { font-size: 20px; letter-spacing: 3px; }
-      .title-bar .eq { font-size: 12px; }
+      .title-bar h1 { font-size: 26px; letter-spacing: 3px; }
+      .title-bar .eq { font-size: 15px; }
       .controls { left: 12px; }
       .ctrl-btn { min-width: 44px; padding: 10px; }
       .ctrl-btn span { display: none; }
       .annotation { right: 12px; max-width: 180px; padding: 14px; }
-      .annotation .a-name { font-size: 17px; }
+      .annotation .a-name { font-size: 22px; }
     }
   </style>
 </head>
@@ -152,7 +152,7 @@
 
 <div class="bottom-bar">
   <div class="hint">drag to orbit · scroll to zoom · click layers to toggle</div>
-  <div class="inscription">The identity is the wave &Psi;</div>
+  <div class="inscription">The identity is &Psi;</div>
 </div>
 
 <canvas id="c"></canvas>
