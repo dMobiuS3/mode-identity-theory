@@ -1,28 +1,28 @@
 # Spectrum Predictions
 
-Five anomalies resolved from the boundary outward. Inverting the question inward, the same geometry confines gauge fields, returns $\alpha$ to the first step of Λ, and accounts gravity as the cost to dance between them.
+The cosmological anomalies resolved at the far end of the universe occur at the same boundary beneath our feet. The same geometry confines gauge fields, returns $\alpha$ to the first step of $\Lambda$, and accounts gravity as the cost to dance between them.
 
 ---
 
-**Confinement.** Positive curvature on $S^3/2I$ forces a mass gap. Three isolated flat connections produce three particle generations. The McKay correspondence filters the Galois sector through four empty levels, yielding a ninefold enhancement. [DOI](https://doi.org/10.5281/zenodo.18463584)
+**Confinement.** Positive curvature on $S^3/2I$ forces a mass gap; the Laplacian has no zero mode. Three isolated flat connections produce three particle generations. The McKay correspondence filters the Galois sector through four empty levels, yielding a ninefold enhancement.
 
 [Yang-Mills](yang-mills.md)
 
 ---
 
-**Fine structure.** $\alpha = C(13/60) \times \Omega_\Lambda^{-1/60}$ places the electromagnetic coupling at the first Fibonacci well on the bosonic grid. One step of Λ on the 60R-domain. [DOI](https://doi.org/10.5281/zenodo.18484780)
+**Fine structure.** In 1985, Feynman described $1/137$ as a number coming without explanation. $\alpha = C(13/60) \times \Omega_\Lambda^{-1/60}$: the first Fibonacci well on the bosonic grid. One step of $\Lambda$ on the 60R-domain. The number has an address.
 
-[Fine Structure](fine-structure.md) 
+[Fine Structure](fine-structure.md)
 
 ---
 
-**The dance.** Gravity is the 3/2 Gauss-Codazzi interface between continuous space and discrete surface. Masslessness is edge-only propagation. The neutrino floor sits at $\mu_\Lambda = \rho_\Lambda^{1/4} \approx 2.25$ meV. Black holes are nodes where sampling amplitude vanishes. [DOI](https://doi.org/10.5281/zenodo.18176445)
+**Gravity.** Gravity is the 3/2 Gauss-Codazzi interface between continuous space and discrete surface. Masslessness is edge-only propagation. The neutrino floor sits at $\mu_\Lambda = \rho_\Lambda^{1/4} \approx 2.25$ meV. Black holes are nodes where sampling amplitude vanishes.
 
 [The Waltz](the-waltz.md)
 
 ---
 
-**Mass spectrum.** 24 predictions from four locked factors: $m(\rho,\sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega_\Lambda})^{\text{dist}/30} \times T^2(\rho \otimes \sigma)$. [DOI](https://doi.org/10.5281/zenodo.18603975)
+**Mass spectrum.** 24 predictions from four locked factors: $m(\rho,\sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega_\Lambda})^{\text{dist}/30} \times T^2(\rho \otimes \sigma)$.
 
 [Mass Spectrum](mass-spectrum.md)
 
