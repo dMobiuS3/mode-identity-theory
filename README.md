@@ -32,7 +32,7 @@ The constants of the universe follow across 122 orders of magnitude, and fermion
 
 Every link between topology and observable is live. The code is the math. There are no hidden knobs.
 
-**[Visualize the Postulate](https://dmobius3.github.io/mode-identity-theory/tools/postulate.html)**
+**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/tools/topology.html)**
 
 **[Follow the Engine](https://dmobius3.github.io/mode-identity-theory/tools/engine.html)**
 
