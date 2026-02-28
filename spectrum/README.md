@@ -10,7 +10,7 @@ Five anomalies resolved from the boundary outward. Inverting the question inward
 
 **Mass spectrum.** 24 predictions from four locked factors: $m(\rho,\sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega_\Lambda})^{\text{dist}/30} \times T^2(\rho \otimes \sigma)$. [Mass Spectrum](mass-spectrum.md): 10/12 SM fermions within x3, electron/up/muon within 6%. [DOI](https://doi.org/10.5281/zenodo.18603975)
 
-### Particle Scorecard
+### Spectrum Scorecard
 
 | Observable | Predicted | Observed | Agreement |
 |---|---|---|---|
