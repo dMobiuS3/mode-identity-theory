@@ -35,7 +35,9 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 | Mass gap | > 0 | confinement observed | ✓ |
 | Particle generations | 3 | 3 | exact |
 | $\alpha$ | 0.00733 | 0.007297 | 0.5% |
+| ν floor | $\mu_\Lambda = \rho_\Lambda^{1/4} \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
 | $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
 | $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
 | $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | 2% |
 | 12 SM fermions | 24 entries | All 12 SM within x10 | 10 of 12 SM within x3 |
+| Dead zone | 6 states, eV to keV | no SM fermions in range | open window |
