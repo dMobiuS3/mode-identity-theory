@@ -37,7 +37,7 @@ Blind outputs of a fixed structure, checked against observation:
 | $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | 2% |
 | Particle generations | 3 | 3 | exact |
 | Mass gap | > 0 | confinement observed | ✓ |
-| 12 SM fermions | 24 entries | All 12 within x10 | 10 of 12 within x3 |
+| 12 SM fermions | 24 entries | All 12 SM within x10 | 10 of 12 within x3 |
 | CMB multipole cut | ~31 | deficit below ~30 | ✓ |
 | CMB parity | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
 | CMB alignment | ~13° | ~10° | ~ |
