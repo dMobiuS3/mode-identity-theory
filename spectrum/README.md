@@ -42,4 +42,4 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 | Particle generations | 3 | 3 | exact |
 | Mass gap | > 0 | confinement observed | ✓ |
 | $\alpha$ | 0.00733 | 0.007297 | 0.5% |
-| Gravity ($\Lambda_\text{obs} / \Lambda_\text{top}$) | $3/2$ | $>3\sigma$ with independent $H_0$ | $\checkmark$ |
+| Gravity ($\Lambda_\text{obs} / \Lambda_\text{top}$) | $3/2$ | $>3\sigma$ with independent $H_0$ | ✓ |
