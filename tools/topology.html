@@ -3,408 +3,586 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mode Identity Theory | The Engine</title>
-  <meta name="description" content="The complete derivation engine of Mode Identity Theory. One postulate, zero free parameters.">
-  <meta name="author" content="Blake Shatto, P.E.">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <title>Mode Identity Theory | The Postulate</title>
+  <meta name="description" content="Interactive visualization of the topological postulate: S¹ = ∂(Möbius) ↪ S³, ∂S³ = ∅">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --bg: #0a0e14; --bg2: #0d1520; --text: #c8dce8;
-      --dim: rgba(180,200,220,0.55); --dimmer: rgba(180,200,220,0.35);
-      --line: rgba(120,160,200,0.12); --accent: #6ec1e4;
-      --green: #8bc4a0; --gold: #f0c040; --red: #e07050; --purple: #c090e0;
+      --bg: #050810; --text: #c8dce8;
+      --dim: rgba(180,200,220,0.5); --dimmer: rgba(180,200,220,0.3);
+      --accent: #6ec1e4; --edge: #e85040; --surface: #88c8e8;
       --serif: 'Cormorant Garamond', Georgia, serif;
       --mono: 'IBM Plex Mono', monospace;
     }
-    body { background: var(--bg); color: var(--text); font-family: var(--mono); min-height: 100vh; overflow-x: hidden; }
+    html, body { width: 100%; height: 100%; overflow: hidden; background: var(--bg); color: var(--text); font-family: var(--mono); }
+    canvas { display: block; width: 100%; height: 100%; cursor: grab; }
+    canvas:active { cursor: grabbing; }
 
-    /* ── HEADER ── */
-    .header { padding: 40px 24px 24px; text-align: center; position: relative; }
-    .header::after { content: ''; display: block; width: 1px; height: 32px; background: linear-gradient(to bottom, var(--accent), transparent); margin: 20px auto 0; }
-    .header h1 { font-family: var(--serif); font-size: 36px; font-weight: 300; letter-spacing: 4px; color: #e0eaf0; }
-    .header .sub { font-size: 11px; color: var(--dim); letter-spacing: 3px; margin-top: 8px; text-transform: uppercase; }
+    /* ── OVERLAY UI ── */
+    .overlay { position: fixed; pointer-events: none; z-index: 10; }
+    .overlay > * { pointer-events: auto; }
 
-    /* ── FLOW CONTAINER ── */
-    .flow { max-width: 780px; margin: 0 auto; padding: 0 20px 60px; position: relative; }
-
-    /* ── VERTICAL SPINE ── */
-    .flow::before {
-      content: ''; position: absolute; left: 50%; top: 0; bottom: 60px;
-      width: 1px; background: linear-gradient(to bottom, var(--accent), rgba(110,193,228,0.3) 20%, rgba(110,193,228,0.15) 60%, rgba(110,193,228,0.06));
-      transform: translateX(-50%);
+    /* Title */
+    .title-bar {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 20;
+      padding: 24px 28px 16px; text-align: center;
+      background: linear-gradient(to bottom, rgba(5,8,16,0.9) 0%, rgba(5,8,16,0.4) 70%, transparent);
+      pointer-events: none;
+    }
+    .title-bar h1 {
+      font-family: var(--serif); font-size: 28px; font-weight: 300;
+      letter-spacing: 5px; color: rgba(230,240,248,0.9);
+    }
+    .title-bar .eq {
+      font-family: var(--serif); font-size: 15px; font-weight: 400;
+      color: var(--dim); letter-spacing: 1px; margin-top: 6px;
     }
 
-    /* ── NODE STYLES ── */
-    .node {
-      position: relative; margin: 0 auto 8px; padding: 20px 24px;
-      background: rgba(255,255,255,0.025); border: 1px solid var(--line);
-      border-radius: 8px; max-width: 520px;
-      transition: border-color 0.3s, background 0.3s, transform 0.2s;
+    /* Layer toggles */
+    .controls {
+      position: fixed; left: 24px; top: 50%; transform: translateY(-50%); z-index: 20;
+      display: flex; flex-direction: column; gap: 6px;
     }
-    .node:hover { border-color: rgba(110,193,228,0.3); background: rgba(110,193,228,0.04); transform: translateY(-1px); }
+    .ctrl-btn {
+      display: flex; align-items: center; gap: 10px;
+      background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 6px; padding: 10px 14px; cursor: pointer;
+      font-family: var(--mono); font-size: 11px; color: var(--dim);
+      transition: all 0.3s; letter-spacing: 0.3px; min-width: 160px;
+      -webkit-user-select: none; user-select: none;
+    }
+    .ctrl-btn:hover { background: rgba(255,255,255,0.07); color: var(--text); }
+    .ctrl-btn.active { border-color: rgba(255,255,255,0.15); color: var(--text); }
+    .ctrl-btn .indicator {
+      width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
+      transition: box-shadow 0.3s, opacity 0.3s;
+    }
+    .ctrl-btn.active .indicator { box-shadow: 0 0 10px currentColor; }
+    .ctrl-btn:not(.active) .indicator { opacity: 0.25; }
+    .ind-edge { background: var(--edge); color: var(--edge); }
+    .ind-surface { background: #60c8a0; color: #60c8a0; }
+    .ind-space { background: var(--accent); color: var(--accent); }
+    .ind-wave { background: #f0c040; color: #f0c040; }
 
-    .node-label {
-      font-size: 9px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
-      color: var(--accent); margin-bottom: 8px; opacity: 0.7;
+    /* Annotation panel */
+    .annotation {
+      position: fixed; right: 24px; top: 50%; transform: translateY(-50%); z-index: 20;
+      max-width: 220px; padding: 18px 20px;
+      background: rgba(5,8,16,0.85); border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 8px; backdrop-filter: blur(12px);
+      transition: opacity 0.4s;
     }
-    .node-math {
-      font-family: var(--serif); font-size: 22px; font-weight: 400;
-      color: #e8f0f4; letter-spacing: 0.5px; line-height: 1.4;
+    .annotation .a-label {
+      font-size: 9px; font-weight: 600; letter-spacing: 2px;
+      text-transform: uppercase; margin-bottom: 6px; opacity: 0.5;
     }
-    .node-math .small { font-size: 16px; color: var(--text); }
-    .node-body { font-size: 12px; color: var(--dim); line-height: 1.65; margin-top: 8px; }
-
-    /* ── CONNECTOR DOT ── */
-    .dot {
-      display: block; width: 7px; height: 7px; border-radius: 50%;
-      background: var(--accent); margin: 0 auto; position: relative; z-index: 2;
-      box-shadow: 0 0 8px rgba(110,193,228,0.4);
+    .annotation .a-name {
+      font-family: var(--serif); font-size: 20px; font-weight: 400;
+      margin-bottom: 8px; letter-spacing: 0.5px;
     }
-    .dot.gold { background: var(--gold); box-shadow: 0 0 8px rgba(240,192,64,0.4); }
-    .dot.green { background: var(--green); box-shadow: 0 0 8px rgba(139,196,160,0.4); }
-    .dot.red { background: var(--red); box-shadow: 0 0 8px rgba(224,112,80,0.3); }
-    .dot.purple { background: var(--purple); box-shadow: 0 0 8px rgba(192,144,224,0.3); }
-
-    .spacer { height: 16px; }
-    .spacer-sm { height: 8px; }
-
-    /* ── POSTULATE (special) ── */
-    .postulate {
-      text-align: center; padding: 28px 32px;
-      background: rgba(110,193,228,0.06); border: 1px solid rgba(110,193,228,0.2);
-      border-radius: 10px; max-width: 520px; margin: 0 auto 8px;
+    .annotation .a-body {
+      font-size: 11px; color: var(--dim); line-height: 1.65;
     }
-    .postulate .node-math { font-size: 26px; }
-
-    /* ── SCALING LAW (special) ── */
-    .scaling-law {
-      text-align: center; padding: 28px 32px;
-      background: linear-gradient(135deg, rgba(110,193,228,0.08) 0%, rgba(192,144,224,0.06) 100%);
-      border: 1px solid rgba(110,193,228,0.25); border-radius: 10px;
-      max-width: 560px; margin: 0 auto 8px;
-    }
-    .scaling-law .node-math { font-size: 28px; letter-spacing: 1px; }
-    .scaling-law .annotation {
-      font-family: var(--serif); font-style: italic; font-size: 15px;
-      color: var(--dimmer); margin-top: 10px; letter-spacing: 0.5px;
+    .annotation .a-math {
+      font-family: var(--serif); font-size: 15px; color: var(--accent);
+      margin: 8px 0; letter-spacing: 0.5px;
     }
 
-    /* ── BRANCH GRID (three columns) ── */
-    .branch-grid {
-      display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px;
-      max-width: 720px; margin: 0 auto 8px; position: relative;
+    /* Bottom bar */
+    .bottom-bar {
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 20;
+      padding: 16px 28px 20px; text-align: center;
+      background: linear-gradient(to top, rgba(5,8,16,0.9) 0%, rgba(5,8,16,0.4) 70%, transparent);
+      pointer-events: none;
     }
-    .branch-grid .node { max-width: none; margin: 0; }
-
-    /* ── TWO-COL GRID ── */
-    .two-grid {
-      display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
-      max-width: 600px; margin: 0 auto 8px; position: relative;
+    .bottom-bar .hint {
+      font-size: 10px; color: rgba(180,200,220,0.3); letter-spacing: 1px;
     }
-    .two-grid .node { max-width: none; margin: 0; }
-
-    /* ── REALIZATION CARDS ── */
-    .real-grid {
-      display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
-      max-width: 600px; margin: 0 auto 8px;
-    }
-    .real-card {
-      padding: 16px 18px; border-radius: 8px;
-      background: rgba(255,255,255,0.02); border: 1px solid var(--line);
-      transition: border-color 0.3s, transform 0.2s;
-    }
-    .real-card:hover { border-color: rgba(110,193,228,0.25); transform: translateY(-1px); }
-    .real-card .obs { font-family: var(--serif); font-size: 20px; font-weight: 500; letter-spacing: 1px; }
-    .real-card .obs.c-red { color: var(--red); }
-    .real-card .obs.c-blue { color: var(--accent); }
-    .real-card .obs.c-gold { color: var(--gold); }
-    .real-card .obs.c-purple { color: var(--purple); }
-    .real-card .params { font-size: 11px; color: var(--dim); margin-top: 6px; line-height: 1.6; }
-    .real-card .result { font-size: 13px; color: var(--green); margin-top: 6px; font-weight: 500; }
-
-    /* ── CONSEQUENCE CARDS ── */
-    .conseq {
-      padding: 16px 20px; border-radius: 8px; max-width: 520px; margin: 0 auto 8px;
-      background: rgba(255,255,255,0.02); border: 1px solid rgba(120,160,200,0.1);
-    }
-    .conseq .title { font-family: var(--serif); font-size: 16px; color: #d0dce6; margin-bottom: 6px; }
-
-    /* ── FOOTER INSCRIPTION ── */
-    .inscription {
-      text-align: center; max-width: 560px; margin: 32px auto 0; padding: 24px 20px;
-      border-top: 1px solid rgba(110,193,228,0.1);
-    }
-    .inscription p {
-      font-family: var(--serif); font-size: 16px; font-style: italic;
-      color: var(--dimmer); letter-spacing: 0.5px; line-height: 1.8;
-    }
-    .inscription .closing {
-      font-size: 14px; color: rgba(180,200,220,0.3); margin-top: 16px; letter-spacing: 2px;
+    .bottom-bar .inscription {
+      font-family: var(--serif); font-size: 14px; font-style: italic;
+      color: rgba(180,200,220,0.25); letter-spacing: 0.5px; margin-top: 4px;
     }
 
-    /* ── FADE-IN ANIMATION ── */
-    .node, .postulate, .scaling-law, .real-card, .conseq, .branch-grid .node {
-      opacity: 0; transform: translateY(12px);
-      animation: fadeUp 0.5s ease forwards;
-    }
-    @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
-
-    /* stagger */
-    .flow > *:nth-child(1)  { animation-delay: 0.05s; }
-    .flow > *:nth-child(2)  { animation-delay: 0.1s; }
-    .flow > *:nth-child(3)  { animation-delay: 0.15s; }
-    .flow > *:nth-child(4)  { animation-delay: 0.2s; }
-    .flow > *:nth-child(5)  { animation-delay: 0.25s; }
-    .flow > *:nth-child(6)  { animation-delay: 0.3s; }
-    .flow > *:nth-child(7)  { animation-delay: 0.35s; }
-    .flow > *:nth-child(8)  { animation-delay: 0.4s; }
-    .flow > *:nth-child(9)  { animation-delay: 0.45s; }
-    .flow > *:nth-child(10) { animation-delay: 0.5s; }
-    .flow > *:nth-child(11) { animation-delay: 0.55s; }
-    .flow > *:nth-child(12) { animation-delay: 0.6s; }
-    .flow > *:nth-child(13) { animation-delay: 0.65s; }
-    .flow > *:nth-child(14) { animation-delay: 0.7s; }
-    .flow > *:nth-child(15) { animation-delay: 0.75s; }
-    .flow > *:nth-child(16) { animation-delay: 0.8s; }
-    .flow > *:nth-child(17) { animation-delay: 0.85s; }
-    .flow > *:nth-child(18) { animation-delay: 0.9s; }
-    .flow > *:nth-child(19) { animation-delay: 0.95s; }
-    .flow > *:nth-child(20) { animation-delay: 1.0s; }
-    .flow > *:nth-child(21) { animation-delay: 1.05s; }
-    .flow > *:nth-child(22) { animation-delay: 1.1s; }
-    .flow > *:nth-child(23) { animation-delay: 1.15s; }
-    .flow > *:nth-child(24) { animation-delay: 1.2s; }
-    .flow > *:nth-child(25) { animation-delay: 1.25s; }
-    .flow > *:nth-child(26) { animation-delay: 1.3s; }
-    .flow > *:nth-child(27) { animation-delay: 1.35s; }
-    .flow > *:nth-child(28) { animation-delay: 1.4s; }
-    .flow > *:nth-child(29) { animation-delay: 1.45s; }
-    .flow > *:nth-child(30) { animation-delay: 1.5s; }
-    .flow > *:nth-child(31) { animation-delay: 1.55s; }
-    .flow > *:nth-child(32) { animation-delay: 1.6s; }
-
-    .branch-grid .node, .real-grid .real-card, .two-grid .node { animation: fadeUp 0.5s ease forwards; }
-
-    /* ── TABLE inside nodes ── */
-    .node table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 11px; }
-    .node th { text-align: left; padding: 4px 6px; color: var(--dim); font-size: 9px; letter-spacing: 0.8px; text-transform: uppercase; border-bottom: 1px solid rgba(120,160,200,0.12); font-weight: 500; }
-    .node td { padding: 4px 6px; border-bottom: 1px solid rgba(120,160,200,0.06); }
-
-    .tag { display: inline-block; padding: 1px 6px; border-radius: 3px; font-size: 9px; font-weight: 600; letter-spacing: 0.5px; margin-right: 4px; }
-    .tag-blue { background: rgba(110,193,228,0.15); color: var(--accent); }
-    .tag-gold { background: rgba(240,192,64,0.15); color: var(--gold); }
-    .tag-green { background: rgba(139,196,160,0.15); color: var(--green); }
-
-    sup { font-size: 0.65em; vertical-align: super; }
-    sub { font-size: 0.65em; vertical-align: sub; }
-
-    @media (max-width: 600px) {
-      .header h1 { font-size: 24px; letter-spacing: 2px; }
-      .branch-grid { grid-template-columns: 1fr; max-width: 520px; }
-      .real-grid { grid-template-columns: 1fr; }
-      .two-grid { grid-template-columns: 1fr; }
-      .postulate .node-math { font-size: 20px; }
-      .scaling-law .node-math { font-size: 22px; }
-      .node-math { font-size: 18px; }
-      .flow::before { left: 20px; }
+    @media (max-width: 700px) {
+      .title-bar h1 { font-size: 20px; letter-spacing: 3px; }
+      .title-bar .eq { font-size: 12px; }
+      .controls { left: 12px; }
+      .ctrl-btn { min-width: 44px; padding: 10px; }
+      .ctrl-btn span { display: none; }
+      .annotation { right: 12px; max-width: 180px; padding: 14px; }
+      .annotation .a-name { font-size: 17px; }
     }
   </style>
 </head>
 <body>
 
-<div class="header">
-  <h1>THE ENGINE</h1>
-  <div class="sub">Derivation Map</div>
+<div class="title-bar">
+  <h1>THE POSTULATE</h1>
+  <div class="eq">S<sup>1</sup> = ∂(Mobius) ↪ S<sup>3</sup>, &nbsp; ∂S<sup>3</sup> = ∅</div>
 </div>
 
-<div class="flow">
-
-  <!-- ═══ POSTULATE ═══ -->
-  <div class="postulate">
-    <div class="node-label">Postulate</div>
-    <div class="node-math">S<sup>1</sup> = ∂(Mobius) ↪ S<sup>3</sup>, &nbsp; ∂S<sup>3</sup> = ∅</div>
-  </div>
-
-  <div class="spacer-sm"></div>
-  <span class="dot"></span>
-  <div class="spacer"></div>
-
-  <!-- ═══ THREE BRANCHES: BC | 120 Domain | Scale ═══ -->
-  <div class="branch-grid">
-
-    <!-- LEFT: Anti-periodic BC -->
-    <div class="node">
-      <div class="node-label">Boundary Condition</div>
-      <div class="node-math"><span class="small">ψ(y + L) = -ψ(y)</span></div>
-      <div class="node-body">
-        Half-integer modes: ν = m + ½<br>
-        Ground state m = 0:<br>
-        <span style="color:var(--green)">ψ<sub>0</sub> = sin(πΘ)</span>
-      </div>
-    </div>
-
-    <!-- CENTER: 120 Domain -->
-    <div class="node">
-      <div class="node-label">120 Domain</div>
-      <div class="node-math"><span class="small">|2I| = 120</span></div>
-      <div class="node-body">
-        Native to S<sup>3</sup> ≅ SU(2)<br>
-        Domain: 120 positions<br>
-        Hurwitz → <span style="color:var(--gold)">Fibonacci wells</span><br>
-        <span style="font-size:10px">{13, 21, 34, 55, 60}/120</span>
-      </div>
-    </div>
-
-    <!-- RIGHT: Bounded Scale -->
-    <div class="node">
-      <div class="node-label">Bounded Domain</div>
-      <div class="node-math"><span class="small">ℓ<sub>P</sub> → R<sub>H</sub></span></div>
-      <div class="node-body">
-        Spans 10<sup>122</sup><br>
-        IR↔UV: x ↦ Ω/x<br>
-        Fixed point: x = √Ω<br>
-        <span style="color:var(--accent)">√Ω ≈ 10<sup>61</sup></span>
-        <span style="font-size:10px;color:var(--dimmer)">The observer</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="spacer-sm"></div>
-  <span class="dot green"></span>
-  <div class="spacer"></div>
-
-  <!-- ═══ TWO BRANCHES: Phase Operator | Embedding ═══ -->
-  <div class="two-grid">
-
-    <!-- LEFT: Bosonic Filter → C(Θ) -->
-    <div class="node">
-      <div class="node-label">Bosonic Filter → Phase Operator</div>
-      <div class="node-math">C(Θ) = 2 sin<sup>2</sup>(πΘ)</div>
-      <div class="node-body">
-        |ψ|<sup>2</sup> projects 2I → I<br>
-        60R-grid (even only)<br>
-        <span style="color:var(--gold)">Position on the wave</span>
-      </div>
-    </div>
-
-    <!-- RIGHT: Embedding Hierarchy -->
-    <div class="node">
-      <div class="node-label">Embedding Hierarchy</div>
-      <div class="node-math"><span class="small">S<sup>1</sup> ⊂ Mobius ⊂ S<sup>3</sup></span></div>
-      <div class="node-body">
-        Volume dilution: V<sub>n</sub> ~ (√Ω)<sup>n</sup><br>
-        Squared amplitude: |ψ|<sup>2</sup> ~ (√Ω)<sup>-n</sup><br>
-        <span style="color:var(--accent)">How far from Planck, on which manifold</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="spacer-sm"></div>
-  <span class="dot purple"></span>
-  <div class="spacer"></div>
-
-  <!-- ═══ SELECTION RULES ═══ -->
-  <div class="node" style="max-width:560px">
-    <div class="node-label">Selection Rules</div>
-    <table>
-      <thead><tr><th>n</th><th>Manifold</th><th>Scale</th><th>Observables</th></tr></thead>
-      <tbody>
-        <tr><td>1</td><td>Edge S<sup>1</sup></td><td><span class="tag tag-blue">Ω<sub>H</sub></span></td><td>H<sub>0</sub>, a<sub>0</sub></td></tr>
-        <tr><td>2</td><td>Surface</td><td><span class="tag tag-gold">Ω<sub>Λ</sub></span></td><td>Λ</td></tr>
-        <tr><td>3</td><td>Space S<sup>3</sup></td><td><span class="tag tag-gold">Ω<sub>Λ</sub></span></td><td>Null "dark matter"</td></tr>
-        <tr><td>3/2</td><td>Interface</td><td></td><td>Gravity (Gauss-Codazzi)</td></tr>
-      </tbody>
-    </table>
-    <div class="node-body" style="margin-top:10px">If it evolves with epoch → Ω<sub>H</sub>. If it is set by the surface → Ω<sub>Λ</sub>.</div>
-  </div>
-
-  <div class="spacer-sm"></div>
-  <span class="dot gold"></span>
-  <div class="spacer"></div>
-
-  <!-- ═══ THE SCALING LAW ═══ -->
-  <div class="scaling-law">
-    <div class="node-label">The Scaling Law</div>
-    <div class="node-math">A / A<sub>P</sub> ≈ C(Θ) · (√Ω)<sup>-n</sup></div>
-    <div class="annotation">The event occurs at (t, Θ)</div>
-  </div>
-
-  <div class="spacer-sm"></div>
-  <span class="dot gold"></span>
-  <div class="spacer"></div>
-
-  <!-- ═══ FOUR NUMERICAL REALIZATIONS ═══ -->
-  <div class="real-grid">
-    <div class="real-card">
-      <div class="obs c-red">a<sub>0</sub></div>
-      <div class="params">
-        Θ = 13/120 · n = 1 · Ω<sub>H</sub><br>
-        C = 0.22
-      </div>
-      <div class="result">→ 2.2 × 10<sup>-62</sup> a<sub>P</sub></div>
-    </div>
-    <div class="real-card">
-      <div class="obs c-blue">H<sub>0</sub></div>
-      <div class="params">
-        Θ = 34/120 · n = 1 · Ω<sub>H</sub><br>
-        C = 1.21
-      </div>
-      <div class="result">→ 1.2 × 10<sup>-61</sup> t<sub>P</sub><sup>-1</sup></div>
-    </div>
-    <div class="real-card">
-      <div class="obs c-gold">Λ</div>
-      <div class="params">
-        Θ = 60/120 · n = 2 · Ω<sub>Λ</sub><br>
-        C = 2.00
-      </div>
-      <div class="result">→ 3.0 × 10<sup>-122</sup> ℓ<sub>P</sub><sup>-2</sup></div>
-    </div>
-    <div class="real-card">
-      <div class="obs c-purple">α</div>
-      <div class="params">
-        Θ = 13/60 · n = 1/30 · Ω<sub>Λ</sub><br>
-        C = 0.79
-      </div>
-      <div class="result">→ 0.00733</div>
-    </div>
-  </div>
-
-  <div class="spacer-sm"></div>
-  <span class="dot red"></span>
-  <div class="spacer"></div>
-
-  <!-- ═══ TWO CONSEQUENCES: Phase Field | Gauss-Codazzi ═══ -->
-  <div class="two-grid">
-    <div class="node">
-      <div class="node-label">Phase Field</div>
-      <div class="node-math"><span class="small">Θ<sub>f</sub> = <sup>2</sup>/<sub>120</sub> · 𝟙(𝒯 ≥ 𝒯<sub>c</sub>)</span></div>
-      <div class="node-body">
-        L<sub>f</sub> = v<sub>c</sub><sup>2</sup>/a<sub>0</sub> ≈ 13 kpc<br>
-        <span style="color:var(--green)">H<sub>0</sub> shifts 8.4%</span><br>
-        <span style="font-size:10px">67.4 × 1.084 ≈ 73 km/s/Mpc</span>
-      </div>
-    </div>
-    <div class="node">
-      <div class="node-label">Gauss-Codazzi</div>
-      <div class="node-math"><span class="small">Λ<sub>obs</sub> = <sup>3</sup>/<sub>2</sub> Λ<sub>top</sub></span></div>
-      <div class="node-body">
-        R<sub>Σ</sub> = Λ<sub>top</sub> (intrinsic surface curvature)<br>
-        R<sub>spatial</sub> = 3R<sub>Σ</sub> = 2Λ<br>
-        <span style="color:var(--accent)">3D embedding of 2D surface</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="spacer"></div>
-
-  <!-- ═══ INSCRIPTION ═══ -->
-  <div class="inscription">
-    <p>Topology sets what is possible.<br>The wave expresses the boundary.<br>Sampling resolves the domain.</p>
-    <div class="closing"><em>The identity is the wave Ψ</em></div>
-  </div>
-
+<div class="controls">
+  <button class="ctrl-btn active" data-layer="space" id="btnSpace">
+    <div class="indicator ind-space"></div>
+    <span>S<sup>3</sup> Space</span>
+  </button>
+  <button class="ctrl-btn active" data-layer="surface" id="btnSurface">
+    <div class="indicator ind-surface"></div>
+    <span>Mobius Surface</span>
+  </button>
+  <button class="ctrl-btn active" data-layer="edge" id="btnEdge">
+    <div class="indicator ind-edge"></div>
+    <span>S<sup>1</sup> Edge</span>
+  </button>
+  <button class="ctrl-btn" data-layer="wave" id="btnWave">
+    <div class="indicator ind-wave"></div>
+    <span>Wave &Psi;</span>
+  </button>
 </div>
 
+<div class="annotation" id="annotPanel">
+  <div class="a-label" id="aLabel">Topology</div>
+  <div class="a-name" id="aName">Three Nested Manifolds</div>
+  <div class="a-body" id="aBody">
+    The temporal edge S<sup>1</sup> bounds the Mobius surface. The surface embeds in hypersphere space S<sup>3</sup>. The space has no boundary.
+  </div>
+  <div class="a-math" id="aMath"></div>
+</div>
+
+<div class="bottom-bar">
+  <div class="hint">drag to orbit · scroll to zoom · click layers to toggle</div>
+  <div class="inscription">The identity is the wave &Psi;</div>
+</div>
+
+<canvas id="c"></canvas>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(function() {
+
+// ── Scene setup ──
+var W = window.innerWidth, H = window.innerHeight;
+var scene = new THREE.Scene();
+var camera = new THREE.PerspectiveCamera(45, W/H, 0.1, 100);
+camera.position.set(0, 1.2, 5);
+camera.lookAt(0, 0, 0);
+
+var renderer = new THREE.WebGLRenderer({
+  canvas: document.getElementById('c'),
+  antialias: true, alpha: true
+});
+renderer.setSize(W, H);
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+renderer.setClearColor(0x050810, 1);
+
+// ── Lighting ──
+var amb = new THREE.AmbientLight(0x405060, 0.6);
+scene.add(amb);
+var dir1 = new THREE.DirectionalLight(0x8ec8f0, 0.8);
+dir1.position.set(3, 4, 5);
+scene.add(dir1);
+var dir2 = new THREE.DirectionalLight(0xf08060, 0.3);
+dir2.position.set(-3, -2, -3);
+scene.add(dir2);
+var pt = new THREE.PointLight(0x6ec1e4, 0.5, 10);
+pt.position.set(0, 0, 0);
+scene.add(pt);
+
+// ── Stars background ──
+var starGeo = new THREE.BufferGeometry();
+var starPos = [];
+for (var i = 0; i < 2000; i++) {
+  var r = 20 + Math.random() * 30;
+  var th = Math.random() * Math.PI * 2;
+  var ph = Math.acos(2 * Math.random() - 1);
+  starPos.push(r * Math.sin(ph) * Math.cos(th), r * Math.sin(ph) * Math.sin(th), r * Math.cos(ph));
+}
+starGeo.setAttribute('position', new THREE.Float32BufferAttribute(starPos, 3));
+var starMat = new THREE.PointsMaterial({ color: 0xffffff, size: 0.08, transparent: true, opacity: 0.6 });
+scene.add(new THREE.Points(starGeo, starMat));
+
+// ═══════════════════════════════════════════
+//  S³ SPHERE (translucent wireframe)
+// ═══════════════════════════════════════════
+var sphereR = 1.85;
+var sphereGeo = new THREE.SphereGeometry(sphereR, 48, 32);
+
+// Transparent shell
+var sphereShell = new THREE.Mesh(sphereGeo, new THREE.MeshPhysicalMaterial({
+  color: 0x4488cc, transparent: true, opacity: 0.06,
+  roughness: 0.3, metalness: 0.1, side: THREE.DoubleSide,
+  depthWrite: false
+}));
+scene.add(sphereShell);
+
+// Wireframe grid (like lat/long lines)
+var wireGeo = new THREE.SphereGeometry(sphereR * 1.001, 24, 16);
+var wireMat = new THREE.MeshBasicMaterial({
+  color: 0x6ec1e4, wireframe: true, transparent: true, opacity: 0.06,
+  depthWrite: false
+});
+var sphereWire = new THREE.Mesh(wireGeo, wireMat);
+scene.add(sphereWire);
+
+// Subtle rim glow using a slightly larger sphere
+var glowGeo = new THREE.SphereGeometry(sphereR * 1.02, 32, 24);
+var glowMat = new THREE.MeshBasicMaterial({
+  color: 0x4488cc, transparent: true, opacity: 0.03,
+  side: THREE.BackSide, depthWrite: false
+});
+var sphereGlow = new THREE.Mesh(glowGeo, glowMat);
+scene.add(sphereGlow);
+
+var spaceGroup = [sphereShell, sphereWire, sphereGlow];
+
+// ═══════════════════════════════════════════
+//  MOBIUS STRIP (parametric, vertex-colored)
+// ═══════════════════════════════════════════
+var MR = 1.0;   // major radius
+var MW = 0.45;  // half-width
+var NU = 200;   // u segments
+var NV = 30;    // v segments
+
+function mobiusPos(u, v) {
+  var x = (MR + v * Math.cos(u / 2)) * Math.cos(u);
+  var y = (MR + v * Math.cos(u / 2)) * Math.sin(u);
+  var z = v * Math.sin(u / 2);
+  return [x, y, z];
+}
+
+var mGeo = new THREE.BufferGeometry();
+var mVerts = [], mColors = [], mIndices = [], mNorms = [];
+
+for (var i = 0; i <= NU; i++) {
+  var u = (i / NU) * Math.PI * 2;
+  for (var j = 0; j <= NV; j++) {
+    var v = -MW + (j / NV) * 2 * MW;
+    var p = mobiusPos(u, v);
+    mVerts.push(p[0], p[1], p[2]);
+
+    // Color: HSL cycling hue with u, saturation varies with v
+    var hue = (i / NU) * 360;
+    var sat = 0.5 + 0.3 * Math.abs(v / MW);
+    var light = 0.45 + 0.15 * (v / MW);
+    var c = new THREE.Color();
+    c.setHSL(hue / 360, sat, light);
+    mColors.push(c.r, c.g, c.b);
+
+    // Normal (approximate via cross product of partial derivatives)
+    var du = 0.001, dv = 0.001;
+    var pu = mobiusPos(u + du, v), pv = mobiusPos(u, v + dv);
+    var tu = [pu[0]-p[0], pu[1]-p[1], pu[2]-p[2]];
+    var tv = [pv[0]-p[0], pv[1]-p[1], pv[2]-p[2]];
+    var nx = tu[1]*tv[2] - tu[2]*tv[1];
+    var ny = tu[2]*tv[0] - tu[0]*tv[2];
+    var nz = tu[0]*tv[1] - tu[1]*tv[0];
+    var nl = Math.sqrt(nx*nx + ny*ny + nz*nz) || 1;
+    mNorms.push(nx/nl, ny/nl, nz/nl);
+  }
+}
+
+for (var i = 0; i < NU; i++) {
+  for (var j = 0; j < NV; j++) {
+    var a = i * (NV + 1) + j;
+    var b = a + NV + 1;
+    mIndices.push(a, b, a + 1);
+    mIndices.push(b, b + 1, a + 1);
+  }
+}
+
+mGeo.setAttribute('position', new THREE.Float32BufferAttribute(mVerts, 3));
+mGeo.setAttribute('color', new THREE.Float32BufferAttribute(mColors, 3));
+mGeo.setAttribute('normal', new THREE.Float32BufferAttribute(mNorms, 3));
+mGeo.setIndex(mIndices);
+
+var mobiusMat = new THREE.MeshPhongMaterial({
+  vertexColors: true, side: THREE.DoubleSide,
+  transparent: true, opacity: 0.85,
+  shininess: 40, specular: 0x334455
+});
+var mobiusMesh = new THREE.Mesh(mGeo, mobiusMat);
+scene.add(mobiusMesh);
+
+// Mesh wireframe overlay (faint triangulation like the TopNoTag image)
+var mobiusWire = new THREE.Mesh(mGeo.clone(), new THREE.MeshBasicMaterial({
+  color: 0x000000, wireframe: true, transparent: true, opacity: 0.08
+}));
+scene.add(mobiusWire);
+
+var surfaceGroup = [mobiusMesh, mobiusWire];
+
+// ═══════════════════════════════════════════
+//  S¹ BOUNDARY EDGE (red/coral glowing line)
+// ═══════════════════════════════════════════
+// The boundary of the Mobius strip is a single closed curve.
+// Trace v = +MW as u goes 0 to 4π (traverses the strip twice to close).
+var edgePts = [];
+var EDGE_N = 600;
+for (var i = 0; i <= EDGE_N; i++) {
+  var u = (i / EDGE_N) * Math.PI * 4;
+  // The boundary alternates between v=+MW and v=-MW across the half-twist
+  var vSign = (i <= EDGE_N / 2) ? MW : -MW;
+  // Actually, for a continuous boundary: parametrize as v = MW, u from 0 to 4π
+  var p = mobiusPos(u, MW);
+  edgePts.push(new THREE.Vector3(p[0], p[1], p[2]));
+}
+
+// Core edge line
+var edgeCurve = new THREE.BufferGeometry().setFromPoints(edgePts);
+var edgeCore = new THREE.Line(edgeCurve, new THREE.LineBasicMaterial({
+  color: 0xe85040, linewidth: 2, transparent: true, opacity: 0.95
+}));
+scene.add(edgeCore);
+
+// Glow edge (wider, dimmer)
+var edgeGlow = new THREE.Line(edgeCurve.clone(), new THREE.LineBasicMaterial({
+  color: 0xff6050, linewidth: 1, transparent: true, opacity: 0.35
+}));
+scene.add(edgeGlow);
+
+// Edge particle markers
+var edgeDotGeo = new THREE.BufferGeometry();
+var edgeDotPos = [];
+for (var i = 0; i < EDGE_N; i += 8) {
+  edgeDotPos.push(edgePts[i].x, edgePts[i].y, edgePts[i].z);
+}
+edgeDotGeo.setAttribute('position', new THREE.Float32BufferAttribute(edgeDotPos, 3));
+var edgeDots = new THREE.Points(edgeDotGeo, new THREE.PointsMaterial({
+  color: 0xff8060, size: 0.03, transparent: true, opacity: 0.6
+}));
+scene.add(edgeDots);
+
+var edgeGroup = [edgeCore, edgeGlow, edgeDots];
+
+// ═══════════════════════════════════════════
+//  WAVE Ψ = cos(t/2) along the edge
+// ═══════════════════════════════════════════
+var waveGeo = new THREE.BufferGeometry();
+var wavePts = [];
+var WAVE_N = 400;
+for (var i = 0; i <= WAVE_N; i++) {
+  var u = (i / WAVE_N) * Math.PI * 4;
+  var p = mobiusPos(u, MW);
+  // Displace outward by Ψ = cos(u/2)
+  var psi = Math.cos(u / 2) * 0.2;
+  // Get approximate outward normal at the edge
+  var p2 = mobiusPos(u, MW * 0.9);
+  var dx = p[0] - p2[0], dy = p[1] - p2[1], dz = p[2] - p2[2];
+  var dl = Math.sqrt(dx*dx + dy*dy + dz*dz) || 1;
+  wavePts.push(
+    new THREE.Vector3(p[0] + psi * dx/dl, p[1] + psi * dy/dl, p[2] + psi * dz/dl)
+  );
+}
+
+var waveLine = new THREE.Line(
+  new THREE.BufferGeometry().setFromPoints(wavePts),
+  new THREE.LineBasicMaterial({ color: 0xf0c040, transparent: true, opacity: 0.8, linewidth: 1 })
+);
+waveLine.visible = false;
+scene.add(waveLine);
+
+// Wave glow
+var waveGlow = new THREE.Line(
+  new THREE.BufferGeometry().setFromPoints(wavePts),
+  new THREE.LineBasicMaterial({ color: 0xf0c040, transparent: true, opacity: 0.2, linewidth: 1 })
+);
+waveGlow.visible = false;
+scene.add(waveGlow);
+
+var waveGroup = [waveLine, waveGlow];
+
+// ═══════════════════════════════════════════
+//  ORBIT CONTROLS (manual implementation)
+// ═══════════════════════════════════════════
+var orbitTheta = 0.35;  // azimuthal
+var orbitPhi = 0.3;     // polar (from top)
+var orbitDist = 5;
+var targetTheta = orbitTheta, targetPhi = orbitPhi, targetDist = orbitDist;
+var dragging = false, prevX = 0, prevY = 0;
+var autoRotate = true;
+
+function updateCamera() {
+  orbitTheta += (targetTheta - orbitTheta) * 0.08;
+  orbitPhi += (targetPhi - orbitPhi) * 0.08;
+  orbitDist += (targetDist - orbitDist) * 0.08;
+  orbitPhi = Math.max(0.1, Math.min(Math.PI - 0.1, orbitPhi));
+  orbitDist = Math.max(2.5, Math.min(10, orbitDist));
+  camera.position.set(
+    orbitDist * Math.sin(orbitPhi) * Math.cos(orbitTheta),
+    orbitDist * Math.cos(orbitPhi),
+    orbitDist * Math.sin(orbitPhi) * Math.sin(orbitTheta)
+  );
+  camera.lookAt(0, 0, 0);
+}
+
+document.addEventListener('mousedown', function(e) {
+  if (e.target.closest('.controls, .annotation')) return;
+  dragging = true; prevX = e.clientX; prevY = e.clientY; autoRotate = false;
+});
+document.addEventListener('mousemove', function(e) {
+  if (!dragging) return;
+  var dx = e.clientX - prevX, dy = e.clientY - prevY;
+  targetTheta -= dx * 0.005;
+  targetPhi -= dy * 0.005;
+  prevX = e.clientX; prevY = e.clientY;
+});
+document.addEventListener('mouseup', function() { dragging = false; });
+document.addEventListener('wheel', function(e) {
+  targetDist += e.deltaY * 0.003;
+  autoRotate = false;
+});
+
+// Touch support
+document.addEventListener('touchstart', function(e) {
+  if (e.target.closest('.controls, .annotation')) return;
+  if (e.touches.length === 1) {
+    dragging = true; prevX = e.touches[0].clientX; prevY = e.touches[0].clientY; autoRotate = false;
+  }
+}, { passive: true });
+document.addEventListener('touchmove', function(e) {
+  if (!dragging || e.touches.length !== 1) return;
+  var dx = e.touches[0].clientX - prevX, dy = e.touches[0].clientY - prevY;
+  targetTheta -= dx * 0.005;
+  targetPhi -= dy * 0.005;
+  prevX = e.touches[0].clientX; prevY = e.touches[0].clientY;
+}, { passive: true });
+document.addEventListener('touchend', function() { dragging = false; });
+
+// ═══════════════════════════════════════════
+//  LAYER TOGGLES
+// ═══════════════════════════════════════════
+var layers = { space: true, surface: true, edge: true, wave: false };
+
+var annotations = {
+  space: {
+    label: "Space", name: "S\u00B3 Hypersphere",
+    body: "Closed, simply connected, no boundary. The Poincar\u00E9 theorem guarantees S\u00B3 is unique among closed 3-manifolds. Contains everything. Holds everything.",
+    math: "\u2202S\u00B3 = \u2205"
+  },
+  surface: {
+    label: "Surface", name: "Mobius Strip",
+    body: "Non-orientable. One boundary. A field traversing the surface returns to minus itself. The unique non-orientable surface with a single boundary component.",
+    math: "\u03C8(y + L) = \u2212\u03C8(y)"
+  },
+  edge: {
+    label: "Edge", name: "S\u00B9 Temporal Boundary",
+    body: "The boundary of the Mobius surface. Phase advances along this edge. Time is not a container; it is the boundary of a surface. Period 4\u03C0. One lap returns negative.",
+    math: "S\u00B9 = \u2202(Mobius)"
+  },
+  wave: {
+    label: "Wave", name: "\u03A8 = cos(t/2)",
+    body: "The standing wave on the edge. Cosine because t = 0 is a maximum. Anti-periodicity requires period 4\u03C0. Present epoch at t \u2248 5.22 rad. This is the wave everything samples.",
+    math: "\u03A8 = cos(t/2)"
+  }
+};
+
+function setAnnotation(key) {
+  var a = annotations[key];
+  document.getElementById('aLabel').textContent = a.label;
+  document.getElementById('aName').innerHTML = a.name;
+  document.getElementById('aBody').innerHTML = a.body;
+  document.getElementById('aMath').textContent = a.math;
+}
+
+function applyLayers() {
+  spaceGroup.forEach(function(m) { m.visible = layers.space; });
+  surfaceGroup.forEach(function(m) { m.visible = layers.surface; });
+  edgeGroup.forEach(function(m) { m.visible = layers.edge; });
+  waveGroup.forEach(function(m) { m.visible = layers.wave; });
+}
+
+document.querySelectorAll('.ctrl-btn').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    var key = btn.dataset.layer;
+    layers[key] = !layers[key];
+    btn.classList.toggle('active', layers[key]);
+    applyLayers();
+    if (layers[key]) setAnnotation(key);
+    autoRotate = false;
+  });
+});
+
+applyLayers();
+
+// ═══════════════════════════════════════════
+//  ANIMATION LOOP
+// ═══════════════════════════════════════════
+var clock = new THREE.Clock();
+
+function animate() {
+  requestAnimationFrame(animate);
+  var t = clock.getElapsedTime();
+
+  // Auto-rotate
+  if (autoRotate) {
+    targetTheta += 0.002;
+  }
+  updateCamera();
+
+  // Gentle surface breathing
+  if (layers.surface) {
+    mobiusMat.opacity = 0.8 + 0.05 * Math.sin(t * 0.5);
+  }
+
+  // Edge pulse
+  if (layers.edge) {
+    edgeCore.material.opacity = 0.85 + 0.1 * Math.sin(t * 1.5);
+    edgeGlow.material.opacity = 0.25 + 0.1 * Math.sin(t * 1.5 + 0.5);
+  }
+
+  // Sphere subtle breathe
+  if (layers.space) {
+    sphereShell.material.opacity = 0.05 + 0.02 * Math.sin(t * 0.3);
+  }
+
+  // Wave animation: phase shift
+  if (layers.wave) {
+    var wPos = waveLine.geometry.attributes.position.array;
+    for (var i = 0; i <= WAVE_N; i++) {
+      var u = (i / WAVE_N) * Math.PI * 4;
+      var p = mobiusPos(u, MW);
+      var psi = Math.cos(u / 2 - t * 0.4) * 0.2;
+      var p2 = mobiusPos(u, MW * 0.9);
+      var dx = p[0]-p2[0], dy = p[1]-p2[1], dz = p[2]-p2[2];
+      var dl = Math.sqrt(dx*dx+dy*dy+dz*dz) || 1;
+      wPos[i*3]   = p[0] + psi * dx/dl;
+      wPos[i*3+1] = p[1] + psi * dy/dl;
+      wPos[i*3+2] = p[2] + psi * dz/dl;
+    }
+    waveLine.geometry.attributes.position.needsUpdate = true;
+
+    // Copy to glow
+    var gPos = waveGlow.geometry.attributes.position.array;
+    for (var i = 0; i < wPos.length; i++) gPos[i] = wPos[i];
+    waveGlow.geometry.attributes.position.needsUpdate = true;
+
+    waveLine.material.opacity = 0.7 + 0.15 * Math.sin(t);
+  }
+
+  renderer.render(scene, camera);
+}
+
+animate();
+
+// ── Resize ──
+window.addEventListener('resize', function() {
+  W = window.innerWidth; H = window.innerHeight;
+  camera.aspect = W / H;
+  camera.updateProjectionMatrix();
+  renderer.setSize(W, H);
+});
+
+// ── Annotation cycling on auto-rotate ──
+var annotKeys = ['space', 'surface', 'edge'];
+var annotIdx = 0;
+setInterval(function() {
+  if (!autoRotate) return;
+  annotIdx = (annotIdx + 1) % annotKeys.length;
+  setAnnotation(annotKeys[annotIdx]);
+}, 6000);
+
+})();
+</script>
 </body>
 </html>
