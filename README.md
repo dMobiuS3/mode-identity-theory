@@ -2,17 +2,19 @@
 
 $$\Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
 
-The temporal edge $S^1$ bounds the non-orientable Mobius surface, embedded in the closed hypersphere $S^3$, which has no boundary. One postulate. One scaling law:
+The temporal edge $S^1$ bounds the non-orientable Möbius surface, embedded in the closed hypersphere $S^3$, which has no boundary. One postulate. One scaling law:
 
 $$\Large \boxed{A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
-$C(\Theta)$ is where on the wave Ψ. $(\sqrt{\Omega})^{-n}$ is how far from Planck, on which manifold. 
+$C(\Theta)$ is where on the wave $\Psi$.
 
-The constants of the universe follow across 122 orders of magnitude with no free parameters. Fermionic mass is realized through the structure.
+$(\sqrt{\Omega})^{-n}$ is how far from Planck, on which manifold.
 
-Standard physics sees matter as fundamental: particles exist, and they sometimes behave like waves. This framework inverts the premise: Waves exist, and the universe samples them. Particles are where the wave resolved when you looked. Time is the edge of the wave, not a container for events. The observer is the position $\sqrt{\Omega} \approx 10^{61}$ where the bounded domain resolves to finite value. The 122-order "discrepancy" of Λ is not a coincidentaly large number, is the dimensional projection from where we stand.
+Their product yields $A/A_P$ : the modal realization, the ratio of the observable amplitude over its Planck-scale reference. 
 
-Everything derived traces to and from the flip.
+The sample occurs at $(t, \Theta)$.
+
+The constants of the universe follow across 122 orders of magnitude with no free parameters. Fermionic mass is realized through the same structure.
 
 ---
 
