@@ -22,9 +22,9 @@ The constants of the universe follow across 122 orders of magnitude, and fermion
 
 | Folder | Contents |
 |---|---|
-| [`framework/`](framework/) | Core derivation from topology to scaling law. |
-| [`cosmos/`](cosmos/) | Five foundations resolve five cosmological anomalies, one-to-one. |
-| [`spectrum/`](spectrum/) | The same boundary produces confinement, fine structure, gravity, and 24 mass predictions. |
+| **[`framework/`](framework/)** | Core derivation from topology to scaling law. |
+| **[`cosmos/`](cosmos/)** | Five foundations resolve five cosmological anomalies, one-to-one. |
+| **[`spectrum/`](spectrum/)** | The same boundary produces confinement, fine structure, gravity, and 24 mass predictions. |
 
 ---
 
