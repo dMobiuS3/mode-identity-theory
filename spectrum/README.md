@@ -32,8 +32,8 @@ Five anomalies resolved from the boundary outward. Inverting the question inward
 
 | Observable | Predicted | Observed | Agreement |
 |---|---|---|---|
-| Particle generations | 3 | 3 | exact |
 | Mass gap | > 0 | confinement observed | ✓ |
+| Particle generations | 3 | 3 | exact |
 | $\alpha$ | 0.00733 | 0.007297 | 0.5% |
 | $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
 | $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
