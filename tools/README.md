@@ -1,12 +1,12 @@
 ## Tools
 
-Run the postulate, trace the derivation, compute the outputs. Every link between topology and observable is live. The code is the math.
+Every link between topology and observable is live. The code is the math. There are no hidden knobs.
 
-**[The Postulate](https://dmobius3.github.io/mode-identity-theory/tools/postulate.html)**
+**[Visualize the Postulate](https://dmobius3.github.io/mode-identity-theory/tools/postulate.html)**
 
-**[The Engine](https://dmobius3.github.io/mode-identity-theory/tools/engine.html)**
+**[Follow the Engine](https://dmobius3.github.io/mode-identity-theory/tools/engine.html)**
 
-**[Interactive Calculator](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
+**[Run the Calculations](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
 
 ---
 
