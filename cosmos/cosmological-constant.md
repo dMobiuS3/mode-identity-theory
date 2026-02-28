@@ -248,7 +248,7 @@ The 3 is because the venue ($S^3$) is three-dimensional. The 2 is how General Re
 
 The derivation yields:
 
-$$\Lambda_\text{obs} = \frac{3}{R^2}$$
+$$\Large \boxed{\Lambda_\text{obs} = \frac{3}{R^2}}$$
 
 The coefficient 3 decomposes as two locked factors. The antinode intensity $C(60/120) = 2$: the ground mode sampled at the midpoint carries twice the mean intensity. The Gauss-Codazzi conversion 3/2: intrinsic 2D curvature maps to observed 3D spatial curvature through the embedding interface. Their product: 2 x 3/2 = 3.
 
