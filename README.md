@@ -1,74 +1,58 @@
 # Mode Identity Theory
 
-**One postulate. Everything else derives.**
+$$S^1 = \partial(\text{Mobius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$$
 
-$$S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$$
+The temporal edge $S^1$ bounds the non-orientable Mobius surface, embedded in the closed hypersphere $S^3$, which has no boundary. One postulate. One scaling law:
 
----
+$$A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$$
 
-## Preface
+$C(\Theta)$ is where on the wave Ψ. $(\sqrt{\Omega})^{-n}$ is how far from Planck, on which manifold. 
 
-Standard physics sees matter as fundamental: particles exist, and they sometimes behave like waves. Mode Identity Theory inverts this. Waves exist, and the universe samples them. Particles are modal realizations of that return. This is not a philosophical preference; it determines which questions are well-formed.
+The constants of the universe follow across 122 orders of magnitude with no free parameters. Fermionic mass is realized through the structure.
 
-Standard physics treats time as a background coordinate through which the universe evolves. Here, time didn't begin; it emerged as the boundary of our domain. "13.8 billion years" marks where we are on the standing wave Ψ, not how long we've been waiting.
+Standard physics sees matter as fundamental: particles exist, and they sometimes behave like waves. This framework inverts the premise: Waves exist, and the universe samples them. Particles are where the wave resolved when you looked. Time is the edge of the wave, not a container for events. The observer is the position $\sqrt{\Omega} \approx 10^{61}$ where the bounded domain resolves to finite value. The 122-order "discrepancy" of Λ is not a coincidentaly large number, is the dimensional projection from where we stand.
 
-Standard physics treats the observer as external to the system. This framework treats the observer as constitutive: the position where the ratio ∞/0 yields a defined number. The bounded domain at √Ω where the wave resolves to finite value.
-
-While standard cosmology views space as uniformly three-dimensional, MIT sees effective dimension as scale-dependent: the horizon scales with 2D area, not with our local perception of 3D volume. The 122-order discrepancy of Λ is not a coincidentally large number, but the dimensional projection from where we stand.
-
-Everything here traces to one topological postulate. The temporal edge S¹ bounds the non-orientable Möbius surface, embedded in the closed hypersphere S³, which has no boundary. The edge bounds the surface in space. One scaling law follows:
-
-$$A/A_P \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}$$
-
-It derives the constants of the universe across 122 orders of magnitude with zero free parameters. Topology holds. Wave is. Particle samples.
-
----
+Everything derived traces to and from the flip.
 
 ## Repository
 
 | Folder | Contents |
-|--------|----------|
-| [`framework/`](framework/) | The instrument. Core theory, Yang-Mills mass gap, and the mathematical structure bridging topology to physics. |
-| [`cosmos/`](cosmos/) | Boundary outward. Five cosmological predictions from the standing wave, plus pre-registered falsification against Euclid DR1. |
-| [`spectrum/`](spectrum/) | Boundary inward. The fine structure constant, the mass formula, and gravity as the step between them. |
-
----
+|---|---|
+| [`framework/`](framework/) | The instrument. Core derivation from topology to scaling law. |
+| [`cosmos/`](cosmos/) | Boundary outward. Five foundations produce five anomalies, one-to-one. |
+| [`spectrum/`](spectrum/) | Boundary inward. Confinement, fine structure, gravity, and 24 mass predictions. |
 
 ## Scorecard
 
-Blind outputs of the scaling law, checked against observation:
+Blind outputs of a fixed structure, checked against observation:
 
 | Observable | Predicted | Observed | Agreement |
-|-----------|-----------|----------|-----------|
-| α | 0.00733 | 0.007297 | ~0.5% |
-| a₀/(cH₀) | 0.184 | 0.183 | <1% |
-| H₀ local shift | 8.4% | ~8.7% | <1% |
-| Λ · ℓ_P² | 3.0 × 10⁻¹²² | 2.84 × 10⁻¹²² | ~5% |
-| m_e | 5.21 × 10⁻⁴ GeV | 5.11 × 10⁻⁴ GeV | 2% |
-| m_u | 2.03 × 10⁻³ GeV | 2.16 × 10⁻³ GeV | 6% |
-| m_μ | 1.03 × 10⁻¹ GeV | 1.057 × 10⁻¹ GeV | 2% |
-| 12 SM fermions | 24 entries | 12 targets | 10/12 ≤ 3× |
+|---|---|---|---|
+| $\alpha$ | 0.00733 | 0.007297 | 0.5% |
+| $a_0 / (cH_0)$ | 0.184 | 0.183 | < 1% |
+| $H_0$ local shift | 8.4% | ~8.7% (67.4 to 73.2) | < 1% |
+| $\Lambda_{\text{obs}} \cdot \ell_P^2$ | $3.0 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~5% |
+| $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
+| $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
+| $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | 2% |
+| Particle generations | 3 | 3 | exact |
+| Mass gap | > 0 | confinement observed | ✓ |
+| 12 SM fermions | 24 entries | All 12 within x10 | 10 of 12 within x3 |
+| CMB multipole cut | ~31 | deficit below ~30 | ✓ |
+| CMB parity | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
+| CMB alignment | ~13° | ~10° | ~ |
 
----
+## Tools
 
-## Calculator
+Run the scaling law and the mass formula yourself. Every output traces the topology through a locked derivation chain. No hidden knobs. No fitting. The code is the math.
 
-Run the scaling law and the mass formula yourself:
-
-**[Interactive Calculator](https://dmobius3.github.io/mode-identity-theory/Calculator.html)**
-
-Every output traces the topology through a locked derivation chain. No hidden knobs. No fitting. The code is the math.
-
----
+**[Interactive Calculator](https://dmobius3.github.io/mode-identity-theory/calculator.html)**
 
 ## Falsification
 
-Two predictions separate this framework from alternatives:
+Two predictions separate this framework from alternatives: $a_0(z) \propto H(z)$ while Λ remains constant, and phantom crossing at $z \approx 0.66$ is inference artifact, not evolving vacuum energy. Falsification criteria are pre-registered.
 
-- **a₀(z) ∝ H(z)** while **Λ remains constant**
-- **Phantom crossing** at **z ≈ 0.66** is inference artifact, not evolving vacuum energy
-
-Falsification criteria are pre-registered: [Team Cosine (Euclid DR1)](https://doi.org/10.5281/zenodo.18189078)
+**[Team Cosine: Euclid DR1 Predictions](https://dmobius3.github.io/mode-identity-theory/euclid-dr1.html)**
 
 **Judgment Day: October 21, 2026.**
 
@@ -76,34 +60,6 @@ Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.
 
 ---
 
-## Publications
+*What you hold in your hand is not matter. It is where the wave resolved when you sampled it.*
 
-All documents maintain DOI priority via [Zenodo](https://zenodo.org/communities/modeidentitytheory).
-
-| Paper | Category | DOI |
-|-------|----------|-----|
-| Mode Identity Theory v6 | Core | [10.5281/zenodo.18064856](https://doi.org/10.5281/zenodo.18064856) |
-| Team Cosine: Euclid DR1 | Falsification | [10.5281/zenodo.18189078](https://doi.org/10.5281/zenodo.18189078) |
-| Yang-Mills Mass Gap | Math | [10.5281/zenodo.18463584](https://doi.org/10.5281/zenodo.18463584) |
-| Riemann Hypothesis | Math | [10.5281/zenodo.18672160](https://doi.org/10.5281/zenodo.18672160) |
-| The Waltz | Particle | [10.5281/zenodo.18176445](https://doi.org/10.5281/zenodo.18176445) |
-| α Minimum Step | Particle | [10.5281/zenodo.18484780](https://doi.org/10.5281/zenodo.18484780) |
-| The Spectrum | Particle | [10.5281/zenodo.18603975](https://doi.org/10.5281/zenodo.18603975) |
-| a₀ Evolving | Cosmology | [10.5281/zenodo.18072995](https://doi.org/10.5281/zenodo.18072995) |
-| w Evolving | Cosmology | [10.5281/zenodo.18081581](https://doi.org/10.5281/zenodo.18081581) |
-| Axis Aligned | Cosmology | [10.5281/zenodo.18092169](https://doi.org/10.5281/zenodo.18092169) |
-| Λ Ground Mode | Cosmology | [10.5281/zenodo.18307314](https://doi.org/10.5281/zenodo.18307314) |
-| H₀ Local | Cosmology | [10.5281/zenodo.18363693](https://doi.org/10.5281/zenodo.18363693) |
-
-1, 1, 2, 3, 5. The framework built on Fibonacci wells has a Fibonacci publication structure.
-
----
-
-## Contact
-
-blake shatto, p.e. · [bshatto.pe@gmail.com](mailto:bshatto.pe@gmail.com) · [modeidentitytheory.com](https://modeidentitytheory.com)
-
----
-
-*What you hold in your hand is not matter. It is where the wave resolved when you sampled it.
-The thing is the sample. The identity is the wave Ψ*
+*The thing is the sample. The identity is the wave Ψ*
