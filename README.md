@@ -28,18 +28,6 @@ The constants of the universe follow across 122 orders of magnitude, and fermion
 
 ---
 
-## Tools
-
-Every link between topology and observable is live. The code is the math. There are no hidden knobs.
-
-**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/tools/topology.html)**
-
-**[Follow the Engine](https://dmobius3.github.io/mode-identity-theory/tools/engine.html)**
-
-**[Run the Calculations](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
-
----
-
 ## Scorecard
 
 Blind outputs of a fixed structure, checked against observation:
@@ -64,6 +52,18 @@ Blind outputs of a fixed structure, checked against observation:
 | 12 SM fermions | 24 entries | All 12 SM within x10 | 10 of 12 within x3 |
 | Dead zone | 6 states, eV to keV | no SM fermions in range | open window |
 | Null DM detection | permanent | ongoing null results | ✓ |
+
+---
+
+## Tools
+
+Every link between topology and observable is live. The code is the math. There are no hidden knobs.
+
+**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/tools/topology.html)**
+
+**[Follow the Engine](https://dmobius3.github.io/mode-identity-theory/tools/engine.html)**
+
+**[Run the Calculations](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
 
 ---
 
