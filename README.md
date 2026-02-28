@@ -44,15 +44,17 @@ Blind outputs of a fixed structure, checked against observation:
 
 | Observable | Predicted | Observed | Agreement |
 |---|---|---|---|
-| $\alpha$ | 0.00733 | 0.007297 | 0.5% |
-| $a_0 / (cH_0)$ | 0.184 | 0.183 | < 1% |
-| $H_0$ local shift | 8.4% | ~8.7% (67.4 to 73.2) | < 1% |
 | $\Lambda_{\text{obs}} \cdot \ell_P^2$ | $3.0 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~5% |
+| $a_0 / (cH_0)$ | 0.184 | 0.183 | < 1% |
+| $a_0 / a_P$ | $2.2 \times 10^{-62}$ | $1.8 \times 10^{-62}$ | 22% |
+| $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.1 \times 10^{-61}$ | 9% |
+| $H_0$ local shift | 8.4% | ~8.7% (67.4 to 73.2) | < 1% |
 | CMB multipole cut | ~31 | deficit below ~30 | ✓ |
 | CMB parity | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
 | CMB alignment | ~13° | ~10° | ~ |
 | Mass gap | > 0 | confinement observed | ✓ |
 | Particle generations | 3 | 3 | exact |
+| $\alpha$ | 0.00733 | 0.007297 | 0.5% |
 | $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
 | $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
 | $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | 2% |
