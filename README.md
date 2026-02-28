@@ -1,10 +1,10 @@
 # Mode Identity Theory
 
-$$S^1 = \partial(\text{Mobius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$$
+$$\Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
 
 The temporal edge $S^1$ bounds the non-orientable Mobius surface, embedded in the closed hypersphere $S^3$, which has no boundary. One postulate. One scaling law:
 
-$$A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$$
+$$\Large \boxed{A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
 $C(\Theta)$ is where on the wave Ψ. $(\sqrt{\Omega})^{-n}$ is how far from Planck, on which manifold. 
 
@@ -30,7 +30,7 @@ Everything derived traces to and from the flip.
 
 Run the postulate, trace the derivation, compute the outputs. Every link between topology and observable is live. The code is the math.
 
-**[The Postulate](https://dmobius3.github.io/mode-identity-theory/tools/topology.html)**
+**[The Postulate](https://dmobius3.github.io/mode-identity-theory/tools/postulate.html)**
 
 **[The Engine](https://dmobius3.github.io/mode-identity-theory/tools/engine.html)**
 
