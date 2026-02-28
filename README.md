@@ -8,13 +8,11 @@ One postulate. One scaling law:
 
 $$\Large \boxed{A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
-$C(\Theta)$ is where on the wave $\Psi$.
+$C(\Theta)$ is what $\Psi$ yields at phase position $\Theta$.
 
-$(\sqrt{\Omega})^{-n}$ is how far from Planck, on which manifold.
+$(\sqrt{\Omega})^{-n}$ is the observer; the square root of scale, diluted by the manifold sampled.
 
 Their product yields the modal realization, $A/A_P$ , the ratio of the observable amplitude over its Planck-scale reference. 
-
-The sample occurs at $(t, \Theta)$.
 
 The constants of the universe follow across 122 orders of magnitude, and fermionic mass is realized through the same structure.
 
