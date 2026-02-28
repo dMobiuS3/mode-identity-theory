@@ -1,4 +1,4 @@
-# Particle Physics and Coupling Constants
+# Spectrum Predictions
 
 Five anomalies resolved from the boundary outward. Inverting the question inward, the same geometry confines gauge fields, returns $\alpha$ to the first step of Λ, and accounts gravity as the cost to dance between them.
 
