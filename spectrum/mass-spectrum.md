@@ -12,7 +12,7 @@ Electron · up quark · muon: within 6% of observed mass.
 
 ## I. The Formula
 
-$$m(\rho, \sigma) \;=\; \mu_\Lambda \;\times\; C_{\text{geom}}(\rho) \;\times\; \bigl(\sqrt{\Omega_\Lambda}\bigr)^{\,\text{dist}(\rho)/30} \;\times\; T^2(\rho \otimes \sigma)$$
+$$\Large \boxed{m(\rho, \sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times \left(\sqrt{\Omega_\Lambda}\right)^{\text{dist}(\rho)/30} \times T^2(\rho \otimes \sigma)}$$
 
 Four factors. Four sources. Each traces independently to the topological postulate.
 
