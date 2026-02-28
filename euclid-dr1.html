@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Euclid DR1 | Mode Identity Theory</title>
+<meta name="description" content="Tracking Euclid Data Release 1 against locked predictions from Mode Identity Theory. Release date: 21 October 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0c10;
+    --surface: #12151c;
+    --surface-2: #181c26;
+    --border: #252a36;
+    --border-light: #2f3545;
+    --text: #c8cdd8;
+    --text-dim: #6b7280;
+    --text-bright: #e8ecf4;
+    --accent: #4a9eff;
+    --accent-dim: #1a3a5c;
+    --green: #34d399;
+    --green-dim: #0d3d2e;
+    --amber: #fbbf24;
+    --amber-dim: #3d2e0a;
+    --red: #f87171;
+    --red-dim: #3d1414;
+    --mono: 'IBM Plex Mono', monospace;
+    --serif: 'Source Serif 4', Georgia, serif;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 15px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: -1;
+  }
+  .container { max-width: 860px; margin: 0 auto; padding: 0 24px; }
+  header { padding: 48px 0 0; border-bottom: 1px solid var(--border); }
+  .header-top { display: flex; justify-content: flex-end; align-items: baseline; margin-bottom: 32px; }
+  .header-status { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--amber); display: flex; align-items: center; gap: 8px; }
+  .status-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--amber); animation: pulse 2.5s ease-in-out infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  h1 { font-family: var(--serif); font-size: 42px; font-weight: 600; color: var(--text-bright); line-height: 1.2; letter-spacing: -0.01em; margin-bottom: 12px; }
+  .subtitle { font-size: 16px; color: var(--text-dim); margin-bottom: 32px; line-height: 1.6; }
+  .countdown-bar { display: flex; gap: 2px; padding: 24px 0; }
+  .countdown-unit { flex: 1; text-align: center; background: var(--surface); padding: 16px 8px; }
+  .countdown-unit:first-child { border-radius: 6px 0 0 6px; }
+  .countdown-unit:last-child { border-radius: 0 6px 6px 0; }
+  .countdown-value { font-size: 31px; font-weight: 600; color: var(--text-bright); letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+  .countdown-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-dim); margin-top: 4px; }
+  section { padding: 48px 0; border-bottom: 1px solid var(--border); }
+  section:last-of-type { border-bottom: none; padding-bottom: 64px; }
+  h2 { font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--text-dim); margin-bottom: 24px; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+  h3 { font-family: var(--serif); font-size: 22px; font-weight: 600; color: var(--text-bright); margin-bottom: 12px; margin-top: 32px; }
+  h3:first-of-type { margin-top: 0; }
+  p { margin-bottom: 16px; color: var(--text); }
+  p.dim { color: var(--text-dim); }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-dim); }
+  a:hover { border-bottom-color: var(--accent); }
+  .predictions { display: flex; flex-direction: column; gap: 2px; }
+  .pred-card { background: var(--surface); padding: 20px 24px; display: grid; grid-template-columns: 1fr 180px 180px; gap: 16px; align-items: start; }
+  .pred-card:first-child { border-radius: 6px 6px 0 0; }
+  .pred-card:last-child { border-radius: 0 0 6px 6px; }
+  .pred-name { font-weight: 500; color: var(--text-bright); margin-bottom: 4px; }
+  .pred-desc { font-size: 13px; color: var(--text-dim); line-height: 1.5; }
+  .pred-value { font-size: 14px; text-align: right; }
+  .pred-value .label { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-dim); margin-bottom: 4px; }
+  .pred-value .val { color: var(--text-bright); font-weight: 500; }
+  .pred-falsified { font-size: 14px; text-align: right; }
+  .pred-falsified .label { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-dim); margin-bottom: 4px; }
+  .pred-falsified .val { color: var(--red); font-size: 13px; line-height: 1.5; }
+  .badge { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase; padding: 3px 10px; border-radius: 3px; font-weight: 500; }
+  .badge-registered { background: var(--accent-dim); color: var(--accent); border: 1px solid #1e4a7a; }
+  .badge-awaiting { background: var(--amber-dim); color: var(--amber); border: 1px solid #5a4510; }
+  .timeline { position: relative; padding-left: 28px; }
+  .timeline::before { content: ''; position: absolute; left: 5px; top: 8px; bottom: 8px; width: 1px; background: var(--border); }
+  .tl-item { position: relative; padding-bottom: 28px; }
+  .tl-item:last-child { padding-bottom: 0; }
+  .tl-dot { position: absolute; left: -28px; top: 6px; width: 11px; height: 11px; border-radius: 50%; border: 2px solid var(--border-light); background: var(--bg); }
+  .tl-item.done .tl-dot { background: var(--green); border-color: var(--green); }
+  .tl-item.active .tl-dot { background: var(--amber); border-color: var(--amber); box-shadow: 0 0 8px rgba(251, 191, 36, 0.3); animation: pulse 2.5s ease-in-out infinite; }
+  .tl-date { font-size: 13px; color: var(--text-dim); margin-bottom: 2px; }
+  .tl-title { font-weight: 500; color: var(--text-bright); margin-bottom: 4px; }
+  .tl-desc { font-size: 13px; color: var(--text-dim); line-height: 1.5; }
+  .data-table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+  .data-table th { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-dim); text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--border); font-weight: 400; }
+  .data-table td { padding: 10px 12px; border-bottom: 1px solid var(--border); font-size: 14px; vertical-align: top; }
+  .data-table tr:last-child td { border-bottom: none; }
+  .data-table .highlight { color: var(--text-bright); font-weight: 500; }
+  .reg-block { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 24px; margin: 20px 0; }
+  .reg-block .reg-title { font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; }
+  .reg-row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid var(--border); font-size: 14px; }
+  .reg-row:last-child { border-bottom: none; }
+  .reg-row .reg-key { color: var(--text-dim); }
+  .reg-row .reg-val { color: var(--text-bright); font-weight: 500; }
+  .eq-block { background: var(--surface); border-left: 3px solid var(--border-light); padding: 16px 20px; margin: 16px 0; font-size: 16px; color: var(--text-bright); letter-spacing: 0.02em; overflow-x: auto; }
+  .eq-block .eq-label { font-size: 12px; color: var(--text-dim); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 8px; }
+  .callout { background: var(--surface-2); border: 1px solid var(--border); border-radius: 6px; padding: 20px 24px; margin: 20px 0; }
+  .callout-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-dim); margin-bottom: 8px; }
+  @media (max-width: 700px) {
+    h1 { font-size: 31px; }
+    .pred-card { grid-template-columns: 1fr; gap: 12px; }
+    .pred-value, .pred-falsified { text-align: left; }
+    .countdown-value { font-size: 24px; }
+  }
+  .fade-in { opacity: 0; transform: translateY(12px); animation: fadeUp 0.6s ease forwards; }
+  @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+  .fade-in:nth-child(2) { animation-delay: 0.08s; }
+  .fade-in:nth-child(3) { animation-delay: 0.16s; }
+  .fade-in:nth-child(4) { animation-delay: 0.24s; }
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-top fade-in">
+      <div class="header-status"><span class="status-dot"></span> Awaiting data</div>
+    </div>
+    <h1 class="fade-in">Euclid DR1</h1>
+    <p class="subtitle fade-in">
+      <a target="_blank" rel="noopener" href="https://www.esa.int/Science_Exploration/Space_Science/Euclid_overview">Euclid</a> is the European Space Agency's flagship telescope, mapping the geometry of the universe across 10 billion years of cosmic history. Its first cosmology data release (DR1) arrives October 2026.
+    </p>
+    <div class="countdown-bar fade-in" id="countdown">
+      <div class="countdown-unit">
+        <div class="countdown-value" id="cd-days">---</div>
+        <div class="countdown-label">Days</div>
+      </div>
+      <div class="countdown-unit">
+        <div class="countdown-value" id="cd-hours">--</div>
+        <div class="countdown-label">Hours</div>
+      </div>
+      <div class="countdown-unit">
+        <div class="countdown-value" id="cd-min">--</div>
+        <div class="countdown-label">Minutes</div>
+      </div>
+      <div class="countdown-unit">
+        <div class="countdown-value" id="cd-sec">--</div>
+        <div class="countdown-label">Seconds</div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="container">
+  <section>
+    <h2>Why Euclid Matters</h2>
+<p>In 2024, <a target="_blank" rel="noopener" href="https://www.desi.lbl.gov">DESI</a> (Dark Energy Spectroscopic Instrument) reported that "dark energy" may be changing over time. If true, it would overturn the cosmological constant (&Lambda;) and reshape modern physics. Mode Identity Theory says the change is an illusion: &Lambda; is fixed by the geometry of the universe, and what looks like evolution is the observer's phase position on a standing wave.</p><p> MIT predicts a specific shape (cosine, not linear), a specific zero-crossing (z&thinsp;=&thinsp;0.663), and a specific constraint (&Lambda; itself does not change). All values were deposited on Zenodo and MIT has no knobs to adjust. Euclid's independent measurement will either end MIT, &Lambda;CDM, or both. Full stop.</p>
+  </section>
+  <section>
+    <h2>Registration</h2>
+    <p>All values were pre-registered on Zenodo in January 2026, months before DR1. The DESI DR2 analysis is a consistency check against already-public data. Euclid is the blind test.</p>
+    <div class="reg-block">
+      <div class="reg-title">Zenodo Pre-Registration</div>
+      <div class="reg-row"><span class="reg-key">DOI</span><span class="reg-val"><a target="_blank" rel="noopener" href="https://doi.org/10.5281/zenodo.18189079">10.5281/zenodo.18189079</a></span></div>
+      <div class="reg-row"><span class="reg-key">Registered</span><span class="reg-val">January 2026</span></div>
+      <div class="reg-row"><span class="reg-key">Phase offset &delta;</span><span class="reg-val">&minus;1.06 rad</span></div>
+      <div class="reg-row"><span class="reg-key">Coupling &epsilon;</span><span class="reg-val">0.255 (calibrated externally)</span></div>
+      <div class="reg-row"><span class="reg-key">Free parameters for Euclid</span><span class="reg-val">0</span></div>
+    </div>
+    <p class="dim">&delta; is fixed by registration. &epsilon; is calibrated from the DES-SN5YR + Planck + SDSS BAO combination (Abbott et al. 2024), which contains zero DESI data and zero Euclid data. Both values precede the data they are tested against.</p>
+  </section>
+  <section>
+    <h2>Predictions</h2>
+    <div class="predictions">
+      <div class="pred-card">
+        <div><div class="pred-name">Modulation zero-crossing</div><div class="pred-desc">The redshift where the surface-mode modulation cos&thinsp;&theta;(z) changes sign. Deterministic from &delta; via z<sub>cross</sub> = 1 + &delta;/&pi;.</div></div>
+        <div class="pred-value"><div class="label">MIT value</div><div class="val">z<sub>cross</sub> = 0.663</div></div>
+        <div class="pred-falsified"><div class="label">Falsified if</div><div class="val">Non-parametric w(z) transition center &lt; 0.4 or &gt; 0.9 at 2&sigma;</div></div>
+      </div>
+      <div class="pred-card">
+        <div><div class="pred-name">w(z) functional form</div><div class="pred-desc">MIT predicts curvature: d&sup2;w/dz&sup2; &ne; 0. The cosine modulation is distinguishable from CPL's linear w<sub>0</sub> + w<sub>a</sub>(1&minus;a) template.</div></div>
+        <div class="pred-value"><div class="label">MIT value</div><div class="val">Phase modulation (cosine)</div></div>
+        <div class="pred-falsified"><div class="label">Falsified if</div><div class="val">Linear CPL preferred at &Delta;AIC &gt; 4</div></div>
+      </div>
+      <div class="pred-card">
+        <div><div class="pred-name">&Lambda; constancy</div><div class="pred-desc">The cosmological constant is a surface-mode eigenvalue, fixed by boundary conditions. It does not evolve. What appears to evolve is the observer's phase position.</div></div>
+        <div class="pred-value"><div class="label">MIT value</div><div class="val">Constant</div></div>
+        <div class="pred-falsified"><div class="label">Falsified if</div><div class="val">Binned &rho;<sub>DE</sub>(z)/&rho;<sub>DE</sub>(0) departs from unity at 2&sigma;</div></div>
+      </div>
+      <div class="pred-card">
+        <div><div class="pred-name">No phantom crossing</div><div class="pred-desc">MIT's exact w<sub>eff</sub>(z) &gt; &minus;1 at all redshifts. The apparent crossing reported by DESI is a CPL template artifact, arising because the linear form absorbs the cosine shape.</div></div>
+        <div class="pred-value"><div class="label">MIT value</div><div class="val">w<sub>eff</sub> &gt; &minus;1 everywhere</div></div>
+        <div class="pred-falsified"><div class="label">Falsified if</div><div class="val">Model-independent reconstruction confirms w &lt; &minus;1 at 2&sigma;</div></div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>The mechanism</h2>
+    <p>MIT holds &Lambda; fixed by topology. The cosmic standing wave &Psi; = cos(t/2) modulates the dark energy surface mode, leaving matter and radiation untouched. When observers fit distance data using fluid-based models, the phase structure leaks into apparent w(z) evolution.</p>
+    <div class="eq-block">
+      <div class="eq-label">MIT Friedmann equation</div>
+      E<sup>2</sup>(z) = &Omega;<sub>m</sub>(1+z)<sup>3</sup> + &Omega;<sub>r</sub>(1+z)<sup>4</sup> + &Omega;<sub>&Lambda;</sub><sup>bare</sup>[1 + &epsilon;&thinsp;cos&thinsp;&theta;(z)]
+    </div>
+    <div class="eq-block">
+      <div class="eq-label">Phase-redshift mapping</div>
+      &theta;(z) = (2&pi; + &delta;) / 2(1+z)
+    </div>
+    <p>The modulation is invisible to the CMB by construction: &Omega;<sub>&Lambda;</sub><sup>bare</sup>/E<sup>2</sup>(z<sub>*</sub>) ~ 10<sup>&minus;9</sup> at recombination. It becomes observable only at low redshift, where &Omega;<sub>&Lambda;</sub> dominates the energy budget. The deviation from &Lambda;CDM peaks at ~4.6% near z<sub>cross</sub>&thinsp;=&thinsp;0.66, falling to zero at z&thinsp;=&thinsp;0 (normalization) and z&thinsp;&Gt;&thinsp;1 (matter dominance).</p>
+    <div class="callout">
+      <div class="callout-label">Why this is testable</div>
+      <p style="margin-bottom:0;">CPL uses two free parameters (w<sub>0</sub>, w<sub>a</sub>) to fit the shape. MIT uses zero free parameters for the shape: &delta; is fixed, &epsilon; is calibrated externally, and the cosine form follows from the axioms. A purely linear w(z) at high precision would falsify the phase modulation signature.</p>
+    </div>
+  </section>
+  <section>
+    <h2>DESI DR2 consistency check</h2>
+    <p>The DESI analysis uses already-public data. It is a consistency check, confirming the modulation template is compatible with current BAO measurements. It is not the blind test.</p>
+    <table class="data-table">
+      <thead><tr><th>Model</th><th>Parameters</th><th>&chi;&sup2;<sub>BAO</sub></th><th>&chi;&sup2;<sub>total</sub></th><th>&Delta;AIC vs &Lambda;CDM</th></tr></thead>
+      <tbody>
+        <tr><td>&Lambda;CDM</td><td>2</td><td>13.54</td><td>1419.58</td><td class="highlight">0</td></tr>
+        <tr><td class="highlight">MIT (&epsilon; = 0.255)</td><td>2</td><td>11.21</td><td>1417.45</td><td class="highlight" style="color: var(--green);">&minus;2.1</td></tr>
+        <tr><td>CPL</td><td>4</td><td>8.58</td><td>1411.55</td><td class="highlight">&minus;4.0</td></tr>
+      </tbody>
+    </table>
+    <p class="dim">Combined analysis: DESI DR2 BAO (13 observables, 7 bins) + Pantheon+ (~1590 SNe) + Planck-calibrated H<sub>0</sub>r<sub>d</sub> prior. MIT improves on &Lambda;CDM at the same parameter count. Profiling &epsilon; yields &Delta;&chi;&sup2; = &minus;7.9 at &epsilon;&thinsp;=&thinsp;0.16 (&Delta;AIC = &minus;5.9 at k&thinsp;=&thinsp;3).</p>
+  </section>
+  <section>
+    <h2>Timeline</h2>
+    <div class="timeline">
+      <div class="tl-item done"><div class="tl-dot"></div><div class="tl-date">July 2023</div><div class="tl-title">Euclid launch</div><div class="tl-desc">SpaceX Falcon 9 from Cape Canaveral. Transit to L2.</div></div>
+      <div class="tl-item done"><div class="tl-dot"></div><div class="tl-date">November 2023</div><div class="tl-title">Early Release Observations</div><div class="tl-desc">First processed images. Showcase of wide FOV, resolution, low-surface-brightness detection.</div></div>
+      <div class="tl-item done"><div class="tl-dot"></div><div class="tl-date">February 2024</div><div class="tl-title">Science survey begins</div><div class="tl-desc">Routine observations start. ~100 GB/day.</div></div>
+      <div class="tl-item done"><div class="tl-dot"></div><div class="tl-date">March 2025</div><div class="tl-title">Quick Data Release Q1</div><div class="tl-desc">Three deep fields, 63 sq deg, 500+ strong lenses. No cosmology.</div></div>
+      <div class="tl-item done"><div class="tl-dot"></div><div class="tl-date">January 2026</div><div class="tl-title">MIT values deposited</div><div class="tl-desc">&delta; = &minus;1.06 rad, z<sub>cross</sub> = 0.663 sealed on Zenodo (<a target="_blank" rel="noopener" href="https://doi.org/10.5281/zenodo.18189079">DOI</a>).</div></div>
+      <div class="tl-item active"><div class="tl-dot"></div><div class="tl-date">June 2026</div><div class="tl-title">Q2 release</div><div class="tl-desc">Second quick release. Pre-DR1 data products.</div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div class="tl-date">21 October 2026</div><div class="tl-title">DR1: First cosmology data</div><div class="tl-desc">~2,300 sq deg. Weak lensing, galaxy clustering, BAO, photometric redshifts. First cosmology release.</div></div>
+    </div>
+  </section>
+  <section>
+    <h2>What Euclid DR1 delivers</h2>
+    <p>DR1 contains the first year of survey data: ~2,300 square degrees of sky, plus accumulated deep field passes. This is the first Euclid release with cosmology results.</p>
+    <table class="data-table">
+      <thead><tr><th>DR1 product</th><th>MIT relevance</th><th>What to watch</th></tr></thead>
+      <tbody>
+        <tr><td class="highlight">Weak lensing (cosmic shear)</td><td>Constrains &Omega;<sub>m</sub>, w<sub>0</sub> independently of BAO</td><td>Does the shear power spectrum prefer w<sub>0</sub> &gt; &minus;1?</td></tr>
+        <tr><td class="highlight">Galaxy clustering (spectroscopic z)</td><td>BAO standard ruler, independent of DESI</td><td>New BAO measurements across Euclid's redshift bins</td></tr>
+        <tr><td class="highlight">Photometric redshifts</td><td>Galaxy distribution, tomographic bins</td><td>Precision at z ~ 0.5&ndash;0.8 (near z<sub>cross</sub>)</td></tr>
+        <tr><td>Strong lensing (~7,000 candidates)</td><td>Geometry probe via D<sub>d</sub>/D<sub>s</sub> ratios</td><td>Independent distance ratios through the z<sub>cross</sub> window</td></tr>
+        <tr><td>Higher-order WL statistics</td><td>2.5&times; more sensitive to w<sub>0</sub> than 2-point</td><td>Sensitive to the <em>shape</em> of w(z), not just the value</td></tr>
+        <tr><td>Galaxy cluster abundance</td><td>&sigma;<sub>8</sub>, structure growth rate</td><td>Growth vs. expansion history consistency</td></tr>
+      </tbody>
+    </table>
+    <div class="callout">
+      <div class="callout-label">Key advantage</div>
+      <p style="margin-bottom:0;">Euclid's weak lensing and galaxy clustering are complementary to DESI's BAO. They constrain the same underlying physics through different observables and different systematics. Separate instrument, separate team, separate data.</p>
+    </div>
+  </section>
+  <section>
+    <h2>Papers</h2>
+    <table class="data-table">
+      <thead><tr><th>Paper</th><th>Reference</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td class="highlight">&Lambda; Constant, w Evolving</td><td><a target="_blank" rel="noopener" href="https://doi.org/10.5281/zenodo.18081581">Zenodo</a></td><td><span class="badge badge-registered">Registered</span></td></tr>
+        <tr><td class="highlight">Mode Identity Theory (Engine)</td><td><a target="_blank" rel="noopener" href="https://doi.org/10.5281/zenodo.18064856">Zenodo</a></td><td><span class="badge badge-registered">Registered</span></td></tr>
+        <tr><td class="highlight">&Lambda; Ground Mode of the Cosmic Boundary</td><td><a target="_blank" rel="noopener" href="https://doi.org/10.5281/zenodo.18307314">Zenodo</a></td><td><span class="badge badge-registered">Registered</span></td></tr>
+        <tr><td class="highlight">&Lambda; Constant, a<sub>0</sub> Evolving</td><td><a target="_blank" rel="noopener" href="https://doi.org/10.5281/zenodo.18072995">Zenodo</a></td><td><span class="badge badge-registered">Registered</span></td></tr>
+        <tr><td>Euclid DR1 results</td><td><a target="_blank" rel="noopener" href="https://www.cosmos.esa.int/web/euclid/timeline">TBD</a></td><td><span class="badge badge-awaiting">Awaiting</span></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+</div>
+<script>
+  const target = new Date('2026-10-21T10:00:00Z').getTime();
+  function updateCountdown() {
+    const now = Date.now();
+    const diff = target - now;
+    if (diff <= 0) {
+      document.getElementById('cd-days').textContent = '0';
+      document.getElementById('cd-hours').textContent = '0';
+      document.getElementById('cd-min').textContent = '0';
+      document.getElementById('cd-sec').textContent = '0';
+      document.querySelector('.header-status').innerHTML = '<span class="status-dot" style="background:var(--green);animation:none;"></span> Data released';
+      return;
+    }
+    const days = Math.floor(diff / 86400000);
+    const hours = Math.floor((diff % 86400000) / 3600000);
+    const mins = Math.floor((diff % 3600000) / 60000);
+    const secs = Math.floor((diff % 60000) / 1000);
+    document.getElementById('cd-days').textContent = days;
+    document.getElementById('cd-hours').textContent = String(hours).padStart(2, '0');
+    document.getElementById('cd-min').textContent = String(mins).padStart(2, '0');
+    document.getElementById('cd-sec').textContent = String(secs).padStart(2, '0');
+  }
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+</script>
+</body>
+</html>
