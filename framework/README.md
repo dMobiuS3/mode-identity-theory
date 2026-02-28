@@ -499,6 +499,6 @@ MIT is a topological framework: it specifies boundary conditions and permitted m
 
 **Parallel work.** Topological cosmology has been explored since Friedmann. Luminet, Weeks, and collaborators proposed the Poincaré dodecahedral space ($S^3/2I$) as the spatial topology of the universe, matching CMB low-ℓ suppression; MIT adopts the same manifold and extends it from CMB anomalies to particle structure.
 
-The COMPACT collaboration calculates eigenmodes of non-orientable Euclidean manifolds, closely overlapping the mathematics MIT requires; their analysis of parity asymmetry from topology alone aligns with MIT's derivation of odd-$\ell$ preference.
+The COMPACT collaboration calculates eigenmodes of non-orientable Euclidean manifolds, closely overlapping the mathematics MIT requires; their analysis of parity asymmetry from topology alone aligns with MIT's derivation of odd-ℓ preference.
 
 Milgrom's MOND established $a_0$ as a fundamental acceleration scale; MIT derives it as an edge mode and predicts its evolution with $H(z)$, the central fork test against MOND's constant $a_0$.
