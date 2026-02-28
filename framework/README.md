@@ -458,10 +458,6 @@ Observables are located in time on the edge and positioned on the mode spectrum.
 | $\Theta_0$ | Fibonacci well | $\{13, 21, 34, 55, 60\}/120$ | Fixed geometric position |
 | $\Theta_f$ | Phase field | 0 or $2/120$ | Local environmental shift |
 
-## Discussion
-
-Cosmological anomalies have been resolved and particle structure has been given shape. What remains is to locate Mode Identity Theory in the theoretical landscape and specify falsification criteria.
-
 ## Predictions and Falsification
 
 MIT has no loose knobs; discrepancies cannot be absorbed by parameter adjustment. The framework stands or falls on population-level agreement with locked predictions.
