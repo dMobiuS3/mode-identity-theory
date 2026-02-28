@@ -14,6 +14,8 @@ Standard physics sees matter as fundamental: particles exist, and they sometimes
 
 Everything derived traces to and from the flip.
 
+---
+
 ## Repository
 
 | Folder | Contents |
@@ -21,6 +23,20 @@ Everything derived traces to and from the flip.
 | [`framework/`](framework/) | The instrument. Core derivation from topology to scaling law. |
 | [`cosmos/`](cosmos/) | Boundary outward. Five foundations produce five anomalies, one-to-one. |
 | [`spectrum/`](spectrum/) | Boundary inward. Confinement, fine structure, gravity, and 24 mass predictions. |
+
+---
+
+## Tools
+
+Run the postulate, trace the derivation, compute the outputs. Every link between topology and observable is live. The code is the math.
+
+**[The Postulate](https://dmobius3.github.io/mode-identity-theory/tools/topology.html)**
+
+**[The Engine](https://dmobius3.github.io/mode-identity-theory/tools/engine.html)**
+
+**[Interactive Calculator](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
+
+---
 
 ## Scorecard
 
@@ -42,19 +58,15 @@ Blind outputs of a fixed structure, checked against observation:
 | $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | 2% |
 | 12 SM fermions | 24 entries | All 12 SM within x10 | 10 of 12 within x3 |
 
-## Tools
-
-Run the scaling law and the mass formula yourself. Every output traces the topology through a locked derivation chain. No hidden knobs. No fitting. The code is the math.
-
-**[Interactive Calculator](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
+---
 
 ## Falsification
 
 Two predictions separate this framework from alternatives: $a_0(z) \propto H(z)$ while Λ remains constant, and phantom crossing at $z \approx 0.66$ is inference artifact, not evolving vacuum energy. Falsification criteria are pre-registered.
 
-**[Team Cosine: Euclid DR1 Predictions](https://dmobius3.github.io/mode-identity-theory/tools/euclid-dr1.html)**
-
 **Judgment Day: October 21, 2026.**
+
+**[Team Cosine: Euclid DR1 Predictions](https://dmobius3.github.io/mode-identity-theory/tools/euclid-dr1.html)**
 
 Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.
 
