@@ -474,7 +474,7 @@ Failure of any one falsifies the framework.
 |---|---|---|
 | $a_0(z) \propto H(z)$ | $a_0$ consistent with constant at high $z$ | ≥ 2σ, $z > 2$ |
 | $\Lambda$ constant | $\rho_{\text{DE}}(z)$ shows significant evolution | ≥ 2σ |
-| CMB suppression | Wrong suppression scale | $\ell_{\text{cut}} \notin [15, 50]$ |
+| CMB boundary | Wrong boundary scale | $\ell_{\text{cut}} \notin [15, 50]$ |
 
 ### Secondary predictions
 
@@ -497,7 +497,7 @@ MIT is a topological framework: it specifies boundary conditions and permitted m
 
 **What MIT does not modify.** Einstein's field equations and the Standard Model particle content are unchanged. MIT addresses why observables take their values and why gauge fields confine into three generations.
 
-**Parallel work.** Topological cosmology has been explored since Friedmann. Luminet, Weeks, and collaborators proposed the Poincaré dodecahedral space ($S^3/2I$) as the spatial topology of the universe, matching CMB low-ℓ suppression; MIT adopts the same manifold and extends it from CMB anomalies to particle structure.
+**Parallel work.** Topological cosmology has been explored since Friedmann. Luminet, Weeks, and collaborators proposed the Poincaré dodecahedral space ($S^3/2I$) as the spatial topology of the universe, matching CMB low-ℓ boundary. MIT adopts the same manifold and extends it from CMB anomalies to particle structure.
 
 The COMPACT collaboration calculates eigenmodes of non-orientable Euclidean manifolds, closely overlapping the mathematics MIT requires; their analysis of parity asymmetry from topology alone aligns with MIT's derivation of odd-ℓ preference.
 
