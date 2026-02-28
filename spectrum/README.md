@@ -4,25 +4,25 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 
 ---
 
-**Confinement.** Positive curvature on $S^3/2I$ forces a mass gap; the Laplacian has no zero mode. Three isolated flat connections produce three particle generations. The McKay correspondence filters the Galois sector through four empty levels, yielding a ninefold enhancement.
+**Confinement.** Curve a space enough and nothing escapes. Three isolated flat connections on $S^3/2I$ produce three families. The McKay correspondence filters the Galois sector through four empty levels; what survives is nine times heavier.
 
 [Yang-Mills](yang-mills.md)
 
 ---
 
-**Fine structure.** In 1985, Feynman described $1/137$ as a number coming without explanation. $\alpha = C(13/60) \times \Omega_\Lambda^{-1/60}$: the first Fibonacci well on the bosonic grid. One step of $\Lambda$ on the 60R-domain. The number has an address.
+**Fine structure.** In 1985, Feynman described $1/137$ as a number coming without explanation. It is the first Fibonacci well on the bosonic grid. One step of $\Lambda$. The number has an address.
 
 [Fine Structure](fine-structure.md)
 
 ---
 
-**Gravity.** Gravity is the 3/2 Gauss-Codazzi interface between continuous space and discrete surface. Masslessness is edge-only propagation. The neutrino floor sits at $\mu_\Lambda = \rho_\Lambda^{1/4} \approx 2.25$ meV. Black holes are nodes where sampling amplitude vanishes.
+**Gravity.** Embed a surface in a space and the curvature converts by $3/2$. That is gravity. Massless bosons remain on the edge. Black holes are where sampling vanishes; the topology remains.
 
 [The Waltz](the-waltz.md)
 
 ---
 
-**Mass spectrum.** 24 predictions from four locked factors: $m(\rho,\sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega_\Lambda})^{\text{dist}/30} \times T^2(\rho \otimes \sigma)$.
+**Mass spectrum.** A neutrino floor, a geometric weight from the irrep, a spectral distance walked on the McKay graph, and a torsion ratio locked to 70+ digits. Every mass is a position on the same lattice. The hierarchy across twelve orders is the geometry heard at different seats in the room.
 
 [Mass Spectrum](mass-spectrum.md)
 
