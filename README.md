@@ -4,7 +4,7 @@ $$\Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \parti
 
 The temporal edge $S^1$ bounds the non-orientable Möbius surface, embedded in the closed hypersphere $S^3$, which has no boundary.
 
-One postulate. One scaling law:
+**One postulate. One scaling law:**
 
 $$\Large \boxed{A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
@@ -14,7 +14,7 @@ $(\sqrt{\Omega})^{-n}$ is the observer; the square root of scale, diluted by the
 
 Their product yields the modal realization, $A/A_P$ , the ratio of the observable amplitude over its Planck-scale reference. 
 
-The constants of the universe follow across 122 orders of magnitude, and fermionic mass is realized through the same structure.
+The constants of the universe follow across 122 orders of magnitude, and fermionic mass is realized through the structure.
 
 ---
 
