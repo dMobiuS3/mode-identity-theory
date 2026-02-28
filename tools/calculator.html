@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mode Identity Theory — Interactive Calculator</title>
+  <title>Mode Identity Theory | Interactive Calculator</title>
   <meta name="description" content="Run the MIT scaling law yourself. One postulate, zero free parameters. S¹ = ∂(Möbius) ↪ S³, ∂S³ = ∅.">
   <meta name="author" content="Blake Shatto, P.E.">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=IBM+Plex+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -104,9 +104,9 @@
       <div class="eq-box">m(ρ, σ) = μ<sub>Λ</sub> × C<sub>geom</sub>(ρ) × (√Ω<sub>Λ</sub>)<sup>dist/30</sup> × T²(ρ ⊗ σ)</div>
       <p class="body">Four factors. Four sources. Each traced to the postulate. The only operation is multiplication.</p>
       <table><thead><tr><th>Factor</th><th>Value</th><th>Source</th></tr></thead><tbody>
-        <tr><td>μ<sub>Λ</sub></td><td>ρ<sub>Λ</sub><sup>1/4</sup> ≈ 2.248 × 10⁻¹² GeV</td><td>Vacuum energy floor</td></tr>
+        <tr><td>μ<sub>Λ</sub></td><td id="muDisplay">ρ<sub>Λ</sub><sup>1/4</sup></td><td>Vacuum energy floor</td></tr>
         <tr><td>C<sub>geom</sub>(ρ)</td><td>Geometric mean of C(e/D) over Kostant exponents</td><td>Phase operator on sunflower</td></tr>
-        <tr><td>(√Ω<sub>Λ</sub>)<sup>dist/30</sup></td><td>√Ω<sub>Λ</sub> ≈ 1.019 × 10⁶¹</td><td>McKay graph distance</td></tr>
+        <tr><td>(√Ω<sub>Λ</sub>)<sup>dist/30</sup></td><td id="sqrtOLDisplay">√Ω<sub>Λ</sub></td><td>McKay graph distance</td></tr>
         <tr><td>T²(ρ ⊗ σ)</td><td>27 vacuum-twisted values</td><td>Reidemeister torsion</td></tr>
       </tbody></table>
     </div>
@@ -125,7 +125,7 @@
           <select id="specVacuum"><option value="triv" selected>Trivial (σ_triv)</option><option value="std">Standard (σ_std)</option><option value="gal">Galois (σ_gal)</option></select>
         </label>
       </div>
-      <div class="mass-result"><div class="value" id="massValue">—</div><div class="label" id="massLabel">predicted mass</div></div>
+      <div class="mass-result"><div class="value" id="massValue">-</div><div class="label" id="massLabel">predicted mass</div></div>
       <div class="result-box"><table id="specBreakdown"><tbody></tbody></table></div>
     </div>
     <div class="section">
@@ -141,7 +141,7 @@
     </div>
     <div class="section">
       <h3>Locked Data</h3>
-      <p class="body" style="margin-bottom:8px"><strong>C<sub>geom</sub> values</strong> (Kostant sunflower)</p>
+      <p class="body" style="margin-bottom:8px"><strong>C<sub>geom</sub> values</strong> (Kostant sunflower, computed live from exponents)</p>
       <table id="cgeomTable"><thead><tr><th>Irrep</th><th>Spin</th><th>D</th><th>Kostant exponents</th><th>C<sub>geom</sub></th></tr></thead><tbody></tbody></table>
       <p class="body" style="margin-top:20px;margin-bottom:8px"><strong>Vacuum torsion T²(ρ ⊗ σ)</strong> (27 entries)</p>
       <table id="torsionTable"><thead><tr><th>ρ</th><th>T²(triv)</th><th>T²(std)</th><th>T²(gal)</th></tr></thead><tbody></tbody></table>
@@ -163,8 +163,12 @@
       <tr><td>120 domain</td><td>120 positions</td><td>|2I| = 120 native to S³</td></tr><tr><td>Grid</td><td>120 (fermionic)</td><td>Half-integer modes on the domain</td></tr><tr><td>60R-grid</td><td>60 (even only)</td><td>|ψ|² projects 2I → I</td></tr>
     </tbody></table></div>
     <div class="section"><h3>Manifold Assignment</h3><table><thead><tr><th>n</th><th>Manifold</th><th>Observables</th><th>(√Ω)⁻ⁿ</th></tr></thead><tbody>
-      <tr><td>1</td><td>Temporal edge S¹</td><td>H₀, a₀</td><td>~10⁻⁶¹</td></tr><tr><td>2</td><td>Möbius surface</td><td>Λ</td><td>~10⁻¹²²</td></tr><tr><td>3/2</td><td>Gauss-Codazzi interface</td><td>Gravity</td><td>—</td></tr><tr><td>3</td><td>Space S³</td><td>Null "dark matter"</td><td>~10⁻¹⁸³</td></tr>
+      <tr><td>1</td><td>Temporal edge S¹</td><td>H₀, a₀</td><td>~10⁻⁶¹</td></tr><tr><td>2</td><td>Möbius surface</td><td>Λ</td><td>~10⁻¹²²</td></tr><tr><td>3/2</td><td>Gauss-Codazzi interface</td><td>Gravity</td><td></td></tr><tr><td>3</td><td>Space S³</td><td>Null "dark matter"</td><td>~10⁻¹⁸³</td></tr>
     </tbody></table></div>
+    <div class="section"><h3>Derivation Chain</h3>
+      <p class="body">The calculator derives every scale from first principles. No hardcoded outputs.</p>
+      <table id="chainTable"><thead><tr><th>Quantity</th><th>Formula</th><th>Value</th></tr></thead><tbody></tbody></table>
+    </div>
   </div>
 
   <!-- SCORECARD -->
@@ -174,6 +178,8 @@
       <tr><td>a₀/(cH₀)</td><td>0.184</td><td>0.183</td><td>&lt;1%</td></tr>
       <tr><td>H₀ local shift</td><td>8.4%</td><td>~8.7%</td><td>&lt;1%</td></tr>
       <tr><td>Λ·ℓ<sub>P</sub>²</td><td>3.0×10⁻¹²²</td><td>2.84×10⁻¹²²</td><td>~5%</td></tr>
+      <tr><td>H₀·t<sub>P</sub></td><td>1.2×10⁻⁶¹</td><td>1.1×10⁻⁶¹</td><td>9%</td></tr>
+      <tr><td>a₀/a<sub>P</sub></td><td>2.2×10⁻⁶²</td><td>1.8×10⁻⁶²</td><td>22%</td></tr>
       <tr><td>CMB suppression</td><td>ℓ ~ 31</td><td>ℓ &lt; 30</td><td>~</td></tr>
       <tr><td>CMB parity</td><td>R<sub>TT</sub> &lt; 1</td><td>R<sub>TT</sub> ≈ 0.81</td><td>✓</td></tr>
       <tr><td>CMB alignment</td><td>~13°</td><td>~10°</td><td>~</td></tr>
@@ -189,9 +195,13 @@
       <tr><td>a₀(z) ∝ H(z)</td><td>a₀ consistent with constant at high z</td><td>≥ 2σ, z &gt; 2</td></tr>
       <tr><td>Λ constant</td><td>ρ_DE(z) shows significant evolution</td><td>≥ 2σ</td></tr>
       <tr><td>CMB suppression</td><td>Wrong suppression scale</td><td>ℓ_cut ∉ [15, 50]</td></tr>
-      <tr><td>Dead zone states</td><td>Masses outside 10⁻⁹ to 10⁻⁶ GeV</td><td>If observed</td></tr>
+      <tr><td>Null dark matter</td><td>Non-gravitational interaction detected</td><td>≥ 5σ, replicated</td></tr>
+      <tr><td>z<sub>cross</sub> ≈ 0.66</td><td>Phantom crossing outside window</td><td>[0.4, 0.9]</td></tr>
+      <tr><td>w<sub>eff</sub> > −1</td><td>True phantom behavior confirmed</td><td>Model-independent 2σ</td></tr>
+      <tr><td>μ<sub>Λ</sub> ≈ 2.25 meV</td><td>Lightest ν mass inconsistent</td><td>Direct measurement</td></tr>
+      <tr><td>Dead zone states</td><td>Particles at 10⁻⁹ to 10⁻⁶ GeV</td><td>If observed with suppressed couplings</td></tr>
       <tr><td>Any SM fermion</td><td>Incompatible with 24-entry table at ×10</td><td>Ongoing</td></tr>
-    </tbody></table><div class="alert">Falsification window: Euclid Data Release 1 — October 21, 2026</div></div>
+    </tbody></table><div class="alert">Falsification window: Euclid Data Release 1, October 21, 2026</div></div>
   </div>
 
   <!-- REGISTRY -->
@@ -213,147 +223,473 @@
     <div class="section"><h3>Source Code</h3><p class="body">Both the scaling law and the Spectrum mass formula. Zero hidden parameters. The code is the math.</p>
       <div class="code-block"><div class="comment">// Scaling law (4 cosmological constants):</div><div>A/Aₚ = C(Θ) · (√Ω)⁻ⁿ</div><div>&nbsp;</div><div class="comment">// Mass formula (24 particle masses):</div><div>m(ρ,σ) = μΛ · Cgeom(ρ) · (√ΩΛ)^(dist/30) · T²(ρ⊗σ)</div><div>&nbsp;</div><div class="comment">// Inputs: c, ℏ, ℓP. Free parameters: 0.</div></div>
     </div>
-    <div class="section"><h3>Contact</h3><p class="body">blake shatto, p.e. — <a href="mailto:bshatto.pe@gmail.com">bshatto.pe@gmail.com</a><br><a href="https://modeidentitytheory.com">modeidentitytheory.com</a> · <a href="https://zenodo.org/communities/modeidentitytheory">Zenodo community</a></p></div>
+    <div class="section"><h3>Contact</h3><p class="body">blake shatto, p.e. · <a href="mailto:bshatto.pe@gmail.com">bshatto.pe@gmail.com</a><br><a href="https://modeidentitytheory.com">modeidentitytheory.com</a> · <a href="https://zenodo.org/communities/modeidentitytheory">Zenodo community</a></p></div>
   </div>
 </div>
 
 <script>
-// LOCKED CONSTANTS
-const OMEGA_LAMBDA=3.52e122, OMEGA_H=3.13e122;
-const SQRT_OL=Math.sqrt(OMEGA_LAMBDA), SQRT_OH=Math.sqrt(OMEGA_H);
-const MU_L=2.248e-12; // GeV
-function Cph(t){return 2*Math.pow(Math.sin(Math.PI*t),2)}
+// ══════════════════════════════════════════════════════════════
+//  DERIVATION CHAIN: From first principles, not hardcoded
+// ══════════════════════════════════════════════════════════════
 
-// IRREP DATA (locked from SPECTRUMv1)
-const IR={
-  1:{l:"R₁",dim:2,sp:"half",dist:1,k:[1,11,19,29],D:120,cg:0.0988},
-  2:{l:"R₂",dim:2,sp:"half",dist:7,k:[7,13,17,23],D:120,cg:0.2436},
-  3:{l:"R₃",dim:3,sp:"int",dist:2,k:[2,10,12,18,20,28],D:60,cg:0.5553},
-  4:{l:"R₄",dim:3,sp:"int",dist:6,k:[6,10,14,16,20,24],D:60,cg:0.7970},
-  5:{l:"R₅",dim:4,sp:"int",dist:6,k:[6,8,12,14,16,18,22,24],D:60,cg:0.8017},
-  6:{l:"R₆",dim:4,sp:"half",dist:3,k:[3,9,11,13,17,19,21,27],D:120,cg:0.2098},
-  7:{l:"R₇",dim:5,sp:"int",dist:4,k:[4,8,10,12,14,16,18,20,22,26],D:60,cg:0.7564},
-  8:{l:"R₈",dim:6,sp:"half",dist:5,k:[5,7,9,11,13,15,15,17,19,21,23,25],D:120,cg:0.2382}
+// CODATA 2018 physical constants
+const C_LIGHT = 2.99792458e8;        // m/s (exact)
+const HBAR    = 1.054571817e-34;     // J·s
+const G_NEWT  = 6.67430e-11;        // m³/(kg·s²)
+
+// Planck 2018 CMB observed inputs
+const H0_KM   = 67.4;               // km/s/Mpc
+const OM_L0   = 0.6889;             // Ω_Λ,0
+const MPC     = 3.08568e22;         // meters per Mpc
+
+// Unit conversions
+const GEV_J   = 1.602176634e-10;    // Joules per GeV
+const HBAR_C  = 1.973269804e-16;    // GeV·m
+
+// ── Derived quantities (live computation) ──
+
+// Planck length
+const ELL_P = Math.sqrt(HBAR * G_NEWT / Math.pow(C_LIGHT, 3));
+
+// Planck time
+const T_P = Math.sqrt(HBAR * G_NEWT / Math.pow(C_LIGHT, 5));
+
+// Hubble parameter in s⁻¹
+const H0 = H0_KM * 1e3 / MPC;
+
+// Cosmological constant: Λ = 3 Ω_Λ,0 H₀² / c²
+const LAMBDA = 3 * OM_L0 * Math.pow(H0, 2) / Math.pow(C_LIGHT, 2);
+
+// de Sitter radius: R_Λ = √(3/Λ)
+const R_LAMBDA = Math.sqrt(3.0 / LAMBDA);
+
+// Hubble radius: R_H = c/H₀
+const R_H = C_LIGHT / H0;
+
+// √Ω_Λ = R_Λ / ℓ_P  (epoch-independent, surface mode)
+const SQRT_OL = R_LAMBDA / ELL_P;
+
+// √Ω_H = R_H / ℓ_P  (epoch-dependent, edge mode)
+const SQRT_OH = R_H / ELL_P;
+
+// Vacuum energy density: ρ_Λ = Λc⁴/(8πG)
+const RHO_LAMBDA = LAMBDA * Math.pow(C_LIGHT, 4) / (8 * Math.PI * G_NEWT);
+
+// ρ_Λ in natural units (GeV⁴)
+const RHO_LAMBDA_GEV4 = (RHO_LAMBDA / GEV_J) * Math.pow(HBAR_C, 3);
+
+// Neutrino floor: μ_Λ = ρ_Λ^(1/4)
+const MU_L = Math.pow(RHO_LAMBDA_GEV4, 0.25);
+
+// Phase operator: C(Θ) = 2sin²(πΘ)
+function Cph(t) { return 2 * Math.pow(Math.sin(Math.PI * t), 2); }
+
+// ══════════════════════════════════════════════════════════════
+//  IRREP DATA (locked topological structure)
+// ══════════════════════════════════════════════════════════════
+
+// Kostant exponents and spin parity are the inputs.
+// C_geom is COMPUTED from Kostant exponents, not hardcoded.
+
+const IR_RAW = {
+  1: {l:"R₁", dim:2, sp:"half", dist:1, k:[1,11,19,29]},
+  2: {l:"R₂", dim:2, sp:"half", dist:7, k:[7,13,17,23]},
+  3: {l:"R₃", dim:3, sp:"int",  dist:2, k:[2,10,12,18,20,28]},
+  4: {l:"R₄", dim:3, sp:"int",  dist:6, k:[6,10,14,16,20,24]},
+  5: {l:"R₅", dim:4, sp:"int",  dist:6, k:[6,8,12,14,16,18,22,24]},
+  6: {l:"R₆", dim:4, sp:"half", dist:3, k:[3,9,11,13,17,19,21,27]},
+  7: {l:"R₇", dim:5, sp:"int",  dist:4, k:[4,8,10,12,14,16,18,20,22,26]},
+  8: {l:"R₈", dim:6, sp:"half", dist:5, k:[5,7,9,11,13,15,15,17,19,21,23,25]}
 };
 
-// VACUUM TORSION (27 entries, locked)
-const T2={
-  1:{triv:15.887,std:0.00827,gal:2.778},
-  2:{triv:0.473,std:2.778,gal:0.0567},
-  3:{triv:0.306,std:68.765,gal:0.257},
-  4:{triv:2.094,std:0.257,gal:2.048},
-  5:{triv:2.778,std:0.122,gal:4.089},
-  6:{triv:4.328,std:0.688,gal:4.712},
-  7:{triv:2.250,std:1.114,gal:1.114},
-  8:{triv:0.257,std:13.090,gal:1.910}
+// Compute C_geom live from Kostant exponents
+// D = 60 for integer-spin (bosonic filter), 120 for half-integer
+function computeCgeom(ir) {
+  var D = ir.sp === "int" ? 60 : 120;
+  var product = 1.0;
+  for (var i = 0; i < ir.k.length; i++) {
+    product *= Cph(ir.k[i] / D);
+  }
+  return Math.pow(product, 1.0 / ir.k.length);
+}
+
+// Build IR with computed C_geom and D
+var IR = {};
+for (var r = 1; r <= 8; r++) {
+  var raw = IR_RAW[r];
+  var D = raw.sp === "int" ? 60 : 120;
+  IR[r] = {
+    l: raw.l, dim: raw.dim, sp: raw.sp, dist: raw.dist,
+    k: raw.k, D: D, cg: computeCgeom(raw)
+  };
+}
+
+// ══════════════════════════════════════════════════════════════
+//  VACUUM TORSION T²(ρ ⊗ σ) : 27 entries, locked
+// ══════════════════════════════════════════════════════════════
+
+const T2 = {
+  1: {triv:15.887, std:0.00827, gal:2.778},
+  2: {triv:0.473,  std:2.778,  gal:0.0567},
+  3: {triv:0.306,  std:68.765, gal:0.257},
+  4: {triv:2.094,  std:0.257,  gal:2.048},
+  5: {triv:2.778,  std:0.122,  gal:4.089},
+  6: {triv:4.328,  std:0.688,  gal:4.712},
+  7: {triv:2.250,  std:1.114,  gal:1.114},
+  8: {triv:0.257,  std:13.090, gal:1.910}
 };
 
-// SM TARGETS
-const SM={"ν₁":1e-13,"ν₂":8.6e-12,"ν₃":5.06e-11,"e":5.11e-4,"u":2.16e-3,"d":4.67e-3,"μ":1.057e-1,"s":9.34e-2,"c":1.27,"τ":1.777,"b":4.18,"t":172.7};
+// ══════════════════════════════════════════════════════════════
+//  SM TARGETS AND SCORECARD
+// ══════════════════════════════════════════════════════════════
 
-// SM SCORECARD (locked assignments from paper)
-const SMC=[
-  {f:"ν₁",obs:1e-13,rho:1,sig:"std",r:1.98},{f:"ν₂",obs:8.6e-12,rho:1,sig:"gal",r:7.75},
-  {f:"ν₃",obs:5.06e-11,rho:1,sig:"gal",r:1.32},{f:"e",obs:5.11e-4,rho:7,sig:"triv",r:1.02},
-  {f:"u",obs:2.16e-3,rho:8,sig:"triv",r:1.06},{f:"d",obs:4.67e-3,rho:8,sig:"gal",r:3.22},
-  {f:"μ",obs:1.057e-1,rho:8,sig:"std",r:1.02},{f:"s",obs:9.34e-2,rho:8,sig:"std",r:1.10},
-  {f:"c",obs:1.27,rho:4,sig:"std",r:1.73},{f:"τ",obs:1.777,rho:4,sig:"std",r:2.42},
-  {f:"b",obs:4.18,rho:2,sig:"gal",r:1.28},{f:"t",obs:172.7,rho:2,sig:"std",r:1.51}
+const SM = {"ν₁":1e-13,"ν₂":8.6e-12,"ν₃":5.06e-11,"e":5.11e-4,"u":2.16e-3,"d":4.67e-3,"μ":1.057e-1,"s":9.34e-2,"c":1.27,"τ":1.777,"b":4.18,"t":172.7};
+
+// SM scorecard (locked assignments from engine file §7F)
+// τ is bracketed between R₄ and R₅ per engine; assigned to R₄/std as best single entry
+const SMC = [
+  {f:"ν₁",obs:1e-13,  rho:1,sig:"std", r:0},
+  {f:"ν₂",obs:8.6e-12,rho:1,sig:"gal", r:0},
+  {f:"ν₃",obs:5.06e-11,rho:1,sig:"gal",r:0},
+  {f:"e", obs:5.11e-4, rho:7,sig:"triv",r:0},
+  {f:"u", obs:2.16e-3, rho:8,sig:"triv",r:0},
+  {f:"d", obs:4.67e-3, rho:8,sig:"gal", r:0},
+  {f:"μ", obs:1.057e-1,rho:8,sig:"std", r:0},
+  {f:"s", obs:9.34e-2, rho:8,sig:"std", r:0},
+  {f:"c", obs:1.27,    rho:4,sig:"std", r:0},
+  {f:"τ", obs:1.777,   rho:4,sig:"std", r:0},
+  {f:"b", obs:4.18,    rho:2,sig:"gal", r:0},
+  {f:"t", obs:172.7,   rho:2,sig:"std", r:0}
 ];
 
-function mass(r,v){return MU_L*IR[r].cg*Math.pow(SQRT_OL,IR[r].dist/30)*T2[r][v]}
+// Compute ratios live from derived mass
+SMC.forEach(function(s) {
+  var pred = mass(s.rho, s.sig);
+  s.pred = pred;
+  s.r = Math.max(pred / s.obs, s.obs / pred);
+});
 
-function fS(v,d){d=d||3;if(v===0)return"0";if(Math.abs(v)>=0.01&&Math.abs(v)<1000)return v.toPrecision(d);var e=Math.floor(Math.log10(Math.abs(v))),m=v/Math.pow(10,e);return m.toFixed(d-1)+" × 10<sup>"+e+"</sup>"}
-function badge(r){if(!r)return"";if(r<=1.1)return'<span class="badge badge-green">≤6%</span>';if(r<=3)return'<span class="badge badge-gold">≤3×</span>';if(r<=10)return'<span class="badge badge-red">≤10×</span>';return'<span class="badge badge-dim">&gt;10×</span>'}
+function mass(r, v) {
+  return MU_L * IR[r].cg * Math.pow(SQRT_OL, IR[r].dist / 30) * T2[r][v];
+}
 
-// TABS
-document.querySelectorAll('.tab').forEach(b=>{b.addEventListener('click',()=>{
-  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
-  document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
-  b.classList.add('active');document.getElementById(b.dataset.tab).classList.add('active');
-  if(b.dataset.tab==='theory')drawWave();if(b.dataset.tab==='spectrum')compSpec();
-})});
+// ══════════════════════════════════════════════════════════════
+//  DISPLAY UTILITIES
+// ══════════════════════════════════════════════════════════════
 
-// SCALING LAW
-const P={alpha:{tN:13,tD:60,nN:1,nD:30,om:"L"},a0:{tN:13,tD:120,nN:1,nD:1,om:"H"},H0:{tN:34,tD:120,nN:1,nD:1,om:"H"},lambda:{tN:60,tD:120,nN:2,nD:1,om:"L"}};
-const E={pr:document.getElementById('preset'),tN:document.getElementById('thetaNum'),tD:document.getElementById('thetaDen'),nN:document.getElementById('nNum'),nD:document.getElementById('nDen'),om:document.getElementById('omegaSource')};
-E.pr.addEventListener('change',()=>{var p=P[E.pr.value];if(!p)return;E.tN.value=p.tN;E.tD.value=p.tD;E.nN.value=p.nN;E.nD.value=p.nD;E.om.value=p.om;comp()});
-[E.tN,E.tD,E.nN,E.nD,E.om].forEach(el=>el.addEventListener('input',()=>{E.pr.value='custom';comp()}));
+function fS(v, d) {
+  d = d || 3;
+  if (v === 0) return "0";
+  if (Math.abs(v) >= 0.01 && Math.abs(v) < 1000) return v.toPrecision(d);
+  var e = Math.floor(Math.log10(Math.abs(v)));
+  var m = v / Math.pow(10, e);
+  return m.toFixed(d - 1) + " × 10<sup>" + e + "</sup>";
+}
 
-function comp(){
-  var tN=parseFloat(E.tN.value)||0,tD=parseFloat(E.tD.value)||1,nN=parseFloat(E.nN.value)||0,nD=parseFloat(E.nD.value)||1;
-  var th=tN/tD,n=nN/nD,sq=E.om.value==="H"?SQRT_OH:SQRT_OL,c=Cph(th),dil=Math.pow(sq,-n),res=c*dil;
-  var rows=[["Θ",tN+"/"+tD+" = "+th.toFixed(6)],["C(Θ) = 2 sin²(πΘ)",c.toFixed(6)],["n",nN+"/"+nD+" = "+n.toFixed(6)],["√Ω",fS(sq)],["(√Ω)⁻ⁿ",fS(dil)],["A / Aₚ",fS(res)]];
-  document.querySelector('#resultTable tbody').innerHTML=rows.map(([k,v])=>'<tr><td style="color:'+(k==='A / Aₚ'?'var(--accent)':'inherit')+';font-weight:'+(k==='A / Aₚ'?'600':'400')+'">'+k+'</td><td>'+v+'</td></tr>').join('');
+function badge(r) {
+  if (!r) return "";
+  if (r <= 1.1)  return '<span class="badge badge-green">≤6%</span>';
+  if (r <= 3)    return '<span class="badge badge-gold">≤3×</span>';
+  if (r <= 10)   return '<span class="badge badge-red">≤10×</span>';
+  return '<span class="badge badge-dim">&gt;10×</span>';
+}
+
+// ══════════════════════════════════════════════════════════════
+//  TABS
+// ══════════════════════════════════════════════════════════════
+
+document.querySelectorAll('.tab').forEach(function(b) {
+  b.addEventListener('click', function() {
+    document.querySelectorAll('.tab').forEach(function(x) { x.classList.remove('active'); });
+    document.querySelectorAll('.panel').forEach(function(x) { x.classList.remove('active'); });
+    b.classList.add('active');
+    document.getElementById(b.dataset.tab).classList.add('active');
+    if (b.dataset.tab === 'theory') drawWave();
+    if (b.dataset.tab === 'spectrum') compSpec();
+  });
+});
+
+// ══════════════════════════════════════════════════════════════
+//  SCALING LAW TAB
+// ══════════════════════════════════════════════════════════════
+
+var P = {
+  alpha:  {tN:13, tD:60,  nN:1, nD:30, om:"L"},
+  a0:     {tN:13, tD:120, nN:1, nD:1,  om:"H"},
+  H0:     {tN:34, tD:120, nN:1, nD:1,  om:"H"},
+  lambda: {tN:60, tD:120, nN:2, nD:1,  om:"L"}
+};
+
+var E = {
+  pr: document.getElementById('preset'),
+  tN: document.getElementById('thetaNum'),
+  tD: document.getElementById('thetaDen'),
+  nN: document.getElementById('nNum'),
+  nD: document.getElementById('nDen'),
+  om: document.getElementById('omegaSource')
+};
+
+E.pr.addEventListener('change', function() {
+  var p = P[E.pr.value]; if (!p) return;
+  E.tN.value = p.tN; E.tD.value = p.tD;
+  E.nN.value = p.nN; E.nD.value = p.nD;
+  E.om.value = p.om; comp();
+});
+
+[E.tN, E.tD, E.nN, E.nD, E.om].forEach(function(el) {
+  el.addEventListener('input', function() { E.pr.value = 'custom'; comp(); });
+});
+
+function comp() {
+  var tN = parseFloat(E.tN.value) || 0;
+  var tD = parseFloat(E.tD.value) || 1;
+  var nN = parseFloat(E.nN.value) || 0;
+  var nD = parseFloat(E.nD.value) || 1;
+  var th = tN / tD, n = nN / nD;
+  var sq = E.om.value === "H" ? SQRT_OH : SQRT_OL;
+  var c = Cph(th), dil = Math.pow(sq, -n), res = c * dil;
+  var rows = [
+    ["Θ", tN + "/" + tD + " = " + th.toFixed(6)],
+    ["C(Θ) = 2 sin²(πΘ)", c.toFixed(6)],
+    ["n", nN + "/" + nD + " = " + n.toFixed(6)],
+    ["√Ω", fS(sq)],
+    ["(√Ω)⁻ⁿ", fS(dil)],
+    ["A / Aₚ", fS(res)]
+  ];
+  document.querySelector('#resultTable tbody').innerHTML = rows.map(function(kv) {
+    var k = kv[0], v = kv[1];
+    var isResult = k === 'A / Aₚ';
+    return '<tr><td style="color:' + (isResult ? 'var(--accent)' : 'inherit') +
+      ';font-weight:' + (isResult ? '600' : '400') + '">' + k + '</td><td>' + v + '</td></tr>';
+  }).join('');
   drawDomain(th);
 }
 
-// SPECTRUM CALCULATOR
-var sI=document.getElementById('specIrrep'),sV=document.getElementById('specVacuum');
-sI.addEventListener('change',compSpec);sV.addEventListener('change',compSpec);
+// ══════════════════════════════════════════════════════════════
+//  SPECTRUM TAB
+// ══════════════════════════════════════════════════════════════
 
-function compSpec(){
-  var r=parseInt(sI.value),v=sV.value,ir=IR[r],t=T2[r][v],h=Math.pow(SQRT_OL,ir.dist/30),m=MU_L*ir.cg*h*t;
-  document.getElementById('massValue').innerHTML=fS(m,4)+" GeV";
-  var near="",nd=Infinity;for(var nm in SM){var ratio=Math.max(m/SM[nm],SM[nm]/m);if(ratio<nd){nd=ratio;near=nm}}
-  document.getElementById('massLabel').textContent="predicted mass"+(nd<10?"  ·  nearest SM: "+near+" (×"+nd.toFixed(2)+")":"");
-  var bd=[["μ<sub>Λ</sub>",fS(MU_L)+" GeV","Vacuum energy floor"],["C<sub>geom</sub>("+ir.l+")",ir.cg.toFixed(4),"Kostant sunflower (D="+ir.D+")"],["dist("+ir.l+")",ir.dist+" / 30","McKay graph distance"],["(√Ω<sub>Λ</sub>)<sup>dist/30</sup>",fS(h),"Hierarchy exponent"],["T²("+ir.l+" ⊗ "+v+")",t.toFixed(5),"Vacuum-twisted torsion"],["<strong>m</strong>","<strong>"+fS(m,4)+" GeV</strong>","<strong>Product of four factors</strong>"]];
-  document.querySelector('#specBreakdown tbody').innerHTML=bd.map(([k,v,s])=>'<tr><td>'+k+'</td><td>'+v+'</td><td style="color:var(--dim)">'+s+'</td></tr>').join('');
+var sI = document.getElementById('specIrrep');
+var sV = document.getElementById('specVacuum');
+sI.addEventListener('change', compSpec);
+sV.addEventListener('change', compSpec);
+
+function compSpec() {
+  var r = parseInt(sI.value), v = sV.value;
+  var ir = IR[r], t = T2[r][v];
+  var h = Math.pow(SQRT_OL, ir.dist / 30);
+  var m = MU_L * ir.cg * h * t;
+  document.getElementById('massValue').innerHTML = fS(m, 4) + " GeV";
+  var near = "", nd = Infinity;
+  for (var nm in SM) {
+    var ratio = Math.max(m / SM[nm], SM[nm] / m);
+    if (ratio < nd) { nd = ratio; near = nm; }
+  }
+  document.getElementById('massLabel').textContent =
+    "predicted mass" + (nd < 10 ? "  ·  nearest SM: " + near + " (×" + nd.toFixed(2) + ")" : "");
+  var bd = [
+    ["μ<sub>Λ</sub>", fS(MU_L) + " GeV", "ρ<sub>Λ</sub><sup>1/4</sup> (derived)"],
+    ["C<sub>geom</sub>(" + ir.l + ")", ir.cg.toFixed(4), "Kostant sunflower (D=" + ir.D + ", computed)"],
+    ["dist(" + ir.l + ")", ir.dist + " / 30", "McKay graph distance"],
+    ["(√Ω<sub>Λ</sub>)<sup>dist/30</sup>", fS(h), "Hierarchy: (" + fS(SQRT_OL, 4) + ")<sup>" + ir.dist + "/30</sup>"],
+    ["T²(" + ir.l + " ⊗ " + v + ")", t.toFixed(5), "Vacuum-twisted torsion"],
+    ["<strong>m</strong>", "<strong>" + fS(m, 4) + " GeV</strong>", "<strong>Product of four factors</strong>"]
+  ];
+  document.querySelector('#specBreakdown tbody').innerHTML = bd.map(function(row) {
+    return '<tr><td>' + row[0] + '</td><td>' + row[1] + '</td><td style="color:var(--dim)">' + row[2] + '</td></tr>';
+  }).join('');
 }
 
-// BUILD TABLES
-function build(){
+// ══════════════════════════════════════════════════════════════
+//  BUILD ALL TABLES
+// ══════════════════════════════════════════════════════════════
+
+function build() {
+  // Display derived constants in Spectrum tab
+  var muEl = document.getElementById('muDisplay');
+  if (muEl) muEl.innerHTML = "ρ<sub>Λ</sub><sup>1/4</sup> = " + fS(MU_L, 4) + " GeV";
+  var sqEl = document.getElementById('sqrtOLDisplay');
+  if (sqEl) sqEl.innerHTML = "√Ω<sub>Λ</sub> = " + fS(SQRT_OL, 4);
+
   // 24-entry mass table
-  var ent=[];for(var r=1;r<=8;r++)for(var v of["triv","std","gal"]){var m_=mass(r,v),ir=IR[r];ent.push({r:r,l:ir.l,dim:ir.dim,dist:ir.dist,v:v,t2:T2[r][v],m:m_,sm:"",rat:0,dz:ir.dist===2||ir.dist===3})}
-  ent.sort((a,b)=>a.m-b.m);
-  // Locked SM assignments from paper Table IV
-  var asgn=[{rk:1,s:"ν₁",rat:1.98},{rk:2,s:"ν₃",rat:1.32},{rk:3,s:"ν₃",rat:7.54},{rk:10,s:"e",rat:1.98},{rk:11,s:"e",rat:1.98},{rk:12,s:"e",rat:1.02},{rk:13,s:"u",rat:1.06},{rk:14,s:"d",rat:3.22},{rk:15,s:"μ",rat:1.02},{rk:17,s:"c",rat:1.73},{rk:18,s:"b",rat:1.28},{rk:19,s:"b",rat:1.40},{rk:20,s:"b",rat:1.43},{rk:21,s:"b",rat:1.91},{rk:22,s:"b",rat:2.80},{rk:23,s:"t",rat:3.88},{rk:24,s:"t",rat:1.51}];
-  asgn.forEach(a=>{if(ent[a.rk-1]){ent[a.rk-1].sm=a.s;ent[a.rk-1].rat=a.rat}});
-  document.querySelector('#massTable24 tbody').innerHTML=ent.map((e,i)=>{var cl=e.dz?'dead-zone':(e.rat>0&&e.rat<=1.1?'hit-row':'');return'<tr class="'+cl+'"><td>'+(i+1)+'</td><td>'+e.l+'</td><td>'+e.dim+'</td><td>'+e.dist+'</td><td>'+e.v+'</td><td>'+e.t2.toFixed(3)+'</td><td>'+fS(e.m)+'</td><td>'+(e.sm||"—")+'</td><td>'+(e.rat?e.rat.toFixed(2):"—")+'</td><td>'+(e.sm?badge(e.rat):(e.dz?'<span class="badge badge-dim">dead zone</span>':''))+'</td></tr>'}).join('');
+  var ent = [];
+  for (var r = 1; r <= 8; r++) {
+    for (var vi = 0; vi < 3; vi++) {
+      var v = ["triv","std","gal"][vi];
+      var ir = IR[r];
+      var m_ = mass(r, v);
+      ent.push({r:r, l:ir.l, dim:ir.dim, dist:ir.dist, v:v, t2:T2[r][v], m:m_, sm:"", rat:0, dz:ir.dist===2||ir.dist===3});
+    }
+  }
+  ent.sort(function(a, b) { return a.m - b.m; });
 
-  // SM scorecard
-  SMC.forEach(s=>{s.pred=mass(s.rho,s.sig)});
-  document.querySelector('#smScorecard tbody').innerHTML=SMC.map(s=>{var w3=s.r<=3?"yes":(s.r<=3.25?"boundary":"<strong>no</strong>");var cl=s.r<=1.1?'hit-row':'';return'<tr class="'+cl+'"><td>'+s.f+'</td><td>'+fS(s.obs)+'</td><td>'+fS(s.pred)+'</td><td>'+IR[s.rho].l+'</td><td>'+s.sig+'</td><td>'+s.r.toFixed(2)+'</td><td>'+w3+' '+badge(s.r)+'</td></tr>'}).join('');
+  // Assign SM labels by matching against sorted entries
+  // Engine §7E locked assignments (by rank in sorted order)
+  var asgn = [
+    {rk:1, s:"ν₁"}, {rk:2, s:"ν₃"}, {rk:3, s:"ν₃"},
+    {rk:10,s:"e"}, {rk:11,s:"e"}, {rk:12,s:"e"},
+    {rk:13,s:"u"}, {rk:14,s:"d"}, {rk:15,s:"μ"},
+    {rk:17,s:"c"}, {rk:18,s:"b"}, {rk:19,s:"b"},
+    {rk:20,s:"b"}, {rk:21,s:"b"}, {rk:22,s:"b"},
+    {rk:23,s:"t"}, {rk:24,s:"t"}
+  ];
+  asgn.forEach(function(a) {
+    if (ent[a.rk - 1]) {
+      ent[a.rk - 1].sm = a.s;
+      var obs = SM[a.s];
+      if (obs) ent[a.rk - 1].rat = Math.max(ent[a.rk - 1].m / obs, obs / ent[a.rk - 1].m);
+    }
+  });
 
-  // Cgeom
-  document.querySelector('#cgeomTable tbody').innerHTML=Object.entries(IR).map(([k,ir])=>'<tr><td>'+ir.l+'</td><td>'+ir.sp+'</td><td>'+ir.D+'</td><td style="font-size:11px">{'+ir.k.join(', ')+'}</td><td>'+ir.cg.toFixed(4)+'</td></tr>').join('');
+  document.querySelector('#massTable24 tbody').innerHTML = ent.map(function(e, i) {
+    var cl = e.dz ? 'dead-zone' : (e.rat > 0 && e.rat <= 1.1 ? 'hit-row' : '');
+    return '<tr class="' + cl + '"><td>' + (i+1) + '</td><td>' + e.l + '</td><td>' + e.dim +
+      '</td><td>' + e.dist + '</td><td>' + e.v + '</td><td>' + e.t2.toFixed(3) +
+      '</td><td>' + fS(e.m) + '</td><td>' + (e.sm || "-") + '</td><td>' +
+      (e.rat ? e.rat.toFixed(2) : "-") + '</td><td>' +
+      (e.sm ? badge(e.rat) : (e.dz ? '<span class="badge badge-dim">dead zone</span>' : '')) + '</td></tr>';
+  }).join('');
 
-  // Torsion
-  document.querySelector('#torsionTable tbody').innerHTML=Object.entries(T2).map(([k,t])=>'<tr><td>'+IR[k].l+'</td><td>'+t.triv.toFixed(4)+'</td><td>'+t.std.toFixed(5)+'</td><td>'+t.gal.toFixed(4)+'</td></tr>').join('');
+  // SM scorecard (ratios computed live)
+  SMC.forEach(function(s) {
+    s.pred = mass(s.rho, s.sig);
+    s.r = Math.max(s.pred / s.obs, s.obs / s.pred);
+  });
+  document.querySelector('#smScorecard tbody').innerHTML = SMC.map(function(s) {
+    var w3 = s.r <= 3 ? "yes" : (s.r <= 3.25 ? "boundary" : "<strong>no</strong>");
+    var cl = s.r <= 1.1 ? 'hit-row' : '';
+    return '<tr class="' + cl + '"><td>' + s.f + '</td><td>' + fS(s.obs) + '</td><td>' +
+      fS(s.pred) + '</td><td>' + IR[s.rho].l + '</td><td>' + s.sig + '</td><td>' +
+      s.r.toFixed(2) + '</td><td>' + w3 + ' ' + badge(s.r) + '</td></tr>';
+  }).join('');
 
-  // Wells
-  var wd=[{p:"13/60",t:13/60,g:"60R",n:"1/30",l:"α — fine structure"},{p:"13/120",t:13/120,g:"120",n:"1",l:"a₀ — acceleration"},{p:"21/120",t:21/120,g:"120",n:"—",l:"Unassigned"},{p:"34/120",t:34/120,g:"120",n:"1",l:"H₀ — Hubble"},{p:"55/120",t:55/120,g:"120",n:"—",l:"Unassigned"},{p:"60/120",t:60/120,g:"120",n:"2",l:"Λ — cosmological constant"}];
-  document.getElementById('wellsTable').innerHTML=wd.map(w=>'<tr><td>'+w.p+'</td><td>'+w.t.toFixed(4)+'</td><td>'+Cph(w.t).toFixed(4)+'</td><td>'+w.g+'</td><td>'+w.n+'</td><td>'+w.l+'</td></tr>').join('');
+  // C_geom table (showing computed values)
+  document.querySelector('#cgeomTable tbody').innerHTML = Object.keys(IR).map(function(k) {
+    var ir = IR[k];
+    return '<tr><td>' + ir.l + '</td><td>' + ir.sp + '</td><td>' + ir.D +
+      '</td><td style="font-size:11px">{' + ir.k.join(', ') + '}</td><td>' + ir.cg.toFixed(4) + '</td></tr>';
+  }).join('');
+
+  // Torsion table
+  document.querySelector('#torsionTable tbody').innerHTML = Object.keys(T2).map(function(k) {
+    var t = T2[k];
+    return '<tr><td>' + IR[k].l + '</td><td>' + t.triv.toFixed(4) + '</td><td>' +
+      t.std.toFixed(5) + '</td><td>' + t.gal.toFixed(4) + '</td></tr>';
+  }).join('');
+
+  // Fibonacci wells
+  var wd = [
+    {p:"13/60", t:13/60,  g:"60R", n:"1/30", l:"α"},
+    {p:"13/120",t:13/120, g:"120", n:"1",    l:"a₀"},
+    {p:"21/120",t:21/120, g:"120", n:"-",l:"Unassigned"},
+    {p:"34/120",t:34/120, g:"120", n:"1",    l:"H₀"},
+    {p:"55/120",t:55/120, g:"120", n:"-",l:"Unassigned"},
+    {p:"60/120",t:60/120, g:"120", n:"2",    l:"Λ"}
+  ];
+  document.getElementById('wellsTable').innerHTML = wd.map(function(w) {
+    return '<tr><td>' + w.p + '</td><td>' + w.t.toFixed(4) + '</td><td>' +
+      Cph(w.t).toFixed(4) + '</td><td>' + w.g + '</td><td>' + w.n + '</td><td>' + w.l + '</td></tr>';
+  }).join('');
+
+  // Derivation chain table (Theory tab)
+  var chainEl = document.querySelector('#chainTable tbody');
+  if (chainEl) {
+    var chain = [
+      ["ℓ<sub>P</sub>", "√(ℏG/c³)", fS(ELL_P) + " m"],
+      ["H₀", H0_KM + " km/s/Mpc", fS(H0) + " s⁻¹"],
+      ["Λ", "3 Ω<sub>Λ,0</sub> H₀²/c²", fS(LAMBDA) + " m⁻²"],
+      ["R<sub>Λ</sub>", "√(3/Λ)", fS(R_LAMBDA) + " m"],
+      ["R<sub>H</sub>", "c/H₀", fS(R_H) + " m"],
+      ["√Ω<sub>Λ</sub>", "R<sub>Λ</sub>/ℓ<sub>P</sub>", fS(SQRT_OL, 4)],
+      ["√Ω<sub>H</sub>", "R<sub>H</sub>/ℓ<sub>P</sub>", fS(SQRT_OH, 4)],
+      ["ρ<sub>Λ</sub>", "Λc⁴/(8πG)", fS(RHO_LAMBDA) + " J/m³"],
+      ["μ<sub>Λ</sub>", "ρ<sub>Λ</sub><sup>1/4</sup>", fS(MU_L, 4) + " GeV"]
+    ];
+    chainEl.innerHTML = chain.map(function(row) {
+      return '<tr><td style="color:var(--accent)">' + row[0] + '</td><td>' + row[1] + '</td><td>' + row[2] + '</td></tr>';
+    }).join('');
+  }
 }
 
-// CANVAS: DOMAIN
-function drawDomain(ht){
-  var c=document.getElementById('domainCanvas'),x=c.getContext('2d'),d=window.devicePixelRatio||1,W=600,H=170;
-  c.width=W*d;c.height=H*d;c.style.width=Math.min(W,innerWidth-40)+'px';c.style.height=H*Math.min(W,innerWidth-40)/W+'px';
-  x.scale(d,d);x.clearRect(0,0,W,H);
-  var p={l:50,r:20,t:30,b:40},w=W-p.l-p.r,h=H-p.t-p.b;
-  x.strokeStyle="rgba(120,160,200,0.15)";x.lineWidth=0.5;x.beginPath();x.moveTo(p.l,p.t+h);x.lineTo(p.l+w,p.t+h);x.stroke();x.beginPath();x.moveTo(p.l,p.t);x.lineTo(p.l+w,p.t);x.stroke();
-  x.strokeStyle="#8bc4a0";x.lineWidth=1.5;x.beginPath();for(var i=0;i<=w;i++){var th=i/w,y=p.t+h-(Cph(th)/2)*h;i===0?x.moveTo(p.l+i,y):x.lineTo(p.l+i,y)}x.stroke();
-  [{t:13/120,l:"a₀",c:"#e07050"},{t:13/60,l:"α",c:"#c090e0"},{t:34/120,l:"H₀",c:"#60b0e0"},{t:60/120,l:"Λ",c:"#f0c040"}].forEach(wl=>{
-    var px=p.l+wl.t*w,py=p.t+h-(Cph(wl.t)/2)*h;x.strokeStyle=wl.c+"60";x.lineWidth=1;x.setLineDash([3,3]);x.beginPath();x.moveTo(px,p.t+h);x.lineTo(px,py);x.stroke();x.setLineDash([]);x.fillStyle=wl.c;x.beginPath();x.arc(px,py,4,0,2*Math.PI);x.fill();x.font="bold 10px 'IBM Plex Mono',monospace";x.textAlign="center";x.fillText(wl.l,px,py-10)});
-  if(ht>0&&ht<1){var px=p.l+ht*w,py=p.t+h-(Cph(ht)/2)*h;x.fillStyle="#fff";x.beginPath();x.arc(px,py,5,0,2*Math.PI);x.fill()}
-  x.fillStyle="rgba(180,200,220,0.7)";x.font="10px 'IBM Plex Mono',monospace";x.textAlign="center";x.fillText("0",p.l,p.t+h+16);x.fillText("Θ",p.l+w/2,p.t+h+28);x.fillText("1",p.l+w,p.t+h+16);x.textAlign="right";x.fillText("2",p.l-6,p.t+6);x.fillText("0",p.l-6,p.t+h+4);x.fillText("C(Θ)",p.l-6,p.t+h/2);
+// ══════════════════════════════════════════════════════════════
+//  CANVAS: PHASE OPERATOR DOMAIN
+// ══════════════════════════════════════════════════════════════
+
+function drawDomain(ht) {
+  var c = document.getElementById('domainCanvas'), x = c.getContext('2d');
+  var d = window.devicePixelRatio || 1, W = 600, H = 170;
+  c.width = W * d; c.height = H * d;
+  c.style.width = Math.min(W, innerWidth - 40) + 'px';
+  c.style.height = H * Math.min(W, innerWidth - 40) / W + 'px';
+  x.scale(d, d); x.clearRect(0, 0, W, H);
+  var p = {l:50, r:20, t:30, b:40}, w = W - p.l - p.r, h = H - p.t - p.b;
+  x.strokeStyle = "rgba(120,160,200,0.15)"; x.lineWidth = 0.5;
+  x.beginPath(); x.moveTo(p.l, p.t + h); x.lineTo(p.l + w, p.t + h); x.stroke();
+  x.beginPath(); x.moveTo(p.l, p.t); x.lineTo(p.l + w, p.t); x.stroke();
+  x.strokeStyle = "#8bc4a0"; x.lineWidth = 1.5; x.beginPath();
+  for (var i = 0; i <= w; i++) {
+    var th = i / w, y = p.t + h - (Cph(th) / 2) * h;
+    i === 0 ? x.moveTo(p.l + i, y) : x.lineTo(p.l + i, y);
+  }
+  x.stroke();
+  [{t:13/120,l:"a₀",c:"#e07050"},{t:13/60,l:"α",c:"#c090e0"},{t:34/120,l:"H₀",c:"#60b0e0"},{t:60/120,l:"Λ",c:"#f0c040"}].forEach(function(wl) {
+    var px = p.l + wl.t * w, py = p.t + h - (Cph(wl.t) / 2) * h;
+    x.strokeStyle = wl.c + "60"; x.lineWidth = 1;
+    x.setLineDash([3, 3]); x.beginPath(); x.moveTo(px, p.t + h); x.lineTo(px, py); x.stroke();
+    x.setLineDash([]); x.fillStyle = wl.c; x.beginPath(); x.arc(px, py, 4, 0, 2 * Math.PI); x.fill();
+    x.font = "bold 10px 'IBM Plex Mono',monospace"; x.textAlign = "center"; x.fillText(wl.l, px, py - 10);
+  });
+  if (ht > 0 && ht < 1) {
+    var px = p.l + ht * w, py = p.t + h - (Cph(ht) / 2) * h;
+    x.fillStyle = "#fff"; x.beginPath(); x.arc(px, py, 5, 0, 2 * Math.PI); x.fill();
+  }
+  x.fillStyle = "rgba(180,200,220,0.7)"; x.font = "10px 'IBM Plex Mono',monospace";
+  x.textAlign = "center"; x.fillText("0", p.l, p.t + h + 16);
+  x.fillText("Θ", p.l + w / 2, p.t + h + 28); x.fillText("1", p.l + w, p.t + h + 16);
+  x.textAlign = "right"; x.fillText("2", p.l - 6, p.t + 6);
+  x.fillText("0", p.l - 6, p.t + h + 4); x.fillText("C(Θ)", p.l - 6, p.t + h / 2);
 }
 
-// CANVAS: WAVE
-function drawWave(){
-  var c=document.getElementById('waveCanvas');if(!c)return;var x=c.getContext('2d'),d=window.devicePixelRatio||1,W=600,H=180;
-  c.width=W*d;c.height=H*d;c.style.width=Math.min(W,innerWidth-40)+'px';c.style.height=H*Math.min(W,innerWidth-40)/W+'px';
-  x.scale(d,d);x.clearRect(0,0,W,H);
-  var p={l:50,r:20,t:20,b:35},w=W-p.l-p.r,h=H-p.t-p.b,my=p.t+h/2;
-  x.strokeStyle="rgba(120,160,200,0.12)";x.lineWidth=0.5;for(var i=0;i<=4;i++){var px=p.l+(i/4)*w;x.beginPath();x.moveTo(px,p.t);x.lineTo(px,p.t+h);x.stroke()}x.beginPath();x.moveTo(p.l,my);x.lineTo(p.l+w,my);x.stroke();
-  x.strokeStyle="#6ec1e4";x.lineWidth=2;x.beginPath();for(var i=0;i<=w;i++){var t=(i/w)*4*Math.PI,y=my-Math.cos(t/2)*(h*0.42);i===0?x.moveTo(p.l+i,y):x.lineTo(p.l+i,y)}x.stroke();
-  var tN=5.22,xN=p.l+(tN/(4*Math.PI))*w,yN=my-Math.cos(tN/2)*(h*0.42);x.fillStyle="#f0c040";x.beginPath();x.arc(xN,yN,5,0,2*Math.PI);x.fill();x.fillStyle="rgba(240,192,64,0.85)";x.font="11px 'IBM Plex Mono',monospace";x.fillText("t ≈ 5.22",xN+8,yN-6);
-  x.fillStyle="rgba(180,200,220,0.7)";x.font="10px 'IBM Plex Mono',monospace";x.textAlign="center";["0","π","2π","3π","4π"].forEach((l,i)=>x.fillText(l,p.l+(i/4)*w,p.t+h+16));x.textAlign="right";x.fillText("+1",p.l-6,p.t+12);x.fillText("−1",p.l-6,p.t+h);x.fillText("Ψ",p.l-6,my+4);
+// ══════════════════════════════════════════════════════════════
+//  CANVAS: COSMIC STANDING WAVE
+// ══════════════════════════════════════════════════════════════
+
+function drawWave() {
+  var c = document.getElementById('waveCanvas'); if (!c) return;
+  var x = c.getContext('2d'), d = window.devicePixelRatio || 1, W = 600, H = 180;
+  c.width = W * d; c.height = H * d;
+  c.style.width = Math.min(W, innerWidth - 40) + 'px';
+  c.style.height = H * Math.min(W, innerWidth - 40) / W + 'px';
+  x.scale(d, d); x.clearRect(0, 0, W, H);
+  var p = {l:50, r:20, t:20, b:35}, w = W - p.l - p.r, h = H - p.t - p.b, my = p.t + h / 2;
+  x.strokeStyle = "rgba(120,160,200,0.12)"; x.lineWidth = 0.5;
+  for (var i = 0; i <= 4; i++) {
+    var px = p.l + (i / 4) * w;
+    x.beginPath(); x.moveTo(px, p.t); x.lineTo(px, p.t + h); x.stroke();
+  }
+  x.beginPath(); x.moveTo(p.l, my); x.lineTo(p.l + w, my); x.stroke();
+  x.strokeStyle = "#6ec1e4"; x.lineWidth = 2; x.beginPath();
+  for (var i = 0; i <= w; i++) {
+    var t = (i / w) * 4 * Math.PI, y = my - Math.cos(t / 2) * (h * 0.42);
+    i === 0 ? x.moveTo(p.l + i, y) : x.lineTo(p.l + i, y);
+  }
+  x.stroke();
+  var tN = 5.22, xN = p.l + (tN / (4 * Math.PI)) * w, yN = my - Math.cos(tN / 2) * (h * 0.42);
+  x.fillStyle = "#f0c040"; x.beginPath(); x.arc(xN, yN, 5, 0, 2 * Math.PI); x.fill();
+  x.fillStyle = "rgba(240,192,64,0.85)"; x.font = "11px 'IBM Plex Mono',monospace";
+  x.fillText("t ≈ 5.22", xN + 8, yN - 6);
+  x.fillStyle = "rgba(180,200,220,0.7)"; x.font = "10px 'IBM Plex Mono',monospace";
+  x.textAlign = "center";
+  ["0","π","2π","3π","4π"].forEach(function(l, i) { x.fillText(l, p.l + (i / 4) * w, p.t + h + 16); });
+  x.textAlign = "right"; x.fillText("+1", p.l - 6, p.t + 12);
+  x.fillText("−1", p.l - 6, p.t + h); x.fillText("Ψ", p.l - 6, my + 4);
 }
 
-// INIT
-build();comp();
+// ══════════════════════════════════════════════════════════════
+//  INIT
+// ══════════════════════════════════════════════════════════════
+build();
+comp();
 </script>
 </body>
 </html>
