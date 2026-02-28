@@ -20,45 +20,45 @@
     body { background: linear-gradient(170deg, var(--bg) 0%, var(--bg2) 40%, #0a1018 100%); color: var(--text); font-family: var(--mono); min-height: 100vh; line-height: 1.6; }
     a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
     .header { padding: 32px 24px 20px; text-align: center; border-bottom: 1px solid var(--line); }
-    .header h1 { font-family: var(--serif); font-size: 32px; font-weight: 300; letter-spacing: 3px; color: #e0eaf0; }
-    .header .sub { font-size: 12px; color: var(--dimmer); letter-spacing: 2px; margin-top: 8px; }
+    .header h1 { font-family: var(--serif); font-size: 38px; font-weight: 300; letter-spacing: 3px; color: #e0eaf0; }
+    .header .sub { font-size: 14px; color: var(--dimmer); letter-spacing: 2px; margin-top: 8px; }
     .tabs { display: flex; justify-content: center; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
-    .tab { background: transparent; color: var(--dim); border: none; border-bottom: 2px solid transparent; padding: 10px 14px; cursor: pointer; font-family: var(--mono); font-size: 12px; font-weight: 400; letter-spacing: 0.5px; transition: all 0.2s; }
+    .tab { background: transparent; color: var(--dim); border: none; border-bottom: 2px solid transparent; padding: 10px 14px; cursor: pointer; font-family: var(--mono); font-size: 14px; font-weight: 400; letter-spacing: 0.5px; transition: all 0.2s; }
     .tab:hover { color: var(--accent); }
     .tab.active { background: rgba(110,193,228,0.12); color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
-    .content { max-width: 700px; margin: 0 auto; padding: 24px 20px 48px; }
+    .content { max-width: 760px; margin: 0 auto; padding: 24px 20px 48px; }
     .panel { display: none; } .panel.active { display: block; }
-    h3 { font-family: var(--serif); font-size: 20px; font-weight: 500; color: #c8dce8; margin-bottom: 12px; letter-spacing: 0.5px; }
+    h3 { font-family: var(--serif); font-size: 24px; font-weight: 500; color: #c8dce8; margin-bottom: 12px; letter-spacing: 0.5px; }
     .section { margin-bottom: 28px; }
-    .eq-box { background: rgba(110,193,228,0.06); border-radius: 8px; padding: 16px 20px; border: 1px solid rgba(110,193,228,0.15); text-align: center; font-family: var(--serif); font-size: 20px; color: #e0eaf0; letter-spacing: 1px; margin-bottom: 16px; line-height: 1.5; }
-    table { width: 100%; border-collapse: collapse; font-size: 12px; }
-    th { text-align: left; padding: 7px 8px; color: var(--dim); border-bottom: 1px solid rgba(120,160,200,0.2); font-weight: 500; font-size: 10px; letter-spacing: 0.8px; text-transform: uppercase; }
+    .eq-box { background: rgba(110,193,228,0.06); border-radius: 8px; padding: 16px 20px; border: 1px solid rgba(110,193,228,0.15); text-align: center; font-family: var(--serif); font-size: 24px; color: #e0eaf0; letter-spacing: 1px; margin-bottom: 16px; line-height: 1.5; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th { text-align: left; padding: 7px 8px; color: var(--dim); border-bottom: 1px solid rgba(120,160,200,0.2); font-weight: 500; font-size: 12px; letter-spacing: 0.8px; text-transform: uppercase; }
     td { padding: 6px 8px; border-bottom: 1px solid rgba(120,160,200,0.08); }
     tr:nth-child(even) { background: rgba(255,255,255,0.02); }
     tr.dead-zone { background: rgba(224,112,80,0.06); color: rgba(200,220,232,0.5); }
     tr.hit-row { background: rgba(139,196,160,0.1); }
-    p.body { font-size: 13px; color: rgba(200,220,232,0.8); line-height: 1.7; margin-bottom: 12px; }
+    p.body { font-size: 15px; color: rgba(200,220,232,0.8); line-height: 1.7; margin-bottom: 12px; }
     .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
     label.field { display: block; margin-bottom: 14px; }
-    label.field span { display: block; font-size: 11px; color: var(--dim); margin-bottom: 4px; letter-spacing: 0.5px; text-transform: uppercase; }
-    label.field input, label.field select { width: 100%; padding: 8px 10px; background: rgba(255,255,255,0.05); border: 1px solid rgba(120,160,200,0.2); border-radius: 4px; color: var(--text); font-family: var(--mono); font-size: 13px; outline: none; }
+    label.field span { display: block; font-size: 13px; color: var(--dim); margin-bottom: 4px; letter-spacing: 0.5px; text-transform: uppercase; }
+    label.field input, label.field select { width: 100%; padding: 8px 10px; background: rgba(255,255,255,0.05); border: 1px solid rgba(120,160,200,0.2); border-radius: 4px; color: var(--text); font-family: var(--mono); font-size: 15px; outline: none; }
     label.field input:focus, label.field select:focus { border-color: var(--accent); }
     .result-box { background: rgba(255,255,255,0.03); border-radius: 8px; padding: 16px; border: 1px solid var(--line); margin-top: 16px; }
-    .code-block { background: rgba(255,255,255,0.03); border-radius: 6px; padding: 16px; font-family: var(--mono); font-size: 12px; color: var(--green); line-height: 1.7; border: 1px solid rgba(120,160,200,0.1); overflow-x: auto; }
+    .code-block { background: rgba(255,255,255,0.03); border-radius: 6px; padding: 16px; font-family: var(--mono); font-size: 14px; color: var(--green); line-height: 1.7; border: 1px solid rgba(120,160,200,0.1); overflow-x: auto; }
     .code-block .comment { color: var(--dimmer); }
-    .alert { margin-top: 16px; padding: 12px 16px; border-radius: 6px; background: rgba(240,192,64,0.08); border: 1px solid rgba(240,192,64,0.2); font-size: 13px; color: var(--gold); }
-    .alert-red { margin-top: 12px; padding: 12px 16px; border-radius: 6px; background: rgba(224,112,80,0.08); border: 1px solid rgba(224,112,80,0.2); font-size: 12px; color: var(--red); }
-    .badge { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 10px; font-weight: 600; letter-spacing: 0.5px; }
+    .alert { margin-top: 16px; padding: 12px 16px; border-radius: 6px; background: rgba(240,192,64,0.08); border: 1px solid rgba(240,192,64,0.2); font-size: 15px; color: var(--gold); }
+    .alert-red { margin-top: 12px; padding: 12px 16px; border-radius: 6px; background: rgba(224,112,80,0.08); border: 1px solid rgba(224,112,80,0.2); font-size: 14px; color: var(--red); }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 12px; font-weight: 600; letter-spacing: 0.5px; }
     .badge-green { background: rgba(139,196,160,0.2); color: var(--green); }
     .badge-gold { background: rgba(240,192,64,0.2); color: var(--gold); }
     .badge-red { background: rgba(224,112,80,0.2); color: var(--red); }
     .badge-dim { background: rgba(180,200,220,0.1); color: var(--dim); }
-    .footer { text-align: center; padding: 20px 24px 32px; border-top: 1px solid rgba(120,160,200,0.08); font-family: var(--serif); font-size: 14px; font-style: italic; color: var(--dimmer); letter-spacing: 0.5px; }
+    .footer { text-align: center; padding: 20px 24px 32px; border-top: 1px solid rgba(120,160,200,0.08); font-family: var(--serif); font-size: 16px; font-style: italic; color: var(--dimmer); letter-spacing: 0.5px; }
     canvas { display: block; margin: 0 auto; }
     .mass-result { text-align: center; padding: 20px; background: rgba(110,193,228,0.06); border: 1px solid rgba(110,193,228,0.15); border-radius: 8px; margin: 16px 0; }
-    .mass-result .value { font-size: 26px; font-family: var(--serif); color: var(--accent); letter-spacing: 1px; }
-    .mass-result .label { font-size: 11px; color: var(--dim); margin-top: 4px; letter-spacing: 1px; text-transform: uppercase; }
-    @media (max-width: 500px) { .header h1 { font-size: 22px; letter-spacing: 1px; } .form-row { grid-template-columns: 1fr; } .tab { padding: 8px 10px; font-size: 11px; } .eq-box { font-size: 16px; } }
+    .mass-result .value { font-size: 30px; font-family: var(--serif); color: var(--accent); letter-spacing: 1px; }
+    .mass-result .label { font-size: 13px; color: var(--dim); margin-top: 4px; letter-spacing: 1px; text-transform: uppercase; }
+    @media (max-width: 500px) { .header h1 { font-size: 26px; letter-spacing: 1px; } .form-row { grid-template-columns: 1fr; } .tab { padding: 8px 10px; font-size: 13px; } .eq-box { font-size: 20px; } }
   </style>
 </head>
 <body>
@@ -288,9 +288,6 @@ function Cph(t) { return 2 * Math.pow(Math.sin(Math.PI * t), 2); }
 //  IRREP DATA (locked topological structure)
 // ══════════════════════════════════════════════════════════════
 
-// Kostant exponents and spin parity are the inputs.
-// C_geom is COMPUTED from Kostant exponents, not hardcoded.
-
 const IR_RAW = {
   1: {l:"R₁", dim:2, sp:"half", dist:1, k:[1,11,19,29]},
   2: {l:"R₂", dim:2, sp:"half", dist:7, k:[7,13,17,23]},
@@ -302,8 +299,6 @@ const IR_RAW = {
   8: {l:"R₈", dim:6, sp:"half", dist:5, k:[5,7,9,11,13,15,15,17,19,21,23,25]}
 };
 
-// Compute C_geom live from Kostant exponents
-// D = 60 for integer-spin (bosonic filter), 120 for half-integer
 function computeCgeom(ir) {
   var D = ir.sp === "int" ? 60 : 120;
   var product = 1.0;
@@ -313,7 +308,6 @@ function computeCgeom(ir) {
   return Math.pow(product, 1.0 / ir.k.length);
 }
 
-// Build IR with computed C_geom and D
 var IR = {};
 for (var r = 1; r <= 8; r++) {
   var raw = IR_RAW[r];
@@ -345,8 +339,6 @@ const T2 = {
 
 const SM = {"ν₁":1e-13,"ν₂":8.6e-12,"ν₃":5.06e-11,"e":5.11e-4,"u":2.16e-3,"d":4.67e-3,"μ":1.057e-1,"s":9.34e-2,"c":1.27,"τ":1.777,"b":4.18,"t":172.7};
 
-// SM scorecard (locked assignments from engine file §7F)
-// τ is bracketed between R₄ and R₅ per engine; assigned to R₄/std as best single entry
 const SMC = [
   {f:"ν₁",obs:1e-13,  rho:1,sig:"std", r:0},
   {f:"ν₂",obs:8.6e-12,rho:1,sig:"gal", r:0},
@@ -362,7 +354,6 @@ const SMC = [
   {f:"t", obs:172.7,   rho:2,sig:"std", r:0}
 ];
 
-// Compute ratios live from derived mass
 SMC.forEach(function(s) {
   var pred = mass(s.rho, s.sig);
   s.pred = pred;
@@ -505,13 +496,11 @@ function compSpec() {
 // ══════════════════════════════════════════════════════════════
 
 function build() {
-  // Display derived constants in Spectrum tab
   var muEl = document.getElementById('muDisplay');
   if (muEl) muEl.innerHTML = "ρ<sub>Λ</sub><sup>1/4</sup> = " + fS(MU_L, 4) + " GeV";
   var sqEl = document.getElementById('sqrtOLDisplay');
   if (sqEl) sqEl.innerHTML = "√Ω<sub>Λ</sub> = " + fS(SQRT_OL, 4);
 
-  // 24-entry mass table
   var ent = [];
   for (var r = 1; r <= 8; r++) {
     for (var vi = 0; vi < 3; vi++) {
@@ -523,8 +512,6 @@ function build() {
   }
   ent.sort(function(a, b) { return a.m - b.m; });
 
-  // Assign SM labels by matching against sorted entries
-  // Engine §7E locked assignments (by rank in sorted order)
   var asgn = [
     {rk:1, s:"ν₁"}, {rk:2, s:"ν₃"}, {rk:3, s:"ν₃"},
     {rk:10,s:"e"}, {rk:11,s:"e"}, {rk:12,s:"e"},
@@ -550,7 +537,6 @@ function build() {
       (e.sm ? badge(e.rat) : (e.dz ? '<span class="badge badge-dim">dead zone</span>' : '')) + '</td></tr>';
   }).join('');
 
-  // SM scorecard (ratios computed live)
   SMC.forEach(function(s) {
     s.pred = mass(s.rho, s.sig);
     s.r = Math.max(s.pred / s.obs, s.obs / s.pred);
@@ -563,21 +549,18 @@ function build() {
       s.r.toFixed(2) + '</td><td>' + w3 + ' ' + badge(s.r) + '</td></tr>';
   }).join('');
 
-  // C_geom table (showing computed values)
   document.querySelector('#cgeomTable tbody').innerHTML = Object.keys(IR).map(function(k) {
     var ir = IR[k];
     return '<tr><td>' + ir.l + '</td><td>' + ir.sp + '</td><td>' + ir.D +
-      '</td><td style="font-size:11px">{' + ir.k.join(', ') + '}</td><td>' + ir.cg.toFixed(4) + '</td></tr>';
+      '</td><td style="font-size:13px">{' + ir.k.join(', ') + '}</td><td>' + ir.cg.toFixed(4) + '</td></tr>';
   }).join('');
 
-  // Torsion table
   document.querySelector('#torsionTable tbody').innerHTML = Object.keys(T2).map(function(k) {
     var t = T2[k];
     return '<tr><td>' + IR[k].l + '</td><td>' + t.triv.toFixed(4) + '</td><td>' +
       t.std.toFixed(5) + '</td><td>' + t.gal.toFixed(4) + '</td></tr>';
   }).join('');
 
-  // Fibonacci wells
   var wd = [
     {p:"13/60", t:13/60,  g:"60R", n:"1/30", l:"α"},
     {p:"13/120",t:13/120, g:"120", n:"1",    l:"a₀"},
@@ -591,7 +574,6 @@ function build() {
       Cph(w.t).toFixed(4) + '</td><td>' + w.g + '</td><td>' + w.n + '</td><td>' + w.l + '</td></tr>';
   }).join('');
 
-  // Derivation chain table (Theory tab)
   var chainEl = document.querySelector('#chainTable tbody');
   if (chainEl) {
     var chain = [
@@ -637,13 +619,13 @@ function drawDomain(ht) {
     x.strokeStyle = wl.c + "60"; x.lineWidth = 1;
     x.setLineDash([3, 3]); x.beginPath(); x.moveTo(px, p.t + h); x.lineTo(px, py); x.stroke();
     x.setLineDash([]); x.fillStyle = wl.c; x.beginPath(); x.arc(px, py, 4, 0, 2 * Math.PI); x.fill();
-    x.font = "bold 10px 'IBM Plex Mono',monospace"; x.textAlign = "center"; x.fillText(wl.l, px, py - 10);
+    x.font = "bold 12px 'IBM Plex Mono',monospace"; x.textAlign = "center"; x.fillText(wl.l, px, py - 10);
   });
   if (ht > 0 && ht < 1) {
     var px = p.l + ht * w, py = p.t + h - (Cph(ht) / 2) * h;
     x.fillStyle = "#fff"; x.beginPath(); x.arc(px, py, 5, 0, 2 * Math.PI); x.fill();
   }
-  x.fillStyle = "rgba(180,200,220,0.7)"; x.font = "10px 'IBM Plex Mono',monospace";
+  x.fillStyle = "rgba(180,200,220,0.7)"; x.font = "12px 'IBM Plex Mono',monospace";
   x.textAlign = "center"; x.fillText("0", p.l, p.t + h + 16);
   x.fillText("Θ", p.l + w / 2, p.t + h + 28); x.fillText("1", p.l + w, p.t + h + 16);
   x.textAlign = "right"; x.fillText("2", p.l - 6, p.t + 6);
@@ -676,9 +658,9 @@ function drawWave() {
   x.stroke();
   var tN = 5.22, xN = p.l + (tN / (4 * Math.PI)) * w, yN = my - Math.cos(tN / 2) * (h * 0.42);
   x.fillStyle = "#f0c040"; x.beginPath(); x.arc(xN, yN, 5, 0, 2 * Math.PI); x.fill();
-  x.fillStyle = "rgba(240,192,64,0.85)"; x.font = "11px 'IBM Plex Mono',monospace";
+  x.fillStyle = "rgba(240,192,64,0.85)"; x.font = "13px 'IBM Plex Mono',monospace";
   x.fillText("t ≈ 5.22", xN + 8, yN - 6);
-  x.fillStyle = "rgba(180,200,220,0.7)"; x.font = "10px 'IBM Plex Mono',monospace";
+  x.fillStyle = "rgba(180,200,220,0.7)"; x.font = "12px 'IBM Plex Mono',monospace";
   x.textAlign = "center";
   ["0","π","2π","3π","4π"].forEach(function(l, i) { x.fillText(l, p.l + (i / 4) * w, p.t + h + 16); });
   x.textAlign = "right"; x.fillText("+1", p.l - 6, p.t + 12);
