@@ -41,3 +41,4 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 | $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | 2% |
 | 12 SM fermions | 24 entries | All 12 SM within x10 | 10 of 12 SM within x3 |
 | Dead zone | 6 states, eV to keV | no SM fermions in range | open window |
+| Null DM detection | permanent | ongoing null results | ✓ |
