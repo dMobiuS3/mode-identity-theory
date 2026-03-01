@@ -7,8 +7,8 @@ Three large-angle CMB features have persisted across COBE, WMAP, and Planck with
 | Feature | Predicted | Observed |
 |---|---|---|
 | Boundary | ℓ<sub>cut</sub> ≈ 32 | deficit below ℓ ≲ 30 |
-| Parity sign | R_TT < 1 | R_TT ≈ 0.81 |
-| Parity magnitude | R_TT = 0.814 | R_TT ≈ 0.81 |
+| Parity sign | R<sub>TT</sub> < 1 | R<sub>TT</sub> ≈ 0.81 |
+| Parity magnitude | R<sub>TT</sub> = 0.814 | R<sub>TT</sub> ≈ 0.81 |
 | Preferred axis | exists | Δθ₂₃ ≈ 10° |
 
 One displacement, two observables.
@@ -21,7 +21,7 @@ The cosmic microwave background provides a remarkably clean window into the earl
 
 **Low-ℓ boundary.** The angular power spectrum shows less power at low ℓ than the best-fit ΛCDM model predicts. The deficit below ℓ ≲ 30 has been documented since COBE and confirmed with increasing precision by each successor.
 
-**Parity asymmetry.** Odd-ℓ multipoles contain more power than even-ℓ multipoles at large scales. The Planck TT parity ratio R_TT(ℓ_max = 30) ≈ 0.81 (the ratio of even-ℓ to odd-ℓ power), where unity indicates no preference.
+**Parity asymmetry.** Odd-ℓ multipoles contain more power than even-ℓ multipoles at large scales. The Planck TT parity ratio R<sub>TT</sub>(ℓ_max = 30) ≈ 0.81 (the ratio of even-ℓ to odd-ℓ power), where unity indicates no preference.
 
 **Quadrupole-octupole alignment.** The preferred axes of the quadrupole (ℓ = 2) and octupole (ℓ = 3) align to within approximately 10°, an arrangement expected in only 1 to 3% of statistically isotropic realizations. This feature is sometimes called the "axis of evil," as though the cosmos owed us uniformity.
 
@@ -78,11 +78,11 @@ The minimum eigenvalue occurs at (m = 0, ν = 1):
 
 $$k_{\min} = \frac{\pi}{W} = \frac{\pi^2}{2L}$$
 
-Modes below k_min cannot fit inside the cavity.
+Modes below k<sub>min</sub> cannot fit inside the cavity.
 
 ### E. Observer Position
 
-**Transverse position (derived).** The observed parity asymmetry (R_TT < 1) originates from even-ν modes; the first even-ν mode is ν = 2. The ν = 2 transverse standing wave has antinodes at f⊥ = 0.25 and f⊥ = 0.75, equivalent by the strip's reflection symmetry. An observer sampling this mode occupies an antinode, where the amplitude is maximal. Fixed by mode geometry.
+**Transverse position (derived).** The observed parity asymmetry (R<sub>TT</sub> < 1) originates from even-ν modes; the first even-ν mode is ν = 2. The ν = 2 transverse standing wave has antinodes at f⊥ = 0.25 and f⊥ = 0.75, equivalent by the strip's reflection symmetry. An observer sampling this mode occupies an antinode, where the amplitude is maximal. Fixed by mode geometry.
 
 **Longitudinal position (motivated).** The point f∥ = 0.25 is the midpoint of the strip: maximally separated from the identification boundary at f∥ = 0, where the twist acts. Motivated rather than derived.
 
@@ -99,7 +99,7 @@ Modes below k_min cannot fit inside the cavity.
 
 ### A. Boundary
 
-The minimum eigenvalue and the comoving distance to last scattering χ* ≈ 14.0 Gpc set the suppression multipole. The spherical Bessel function j_ℓ(kχ*) peaks near kχ* ≈ ℓ + 1/2:
+The minimum eigenvalue and the comoving distance to last scattering χ* ≈ 14.0 Gpc set the suppression multipole. The spherical Bessel function j<sub>ℓ</sub>(kχ*) peaks near kχ* ≈ ℓ + 1/2:
 
 $$\ell_{\text{cut}} \approx k_{\min} \cdot \chi_* - \tfrac{1}{2} \approx 32$$
 
@@ -107,7 +107,7 @@ Observed: deficit below ℓ ≲ 30.
 
 ### B. Parity Sign
 
-The non-orientable identification maps (y + L, w) → (y, −w). Even-ν transverse modes acquire a sign flip under the identification; odd-ν modes do not. The projection from strip eigenmodes onto CMB multipoles couples the w-reflection to angular parity on the sky, so that even-ν suppression translates to even-ℓ suppression. The net effect: R_TT < 1 without parity-violating microphysics.
+The non-orientable identification maps (y + L, w) → (y, −w). Even-ν transverse modes acquire a sign flip under the identification; odd-ν modes do not. The projection from strip eigenmodes onto CMB multipoles couples the w-reflection to angular parity on the sky, so that even-ν suppression translates to even-ℓ suppression. The net effect: R<sub>TT</sub> < 1 without parity-violating microphysics.
 
 The COMPACT collaboration independently confirmed that non-orientable manifolds generically produce parity asymmetry of this sign.
 
@@ -143,18 +143,18 @@ With f∥ = 0.306 from the alignment estimate and η = 0.150 from geometry:
 
 $$R_{TT} = \frac{1 + 2(0.150)(-0.342)}{1 - 2(0.150)(-0.342)} = \frac{0.897}{1.103} \approx 0.814$$
 
-Observed: R_TT ≈ 0.81.
+Observed: R<sub>TT</sub> ≈ 0.81.
 
-**Self-consistency.** Inverting the formula with η = 0.150 and R_TT = 0.81 gives f∥ = 0.307, or Δf = 0.057. The alignment estimate gives Δf = 0.056. The two observables return the same position to within 2%.
+**Self-consistency.** Inverting the formula with η = 0.150 and R<sub>TT</sub> = 0.81 gives f∥ = 0.307, or Δf = 0.057. The alignment estimate gives Δf = 0.056. The two observables return the same position to within 2%.
 
 ### E. Summary
 
 | Feature | Topology predicts | CMB measures | Status |
 |---|---|---|---|
 | Boundary | ℓ<sub>cut</sub> ≈ 32 | deficit below ~30 | ✓ |
-| Parity sign | R_TT < 1 | R_TT ≈ 0.81 | ✓ |
+| Parity sign | R<sub>TT</sub> < 1 | R<sub>TT</sub> ≈ 0.81 | ✓ |
 | Preferred axis | exists | Δθ₂₃ ≈ 10° | estimates Δf (κ ≈ 1) |
-| Parity magnitude | R_TT = 0.814 (from Δf + η) | R_TT ≈ 0.81 | ✓ |
+| Parity magnitude | R<sub>TT</sub> = 0.814 (from Δf + η) | R<sub>TT</sub> ≈ 0.81 | ✓ |
 
 ---
 
@@ -176,7 +176,7 @@ A single geometric structure accounts for three persistent CMB features.
 
 **Preferred axis.** The twist direction defines the axis; low-ℓ eigenmodes inherit it. The observed misalignment estimates the observer's displacement on the strip.
 
-**One displacement, two observables.** The alignment angle and parity ratio independently resolve to the same geometric parameter: f∥ ≈ 0.306. One input from the sky, one from the geometry. Together they return R_TT = 0.814. Planck measures 0.81.
+**One displacement, two observables.** The alignment angle and parity ratio independently resolve to the same geometric parameter: f∥ ≈ 0.306. One input from the sky, one from the geometry. Together they return R<sub>TT</sub> = 0.814. Planck measures 0.81.
 
 Luminet et al. proposed the Poincaré dodecahedral space to explain low-ℓ suppression. The COMPACT collaboration systematically studied non-orientable manifolds and confirmed that they generically produce parity asymmetry of the observed sign. MIT differs in that the Möbius identification constrains the eigenmode spectrum rather than repeating sky patches, and the non-orientable surface is embedded in S³ rather than being a quotient of it. Where COMPACT confirms the sign, the interference mechanism here returns the magnitude.
 
@@ -190,16 +190,16 @@ The topology does not predict the alignment angle itself. The ~10° is where the
 
 | Prediction | Falsified if | Threshold |
 |---|---|---|
-| ℓ<sub>cut</sub> ≈ 32 | Low-ℓ power consistent with ΛCDM (no suppression) | ℓ_cut ∉ [20, 50] at ≥ 2σ |
-| R_TT < 1 | Even-ℓ excess at large angles | R_TT > 1 at ≥ 2σ |
+| ℓ<sub>cut</sub> ≈ 32 | Low-ℓ power consistent with ΛCDM (no suppression) | ℓ<sub>cut</sub> ∉ [20, 50] at ≥ 2σ |
+| R<sub>TT</sub> < 1 | Even-ℓ excess at large angles | R<sub>TT</sub> > 1 at ≥ 2σ |
 | Preferred axis | No alignment in independent data | Quadrupole-octupole angle consistent with isotropy |
-| η = L/χ* | Parity magnitude inconsistent with geometric attenuation | η required outside [0.10, 0.25] to fit R_TT |
-| R_TT formula consistency | Alignment and parity decouple | Δf from alignment produces R_TT incompatible with observation |
+| η = L/χ* | Parity magnitude inconsistent with geometric attenuation | η required outside [0.10, 0.25] to fit R<sub>TT</sub> |
+| R<sub>TT</sub> formula consistency | Alignment and parity decouple | Δf from alignment produces R<sub>TT</sub> incompatible with observation |
 
 The strongest test is the last row. If the displacement estimated from alignment cannot reproduce the parity ratio with a geometrically reasonable η, the interference mechanism fails. The primary external test is Euclid DR1 (October 2026), which probes the companion prediction a₀(z) ∝ H(z). If the broader framework falls, this paper falls with it.
 
 ---
 
-Suppression is global: the cavity’s eigenvalues. Parity and alignment are local: the cost of observing from somewhere. These are not noise.
+Three anomalies. One geometry. One locality cost. These are not noise.
 
 *What we called the axis of evil may be the axis of light.*
