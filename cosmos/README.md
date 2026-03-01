@@ -39,7 +39,7 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 | Observable | Predicted | Observed | Agreement |
 |---|---|---|---|
 | $\Lambda_{\text{obs}} \cdot \ell_P^2$ | $3.0 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~5% |
-| CMB ℓ_cut | ~32 | deficit below ~30| ✓ |
+| CMB ℓ<sub>cut</sub> | ~32 | deficit below ~30| ✓ |
 | CMB parity | R_TT = 0.814 | R_TT ≈ 0.81 | 0.5% |
 | CMB alignment | exists | Δθ₂₃ ≈ 10° | estimates Δf |
 | $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.1 \times 10^{-61}$ | 9% |
