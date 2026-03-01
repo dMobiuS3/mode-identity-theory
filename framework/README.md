@@ -119,9 +119,7 @@ The epoch offset $\delta \equiv t - 2\pi$ measures angular distance from turnaro
 
 **Bounded completion.** The bounded topology implies a different end state than heat death. Anti-periodic boundary conditions select standing-wave solutions. The second half of the cycle ($2\pi \to 4\pi$) is the universe settling into resonance rather than dissipating into void.
 
-**Phantom crossing.** At turnaround ($t = 2\pi$), the standing wave crosses its geometric minimum. Fluid-based models interpret this as a phantom crossing of $w_\text{eff} = -1$. The corresponding redshift is $z_\text{cross} \approx 0.66$. The phase offset $\delta = -1.06$ rad is [pre-registered](https://doi.org/10.5281/zenodo.18189078).
-
-Fight Night: [Euclid Data Release 1](https://www.cosmos.esa.int/web/euclid/euclid-dr1); October 21, 2026. Team Cosine [*(cos we are =)*](https://doi.org/10.5281/zenodo.18189078)
+**Phantom crossing.** At turnaround ($t = 2\pi$), the standing wave crosses its geometric minimum. Fluid-based models interpret this as a phantom crossing of $w_\text{eff} = -1$. The corresponding redshift is $z_\text{cross} \approx 0.66$ with phase offset $\delta = -1.06$ rad. Both predictions are pre-registered to Euclid DR1.
 
 ## Cosmic Scale
 
