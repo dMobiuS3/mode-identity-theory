@@ -6,7 +6,7 @@ Three large-angle CMB features have persisted across COBE, WMAP, and Planck with
 
 | Feature | Predicted | Observed |
 |---|---|---|
-| Boundary | ℓ_cut ≈ 32 | deficit below ℓ ≲ 30 |
+| Boundary | ℓ<sub>cut</sub> ≈ 32 | deficit below ℓ ≲ 30 |
 | Parity sign | R_TT < 1 | R_TT ≈ 0.81 |
 | Parity magnitude | R_TT = 0.814 | R_TT ≈ 0.81 |
 | Preferred axis | exists | Δθ₂₃ ≈ 10° |
@@ -151,7 +151,7 @@ Observed: R_TT ≈ 0.81.
 
 | Feature | Topology predicts | CMB measures | Status |
 |---|---|---|---|
-| Boundary | ℓ_cut ≈ 32 | deficit below ~30 | ✓ |
+| Boundary | ℓ<sub>cut</sub> ≈ 32 | deficit below ~30 | ✓ |
 | Parity sign | R_TT < 1 | R_TT ≈ 0.81 | ✓ |
 | Preferred axis | exists | Δθ₂₃ ≈ 10° | estimates Δf (κ ≈ 1) |
 | Parity magnitude | R_TT = 0.814 (from Δf + η) | R_TT ≈ 0.81 | ✓ |
@@ -170,7 +170,7 @@ The CMB is not an image viewed through topology; it is the resonant pattern of t
 
 A single geometric structure accounts for three persistent CMB features.
 
-**Boundary scale.** W = 2L/π yields ℓ_cut ≈ 32, consistent with the observed low-ℓ power deficit.
+**Boundary scale.** W = 2L/π yields ℓ<sub>cut</sub> ≈ 32, consistent with the observed low-ℓ power deficit.
 
 **Parity.** The non-orientable identification produces odd-ℓ preference. The wrapped-signal interference mechanism, with geometric attenuation η = L/χ*, returns the magnitude.
 
@@ -190,7 +190,7 @@ The topology does not predict the alignment angle itself. The ~10° is where the
 
 | Prediction | Falsified if | Threshold |
 |---|---|---|
-| ℓ_cut ≈ 32 | Low-ℓ power consistent with ΛCDM (no suppression) | ℓ_cut ∉ [20, 50] at ≥ 2σ |
+| ℓ<sub>cut</sub> ≈ 32 | Low-ℓ power consistent with ΛCDM (no suppression) | ℓ_cut ∉ [20, 50] at ≥ 2σ |
 | R_TT < 1 | Even-ℓ excess at large angles | R_TT > 1 at ≥ 2σ |
 | Preferred axis | No alignment in independent data | Quadrupole-octupole angle consistent with isotropy |
 | η = L/χ* | Parity magnitude inconsistent with geometric attenuation | η required outside [0.10, 0.25] to fit R_TT |
