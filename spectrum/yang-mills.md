@@ -117,6 +117,6 @@ Every prediction is checkable by finite computation.
 
 ---
 
-SU(2) Yang-Mills on the Poincare homology sphere has a positive mass gap. Positive curvature forces it. Three isolated vacua produce three families: the McKay correspondence filters the Galois sector through four empty levels, yielding a ninefold enhancement at the branch tip of the $E_8$ graph. The existence of the gap is topological, its value is geometric. The computation reduces to finite group representation theory, standard gauge theory, and Riemannian geometry.
+SU(2) Yang-Mills on the Poincare homology sphere has a positive mass gap. Positive curvature forces it. Three isolated vacua produce three families. the McKay correspondence filters the Galois sector through four empty levels, yielding a ninefold enhancement at the branch tip of the $E_8$ graph. The existence of the gap is topological, its value is geometric. The computation reduces to finite group representation theory, standard gauge theory, and Riemannian geometry.
 
 *On curved ground, confinement is easy money.*
