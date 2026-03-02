@@ -1,6 +1,6 @@
 # Cosmological Predictions
 
-Five foundations of Mode Identity Theory map to five cosmological anomalies that standard physics catalogs separately. Each paper takes one anomaly and shows how its foundation resolves it. The topology produces the structure; the scaling law produces the result.
+Five foundations of Mode Identity Theory map to five cosmological anomalies that standard physics catalogs separately. Each paper takes one anomaly and shows how its foundation resolves it. The topology produces the structure; the scaling law reveals the result.
 
 ---
 
