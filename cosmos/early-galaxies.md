@@ -10,7 +10,7 @@ Critically, MIT predicts $a_0$ evolves while Λ remains fixed: the inverse of st
 |---|---|
 | Scaling law | $a_0(z) = a_0(0) \times H(z)/H_0$ |
 | $a_0/(cH_0)$ ratio | predicted: 0.184 / observed: 0.183 |
-| At $z = 10$ | $a_0 \approx 2.4 \times 10^{-9}$ m/s$^2$ (20x local) |
+| At $z = 10$ | $a_0 \approx 2.4 \times 10^{-9}$ m/s<sup>2</sup> (20x local) |
 | Binding enhancement | $\sqrt{20} \approx 4.5$ x (collapse ~2.1x faster) |
 
 ## I. The Observational Tension
@@ -19,7 +19,7 @@ Observations by Labbé et al. reveal stellar masses $M_\star \sim 10^{10}\,M_\od
 
 ## II. Epoch-Dependent Acceleration Scale
 
-Standard MOND treats $a_0 \approx 1.2 \times 10^{-10}$ m/s$^2$ as a fundamental constant. The observed coincidence $a_0 \approx cH_0$ suggests a connection to horizon physics. Within MIT, both $a_0$ and $H_0$ are edge modes ($n = 1$) referencing the Hubble horizon:
+Standard MOND treats $a_0 \approx 1.2 \times 10^{-10}$ m/s<sup>2</sup> as a fundamental constant. The observed coincidence $a_0 \approx cH_0$ suggests a connection to horizon physics. Within MIT, both $a_0$ and $H_0$ are edge modes ($n = 1$) referencing the Hubble horizon:
 
 $$\frac{a_0}{a_P} = C(13/120) \cdot (\sqrt{\Omega_H})^{-1}$$
 
