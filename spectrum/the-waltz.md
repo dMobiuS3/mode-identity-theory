@@ -32,7 +32,7 @@ The Gauss equation relates intrinsic 2D curvature $R_\Sigma$ of the embedded sur
 
 | Condition | Justification | Consequence |
 |---|---|---|
-| Minimal embedding ($K_{ij} = 0$) | Ground state carries no extrinsic structure | Extrinsic terms vanish |
+| Totally geodesic embedding ($K_{ij} = 0$) | Ground state carries no extrinsic structure | Extrinsic terms vanish |
 | Isotropic space | CMB verified to $10^{-5}$ | $\text{Ric}(n,n) = R_{\text{spatial}}/3$ |
 | de Sitter vacuum | Late-time ΛCDM limit | $R_{\text{spatial}} = 2\Lambda$ |
 
@@ -40,7 +40,7 @@ With these conditions the Gauss equation reduces to $R_\Sigma = R_{\text{spatial
 
 and inverting: $R_{\text{spatial}} = 3\,R_\Sigma$ 
 
-The scaling law bridge identifies $R_\Sigma = \Lambda_{\text{top}}$: the surface eigenvalue is the intrinsic curvature of the embedded surface. 
+The Fischer-Marsden equation forces $R_\Sigma = \Lambda_{\text{top}}$: on a closed surface of constant positive curvature, the scalar curvature is locked into the twisted Laplace spectrum as the ground eigenvalue. 
 
 Substituting into the de Sitter relation $R_{\text{spatial}} = 2\Lambda_{\text{obs}}$:
 
