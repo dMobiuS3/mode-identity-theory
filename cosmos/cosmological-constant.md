@@ -2,7 +2,7 @@
 
 Einstein introduced Λ in 1917 to hold the universe static. When Hubble proved expansion, he removed it, calling it his "biggest blunder." A century later, standard cosmology revived Λ as dark energy. This note completes the arc: there is no dark energy nor mysterious force. Λ is set by the ground-mode eigenvalue of the cosmic boundary; the geometry of the universe itself driving expansion. Einstein was right the first time, for reasons then unknown.
 
-The Möbius surface selects half-integer modes; the lowest yields $\Lambda_\text{top} = 2/R^2$, where $R$ is the curvature radius of $S^3$. The observationally inferred $\Lambda_\text{obs}$ differs by a factor of 3/2, derived from Gauss-Codazzi embedding of the 2D surface in the 3D venue under totally geodesic embedding and isotropy.
+The Möbius surface selects half-integer modes; the lowest yields $\Lambda_\text{top} = 2/R^2$, where $R$ is the curvature radius of $S^3$. The observationally inferred $\Lambda_\text{obs}$ differs by a factor of 3/2, derived from Gauss-Codazzi embedding of the 2D surface in 3D space under totally geodesic embedding and isotropy.
 
 | Quantity | Value |
 |---|---|
@@ -45,7 +45,7 @@ $$S^1 = \partial(\text{Mobius}) \hookrightarrow S^3, \quad \partial S^3 = \empty
 |---|---|---|
 | $S^1$ | 1D | Boundary of Möbius surface |
 | Möbius | 2D | Non-orientable surface; carries eigenproblem |
-| $S^3$ | 3D | Venue |
+| $S^3$ | 3D | Space |
 
 This is the minimal topology: $S^3$ is the unique simply connected closed 3-manifold (Poincaré); Möbius is the simplest non-orientable surface with boundary.
 
