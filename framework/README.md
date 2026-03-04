@@ -167,6 +167,7 @@ The manifold index $n$ specifies which scale governs the mode being sampled.
 
 | $n$ | Manifold | $\Omega$ | $(\sqrt{\Omega})^{-n}$ | Observables |
 |---|---|---|---|---|
+| 0 | Planck floor | 1 | $(\sqrt{\Omega})^{0} = 1$ | $G$ (curvature ↔ energy dictionary) |
 | 1 | Temporal edge | $\Omega_H$ | $10^{-61}$ | $H_0$, $a_0$, $\Delta t_{\min} = \pi/30$, $\Delta S_{\min} = \hbar\pi/30$ |
 | 2 | Möbius surface | $\Omega_\Lambda$ | $10^{-122}$ | $\Lambda$ |
 | 3/2 | Gauss-Codazzi interface | -- | -- | Gravity (space → surface curvature conversion) |
