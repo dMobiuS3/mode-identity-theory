@@ -37,7 +37,7 @@ No mechanism in standard physics explains this value.
 
 ## II. The Topology
 
-Eigenvalues arise from differential equations on a domain; the shape determines the spectrum. To derive Λ, we specify the shape:
+Eigenvalues arise from differential equations on a domain; the shape determines the spectrum. The shape:
 
 $$S^1 = \partial(\text{Mobius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$$
 
@@ -57,7 +57,7 @@ On a flat surface, that operator is the Laplacian $\nabla^2$; however, the cosmi
 
 $$\Delta_g = \frac{1}{\sqrt{\lvert g \rvert}} \, \partial_\mu \!\left( \sqrt{\lvert g \rvert} \, g^{\mu\nu} \, \partial_\nu \right)$$
 
-For the ground-mode calculation, we treat the Möbius surface as a flat strip with twisted identification; curvature corrections enter at subleading order. The flat-strip model fixes the boundary-condition spectrum and $1/L^2$ scaling; the curvature-eigenvalue correspondence in Section IV uses a constant-curvature identification at the same scale.
+The ground-mode calculation uses the Möbius surface as a flat strip with twisted identification; curvature corrections enter at subleading order. The flat-strip model fixes the boundary-condition spectrum and $1/L^2$ scaling; Section IV locks the curvature-eigenvalue correspondence at the same scale.
 
 The eigenvalue problem:
 
@@ -90,9 +90,9 @@ Transverse edges are free boundaries (Neumann condition).
 
 ### B. The Spectrum
 
-With boundary conditions set, we solve for the eigenvalues.
+With boundary conditions set, the eigenvalues follow.
 
-For the lowest transverse mode, we select even parity in $w$: $\psi(y,-w) = \psi(y,w)$. This is the simplest mode with no transverse nodes. Even parity means the field is symmetric across the strip width, so the $w$-flip in the Möbius identification has no effect. Only the sign flip survives:
+The lowest transverse mode has even parity in $w$: $\psi(y,-w) = \psi(y,w)$. This is the simplest mode with no transverse nodes. Even parity means the field is symmetric across the strip width, so the $w$-flip in the Möbius identification has no effect. Only the sign flip survives:
 
 $$\psi(y + L) = -\psi(y)$$
 
@@ -193,7 +193,7 @@ For a totally geodesic embedding ($K_{ij} = 0$), the equation simplifies:
 
 $$R_\Sigma = R_\text{venue} - 2\,\text{Ric}(\mathbf{n},\mathbf{n})$$
 
-Totally geodesic means the full extrinsic curvature tensor vanishes, not merely its trace. We take this as the geometric correspondent of the ground mode ($m = 0$): higher modes have nodes and oscillations that would require bending (extrinsic curvature) to embed; the ground mode lies flat.
+Totally geodesic means the full extrinsic curvature tensor vanishes, not merely its trace. This is the geometric correspondent of the ground mode ($m = 0$): higher modes have nodes and oscillations that require bending (extrinsic curvature) to embed; the ground mode lies flat.
 
 ### C. Isotropic Venue
 
@@ -221,7 +221,7 @@ On a constant-curvature $S^3$ spatial section of radius $R$, the spatial scalar 
 
 $$R_\text{spatial} = \frac{6}{R^2} = 2\Lambda_\text{obs}$$
 
-$R_\Sigma$ is intrinsic geometry; $\Lambda_\text{top}$ is the eigenvalue from Section III. Both are scalar curvatures at the same geometric scale $R$. We identify them: $R_\Sigma := \Lambda_\text{top}$. On a closed surface of constant positive curvature, the Fischer-Marsden equation forces $R_\Sigma$ into the twisted Laplace spectrum as the ground eigenvalue, so this identification is geometrically locked rather than assumed. The eigenproblem hands the baton to general relativity:
+$R_\Sigma$ is intrinsic geometry; $\Lambda_\text{top}$ is the eigenvalue from Section III. Both are scalar curvatures at the same geometric scale $R$. On a closed surface of constant positive curvature, the Fischer-Marsden equation forces $R_\Sigma$ into the twisted Laplace spectrum as the ground eigenvalue: $R_\Sigma = \Lambda_\text{top}$. The identification is geometrically locked. The eigenproblem hands the baton to general relativity:
 
 $$2\Lambda_\text{obs} = 3 \cdot \Lambda_\text{top}$$
 
