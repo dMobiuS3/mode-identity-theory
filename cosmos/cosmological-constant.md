@@ -2,7 +2,7 @@
 
 Einstein introduced Λ in 1917 to hold the universe static. When Hubble proved expansion, he removed it, calling it his "biggest blunder." A century later, standard cosmology revived Λ as dark energy. This note completes the arc: there is no dark energy nor mysterious force. Λ is set by the ground-mode eigenvalue of the cosmic boundary; the geometry of the universe itself driving expansion. Einstein was right the first time, for reasons then unknown.
 
-The Möbius surface selects half-integer modes; the lowest yields $\Lambda_\text{top} = 2/R^2$, where $R$ is the curvature radius of $S^3$. The observationally inferred $\Lambda_\text{obs}$ differs by a factor of 3/2, derived from Gauss-Codazzi embedding of the 2D surface in the 3D venue under totally geodesic embedding and isotropy, aka Gravity.
+The Möbius surface selects half-integer modes; the lowest yields $\Lambda_\text{top} = 2/R^2$, where $R$ is the curvature radius of $S^3$. The observationally inferred $\Lambda_\text{obs}$ differs by a factor of 3/2, derived from Gauss-Codazzi embedding of the 2D surface in the 3D venue under totally geodesic embedding and isotropy.
 
 | Quantity | Value |
 |---|---|
