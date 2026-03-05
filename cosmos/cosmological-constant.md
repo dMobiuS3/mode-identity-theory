@@ -221,13 +221,21 @@ On a constant-curvature $S^3$ spatial section of radius $R$, the spatial scalar 
 
 $$R_\text{spatial} = \frac{6}{R^2} = 2\Lambda_\text{obs}$$
 
-$R_\Sigma$ is intrinsic geometry; $\Lambda_\text{top}$ is the eigenvalue from Section III. Both are scalar curvatures at the same geometric scale $R$. On a closed surface of constant positive curvature, the Fischer-Marsden equation forces $R_\Sigma$ into the twisted Laplace spectrum as the ground eigenvalue: $R_\Sigma = \Lambda_\text{top}$. The identification is geometrically locked. The eigenproblem hands the baton to general relativity:
+$R_\Sigma$ is intrinsic geometry; $\Lambda_\text{top}$ is the eigenvalue from Section III. Both are scalar curvatures at the same geometric scale $R$. Three independent paths motivate the identification $R_\Sigma = \Lambda_\text{top}$.
+
+*Dimensional.* On a constant-curvature surface of radius $R$, both quantities scale as $1/R^2$ with no remaining free coefficient. Agreement in dimension and scale is necessary for the identification; it is not sufficient.
+
+*Spectral.* The Fischer-Marsden equation on a 2D Einstein manifold with constant positive curvature places $R_\Sigma$ in the twisted Laplace spectrum as a ground eigenvalue. On the round $S^2$ of radius $r$, this gives $R_\Sigma = 2/r^2$, coinciding with the ground Laplacian eigenvalue. Whether this correspondence extends to a Möbius surface with anti-periodic boundary conditions -- where the flat-strip model used in §II.A sets $R_\Sigma = 0$ -- is an open question in spectral geometry submitted for independent mathematical review.
+
+*Group-theoretic.* The same $3/2$ ratio arises independently from the discrete symmetry of $S^3$. The binary icosahedral group $2I$, the largest exceptional discrete subgroup of $\mathrm{SU}(2) \cong S^3$, acts on the 3-sphere with stabilizer orders determined by the icosahedral geometry: faces carry order 3 and edges carry order 2. Their ratio is $3/2$. When differential geometry and finite group theory converge on the same numerical factor on the same manifold, dimensional coincidence is insufficient as an explanation.
+
+The bridge is MOTIVATED from three directions; not yet derived from any single one. The eigenproblem hands the baton to general relativity:
 
 $$2\Lambda_\text{obs} = 3 \cdot \Lambda_\text{top}$$
 
 $$\Lambda_\text{obs} = \tfrac{3}{2} \cdot \Lambda_\text{top}$$
 
-The 3 is because the space ($S^3$) is three-dimensional. The 2 is how General Relativity defines Λ. The 3/2 is their ratio, their gravity: the Gauss-Codazzi interface between 2D geometry and 3D curvature. The machinery has been in textbooks since 1868, never a force, but the interface between surface and space.
+The 3 is because the space ($S^3$) is three-dimensional. The 2 is how General Relativity defines Λ. The 3/2 is their ratio: the Gauss-Codazzi interface between 2D geometry and 3D curvature. The machinery has been in textbooks since 1868, never a force, but the interface between surface and space.
 
 ### F. Summary
 
@@ -242,7 +250,7 @@ The 3 is because the space ($S^3$) is three-dimensional. The 2 is how General Re
 | Totally geodesic embedding | Ground mode correspondence ($m = 0$) |
 | Isotropic space | CMB verified to $10^{-5}$ |
 | de Sitter vacuum | Late-time ΛCDM limit |
-| $R_\Sigma = \Lambda_\text{top}$ | Fischer-Marsden lock (forced by constant positive curvature) |
+| $R_\Sigma = \Lambda_\text{top}$ | MOTIVATED (dimensional, spectral, group-theoretic) |
 
 ## V. The Result
 
@@ -250,7 +258,7 @@ The derivation yields:
 
 $${\Lambda_\text{obs} = \frac{3}{R^2}}$$
 
-The coefficient 3 decomposes as two locked factors. The antinode intensity $C(60/120) = 2$: the ground mode sampled at the midpoint carries twice the mean intensity. The Gauss-Codazzi conversion 3/2: intrinsic 2D curvature maps to observed 3D spatial curvature through the embedding interface. Their product: 2 x 3/2 = 3.
+The coefficient 3 decomposes as two factors. The antinode intensity $C(60/120) = 2$: the ground mode sampled at the midpoint carries twice the mean intensity. The Gauss-Codazzi conversion 3/2: intrinsic 2D curvature maps to observed 3D spatial curvature through the embedding interface. Their product: 2 x 3/2 = 3.
 
 With $R = 1.64 \times 10^{26}$ m:
 
@@ -272,7 +280,7 @@ $10^{-122}$ is not a "coincidentally large number." It is the inverse of the squ
 | 6 | Intensity at antinode | $C(60/120) = 2$ |
 | 7 | $\Lambda_\text{top} = C \cdot \lambda_0$ | $\Lambda_\text{top} = 2/R^2$ |
 | 8 | Gauss-Codazzi + totally geodesic | $R_\text{spatial} = 3R_\Sigma$ |
-| 9 | de Sitter: $R_\text{spatial} = 2\Lambda_\text{obs}$ | Bridge: $R_\Sigma = \Lambda_\text{top}$ |
+| 9 | de Sitter: $R_\text{spatial} = 2\Lambda_\text{obs}$ | Bridge: $R_\Sigma = \Lambda_\text{top}$ [MOTIVATED] |
 | 10 | Surface-to-space conversion | $\Lambda_\text{obs} = \frac{3}{2}\,\Lambda_\text{top}$ |
 | 11 | Result | $\Lambda_\text{obs} = 3/R^2$ |
 
@@ -286,7 +294,7 @@ This framework provides what the equation leaves undefined: the value of Λ and 
 
 $$H^2 = \Lambda / 3$$
 
-translates the geometric mode into expansion dynamics. This is the vacuum Einstein equation, recovered from topology without importing general relativity to obtain it. 
+translates the geometric mode into expansion dynamics. This is the vacuum Einstein equation, recovered from topology without importing general relativity to obtain it.
 
 The surface determines the vacuum and only the vacuum: excited surface modes ($K_{ij} \neq 0$) produce curvature corrections with the correct algebraic form but the wrong scale by $\sqrt{\Omega} \approx 10^{61}$, because the surface lives at $n = 2$ and extracting an $n = 0$ quantity ($G$) from $n = 2$ data introduces exactly this offset. Matter enters through the spectral geometry of $S^3/2I$.
 
