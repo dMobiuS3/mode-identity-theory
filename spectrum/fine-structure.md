@@ -69,7 +69,7 @@ Dimensional observables count whole floors because they carry Planck dimensions 
 | 8 | One grid step of hierarchy | $\Omega_\Lambda^{-1/60}$ | Derived |
 | 9 | $C(13/60) \times \Omega_\Lambda^{-1/60}$ | $\alpha = 0.00733$ | Output |
 
-Six steps of topology. Two of arithmetic. The Grid-Hierarchy exponent (step 8) is derived: the same $\text{dist}/30$ hierarchy produces 10/12 SM fermion masses within a factor of 3.
+Six steps of topology. Two of arithmetic. The Grid-Hierarchy exponent (step 8) is motivated: the same $\text{dist}/30$ hierarchy produces 10/12 SM fermion masses within a factor of 3. See companion paper.
 
 ## III. Uniqueness
 
@@ -152,6 +152,6 @@ The $E_8$ exponents $\{1, 7, 11, 13, 17, 19, 23, 29\}$, precisely the integers c
 
 ---
 
-Nine steps connect the postulate to the prediction. Six are topology. Two are arithmetic. One is the Grid-Hierarchy exponent, derived from the McKay mass spectrum. The result, $\alpha = 0.00733$, agrees with observation at 0.5%. Λ uses the full vacuum hierarchy. $\alpha$ uses one-sixtieth of it: one grid step on the bosonic domain.
+Nine steps connect the postulate to the prediction. Six are topology. Two are arithmetic. One is the Grid-Hierarchy exponent, motivated from three independent paths. The result, $\alpha = 0.00733$, agrees with observation at 0.5%. Λ uses the full vacuum hierarchy. $\alpha$ uses one-sixtieth of it: one grid step on the bosonic domain.
 
 *The fine structure constant is the fine structure of the cosmological constant: the vacuum hierarchy resolved at its grid limit.*
