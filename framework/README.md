@@ -1,6 +1,40 @@
 # The Framework
 
-Matter is wave, sampled. A single topological postulate produces one scaling law. It blindly predicts constants of the universe: $\Lambda$, $H_0$, $a_0$, and $\alpha$; and 24 fermion masses across 122 orders of magnitude. The topology determines boundary conditions, selects the cosmic wave $\Psi$, fixes the observer position $\sqrt{\Omega}$, and generates a discrete phase structure native to $S^3$.
+Matter is wave, sampled. A single topological postulate produces one scaling law. It blindly predicts constants of the universe: $\Lambda$, $H_0$, $a_0$, and $\alpha$, spanning 120 orders of magnitude from $\Lambda \cdot \ell_P^2 \sim 10^{-122}$ to $\alpha \sim 10^{-2}$; and 24 fermion mass entries covering all 12 Standard Model fermions.
+
+## Definitions
+
+### Universal Constants
+
+Three quantities are primitive inputs; all Planck-scale references are derived from them.
+
+**Inputs**
+
+| Const. | Value | Role in MIT |
+|---|---|---|
+| $c$ | 299,792,458 m/s | Propagation rate on the temporal edge $S^1$ |
+| $\hbar$ | $1.055 \times 10^{-34}$ J s | Action quantum; converts mode number to energy |
+| $G$ | $6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻² | Curvature ↔ energy dictionary at the Planck floor ($n = 0$); not derivable from topology |
+
+**Derived**
+
+| Const. | Definition | Value | Role in MIT |
+|---|---|---|---|
+| $\ell_P$ | $\sqrt{\hbar G/c^3}$ | $1.616 \times 10^{-35}$ m | UV floor of the bounded domain |
+| $t_P$ | $\ell_P/c$ | $5.391 \times 10^{-44}$ s | Reference scale for $H_0$ |
+| $a_P$ | $c/t_P$ | $5.561 \times 10^{51}$ m/s² | Reference scale for $a_0$ |
+
+### Three Length Scales
+
+Three geometric scales appear in MIT. They are distinct in origin and claim status; the $\Omega$ scales built from them differ by a factor of $10^{61}$ if conflated.
+
+| Scale | Value | Origin | Status |
+|---|---|---|---|
+| $L_\text{fund}$ | $\approx 2.1$ Gpc | Derived from CMB low-$\ell$ cutoff: $k_{\min} = \pi^2/2L_\text{fund}$, $\ell_\text{cut} \approx k_{\min}\chi_* - 1/2$ | Derived. Arrow runs observation → $L_\text{fund}$. |
+| $R$ | $\approx 5.3$ Gpc | Geometric parameter: the de Sitter horizon radius, fixed by the topology before observables are consulted. $\Lambda_\text{obs} = 3/R_\Lambda^2$ is the prediction; $R_\Lambda = \sqrt{3/\Lambda_\text{obs}}$ is the observational check. | Geometric parameter. Not a primitive input alongside $c$, $\hbar$, $G$. |
+| $L_\text{strip}$ | $\approx 16.7$ Gpc | One lap of the Möbius boundary: $L_\text{strip} = \pi R_\Lambda$ | Derived from $R_\Lambda$. |
+
+$L_\text{fund}$ is the CMB-derived fundamental domain scale; where $L$ appears without subscript in the Three Length Scales section it means $L_\text{fund}$. In other sections $L$ is used as a generic length variable and carries no subscript meaning. $R$ is the geometric de Sitter horizon radius; $R_\Lambda$ is the same quantity as it appears in the Scale Hierarchy. The observational check is $R_\Lambda = \sqrt{3/\Lambda_\text{obs}}$; the logical direction is $R_\Lambda \to \Lambda_\text{obs}$. $R$ and $L_\text{fund}$ are two independently motivated scales. The spectral derivation (scalar Laplacian on $S^3/2I$, degree-12 Klein invariant, Heun transverse eigenvalue $\mu_1 = 1.021$) gives $L_\text{strip}/L_\text{fund} = 8.17 \pm 0.1$, recovering 8 to within 2.1%. Whether topology forces $R_\Lambda = 8L_\text{fund}/\pi$ from first principles is open.
 
 ## The Firing Order
 
@@ -20,32 +54,34 @@ Mode Identity Theory is built upon a specific order of operation. Each step depe
 
 ## The Nested Topology
 
-The topology had only one choice. The temporal edge bounds the Möbius surface embedded in hypersphere space; the space has no boundary.
+The topology had only one choice. The temporal edge bounds the Möbius surface embedded in hypersphere space; the space has no boundary. Two uniqueness theorems force the structure: the classification of compact surfaces forces the Möbius strip, and the Poincaré theorem forces $S^3$.
 
-$$\Large \boxed{S^1 = \partial(\text{Mobius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
+$$\Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
 
 ### The Temporal Edge S¹
 
-The 1D boundary of the Möbius surface is the edge with comoving circumference $L \approx 2.1$ Gpc. Orientation reverses after one lap, requiring two for return. The full cycle is $4\pi$ in phase. The edge inherits the anti-periodic boundary condition.
+The 1D boundary of the Möbius surface is the edge with geometric circumference $L_\text{strip} = \pi R_\Lambda \approx 16.7$ Gpc. The Möbius anti-periodic boundary condition means the wavefunction changes sign after one traverse of the boundary; two traverses are required to restore the original sign. This topological property — a consequence of the $\mathbb{Z}_2$ holonomy — is the origin of the $4\pi$ period: the wave must advance through $4\pi$ of phase to return to its initial amplitude. The edge inherits the anti-periodic boundary condition.
+
+The fundamental domain scale $L_\text{fund} \approx 2.1$ Gpc is distinct from $L_\text{strip}$. It is the minimum-wavelength observable mode scale of the bounded 3D cavity ($S^3/2I$), derived from the CMB low-$\ell$ cutoff. The cosmic phase $t \equiv 2\pi s/L_\text{fund}$ uses the fundamental domain as reference length, where $s$ is an abstract phase coordinate running over the mode structure of the cavity; the $S^1$ edge geometric circumference is $L_\text{strip} \approx 16.7$ Gpc.
 
 ### The Möbius Surface
 
-The 2D non-orientable manifold bounded by the edge. Let $y$ denote the coordinate along the twisted direction. The Möbius $\mathbb{Z}_2$ holonomy admits two boundary condition sectors: periodic $\psi(y+L) = +\psi(y)$ and anti-periodic $\psi(y+L) = -\psi(y)$. The anti-periodic sector is selected by observation; matter is fermionic. Fields in the selected sector satisfy:
+The 2D non-orientable manifold bounded by the edge. Let $y$ denote the coordinate along the twisted direction, with period $L_\text{strip}$. The Möbius $\mathbb{Z}_2$ holonomy admits two boundary condition sectors: periodic $\psi(y+L_\text{strip}) = +\psi(y)$ and anti-periodic $\psi(y+L_\text{strip}) = -\psi(y)$. The anti-periodic sector is selected by observation; matter is fermionic. Fields in the selected sector satisfy:
 
-$$\psi(y + L) = -\psi(y)$$
+$$\psi(y + L_\text{strip}) = -\psi(y)$$
 
 Along the twisted direction, the eigenproblem is $-\partial_y^2 \psi = \lambda \psi$. The ansatz $\psi \sim e^{iky}$ under the boundary condition requires:
 
-$$e^{ikL} = -1 \quad \Rightarrow \quad kL = (2m + 1)\pi$$
+$$e^{ikL_\text{strip}} = -1 \quad \Rightarrow \quad kL_\text{strip} = (2m + 1)\pi$$
 
-Defining $\nu \equiv kL/(2\pi)$, then $kL = (2m+1)\pi$ implies $\nu = m + 1/2$. The mode numbers are half-integers: $\nu = 1/2, 3/2, 5/2, \ldots$ The Möbius surface is the simplest non-orientable 2D manifold with boundary.
+Defining $\nu \equiv kL_\text{strip}/(2\pi)$, then $kL_\text{strip} = (2m+1)\pi$ implies $\nu = m + 1/2$. The mode numbers are half-integers: $\nu = 1/2, 3/2, 5/2, \ldots$ The Möbius surface is the simplest non-orientable 2D manifold with boundary.
 
 | Symbol | Name | Values | Role |
 |---|---|---|---|
 | $m$ | Harmonic | $0, 1, 2, \ldots$ | Harmonic count |
 | $\nu$ | Mode number | $m + 1/2$ | Half-integer from BC |
 
-**Ground state selection.** The structure selects the fundamental harmonic ($m = 0$) by operational definition. Cosmological parameters ($\Lambda$, $H_0$) describe the homogeneous, isotropic background. The ground state is the unique mode with no internal nodes; excited modes ($m > 0$) possess spatial nodes and oscillating polarity. Two arguments exclude $m > 0$ for background observables:
+**Ground state selection.** The structure selects the fundamental harmonic ($m = 0$) by operational definition. Cosmological parameters ($\Lambda$, $H_0$) describe the homogeneous, isotropic background. The ground state is the unique mode with no internal nodes; excited modes ($m > 0$) possess spatial nodes and oscillating polarity. Two arguments fix $m = 0$ for background observables:
 
 | Argument | Mechanism |
 |---|---|
@@ -56,7 +92,7 @@ Higher harmonics are excluded for background observables but carry perturbation 
 
 ### The Hypersphere Space S³
 
-The 3D volume containing the surface. Couples gravitationally; no other cross-manifold couplings are derived.
+The 3D volume containing the surface. Gravitational coupling only; all other cross-manifold couplings are absent from the derivation.
 
 $$\Large \boxed{\partial S^3 = \emptyset}$$
 
@@ -68,33 +104,25 @@ The hierarchy terminates here. "What's outside?" is malformed; there is no bound
 | Möbius | $\partial M = S^1$ | Non-orientable; embedded in $S^3$ |
 | $S^3$ | $\partial S^3 = \emptyset$ | Orientable space; boundless |
 
-**Uniqueness.** Spin compatibility and non-orientability left no other topological choice:
+**Uniqueness.** Spin compatibility and non-orientability together force a single topological choice:
 
-*The Edge and Surface* ($S^1$, Möbius): By the classification of compact surfaces, a connected non-orientable manifold with a single boundary component ($S^1$) is formed by removing a disk from the connected sum of $k$ crosscaps. The Möbius strip is the minimal case ($k = 1$); no simpler non-orientable surface with boundary exists.
+*The Edge and Surface* ($S^1$, Möbius): By the classification of compact surfaces, a connected non-orientable manifold with a single boundary component ($S^1$) is formed by removing a disk from the connected sum of $k$ crosscaps. The Möbius strip is the minimal case ($k = 1$), unique by surface classification.
 
-*The Space* ($S^3$): By the Poincaré theorem, $S^3$ is the only simply connected closed 3-manifold. It is diffeomorphic to $\text{SU}(2)$ and admits a spin structure; no other alternative exists.
+*The Space* ($S^3$): By the Poincaré theorem, $S^3$ is the only simply connected closed 3-manifold. It is diffeomorphic to $\text{SU}(2)$ and admits a spin structure.
 
-*The Terminus* ($\partial S^3 = \emptyset$): The space has no boundary. The hierarchy does not continue.
+*The Terminus* ($\partial S^3 = \emptyset$): The space has no boundary. The hierarchy terminates here.
 
-### Universal Constants
-
-| Const. | Value | Role in MIT |
-|---|---|---|
-| $c$ | 299,792,458 m/s | Propagation rate on the temporal edge $S^1$ |
-| $\hbar$ | $1.055 \times 10^{-34}$ J s | Action quantum; converts mode number to energy |
-| $\ell_P$ | $1.616 \times 10^{-35}$ m | UV floor of the bounded domain |
-| $t_P$ | $5.391 \times 10^{-44}$ s | Planck time; reference scale for $H_0$ |
-| $a_P$ | $5.561 \times 10^{51}$ m/s² | Planck acceleration; reference scale for $a_0$ |
+The physical space is the quotient $S^3/2I$: $S^3$ modulo the binary icosahedral group acting by deck transformations. $S^3$ is the simply connected universal cover; $S^3/2I$ is the multiply connected space whose 120 fundamental domains generate the mode spectrum. The postulate selects the cover; the $2I$ structure is carried by $S^3$ itself as its largest exceptional discrete subgroup. The embedding $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ is formulated on the cover; observables and the mode spectrum live on the quotient $S^3/2I$.
 
 ## The Cosmic Standing Wave Ψ
 
-Anti-periodicity, the Neumann condition, and ground-state selection permit only one standing wave solution on the Möbius boundary: $\Psi$ is the wave that carries time.
+Anti-periodicity, the initial-maximum condition, and ground-state selection together determine the cosmic standing wave. Anti-periodicity is inherited from the Möbius $\mathbb{Z}_2$ holonomy (established above). The initial condition $\Psi(0) = +1$ fixes $t = 0$ as an amplitude maximum. At any maximum of a smooth function, the first derivative vanishes: $\partial_t \Psi|_{t=0} = 0$. This selects cosine over sine — sine has $\partial_t \sin(t/2)|_{t=0} \neq 0$ and would place $t=0$ at zero amplitude. Ground-state selection picks $m = 0$. The three conditions together fix $\Psi = \cos(t/2)$ up to overall sign; the sign is set by the convention $\Psi(0) = +1$.
 
 ### Wavelength
 
 A period of $4\pi$ is required to carry the sign from positive through negative and back to positive: $\Psi(t + 4\pi) = \Psi(t)$.
 
-Let $t \equiv 2\pi s/L$ denote cosmic phase, where $s$ is location along $S^1$ and $L$ is the circumference. (At Planck scale, the boundary condition manifests as the spin-1/2 sign flip under $2\pi$ rotation. Their correspondence is the dimensional projection of the same topological constraint.) The standing wave takes the form:
+Let $t \equiv 2\pi s/L_\text{fund}$ denote cosmic phase, where $s$ is an abstract phase coordinate running over the mode structure of the 3D cavity; the $S^1$ edge has geometric circumference $L_\text{strip} \approx 16.7$ Gpc. $L_\text{fund}$ is the fundamental domain scale. (At Planck scale, the boundary condition manifests as the spin-1/2 sign flip under $2\pi$ rotation. Their correspondence is the dimensional projection of the same topological constraint.) The standing wave takes the form:
 
   $$\Large \boxed{\Psi = \cos(t/2)}$$
 
@@ -102,7 +130,7 @@ Cosine is inherited because the universe initiates at maximum amplitude $\Psi = 
 
 ### The Present Epoch
 
-The phase definition $t \equiv 2\pi s/L$ means a full $4\pi$ cycle requires two laps of $S^1$: $\Delta s = 2L$ comoving. The comoving circumference $L \approx 2.1$ Gpc translates to a cycle duration $T_\text{cycle} \approx 33.2$ Gyr through the standard Friedmann expansion history ($\Omega_m = 0.315$, $\Omega_\Lambda = 0.685$, $H_0 = 67.4$ km/s/Mpc). The topology sets the cycle structure; the expansion history converts comoving distance to cosmic time. With $t_\text{age} = 13.8$ Gyr:
+The phase definition $t \equiv 2\pi s/L_\text{fund}$ means a full $4\pi$ cycle corresponds to $\Delta s = 2L_\text{fund}$ in the phase coordinate: the mode structure is traversed twice. $L_\text{fund}$ is a comoving scale, derived from the CMB low-$\ell$ cutoff; $s$ therefore maps directly to comoving distance, and the Friedmann integral applies. The fundamental domain scale $L_\text{fund} \approx 2.1$ Gpc translates to a cycle duration $T_\text{cycle} \approx 33.2$ Gyr through the standard Friedmann expansion history ($\Omega_m = 0.315$, $\Omega_\Lambda = 0.685$, $H_0 = 67.4$ km/s/Mpc); the integral is in the companion paper. The topology sets the cycle structure; the expansion history converts comoving distance to cosmic time. With $t_\text{age} = 13.8$ Gyr:
 
 $$t = 4\pi \times \frac{13.8}{33.2} \approx 5.22 \text{ rad}$$
 
@@ -119,7 +147,7 @@ The epoch offset $\delta \equiv t - 2\pi$ measures angular distance from turnaro
 
 **Bounded completion.** The bounded topology implies a different end state than heat death. Anti-periodic boundary conditions select standing-wave solutions. The second half of the cycle ($2\pi \to 4\pi$) is the universe settling into resonance rather than dissipating into void.
 
-**Phantom crossing.** At turnaround ($t = 2\pi$), the standing wave crosses its geometric minimum. Fluid-based models interpret this as a phantom crossing of $w_\text{eff} = -1$. The corresponding redshift is $z_\text{cross} \approx 0.66$ with phase offset $\delta = -1.06$ rad. Both predictions are pre-registered to Euclid DR1.
+**Wave turnaround and phantom crossing.** Turnaround occurs at $t = 2\pi$, where $\Psi = \cos(\pi) = -1$: the wave reaches its amplitude minimum and reverses. This is a turning point of the amplitude; $\Psi = 0$ occurs at $t = \pi$ and $t = 3\pi$. In fluid-based dark energy models, the equation-of-state parameter $w_\text{eff}$ crossing $-1$ is called a phantom crossing. That label attaches to a parameter in those models; MIT's amplitude minimum produces the same observational signature through a different mechanism. The derivation of the corresponding redshift $z_\text{cross} \approx 0.66$ from the phase gap $|\delta| = 1.06$ rad via the Friedmann integral is in the companion paper. Both predictions are pre-registered to Euclid DR1.
 
 ## Cosmic Scale
 
@@ -129,11 +157,11 @@ Two scales govern the structure. The de Sitter scale:
 
 $$\Omega_\Lambda \equiv \left(\frac{R_\Lambda}{\ell_P}\right)^2 \approx 10^{122}$$
 
-where $R_\Lambda = \sqrt{3/\Lambda_\text{obs}}$ is the de Sitter radius (in units where $c = 1$), whose scale is fixed by the cosmological constant. And the Hubble scale:
+where $R_\Lambda \approx 5.3$ Gpc is the de Sitter horizon radius, fixed observationally; the framework predicts the coefficient 3, and $\Lambda_\text{obs} = 3/R_\Lambda^2$ is the consistency check. The observational check is $R_\Lambda = \sqrt{3/\Lambda_\text{obs}}$; the logical direction is $R_\Lambda \to \Lambda_\text{obs}$. And the Hubble scale:
 
 $$\Omega_H(z) \equiv \left(\frac{R_H(z)}{\ell_P}\right)^2 \approx 10^{122}\ (z \approx 0)$$
 
-where $R_H(z) = c/H(z)$ is the Hubble radius at redshift $z$, whose scale evolves with time. At the present epoch $t \approx 5.22$ rad, the Hubble horizon converges on the de Sitter horizon: $\Omega_H \approx \Omega_\Lambda$. This is not a "problem of cosmic coincidence"; it is near the temporal midpoint of $\Psi$.
+where $R_H(z) = c/H(z)$ is the Hubble radius at redshift $z$, whose scale evolves with time. At the present epoch $t \approx 5.22$ rad, the Hubble horizon converges on the de Sitter horizon: $\Omega_H \approx \Omega_\Lambda$. The coincidence is structural: the observer sits near the temporal midpoint of $\Psi$.
 
 The squared definition reflects horizon area: the relevant degrees of freedom scale with boundary. $\Omega_\Lambda$ is the asymptotic limit; $\Omega_H$ evolves with the Hubble radius.
 
@@ -145,11 +173,11 @@ The observer occupies $\sqrt{\Omega_H} \approx 10^{61}$ at the present epoch: th
 
 $$x = \Omega/x \quad \Rightarrow \quad x^2 = \Omega \quad \Rightarrow \quad x = \sqrt{\Omega}$$
 
-On a log scale, $\sqrt{\Omega} \approx 10^{61}$ is the midpoint: $(122 + 0)/2 = 61$. This is a structural position, not anthropic selection.
+On a log scale, $\sqrt{\Omega} \approx 10^{61}$ is the midpoint: $(122 + 0)/2 = 61$. This is a structural position.
 
 ### Structural vs. temporal midpoint
 
-The structural midpoint $\sqrt{\Omega_H} \approx 10^{61}$ is constitutive; it defines *where* observation resolves. The temporal midpoint $t \approx 2\pi$ is contingent; it describes *when* we happen to observe. Both coincide near the present epoch. $S^1$ is the anchor manifold for phase; "observer at $S^1$" means temporal existence is parametrized by the 1D edge, not literal confinement to a point.
+The structural midpoint $\sqrt{\Omega_H} \approx 10^{61}$ is constitutive; it defines *where* observation resolves. The temporal midpoint $t \approx 2\pi$ is contingent; it describes *when* we happen to observe. Both coincide near the present epoch. $S^1$ is the anchor manifold for phase; "observer at $S^1$" means temporal existence is parametrized by the 1D edge.
 
 **Notation.** The dilution factor $\Omega^{-n/2}$ becomes $(\sqrt{\Omega})^{-n}$: the observer's position raised to power $-n$.
 
@@ -159,7 +187,7 @@ Mode intensity dilutes in an embedded manifold:
 
 $$(\sqrt{\Omega})^{-n}$$
 
-The scale $\Omega = (R/\ell_P)^2$ counts Planck areas on the horizon. The characteristic linear scale is $L \sim \Omega^{1/2} = \sqrt{\Omega}$. The volume of an $n$-dimensional manifold scales as $V_n \sim (\sqrt{\Omega})^n$. A normalized scalar mode has local intensity $|\psi|^2 \sim (\sqrt{\Omega})^{-n}$.
+The scale $\Omega = (\mathcal{R}/\ell_P)^2$ counts Planck areas on the horizon, where $\mathcal{R}$ is the relevant horizon radius for the observable: $R_H$ for edge modes, $R_\Lambda$ for surface modes (see Selection Rules). The characteristic linear scale of the domain is $\sqrt{\Omega}$. The volume of an $n$-dimensional manifold scales as $V_n \sim (\sqrt{\Omega})^n$. A normalized scalar mode has local intensity $|\psi|^2 \sim (\sqrt{\Omega})^{-n}$.
 
 ### Manifold Index
 
@@ -170,14 +198,16 @@ The manifold index $n$ specifies which scale governs the mode being sampled.
 | 0 | Planck floor | 1 | $(\sqrt{\Omega})^{0} = 1$ | $G$ (curvature ↔ energy dictionary) |
 | 1 | Temporal edge | $\Omega_H$ | $10^{-61}$ | $H_0$, $a_0$, $\Delta t_{\min} = \pi/30$, $\Delta S_{\min} = \hbar\pi/30$ |
 | 2 | Möbius surface | $\Omega_\Lambda$ | $10^{-122}$ | $\Lambda$ |
-| 3/2 | Gauss-Codazzi interface | -- | -- | Gravity (space → surface curvature conversion) |
+| 3/2 | Gauss-Codazzi conversion | N/A | N/A | Gravity: converts surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ to space observable $\Lambda_\text{obs} = 3/R_\Lambda^2$ (geometric conversion, not dilution) |
 | 3 | Space | $\Omega_\Lambda$ | $10^{-183}$ | Null "dark matter" |
 
 The access hierarchy follows from boundary structure: $S^1$ is the observer's anchor (direct); Möbius is accessed through its non-orientable twist; $S^3$ has no boundary ($\partial S^3 = \emptyset$). Spatial degrees of freedom enter only through reconstruction.
 
+The $n=3/2$ row is a geometric conversion, distinct from manifold dilution. The coefficient 2 in $\Lambda_\text{top} = 2/R_\Lambda^2$ is the ground-state eigenvalue of the 2D surface scalar Laplacian (established by the Weitzenböck bound and saturated by the ground state). The coefficient 3 in $\Lambda_\text{obs} = 3/R_\Lambda^2$ is the trace of the de Sitter vacuum Einstein equations in 3D space ($R_{\mu\nu} - \frac{1}{2}g_{\mu\nu}R + \Lambda g_{\mu\nu} = 0$ implies $\Lambda = 3/R_\Lambda^2$ for a de Sitter geometry with radius $R_\Lambda$). The Gauss-Codazzi equations at vacuum embedding ($K_{ij}=0$) connect the two eigenvalue problems. The ratio $\Lambda_\text{obs}/\Lambda_\text{top} = 3/2$ follows from these two independent computations; stating it as "ratio of dimensions (3/2)" is a mnemonic for the coefficient values. Full derivation in companion paper. The conversion is purely geometric; $\Omega$ plays no role.
+
 ### Why edge uses Ω\_H while surface uses Ω\_Λ
 
-The temporal edge $S^1$ is where time happens; only the edge can reference a quantity that evolves with cosmic time. The Hubble horizon $R_H(z) = c/H(z)$ evolves; therefore epoch-dependent observables ($H_0$, $a_0$) reference $\Omega_H$. The Möbius surface and $S^3$ space are defined by $\Lambda$, which sets the boundary condition itself. Boundary conditions do not evolve; therefore epoch-independent observables reference $\Omega_\Lambda$. The space ($n = 3$) scaling of $(\sqrt{\Omega})^{-3} \sim 10^{-183}$ suppresses any non-gravitational signal to observational null.
+The temporal edge $S^1$ is where time happens; only the edge can reference a quantity that evolves with cosmic time. The Hubble horizon $R_H(z) = c/H(z)$ evolves; therefore epoch-dependent observables ($H_0$, $a_0$) reference $\Omega_H$. The Möbius surface and $S^3$ space are defined by $\Lambda$, which sets the boundary condition itself. Boundary conditions are fixed; therefore epoch-independent observables reference $\Omega_\Lambda$. The space ($n = 3$) scaling of $(\sqrt{\Omega})^{-3} \sim 10^{-183}$ suppresses any non-gravitational signal to observational null.
 
 ### Selection Rules
 
@@ -232,7 +262,7 @@ where $\Theta_0$ is the Fibonacci well (fixed, geometric) and $\Theta_f$ is the 
 
 ### The 120 Domain
 
-$C(\Theta)$ is continuous, but the mode spectrum is not. Half-integer modes sample discrete positions, and at generic positions they interfere destructively. By Hurwitz's theorem, the golden ratio $\varphi$ is the positive real most poorly approximated by rationals. Its convergents are the Fibonacci sequence. Fibonacci positions are where destructive interference is minimized: the stable sampling points.
+$C(\Theta)$ is continuous, but the mode spectrum is discrete. Half-integer modes sample discrete positions, and at generic positions they interfere destructively. By Hurwitz's theorem, the golden ratio $\varphi$ is the positive real most poorly approximated by rationals. Its convergents are the Fibonacci sequence. Fibonacci positions are where destructive interference is minimized: the stable sampling points.
 
 These stable sampling points live at $F_n/120$. The maximum resolution the space provides is 120. $S^3$ is diffeomorphic to $\text{SU}(2)$; the binary icosahedral group $2I$ is its largest exceptional discrete subgroup, with $|2I| = 120$.
 
@@ -252,7 +282,7 @@ If the domain has 120 positions and the wave has period $4\pi$, the smallest ste
 
 $$\Delta t_{\min} = \frac{4\pi}{120} = \frac{\pi}{30}$$
 
-The chronon is not a universal tick; it is the smallest phase advance the domain can register, measured in radians of the cosmic phase $t$. For any mode with period $T$, the chronon is $\tau = T/120$. The resolution is scale-dependent. Time itself remains continuous; only the phase resolution is discrete.
+The chronon is the domain's phase resolution: the smallest phase advance the domain can register, measured in radians of the cosmic phase $t$. For any mode with period $T$, the chronon is $\tau = T/120$. The resolution is scale-dependent. Time itself remains continuous; only the phase resolution is discrete.
 
 The corresponding minimum action increment:
 
@@ -266,7 +296,9 @@ Fermions see the full 120. Observation squares the wavefunction, and half the re
 
 The wavefunction $\psi_0$ satisfies $\psi(\Theta+1) = -\psi(\Theta)$: it carries the sign flip from the anti-periodic boundary condition. The fermion distinguishes all 120 positions on the domain. Observation squares the wavefunction. $C = |\psi|^2$ erases the sign: $|\psi(\Theta+1)|^2 = |-\psi(\Theta)|^2 = |\psi(\Theta)|^2$. What was distinct to the fermion becomes identical to any measurement.
 
-The consequence is halved resolution. The minimum step any observable can resolve is $2/120$, not $1/120$. The squaring projects $2I \to I$, where $I$ is the icosahedral rotation group ($|I| = 60$). The filter is a projection rule, not merely a statement about particle species: observables realized through boson-projected intensity channels inherit 60R resolution and must sit at even positions on the 120 domain. Cosmographic observables ($H_0$, $\Lambda$, $\alpha$) are realized through photon-mediated distance and intensity measurements and belong to this class. Dynamical observables ($a_0$) are realized through acceleration response and retain full 120-domain access. The realization channel determines the grid, not the experimental technology used to estimate it. Dimensionless couplings ($A_P = 1$) live on the resulting 60R-grid (R for realized): only even positions on the 120 domain. Dimensionful observables ($A_P \neq 1$) remain on the 120 domain; their sign information is absorbed by whole-manifold dilution.
+The consequence is halved resolution. The minimum step any observable can resolve is $2/120$, not $1/120$. The squaring projects $2I \to I$, where $I$ is the icosahedral rotation group ($|I| = 60$). The filter is a projection rule extending to all boson-projected observables: observables realized through boson-projected intensity channels must sit at even positions on the 120 domain. Even positions on the 120 domain and the 60R-grid (R for realized) are the same lattice — two notations for the same 60 positions. Cosmographic observables ($H_0$, $\Lambda$, $\alpha$) are realized through photon-mediated distance and intensity measurements and belong to this class. Dynamical observables ($a_0$) are realized through acceleration response and retain full 120-domain access. The realization channel determines the grid, not the experimental technology used to estimate it.
+
+Two notational conventions appear in the tables below, both denoting the same 60R lattice. Dimensionless couplings ($A_P = 1$) are written in reduced form: the bosonic projection maps the fermionic well $13/120$ to $13/60$ on the 60R-grid. Dimensionful cosmographic observables ($H_0$, $\Lambda$) are written in 120-domain notation with even numerators ($34/120$, $60/120$); the equivalent 60R positions are $17/60$ and $30/60$. The Grid column in the Fibonacci Wells table records which convention is used for each entry.
 
 ### Fibonacci Wells (Θ₀)
 
@@ -276,22 +308,22 @@ Not all Fibonacci wells survive to observation. The phase field carries microflu
 
 The well assignments (which observable maps to which well) are identified by coprimality and observable character; the wells themselves are enumerated. Among edge modes, $a_0$ occupies the coprime well ($13/120$), forced by irreducibility. $\Lambda$ occupies the antinode ($60/120$), forced by ground-state maximality. Among the remaining Fibonacci wells, only $34/120$ carries an even numerator and therefore survives the bosonic filter for cosmographic observables; $H_0$ occupies it by exclusion. The surviving wells become:
 
-| $F_n$ | Well | $C(\Theta)$ | Observable |
-|---|---|---|---|
-| $F_7$ | 13/60† | 0.79 | $\alpha$ (fine structure constant) |
-| $F_7$ | 13/120 | 0.22 | $a_0$ (acceleration scale) |
-| $F_8$ | 21/120 | 0.55 | Unassigned |
-| $F_9$ | 34/120 | 1.21 | $H_0$ (Hubble parameter) |
-| $F_{10}$ | 55/120 | 1.97 | Unassigned |
-| -- | 60/120 | 2.00 | $\Lambda_\text{top}$ (cosmological constant) |
+| $F_n$ | Grid | Well | $C(\Theta)$ | Observable |
+|---|---|---|---|---|
+| $F_7$ | 60R | 13/60 | 0.79 | $\alpha$ (fine structure constant) |
+| $F_7$ | 120 | 13/120 | 0.22 | $a_0$ (acceleration scale) |
+| $F_8$ | 120 | 21/120 | 0.55 | Unassigned |
+| $F_9$ | 120 | 34/120 | 1.21 | $H_0$ (Hubble parameter) |
+| $F_{10}$ | 120 | 55/120 | 1.97 | Unassigned |
+| -- | 120 | 60/120 | 2.00 | $\Lambda_\text{top}$ (cosmological constant) |
 
-> †The Bosonic Filter projects $13/120 \to 13/60$ on the 60R-grid.
+The Bosonic Filter projects $13/120 \to 13/60$ on the 60R-grid; the Grid column distinguishes the two $F_7$ rows.
 
-**Coprimality note:** $\gcd(13, 120) = 1$. The $13/120$ well shares no factors with the domain, making it maximally detached from the domain's own symmetry. Matter lives there. The structural observables ($\Lambda$, $H_0$) occupy wells with shared factors, coupled to the domain structure itself. The assignment is forced: swapping wells inverts the ratio by a factor of 30.
+**Coprimality note:** $\gcd(13, 120) = 1$. The $13/120$ well shares no factors with the domain, making it maximally detached from the domain's own symmetry. Matter lives there. The structural observables ($\Lambda$, $H_0$) occupy wells with shared factors, coupled to the domain structure itself.
 
 ### Phase Field (Θ\_f)
 
-The wells are locked by topology. The observer is not. The local gravitational environment shifts the sampling position away from the well center.
+The wells are locked by topology. The observer's position is local. The local gravitational environment shifts the sampling position away from the well center.
 
 For global observations (CMB, BAO), the shift averages out: $\Theta_f \approx 0$. Integration over gigaparsec volumes erases local structure. For local observations, $\Theta_f$ reflects the observer's environment. The phase field decomposes as:
 
@@ -303,11 +335,11 @@ For the Milky Way, $\Theta_f^\text{env} \approx 2/120$, the minimum bosonic step
 
 $$\frac{C(36/120)}{C(34/120)} = \frac{1.309}{1.208} = 1.084$$
 
-This 8.4% resolves the Hubble tension. Local measurements of $H_0$ sample inside the Milky Way's phase field; CMB-derived values integrate over gigaparsec volumes where $\Theta_f \approx 0$. The discrepancy is environment-dependent sampling of the same well.
+This 8.4% resolves the Hubble tension. The distance ladder calibration anchor — Cepheid period-luminosity zero-points, geometric parallax distances — is established within the Milky Way's phase field. That anchor carries the 8.4% shift into every subsequent rung. Supernovae at 500 Mpc are measured correctly relative to the shifted anchor; the shift propagates through calibration. Local measurements of $H_0$ inherit the phase field through calibration rather than proximity. CMB-derived values integrate over gigaparsec volumes where $\Theta_f \approx 0$. The discrepancy is a calibration offset.
 
 ### A. Phase Field Mechanics
 
-The Fibonacci wells have different sensitivities to environmental shifts. Wells near the boundary of the domain are steep; wells near the antinode are flat. This determines how much each observable changes when the phase field is active. The remainder of the section builds the trigger mechanism: what gravitational conditions activate the phase field, over what spatial scale, and why the shift locks at exactly one bosonic step.
+The Fibonacci wells have different sensitivities to environmental shifts. Wells near the boundary of the domain are steep; wells near the antinode are flat. This determines how much each observable changes when the phase field is active. The remainder of the section builds the classification mechanism: what gravitational conditions activate the phase field, over what spatial scale, and why the shift locks at exactly one bosonic step.
 
 ### B. Logarithmic Slope
 
@@ -315,7 +347,7 @@ The sensitivity of $C(\Theta)$ to small shifts:
 
 $$\frac{d \ln C}{d\Theta} = 2\pi \cot(\pi\Theta)$$
 
-The cotangent diverges near the boundary and vanishes at the antinode. $\Lambda$ sits at the antinode ($\Theta = 60/120$): its slope is exactly zero. The cosmological constant is topologically protected because no environmental shift can move it.
+The cotangent diverges near the boundary and vanishes at the antinode. $\Lambda$ sits at the antinode ($\Theta = 60/120$): its slope is exactly zero. The cosmological constant is topologically fixed; environmental shifts leave it unmoved.
 
 | Well | $\Theta$ | $C(\Theta)$ | Slope |
 |---|---|---|---|
@@ -329,11 +361,11 @@ The Bosonic Filter fixed $\Delta\Theta_{\min} = 2/120$. Multiplying slope by ste
 
 | Well | Slope x 2/120 | Shift |
 |---|---|---|
-| $a_0$ | 17.7 x 1/60 | 30% |
-| $H_0$ | 5.1 x 1/60 | 8.4% |
-| $\Lambda_\text{top}$ | 0 x 1/60 | 0% |
+| $a_0$ | 17.7 x 2/120 | 30% |
+| $H_0$ | 5.1 x 2/120 | 8.4% |
+| $\Lambda_\text{top}$ | 0 x 2/120 | 0% |
 
-The $a_0$ well is steep (one bosonic step would shift its amplitude by 30%), but $a_0$ is constitutive: it defines $\mathcal{T}_c$ and $L_f$, and is only measurable inside triggered environments. The observed $a_0$ corresponds to the Fibonacci well. $H_0$ shifts by 8.4%, matching the Hubble tension. $\Lambda$ remains unmoved.
+The $a_0$ well is steep (one bosonic step would shift its amplitude by 30%), but $a_0$ is constitutive: it defines $\mathcal{T}_c$ and $L_f$, and is only measurable inside above-threshold environments. The observed $a_0$ corresponds to the Fibonacci well. $H_0$ shifts by 8.4%, matching the Hubble tension. $\Lambda$ remains unmoved.
 
 ### D. Coherence Scale
 
@@ -343,29 +375,31 @@ $$L_f = \frac{v_c^2}{a_0}$$
 
 For the Milky Way ($v_c \approx 220$ km/s), $L_f \approx 13$ kpc.
 
-### E. The Trigger
+### E. Classification Index
 
-The phase field activates when the gravitational potential drop across $L_f$ exceeds a critical threshold. Defining $\Phi_{\text{rel}}(l) \equiv \Phi(l_{\text{out}}) - \Phi(l)$, the dimensionless trigger index is:
+The phase field state is determined by the gravitational potential drop across $L_f$. Defining $\Phi_{\text{rel}}(l) \equiv \Phi(l_{\text{out}}) - \Phi(l)$, the dimensionless classification index is:
 
 $$\mathcal{T} \equiv \frac{2}{c^2 L_f} \int_0^{L_f} \Phi_{\text{rel}}(l)\,dl$$
 
 ### F. Threshold
 
-The trigger fires when $\mathcal{T}$ exceeds a critical value. The geometry factor $\xi \approx 0.46$ captures the mean potential depth (isothermal, NFW, and Hernquist all give 0.44 to 0.47):
+The critical value separating the two classes. The geometry factor $\xi \approx 0.46$ captures the mean potential depth (isothermal, NFW, and Hernquist all give 0.44 to 0.47):
 
 $$\mathcal{T}_c = \frac{2\xi\,a_0\,L_f}{c^2}$$
 
 ### G. Response
 
-Once triggered, the phase field locks to the minimum bosonic step. The response is binary:
+The phase field state is binary: below the critical value $\Theta_f = 0$; at or above it $\Theta_f = 2/120$. The Closure Identity establishes that every flat-curve disk sits above the critical value by the same factor $1/\xi \approx 2.2$, so the classification reduces to a type test: flat-curve disk or not.
 
 $$\Theta_f = \frac{2}{120} \cdot \mathbf{1}(\mathcal{T} \geq \mathcal{T}_c)$$
 
-where $\mathbf{1}(\cdot)$ is the indicator function. Below threshold: $\Theta_f = 0$. Above: $\Theta_f = 2/120$. No continuous slide; the 60R-grid fixes the step. Higher-order transitions ($4/120$, $6/120$, $\ldots$) are inaccessible within a single coherence scale.
+where $\mathbf{1}(\cdot)$ is the indicator function. No continuous slide; the 60R-grid fixes the step. Higher-order transitions ($4/120$, $6/120$, $\ldots$) are inaccessible within a single coherence scale.
 
 **Closure Identity.** Substituting $L_f = v_c^2/a_0$ into $\mathcal{T}_c$, the acceleration scale cancels: $\mathcal{T}_c = 2\xi v_c^2/c^2$. Both $\mathcal{T}$ and $\mathcal{T}_c$ scale as $v_c^2$; the ratio is galaxy-independent:
 
 $$\frac{\mathcal{T}}{\mathcal{T}_c} = \frac{1}{\xi} \approx 2.2$$
+
+The profile-dependent integral in $\mathcal{T}$ evaluates to the same $v_c^2$-controlled quantity for flat-curve disks across all standard profiles (isothermal, NFW, Hernquist all give $\xi \in [0.44, 0.47]$); $\xi$ absorbs this variation. For flat-curve disk galaxies, crossing the threshold is a class property: $\mathcal{T}/\mathcal{T}_c = 1/\xi \approx 2.2$ in every such system. Systems without flat rotation curves — dwarf spheroidals, pressure-supported systems — are outside this closure and require separate treatment.
 
 ### Galactic Disk Phase Shift
 
@@ -379,11 +413,11 @@ $$L_f = \frac{v_c^2}{a_0} = \frac{(2.2 \times 10^5)^2}{1.2 \times 10^{-10}} \app
 
 $$\mathcal{T}_c = \frac{2\xi\,v_c^2}{c^2} = \frac{2(0.46)(2.2 \times 10^5)^2}{(3 \times 10^8)^2} \approx 4.9 \times 10^{-7}$$
 
-**Trigger index.**
+**Classification index.**
 
 $$\mathcal{T}_\text{MW} \approx 1.1 \times 10^{-6} \quad \Rightarrow \quad \mathcal{T}_\text{MW} > \mathcal{T}_c$$
 
-Triggered. The shifted well:
+Above threshold. The shifted well:
 
 $$H_0^{\text{local}} = H_0^{\text{CMB}} \times \frac{C(36/120)}{C(34/120)} = 67.4 \times 1.084 \approx 73\text{ km/s/Mpc}$$
 
@@ -394,12 +428,12 @@ $$H_0^{\text{local}} = H_0^{\text{CMB}} \times \frac{C(36/120)}{C(34/120)} = 67.
 | $L_f$ | 13 kpc | $v_c^2/a_0$ |
 | $\xi$ | 0.46 | Geometry factor (profile-insensitive) |
 | $\mathcal{T}_c$ | $4.9 \times 10^{-7}$ | Critical threshold |
-| $\mathcal{T}_\text{MW}$ | $1.1 \times 10^{-6}$ | Milky Way trigger index |
+| $\mathcal{T}_\text{MW}$ | $1.1 \times 10^{-6}$ | Milky Way classification index |
 | $\mathcal{T}/\mathcal{T}_c$ | 2.2 | $= 1/\xi$, galaxy-independent |
 | $\Theta_f$ | $2/120$ | One bosonic step (locked) |
 | $\Delta H_0$ | 8.4% | $C(36/120)/C(34/120) = 1.084$ |
 
-Every distance ladder calibrated from inside the Milky Way has been phase shifted 8.4% by the field. No amount of precision will resolve the tension unless we move Earth. The CMB gives us the true value of $H_0$.
+The distance ladder calibration anchor is set inside the Milky Way's phase field. The CMB gives the true value of $H_0$.
 
 ## The Scaling Law
 
@@ -418,10 +452,10 @@ $C(\Theta)$ reads the position axis: where the observable sits on the mode spect
 | $\alpha$ | 1 | 60R | 13/60 | 0.79 | $1/30$ † | $7.33 \times 10^{-3}$ |
 | $a_0$ | $a_P$ | 120 | 13/120 | 0.22 | 1 | $2.2 \times 10^{-62}$ |
 | $H_0$ | $t_P^{-1}$ | 120 | 34/120 | 1.21 | 1 | $1.2 \times 10^{-61}$ |
-| $\Lambda$ | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $3.0 \times 10^{-122}$ ‡ |
+| $\Lambda$ | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $(3/2) \times 2.0 \times 10^{-122} = 3.0 \times 10^{-122}$ ‡ |
 
-> †Dimensionless couplings ($A_P = 1$) project to the 60R-grid; $n$ is the minimum resolved step.
-> ‡ $\Lambda_\text{obs} = (3/2) \times \Lambda_\text{top}$. The 3/2 Gauss-Codazzi conversion is included in $A/A_P$.
+> †For dimensionless couplings ($A_P = 1$), manifold dilution does not apply directly — there is no Planck-scale reference to dilute against. Instead, the running from the Planck-scale value $C(13/60) \approx 0.79$ to the observed $\alpha \approx 7.3 \times 10^{-3}$ is controlled by the domain resolution. The exponent $n = 1/30$ is set equal to the minimum grid step $1/|I| = 1/60$ on the bosonic domain, giving $\Omega_\Lambda^{-1/60} = (\sqrt{\Omega_\Lambda})^{-1/30}$.
+> ‡ $\Lambda_\text{top} = 2/R_\Lambda^2$ is the surface eigenvalue (Weitzenböck / eigenvalue chain). $\Lambda_\text{obs} = (3/2)\Lambda_\text{top} = 3/R_\Lambda^2$ via the vacuum Gauss-Codazzi embedding ($K_{ij}=0$). The coefficient 2 is the 2D surface ground-state eigenvalue; the coefficient 3 is the de Sitter trace in 3D space. The Gauss-Codazzi equations connect the two eigenvalue problems; the ratio 3/2 follows from those two independent computations. Full derivation in companion paper.
 
 $H_0$ and $a_0$ occupy different wells on the same edge; their ratio is fixed by position. $H_0$ and $\Lambda$ occupy different manifolds; their 61-order span is fixed by dimension. $\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by resolution.
 
@@ -429,18 +463,22 @@ $H_0$ and $a_0$ occupy different wells on the same edge; their ratio is fixed by
 
 Each component traces to the single topological postulate:
 
-| Component | Source |
-|---|---|
-| $m = 0$ | Isotropy + orthogonality |
-| $(\sqrt{\Omega})^{-n}$ | IR↔UV fixed point + volume scaling |
-| $n = 1, 2, 3$ | Epoch-dependence + coupling character |
-| $C(\Theta) = 2\sin^2(\pi\Theta)$ | Anti-periodic BC + unit normalization |
-| $\Theta$ on 120 domain | $S^3 \cong \text{SU}(2)$ polyhedral subgroup resolution + irreducibility |
-| $\Theta \in \{13, 21, 34, 55, 60\}/120$ | Hurwitz stability + amplitude threshold |
-| $\Delta\Theta_{\min} = 2/120$ | Bosonic Filter (spinor → scalar) |
-| $L_f = v_c^2/a_0$ | Coherence scale |
-| $\mathcal{T}$, $\mathcal{T}_c$, $\Theta_f$ response | Gauge-invariant trigger + threshold + step function |
-| $R_\Sigma = \Lambda_\text{top}$ | Scaling law bridge (identification) |
+| Component | Source | Status |
+|---|---|---|
+| $m = 0$ | Isotropy + orthogonality | Derived |
+| $(\sqrt{\Omega})^{-n}$ | IR↔UV fixed point + volume scaling | Derived |
+| $n = 0, 1, 2, 3/2, 3$ | Epoch-dependence + coupling character; $n = 0$ is the Planck input ($G$), $n = 3/2$ is the Gauss-Codazzi interface (gravity) | Derived |
+| Anti-periodic BC selected | Matter is fermionic; half-integer modes on $2I$ reproduce 10/12 SM fermion masses within ×3 | Motivated |
+| $\Psi(0) = +1$ | Initial condition selecting the branch where $t=0$ is amplitude maximum; $\Psi(0) = -1$ is the same wave phase-shifted by $2\pi$ | Convention |
+| $C(\Theta) = 2\sin^2(\pi\Theta)$ | Anti-periodic BC + unit normalization | Derived |
+| $\Theta$ on 120 domain | $S^3 \cong \text{SU}(2)$ polyhedral subgroup resolution + irreducibility | Derived |
+| $\Theta \in \{13, 21, 34, 55, 60\}/120$ | Hurwitz stability + amplitude threshold | Derived |
+| $\Delta\Theta_{\min} = 2/120$ | Bosonic Filter (spinor → scalar) | Derived |
+| $\alpha$ exponent $n = 1/30$ | Equals minimum grid step $1/|I| = 1/60$ on bosonic domain; supported by three independent paths; connection between dilution exponent and grid resolution step is the open link | Motivated |
+| $L_\text{strip}/L_\text{fund} = 8.17 \pm 0.1$ | Spectral derivation: scalar Laplacian on $S^3/2I$, degree-12 Klein invariant, Heun transverse eigenvalue $\mu_1 = 1.021$; exact closure open | Motivated |
+| $L_f = v_c^2/a_0$ | Coherence scale | Derived |
+| $\mathcal{T}$, $\mathcal{T}_c$, $\Theta_f$ response | Gauge-invariant classification index + critical value + binary step function | Derived |
+| $\Lambda_\text{top} = 2/R_\Lambda^2$ | Weitzenböck gives lower bound $\lambda_{\min} \geq 2/R_\Lambda^2$; eigenvalue chain gives equality independently; ground state saturates the bound. Conversion to $\Lambda_\text{obs}$ via vacuum Gauss-Codazzi is a separate step | Structural convergence |
 
 ### Symbol Glossary
 
@@ -450,7 +488,7 @@ Observables are located in time on the edge and positioned on the mode spectrum.
 |---|---|---|---|
 | $t$ | Cosmic phase | $[0, 4\pi]$ | Observer's phase location on $\Psi$; time in MIT is phase |
 | $\delta$ | Epoch offset | $\sim -1.06$ rad | How far from turnaround |
-| $\Omega$ | Scale | $(R/\ell_P)^2$ | Planck areas on horizon $\sim 10^{122}$ |
+| $\Omega$ | Scale | $(\mathcal{R}/\ell_P)^2$ | Planck areas on horizon $\sim 10^{122}$; $\mathcal{R}$ is $R_H$ or $R_\Lambda$ per manifold |
 | $\Omega_H$ | Hubble scale | $(R_H/\ell_P)^2$ | Evolves with epoch |
 | $\Omega_\Lambda$ | de Sitter scale | $(R_\Lambda/\ell_P)^2$ | Fixed by $\Lambda$ |
 | $\Theta$ | Phase position | $[0,1]$ on 120 | Observable's position on mode spectrum |
@@ -459,7 +497,7 @@ Observables are located in time on the edge and positioned on the mode spectrum.
 
 ## Predictions and Falsification
 
-MIT has no loose knobs; discrepancies cannot be absorbed by parameter adjustment. The framework stands or falls on population-level agreement with locked predictions.
+MIT has no loose knobs; predictions are locked and every component is placed by the postulate. Derivation status for each component is in the table below. The framework stands or falls on population-level agreement with those predictions.
 
 ### Falsification hierarchy
 
@@ -483,18 +521,18 @@ These do not individually falsify MIT but meaningfully raise or lower credibilit
 |---|---|---|
 | Null particle dark matter | Non-gravitational interaction confirmed | ≥ 5σ, replicated |
 | $H_0$ discrete | Continuous environmental variation confirmed | Histogram test |
-| $z_{\text{cross}} \approx 0.66$ | Phantom crossing outside locked range | < 0.4 or > 0.9 |
+| $z_{\text{cross}} \approx 0.66$ | Phantom crossing outside locked range | below 0.4 or above 0.9 |
 | $w_{\text{eff}} > -1$ at all $z$ | True phantom behavior confirmed | Euclid, Rubin |
-| $w(z)$ curvature | Linear CPL preferred over cosine modulation | $\Delta$AIC > 4 |
 | $\mu_\Lambda \approx 2.25$ meV | Lightest $\nu$ mass inconsistent | KATRIN, cosmological bounds |
+| $L_\text{strip}/L_\text{fund} = 8.17 \pm 0.1$ | CMB data pins ratio to 8.00 at $> 1\sigma$ | Spectral derivation; exact closure is open |
 
 ## Scope and Position
 
 MIT is a topological framework: it specifies boundary conditions and permitted mode structure. Boundary conditions are prior to dynamics. Standard dynamics describes the music; MIT defines the instrument.
 
-**What MIT does claim.** One postulate (topology), one domain boundary ($\ell_P$), one scaling law. The Fibonacci wells are fixed positions on the 120-domain, determined by the group structure of 2I before any observable is consulted. The identification of which observable sits at which well is a matching exercise with no parameter shifting. The scaling law $A/A_P \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ and every component in it trace to the topology postulate.
+**What MIT does claim.** One postulate (topology), three primitive inputs ($c$, $\hbar$, $G$), one scaling law. The Fibonacci wells are fixed positions on the 120-domain, determined by the group structure of $2I$ before any observable is consulted. The identification of which observable sits at which well is a matching exercise; the wells are fixed in advance. The scaling law $A/A_P \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ and every component in it trace to the topology postulate.
 
-**What MIT does not modify.** Einstein's field equations and the Standard Model particle content are unchanged. MIT addresses why observables take their values and why gauge fields confine into three generations.
+**What MIT leaves intact.** Einstein's field equations and the Standard Model particle content are unchanged. MIT addresses why observables take their values and why gauge fields confine into three generations.
 
 **Parallel work.** Topological cosmology has been explored since Friedmann. Luminet, Weeks, and collaborators proposed the Poincaré dodecahedral space ($S^3/2I$) as the spatial topology of the universe, matching CMB low-ℓ boundary. MIT adopts the same manifold and extends it from CMB anomalies to particle structure.
 
