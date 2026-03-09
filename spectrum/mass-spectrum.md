@@ -95,7 +95,7 @@ $D = 60$ for integer-spin, $D = 120$ for half-integer.
 | $R_7$ | Int | 60 | 0.7564 |
 | $R_8$ | Half | 120 | 0.2382 |
 
-### Vacuum Torsion (27 Entries)
+### Vacuum Torsion (24 Entries)
 
 Computed from $\log T^2(\rho \otimes \sigma) = \sum_\tau N_{\rho\sigma\tau} \log T^2(\tau)$.
 
@@ -118,7 +118,7 @@ Formula A applied to 8 nontrivial irreps x 3 vacua. Sorted by predicted mass. De
 |---|---|---|---|---|---|---|---|---|
 | 1 | $R_1$ | 2 | 1 | std | 0.00827 | $1.98 \times 10^{-13}$ | $\nu_1$ | 1.98 |
 | 2 | $R_1$ | 2 | 1 | gal | 2.778 | $6.67 \times 10^{-11}$ | $\nu_3$ | 1.32 |
-| 3 | $R_1$ | 2 | 1 | triv | 15.887 | $3.81 \times 10^{-10}$ | $\nu_3$ | 7.54 |
+| 3 | $R_1$ | 2 | 1 | triv | 15.887 | $3.81 \times 10^{-10}$ | | |
 | 4 | $R_3$ | 3 | 2 | gal | 0.257 | $3.75 \times 10^{-9}$ | | |
 | 5 | $R_3$ | 3 | 2 | triv | 0.306 | $4.45 \times 10^{-9}$ | | |
 | 6 | $R_6$ | 4 | 3 | std | 0.688 | $4.09 \times 10^{-7}$ | | |
