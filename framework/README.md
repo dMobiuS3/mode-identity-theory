@@ -36,7 +36,7 @@ Three geometric scales appear in MIT. They are distinct in origin and claim stat
 
 $L_\text{fund}$ is the CMB-derived fundamental domain scale; where $L$ appears without subscript in the Three Length Scales section it means $L_\text{fund}$. In other sections $L$ is used as a generic length variable and carries no subscript meaning. $R$ is the geometric de Sitter horizon radius; $R_\Lambda$ is the same quantity as it appears in the Scale Hierarchy. 
 
-The observational check is $R_\Lambda = \sqrt{3/\Lambda_\text{obs}}$; the logical direction is $R_\Lambda \to \Lambda_\text{obs}$. $R$ and $L_\text{fund}$ are two independently motivated scales. The spectral derivation (scalar Laplacian on $S^3/2I$, degree-12 Klein invariant, Heun transverse eigenvalue $\mu_1 = 1.021$) gives $L_\text{strip}/L_\text{fund} = 8.17 \pm 0.1$, recovering 8 to within 2.1%. Whether topology forces $R_\Lambda = 8L_\text{fund}/\pi$ from first principles is open.
+The observational check is $R_\Lambda = \sqrt{3/\Lambda_\text{obs}}$; the logical direction is $R_\Lambda \to \Lambda_\text{obs}$. $R$ and $L_\text{fund}$ are two independently motivated scales. The spectral derivation (scalar Laplacian on $S^3/2I$, degree-12 Klein invariant, Heun transverse eigenvalue $\mu_1 = 1.021$) gives $L_\text{strip}/L_\text{fund} = 8.17 \pm 0.1$, recovering 8 to within 2.1%.
 
 ## The Firing Order
 
@@ -129,8 +129,6 @@ A period of $4\pi$ is required to carry the sign from positive through negative 
 Let $t \equiv 2\pi s/L_\text{fund}$ denote cosmic phase, where $s$ is an abstract phase coordinate running over the mode structure of the 3D cavity; the $S^1$ edge has geometric circumference $L_\text{strip} \approx 16.7$ Gpc. $L_\text{fund}$ is the fundamental domain scale. (At Planck scale, the boundary condition manifests as the spin-1/2 sign flip under $2\pi$ rotation. Their correspondence is the dimensional projection of the same topological constraint.) The standing wave takes the form:
 
   $$\Large \boxed{\Psi = \cos(t/2)}$$
-
-Cosine is inherited because the universe initiates at maximum amplitude $\Psi = +1$ rather than mid-slope.
 
 ### The Present Epoch
 
