@@ -39,7 +39,9 @@ The hierarchy terminates at S³ because ∂S³ = ∅. S³ is the unique simply-c
 
 ### A. Scale
 
-The comoving circumference of the fundamental domain is L ≈ 2.1 Gpc: the distance around the strip before the identification acts. This value is imported from the standard ΛCDM expansion history. The ratio of 8L to the de Sitter radius (R_dS = c/H₀√Ω_Λ) approximates π to 0.6%, suggesting L may follow from the embedding geometry rather than being an independent input. One lap around the strip brings you to the flip side; two laps bring you home. The transverse width is:
+The comoving circumference of the fundamental domain is L ≈ 2.1 Gpc: the distance around the strip before the identification acts. This value is imported from the standard ΛCDM expansion history. The ratio of 8L to the de Sitter radius (R_dS = c/H₀√Ω_Λ) approximates π to 0.6%, suggesting L may follow from the embedding geometry rather than being an independent input. The transverse width W = 2L/π is motivated by this relationship. 
+
+One lap around the strip brings you to the flip side; two laps bring you home. The transverse width is:
 
 $$W = \frac{2L}{\pi} \approx 1.34 \; \text{Gpc}$$
 
@@ -180,7 +182,7 @@ A single geometric structure accounts for three persistent CMB features.
 
 Luminet et al. proposed the Poincaré dodecahedral space to explain low-ℓ suppression. The COMPACT collaboration systematically studied non-orientable manifolds and confirmed that they generically produce parity asymmetry of the observed sign. MIT differs in that the Möbius identification constrains the eigenmode spectrum rather than repeating sky patches, and the non-orientable surface is embedded in S³ rather than being a quotient of it. Where COMPACT confirms the sign, the interference mechanism here returns the magnitude.
 
-### What the topology does not predict
+### What the observer contributes
 
 The topology does not predict the alignment angle itself. The ~10° is where the observer happens to stand. A different observer elsewhere on the strip would measure a different angle and a correspondingly different parity ratio, but the relationship between them would hold. The structure is derived. The position is measured.
 
