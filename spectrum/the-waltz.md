@@ -21,7 +21,7 @@ The universe has three structural layers: $S^3$ space where curvature lives as a
 | $G$ | The tempo: curvature ↔ energy conversion | Both |
 | $3/2$ | The step: interface between partners | Geometry |
 
-$G$ is the dictionary at the Planck floor ($n = 0$). It converts between the surface's language (curvature) and the space's language (energy). It is one of three inputs ($c$, $\hbar$, $\ell_P$), not derivable from the topology. $\Omega = (R/\ell_P)^2$ is a geometric scale ratio (how many Planck lengths fit in $R$), not a topological output.
+$G$ is the dictionary at the Planck floor ($n = 0$). It converts between the surface's language (curvature) and the space's language (energy). It is one of three inputs ($c$, $\hbar$, $G$), not derivable from the topology; $\ell_P \equiv \sqrt{\hbar G/c^3}$ is derived from them. $\Omega = (R/\ell_P)^2$ is a geometric scale ratio (how many Planck lengths fit in $R$), not a topological output.
 
 The neutrino mass floor, $\mu_\Lambda = \rho_\Lambda^{1/4} \approx 2.25$ meV, is where Space and Surface dance. The $3/2$ is the step between them.
 
@@ -43,7 +43,7 @@ With these conditions the Gauss equation reduces to $R_\Sigma = R_{\text{spatial
 
 and inverting: $R_{\text{spatial}} = 3\,R_\Sigma$ 
 
-The Fischer-Marsden equation forces $R_\Sigma = \Lambda_{\text{top}}$: on a closed surface of constant positive curvature, the scalar curvature is locked into the twisted Laplace spectrum as the ground eigenvalue. 
+The identification $R_\Sigma = \Lambda_{\text{top}}$ is motivated from three directions — dimensional, spectral (Fischer-Marsden), and group-theoretic — and is noted as open pending independent mathematical review. 
 
 Substituting into the de Sitter relation $R_{\text{spatial}} = 2\Lambda_{\text{obs}}$:
 
