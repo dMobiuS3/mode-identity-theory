@@ -10,7 +10,7 @@ Tested against DESI DR2 baryon acoustic oscillation data, the Pantheon+ supernov
 |---|---|
 | MIT vs ΛCDM | $\Delta\text{AIC} = -2.1$ |
 | Profiled coupling | $\Delta\chi^2 = -7.9$ ($\Delta\text{AIC} = -5.9$ at $k = 3$) |
-| Zero-crossing | $z_\text{cross} = 0.663$ (registered blind prediction) |
+| Zero-crossing | $z_\text{cross} = 0.66$ (registered blind prediction) |
 | Phantom crossing | $w_\text{eff}(z) > -1$ at all redshifts |
 
 ## I. The Observational Landscape
@@ -43,7 +43,7 @@ The observer's position within the cosmic cycle is measured from the geometric t
 
 ### The Coupling ε
 
-The amplitude of the surface-mode modulation. Calibrated via inject-and-recover: MIT distances are generated at trial $\varepsilon$, a CPL template is fitted, and the recovered $w_0$ is matched to the target $w_0 = -0.773$ from DES-SN5YR + Planck + SDSS BAO, which contains no DESI data. This yields $\varepsilon = 0.255$.
+The amplitude of the surface-mode modulation. Calibrated via inject-and-recover: MIT distances are generated at trial $\varepsilon$, a CPL template is fitted, and the recovered $w_0$ is matched to the target $w_0 = -0.773$ from DES-SN5YR + Planck + SDSS BAO, which contains no DESI data. This yields $\varepsilon = 0.255$. The profiled best-fit from DESI data alone is $\varepsilon = 0.16$; the difference reflects the prior dataset used for calibration rather than a free parameter adjustment.
 
 ## III. The Phantom Crossing
 
@@ -57,7 +57,7 @@ The correction term is strictly positive: $w_\text{eff}(z) > -1$ at all redshift
 
 The modulation changes sign at:
 
-$$z_{\text{cross}} = 1 + \frac{\delta}{\pi} = 0.663$$
+$$z_{\text{cross}} = 1 + \frac{\delta}{\pi} = 0.66$$
 
 This is the zero-crossing of the modulation function, where the deviation from ΛCDM peaks at ~4.6% in $E(z)$. When observers fit these distances using CPL templates ($w_0 + w_a(1-a)$), the linear form cannot capture the cosine shape. CPL compensates by placing $w_0 > -1$ and $w_a < 0$. The phantom crossing is not in the expansion history but in the template used to fit it.
 
@@ -85,7 +85,7 @@ All predictions are registered on Zenodo prior to Euclid DR1 (expected October 2
 
 | Prediction | MIT Value | Falsified if |
 |---|---|---|
-| $z_\text{cross}$ | 0.663 | Transition center < 0.4 or > 0.9 (2σ) |
+| $z_\text{cross}$ | 0.66 | Transition center < 0.4 or > 0.9 (2σ) |
 | $w(z)$ form | Phase modulation | Linear preferred at $\Delta\text{AIC} > 4$ |
 | Λ | Constant | $\rho_\text{DE}(z)/\rho_\text{DE}(0)$ departs from unity at 2σ |
 
