@@ -30,7 +30,7 @@ Three geometric scales appear in MIT. They are distinct in origin and claim stat
 
 | Scale | Value | Origin | Status |
 |---|---|---|---|
-| $L_\text{fund}$ | $\approx 2.1$ Gpc | Derived from CMB low-$\ell$ cutoff: $k_{\min} = \pi^2/2L_\text{fund}$, $\ell_\text{cut} \approx k_{\min}\chi_* - 1/2$ | Arrow runs observation → $L_\text{fund}$. |
+| $L_\text{fund}$ | $\approx 2.1$ Gpc | Derived from CMB low-ℓ cutoff: $k_{\min} = \pi^2/2L_\text{fund}$, $\ell_\text{cut} \approx k_{\min}\chi_* - 1/2$ | Arrow runs observation → $L_\text{fund}$. |
 | $R$ | $\approx 5.3$ Gpc | Geometric parameter: the de Sitter horizon radius, fixed by the topology before observables are consulted. $\Lambda_\text{obs} = 3/R_\Lambda^2$ is the prediction; $R_\Lambda = \sqrt{3/\Lambda_\text{obs}}$ is the observational check. | Geometric parameter. Not a primitive input alongside $c$, $\hbar$, $G$. |
 | $L_\text{strip}$ | $\approx 16.7$ Gpc | One lap of the Möbius boundary: $L_\text{strip} = \pi R_\Lambda$ | Derived from $R_\Lambda$. |
 
