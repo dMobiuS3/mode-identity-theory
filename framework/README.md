@@ -68,7 +68,7 @@ The fundamental domain scale $L_\text{fund} \approx 2.1$ Gpc is distinct from $L
 
 ### The Möbius Surface
 
-The 2D non-orientable manifold bounded by the edge. Let $y$ denote the coordinate along the twisted direction, with period $L_\text{strip}$. The Möbius $\mathbb{Z}_2$ holonomy admits two boundary condition sectors: periodic $\psi(y+L_{\text{strip}}) = +\psi(y)$ and anti-periodic $\psi(y+L_{\text{strip}}) = -\psi(y)$. The anti-periodic sector is selected by observation; matter is fermionic. Fields in the selected sector satisfy:
+The 2D non-orientable manifold bounded by the edge. Let $y$ denote the coordinate along the twisted direction, with period $L_\text{strip}$. The Möbius $\mathbb{Z}_2$ holonomy admits two boundary condition sectors; periodic and anti-periodic. The anti-periodic sector is selected by observation; matter is fermionic. Fields in this sector satisfy:
 
 $$\psi(y + L_\text{strip}) = -\psi(y)$$
 
