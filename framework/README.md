@@ -64,7 +64,7 @@ $$\Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \parti
 
 The 1D boundary of the Möbius surface is the edge with geometric circumference $L_\text{strip} = \pi R_\Lambda \approx 16.7$ Gpc. The Möbius anti-periodic boundary condition means the wavefunction changes sign after one traverse of the boundary; two traverses are required to restore the original sign. This topological property, a consequence of the $\mathbb{Z}_2$ holonomy, is the origin of the $4\pi$ period: the wave must advance through $4\pi$ of phase to return to its initial amplitude. The edge inherits the anti-periodic boundary condition.
 
-The fundamental domain scale $L_\text{fund} \approx 2.1$ Gpc is distinct from $L_\text{strip}$. It is the minimum-wavelength observable mode scale of the bounded 3D cavity ($S^3/2I$), derived from the CMB low-$\ell$ cutoff. The cosmic phase $t \equiv 2\pi s/L_\text{fund}$ uses the fundamental domain as reference length, where $s$ is an abstract phase coordinate running over the mode structure of the cavity; the $S^1$ edge geometric circumference is $L_\text{strip} \approx 16.7$ Gpc.
+The fundamental domain scale $L_\text{fund} \approx 2.1$ Gpc is distinct from $L_\text{strip}$. It is the minimum-wavelength observable mode scale of the bounded 3D cavity ($S^3/2I$), derived from the CMB low-ℓ cutoff. The cosmic phase $t \equiv 2\pi s/L_\text{fund}$ uses the fundamental domain as reference length, where $s$ is an abstract phase coordinate running over the mode structure of the cavity; the $S^1$ edge geometric circumference is $L_\text{strip} \approx 16.7$ Gpc.
 
 ### The Möbius Surface
 
@@ -134,7 +134,7 @@ The standing wave takes the form:
 
 ### The Present Epoch
 
-The phase definition $t \equiv 2\pi s/L_\text{fund}$ means a full $4\pi$ cycle corresponds to $\Delta s = 2L_\text{fund}$ in the phase coordinate: the mode structure is traversed twice. $L_\text{fund}$ is a comoving scale, derived from the CMB low-$\ell$ cutoff; $s$ therefore maps directly to comoving distance, and the Friedmann integral applies. 
+The phase definition $t \equiv 2\pi s/L_\text{fund}$ means a full $4\pi$ cycle corresponds to $\Delta s = 2L_\text{fund}$ in the phase coordinate: the mode structure is traversed twice. $L_\text{fund}$ is a comoving scale, derived from the CMB low-ℓ cutoff; $s$ therefore maps directly to comoving distance, and the Friedmann integral applies. 
 
 The fundamental domain scale $L_\text{fund} \approx 2.1$ Gpc translates to a cycle duration $T_\text{cycle} \approx 33.2$ Gyr through the standard Friedmann expansion history ($\Omega_m = 0.315$, $\Omega_\Lambda = 0.685$, $H_0 = 67.4$ km/s/Mpc); the integral is in the companion paper. 
 
