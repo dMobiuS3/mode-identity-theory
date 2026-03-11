@@ -68,7 +68,11 @@ Three flat SU(2) connections on $S^3/2I$. Each has $H^1 = 0$: no moduli, no mixi
 
 ### Analytic Torsion (Base Values)
 
-Integer-spin irreps have exact closed forms. The Galois pair ratio $T^2(R_3)/T^2(R_4) = \varphi^{-4}$ is exact to 70+ digits. The telescoping product $T^2(R_3) \times T^2(R_7) \times T^2(R_5) \times T^2(R_4) = 4$ is exact.
+Integer-spin irreps have exact closed forms. 
+
+The Galois pair ratio $T^2(R_3)/T^2(R_4) = \varphi^{-4}$ is exact to 70+ digits. 
+
+The telescoping product $T^2(R_3) \times T^2(R_7) \times T^2(R_5) \times T^2(R_4) = 4$ is exact.
 
 | Irrep | dim | $T^2$ | $\log T^2$ |
 |---|---|---|---|
@@ -97,7 +101,7 @@ $D = 60$ for integer-spin, $D = 120$ for half-integer.
 
 ### Vacuum Torsion (24 Entries)
 
-Computed from $\log T^2(\rho \otimes \sigma) = \sum_\tau N_{\rho\sigma\tau} \log T^2(\tau)$.
+$$\log T^2(\rho \otimes \sigma) = \sum_\tau N_{\rho\sigma\tau} \log T^2(\tau)$$
 
 | $\rho$ | $T^2(\rho,$ triv$)$ | $T^2(\rho,$ std$)$ | $T^2(\rho,$ gal$)$ |
 |---|---|---|---|
