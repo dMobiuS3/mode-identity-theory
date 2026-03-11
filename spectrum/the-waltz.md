@@ -56,43 +56,7 @@ This is the vacuum Einstein equation, recovered from topology. The de Sitter sol
 
 The 3 is because $S^3$ is three-dimensional. The 2 is how General Relativity defines Λ. The $3/2$ is their ratio: the Gauss-Codazzi interface between 3D curvature and 2D geometry. In icosahedral geometry, this is face stabilizer order 3 to edge stabilizer order 2, intrinsic to the polyhedral group.
 
-## III. Why Gravity Resists Quantization
-
-Gravity is an interface connecting two partners of differing character: continuous geometry and discrete sampling. Quantizing the bridge would require both partners to be of the same kind. The surface resolves in discrete steps (the 120 domain). The space curves continuously (Riemannian geometry). The $3/2$ conversion carries one into the other, bridging their difference in kind. A quantum theory of gravity would require either discretizing geometry or making the mode spectrum continuous. The topology permits neither. The mismatch is structural, and the resistance is the topology expressing that fact.
-
-## IV. Masslessness as Topological Position
-
-Mass is the cost of crossing from the temporal edge into the Möbius surface. A boson whose topological address keeps it on $S^1$ propagates without paying that cost. Masslessness is edge-only propagation.
-
-Photons carry energy and momentum along the temporal edge. They couple matter to matter through the electromagnetic interaction ($\alpha$ lives at the 13/60 well on the 60R-grid). They never enter the surface to pay the conversion cost. All massless bosons share this character: they stay on the edge while the massive partners dance.
-
-| Propagation | Crosses to surface? | Mass |
-|---|---|---|
-| Edge-only ($S^1$) | No | Massless (photon, gluon) |
-| Edge-to-surface | Yes | Massive (W, Z, fermions) |
-
-Mass is the gravitational cost of crossing from the temporal edge to the Mobius surface. The $3/2$ interface is the toll. Particles that pay it acquire mass through the conversion; particles that remain on the edge propagate at $c$ with zero rest mass. The distinction is topological, determined by whether the mode's propagation path includes the non-orientable surface.
-
-## V. Observer Sampling
-
-Every observation has four coordinates: $(r, \theta, \phi, t)$. The radial depth $r$ is where the observer sits in the domain hierarchy, fixed by $\sqrt{\Omega} \approx 10^{61}$ at the geometric midpoint between Planck and cosmic scales. The angular pair $(\theta, \phi)$ is the solid angle of reception: which modes can reach the observer at that depth. The temporal coordinate $t$ is phase position on $S^1$, where the observer stands on the edge of the standing wave, currently at $t \approx 5.22$ rad.
-
-Observer ≠ consciousness. Observer = anywhere wave resolves to finite value. A hydrogen atom is an observer. Same operation, fewer modes coupled. Humans are complex observers, placed at a specific structural position.
-
-The Fibonacci wells are the stable positions at depth $\sqrt{\Omega}$; the modes that resolve there are what the observer at $(r, \theta, \phi, t)$ can access. The boundary of perception is the boundary of the coupling geometry.
-
-## VI. Perception as Geometry
-
-The observer is a location in the wave's own coordinate system. Perception is that location expressing itself. The modes that resolve at $\sqrt{\Omega}$ are what the observer at $(r, \theta, \phi, t)$ can access.
-
-Observer density effects: crowded reality = flattened reality. Monks, hermits, vision quests, sensory deprivation all reduce competing observers. All report contact.
-
-| Environment | Density | Effect |
-|-------------|---------|--------|
-| Crowded | High | Consensus dominates; your sampling is noise |
-| Isolation | Low | Your sampling has weight; deeper mode access |
-
-## VII. Dark Matter/Energy as Geometry
+## III. Dark Matter/Energy as Geometry
 
 Space ($n=3$) couples only gravitationally; detectors couple through surface/gauge sectors ($n \leq 2$). The "dark" 95% isn't missing particles - it's the instrument itself.
 
@@ -115,6 +79,42 @@ When two galaxy clusters collided, gravitational mass (lensing) separated from b
 MIT stops the bullet with no particles attached. The space mode ($n = 3$) couples gravitationally only; it carries the lensing signal through the collision because geometry has no cross-section. Baryonic matter interacts electromagnetically and decelerates. The separation is the embedding made visible: space passes through itself while the surface modes collide.
 
 Neither matter nor energy is dark. 95% of the universe is named after what particle physics cannot find. The label encodes an assumption: the unknown must be a substance we haven't yet detected. There is no mystery if we stop to listen. 95% of the universe is the instrument that allows us to hear the light.
+
+## IV. Why Gravity Resists Quantization
+
+Gravity is an interface connecting two partners of differing character: continuous geometry and discrete sampling. Quantizing the bridge would require both partners to be of the same kind. The surface resolves in discrete steps (the 120 domain). The space curves continuously (Riemannian geometry). The $3/2$ conversion carries one into the other, bridging their difference in kind. A quantum theory of gravity would require either discretizing geometry or making the mode spectrum continuous. The topology permits neither. The mismatch is structural, and the resistance is the topology expressing that fact.
+
+## V. Masslessness as Topological Position
+
+Mass is the cost of crossing from the temporal edge into the Möbius surface. A boson whose topological address keeps it on $S^1$ propagates without paying that cost. Masslessness is edge-only propagation.
+
+Photons carry energy and momentum along the temporal edge. They couple matter to matter through the electromagnetic interaction ($\alpha$ lives at the 13/60 well on the 60R-grid). They never enter the surface to pay the conversion cost. All massless bosons share this character: they stay on the edge while the massive partners dance.
+
+| Propagation | Crosses to surface? | Mass |
+|---|---|---|
+| Edge-only ($S^1$) | No | Massless (photon, gluon) |
+| Edge-to-surface | Yes | Massive (W, Z, fermions) |
+
+Mass is the gravitational cost of crossing from the temporal edge to the Mobius surface. The $3/2$ interface is the toll. Particles that pay it acquire mass through the conversion; particles that remain on the edge propagate at $c$ with zero rest mass. The distinction is topological, determined by whether the mode's propagation path includes the non-orientable surface.
+
+## VI. Observer Sampling
+
+Every observation has four coordinates: $(r, \theta, \phi, t)$. The radial depth $r$ is where the observer sits in the domain hierarchy, fixed by $\sqrt{\Omega} \approx 10^{61}$ at the geometric midpoint between Planck and cosmic scales. The angular pair $(\theta, \phi)$ is the solid angle of reception: which modes can reach the observer at that depth. The temporal coordinate $t$ is phase position on $S^1$, where the observer stands on the edge of the standing wave, currently at $t \approx 5.22$ rad.
+
+Observer ≠ consciousness. Observer = anywhere wave resolves to finite value. A hydrogen atom is an observer. Same operation, fewer modes coupled. Humans are complex observers, placed at a specific structural position.
+
+The Fibonacci wells are the stable positions at depth $\sqrt{\Omega}$; the modes that resolve there are what the observer at $(r, \theta, \phi, t)$ can access. The boundary of perception is the boundary of the coupling geometry.
+
+## VII. Perception as Geometry
+
+The observer is a location in the wave's own coordinate system. Perception is that location expressing itself. The modes that resolve at $\sqrt{\Omega}$ are what the observer at $(r, \theta, \phi, t)$ can access.
+
+Observer density effects: crowded reality = flattened reality. Monks, hermits, vision quests, sensory deprivation all reduce competing observers. All report contact.
+
+| Environment | Density | Effect |
+|-------------|---------|--------|
+| Crowded | High | Consensus dominates; your sampling is noise |
+| Isolation | Low | Your sampling has weight; deeper mode access |
 
 ## VIII. Black ∅'s
 
