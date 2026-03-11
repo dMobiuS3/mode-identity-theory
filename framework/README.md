@@ -1,6 +1,10 @@
 # The Framework
 
-Matter is wave, sampled. A single topological postulate produces one scaling law. It blindly predicts constants of the universe: $\Lambda$, $H_0$, $a_0$, and $\alpha$, spanning 122 orders of magnitude from $\Lambda \cdot \ell_P^2 \sim 10^{-122}$ to $\alpha \sim 10^{-2}$; and 24 fermion mass entries covering all 12 Standard Model fermions.
+Mode Identity Theory is a shape formed on philosophical grounds before any prediction was computed. Topology determines the structure; observation supplies the scale; every coefficient is a consequence.
+
+The single topological postulate produces one scaling law that blindly predicts constants of the universe: $\Lambda$, $H_0$, $a_0$, and $\alpha$, spanning 122 orders of magnitude from $\Lambda \cdot \ell_P^2 \sim 10^{-122}$ to $\alpha \sim 10^{-2}$; and 24 fermion mass entries covering all 12 Standard Model fermions.
+
+Two predictions separate the framework from alternatives: $a_0(z) \propto H(z)$ while $\Lambda$ remains constant. Falsification criteria are pre-registered to Euclid DR1.
 
 ## Definitions
 
@@ -31,12 +35,12 @@ Three geometric scales appear in MIT. They are distinct in origin and claim stat
 | Scale | Value | Origin | Status |
 |---|---|---|---|
 | $L_\text{fund}$ | $\approx 2.1$ Gpc | Derived from CMB low-ℓ cutoff: $k_{\min} = \pi^2/2L_\text{fund}$, $\ell_\text{cut} \approx k_{\min}\chi_* - 1/2$ | Arrow runs observation → $L_\text{fund}$. |
-| $R$ | $\approx 5.3$ Gpc | Geometric parameter: the de Sitter horizon radius, fixed by the topology before observables are consulted. $\Lambda_\text{obs} = 3/R_\Lambda^2$ is the prediction; $R_\Lambda = \sqrt{3/\Lambda_\text{obs}}$ is the observational check. | Geometric parameter. Not a primitive input alongside $c$, $\hbar$, $G$. |
+| $R_\Lambda$ | $\approx 5.3$ Gpc | Geometric parameter: the de Sitter horizon radius, fixed by the topology before observables are consulted. $\Lambda_\text{obs} = 3/R_\Lambda^2$ is the prediction; $R_\Lambda = \sqrt{3/\Lambda_\text{obs}}$ is the observational check. | Geometric parameter. Not a primitive input alongside $c$, $\hbar$, $G$. |
 | $L_\text{strip}$ | $\approx 16.7$ Gpc | One lap of the Möbius boundary: $L_\text{strip} = \pi R_\Lambda$ | Derived from $R_\Lambda$. |
 
-$L_\text{fund}$ is the CMB-derived fundamental domain scale; where $L$ appears without subscript in the Three Length Scales section it means $L_\text{fund}$. In other sections $L$ is used as a generic length variable and carries no subscript meaning. $R$ is the geometric de Sitter horizon radius; $R_\Lambda$ is the same quantity as it appears in the Scale Hierarchy. 
+$L_\text{fund}$ is the CMB-derived fundamental domain scale; where $L$ appears without subscript in the Three Length Scales section it means $L_\text{fund}$. In other sections $L$ is used as a generic length variable and carries no subscript meaning. $R_\Lambda$ is the geometric de Sitter horizon radius as it appears in the Scale Hierarchy.
 
-The observational check is $R_\Lambda = \sqrt{3/\Lambda_\text{obs}}$; the logical direction is $R_\Lambda \to \Lambda_\text{obs}$. $R$ and $L_\text{fund}$ are two independently motivated scales. The spectral derivation (scalar Laplacian on $S^3/2I$, degree-12 Klein invariant, Heun transverse eigenvalue $\mu_1 = 1.021$) gives $L_\text{strip}/L_\text{fund} = 8.17 \pm 0.1$, recovering 8 to within 2.1%.
+The observational check is $R_\Lambda = \sqrt{3/\Lambda_\text{obs}}$; the logical direction is $R_\Lambda \to \Lambda_\text{obs}$. $R_\Lambda$ and $L_\text{fund}$ are two independently motivated scales. The spectral derivation (scalar Laplacian on $S^3/2I$, degree-12 Klein invariant, Heun transverse eigenvalue $\mu_1 = 1.021$) gives $L_\text{strip}/L_\text{fund} = 8.17 \pm 0.1$. The observational value from the CMB low-ℓ cutoff is $L_\text{strip}/L_\text{fund} \approx 7.93$. The gap between the spectral prediction and the observational ratio is current work.
 
 ## The Firing Order
 
@@ -308,7 +312,7 @@ Fermions see the full 120. Observation squares the wavefunction, and half the re
 
 The wavefunction $\psi_0$ satisfies $\psi(\Theta+1) = -\psi(\Theta)$: it carries the sign flip from the anti-periodic boundary condition. The fermion distinguishes all 120 positions on the domain. Observation squares the wavefunction. $C = |\psi|^2$ erases the sign: $|\psi(\Theta+1)|^2 = |-\psi(\Theta)|^2 = |\psi(\Theta)|^2$. What was distinct to the fermion becomes identical to any measurement.
 
-The consequence is halved resolution. The minimum step any observable can resolve is $2/120$, not $1/120$. The squaring projects $2I \to I$, where $I$ is the icosahedral rotation group ($|I| = 60$). The filter is a projection rule extending to all boson-projected observables: observables realized through boson-projected intensity channels must sit at even positions on the 120 domain. Even positions on the 120 domain and the 60R-grid (R for realized) are the same lattice; two notations for the same 60 positions. Cosmographic observables ($H_0$, $\Lambda$, $\alpha$) are realized through photon-mediated distance and intensity measurements and belong to this class. Dynamical observables ($a_0$) are realized through acceleration response and retain full 120-domain access. The realization channel determines the grid, not the experimental technology used to estimate it.
+The consequence is halved resolution. The minimum step a bosonic-projected observable can resolve is $2/120$, not $1/120$. The squaring projects $2I \to I$, where $I$ is the icosahedral rotation group ($|I| = 60$). The filter is a projection rule extending to all boson-projected observables: observables realized through boson-projected intensity channels must sit at even positions on the 120 domain. Even positions on the 120 domain and the 60R-grid (R for realized) are the same lattice; two notations for the same 60 positions. Cosmographic observables ($H_0$, $\Lambda$, $\alpha$) are realized through photon-mediated distance and intensity measurements and belong to this class. Dynamical observables ($a_0$) are realized through acceleration response and retain full 120-domain access. The realization channel determines the grid, not the experimental technology used to estimate it.
 
 Two notational conventions appear in the tables below, both denoting the same 60R lattice. Dimensionless couplings ($A_P = 1$) are written in reduced form: the bosonic projection maps the fermionic well $13/120$ to $13/60$ on the 60R-grid. Dimensionful cosmographic observables ($H_0$, $\Lambda$) are written in 120-domain notation with even numerators ($34/120$, $60/120$); the equivalent 60R positions are $17/60$ and $30/60$. The Grid column in the Fibonacci Wells table records which convention is used for each entry.
 
@@ -316,16 +320,16 @@ Two notational conventions appear in the tables below, both denoting the same 60
 
 The Bosonic Filter established the 60R-grid; only certain positions carry observable amplitude. Fibonacci selects the stable wells; the antinode ($60/120$) is included as the amplitude maximum. The well at $13/120$ is irreducible: $\gcd(13, 120) = 1$. No coarser domain can represent it.
 
-Not all Fibonacci wells survive to observation. The phase field carries microfluctuations $\delta\Theta_f^\text{micro} \lesssim 10^{-4}$, setting a noise floor. Below $F_7$, the amplitude is indistinguishable from noise: $C(8/120) = 0.087$. At $F_7$, the wave resolves: $C(13/120) = 0.22$.
+Not all Fibonacci wells survive to observation. The phase field carries microfluctuations $\delta\Theta_f^\text{micro} \lesssim 10^{-4}$, setting a noise floor. Below $F_7$, the amplitude is indistinguishable from noise: $C(8/120) = 0.087$. At $F_7$, the wave resolves: $C(13/120) = 0.223$.
 
 The well assignments (which observable maps to which well) are identified by coprimality and observable character; the wells themselves are enumerated. Among edge modes, $a_0$ occupies the coprime well ($13/120$), forced by irreducibility. $\Lambda$ occupies the antinode ($60/120$), forced by ground-state maximality. Among the remaining Fibonacci wells, only $34/120$ carries an even numerator and therefore survives the bosonic filter for cosmographic observables; $H_0$ occupies it by exclusion. The surviving wells become:
 
 | $F_n$ | Grid | Well | $C(\Theta)$ | Observable |
 |---|---|---|---|---|
-| $F_7$ | 60R | 13/60 | 0.79 | $\alpha$ (fine structure constant) |
-| $F_7$ | 120 | 13/120 | 0.22 | $a_0$ (acceleration scale) |
+| $F_7$ | 60R | 13/60 | 0.792 | $\alpha$ (fine structure constant) |
+| $F_7$ | 120 | 13/120 | 0.223 | $a_0$ (acceleration scale) |
 | $F_8$ | 120 | 21/120 | 0.55 | Unassigned |
-| $F_9$ | 120 | 34/120 | 1.21 | $H_0$ (Hubble parameter) |
+| $F_9$ | 120 | 34/120 | 1.208 | $H_0$ (Hubble parameter) |
 | $F_{10}$ | 120 | 55/120 | 1.97 | Unassigned |
 | -- | 120 | 60/120 | 2.00 | $\Lambda_\text{top}$ (cosmological constant) |
 
@@ -363,21 +367,21 @@ The cotangent diverges near the boundary and vanishes at the antinode. $\Lambda$
 
 | Well | $\Theta$ | $C(\Theta)$ | Slope |
 |---|---|---|---|
-| $a_0$ | 13/120 | 0.22 | 17.7 |
-| $H_0$ | 34/120 | 1.21 | 5.1 |
+| $a_0$ | 13/120 | 0.223 | 17.7 |
+| $H_0$ | 34/120 | 1.208 | 5.1 |
 | $\Lambda_\text{top}$ | 60/120 | 2.00 | 0 |
 
 ### C. Shift Amplification
 
-The Bosonic Filter fixed $\Delta\Theta_{\min} = 2/120$. Multiplying slope by step ($\Delta C/C = (d\ln C/d\Theta) \times \Delta\Theta_{\min}$) gives the fractional shift at each well:
+The Bosonic Filter fixed $\Delta\Theta_{\min} = 2/120$ for cosmographic observables. Dynamical observables ($a_0$) retain full 120-domain access; their minimum step is $1/120$. Multiplying slope by the appropriate step ($\Delta C/C = (d\ln C/d\Theta) \times \Delta\Theta$) gives the fractional shift at each well:
 
-| Well | Slope x 2/120 | Shift |
-|---|---|---|
-| $a_0$ | 17.7 x 2/120 | 30% |
-| $H_0$ | 5.1 x 2/120 | 8.4% |
-| $\Lambda_\text{top}$ | 0 x 2/120 | 0% |
+| Well | Step | Slope × Step | Shift | Note |
+|---|---|---|---|---|
+| $a_0$ | $1/120$ | $17.7 \times 1/120$ | ~15% | Dynamical; full 120-domain access |
+| $H_0$ | $2/120$ | $5.1 \times 2/120$ | 8.4% | Cosmographic; bosonic step |
+| $\Lambda_\text{top}$ | $2/120$ | $0 \times 2/120$ | 0% | Antinode; topologically fixed |
 
-The $a_0$ well is steep (one bosonic step would shift its amplitude by 30%), but $a_0$ is constitutive: it defines $\mathcal{T}_c$ and $L_f$, and is only measurable inside above-threshold environments. The observed $a_0$ corresponds to the Fibonacci well. $H_0$ shifts by 8.4%, matching the Hubble tension. $\Lambda$ remains unmoved.
+The $a_0$ well is steep, but $a_0$ is constitutive: it defines $\mathcal{T}_c$ and $L_f$, and is only measurable inside above-threshold environments. The observed $a_0$ corresponds to the Fibonacci well. $H_0$ shifts by 8.4%, matching the Hubble tension. $\Lambda$ remains unmoved.
 
 ### D. Coherence Scale
 
@@ -461,13 +465,13 @@ $C(\Theta)$ reads the position axis: where the observable sits on the mode spect
 
 | Observable | $A_P$ | Grid | $\Theta$ | $C$ | $n$ | $A/A_P$ |
 |---|---|---|---|---|---|---|
-| $\alpha$ | 1 | 60R | 13/60 | 0.79 | $1/30$ † | $7.33 \times 10^{-3}$ |
-| $a_0$ | $a_P$ | 120 | 13/120 | 0.22 | 1 | $2.2 \times 10^{-62}$ |
-| $H_0$ | $t_P^{-1}$ | 120 | 34/120 | 1.21 | 1 | $1.2 \times 10^{-61}$ |
-| $\Lambda$ | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $(3/2) \times 2.0 \times 10^{-122} = 3.0 \times 10^{-122}$ ‡ |
+| $\alpha$ | 1 | 60R | 13/60 | 0.792 | $1/30$ † | $7.33 \times 10^{-3}$ |
+| $a_0$ | $a_P$ | 120 | 13/120 | 0.223 | 1 | $2.2 \times 10^{-62}$ |
+| $H_0$ | $t_P^{-1}$ | 120 | 34/120 | 1.208 | 1 | $1.2 \times 10^{-61}$ |
+| $\Lambda$ | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $(3/2) \times 1.95 \times 10^{-122} \approx 2.9 \times 10^{-122}$ ‡ |
 
-> †For dimensionless couplings ($A_P = 1$), manifold dilution does not apply directly — there is no Planck-scale reference to dilute against. Instead, the running from the Planck-scale value $C(13/60) \approx 0.79$ to the observed $\alpha \approx 7.3 \times 10^{-3}$ is controlled by the domain resolution. The exponent $n = 1/30$ is set equal to the minimum grid step $1/|I| = 1/60$ on the bosonic domain, giving $\Omega_\Lambda^{-1/60} = (\sqrt{\Omega_\Lambda})^{-1/30}$.
-> ‡ $\Lambda_\text{top} = 2/R_\Lambda^2$ is the surface eigenvalue (Weitzenböck / eigenvalue chain). $\Lambda_\text{obs} = (3/2)\Lambda_\text{top} = 3/R_\Lambda^2$ via the vacuum Gauss-Codazzi embedding ($K_{ij}=0$). The coefficient 2 is the 2D surface ground-state eigenvalue; the coefficient 3 is the de Sitter trace in 3D space. The Gauss-Codazzi equations connect the two eigenvalue problems; the ratio 3/2 follows from those two independent computations. Full derivation in companion paper.
+> †For dimensionless couplings ($A_P = 1$), manifold dilution does not apply directly — there is no Planck-scale reference to dilute against. Instead, the running from the Planck-scale value $C(13/60) \approx 0.792$ to the observed $\alpha \approx 7.3 \times 10^{-3}$ is controlled by the domain resolution. The exponent $n = 1/30$ is set equal to the minimum grid step $1/|I| = 1/60$ on the bosonic domain, giving $\Omega_\Lambda^{-1/60} = (\sqrt{\Omega_\Lambda})^{-1/30}$.
+> ‡ $\Lambda_\text{top} = 2/R_\Lambda^2$ is the surface eigenvalue (Weitzenböck / eigenvalue chain). $\Lambda_\text{obs} = (3/2)\Lambda_\text{top} = 3/R_\Lambda^2$ via the vacuum Gauss-Codazzi embedding ($K_{ij}=0$). The shorthand $C(60/120) = 2.00$ with rounded $\Omega_\Lambda = 10^{122}$ gives $2.0 \times 10^{-122}$; the precise value with $\Omega_\Lambda \approx 1.024 \times 10^{122}$ is $\approx 1.95 \times 10^{-122}$, yielding $\times 3/2 \approx 2.9 \times 10^{-122}$. Observed: $2.84 \times 10^{-122}$. Agreement: ~2%.
 
 $H_0$ and $a_0$ occupy different wells on the same edge; their ratio is fixed by position. $H_0$ and $\Lambda$ occupy different manifolds; their 61-order span is fixed by dimension. $\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by resolution.
 
@@ -487,10 +491,10 @@ Each component traces to the single topological postulate:
 | $\Theta \in \{13, 21, 34, 55, 60\}/120$ | Hurwitz stability + amplitude threshold | Derived |
 | $\Delta\Theta_{\min} = 2/120$ | Bosonic Filter (spinor → scalar) | Derived |
 | $\alpha$ exponent $n = 1/30$ | Equals minimum grid step $1/\vert I\vert = 1/60$ on bosonic domain; supported by three independent paths; connection between dilution exponent and grid resolution step is the open link | Motivated |
-| $L_\text{strip}/L_\text{fund} = 8.17 \pm 0.1$ | Spectral derivation: scalar Laplacian on $S^3/2I$, degree-12 Klein invariant, Heun transverse eigenvalue $\mu_1 = 1.021$; exact closure open | Motivated |
+| $L_\text{strip}/L_\text{fund} = 8.17 \pm 0.1$ | Spectral derivation: scalar Laplacian on $S^3/2I$, degree-12 Klein invariant, Heun transverse eigenvalue $\mu_1 = 1.021$. Observational value: 7.93. Gap unresolved. | Discrepancy |
 | $L_f = v_c^2/a_0$ | Coherence scale | Derived |
 | $\mathcal{T}$, $\mathcal{T}_c$, $\Theta_f$ response | Gauge-invariant classification index + critical value + binary step function | Derived |
-| $\Lambda_\text{top} = 2/R_\Lambda^2$ | Weitzenböck gives lower bound $\lambda_{\min} \geq 2/R_\Lambda^2$; eigenvalue chain gives equality independently; ground state saturates the bound. Conversion to $\Lambda_\text{obs}$ via vacuum Gauss-Codazzi is a separate step | Structural convergence |
+| $\Lambda_\text{top} = 2/R_\Lambda^2$ | Weitzenböck gives lower bound $\lambda_{\min} \geq 2/R_\Lambda^2$; eigenvalue chain gives equality independently; ground state saturates the bound. Conversion to $\Lambda_\text{obs}$ via vacuum Gauss-Codazzi is a separate step | Derived |
 
 ### Symbol Glossary
 
@@ -509,7 +513,7 @@ Observables are located in time on the edge and positioned on the mode spectrum.
 
 ## Predictions and Falsification
 
-MIT has no loose knobs; predictions are locked and every component is placed by the postulate. Derivation status for each component is in the table below. The framework stands or falls on population-level agreement with those predictions.
+MIT has no loose knobs; predictions are locked and every component is placed by the postulate. Derivation status for each component is in the table above. The framework stands or falls on population-level agreement with those predictions.
 
 ### Falsification hierarchy
 
@@ -536,7 +540,7 @@ These do not individually falsify MIT but meaningfully raise or lower credibilit
 | $z_{\text{cross}} \approx 0.66$ | Phantom crossing outside locked range | below 0.4 or above 0.9 |
 | $w_{\text{eff}} > -1$ at all $z$ | True phantom behavior confirmed | Euclid, Rubin |
 | $\mu_\Lambda \approx 2.25$ meV | Lightest $\nu$ mass inconsistent | KATRIN, cosmological bounds |
-| $L_\text{strip}/L_\text{fund} = 8.17 \pm 0.1$ | CMB data pins ratio to 8.00 at $> 1\sigma$ | Spectral derivation; exact closure is open |
+| $L_\text{strip}/L_\text{fund} = 8.17 \pm 0.1$ | CMB data pins ratio to 8.00 at $> 1\sigma$ | Spectral prediction; observational value 7.93; gap unresolved |
 
 ## Scope and Position
 
