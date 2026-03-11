@@ -127,7 +127,7 @@ The 24 vacuum torsion values follow from $\log T^2(\rho \otimes \sigma) = \sum_\
 
 ## III. The 24 Predictions
 
-24 predictions from the mass formula. The table below shows assignments to Standard Model fermions and unassigned predictions.
+24 predictions from the mass formula. The table below shows assignments to Standard Model (SM) fermions and unassigned predictions.
 
 | Rank | $\rho$ | dist | $\sigma$ | Mass (GeV) | SM | Observed (GeV) | Ratio |
 |---|---|---|---|---|---|---|---|
