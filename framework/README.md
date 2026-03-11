@@ -1,6 +1,6 @@
 # The Framework
 
-Matter is wave, sampled. A single topological postulate produces one scaling law. It blindly predicts constants of the universe: $\Lambda$, $H_0$, $a_0$, and $\alpha$, spanning 120 orders of magnitude from $\Lambda \cdot \ell_P^2 \sim 10^{-122}$ to $\alpha \sim 10^{-2}$; and 24 fermion mass entries covering all 12 Standard Model fermions.
+Matter is wave, sampled. A single topological postulate produces one scaling law. It blindly predicts constants of the universe: $\Lambda$, $H_0$, $a_0$, and $\alpha$, spanning 122 orders of magnitude from $\Lambda \cdot \ell_P^2 \sim 10^{-122}$ to $\alpha \sim 10^{-2}$; and 24 fermion mass entries covering all 12 Standard Model fermions.
 
 ## Definitions
 
