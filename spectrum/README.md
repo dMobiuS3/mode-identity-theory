@@ -35,11 +35,10 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 | Null DM detection | permanent | ongoing null results | ✓ |
 | 12 SM fermions | 24 entries | All 12 SM within x10 | 10 of 12 within x3 |
 | Dead zone | 6 states, eV to keV | no SM fermions in range | open season |
-| $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | 2% |
+| $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | 3% |
 | $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
 | $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
 | ν floor | $\mu_\Lambda = \rho_\Lambda^{1/4} \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
 | Particle generations | 3 | 3 | exact |
 | Mass gap | > 0 | confinement observed | ✓ |
 | $\alpha$ | 0.00733 | 0.007297 | 0.5% |
-| Gravity ($\Lambda_\text{obs} / \Lambda_\text{top}$) | $3/2$ | $>3\sigma$ with independent $H_0$ | ✓ |
