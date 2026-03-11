@@ -18,14 +18,52 @@ Four factors. Four sources. Each traces independently to the topological postula
 
 | Factor | Role | Value |
 |---|---|---|
-| $\mu_\Lambda$ | Vacuum energy floor. Fourth root of cosmological constant energy density. Sets the overall mass scale. | $\rho_\Lambda^{1/4} \approx 2.248 \times 10^{-12}$ GeV |
+| $\mu_\Lambda$ | Vacuum energy floor. Fourth root of cosmological constant energy density. Sets the overall mass scale. | $\rho_\Lambda^{1/4} \approx 2.25 \text{ meV}$ |
 | $C_{\text{geom}}(\rho)$ | Phase factor. Geometric mean of $C(e/D) = 2\sin^2(\pi e/D)$ over Kostant exponents. Encodes each irrep's position on the domain. | $D = 60$ (integer spin) or $120$ (half-integer) |
 | $(\sqrt{\Omega_\Lambda})^{\,\text{dist}/30}$ | Hierarchy exponent. McKay graph distance from $R_0$ determines orders of magnitude from the vacuum floor. Denominator is $h(E_8) = 30$. | $\sqrt{\Omega_\Lambda} \approx 1.019 \times 10^{61}$ |
-| $T^2(\rho \otimes \sigma)$ | Reidemeister torsion, vacuum-twisted via tensor product. Provides fine structure within each mass shell. The generation mechanism. | 27 values from 9 base torsions x 729 tensor coefficients |
+| $T^2(\rho \otimes \sigma)$ | Reidemeister torsion, vacuum-twisted via tensor product. Provides fine structure within each mass shell. The generation mechanism. | 24 values from 8 irreps × 3 vacua |
 
-## II. Infrastructure
+## II. The Factors
 
-### McKay Graph (E8 convention)
+### 1. The Neutrino Floor ( $\mu_\Lambda$ )
+
+The vacuum energy density of the cosmological constant defines the overall mass scale:
+
+$$\mu_\Lambda \equiv \rho_\Lambda^{1/4} \approx 2.25 \text{ meV}$$
+
+This is the fourth root of Λ, set by the ground mode ($m_h = 0$) of the Mobius surface. All particle masses trace back to this vacuum energy floor, scaled by the hierarchical factors that place each irrep at its position on the spectrum.
+
+The neutrino mass sector provides direct access to this scale:
+
+| Splitting | Value | Ratio to $\mu_\Lambda$ |
+|---|---|---|
+| Solar: $\sqrt{\Delta m^2_{21}}$ | $\approx 8.6$ meV | $\sim 4\,\mu_\Lambda$ |
+| Atmospheric: $\sqrt{\Delta m^2_{31}}$ | $\approx 50$ meV | $\sim 22\,\mu_\Lambda$ |
+
+The multipliers (4, 22) emerge from parity violation due to the Mobius twist. KATRIN and cosmological bounds provide the falsification window.
+
+### 2. Kostant Sunflower ( $C_{\text{geom}}(\rho)$ )
+
+Each irrep sits at a specific position on the finite domain, encoded by its Kostant exponents. The geometric mean of the phase factor $C(e/D) = 2\sin^2(\pi e/D)$ over these exponents gives the irrep's amplitude on the spectrum.
+
+$$C_\text{geom}(\rho) = \bigl(\prod_e 2\sin^2(\pi e/D)\bigr)^{1/(2\,\dim\rho)}$$
+
+The domain size depends on spin: $D = 60$ for integer-spin, $D = 120$ for half-integer. This encodes the fundamental distinction between bosons and fermions in the geometry.
+
+| Irrep | Spin | $D$ | $C_\text{geom}$ |
+|---|---|---|---|
+| $R_1$ | Half | 120 | 0.0988 |
+| $R_2$ | Half | 120 | 0.2436 |
+| $R_3$ | Int | 60 | 0.5553 |
+| $R_4$ | Int | 60 | 0.7970 |
+| $R_5$ | Int | 60 | 0.8017 |
+| $R_6$ | Half | 120 | 0.2098 |
+| $R_7$ | Int | 60 | 0.7564 |
+| $R_8$ | Half | 120 | 0.2382 |
+
+### 3. McKay Hierarchy ( $(\sqrt{\Omega_\Lambda})^{\,\text{dist}/30}$ )
+
+The McKay graph encodes the distance of each irrep from the trivial representation $R_0$. Distance determines orders of magnitude separation from the vacuum floor via the hierarchy exponent $(\sqrt{\Omega_\Lambda})^{\,\text{dist}/30}$, where the denominator $h(E_8) = 30$ is the Coxeter number.
 
 ```
 R0(1) -- R1(2) -- R3(3) -- R6(4) -- R7(5) -- R8(6) -- R5(4) -- R2(2)
@@ -35,8 +73,6 @@ R0(1) -- R1(2) -- R3(3) -- R6(4) -- R7(5) -- R8(6) -- R5(4) -- R2(2)
 ```
 
 Half-integer spin: R₁, R₂, R₆, R₈. Integer spin: R₀, R₃, R₄, R₅, R₇.
-
-### Master Table
 
 | Irrep | dim | Spin | dist | $j_\text{first}$ | Kostant exponents | $E_8$? |
 |---|---|---|---|---|---|---|
@@ -50,9 +86,9 @@ Half-integer spin: R₁, R₂, R₆, R₈. Integer spin: R₀, R₃, R₄, R₅,
 | $R_7$ | 5 | Int | 4 | 2 | {4, 8, 10, 12, 14, 16, 18, 20, 22, 26} | No |
 | $R_8$ | 6 | Half | 5 | 5/2 | {5, 7, 9, 11, 13, 15², 17, 19, 21, 23, 25} | 6/12 |
 
-### Three Isolated Vacua
+### 4. Reidemeister Torsion ( $T^2(\rho \otimes \sigma)$ )
 
-Three flat SU(2) connections on $S^3/2I$. Each has $H^1 = 0$: no moduli, no mixing. Three vacua, three generations.
+Three flat SU(2) connections on $S^3/2I$ provide the generation mechanism. Each has $H^1 = 0$: no moduli, no mixing between vacua. The Reidemeister torsion encodes the fine structure within each mass shell.
 
 | Irrep | $j_\text{first}$ (trivial) | $j_\text{first}$ (standard) | $j_\text{first}$ (Galois) |
 |---|---|---|---|
@@ -66,42 +102,17 @@ Three flat SU(2) connections on $S^3/2I$. Each has $H^1 = 0$: no moduli, no mixi
 | $R_7$ | 2 | 1 | 1 |
 | $R_8$ | 5/2 | 3/2 | 1/2 |
 
-### Analytic Torsion (Base Values)
+Integer-spin irreps have exact closed forms. The Galois pair ratio $T^2(R_3)/T^2(R_4) = \varphi^{-4}$ is exact to 70+ digits.
 
-Integer-spin irreps have exact closed forms. 
+| Irrep | $T^2$ | $\log T^2$ |
+|---|---|---|
+| $R_0$ | $\pi^4/3600$ | $-3.610$ |
+| $R_3$ | $(4/5)\varphi^{-2}$ | $-1.186$ |
+| $R_7$ | $9/4$ | $+0.811$ |
+| $R_5$ | $25/9$ | $+1.022$ |
+| $R_4$ | $(4/5)\varphi^{2}$ | $+0.739$ |
 
-The Galois pair ratio $T^2(R_3)/T^2(R_4) = \varphi^{-4}$ is exact to 70+ digits. 
-
-The telescoping product $T^2(R_3) \times T^2(R_7) \times T^2(R_5) \times T^2(R_4) = 4$ is exact.
-
-| Irrep | dim | $T^2$ | $\log T^2$ |
-|---|---|---|---|
-| $R_0$ | 1 | $\pi^4/3600$ | $-3.610$ |
-| $R_3$ | 3 | $(4/5)\varphi^{-2}$ | $-1.186$ |
-| $R_7$ | 5 | $9/4$ | $+0.811$ |
-| $R_5$ | 4 | $25/9$ | $+1.022$ |
-| $R_4$ | 3 | $(4/5)\varphi^{2}$ | $+0.739$ |
-
-### Kostant Sunflower (C_geom)
-
-$$C_\text{geom}(\rho) = \bigl(\prod_e 2\sin^2(\pi e/D)\bigr)^{1/(2\,\dim\rho)}$$
-
-$D = 60$ for integer-spin, $D = 120$ for half-integer.
-
-| Irrep | Spin | $D$ | $C_\text{geom}$ |
-|---|---|---|---|
-| $R_1$ | Half | 120 | 0.0988 |
-| $R_2$ | Half | 120 | 0.2436 |
-| $R_3$ | Int | 60 | 0.5553 |
-| $R_4$ | Int | 60 | 0.7970 |
-| $R_5$ | Int | 60 | 0.8017 |
-| $R_6$ | Half | 120 | 0.2098 |
-| $R_7$ | Int | 60 | 0.7564 |
-| $R_8$ | Half | 120 | 0.2382 |
-
-### Vacuum Torsion (24 Entries)
-
-$$\log T^2(\rho \otimes \sigma) = \sum_\tau N_{\rho\sigma\tau} \log T^2(\tau)$$
+The 24 vacuum torsion values follow from $\log T^2(\rho \otimes \sigma) = \sum_\tau N_{\rho\sigma\tau} \log T^2(\tau)$:
 
 | $\rho$ | $T^2(\rho,$ triv$)$ | $T^2(\rho,$ std$)$ | $T^2(\rho,$ gal$)$ |
 |---|---|---|---|
@@ -116,34 +127,34 @@ $$\log T^2(\rho \otimes \sigma) = \sum_\tau N_{\rho\sigma\tau} \log T^2(\tau)$$
 
 ## III. The 24 Predictions
 
-24 predictions, 12 Standard Model fermion targets. The table below combines the fermion scorecard with the dead zone. Bold rows mark the three hits within 6%. Ranks 4--9 have no SM counterparts; physical states at these masses require extremely suppressed non-gravitational couplings. The question is experimental.
+24 predictions, 12 Standard Model fermion targets. The table below combines the fermion scorecard with the dead zone. Bold rows mark the three hits within 6%. Ranks 4--9 have no SM counterparts; physical states at these masses require extremely suppressed non-gravitational couplings.
 
-| Rank | $\rho$ | dist | $\sigma$ | Mass (GeV) | SM | Observed (GeV) | Ratio | $\leq$3x? |
-|---|---|---|---|---|---|---|---|---|
-| 1 | $R_1$ | 1 | std | $1.98 \times 10^{-13}$ | $\nu_1$ | $\sim 10^{-13}$ | 1.98 | yes |
-| 2 | $R_1$ | 1 | gal | $6.67 \times 10^{-11}$ | $\nu_3$ | $5.06 \times 10^{-11}$ | 1.32 | yes |
-| 3 | $R_1$ | 1 | triv | $3.81 \times 10^{-10}$ | | | | |
-| 4 | $R_3$ | 2 | gal | $3.75 \times 10^{-9}$ | | | | dead zone |
-| 5 | $R_3$ | 2 | triv | $4.45 \times 10^{-9}$ | | | | dead zone |
-| 6 | $R_6$ | 3 | std | $4.09 \times 10^{-7}$ | | | | dead zone |
-| 7 | $R_3$ | 2 | std | $1.00 \times 10^{-6}$ | | | | dead zone |
-| 8 | $R_6$ | 3 | triv | $2.57 \times 10^{-6}$ | | | | dead zone |
-| 9 | $R_6$ | 3 | gal | $2.80 \times 10^{-6}$ | | | | dead zone |
-| 10 | $R_7$ | 4 | std | $2.58 \times 10^{-4}$ | $e$ | $5.11 \times 10^{-4}$ | 1.98 | yes |
-| 11 | $R_7$ | 4 | gal | $2.58 \times 10^{-4}$ | $e$ | $5.11 \times 10^{-4}$ | 1.98 | yes |
-| **12** | **$R_7$** | **4** | **triv** | $\mathbf{5.21 \times 10^{-4}}$ | **$e$** | $\mathbf{5.11 \times 10^{-4}}$ | **1.02** | **yes** |
-| **13** | **$R_8$** | **5** | **triv** | $\mathbf{2.03 \times 10^{-3}}$ | **$u$** | $\mathbf{2.16 \times 10^{-3}}$ | **1.06** | **yes** |
-| 14 | $R_8$ | 5 | gal | $1.51 \times 10^{-2}$ | $d$ | $4.67 \times 10^{-3}$ | 3.22 | boundary |
-| **15** | **$R_8$** | **5** | **std** | $\mathbf{1.03 \times 10^{-1}}$ | **$\mu$** | $\mathbf{1.057 \times 10^{-1}}$ | **1.02** | **yes** |
-| 16 | $R_5$ | 6 | std | $3.49 \times 10^{-1}$ | | | | |
-| 17 | $R_4$ | 6 | std | $7.34 \times 10^{-1}$ | $c$ | 1.27 | 1.73 | yes |
-| 18 | $R_2$ | 7 | gal | 5.33 | $b$ | 4.18 | 1.28 | yes |
-| 19 | $R_4$ | 6 | gal | 5.84 | $b$ | 4.18 | 1.40 | yes |
-| 20 | $R_4$ | 6 | triv | 5.97 | $b$ | 4.18 | 1.43 | yes |
-| 21 | $R_5$ | 6 | triv | 7.96 | $b$ | 4.18 | 1.91 | yes |
-| 22 | $R_5$ | 6 | gal | 11.72 | $b$ | 4.18 | 2.80 | yes |
-| 23 | $R_2$ | 7 | triv | 44.54 | $t$ | 172.7 | 3.88 | no |
-| 24 | $R_2$ | 7 | std | 261.46 | $t$ | 172.7 | 1.51 | yes |
+| Rank | $\rho$ | dist | $\sigma$ | Mass (GeV) | SM | Observed (GeV) | Ratio |
+|---|---|---|---|---|---|---|---|
+| 1 | $R_1$ | 1 | std | $1.98 \times 10^{-13}$ | $\nu_1$ | $\sim 10^{-13}$ | 1.98 |
+| 2 | $R_1$ | 1 | gal | $6.67 \times 10^{-11}$ | $\nu_3$ | $5.06 \times 10^{-11}$ | 1.32 |
+| 3 | $R_1$ | 1 | triv | $3.81 \times 10^{-10}$ | | | |
+| 4 | $R_3$ | 2 | gal | $3.75 \times 10^{-9}$ | | dead zone | |
+| 5 | $R_3$ | 2 | triv | $4.45 \times 10^{-9}$ | | dead zone | |
+| 6 | $R_6$ | 3 | std | $4.09 \times 10^{-7}$ | | dead zone | |
+| 7 | $R_3$ | 2 | std | $1.00 \times 10^{-6}$ | | dead zone | |
+| 8 | $R_6$ | 3 | triv | $2.57 \times 10^{-6}$ | | dead zone | |
+| 9 | $R_6$ | 3 | gal | $2.80 \times 10^{-6}$ | | dead zone | |
+| 10 | $R_7$ | 4 | std | $2.58 \times 10^{-4}$ | $e$ | $5.11 \times 10^{-4}$ | 1.98 |
+| 11 | $R_7$ | 4 | gal | $2.58 \times 10^{-4}$ | $e$ | $5.11 \times 10^{-4}$ | 1.98 |
+| **12** | **$R_7$** | **4** | **triv** | $\mathbf{5.21 \times 10^{-4}}$ | **$e$** | $\mathbf{5.11 \times 10^{-4}}$ | **1.02** |
+| **13** | **$R_8$** | **5** | **triv** | $\mathbf{2.03 \times 10^{-3}}$ | **$u$** | $\mathbf{2.16 \times 10^{-3}}$ | **1.06** |
+| 14 | $R_8$ | 5 | gal | $1.51 \times 10^{-2}$ | $d$ | $4.67 \times 10^{-3}$ | 3.22 |
+| **15** | **$R_8$** | **5** | **std** | $\mathbf{1.03 \times 10^{-1}}$ | **$\mu$** | $\mathbf{1.057 \times 10^{-1}}$ | **1.02** |
+| 16 | $R_5$ | 6 | std | $3.49 \times 10^{-1}$ | | | |
+| 17 | $R_4$ | 6 | std | $7.34 \times 10^{-1}$ | $c$ | 1.27 | 1.73 |
+| 18 | $R_2$ | 7 | gal | 5.33 | $b$ | 4.18 | 1.28 |
+| 19 | $R_4$ | 6 | gal | 5.84 | $b$ | 4.18 | 1.40 |
+| 20 | $R_4$ | 6 | triv | 5.97 | $b$ | 4.18 | 1.43 |
+| 21 | $R_5$ | 6 | triv | 7.96 | $b$ | 4.18 | 1.91 |
+| 22 | $R_5$ | 6 | gal | 11.72 | $b$ | 4.18 | 2.80 |
+| 23 | $R_2$ | 7 | triv | 44.54 | $t$ | 172.7 | 3.88 |
+| 24 | $R_2$ | 7 | std | 261.46 | $t$ | 172.7 | 1.51 |
 
 | Result | Count |
 |---|---|
@@ -153,11 +164,20 @@ $$\log T^2(\rho \otimes \sigma) = \sum_\tau N_{\rho\sigma\tau} \log T^2(\tau)$$
 
 ### The ν₂ Gap
 
-The widest miss. $R_1$'s three vacuum masses are $1.98 \times 10^{-13}$, $6.67 \times 10^{-11}$, and $3.81 \times 10^{-10}$ GeV. The central neutrino $\nu_2$ at $8.6 \times 10^{-12}$ GeV falls in the gap between the first and second value (ratio 7.75). The normal vs inverted hierarchy remains experimentally undetermined. Resolution comes from oscillation data or from additional structure at the neutrino scale.
+The widest miss in the mass formula. $R_1$'s three vacuum masses are $1.98 \times 10^{-13}$, $6.67 \times 10^{-11}$, and $3.81 \times 10^{-10}$ GeV. The central neutrino $\nu_2$ at $8.6 \times 10^{-12}$ GeV falls in the gap between the first and second value (ratio 7.75). The normal vs inverted hierarchy remains experimentally undetermined. Resolution comes from oscillation data or from additional structure at the neutrino scale.
 
-### Dead Zone
+## IV. Dead Zone
 
-Six entries (ranks 4--9) produce masses between $10^{-9}$ and $10^{-6}$ GeV (eV to keV). No known fundamental Standard Model fermions occupy this range. This mass window is actively probed by sterile neutrino and warm dark matter searches. Physical states at these masses require extremely suppressed couplings. The question is experimental.
+Six entries (ranks 4--9) produce masses between $10^{-9}$ and $10^{-6}$ GeV (eV to keV). No known fundamental Standard Model fermions occupy this range. This mass window is actively probed by sterile neutrino and warm dark matter searches. Physical states at these masses require extremely suppressed couplings.
+
+| Rank | $\rho$ | dist | $\sigma$ | Mass (GeV) | Range |
+|---|---|---|---|---|---|
+| 4 | $R_3$ | 2 | gal | $3.75 \times 10^{-9}$ | ~4 eV |
+| 5 | $R_3$ | 2 | triv | $4.45 \times 10^{-9}$ | ~4 eV |
+| 6 | $R_6$ | 3 | std | $4.09 \times 10^{-7}$ | ~0.4 keV |
+| 7 | $R_3$ | 2 | std | $1.00 \times 10^{-6}$ | ~1 keV |
+| 8 | $R_6$ | 3 | triv | $2.57 \times 10^{-6}$ | ~3 keV |
+| 9 | $R_6$ | 3 | gal | $2.80 \times 10^{-6}$ | ~3 keV |
 
 ---
 
