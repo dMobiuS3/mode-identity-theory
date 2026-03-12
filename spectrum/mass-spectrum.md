@@ -61,7 +61,7 @@ The domain size depends on spin: $D = 60$ for integer-spin, $D = 120$ for half-i
 | $R_7$ | Int | 60 | 0.7564 |
 | $R_8$ | Half | 120 | 0.2382 |
 
-### 3. McKay Hierarchy ( $(\sqrt{\Omega_\Lambda})^{\,\text{dist}/30}$ )
+### 3. McKay Elevator ( $(\sqrt{\Omega_\Lambda})^{\,\text{dist}/30}$ )
 
 The McKay graph encodes the distance of each irrep from the trivial representation $R_0$. Distance determines orders of magnitude separation from the vacuum floor via the hierarchy exponent $(\sqrt{\Omega_\Lambda})^{\,\text{dist}/30}$, where the denominator $h(E_8) = 30$ is the Coxeter number.
 
