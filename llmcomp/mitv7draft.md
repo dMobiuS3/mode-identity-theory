@@ -19,7 +19,7 @@ It derives the constants of the universe: $\Lambda$, $H_0$, $a_0$, and $\alpha$ 
 
 Five cosmological anomalies map one-to-one to five foundations: the $a_0 \approx cH_0$ coincidence, the cosmological constant, CMB large-angle departures, the cosmic coincidence, and null dark detection. The framework produces the $3/2$ Gauss-Codazzi gravitational embedding interface.
 
-At the particle scale, the same topology confines gauge fields; the Yang-Mills mass gap on $S^3/2I$ is a consequence. The fine structure constant $\alpha$ is the first step of $\Lambda$. Three particle generations follow from three isolated vacua. The mass formula produces 24 entries from four locked topological inputs; 10 of 12 SM fermions fall within $\times 3$ and all 12 within $\times 10$.
+At the particle scale, the same topology confines gauge fields; the Yang-Mills mass gap on $S^3/2I$ is a consequence. The fine structure constant $\alpha$ is the first step of $\Lambda$. Three particle generations follow from three isolated vacua. The mass formula produces 24 entries from four locked topological inputs; 10 of 12 SM fermions fall within $\times 3$ and 11 within $\times 10$.
 
 Two predictions separate the framework from alternatives: $a_0(z) \propto H(z)$ while $\Lambda$ remains constant. Falsification criteria are pre-registered to Euclid DR1.
 
