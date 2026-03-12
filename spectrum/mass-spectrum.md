@@ -8,9 +8,10 @@ The formula is applied to the 8 nontrivial irreducible representations of the bi
 
 | Result | Count |
 |---|---|
-| Within x10 | 12 of 12 |
-| Within x3 | 10 of 12 |
+| Assigned | 11 of 12 SM fermions |
+| Within ×3 | 10 of 11 assigned |
 | Within 6% | 3 ($e$, $u$, $\mu$) |
+| Genuine miss | $\nu_2$ (no entry in 10--50 meV window) |
 
 ## I. The Formula
 
