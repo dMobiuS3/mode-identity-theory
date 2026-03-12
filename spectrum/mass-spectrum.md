@@ -6,7 +6,11 @@ The Standard Model contains 12 fundamental fermions spanning 12 orders of magnit
 
 The formula is applied to the 8 nontrivial irreducible representations of the binary icosahedral group across 3 isolated flat connections, producing 24 mass predictions. Of these, 12 correspond to Standard Model fermions: 10 are reproduced within a factor of 3 and all 12 within a factor of 10. Eight predictions have no SM assignments.
 
-**12 SM fermions: 10 of 12 within x3 · 12 of 12 within x10**
+| Result | Count |
+|---|---|
+| Within x3 | 10 of 12 |
+| Within x10 | 12 of 12 |
+| Within 6% | 3 ($e$, $u$, $\mu$) |
 
 Electron · up quark · muon: within 6% of observed mass.
 
@@ -156,12 +160,6 @@ The 24 vacuum torsion values follow from $\log T^2(\rho \otimes \sigma) = \sum_\
 | 22 | $R_5$ | 6 | gal | 11.72 | $b$ | 4.18 | 2.80 |
 | 23 | $R_2$ | 7 | triv | 44.54 | $t$ | 172.7 | 3.88 |
 | 24 | $R_2$ | 7 | std | 261.46 | $t$ | 172.7 | 1.51 |
-
-| Result | Count |
-|---|---|
-| Within x3 | 10 of 12 |
-| Within x10 | 12 of 12 |
-| Within 6% | 3 ($e$, $u$, $\mu$) |
 
 ## IV. Dead Zone and Targets
 
