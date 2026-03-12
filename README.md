@@ -44,7 +44,7 @@ Blind outputs of a fixed structure, checked against observation:
 | $a_0 / (cH_0)$ | 0.184 | 0.183 | < 1% |
 | $a_0 / a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
 | Null DM detection | permanent | ongoing null results | ✓ |
-| 12 SM fermions | 24 entries | 11 SM within x10 | 10 of 12 within x3 |
+| 12 SM fermions | 24 entries | 12 SM fermions | 11 of 12 within x10 |
 | Dead zone | 6 states, eV to keV | no SM fermions in range | open season |
 | $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | 3% |
 | $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
