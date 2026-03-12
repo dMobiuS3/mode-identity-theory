@@ -556,3 +556,20 @@ MIT is a topological framework: it specifies boundary conditions and permitted m
 The COMPACT collaboration calculates eigenmodes of non-orientable Euclidean manifolds, closely overlapping the mathematics MIT requires; their analysis of parity asymmetry from topology alone aligns with MIT's derivation of odd-ℓ preference.
 
 Milgrom's MOND established $a_0$ as a fundamental acceleration scale; MIT derives it as an edge mode and predicts its evolution with $H(z)$, the central fork test against MOND's constant $a_0$.
+
+## Tools
+
+Every link between topology and observable is live. The code is the math. There are no hidden knobs.
+
+**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/tools/topology.html)**
+
+**[Hear the Engine](https://dmobius3.github.io/mode-identity-theory/tools/engine.html)**
+
+**[Run the Calculations](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
+
+## Repository
+
+| Folder | Contents |
+|---|---|
+| **[`cosmos/`](cosmos/)** | Five foundations resolve five cosmological anomalies, one-to-one. |
+| **[`spectrum/`](spectrum/)** | The same boundary reveals confinement, fine structure, and 24 fermionic masses. |
