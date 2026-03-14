@@ -57,7 +57,7 @@ Blind outputs of a fixed structure, checked against observation:
 | $\alpha_W$ | 0.03392 | 0.03378 | 0.41% † |
 | $\alpha$ | 0.00733 | 0.007297 | 0.49% |
 
-> † Includes Plato twist correction $\cos(\pi/10)$.
+> † Includes Plato twist correction $\cos(\pi/10)$
 
 ---
 
