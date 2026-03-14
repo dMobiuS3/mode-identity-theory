@@ -38,12 +38,13 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 | Observable | Predicted | Observed | Agreement |
 |---|---|---|---|
-| $\Lambda_{\text{obs}} \cdot \ell_P^2$ | $2.9 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~2% |
+| $\Lambda_\text{obs} \cdot \ell_P^2$ | $2.9 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~2% |
+| $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 | $> 3\sigma$ with independent $H_0$ | exact |
 | CMB $\ell_\text{cut}$ | ~32 | deficit below $\ell \lesssim 30$ | ✓ |
 | CMB parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
 | CMB parity magnitude | $R_{TT} = 0.814$ | $R_{TT} \approx 0.81$ | 0.5% |
 | CMB alignment | exists | $\Delta\theta_{23} \approx 10°$ | ~ |
-| $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2.5% |
-| $H_0$ local shift | 8.4% | ~8.7% (67.4 to 73.2) | < 1% |
-| $a_0 / (cH_0)$ | 0.184 | 0.183 | < 1% |
+| $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
+| $H_0$ local shift | 8.4% | ~8.7% | <1% |
+| $a_0 / (cH_0)$ | 0.184 | 0.183 | <1% |
 | $a_0 / a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
