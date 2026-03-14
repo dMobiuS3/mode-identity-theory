@@ -64,7 +64,7 @@ Space ($n=3$) couples only gravitationally; detectors couple through surface/gau
 
 The silence is the observational geometry of space $S^3$ ($n = 3$). The scaling $(\sqrt{\Omega})^{-3} \sim 10^{-183}$ suppresses any non-gravitational coupling to observationally null. Detectors couple through the surface/gauge sector ($n \leq 2$); space ($n = 3$) has no gauge degrees of freedom to detect. Gravity couples to stress-energy regardless of manifold; electromagnetic, weak, and strong interactions require gauge-field propagation within a shared manifold. Space and surface do not share gauge degrees of freedom.
 
-"Dark energy" constitutes ~68% of the universe's energy density. Standard cosmology treats it as a fluid filling space; however, it is the ground mode of the Mobius surface ($n = 2$, $m = 0$), the eigenvalue of a bounded geometry. Λ, derived from surface curvature through Gauss-Codazzi embedding.
+"Dark energy" constitutes ~68% of the universe's energy density. Standard cosmology treats it as a fluid filling space; however, it is the ground mode of the Mobius surface ($n = 2$, $m_h = 0$), the eigenvalue of a bounded geometry. Λ, derived from surface curvature through Gauss-Codazzi embedding.
 
 | Label | MIT identity | Manifold |
 |---|---|---|
