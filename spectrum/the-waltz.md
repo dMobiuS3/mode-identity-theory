@@ -17,7 +17,7 @@ The universe has two structural partners: $S^3$ space where curvature lives as a
 
 $G$ is the dictionary at the Planck floor ($n = 0$). It converts between the surface's language (curvature) and the space's language (energy). It is one of three inputs ($c$, $\hbar$, $G$), not derivable from the topology; $\ell_P \equiv \sqrt{\hbar G/c^3}$ is derived from them. $\Omega = (R/\ell_P)^2$ is a geometric scale ratio (the squared number of Planck lengths in $R$), not a topological output.
 
-## II. Gravity as Conversion Cost
+## II. Gravity as the Cost to Dance
 
 The $3/2$ Gauss-Codazzi factor is the step between spatial curvature and surface eigenvalues: three dimensions of space, two dimensions of surface; gravity is the ratio that carries one into the other. What space curves, the surface resolves. What the surface permits, the edge observes. General Relativity is the score; 3/2 is the time signature.
 
