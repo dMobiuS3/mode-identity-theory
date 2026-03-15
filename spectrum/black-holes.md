@@ -2,8 +2,6 @@
 
 Supplement to Mode Identity Theory. The ceiling of Ω where the bounded domain terminates. Working document.
 
-**Status key:** AXIOM | DERIVED | MOTIVATED | OPEN
-
 ---
 
 ## I. What a Black Hole Is
