@@ -22,7 +22,7 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 
 ---
 
-**Gravity.** Embed a surface in a space and the curvature converts by $3/2$. That is gravity. Massless bosons remain on the edge. Black holes are where sampling vanishes; the topology remains.
+**Gravity.** Embed a surface in a space and the curvature converts by $3/2$; that is gravity. Massless bosons remain on the edge while matter is realized on the surface.
 
 [The Waltz](the-waltz.md)
 
