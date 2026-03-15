@@ -48,7 +48,5 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 | Particle generations | 3 | 3 | exact |
 | Mass gap | $> 0$ | confinement observed | ✓ |
 | $\alpha_s$ | 0.11622 | 0.11790 | 1.42% |
-| $\alpha_W$ | 0.03392 | 0.03378 | 0.41% † |
+| $\alpha_W$ | 0.03392 | 0.03378 | 0.41% |
 | $\alpha$ | 0.00733 | 0.007297 | 0.49% |
-
-> † Includes Plato twist correction $\cos(\pi/10)$
