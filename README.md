@@ -28,7 +28,7 @@ The constants of the universe follow across 122 orders of magnitude, fermion mas
 
 ---
 
-## Scorecard
+## Scoreboard
 
 Blind outputs of a fixed structure, checked against observation:
 
