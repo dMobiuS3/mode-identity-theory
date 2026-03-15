@@ -31,9 +31,7 @@ The Gauss equation relates intrinsic 2D curvature $R_\Sigma$ of the embedded sur
 | Isotropic space | CMB verified to $10^{-5}$ | $\text{Ric}(n,n) = R_{\text{spatial}}/3$ |
 | de Sitter vacuum | Late-time ΛCDM limit | $R_{\text{spatial}} = 2\Lambda$ |
 
-With these conditions the Gauss equation reduces to $R_\Sigma = R_{\text{spatial}}/3$ 
-
-and inverting: $R_{\text{spatial}} = 3\,R_\Sigma$ 
+With these conditions the Gauss equation reduces to $R_\Sigma = R_{\text{spatial}}/3$ , and inverting gives; $R_{\text{spatial}} = 3\,R_\Sigma$ 
 
 The identification $R_\Sigma = \Lambda_{\text{top}}$ is motivated from three directions (dimensional, spectral via Fischer-Marsden, and group-theoretic) and is noted as open pending independent mathematical review. 
 
