@@ -69,8 +69,8 @@ The silence is the observational geometry of space $S^3$ ($n = 3$). The scaling 
 
 | Label | MIT identity | Manifold |
 |---|---|---|
-| "Dark energy" | Ground mode (Λ) of Möbius | $n = 2$ |
 | "Dark matter" | Gravitational geometry of $S^3$ | $n = 3$ |
+| "Dark energy" | Ground mode (Λ) of Möbius | $n = 2$ |
 | Visible matter | Modal samples of $\Psi$ | $n = 1$ |
 
 ### The Bullet Cluster
