@@ -1,6 +1,6 @@
 # Black ∅'s
 
-Supplement to Mode Identity Theory. The ceiling of Ω where the bounded domain terminates. Working document.
+A working supplement to Mode Identity Theory. The ceiling of Ω where the bounded domain terminates.
 
 ---
 
