@@ -29,7 +29,9 @@ $$\Psi = \cos(t/2)$$
 
 The full cycle spans $4\pi$ (~33 Gyr). The present epoch sits at $t \approx 5.22$ rad, approximately 2.8 Gyr before the geometric turnaround at $t = 2\pi$.
 
-MIT identifies Λ as a surface-mode eigenvalue. The cosmic wave therefore modulates the dark energy sector, leaving matter and radiation untouched. The Friedmann equation becomes:
+MIT identifies Λ as a surface-mode eigenvalue. The topological protection established in the $\Lambda$ derivation is against displacement in $\Theta$, the position coordinate on the mode spectrum. The logarithmic slope $d\ln C/d\Theta$ vanishes exactly at the antinode; no environmental perturbation can shift $\Lambda$ to a different well. The modulation here acts in $t$, the observer's phase within the cosmic cycle. $\Lambda$ occupies a fixed position (the antinode); what varies is the standing wave amplitude $\Psi(t) = \cos(t/2)$ at the observer's epoch. The surface-mode eigenvalue is constant; its projection into the expansion history carries the temporal phase of $\Psi$.
+
+The cosmic wave therefore modulates the dark energy sector, leaving matter and radiation untouched. The Friedmann equation becomes:
 
 $$E_{\text{MIT}}^2(z) = \Omega_m(1+z)^3 + \Omega_r(1+z)^4 + \Omega_\Lambda^{\text{bare}}\bigl[1 + \varepsilon\cos\theta(z)\bigr]$$
 
