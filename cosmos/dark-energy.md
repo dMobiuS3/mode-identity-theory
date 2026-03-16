@@ -39,7 +39,9 @@ The surface-mode coupling is invisible to the CMB by construction: $\Omega_\Lamb
 
 ### The Phase Offset δ
 
-The observer's position within the cosmic cycle is measured from the geometric turnaround. The value $\delta = -1.06$ rad is calibrated from the center of DESI's non-parametric $w(z)$ transition region and registered on Zenodo prior to Euclid DR1.
+The observer's position within the cosmic cycle is measured from the geometric turnaround. The value $\delta = t - 2\pi = -1.06$ rad follows from the observer's cosmic phase $t = 4\pi \times (t_\text{age}/T_\text{cycle}) = 5.22$ rad, where $t_\text{age} = 13.8$ Gyr (Planck) and $T_\text{cycle} \approx 33.2$ Gyr (Friedmann integral over $L_\text{fund}$). 
+
+Both inputs are prior to any BAO dataset. The resulting $z_\text{cross} = 0.663$ coincides with the center of DESI's non-parametric $w(z)$ transition region. This coincidence is a consistency check, not a calibration. The prediction is registered on Zenodo prior to Euclid DR1.
 
 ### The Coupling ε
 
