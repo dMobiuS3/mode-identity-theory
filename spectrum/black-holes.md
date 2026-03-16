@@ -52,8 +52,6 @@ The vanishing is quadratic: $C(\Theta) \approx 2\pi^2\Theta^2$ near $\Theta = 0$
 
 The singularity is double-zeroed. No perturbative correction can remove it. You cannot perturb your way out of a topological node.
 
-**Status:** MOTIVATED. The double zero is structurally forced by the scaling law. Whether the simultaneous zeroing follows from a single mapping or two independent limits requires the $\Phi \to \Theta$ derivation (§VI).
-
 ### II.A The Spectral Mirror
 
 The double zero at the horizon has an exact structural analog in the spectral geometry of $S^3/2I$.
@@ -83,13 +81,9 @@ This is the same mechanism by which the horizon is sharp: the sampling boundary 
 
 **What this connection is not.** It is not a derivation of Hawking radiation from spectral geometry, or of torsion from the scaling law. The $\Phi \to \Theta$ mapping (§VI) and the spectral-to-physical bridge (tested in the RH program, March 2026) remain open. The Phase 5 bridge tests showed that the direct map $s \leftrightarrow \Theta$ does not exist: continuous position drops out of the spectral data (right-$\mathrm{SU}(2)$ homogeneity on $S^3/2I$), and character weights oscillate in sign, preventing positivity transfer. The parallel is exact at the level of structure. The bridge between the two readings is not yet built.
 
-**Status:** MOTIVATED. The structural parallel is sharp, verified numerically (torsion to 79 digits), and arises from the same anti-periodic boundary condition that produces both $C(\Theta)$ and $(1 - 2^{-s})\zeta(s)$.
-
 ---
 
 ## III. Area Scaling
-
-**Status:** DERIVED.
 
 Bekenstein-Hawking entropy $S \propto A$ follows from surface primacy.
 
@@ -105,8 +99,6 @@ In standard physics, area scaling is one of the deepest puzzles in quantum gravi
 ---
 
 ## IV. Information
-
-**Status:** DERIVED.
 
 | Step | Content | Status |
 |---|---|---|
@@ -184,8 +176,6 @@ This is the directional problem. The perturbative regime (galaxies: small $\Phi/
 
 The spectral side exhibits the same directional asymmetry. Moving away from $s = 0$ opens the Pochhammer tower (factorization breaks, 28-32 of 32 characters contribute). Moving toward $s = 0$ collapses it (4 of 16 characters survive). The "clean" direction is toward the zero. The "messy" direction is away from it. This matches: the horizon (toward $\Theta = 0$, where $C$ vanishes) is where structure simplifies; the interior of the domain (away from both zeros) is where everything participates.
 
-**Status:** OPEN. The directional problem is the sharpest unresolved issue in this section.
-
 ---
 
 ## VII. At the Core
@@ -193,8 +183,6 @@ The spectral side exhibits the same directional asymmetry. Moving away from $s =
 At the center, $\Omega \to 0$. When there is no scale separation, the distinction between edge ($n = 1$) and surface ($n = 2$) loses operational meaning. Not conversion of one into the other, but dissolution of the hierarchy that distinguishes them. At Planck density ($\Omega = 1$), surface and edge are the same scale.
 
 The wave content is still there. It cannot be sorted into "surface" and "edge" categories because the hierarchy has collapsed to unity. The mode structure is complete. The filing system is gone.
-
-**Status:** MOTIVATED. Follows from the definition of $\Omega$ as a ratio of scales.
 
 ---
 
