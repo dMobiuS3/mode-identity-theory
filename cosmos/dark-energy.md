@@ -47,7 +47,9 @@ Both inputs are prior to any BAO dataset. The resulting $z_\text{cross} = 0.663$
 
 ### The Coupling ε
 
-The amplitude of the surface-mode modulation. Calibrated via inject-and-recover: MIT distances are generated at trial $\varepsilon$, a CPL template is fitted, and the recovered $w_0$ is matched to the target $w_0 = -0.773$ from DES-SN5YR + Planck + SDSS BAO, which contains no DESI data. This yields $\varepsilon = 0.255$. The profiled best-fit from DESI data alone is $\varepsilon = 0.16$; the difference reflects the prior dataset used for calibration rather than a free parameter adjustment.
+The amplitude of the surface-mode modulation. Calibrated via inject-and-recover: MIT distances are generated at trial $\varepsilon$, a CPL template is fitted, and the recovered $w_0$ is matched to the target $w_0 = -0.773$ from DES-SN5YR + Planck + SDSS BAO, which contains no DESI data. 
+
+This yields $\varepsilon = 0.255$. The profiled best-fit from DESI data alone is $\varepsilon = 0.16$; the difference reflects the prior dataset used for calibration rather than a free parameter adjustment.
 
 ## III. The Phantom Crossing
 
