@@ -47,9 +47,9 @@ Both inputs are prior to any BAO dataset. The resulting $z_\text{cross} = 0.663$
 
 ### The Coupling ε
 
-The amplitude of the surface-mode modulation. Calibrated via inject-and-recover: MIT distances are generated at trial $\varepsilon$, a CPL template is fitted, and the recovered $w_0$ is matched to the target $w_0 = -0.773$ from DES-SN5YR + Planck + SDSS BAO, which contains no DESI data. 
+ε is a translation coefficient, measuring how the MIT standing wave projects into the Friedmann equation. It belongs to the interface between the two frameworks: MIT's own structure (boundary conditions, standing wave, surface-mode eigenvalue) contains no free amplitude parameter. The projection into standard Friedmann variables requires one because the two descriptions parameterize the expansion history differently. Whether MIT can derive ε from its own geometry remains an open problem.
 
-This yields $\varepsilon = 0.255$. The profiled best-fit from DESI data alone is $\varepsilon = 0.16$; the difference reflects the prior dataset used for calibration rather than a free parameter adjustment.
+The calibration proceeds by inject-and-recover: MIT distances are generated at trial ε, a CPL template is fitted, and the recovered $w_0$ is matched to the target $w_0 = -0.773$ from DES-SN5YR + Planck + SDSS BAO, which contains no DESI data. This yields ε = 0.255. The profiled best-fit from DESI data alone is ε = 0.16. Because ε measures a fixed geometric projection, the two values should in principle converge; the residual difference likely reflects dataset-dependent systematics and the distortion introduced by fitting a cosine modulation through a linear CPL template. The qualitative result holds across the full range: the data favor a nonzero projection of the standing wave into the expansion history.
 
 ## III. The Phantom Crossing
 
