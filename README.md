@@ -60,7 +60,7 @@ Blind outputs of a fixed structure, checked against observation:
 | $a_0 / a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
 | Null dark matter | permanent | ongoing null results | ✓ |
 | Mass gap | $> 0$ | confinement observed | ✓ |
-| Particle generations | 3 mass gaps | 3 | exact |
+| Particle generations | 3 (mass gaps) | 3 | exact |
 | Force count | 3 (grid exhaustion) | 3 | exact |
 | Null SUSY | permanent (120/60 vacant) | ongoing null results | ✓ |
 | Fermion masses | 24 entries | all 12 SM: 10/12 within $\times 3$ | systematic |
