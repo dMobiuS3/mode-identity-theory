@@ -51,5 +51,5 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 | $\nu$ floor | $\mu_\Lambda \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
 | $\alpha_s$ | 0.11622 | 0.11790 | 1.42% |
 | $\alpha_W$ | 0.03392 | 0.03378 | 0.41% |
-| $\alpha_s / \alpha_W$ | 3.426 | 3.490 | 1.8% (pure geometry) |
+| $\alpha_s / \alpha_W$ | 3.426 | 3.490 | ~2% (pure geometry) |
 | $\alpha$ | 0.00733 | 0.007297 | 0.49% |
