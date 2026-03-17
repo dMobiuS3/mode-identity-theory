@@ -32,16 +32,6 @@ The Neutrino Floor $\mu_\Lambda$ sets the stage. The Kostant Sunflower $C_{\text
 
 ---
 
-## Repository
-
-| Folder | Contents |
-|---|---|
-| **[`framework/`](framework/)** | Core derivation from topology to scaling law. |
-| **[`cosmos/`](cosmos/)** | Five foundations resolve five cosmological anomalies, one-to-one. |
-| **[`spectrum/`](spectrum/)** | The same boundary reveals confinement, fine structure, and 24 fermionic masses. |
-
----
-
 ## Scoreboard
 
 Blind outputs of a fixed structure, checked against observation:
@@ -80,6 +70,16 @@ Blind outputs of a fixed structure, checked against observation:
 | $\alpha_W$ | 0.03392 | 0.03378 | 0.41% |
 | $\alpha$ | 0.00733 | 0.007297 | 0.49% |
 | $\alpha_s / \alpha_W$ | 3.426 | 3.490 | ~2% (pure geometry) |
+
+---
+
+## Repository
+
+| Folder | Contents |
+|---|---|
+| **[`framework/`](framework/)** | Core derivation from topology to scaling law. |
+| **[`cosmos/`](cosmos/)** | Five foundations resolve five cosmological anomalies, one-to-one. |
+| **[`spectrum/`](spectrum/)** | The same boundary reveals confinement, fine structure, and 24 fermionic masses. |
 
 ---
 
