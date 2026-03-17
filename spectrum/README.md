@@ -47,8 +47,8 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 | $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
 | $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
 | $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
+| Rank 16 entry | $R_5$ std, ~349 MeV | no known fermion | open |
 | Dead zone | 6 states, eV to keV | no SM fermions in range | open |
-| Rank 16 slot | $R_5$ std, ~349 MeV | no known fermion | open |
 | $\nu$ floor | $\mu_\Lambda \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
 | $\alpha_s$ | 0.11622 | 0.11790 | 1.42% |
 | $\alpha_W$ | 0.03392 | 0.03378 | 0.41% |
