@@ -247,7 +247,7 @@ The grid ladder was constructed to derive coupling constants. It was not designe
 | Running structure | Precision tests of $\alpha(q^2)$ exclude power-law in favor of pure log | Decisive |
 | Scale consistency | Three couplings require evaluation at incompatible energy scales | Open |
 | $\alpha$ value | Agreement degrades beyond 2% with improved Λ | Moderate |
-| Λ-$\alpha$ correlation | Refined Λ pushes predicted $\alpha$ further from CODATA | Weak (sensitivity suppressed by $1/60$) |
+| Λ - $\alpha$ correlation | Refined Λ pushes predicted $\alpha$ further from CODATA | Weak (sensitivity suppressed by $1/60$) |
 
 The strongest tests are the first four. The grid ladder and Plato twist have already passed. The force count and SUSY vacancy are tested by every collider run. The open question is scale consistency: the three predictions are made at different energy scales ($\alpha$ at low energy, $\alpha_s$ and $\alpha_W$ near $M_Z$), and deriving RG running from the MIT hierarchy structure remains open.
 
