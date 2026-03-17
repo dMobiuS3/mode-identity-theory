@@ -28,7 +28,7 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 
 ---
 
-**Black ∅'s.** The wave $\Psi$ still flows. The surface still hums at $\Lambda$. The topology holds and information is not lost. The observer is still in Space, unable to speak.
+**Black ∅'s.** The wave $\Psi$ still flows. The surface still hums at $\Lambda$. The topology holds and information is not lost. The observer is still in space but unable to speak.
 
 [Black Holes](black-holes.md)
 
