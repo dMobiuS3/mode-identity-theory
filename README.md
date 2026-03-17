@@ -57,7 +57,7 @@ Three constants fix the physics. Two measurements set the size. One borrowed par
 
 | Parameter | Value | Origin |
 |---|---|---|
-| $\Omega_m$ | 0.315 | Matter density fraction; borrowed from standard cosmology to locate the present epoch ($t_\text{now} = 5.22$ rad) |
+| $\Omega_m$ | 0.315 | Matter density fraction; used to locate the present epoch ($t_\text{now} = 5.22$ rad) |
 
 ---
 
