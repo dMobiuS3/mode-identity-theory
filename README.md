@@ -14,7 +14,7 @@ Anti-periodic boundary conditions on the Möbius strip require two traversals to
 
 **One scale:**
 
-$$\Large \boxed{A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
+$$\Large \boxed{\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
 $C(\Theta)$ is what $\Psi$ yields at phase position $\Theta$.
 
@@ -36,7 +36,7 @@ The Neutrino Floor $\mu_\Lambda$ sets the stage. The Kostant Sunflower $C_{\text
 
 ## Inputs
 
-Three constants fix the physics. Two measurements set the size. One borrowed parameter locates the present epoch.
+Three constants fix the physics. Two measurements set the size. One borrowed parameter locates the time.
 
 **Primitives**
 
