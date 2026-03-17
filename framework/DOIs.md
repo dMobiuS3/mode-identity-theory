@@ -1,22 +1,4 @@
-# Mode Identity Theory
-
-$$S¹ = ∂(Möbius) ↪ S³, ∂S³ = ∅$$
-
-$$\Psi = \cos(t/2)$$
-
-$$A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$$
-
-$$m(\rho,\sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega_\Lambda})^{\,\text{dist}(\rho)/30} \times T^2(\rho \otimes \sigma)$$
-
-**Author:** Blake Shatto, P.E.
-
-**First spotted:** December 2025
-
-**Falsification:** a₀(z) tracks with H(z) while $\Lambda$ remains constant  — Pre-Registered for Euclid DR1, October 2026
-
----
-
-## Publication Registry
+# Publication Registry
 
 ### Core Theory
 
@@ -30,14 +12,14 @@ $$m(\rho,\sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega
 |-------|------|-----|
 | Team Cosine: Euclid DR1 2026 | 2026-01-08 | [10.5281/zenodo.18189078](https://doi.org/10.5281/zenodo.18189078) |
 
-### Mathematical Structure
+### Mathematics
 
 | Paper | Date | DOI |
 |-------|------|-----|
 | Yang–Mills Mass Gap on the Poincaré Homology Sphere | 2026-02-02 | [10.5281/zenodo.18463584](https://doi.org/10.5281/zenodo.18463584) |
 | Spectral Geometry of the Poincaré Homology Sphere and L-Function Structure | 2026-02-17 | [10.5281/zenodo.18672160](https://doi.org/10.5281/zenodo.18672160) |
 
-### Particle Physics and Coupling Constants
+### Samples and Force
 
 | Paper | Date | DOI |
 |-------|------|-----|
@@ -45,7 +27,7 @@ $$m(\rho,\sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega
 | α Fine Structure: Λ Minimum Step to Mode Identity | 2026-02-04 | [10.5281/zenodo.18484780](https://doi.org/10.5281/zenodo.18484780) |
 | The Spectrum: Particle Mass Generation from McKay Spectral Geometry on S³/2I | 2026-02-11 | [10.5281/zenodo.18603975](https://doi.org/10.5281/zenodo.18603975) |
 
-### Cosmological Predictions
+### Cosmology
 
 | Paper | Date | DOI |
 |-------|------|-----|
@@ -54,17 +36,3 @@ $$m(\rho,\sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega
 | Λ Constant, Axis Aligned: CMB Anomalies from Topology | 2025-12-30 | [10.5281/zenodo.18092169](https://doi.org/10.5281/zenodo.18092169) |
 | Λ Ground Mode of the Cosmic Boundary | 2026-01-19 | [10.5281/zenodo.18307314](https://doi.org/10.5281/zenodo.18307314) |
 | Λ Constant, H₀ Local: Hubble Tension as Phase Field | 2026-01-24 | [10.5281/zenodo.18363693](https://doi.org/10.5281/zenodo.18363693) |
-
----
-
-## Structure
-
-```
-1, 1, 2, 3, 5
-```
-
-The framework built on Fibonacci wells has a Fibonacci publication structure. This was not planned.
-
----
-
-*The topology was always a song. The constants fell out uninvited.*
