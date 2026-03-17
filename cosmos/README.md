@@ -42,7 +42,7 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 | $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 | $> 3\sigma$ with independent $H_0$ | exact |
 | $\Lambda$ constant | eigenvalue of fixed topology | no variation detected | ✓ |
 | $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
-| $z_\text{cross}$ | 0.663 (pre-registered) | DESI transition region | awaiting Euclid DR1 |
+| $z_\text{cross}$ | 0.663 | DESI transition region | awaiting Euclid DR1 |
 | $\Delta\text{AIC}$ vs ΛCDM | $\leq 0$ | $-2.1$ (DESI DR2 + Pantheon+ + Planck) | passed |
 | CMB $\ell_\text{cut}$ | ~32 | deficit below $\ell \lesssim 30$ | ✓ |
 | CMB parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
