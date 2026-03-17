@@ -42,7 +42,7 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 | Mass gap | $> 0$ | confinement observed | ✓ |
 | Particle generations | 3 (mass gaps) | 3 | exact |
 | Force count | 3 (grid exhaustion) | 3 | exact |
-| Null SUSY | permanent | ongoing null results | ✓ |
+| Null SUSY | permanent (120/60 vacant) | ongoing null results | ✓ |
 | Fermion masses | 24 entries | all 12 SM: 10/12 within $\times 3$ | systematic |
 | $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
 | $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
@@ -51,5 +51,5 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 | $\nu$ floor | $\mu_\Lambda \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
 | $\alpha_s$ | 0.11622 | 0.11790 | 1.42% |
 | $\alpha_W$ | 0.03392 | 0.03378 | 0.41% |
-| $\alpha_s / \alpha_W$ | 3.426 | 3.490 | ~2% (pure geometry) |
 | $\alpha$ | 0.00733 | 0.007297 | 0.49% |
+| $\alpha_s / \alpha_W$ | 3.426 | 3.490 | ~2% (pure geometry) |
