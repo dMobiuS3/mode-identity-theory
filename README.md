@@ -62,7 +62,7 @@ Blind outputs of a fixed structure, checked against observation:
 | Mass gap | $> 0$ | confinement observed | ✓ |
 | Particle generations | 3 (mass gaps) | 3 | exact |
 | Force count | 3 (grid exhaustion) | 3 | exact |
-| Null SUSY | permanent (120/60 vacant) | ongoing null results | ✓ |
+| Null SUSY | permanent | ongoing null results | ✓ |
 | Fermion masses | 24 entries | all 12 SM: 10/12 within $\times 3$ | systematic |
 | $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
 | $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
