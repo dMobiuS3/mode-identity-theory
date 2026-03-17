@@ -34,7 +34,7 @@ The Neutrino Floor $\mu_\Lambda$ sets the stage. The Kostant Sunflower $C_{\text
 
 ## Inputs
 
-Three constants fix the physics. Two measurements set the size. One borrowed parameter locates the present epoch. Everything else is derived.
+Three constants fix the physics. Two measurements set the size. One borrowed parameter locates the present epoch.
 
 **Primitives**
 
