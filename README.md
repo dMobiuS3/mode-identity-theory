@@ -34,12 +34,28 @@ The Neutrino Floor $\mu_\Lambda$ sets the stage. The Kostant Sunflower $C_{\text
 
 ## Inputs
 
+Three constants fix the physics. Two measurements set the size. One borrowed parameter locates the present epoch. Everything else is derived.
+
+**Primitives**
+
 | Const. | Value | Origin |
 |---|---|---|
 | $c$ | 299,792,458 m/s | Propagation rate on the temporal edge $S^1$ |
 | $\hbar$ | $1.055 \times 10^{-34}$ J s | Action quantum; converts mode number to energy |
 | $G$ | $6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻² | Curvature ↔ energy dictionary at the Planck floor ($n = 0$) |
-| $R_\Lambda$ | $\approx 5.3$ Gpc | The de Sitter horizon radius, fixed by the shape |
+
+**Measured scales**
+
+| Scale | Value | Origin |
+|---|---|---|
+| $R_\Lambda$ | $\approx 5.3$ Gpc | de Sitter horizon radius; sets the size of the domain |
+| $L_\text{fund}$ | $\approx 2.1$ Gpc | CMB low-$\ell$ cutoff; sets the cavity mode. Derivable from $R_\Lambda$ if the $L_\text{strip}/L_\text{fund} = 8$ closure is achieved. |
+
+**Concordance parameter**
+
+| Parameter | Value | Origin |
+|---|---|---|
+| $\Omega_m$ | 0.315 | Matter density fraction; borrowed from standard cosmology to locate the present epoch ($t_\text{now} = 5.22$ rad) on the standing wave |
 
 ---
 
