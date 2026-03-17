@@ -50,19 +50,26 @@ Blind outputs of a fixed structure, checked against observation:
 |---|---|---|---|
 | $\Lambda_\text{obs} \cdot \ell_P^2$ | $2.9 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~2% |
 | $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 | $> 3\sigma$ with independent $H_0$ | exact |
+| $\Lambda$ constant | eigenvalue of fixed topology | no variation detected | ✓ |
+| $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
+| $z_\text{cross}$ | 0.663 (pre-registered) | DESI transition region | awaiting Euclid DR1 |
+| $\Delta\text{AIC}$ vs $\Lambda$CDM | $\leq 0$ | $-2.1$ (DESI DR2 + Pantheon+ + Planck) | passed |
 | CMB $\ell_\text{cut}$ | ~32 | deficit below $\ell \lesssim 30$ | ✓ |
 | CMB parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
 | CMB parity magnitude | $R_{TT} = 0.814$ | $R_{TT} \approx 0.81$ | 0.5% |
 | CMB alignment | exists | $\Delta\theta_{23} \approx 10°$ | ~ |
+| CMB matched circles | null expected | null observed | ✓ |
 | $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
 | $H_0$ local shift | 8.4% | ~8.7% | <1% |
-| $a_0 / (cH_0)$ | 0.184 | 0.183 | <1% |
-| $a_0 / a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
+| $H_0$ bimodality | 67 / 73, not continuous | two persistent camps | ✓ |
+| $a_0/(cH_0)$ | 0.184 | 0.183 | <1% |
+| $a_0/a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
+| $a_0(z) \propto H(z)$ | $a_0(z{=}2) \approx 3\times$ local | awaiting high-$z$ rotation curves | open |
 | Null dark matter | permanent | ongoing null results | ✓ |
 | Mass gap | $> 0$ | confinement observed | ✓ |
 | Particle generations | 3 (mass gaps) | 3 | exact |
 | Force count | 3 (grid exhaustion) | 3 | exact |
-| Null SUSY | permanent | ongoing null results | ✓ |
+| Null SUSY | permanent (120/60 vacant) | ongoing null results | ✓ |
 | Fermion masses | 24 entries | all 12 SM: 10/12 within $\times 3$ | systematic |
 | $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
 | $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
@@ -71,7 +78,7 @@ Blind outputs of a fixed structure, checked against observation:
 | $\nu$ floor | $\mu_\Lambda \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
 | $\alpha_s$ | 0.11622 | 0.11790 | 1.42% |
 | $\alpha_W$ | 0.03392 | 0.03378 | 0.41% |
-| $\alpha_s / \alpha_W$ | 3.426 | 3.490 | ~2% (pure geometry) |
+| $\alpha_s / \alpha_W$ | 3.426 | 3.490 | 1.8% (pure geometry) |
 | $\alpha$ | 0.00733 | 0.007297 | 0.49% |
 
 ---
