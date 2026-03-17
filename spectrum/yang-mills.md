@@ -1,6 +1,6 @@
 # Easy Money: Yang-Mills on the Poincare Homology Sphere
 
-The Millennium Prize asks whether pure Yang-Mills theory on $\mathbb{R}^4$ has a positive mass gap. On flat space, confinement must emerge dynamically. On the Poincare homology sphere $M = S^3/2I$, where $2I$ is the binary icosahedral group of order 120, the answer is forced by geometry. 
+The Millennium Prize asks whether pure Yang-Mills theory on $\mathbb{R}^4$ has a positive mass gap. On flat space, confinement must emerge dynamically. On the Poincare homology sphere $M = S^3/2I$, the answer is forced by geometry. 
 
 Positive Ricci curvature provides a universal floor. The finite fundamental group yields exactly three isolated vacua: trivial, standard, and Galois conjugate. The McKay correspondence for the extended $E_8$ diagram filters the spectrum at each vacuum, producing a ninefold enhancement at the Galois sector. 
 
