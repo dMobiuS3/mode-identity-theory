@@ -53,7 +53,7 @@ Blind outputs of a fixed structure, checked against observation:
 | $\Lambda$ constant | eigenvalue of fixed topology | no variation detected | ✓ |
 | $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
 | $z_\text{cross}$ | 0.663 (pre-registered) | DESI transition region | awaiting Euclid DR1 |
-| $\Delta\text{AIC}$ vs $\Lambda$CDM | $\leq 0$ | $-2.1$ (DESI DR2 + Pantheon+ + Planck) | passed |
+| $\Delta\text{AIC}$ vs $\Lambda$-CDM | $\leq 0$ | $-2.1$ (DESI DR2 + Pantheon+ + Planck) | passed |
 | CMB $\ell_\text{cut}$ | ~32 | deficit below $\ell \lesssim 30$ | ✓ |
 | CMB parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
 | CMB parity magnitude | $R_{TT} = 0.814$ | $R_{TT} \approx 0.81$ | 0.5% |
