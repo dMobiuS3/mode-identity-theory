@@ -51,7 +51,7 @@ Three constants fix the physics. Two measurements set the size. One borrowed par
 | Scale | Value | Origin |
 |---|---|---|
 | $R_\Lambda$ | $\approx 5.3$ Gpc | de Sitter horizon radius; sets the size of the domain |
-| $L_\text{fund}$ | $\approx 2.1$ Gpc | CMB low-ℓ cutoff; sets the cavity mode. |
+| $L_\text{fund}$ | $\approx 2.1$ Gpc | CMB low-ℓ cutoff; sets the cavity mode |
 
 **Concordance parameter**
 
