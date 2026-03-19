@@ -12,7 +12,7 @@ $$\Large \boxed{\Psi = \cos(t/2), \quad \text{period } 4\pi}$$
 
 Anti-periodic boundary conditions on the Möbius strip require two traversals to restore sign. Everything rides on this.
 
-**One scale:**
+**One equation:**
 
 $$\Large \boxed{\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
