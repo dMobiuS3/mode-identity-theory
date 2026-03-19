@@ -4,7 +4,7 @@
 
 $$\Large \boxed{S^1_{(2,3)} = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
 
-The temporal edge $S^1_{(2,3)}$, the trefoil, bounds the non-orientable Möbius surface, embedded in the closed hypersphere $S^3$, which has no boundary.
+The temporal edge $S^1_{(2,3)}$, the trefoil, bounds the non-orientable Möbius surface, embedded in the closed hypersphere $S^3$, which has no boundary. The ground mode eigenvalue of this surface is $\Lambda$.
 
 **One wave:**
 
