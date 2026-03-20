@@ -44,7 +44,7 @@ Vanishing $H^1(M;\,\text{ad}\,\rho) = 0$ at each irreducible flat connection gua
 
 ## III. The Spectral Filter
 
-The McKay graph of $2I$ is the extended (affine) $E_8$ Dynkin diagram. Each node corresponds to an irreducible representation of $2I$; the edges encode tensor product with the fundamental 2-dimensional representation. The restriction of the spin-$j$ representation of $\text{SU}(2)$ to $2I$ follows the McKay recursion along this graph.
+The McKay graph of $2I$ is the extended (affine) $E_8$ Dynkin diagram. Each node corresponds to an irreducible representation of $2I$; the edges encode tensor product with the fundamental 2-dimensional representation. The restriction of the spin-j representation of $\text{SU}(2)$ to $2I$ follows the McKay recursion along this graph.
 
 ### Coexact spectrum on $S^3$
 
