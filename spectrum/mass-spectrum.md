@@ -10,7 +10,7 @@ The formula is applied to the 8 nontrivial irreducible representations of the bi
 |---|---|
 | Assigned | 12 of 12 SM fermions |
 | Within ×3 | 10 of 12 assigned |
-| Within 6% | 3 ($e$, $u$, $\mu$ / $s$) |
+| Within 6% | 3 ($e$, $u$, $\mu$) |
 | Genuine miss | $\nu_2$ (ratio 7.75× from nearest entry; falls between rank 1 and rank 2) |
 
 ## I. The Formula
