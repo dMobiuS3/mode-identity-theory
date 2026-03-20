@@ -93,7 +93,7 @@ Blind outputs of a fixed structure, checked against observation:
 | Null SUSY | permanent | ongoing null results | ✓ |
 | Fermion masses | 24 entries | all 12 SM: 10/12 within $\times 3$ | systematic |
 | $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
-| $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
+| $\mu$ / $s$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
 | $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
 | Rank 16 entry | $R_5$ std, ~349 MeV | no known fermion | open |
 | Dead zone | 6 states, eV to keV | no SM fermions in range | open |
