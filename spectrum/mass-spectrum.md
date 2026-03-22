@@ -89,6 +89,8 @@ Half-integer spin: R₁, R₂, R₆, R₈. Integer spin: R₀, R₃, R₄, R₅,
 | $R_7$ | 5 | Int | 4 | 2 | {4, 8, 10, 12, 14, 16, 18, 20, 22, 26} | No |
 | $R_8$ | 6 | Half | 5 | 5/2 | {5, 7, 9, 11, 13, 15², 17, 19, 21, 23, 25} | 6/12 |
 
+The $j_\text{first}$ rule follows from the McKay multiplicity structure: the spin-$j$ representation of $SU(2)$, restricted to $2I$, first contains irrep $\rho$ at exactly $j = \text{dist}(\rho)/2$. This holds for both spin parities and is a consequence of the McKay correspondence between the $2I$ representation graph and the extended $E_8$ Dynkin diagram.
+
 ### 4. Reidemeister Torsion ( $T^2(\rho \otimes \sigma)$ )
 
 Three flat SU(2) connections on $S^3/2I$ provide the generation mechanism. Each has $H^1 = 0$: no moduli, no mixing between vacua. The Reidemeister torsion encodes the fine structure within each mass shell.
@@ -114,6 +116,10 @@ Integer-spin irreps have exact closed forms. The Galois pair ratio $T^2(R_3)/T^2
 | $R_7$ | $9/4$ | $+0.811$ |
 | $R_5$ | $25/9$ | $+1.022$ |
 | $R_4$ | $(4/5)\varphi^{2}$ | $+0.739$ |
+
+Half-integer irreps ($R_1$, $R_2$, $R_6$, $R_8$) are computed from the same spectral data by the same method: the Laplacian eigenvalues and their multiplicities are exact (from $SU(2)$ representation theory and the $2I$ character table), and the spectral zeta function has a unique meromorphic continuation. The Hurwitz decomposition expresses each torsion as a finite sum of $L$-function derivatives at $s = 0$, each computable to arbitrary precision. 
+
+The difference is selectivity: integer-spin irreps retain only 4 of 16 Dirichlet characters (conductors 2, 3, 5, 5), producing algebraic closed forms. Half-integer irreps retain 28 to 32 characters. The resulting sums are equally exact; they remain as finite combinations of $L'(0, \chi)$ values rather than reducing to algebraic expressions. The decimal values displayed throughout this paper are truncations of well-defined mathematical constants, computable to any desired precision by the same methods that verified the integer-spin values to 79 digits.
 
 The 24 vacuum torsion values follow from $\log T^2(\rho \otimes \sigma) = \sum_\tau N_{\rho\sigma\tau} \log T^2(\tau)$:
 
