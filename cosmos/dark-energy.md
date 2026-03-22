@@ -1,6 +1,8 @@
 # w Evolving: Λ Topological Resolution
 
-DESI reports mounting evidence (2.8--4.2σ) that the dark energy equation of state $w$ evolves with redshift. If true, it would overturn the cosmological constant and reshape modern physics. Mode Identity Theory says the change is an illusion: Λ is fixed by the geometry of the universe, and what looks like evolution is the observer's phase position on a standing wave. The "phantom crossing" through $w = -1$ arises as a template artifact rather than exotic physics.
+DESI reports mounting evidence (2.8--4.2σ) that the dark energy equation of state $w$ evolves with redshift. If true, it would overturn the cosmological constant and reshape modern physics. 
+
+Mode Identity Theory says the change is an illusion: Λ is fixed by the geometry of the universe, and what looks like evolution is the observer's phase position on a standing wave. The "phantom crossing" through $w = -1$ arises as a template artifact rather than exotic physics.
 
 Tested against DESI DR2 baryon acoustic oscillation data, the Pantheon+ supernova compilation, and a Planck-calibrated CMB ruler prior, MIT with locked parameters achieves $\Delta\text{AIC} = -2.1$ over ΛCDM at the same parameter count.
 
