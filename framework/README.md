@@ -70,7 +70,7 @@ $$\Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \parti
 
 The 1D boundary of the Möbius surface is the edge with geometric circumference $L_\text{strip} = \pi R_\Lambda \approx 16.7$ Gpc. The Möbius anti-periodic boundary condition means the wavefunction changes sign after one traverse of the boundary; two traverses are required to restore the original sign. This topological property, a consequence of the $\mathbb{Z}_2$ holonomy, is the origin of the $4\pi$ period: the wave must advance through $4\pi$ of phase to return to its initial amplitude. The edge inherits the anti-periodic boundary condition.
 
-The fundamental domain scale $L_\text{fund} \approx 2.1$ Gpc is distinct from $L_\text{strip}$. It is the minimum-wavelength observable mode scale of the bounded 3D cavity ($S^3/2I$), derived from the CMB low-ℓ cutoff. The cosmic phase $t \equiv 2\pi s/L_\text{fund}$ uses the fundamental domain as reference length, where $s$ is an abstract phase coordinate running over the mode structure of the cavity; the $S^1$ edge geometric circumference is $L_\text{strip} \approx 16.7$ Gpc.
+The fundamental domain scale $L_\text{fund} \approx 2.1$ Gpc is distinct from $L_\text{strip}$. It is the minimum-wavelength observable mode scale of the bounded 3D cavity ($S^3/2I$), derived from the CMB low-ℓ cutoff. The spatial phase coordinate $\phi \equiv 2\pi s/L_\text{fund}$ parametrizes the mode structure of the 3D cavity, where $s$ runs over the fundamental domain. For the isotropic ground state ($m_h = 0$), the spatial dependence is uniform and drops out of all background observables. The cosmic phase $t$ appearing in $\Psi = \cos(t/2)$ is the temporal phase, defined below.
 
 ### The Möbius Surface
 
@@ -132,7 +132,7 @@ This selects cosine over sine: sine has $\partial_t \sin(t/2)|_{t=0} \neq 0$ and
 
 A period of $4\pi$ is required to carry the sign from positive through negative and back to positive: $\Psi(t + 4\pi) = \Psi(t)$.
 
-Let $t \equiv 2\pi s/L_\text{fund}$ denote cosmic phase, where $s$ is an abstract phase coordinate running over the mode structure of the 3D cavity; the $S^1$ edge has geometric circumference $L_\text{strip} \approx 16.7$ Gpc. $L_\text{fund}$ is the fundamental domain scale. (At Planck scale, the boundary condition manifests as the spin-1/2 sign flip under $2\pi$ rotation. Their correspondence is the dimensional projection of the same topological constraint.) 
+The cosmic phase $t$ is the temporal phase of the standing wave, defined by $t = 4\pi\, T / T_\text{cycle}$, where $T$ is cosmic proper time and $T_\text{cycle}$ is the full cycle duration obtained from the Friedmann integral over the fundamental domain scale $L_\text{fund}$. The spatial phase coordinate $\phi \equiv 2\pi s / L_\text{fund}$ parametrizes the 3D cavity mode structure; for the isotropic ground state ($m_h = 0$), it is uniform and does not appear in $\Psi$. (At Planck scale, the anti-periodic boundary condition manifests as the spin-1/2 sign flip under $2\pi$ rotation. Their correspondence is the dimensional projection of the same topological constraint.)
 
 The standing wave takes the form:
 
@@ -140,11 +140,9 @@ The standing wave takes the form:
 
 ### The Present Epoch
 
-The phase definition $t \equiv 2\pi s/L_\text{fund}$ means a full $4\pi$ cycle corresponds to $\Delta s = 2L_\text{fund}$ in the phase coordinate: the mode structure is traversed twice. $L_\text{fund}$ is a comoving scale, derived from the CMB low-ℓ cutoff; $s$ therefore maps directly to comoving distance, and the Friedmann integral applies. 
+The fundamental domain scale $L_\text{fund} \approx 2.1$ Gpc is a comoving scale derived from the CMB low-ℓ cutoff. The topology sets the cycle structure ($4\pi$ period, anti-periodic BC); the Friedmann integral converts this comoving scale to a proper-time cycle duration $T_\text{cycle} \approx 33.2$ Gyr (using $\Omega_m = 0.315$, $\Omega_\Lambda = 0.685$, $H_0 = 67.4$ km/s/Mpc; the integral is in the companion paper). The concordance matter fraction $\Omega_m = 0.315$ is used solely to locate the present epoch on the standing wave; it enters no prediction in the scorecard.
 
-The fundamental domain scale $L_\text{fund} \approx 2.1$ Gpc translates to a cycle duration $T_\text{cycle} \approx 33.2$ Gyr through the standard Friedmann expansion history ($\Omega_m = 0.315$, $\Omega_\Lambda = 0.685$, $H_0 = 67.4$ km/s/Mpc); the integral is in the companion paper. 
-
-The topology sets the cycle structure; the expansion history converts comoving distance to cosmic time. With $t_\text{age} = 13.8$ Gyr:
+With $t_\text{age} = 13.8$ Gyr:
 
 $$t = 4\pi \times \frac{13.8}{33.2} \approx 5.22 \text{ rad}$$
 
@@ -163,7 +161,7 @@ The epoch offset $\delta \equiv t - 2\pi$ measures angular distance from turnaro
 
 **Wave turnaround and phantom crossing.** Turnaround occurs at $t = 2\pi$, where $\Psi = \cos(\pi) = -1$: the wave reaches its amplitude minimum and reverses. This is a turning point of the amplitude; $\Psi = 0$ occurs at $t = \pi$ and $t = 3\pi$. In fluid-based dark energy models, the equation-of-state parameter $w_\text{eff}$ crossing $-1$ is called a phantom crossing. That label attaches to a parameter in those models; MIT's amplitude minimum produces the same observational signature through a different mechanism. 
 
-The derivation of the corresponding redshift $z_\text{cross} \approx 0.663$ from the phase gap $|\delta| = 1.06$ rad via the Friedmann integral is in the companion paper. Both predictions are pre-registered to Euclid DR1.
+The corresponding redshift $z_\text{cross} = 1 + \delta/\pi \approx 0.663$ follows from $\delta$ via the phase-redshift mapping; the full derivation is in the companion paper. Both predictions are pre-registered to Euclid DR1.
 
 ## Cosmic Scale
 
@@ -509,7 +507,8 @@ Observables are located in time on the edge and positioned on the mode spectrum.
 
 | Symbol | Name | Domain | Description |
 |---|---|---|---|
-| $t$ | Cosmic phase | $[0, 4\pi]$ | Observer's phase location on $\Psi$; time in MIT is phase |
+| $t$ | Cosmic phase | $[0, 4\pi]$ | Temporal phase of $\Psi$; defined by $t = 4\pi\, T / T_\text{cycle}$ where $T$ is cosmic proper time |
+| $\phi$ | Spatial phase | $[0, 4\pi]$ | Spatial phase coordinate of the cavity mode; $\phi \equiv 2\pi s / L_\text{fund}$; uniform for $m_h = 0$ |
 | $\delta$ | Epoch offset | $\sim -1.06$ rad | How far from turnaround |
 | $\Omega$ | Scale | $(\mathcal{R}/\ell_P)^2$ | Planck areas on horizon $\sim 10^{122}$; $\mathcal{R}$ is $R_H$ or $R_\Lambda$ per manifold |
 | $\Omega_H$ | Hubble scale | $(R_H/\ell_P)^2$ | Evolves with epoch |
@@ -533,7 +532,7 @@ Failure of any one falsifies the framework.
 | Prediction | Falsified if | Threshold |
 |---|---|---|
 | $a_0(z) \propto H(z)$ | $a_0$ consistent with constant at high $z$ | ≥ 2σ, $z > 2$ |
-| $\Lambda$ constant | $\rho_{\text{DE}}(z)$ shows significant evolution | ≥ 2σ |
+| $\Lambda$ constant, $w_\text{eff} > -1$ | True phantom confirmed | ≥ 2σ |
 | CMB boundary | Wrong boundary scale | $\ell_{\text{cut}} \notin [15, 50]$ |
 
 ### Secondary predictions
@@ -545,7 +544,6 @@ These do not individually falsify MIT but meaningfully raise or lower credibilit
 | Null particle dark matter | Non-gravitational interaction confirmed | ≥ 5σ, replicated |
 | $H_0$ discrete | Continuous environmental variation confirmed | Histogram test |
 | $z_{\text{cross}} \approx 0.663$ | Phantom crossing outside locked range | below 0.4 or above 0.9 |
-| $w_{\text{eff}} > -1$ at all $z$ | True phantom behavior confirmed | Euclid, Rubin |
 | $\mu_\Lambda \approx 2.25$ meV | Lightest $\nu$ mass inconsistent | KATRIN, cosmological bounds |
 | $L_\text{strip}/L_\text{fund} = 8.17 \pm 0.1$ | CMB data pins ratio to 8.00 at $> 1\sigma$ | Spectral prediction; observational value 7.93; gap unresolved |
 
