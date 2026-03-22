@@ -39,11 +39,13 @@ $$E_{\text{MIT}}^2(z) = \Omega_m(1+z)^3 + \Omega_r(1+z)^4 + \Omega_\Lambda^{\tex
 
 where $\theta(z) = (2\pi + \delta)/\bigl(2(1+z)\bigr)$: the standing wave phase is $t(z) = (2\pi + \delta) \cdot a = (2\pi + \delta)/(1+z)$ (linear in scale factor $a$, the minimal ansatz keeping the topological phase independent of the dynamics it modulates), and $\theta = t/2$ because $\Psi = \cos(t/2)$. The bare cosmological constant $\Omega_\Lambda^{\text{bare}} = (1 - \Omega_m - \Omega_r)/(1 + \varepsilon\cos\theta_0)$ with $\theta_0 = (2\pi + \delta)/2$ enforces $E^2(0) = 1$. The ΛCDM limit is recovered at $\varepsilon \to 0$.
 
-The surface-mode coupling is invisible to the CMB by construction: $\Omega_\Lambda^{\text{bare}} / E^2(z_\ast) \sim 10^{-9}$ at recombination. The modulation contributes roughly $4 \times 10^{-10}$ to $E^2$ there, far below observational sensitivity. At low redshift, where Λ dominates the energy budget, the full BAO and supernova signatures are preserved.
+The surface-mode coupling is invisible to the CMB by construction. At recombination ($z_* \approx 1090$), $E^2(z_*) \approx \Omega_m(1091)^3 \approx 4 \times 10^8$, so $\Omega_\Lambda^{\text{bare}} / E^2(z_*) \approx 1.7 \times 10^{-9}$; the modulation contributes $\varepsilon \times 1.7 \times 10^{-9} \approx 4 \times 10^{-10}$ to $E^2$, far below observational sensitivity. At low redshift, where Λ dominates the energy budget, the full BAO and supernova signatures are preserved.
 
 ### The Phase Offset δ
 
-The observer's position within the cosmic cycle is measured from the geometric turnaround. The value $\delta = t - 2\pi = -1.06$ rad follows from the observer's cosmic phase $t = 4\pi \times (t_\text{age}/T_\text{cycle}) = 5.22$ rad, where $t_\text{age} = 13.8$ Gyr (Planck) and $T_\text{cycle} \approx 33.2$ Gyr (Friedmann integral over $L_\text{fund}$). 
+The observer's position within the cosmic cycle is measured from the geometric turnaround ($t = 2\pi$, where $\Psi = -1$; $t$ increases monotonically from $t = 0$). The derivation:
+
+$$L_\text{fund} \approx 2.1 \text{ Gpc} \xrightarrow{\text{Friedmann}} T_\text{cycle} \approx 33.2 \text{ Gyr} \xrightarrow{t = 4\pi\, T/T_\text{cycle}} t_\text{now} = 4\pi \times \frac{13.8}{33.2} = 5.22 \text{ rad} \xrightarrow{\delta \equiv t - 2\pi} \delta = -1.06 \text{ rad}$$
 
 Both inputs are prior to any BAO dataset. The resulting $z_\text{cross} = 0.663$ coincides with the center of DESI's non-parametric $w(z)$ transition region. This coincidence is a consistency check, not a calibration. The prediction is registered on Zenodo prior to Euclid DR1.
 
@@ -51,7 +53,7 @@ Both inputs are prior to any BAO dataset. The resulting $z_\text{cross} = 0.663$
 
 ε is a translation coefficient, measuring how the MIT standing wave projects into the Friedmann equation. It belongs to the interface between the two frameworks: MIT's own structure (boundary conditions, standing wave, surface-mode eigenvalue) contains no free amplitude parameter. The projection into standard Friedmann variables requires one because the two descriptions parameterize the expansion history differently. Whether MIT can derive ε from its own geometry remains an open problem.
 
-The calibration proceeds by inject-and-recover: MIT distances are generated at trial ε, a CPL template is fitted, and the recovered $w_0$ is matched to the target $w_0 = -0.773$ from DES-SN5YR + Planck + SDSS BAO, which contains no DESI data. This yields ε = 0.255. The profiled best-fit from DESI data alone is ε = 0.16. Because ε measures a fixed geometric projection, the two values should in principle converge; the residual difference likely reflects dataset-dependent systematics and the distortion introduced by fitting a cosine modulation through a linear CPL template. The qualitative result holds across the full range: the data favor a nonzero projection of the standing wave into the expansion history.
+The calibration proceeds by inject-and-recover: MIT distances are generated at trial ε, a CPL template is fitted, and the recovered $w_0$ is matched to the target $w_0 = -0.773$ from DES-SN5YR + Planck + SDSS BAO, which contains no DESI data. This yields ε = 0.255 and is locked before the DESI analysis (prediction mode, $k = 2$). Separately, profiling ε on the DESI combination yields a best-fit of ε = 0.16 (profile mode, $k = 3$; see Results). The residual difference between the two values likely reflects dataset-dependent systematics and the distortion introduced by fitting a cosine modulation through a linear CPL template.
 
 ## III. The Phantom Crossing
 
@@ -67,7 +69,7 @@ The modulation $\varepsilon\cos\theta(z)$ changes sign where $\cos\theta = 0$, i
 
 $$\frac{2\pi + \delta}{2(1 + z_\text{cross})} = \frac{\pi}{2} \implies 1 + z_\text{cross} = \frac{2\pi + \delta}{\pi} \implies z_{\text{cross}} = 1 + \frac{\delta}{\pi} = 0.663$$
 
-This is the zero-crossing of the modulation function, where the deviation from ΛCDM peaks at ~4.6% in $E(z)$. When observers fit these distances using CPL templates ($w_0 + w_a(1-a)$), the linear form cannot capture the cosine shape. CPL compensates by placing $w_0 > -1$ and $w_a < 0$. The phantom crossing is not in the expansion history but in the template used to fit it.
+This is the zero-crossing of the modulation function $\varepsilon\cos\theta$. The deviation of $E_\text{MIT}$ from $E_\Lambda\text{CDM}$ peaks near this redshift (~4.6% in $E(z)$) because the flatness normalization sets $\Omega_\Lambda^\text{bare} > \Omega_\Lambda$: absorbing the negative modulation at $z = 0$ raises the bare value, so when $\cos\theta$ passes through zero the bare excess is fully exposed. When observers fit these distances using CPL templates ($w_0 + w_a(1-a)$), the linear form cannot capture the cosine shape. CPL compensates by placing $w_0 > -1$ and $w_a < 0$. The phantom crossing is not in the expansion history but in the template used to fit it.
 
 When CPL is fit to noise-free MIT distances, the recovered sum $w_0 + w_a = -1.00$ sits at the ΛCDM value. The template does not cross $w = -1$. The crossing in DESI's fit arises from the CPL template interacting with data scatter.
 
@@ -83,9 +85,7 @@ Tested against DESI DR2 BAO (13 observables, 7 redshift bins), Pantheon+ (~1590 
 
 MIT improves on ΛCDM by $\Delta\chi^2 = -2.1$ at the same parameter count. The improvement comes from a better BAO fit ($\Delta\chi^2_\text{BAO} = -2.3$) and a substantially better match to the CMB-calibrated ruler. MIT's $H_0 r_d = 9860$ sits 0.6σ from the Planck center; ΛCDM's $H_0 r_d = 10023$ sits 1.4σ away.
 
-### Coupling Amplitude Profile
-
-Profiling $\varepsilon$ over a grid while fitting $\Omega_m$ and $H_0 r_d$, the data prefer $\varepsilon = 0.16$ with $\Delta\chi^2 = -7.9$ relative to ΛCDM. Counting $\varepsilon$ as a third parameter ($k = 3$), this yields $\Delta\text{AIC} = -5.9$: the data confirm a nonzero projection. The qualitative result (nonzero modulation is preferred) is robust across $\varepsilon \in [0.08, 0.26]$.
+**Coupling Amplitude Profile (profile mode, $k = 3$).** Profiling $\varepsilon$ over a grid while fitting $\Omega_m$ and $H_0 r_d$, the data prefer $\varepsilon = 0.16$ with $\Delta\chi^2 = -7.9$ relative to ΛCDM. Counting $\varepsilon$ as a third parameter yields $\Delta\text{AIC} = -5.9$. Both prediction mode ($\varepsilon = 0.255$ locked, $k = 2$, $\Delta\text{AIC} = -2.1$) and profile mode ($\varepsilon = 0.16$ fitted, $k = 3$, $\Delta\text{AIC} = -5.9$) favor nonzero modulation over ΛCDM.
 
 ## V. Falsification
 
