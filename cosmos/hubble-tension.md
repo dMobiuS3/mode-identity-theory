@@ -95,7 +95,7 @@ This matches SH0ES. The 8.4% is an output of the lattice geometry at $\Theta_0 =
 
 ## IV. Method Classification
 
-The phase field does not shift all $H_0$ measurements equally. How much of the 8.4% reaches the final answer depends on where the absolute calibration is set. Two channels transmit the bias.
+The phase field shifts $H_0$ measurements differently depending on calibration class. How much of the 8.4% reaches the final answer depends on where the absolute calibration is set. Two channels transmit the bias.
 
 ### Calibration inheritance
 
@@ -117,7 +117,7 @@ Geometric methods (time-delay lensing, standard sirens) integrate $1/H(z)$ along
 | BAO + BBN | Early-universe ruler | Neither (bare well) | ~67 |
 | CMB (Planck) | Early-universe physics | Neither (bare well) | ~67 |
 
-The key distinction is where the absolute calibration is set, not the redshift of the observed object. The CMB does not average over $\Theta_f$; it records a phase epoch where local structure had not yet developed. BAO and BBN use an early-universe ruler ($r_d$) that predates the phase field. Local ladders import the full shift because every anchor sits inside the coherence domain.
+The key distinction is where the absolute calibration is set. The CMB records a phase epoch before local structure existed ($\Theta_f = 0$ by construction). BAO and BBN use an early-universe ruler ($r_d$) that predates the phase field. Local ladders import the full shift because every anchor sits inside the coherence domain.
 
 The prediction is stratification: $H_0$ values should sort by calibration class, with locally-anchored methods clustering near 73 and early-universe methods clustering near 67.
 
@@ -141,4 +141,4 @@ The MIT prediction: all disk galaxies with developed halos select the same quant
 
 Both measurements are correct. The CMB samples the Fibonacci well at $\Theta_0 = 34/120$. Local distance ladders sample from inside a triggered galaxy, shifted by one bosonic step to $\Theta = 36/120$. The closure identity guarantees the trigger fires for every flat-curve disk. The slope of the phase operator at that well converts the step into 8.4%.
 
-*The Hubble tension is not a measurement disagreement. It's phase field mechanics.*
+*The Hubble tension is phase field mechanics.*
