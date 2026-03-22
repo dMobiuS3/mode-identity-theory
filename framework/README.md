@@ -217,7 +217,7 @@ The manifold index $n$ specifies which scale governs the mode being sampled.
 
 The access hierarchy follows from boundary structure: $S^1$ is the observer's anchor (direct); Möbius is accessed through its non-orientable twist; $S^3$ has no boundary ($\partial S^3 = \emptyset$). Spatial degrees of freedom enter only through reconstruction.
 
-The $n=3/2$ row is a geometric conversion, distinct from manifold dilution. The coefficient 2 in $\Lambda_\text{top} = 2/R_\Lambda^2$ is the ground-state eigenvalue of the 2D surface scalar Laplacian (established by the Weitzenböck bound and saturated by the ground state). The coefficient 3 in $\Lambda_\text{obs} = 3/R_\Lambda^2$ is the trace of the de Sitter vacuum Einstein equations in 3D space ($R_{\mu\nu} - \frac{1}{2}g_{\mu\nu}R + \Lambda g_{\mu\nu} = 0$ implies $\Lambda = 3/R_\Lambda^2$ for a de Sitter geometry with radius $R_\Lambda$). 
+The $n=3/2$ row is a geometric conversion, distinct from manifold dilution. The coefficient 2 in $\Lambda_\text{top} = 2/R_\Lambda^2$ is the product of the ground-mode eigenvalue $\lambda_0 = (\pi/L)^2 = 1/R^2$ (anti-periodic BC on a strip of length $L = \pi R_\Lambda$) and the antinode intensity $C(60/120) = 2$. The coefficient 3 in $\Lambda_\text{obs} = 3/R_\Lambda^2$ is the trace of the de Sitter vacuum Einstein equations in 3D space ($R_{\mu\nu} - \frac{1}{2}g_{\mu\nu}R + \Lambda g_{\mu\nu} = 0$ implies $\Lambda = 3/R_\Lambda^2$ for a de Sitter geometry with radius $R_\Lambda$). 
 
 The Gauss-Codazzi equations at vacuum embedding ($K_{ij}=0$) connect the two eigenvalue problems. The ratio $\Lambda_\text{obs}/\Lambda_\text{top} = 3/2$ follows from these two independent computations; stating it as "ratio of dimensions (3/2)" is a mnemonic for the coefficient values. Full derivation in companion paper. The conversion is purely geometric; $\Omega$ plays no role.
 
@@ -474,7 +474,7 @@ $C(\Theta)$ reads the position axis: where the observable sits on the mode spect
 
 > †For dimensionless couplings ($A_P = 1$), manifold dilution does not apply directly. The running from the Planck-scale value $C(13/60) \approx 0.792$ to the observed $\alpha \approx 7.3 \times 10^{-3}$ is controlled by the domain resolution. The exponent $n = 1/30$ is set equal to the minimum grid step $1/|I| = 1/60$ on the bosonic domain, giving $\Omega_\Lambda^{-1/60} = (\sqrt{\Omega_\Lambda})^{-1/30}$.
 > 
-> ‡ $\Lambda_\text{top} = 2/R_\Lambda^2$ is the surface eigenvalue (Weitzenböck / eigenvalue chain). $\Lambda_\text{obs} = (3/2)\Lambda_\text{top} = 3/R_\Lambda^2$ via the vacuum Gauss-Codazzi embedding ($K_{ij}=0$). The shorthand $C(60/120) = 2.00$ with rounded $\Omega_\Lambda = 10^{122}$ gives $2.0 \times 10^{-122}$; the precise value with $\Omega_\Lambda \approx 1.024 \times 10^{122}$ is $\approx 1.95 \times 10^{-122}$, yielding $\times 3/2 \approx 2.9 \times 10^{-122}$.
+> ‡ $\Lambda_\text{top} = 2/R_\Lambda^2$ is the surface eigenvalue: ground-mode eigenvalue $\lambda_0 = 1/R_\Lambda^2$ (anti-periodic BC) times antinode intensity $C(60/120) = 2$. $\Lambda_\text{obs} = (3/2)\Lambda_\text{top} = 3/R_\Lambda^2$ via the vacuum Gauss-Codazzi embedding ($K_{ij}=0$). The shorthand $C(60/120) = 2.00$ with rounded $\Omega_\Lambda = 10^{122}$ gives $2.0 \times 10^{-122}$; the precise value with $\Omega_\Lambda \approx 1.024 \times 10^{122}$ is $\approx 1.95 \times 10^{-122}$, yielding $\times 3/2 \approx 2.9 \times 10^{-122}$.
 
 $H_0$ and $a_0$ occupy different wells on the same edge; their ratio is fixed by position. $H_0$ and $\Lambda$ occupy different manifolds; their 61-order span is fixed by dimension. $\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by resolution.
 
@@ -499,7 +499,7 @@ Each component traces to the single topological postulate:
 | $L_\text{strip}/L_\text{fund} = 8.17 \pm 0.1$ | Spectral derivation: scalar Laplacian on $S^3/2I$, degree-12 Klein invariant, Heun transverse eigenvalue $\mu_1 = 1.021$. Observational value: 7.93. Gap unresolved. | Discrepancy |
 | $L_f = v_c^2/a_0$ | Coherence scale | Derived |
 | $\mathcal{T}$, $\mathcal{T}_c$, $\Theta_f$ response | Gauge-invariant classification index + critical value + binary step function | Derived |
-| $\Lambda_\text{top} = 2/R_\Lambda^2$ | Weitzenböck gives lower bound $\lambda_{\min} \geq 2/R_\Lambda^2$; eigenvalue chain gives equality independently; ground state saturates the bound. Conversion to $\Lambda_\text{obs}$ via vacuum Gauss-Codazzi is a separate step | Derived |
+| $\Lambda_\text{top} = 2/R_\Lambda^2$ | Anti-periodic ground mode $\lambda_0 = 1/R_\Lambda^2$ times antinode intensity $C(60/120) = 2$. Conversion to $\Lambda_\text{obs}$ via vacuum Gauss-Codazzi is a separate step | Derived |
 
 ### Symbol Glossary
 
