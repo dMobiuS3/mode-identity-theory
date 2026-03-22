@@ -37,7 +37,7 @@ The cosmic wave therefore modulates the dark energy sector, with an amplitude se
 
 $$E_{\text{MIT}}^2(z) = \Omega_m(1+z)^3 + \Omega_r(1+z)^4 + \Omega_\Lambda^{\text{bare}}\bigl[1 + \varepsilon\cos\theta(z)\bigr]$$
 
-where $\theta(z) = (2\pi + \delta)/\bigl(2(1+z)\bigr)$. The ΛCDM limit is recovered at $\varepsilon \to 0$.
+where $\theta(z) = (2\pi + \delta)/\bigl(2(1+z)\bigr)$: the standing wave phase is $t(z) = (2\pi + \delta) \cdot a = (2\pi + \delta)/(1+z)$ (linear in scale factor $a$, the minimal ansatz keeping the topological phase independent of the dynamics it modulates), and $\theta = t/2$ because $\Psi = \cos(t/2)$. The bare cosmological constant $\Omega_\Lambda^{\text{bare}} = (1 - \Omega_m - \Omega_r)/(1 + \varepsilon\cos\theta_0)$ with $\theta_0 = (2\pi + \delta)/2$ enforces $E^2(0) = 1$. The ΛCDM limit is recovered at $\varepsilon \to 0$.
 
 The surface-mode coupling is invisible to the CMB by construction: $\Omega_\Lambda^{\text{bare}} / E^2(z_\ast) \sim 10^{-9}$ at recombination. The modulation contributes roughly $4 \times 10^{-10}$ to $E^2$ there, far below observational sensitivity. At low redshift, where Λ dominates the energy budget, the full BAO and supernova signatures are preserved.
 
@@ -61,11 +61,11 @@ The effective equation of state from Friedmann inversion is:
 
 $$w_{\text{eff}}(z) = -1 + \frac{\varepsilon\,(2\pi + \delta)\,\sin\theta(z)}{6(1+z)\bigl[1 + \varepsilon\cos\theta(z)\bigr]}$$
 
-The correction term is strictly positive: $w_\text{eff}(z) > -1$ at all redshifts. MIT's effective dark energy never goes phantom.
+The correction term is strictly positive for all $z \geq 0$: with $\theta_0 \approx 2.61 < \pi$, the phase satisfies $\theta(z) \in (0, \theta_0)$ so $\sin\theta > 0$ throughout, and $1 + \varepsilon\cos\theta > 0$ for $\varepsilon < 1$. Therefore $w_\text{eff}(z) > -1$ at all physical redshifts. MIT's effective dark energy never goes phantom.
 
-The modulation changes sign at:
+The modulation $\varepsilon\cos\theta(z)$ changes sign where $\cos\theta = 0$, i.e. $\theta = \pi/2$:
 
-$$z_{\text{cross}} = 1 + \frac{\delta}{\pi} = 0.663$$
+$$\frac{2\pi + \delta}{2(1 + z_\text{cross})} = \frac{\pi}{2} \implies 1 + z_\text{cross} = \frac{2\pi + \delta}{\pi} \implies z_{\text{cross}} = 1 + \frac{\delta}{\pi} = 0.663$$
 
 This is the zero-crossing of the modulation function, where the deviation from ΛCDM peaks at ~4.6% in $E(z)$. When observers fit these distances using CPL templates ($w_0 + w_a(1-a)$), the linear form cannot capture the cosine shape. CPL compensates by placing $w_0 > -1$ and $w_a < 0$. The phantom crossing is not in the expansion history but in the template used to fit it.
 
