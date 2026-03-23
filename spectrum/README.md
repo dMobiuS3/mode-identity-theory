@@ -43,6 +43,9 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 | Particle generations | 3 (mass gaps) | 3 | exact |
 | Force count | 3 (grid exhaustion) | 3 | exact |
 | Null SUSY | permanent | ongoing null results | ✓ |
+| Color from $Z_3$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
+| Domain from $Z_4$ | $D = 60$ (int) vs $120$ (half-int) | integer/half-integer split | exact |
+| Eta sign gate | $\eta > 0 \implies Q \leq 0$ | all SM-assigned entries | exact |
 | Fermion masses | 24 entries | all 12 SM: 10/12 within $\times 3$ | systematic |
 | $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
 | $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
