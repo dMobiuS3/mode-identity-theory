@@ -10,7 +10,7 @@ The temporal edge $S^1$ bounds the non-orientable Möbius surface, embedded in t
 
 $$\Large \boxed{\Psi = \cos(t/2), \quad \text{period } 4\pi}$$
 
-Anti-periodic boundary conditions are forced by the trefoil's winding number 2. Two traversals to restore sign. Everything rides on this.
+Anti-periodic boundary conditions are forced by the Möbius identification. One traversal reverses sign. Two traversals to restore. Everything rides on this.
 
 :balance_scale: **One equation:**
 
