@@ -79,7 +79,7 @@ Blind outputs of a fixed structure, checked against observation:
 | CMB alignment | exists | $\Delta\theta_{23} \approx 10°$ | ~ |
 | CMB matched circles | null expected | null observed | ✓ |
 | $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
-| $H_0$ local shift | 8.4% | ~8.7% | <1% |
+| $H_0$ local shift | 8.4% | ~8.7% | ~3% |
 | $H_0$ bimodality | 67 / 73, not continuous | two persistent camps | ✓ |
 | $a_0/(cH_0)$ | 0.184 | 0.183 | <1% |
 | $a_0/a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
