@@ -64,7 +64,7 @@ The spectral geometry of $S^3/2I$ reads L-function structure completely. Each re
 
 ### A. Torsion L-Basis
 
-The Reidemeister torsion (= analytic torsion by Cheeger-Müller) for all integer-spin irreps of $2I$ factors exactly into four Dirichlet L-function special values, with $E_8$ McKay symmetries killing 12 of 16 characters mod 60. Four characters survive, at conductors 2, 3, 5, and 5: exactly the primes dividing $|2I|=120$.
+The Reidemeister torsion (analytic torsion by Cheeger-Müller) for all integer-spin irreps of $2I$ factors exactly into four Dirichlet L-function special values, with $E_8$ McKay symmetries killing 12 of 16 characters mod 60. Four characters survive, at conductors 2, 3, 5, and 5: exactly the primes dividing $|2I|=120$.
 
 Two independent derivation paths (combinatorial Reidemeister + spectral analytic torsion via Kummer/Gauss). Verified to 79 digits. The Galois pair satisfies $T^2(R_3)/T^2(R_4) = \varphi^{-4}$ (exact), with the golden ratio entering through the Legendre character of $\mathbb{Q}(\sqrt{5})$.
 
@@ -91,7 +91,7 @@ The contrast with the torsion defines the landscape: maximum selectivity at a si
 
 The Dirac eta invariant
 
-$$\eta_D(\sigma,s) = \sum[m^+-m^-](n+3/2)^{-s}$$
+$$\eta_D(\sigma,s) = \sum_{n}(m_n^+ - m_n^-)(n+3/2)^{-s}$$
 
 kills 60–80% of Dirichlet characters mod 120 in the coprime sector. The killing pattern maps to the stabilizer structure of the icosahedron through $\mathrm{CRT}(8,3,5)$:
 
