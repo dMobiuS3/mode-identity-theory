@@ -25,7 +25,7 @@
 |-------|------|-----|
 | The Waltz: Λ *Note* to Einstein's Field Equations | 2026-01-07 | [10.5281/zenodo.18176445](https://doi.org/10.5281/zenodo.18176445) |
 | α Fine Structure: Λ Minimum Step to Mode Identity | 2026-02-04 | [10.5281/zenodo.18484780](https://doi.org/10.5281/zenodo.18484780) |
-| The Spectrum: Particle Mass Generation from McKay Spectral Geometry on S³/2I | 2026-02-11 | [10.5281/zenodo.18603975](https://doi.org/10.5281/zenodo.18603975) |
+| The Spectrum: Particle Mass Generation from Spectral Geometry on S³/2I | 2026-02-11 | [10.5281/zenodo.18603975](https://doi.org/10.5281/zenodo.18603975) |
 
 ### Cosmology
 
