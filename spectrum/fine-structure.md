@@ -168,7 +168,7 @@ Observed: 3.490. Agreement: 1.8%. Same Kostant exponent, different grids, one tw
 | $\alpha_W$ | $C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)$ | $0.0339$ | $0.0338$ | $0.4\%$ | Motivated |
 | $\alpha_s/\alpha_W$ | $C(17/60) / [C(17/120) \cdot \cos(\pi/10)]$ | $3.426$ | $3.490$ | $1.8\%$ | Established |
 
-## V. The Λ-α Connection
+## V. The α-Λ Connection
 
 Both the cosmological constant and the fine structure constant reference the same hierarchy $\Omega_\Lambda$. The difference is how much of it they use.
 
