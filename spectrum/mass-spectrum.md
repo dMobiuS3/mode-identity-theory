@@ -28,7 +28,7 @@ Four factors. Four sources. Each traces independently to the topological postula
 
 ## II. The Factors
 
-### 1. Neutrino Floor ( $\mu_\Lambda$ )
+### 1. Neutrino Floor  $\mu_\Lambda$ 
 
 The vacuum energy density of the cosmological constant defines the overall mass scale:
 
@@ -45,7 +45,7 @@ The neutrino mass sector provides direct access to this scale:
 
 The multipliers (4, 22) emerge from parity violation due to the Mobius twist. KATRIN and cosmological bounds provide the falsification window.
 
-### 2. Kostant Sunflower ( $C_{\text{geom}}(\rho)$ )
+### 2. Kostant Sunflower  $C_{\text{geom}}(\rho)$ 
 
 Each irrep sits at a specific position on the finite domain, encoded by its Kostant exponents. The geometric mean of the phase factor $C(e/D) = 2\sin^2(\pi e/D)$ over these exponents gives the irrep's amplitude on the spectrum.
 
@@ -64,7 +64,7 @@ The domain size depends on spin: $D = 60$ for integer-spin, $D = 120$ for half-i
 | $R_7$ | Int | 60 | 0.7564 |
 | $R_8$ | Half | 120 | 0.2382 |
 
-### 3. McKay Elevator ( $(\sqrt{\Omega_\Lambda})^{\,\text{dist}/30}$ )
+### 3. McKay Elevator  $(\sqrt{\Omega_\Lambda})^{\,\text{dist}/30}$ 
 
 The McKay graph encodes the distance of each irrep from the trivial representation $R_0$. Distance determines orders of magnitude separation from the vacuum floor via the hierarchy exponent $(\sqrt{\Omega_\Lambda})^{\,\text{dist}/30}$, where the denominator $h(E_8) = 30$ is the Coxeter number.
 
@@ -91,7 +91,7 @@ Half-integer spin: R₁, R₂, R₆, R₈. Integer spin: R₀, R₃, R₄, R₅,
 
 The $j_\text{first}$ rule follows from the McKay multiplicity structure: the spin-$j$ representation of $SU(2)$, restricted to $2I$, first contains irrep $\rho$ at exactly $j = \text{dist}(\rho)/2$. This holds for both spin parities and is a consequence of the McKay correspondence between the $2I$ representation graph and the extended $E_8$ Dynkin diagram.
 
-### 4. Reidemeister Torsion ( $T^2(\rho \otimes \sigma)$ )
+### 4. Reidemeister Torsion  $T^2(\rho \otimes \sigma)$ 
 
 Three flat SU(2) connections on $S^3/2I$ provide the generation mechanism. Each has $H^1 = 0$: no moduli, no mixing between vacua. The Reidemeister torsion encodes the fine structure within each mass shell.
 
