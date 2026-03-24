@@ -37,7 +37,7 @@ No mechanism assuming simply connected flat topology explains this value.
 
 ## II. The Topology
 
-Eigenvalues arise from differential equations on a domain; the shape determines the spectrum. Mode Identiy Theory defines the shape:
+Eigenvalues arise from differential equations on a domain; the shape determines the spectrum. We choose the shape:
 
 $$S^1 = \partial(\text{Mobius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$$
 
