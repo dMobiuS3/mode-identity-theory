@@ -319,7 +319,7 @@ Eigenvalues of the Laplacian on fixed topology are constants. If the topology is
 | Prediction | Falsified if | Threshold |
 |---|---|---|
 | Λ constant | Best-fit Λ in redshift bins shows significant variation | >2σ across independent probes (SNe, BAO, CMB) |
-| 3/2 conversion | $3\Lambda_\text{obs} \neq 2/R^2$, with R from CMB low-$\ell$ cutoff and $\Lambda_\text{obs}$ from SNe/BAO | >3σ |
+| 3/2 conversion | $3\Lambda_\text{obs} \neq 2/R^2$, with R from CMB low- $\ell$ cutoff and $\Lambda_\text{obs}$ from SNe/BAO | >3σ |
 
 These predictions are pre-registered to the European Space Agency's Euclid Data Release 1, scheduled for October 2026.
 
