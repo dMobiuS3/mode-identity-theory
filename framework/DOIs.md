@@ -17,7 +17,7 @@
 | Paper | Date | DOI |
 |-------|------|-----|
 | Yang–Mills Mass Gap on the Poincaré Homology Sphere | 2026-02-02 | [10.5281/zenodo.18463584](https://doi.org/10.5281/zenodo.18463584) |
-| Spectral Geometry of the Poincaré Homology Sphere and L-Function Structure | 2026-02-17 | [10.5281/zenodo.18672160](https://doi.org/10.5281/zenodo.18672160) |
+| Spectral Inaccessibility of Individual L-Function Zeros for Intrinsic Natural Operators on S3/2I | 2026-02-17 | [10.5281/zenodo.18672160](https://doi.org/10.5281/zenodo.18672160) |
 
 ### Samples and Force
 
