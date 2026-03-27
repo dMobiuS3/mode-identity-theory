@@ -114,11 +114,11 @@ Positive Ricci curvature on $S^3$ means every gauge fluctuation has a minimum ei
 
 Flat SU(2) connections on $S^3/2I$ are classified by conjugacy classes of homomorphisms from $2I$ into SU(2). Exactly three exist. Each is isolated ($H^1 = 0$): no continuous moduli, no Goldstone bridges between families.
 
-| Vacuum | Source | Role |
-|---|---|---|
-| Trivial | Flat connection | Generation 1 |
-| Standard | Irreducible connection | Generation 2 |
-| Galois | Galois conjugate connection | Generation 3 |
+| Vacuum | Source | Role | Mass gap |
+|---|---|---|---|
+| Trivial | Flat connection | Generation 1 | $4/R_\Lambda^2$ |
+| Standard | Irreducible connection | Generation 2 | $4/R_\Lambda^2$ |
+| Galois | Galois conjugate connection | Generation 3 | $36/R_\Lambda^2$ ($9\times$ enhancement) |
 
 Three particle generations from three topological vacua. Full derivation in [Yang-Mills](../spectrum/yang-mills.md).
 
