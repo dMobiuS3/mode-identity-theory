@@ -69,7 +69,7 @@ The hierarchy terminates here. "What's outside?" is malformed; there is no bound
 
 ### Surface
 
-The Möbius strip is the minimal non-orientable surface with $S^1$ boundary (surface classification). Non-orientability is required:
+The Möbius strip is the minimal non-orientable surface with $S^1$ boundary. By the classification of compact surfaces, a connected non-orientable manifold with a single boundary component is formed by removing a disk from the connected sum of $k$ crosscaps. The Möbius strip is the minimal case ($k = 1$), unique by surface classification. Non-orientability is required:
 
 | Requirement | Why non-orientable |
 |---|---|
@@ -214,7 +214,7 @@ Mode intensity dilutes as $(\sqrt{\Omega})^{-n}$. The manifold index $n$ specifi
 | 2 | Möbius surface | $\Omega_\Lambda$ | $10^{-122}$ | $\Lambda$ |
 | 3 | Space $S^3$ | $\Omega_\Lambda$ | $10^{-183}$ | Null dark matter detection |
 
-The edge references $\Omega_H$ because the edge is where time happens: epoch-dependent observables evolve. The surface and space reference $\Omega_\Lambda$ because boundary conditions are fixed. Wrong manifold assignments fail by 61 orders of magnitude.
+The edge references $\Omega_H$ because the edge is where time happens. The temporal edge $S^1$ is the only manifold in the hierarchy that can reference a quantity evolving with cosmic time; the Hubble horizon $R_H(z) = c/H(z)$ evolves, so epoch-dependent observables ($H_0$, $a_0$) reference $\Omega_H$. The Möbius surface and $S^3$ are defined by $\Lambda$, which sets the boundary condition itself; boundary conditions are fixed, so epoch-independent observables reference $\Omega_\Lambda$. The space ($n = 3$) scaling of $(\sqrt{\Omega})^{-3} \sim 10^{-183}$ suppresses any non-gravitational signal to observational null. Wrong manifold assignments fail by 61 orders of magnitude.
 
 ### Selection Rules
 
@@ -298,13 +298,29 @@ $C(\Theta)$ reads the position: where the observable sits on the mode spectrum. 
 | $H_0$ | $t_P^{-1}$ | 120 | 34/120 | 1.208 | 1 | $1.2 \times 10^{-61}$ |
 | $\Lambda$ | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $2.9 \times 10^{-122}$ * |
 
-> *Includes the 3/2 Gauss-Codazzi conversion from surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ to space observable $\Lambda_\text{obs} = 3/R_\Lambda^2$. Full derivation in [the-waltz](../spectrum/the-waltz.md).
+> *Includes the 3/2 Gauss-Codazzi conversion from surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ to space observable $\Lambda_\text{obs} = 3/R_\Lambda^2$. Gravity in [the-waltz](../spectrum/the-waltz.md).
 
 $\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by domain resolution. Full derivation in [fine-structure](../spectrum/fine-structure.md).
 
 The $a_0/H_0$ ratio is locked by well positions: $C(13/120)/C(34/120) = 0.184$. Because both are edge modes referencing $\Omega_H(z)$, the ratio holds at every epoch: $a_0(z) \propto H(z)$. Full derivation in [early-galaxies](../cosmos/early-galaxies.md).
 
 **[Run the Calculations for Yourself](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
+
+## Symbol Glossary
+
+Observables are located in time on the edge and positioned on the mode spectrum. Cosmic phase $t$ sets *when*; phase position $\Theta$ sets *where*.
+
+| Symbol | Name | Domain | Description |
+|---|---|---|---|
+| $t$ | Cosmic phase | $[0, 4\pi]$ | Temporal phase of $\Psi$; $t = 4\pi\, T / T_\text{cycle}$ |
+| $\phi$ | Spatial phase | $[0, 4\pi]$ | Cavity mode coordinate; $\phi \equiv 2\pi s / L_\text{fund}$; uniform for $m_h = 0$ |
+| $\delta$ | Epoch offset | $-1.06$ rad | Distance from turnaround |
+| $\Omega$ | Scale | $(\mathcal{R}/\ell_P)^2$ | Planck areas on horizon; $\mathcal{R}$ is $R_H$ or $R_\Lambda$ per manifold |
+| $\Omega_H$ | Hubble scale | $(R_H/\ell_P)^2$ | Evolves with epoch |
+| $\Omega_\Lambda$ | De Sitter scale | $(R_\Lambda/\ell_P)^2$ | Fixed by $\Lambda$ |
+| $\Theta$ | Phase position | $[0,1]$ on 120 | Observable's position on mode spectrum |
+| $\Theta_0$ | Fibonacci well | $\{13, 21, 34, 55, 60\}/120$ | Fixed geometric position |
+| $\Theta_f$ | Phase field | 0 or $2/120$ | Local environmental shift |
 
 ## Scope
 
@@ -322,4 +338,4 @@ MIT is a topological framework: boundary conditions and permitted mode structure
 |---|---|
 | [cosmos/](../cosmos/) | Full derivation papers for cosmological predictions |
 | [spectrum/](../spectrum/) | Full derivation papers for particle structure |
-| [DOIs/](../framework/DOIs.md) | Mode Identity Zenodoo Community |
+| [DOIs/](../framework/DOIs.md) | Mode Identity Zenodo Community |
