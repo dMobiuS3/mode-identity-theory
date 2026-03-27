@@ -4,7 +4,7 @@ MIT is a shape formed on philosophical grounds before any prediction was compute
 
 ## The Shape
 
-$$\Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
+$$\Large {S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
 
 A temporal edge bounds a non-orientable surface embedded in a closed space. The space has no boundary. Two uniqueness theorems force the structure: the classification of compact surfaces forces the Möbius strip, and the Poincaré theorem forces $S^3$. There was only one choice.
 
@@ -32,7 +32,7 @@ Three primitive constants and one measured scale. Everything else is accounting.
 | $c$ | 299,792,458 m/s | Propagation rate on the temporal edge $S^1$ |
 | $\hbar$ | $1.055 \times 10^{-34}$ J s | Action quantum; converts mode number to energy |
 | $G$ | $6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻² | Curvature-energy dictionary at the Planck floor ($n = 0$) |
-| $R_\Lambda$ | $\approx 5.3$ Gpc | Curvature radius of $S^3$, fixed from the CMB low-$\ell$ cutoff |
+| $R_\Lambda$ | $\approx 5.3$ Gpc | Curvature radius of $S^3$, fixed from the CMB low-$\ell$ cutoff. See [cmb-anomalies](/cosmos/cmd-anomalies.md) |
 
 ### Derived
 
@@ -49,7 +49,7 @@ Three primitive constants and one measured scale. Everything else is accounting.
 
 $S^3$ is the only simply connected closed 3-manifold (Poincaré). It is diffeomorphic to SU(2) and admits a spin structure. The space has no boundary:
 
-$$\Large \boxed{\partial S^3 = \emptyset}$$
+$$\Large {\partial S^3 = \emptyset}$$
 
 The hierarchy terminates here. "What's outside?" is malformed; there is no boundary from which to observe.
 
