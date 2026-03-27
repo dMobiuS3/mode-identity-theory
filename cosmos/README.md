@@ -62,4 +62,6 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 | $a_0/a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
 | $a_0(z) \propto H(z)$ | $a_0(z{=}2) \approx 3\times$ local | awaiting high-z rotation curves | open |
 
+---
+
 **[`framework/`](../framework/)** / **[`spectrum/`](../spectrum/)** 
