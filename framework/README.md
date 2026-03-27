@@ -210,11 +210,15 @@ Mode intensity dilutes as $(\sqrt{\Omega})^{-n}$. The manifold index $n$ specifi
 | 2 | Möbius surface | $\Omega_\Lambda$ | $10^{-122}$ | $\Lambda$ |
 | 3 | Space $S^3$ | $\Omega_\Lambda$ | $10^{-183}$ | Null dark matter detection |
 
-The edge references $\Omega_H$ because the edge is where time happens. The temporal edge $S^1$ is the only manifold in the hierarchy that can reference a quantity evolving with cosmic time; the Hubble horizon $R_H(z) = c/H(z)$ evolves, so epoch-dependent observables ($H_0$, $a_0$) reference $\Omega_H$. 
+#### Why edge uses Ω\_H while surface uses Ω\_Λ
 
-The Möbius surface and $S^3$ are defined by $\Lambda$, which sets the boundary condition itself; boundary conditions are fixed, so epoch-independent observables reference $\Omega_\Lambda$. 
+The temporal edge $S^1$ is where time happens; only the edge can reference a quantity that evolves with cosmic time. The Hubble horizon $R_H(z) = c/H(z)$ evolves; therefore epoch-dependent observables ($H_0$, $a_0$) reference $\Omega_H$. 
 
-The space ($n = 3$) scaling of $(\sqrt{\Omega})^{-3} \sim 10^{-183}$ suppresses any non-gravitational signal to observational null. Wrong manifold assignments fail by 61 orders of magnitude.
+The Möbius surface and $S^3$ space are defined by $\Lambda$, which sets the boundary condition itself. Boundary conditions are fixed; therefore epoch-independent observables reference $\Omega_\Lambda$. 
+
+The space ($n = 3$) scaling of $(\sqrt{\Omega})^{-3} \sim 10^{-183}$ suppresses any non-gravitational signal to observational null. 
+
+Wrong manifold assignments fail by 61 orders of magnitude.
 
 ### Selection Rules
 
