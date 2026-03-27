@@ -110,7 +110,7 @@ Flat SU(2) connections on $S^3/2I$ are classified by conjugacy classes of homomo
 | Standard | Irreducible connection | Generation 2 |
 | Galois | Galois conjugate connection | Generation 3 |
 
-Three particle generations from three topological vacua. Full derivation in [Yang-Mills](../spectrum/yang-mills.md)
+Three particle generations from three topological vacua. Full derivation in [Yang-Mills](../spectrum/yang-mills.md).
 
 ### The Mass Formula
 
@@ -125,7 +125,7 @@ $$\Large m(\rho, \sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqr
 | $(\sqrt{\Omega_\Lambda})^{\text{dist}/30}$ | Hierarchy; orders of magnitude from vacuum floor | McKay graph distance; $h(E_8) = 30$ as denominator |
 | $T^2(\rho \otimes \sigma)$ | Fine structure within each mass shell; generation splitter | Reidemeister torsion; $T^2(R_3)/T^2(R_4) = \varphi^{-4}$ exact |
 
-Applied to 8 nontrivial irreps across 3 vacua, the formula produces 24 mass entries. 12 map to Standard Model fermions; 10 land within a factor of 3; three (electron, up quark, muon) land within 6%. Full derivation in [mass-spectrum](/spectrum/mass-spectrum.md)
+Applied to 8 nontrivial irreps across 3 vacua, the formula produces 24 mass entries. 12 map to Standard Model fermions; 10 land within a factor of 3; three (electron, up quark, muon) land within 6%. Full derivation in [mass-spectrum](../spectrum/mass-spectrum.md).
 
 ### Particle Identity
 
@@ -168,20 +168,17 @@ $$t_\text{now} \approx 5.22 \text{ rad} \qquad \delta \equiv t - 2\pi = -1.06 \t
 | $0$ | 90 | $3\pi$ | Second crossing | 24.9 |
 | $+1$ | 120 | $4\pi$ | Completion | 33 |
 
-The bounded topology implies a standing wave, not heat death. The second half of the cycle is the universe settling into resonance. Turnaround at $t = 2\pi$ produces the same observational signature as phantom crossing in fluid-based dark energy models; the corresponding redshift $z_\text{cross} \approx 0.663$ follows from $\delta$. Full derivation in [dark-energy](../cosmos/dark-energy.md)
+The bounded topology implies a standing wave, not heat death. The second half of the cycle is the universe settling into resonance. Turnaround at $t = 2\pi$ produces the same observational signature as phantom crossing in fluid-based dark energy models; the corresponding redshift $z_\text{cross} \approx 0.663$ follows from $\delta$. Full derivation in [dark-energy](../cosmos/dark-energy.md).
 
 ## Cosmic Scale
 
 ### The Scale Hierarchy
 
-Two scales govern the structure:
+$\Omega_\Lambda$ is fixed by $\Lambda$ and epoch-independent. The Hubble scale evolves:
 
-| Scale | Definition | Value | Character |
-|---|---|---|---|
-| $\Omega_\Lambda$ | $(R_\Lambda/\ell_P)^2$ | $\approx 10^{122}$ | Fixed by $\Lambda$; epoch-independent |
-| $\Omega_H(z)$ | $(R_H(z)/\ell_P)^2$, where $R_H = c/H(z)$ | $\approx 10^{122}$ at $z \approx 0$ | Evolves with epoch |
+$$\Omega_H(z) \equiv \left(\frac{R_H(z)}{\ell_P}\right)^2, \quad R_H = c/H(z)$$
 
-At the present epoch, $\Omega_H \approx \Omega_\Lambda$. The coincidence is structural: the observer sits near the temporal midpoint of $\Psi$.
+At the present epoch, $\Omega_H \approx \Omega_\Lambda \approx 10^{122}$. The coincidence is structural: the observer sits near the temporal midpoint of $\Psi$.
 
 ### The Observer
 
@@ -230,7 +227,7 @@ The anti-periodic ground state is $\psi_0(\Theta) = \sin(\pi\Theta)$. Observable
 | $\Theta = 1/2$ (antinode) | 2 | 0 | Maximum amplitude; topologically protected |
 | $\Theta = 1$ (boundary) | 0 | $\to -\infty$ | No observable amplitude |
 
-$\Lambda$ sits at the antinode: slope exactly zero. Environmental perturbations leave it unmoved. The cosmological constant is topologically fixed. Full derivation in [cosmological-constant](/cosmos/cosmological-constant.md)
+$\Lambda$ sits at the antinode: slope exactly zero. Environmental perturbations leave it unmoved. The cosmological constant is topologically fixed. Full derivation in [cosmological-constant](../cosmos/cosmological-constant.md).
 
 ## Fibonacci Wells
 
@@ -245,7 +242,7 @@ Fibonacci positions minimize destructive interference on the 120 domain (Hurwitz
 | $F_{10}$ | 120 | 55/120 | 1.97 | Unassigned | — |
 | — | 120 | 60/120 | 2.00 | $\Lambda_\text{top}$ | Antinode; ground-state maximality; slope zero |
 
-$H_0$ and $a_0$ occupy different wells on the same edge; their ratio is fixed by position. Full derivation in [early-galaxies](/cosmos/early-galaxies.md)
+$H_0$ and $a_0$ occupy different wells on the same edge; their ratio is fixed by position.
 
 $H_0$ and $\Lambda$ occupy different manifolds; their 61-order span is fixed by dimension.
 
@@ -268,7 +265,7 @@ The response is binary: below threshold $\Theta_f = 0$; at or above it $\Theta_f
 | $H_0$ | 34/120 | $2/120$ | $5.1 \times 2/120$ | 8.4% |
 | $\Lambda_\text{top}$ | 60/120 | $2/120$ | $0 \times 2/120$ | 0% |
 
-The 8.4% shift at the $H_0$ well resolves the Hubble tension: $67.4 \times 1.084 \approx 73$ km/s/Mpc. The distance ladder calibration anchor is set inside the Milky Way's phase field; the CMB gives the unshifted value. Full mechanics in [hubble-tension](../cosmos/hubble-tension.md)
+The 8.4% shift at the $H_0$ well resolves the Hubble tension: $67.4 \times 1.084 \approx 73$ km/s/Mpc. The distance ladder calibration anchor is set inside the Milky Way's phase field; the CMB gives the unshifted value. Full mechanics in [hubble-tension](../cosmos/hubble-tension.md).
 
 ## The Scaling Law
 
@@ -285,8 +282,30 @@ $C(\Theta)$ reads the position: where the observable sits on the mode spectrum. 
 | $\alpha$ | 1 | 60R | 13/60 | 0.792 | $1/30$ | $7.33 \times 10^{-3}$ |
 | $a_0$ | $a_P$ | 120 | 13/120 | 0.223 | 1 | $2.2 \times 10^{-62}$ |
 | $H_0$ | $t_P^{-1}$ | 120 | 34/120 | 1.208 | 1 | $1.2 \times 10^{-61}$ |
-| $\Lambda$ | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $(3/2) \times 1.95 \times 10^{-122} \approx 2.9 \times 10^{-122}$ |
+| $\Lambda$ | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $2.9 \times 10^{-122}$ * |
 
-$\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by domain resolution. Full derivation in [fine-structure](/spectrum/fine-structure.md)
+> *Includes the 3/2 Gauss-Codazzi conversion from surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ to space observable $\Lambda_\text{obs} = 3/R_\Lambda^2$. Full derivation in [the-waltz](../spectrum/the-waltz.md).
 
-**[Run the Calculations Yourself](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
+$\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by domain resolution. Full derivation in [fine-structure](../spectrum/fine-structure.md).
+
+The $a_0/H_0$ ratio is locked by well positions: $C(13/120)/C(34/120) = 0.184$. Because both are edge modes referencing $\Omega_H(z)$, the ratio holds at every epoch: $a_0(z) \propto H(z)$. Full derivation in [early-galaxies](../cosmos/early-galaxies.md).
+
+**[Run the Calculations for Yourself](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
+
+## Scope
+
+MIT is a topological framework: boundary conditions and permitted mode structure. Boundary conditions are prior to dynamics. Standard dynamics describes the music; MIT defines the instrument.
+
+**What MIT claims.** One postulate, three primitive inputs ($c$, $\hbar$, $G$), one measured scale ($R_\Lambda$), one scaling law. The Fibonacci wells are fixed positions on the 120-domain, determined by the group structure of $2I$ before any observable is consulted. Every component traces to the topological postulate.
+
+**What MIT leaves intact.** Einstein's field equations and the Standard Model particle content are unchanged. MIT addresses why observables take their values and why gauge fields confine into three generations.
+
+**Parallel work.** Luminet, Weeks, and collaborators proposed $S^3/2I$ as spatial topology, matching CMB low-$\ell$ anomalies. The COMPACT collaboration calculates eigenmodes of non-orientable manifolds, closely overlapping the mathematics MIT requires. Milgrom's MOND established $a_0$ as a fundamental acceleration scale; MIT derives it as an edge mode and predicts $a_0(z) \propto H(z)$.
+
+## Repository
+
+| Folder | Contents |
+|---|---|
+| [cosmos/](../cosmos/) | Full derivation papers for cosmological predictions |
+| [spectrum/](../spectrum/) | Full derivation papers for particle structure |
+| [DOIs/](../DOIs/) | Mode Identity Zenodoo Community |
