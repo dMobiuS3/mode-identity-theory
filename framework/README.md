@@ -81,11 +81,13 @@ Four auxiliary paths converge on this number (three independent):
 3. The consonance ratios of musical harmony independently yield $\text{lcm} = 120$
 4. The $(2,3,5)$ branch orders of the icosahedron are consecutive Fibonacci numbers satisfying $2+3=5$: the unique Platonic solid whose symmetry orders obey the Fibonacci recurrence
 
-The 120 domain is the mode spectrum's resolution. The smallest phase advance the domain can register is the chronon:
+**The 120 domain** is the mode spectrum's resolution. 
+
+**The chronon** is the smallest phase advance the domain can register:
 
 $$\Delta t_{\min} = \frac{4\pi}{120} = \frac{\pi}{30}$$
 
-The corresponding minimum action $\Delta S_{\min} = \hbar\pi/30$ is absolute: a Lorentz scalar that holds in every frame.
+**The minimum action** $\Delta S_{\min} = \hbar\pi/30$ is absolute: a Lorentz scalar that holds in every frame.
 
 Fermions see all 120 positions but observation squares the wavefunction: $|\psi(\Theta+1)|^2 = |\psi(\Theta)|^2$ erases the anti-periodic sign. The squaring projects $2I \to I$ ($|I| = 60$), halving the resolution.
 
@@ -96,7 +98,7 @@ Fermions see all 120 positions but observation squares the wavefunction: $|\psi(
 
 ### Confinement
 
-Positive Ricci curvature on $S^3$ means every gauge fluctuation has a minimum eigenvalue. The Weitzenböck identity gives $\lambda \geq 2/R_\Lambda^2 > 0$ for all modes. The mass gap exists and equals $2/R_\Lambda^2$. Confinement is geometric. Full derivation in [Yang-Mills on $S^3/2I$](../spectrum/yang-mills.md).
+Positive Ricci curvature on $S^3$ means every gauge fluctuation has a minimum eigenvalue. The Weitzenböck identity gives $\lambda \geq 2/R_\Lambda^2 > 0$ for all modes. The mass gap exists and equals $2/R_\Lambda^2$. Confinement is geometric.
 
 ### Three Generations
 
@@ -108,7 +110,7 @@ Flat SU(2) connections on $S^3/2I$ are classified by conjugacy classes of homomo
 | Standard | Irreducible connection | Generation 2 |
 | Galois | Galois conjugate connection | Generation 3 |
 
-Three particle generations from three topological vacua.
+Three particle generations from three topological vacua. Full derivation in [Yang-Mills](../spectrum/yang-mills.md)
 
 ### The Mass Formula
 
@@ -123,7 +125,7 @@ $$m(\rho, \sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omeg
 | $(\sqrt{\Omega_\Lambda})^{\text{dist}/30}$ | Hierarchy; orders of magnitude from vacuum floor | McKay graph distance; $h(E_8) = 30$ as denominator |
 | $T^2(\rho \otimes \sigma)$ | Fine structure within each mass shell; generation splitter | Reidemeister torsion; $T^2(R_3)/T^2(R_4) = \varphi^{-4}$ exact |
 
-Applied to 8 nontrivial irreps across 3 vacua, the formula produces 24 mass entries. 12 map to Standard Model fermions; 10 land within a factor of 3; three (electron, up quark, muon) land within 6%. Full predictions and assignments in [spectrum.md](spectrum.md).
+Applied to 8 nontrivial irreps across 3 vacua, the formula produces 24 mass entries. 12 map to Standard Model fermions; 10 land within a factor of 3; three (electron, up quark, muon) land within 6%. Full derivation in [spectrum.md](/spectrum/mass-spectrum.md).
 
 ### Particle Identity
 
@@ -212,7 +214,7 @@ The edge references $\Omega_H$ because the edge is where time happens: epoch-dep
 | $\Lambda$ | Epoch-independent, geometric | 2 | $\Omega_\Lambda$ | $10^{-122}$ |
 | Dark matter | Gravity-only | 3 | $\Omega_\Lambda$ | $10^{-183}$ |
 
-Dimensionless couplings ($A_P = 1$) bypass manifold dilution; $n$ is fractional.
+Dimensionless couplings ($A_P = 1$) bypass manifold dilution; $n$ is fractional. Full derivation in [fine-structure.md](/spectrum/fine-structure.md).
 
 ## The Phase Operator
 
@@ -228,7 +230,7 @@ The anti-periodic ground state is $\psi_0(\Theta) = \sin(\pi\Theta)$. Observable
 | $\Theta = 1/2$ (antinode) | 2 | 0 | Maximum amplitude; topologically protected |
 | $\Theta = 1$ (boundary) | 0 | $\to -\infty$ | No observable amplitude |
 
-$\Lambda$ sits at the antinode: slope exactly zero. Environmental perturbations leave it unmoved. The cosmological constant is topologically fixed.
+$\Lambda$ sits at the antinode: slope exactly zero. Environmental perturbations leave it unmoved. The cosmological constant is topologically fixed. Full derivation in [cosmological-constant.md](/cosmos/cosmological-constant.md).
 
 ## Fibonacci Wells
 
@@ -243,7 +245,9 @@ Fibonacci positions minimize destructive interference on the 120 domain (Hurwitz
 | $F_{10}$ | 120 | 55/120 | 1.97 | Unassigned | — |
 | — | 120 | 60/120 | 2.00 | $\Lambda_\text{top}$ | Antinode; ground-state maximality; slope zero |
 
-$H_0$ and $a_0$ occupy different wells on the same edge; their ratio is fixed by position. $H_0$ and $\Lambda$ occupy different manifolds; their 61-order span is fixed by dimension.
+$H_0$ and $a_0$ occupy different wells on the same edge; their ratio is fixed by position. Full derivation in [early-galaxies.md](/cosmos/early-galaxies.md).
+
+$H_0$ and $\Lambda$ occupy different manifolds; their 61-order span is fixed by dimension.
 
 ## The Phase Field
 
