@@ -1,4 +1,4 @@
-# Cosmological Predictions
+# κόσμος
 
 Five foundations of Mode Identity Theory map to five cosmological anomalies that standard physics catalogs separately. Each paper takes one anomaly and shows how its foundation resolves it. The topology produces the structure; the scaling law reveals the result. Black Holes are nodes of the wave where sampling ceases.
 
