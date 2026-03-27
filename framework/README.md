@@ -304,7 +304,7 @@ $\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed 
 
 The $a_0/H_0$ ratio is locked by well positions: $C(13/120)/C(34/120) = 0.184$. Because both are edge modes referencing $\Omega_H(z)$, the ratio holds at every epoch: $a_0(z) \propto H(z)$. Full derivation in [early-galaxies](../cosmos/early-galaxies.md).
 
-**[Run the Calculations Yourself](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
+**[Run the Calculations for Yourself](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
 
 ## Scope
 
