@@ -59,4 +59,6 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 | $\alpha$ | 0.00733 | 0.007297 | 0.49% |
 | $\alpha_s / \alpha_W$ | 3.426 (pure geometry) | 3.490 | ~2% |
 
+---
+
 **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)**
