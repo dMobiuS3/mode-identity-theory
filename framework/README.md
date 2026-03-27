@@ -10,8 +10,6 @@ A temporal edge bounds a non-orientable surface embedded in a closed space. The 
 
 **[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/tools/topology.html)**
 
-This single choice produces one scaling law that blindly predicts $\Lambda$, $H_0$, $a_0$, and $\alpha$ across 122 orders of magnitude, and 24 fermion mass entries covering all 12 Standard Model fermions.
-
 ## The Firing Order
 
 Each step depends on the one before; nothing later exists independently from what came prior.
