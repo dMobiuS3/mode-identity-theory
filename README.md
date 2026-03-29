@@ -123,6 +123,36 @@ Blind outputs of a fixed structure, checked against observation:
 
 ---
 
+## Pre-Registered Predictions / Falsification
+
+Three predictions separate this framework from alternatives: a₀(z) tracks H(z) while Λ remains constant, and no non-gravitational dark matter signal will ever fire. Everything else raises or lowers credibility. All values deposited on Zenodo before data release.
+
+**Judgment Day: October 21, 2026.**
+
+**[Team Cosine: Euclid DR1 Predictions](https://dmobius3.github.io/mode-identity-theory/tools/euclid-dr1.html)**
+
+### Primary — any one kills the framework
+
+| Prediction | MIT value | Falsified if | Euclid channel |
+|---|---|---|---|
+| a₀(z) ∝ H(z) | a₀/cH = 0.184 | a₀ consistent with constant at z > 2, ≥2σ | Weak lensing rotation curves across z bins |
+| Λ constant | Λ_obs = 3/R² | Binned ρ_DE(z)/ρ_DE(0) departs from unity at 2σ | SNe + BAO + lensing in redshift bins |
+| Null DM detection | Permanent null (n=3 suppressed to 10⁻¹⁸³) | Non-gravitational signal at ≥5σ, replicated | Lensing mass vs. clustering mass comparison |
+
+### Secondary — raise or lower credibility
+
+| Prediction | MIT value | Falsified if |
+|---|---|---|
+| Modulation zero-crossing | z_cross = 0.663 | Transition center < 0.4 or > 0.9 at 2σ |
+| w(z) shape | Cosine (not linear) | Linear CPL preferred at ΔAIC > 4 |
+| No phantom crossing | w_eff > −1 everywhere | Model-independent w < −1 at 2σ |
+| H₀ discrete snap | 8.4% shift (67.4 → 73.1) | H₀ distributed continuously across environments |
+| 3/2 Gauss-Codazzi | 3Λ_top = 2Λ_obs | Independent R and Λ_obs inconsistent at >3σ |
+
+Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.
+
+---
+
 ## Tools
 
 Every link between topology and observable is live. The code is the math. There are no hidden knobs.
@@ -130,18 +160,6 @@ Every link between topology and observable is live. The code is the math. There 
 **[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/tools/topology.html)**
 
 **[Run the Calculations](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
-
----
-
-## Pre-Registered Predictions \ Falsification
-
-Three predictions separate this framework from alternatives: a₀(z) tracks with H(z) while $\Lambda$ remains constant, and the phantom crossing at $z \approx 0.663$ is an inference artifact, not evolving vacuum energy.
-
-**Judgment Day: October 21, 2026.**
-
-**[Team Cosine: Euclid DR1 Predictions](https://dmobius3.github.io/mode-identity-theory/tools/euclid-dr1.html)**
-
-Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.
 
 ---
 
