@@ -114,6 +114,36 @@ A guitar string at a node: the string is still there, the wave passes through, t
 
 The spectral mirror (§II.A) reinforces this: at $s = 0$, the spectral determinant vanishes ($Z_\sigma(0) = 0$), but the L-function structure persists in the derivative ($Z'_\sigma(0) = \log T^2$). The information encoded in the spectrum is not lost at the zero; it is carried by the first nonvanishing order. The wave on $S^3$ does not stop at the spectral zero any more than the standing wave stops at the node.
 
+### IV.A The Geometric Complement
+
+The Sector $\mathcal{A}$ eigenvalue problem (Shatto 2025) gives the ground eigenfunction and the metric coefficient on the totally geodesic Möbius band in $S^3$:
+
+$$u_0(y) = \sin(y/R), \qquad J(y) = \cos(y/R)$$
+
+$u_0$ is the eigenfunction of the twisted Laplacian with eigenvalue $\lambda_0 = 2/R^2$. $J$ is the Jacobi field: the transverse scale factor measuring the geometric width of the surface at each meridional position $y$. The phase coordinate is $\Theta = y/(\pi R)$, so the phase operator is $C(\Theta) = 2\sin^2(\pi\Theta) = 2u_0^2$.
+
+The two quantities satisfy:
+
+$$u_0^2 + J^2 = 1$$
+
+Equivalently: $C/2 + J^2 = 1$. Observation amplitude and transverse geometry are complementary on the meridian. The surface has a fixed budget: what it spends on geometric extent, it loses in spectral amplitude.
+
+| Location | $y$ | $J$ (surface width) | $u_0$ (eigenfunction) | $C$ (observation) | Reading |
+|---|---|---|---|---|---|
+| Central circle | 0 or $\pi R$ (identified) | 1 (full width) | 0 (zero) | 0 | Surface at maximum extent. Observation silent. |
+| Antinode (cone point) | $\pi R/2$ | 0 (collapsed to a point) | 1 (maximum) | 2 | Surface collapsed. Observation peaks. |
+| Fibonacci wells | intermediate | intermediate | intermediate | 0.2 to 1.2 | Where sampling reads finite observables. |
+
+**Where the zeros live.** The Möbius identification $(0, w) \sim (\pi R, -w)$ maps $y = 0$ and $y = \pi R$ to a single closed curve: the central circle of the band. This is interior to the surface, where the twist acts. The boundary $\partial M = S^1$ consists of the transverse edges $w = \pm W$, forming a single loop that runs in the $y$-direction and carries all values of $u_0$ from 0 to 1. The $C = 0$ locus sits on the central circle, interior to the Möbius band.
+
+**Why sin, why there.** On the flat strip, the anti-periodic BC admits both $\sin(y/R)$ and $\cos(y/R)$ as ground eigenfunctions at the same eigenvalue $1/R^2$: a degenerate pair. Cosine has no zeros at $y = 0, \pi R$. The curvature of $S^3$ breaks this degeneracy. The $\tan(y/R)$ term in the curved Laplacian ($\Delta u = u'' - R^{-1}\tan(y/R)\,u'$) eliminates cosine as a solution entirely. Only $\sin(y/R)$ survives, and the eigenvalue is simple (Sector $\mathcal{A}$, §7, Sturm-Liouville). The same curvature that lifts the ground eigenvalue from $1/R^2$ to $2/R^2$ selects the eigenfunction that vanishes on the central circle. The zeros are placed by the curvature, through the selection of sin over cos.
+
+At the $C = 0$ locus, the surface is at its most geometrically intact. The Möbius band is wide open. The transverse direction has full extent ($J = 1$). The wave has maximum room. The eigenfunction vanishes because the curvature of the embedding uniquely selects a ground state whose zeros land on the central circle. The surface is healthy. Sampling is what fails.
+
+This complementarity is created by the curvature of $S^3$. On the flat strip, $J = 1$ everywhere, sin and cos are equally valid ground states, and there is no trade-off between geometry and observation. The totally geodesic embedding curves $J$ into $\cos(y/R)$, breaks the eigenfunction degeneracy in favor of $\sin(y/R)$, and couples the two through a shared curvature $K = 1/R^2$. The complementarity and the zero placement are both consequences of the embedding.
+
+**Status:** DERIVED. Follows from the Sector $\mathcal{A}$ eigenfunction, the Jacobi equation on $S^2 \subset S^3$, and the Pythagorean identity. The complementarity is forced by the totally geodesic embedding; any other embedding would break it.
+
 ---
 
 ## V. Size, Temperature, Mergers
