@@ -8,6 +8,8 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 [Early Galaxies](early-galaxies.md)
 
+[![Early Galaxies](https://img.youtube.com/vi/vx0F1zpUt_4/mqdefault.jpg)](https://www.youtube.com/watch?v=vx0F1zpUt_4)
+
 ---
 
 **Surface origin.** The standard question begins at a singularity: all of space compressed to zero dimension. However, if time is the boundary of a 2D manifold, there is no point. Time is the edge of the Möbius surface; the edge exists because the surface has a boundary, and the standing wave lives on the edge. There is no singularity.
