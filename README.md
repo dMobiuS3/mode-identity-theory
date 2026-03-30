@@ -131,11 +131,9 @@ Blind outputs of a fixed structure, checked against observation:
 
 Three predictions separate this framework from alternatives: a₀(z) tracks H(z) while Λ remains constant, and no non-gravitational dark matter signal will ever fire. Everything else raises or lowers credibility. All values deposited on Zenodo before data release.
 
-**Judgment Day: October 21, 2026.**
-
 **[Team Cosine: Euclid DR1 Predictions](https://dmobius3.github.io/mode-identity-theory/tools/euclid-dr1.html)**
 
-### Primary — any one kills the framework
+### Primary (any one kills the framework)
 
 | Prediction | MIT value | Falsified if | Euclid channel |
 |---|---|---|---|
@@ -143,7 +141,7 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 | Λ constant | Λ_obs = 3/R² | Binned ρ_DE(z)/ρ_DE(0) departs from unity at 2σ | SNe + BAO + lensing in redshift bins |
 | Null DM detection | Permanent null (n=3 suppressed to 10⁻¹⁸³) | Non-gravitational signal at ≥5σ, replicated | Lensing mass vs. clustering mass comparison |
 
-### Secondary — raise or lower credibility
+### Secondary (raise or lower credibility)
 
 | Prediction | MIT value | Falsified if |
 |---|---|---|
@@ -156,6 +154,8 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 <a href="https://www.esa.int/Science_Exploration/Space_Science/Euclid_overview">
   <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Euclid_mission_poster_horizontal.png/:/rs=w:2560,h:1440" width="300" alt="Euclid Mission">
 </a>
+
+**Judgment Day: October 21, 2026.**
 
 Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.
 
