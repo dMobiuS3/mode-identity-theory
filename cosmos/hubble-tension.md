@@ -41,15 +41,17 @@ This is the galactocentric radius where the gravitational field drops to $a_0$. 
 
 ### Trigger and closure
 
-The trigger index $\mathcal{T}$ and critical threshold $\mathcal{T}_c$ are:
+The trigger index $\mathcal{T}$ compares the gravitational potential drop across $L_f$ to a critical value $\mathcal{T}_c = 2\xi\,v_c^2/c^2$, where $\xi \approx 0.46$ is the mean potential depth computed from standard halo profiles (isothermal, NFW, and Hernquist all give 0.44 to 0.47):
 
-$$\mathcal{T} = \frac{2}{c^2 L_f}\int_0^{L_f}\Phi_\text{rel}(l)\,dl, \qquad \mathcal{T}_c = \frac{2\xi\,v_c^2}{c^2}, \quad \xi \approx 0.46$$
+$$\mathcal{T} = \frac{2}{c^2 L_f}\int_0^{L_f}\Phi_\text{rel}(l)\,dl$$
 
 where $\Phi_\text{rel}(l) \equiv \Phi(L_f) - \Phi(l)$ is the potential difference from the coherence boundary (gauge-invariant). For a flat rotation curve, $\Phi(r) = v_c^2\ln(r/r_0)$, so $\Phi_\text{rel}(l) = v_c^2\ln(L_f/l)$. The integral evaluates exactly: $\int_0^{L_f} v_c^2\ln(L_f/l)\,dl = v_c^2 L_f$ (substituting $u = l/L_f$, $\int_0^1 (-\ln u)\,du = 1$). Therefore $\mathcal{T} = 2v_c^2/c^2$, and the ratio becomes independent of the galaxy:
 
 $$\frac{\mathcal{T}}{\mathcal{T}_c} = \frac{1}{\xi} \approx 2.2$$
 
-This is a closure identity. It holds for any flat-curve disk galaxy regardless of mass, radius, or rotation speed. Every such galaxy exceeds the threshold. The response is binary: one bosonic step ($\Theta_f = 2/120$), or nothing.
+This is a closure identity. Both $\mathcal{T}$ and $\mathcal{T}_c$ scale as $v_c^2$; their ratio is galaxy-independent. Every flat-curve disk crosses the threshold by the same factor. The response is binary: below threshold $\Theta_f = 0$; at or above it, one bosonic step ($\Theta_f = 2/120$).
+
+The identity is robust to realistic rotation curves. The exact integral $\int_0^1(-\ln u)\,du = 1$ holds for a perfectly flat curve; deviations from flatness (rising inner regions, mild outer declines) perturb the integral at the few-percent level, leaving $\mathcal{T}/\mathcal{T}_c$ well above unity. The trigger margin ($\approx 2.2\times$ threshold) absorbs realistic profile variations without changing the binary outcome.
 
 $$\Theta_f = \frac{2}{120} \cdot \mathbf{1}(\mathcal{T} \geq \mathcal{T}_c)$$
 
@@ -59,7 +61,9 @@ The step size $2/120$ is the minimum observable shift on the 60R-grid. The full 
 
 The closure identity guarantees the trigger fires. What determines the observable consequence is the logarithmic slope of the phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ (the anti-periodic ground mode intensity, normalized to unit mean) at each Fibonacci well:
 
-$$\frac{d\ln C}{d\Theta} = 2\pi\cot(\pi\Theta), \qquad \frac{\Delta C}{C} = \frac{d\ln C}{d\Theta} \times \frac{2}{120}$$
+$$\frac{d\ln C}{d\Theta} = 2\pi\cot(\pi\Theta), \qquad \frac{\Delta C}{C} = \frac{d\ln C}{d\Theta} \times \Delta\Theta$$
+
+where $\Delta\Theta$ is the step size (1/120 for dynamical observables, 2/120 for bosonic).
 
 The same step size produces different fractional shifts depending on where it lands:
 
@@ -69,7 +73,9 @@ The same step size produces different fractional shifts depending on where it la
 | $H_0$ | 34/120 | 5.1 | 2/120 | 8.4% | Hubble tension |
 | Λ | 60/120 | 0 | 2/120 | 0% | Topologically protected at antinode |
 
-The $a_0$ well sits on a steep slope; it absorbs a 15% shift from a single step (1/120), which is what makes it constitutive (it defines the threshold itself). The step size differs by observable type: $a_0$ is dynamical (acceleration-based measurement) with full 120-domain access, while $H_0$ is cosmographic (photon-mediated) subject to bosonic projection that doubles the minimum step to 2/120. 
+The $a_0$ well sits on a steep slope; it absorbs a 15% shift from a single step (1/120). The step sizes differ because the two observables access the lattice differently. The full 120-lattice ($|2I| = 120$) contains both fermionic and bosonic representations. Dynamical observables like $a_0$ (measured through accelerations, which couple to the full gravitational field) resolve the full lattice; the minimum step is 1/120. Cosmographic observables like $H_0$ (measured through photon redshifts, which are bosonic) access only the bosonic projection $|I| = 60$; the minimum step doubles to 2/120.
+
+The logical direction for $a_0$: the lattice geometry fixes the well position at $\Theta = 13/120$ and the step size at 1/120. These produce $a_0$ as an output of the scaling law. That value of $a_0$ then enters the coherence scale $L_f = v_c^2/a_0$ and the threshold $\mathcal{T}_c$, which determine whether the phase field triggers. The well defines the observable; the observable defines the trigger. There is no circularity because the lattice comes first.
 
 The Λ well sits at the antinode where the slope vanishes; the cosmological constant is topologically immune to the phase field. The $H_0$ well sits between: steep enough to produce a measurable shift, shallow enough that it remains a perturbation.
 
@@ -119,7 +125,7 @@ Geometric methods (time-delay lensing, standard sirens) integrate $1/H(z)$ along
 
 The key distinction is where the absolute calibration is set. The CMB records a phase epoch before local structure existed ($\Theta_f = 0$ by construction). BAO and BBN use an early-universe ruler ($r_d$) that predates the phase field. Local ladders import the full shift because every anchor sits inside the coherence domain.
 
-The prediction is stratification: $H_0$ values should sort by calibration class, with locally-anchored methods clustering near 73 and early-universe methods clustering near 67.
+The prediction is stratification: $H_0$ values should sort by calibration class, with locally-anchored methods clustering near 73 and early-universe methods clustering near 67. Current TDCOSMO time-delay results sit near 73, above the predicted ~67 for geometric methods. The phase field interpretation is that these analyses inherit local priors (lens model calibrations anchored to local distance scales) rather than measuring the bare well directly. If future analyses with purely geometric calibration (no local anchors) still return ~73, the averaging prediction is falsified.
 
 ## V. Falsification
 
