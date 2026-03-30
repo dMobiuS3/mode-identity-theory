@@ -55,7 +55,9 @@ This glues opposite ends with a reflection, creating a non-orientable surface wi
 
 ### C. Boundary Conditions
 
-The background mode (Λ) carries Neumann conditions on the transverse edge: a longitudinal ground mode with no transverse structure (homogeneous across the width, so the normal derivative vanishes). Perturbation modes (CMB anisotropies) carry Dirichlet conditions: perturbation amplitudes vanish at the edge of the embedded Möbius surface (an internal submanifold of $S^3$, which itself has no boundary: $\partial S^3 = \emptyset$), the boundary of the cavity that bounds the observable mode spectrum. These conditions, combined with the non-orientable identification, determine which modes survive.
+The background mode (Λ) is an eigenvalue of the surface geometry. Its boundary curves are geodesics ($\kappa_g = 0$); the normal derivative vanishes there. Neumann conditions are intrinsic to this problem. Perturbation modes are fluctuations confined to the cavity. The Möbius surface is an internal submanifold of $S^3$ (which itself has $\partial S^3 = \emptyset$); perturbation amplitudes vanish at the cavity edge. Dirichlet conditions are the standard confinement condition for modes on a bounded domain.
+
+These conditions, combined with the non-orientable identification, determine which modes survive.
 
 For separable modes φ(y, w) = Y(y) · U(w), the transverse symmetry under w → −w determines the longitudinal condition:
 
