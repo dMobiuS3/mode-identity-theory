@@ -113,7 +113,6 @@ Every prediction is checkable by finite computation.
 |---|---|
 | Mass gap scales as $1/R^2$ | Lattice Yang-Mills on $S^3/2I$ geometry |
 | 9x enhancement at Galois vacuum | Lattice measurement of sector-resolved spectrum |
-| Confinement scale set by cosmological $R$ | Comparison with observed $\Lambda_{\text{QCD}}$ |
 
 ---
 
