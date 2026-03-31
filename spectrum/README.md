@@ -8,6 +8,8 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 
 [Yang-Mills](yang-mills.md)
 
+[![Yang-Mills](https://img.youtube.com/vi/85xFu2kK6aE/mqdefault.jpg)](https://www.youtube.com/watch?v=85xFu2kK6aE)
+
 ---
 
 **Mass spectrum.** A neutrino floor, a geometric weight from the irrep, a spectral distance walked on the McKay graph, and a torsion ratio locked to 70+ digits. Every mass is a position on the same lattice. The hierarchy across twelve orders is the geometry heard at different seats in the room.
