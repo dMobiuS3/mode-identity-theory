@@ -16,7 +16,7 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 
 [Mass Spectrum](mass-spectrum.md)
 
-[![Mass Spectrum](https://img.youtube.com/vi/Q936inkdT8Y/mqdefault.jpg)](https://www.youtube.com/watch?v=Q936inkdT8Y)
+[![Mass Spectrum](https://img.youtube.com/vi/eYO7BNcjxQI/mqdefault.jpg)](https://www.youtube.com/watch?v=eYO7BNcjxQI)
 
 ---
 
