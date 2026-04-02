@@ -2,7 +2,9 @@
 
 MIT was a topological thought formed on philosophical grounds before any prediction was computed. Waves were fundamental before any matter was consulted, and nothing was twisted besides Plato after the fact.
 
-Two predictions separate the theory from alternatives: $a_0(z) \propto H(z)$ while $\Lambda$ remains constant. Falsification criteria are pre-registered to Euclid DR1 which will be the only trier of fact.
+One postulate ($S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$, $\partial S^3 = \emptyset$), three constants ($c$, $\hbar$, $G$), two measured scales, one borrowed parameter, zero free parameters. Einstein's field equations and Standard Model particle content are unchanged. MIT provides what GR leaves undefined: boundary conditions.
+
+From this: $\Lambda$ at 2%, three gauge couplings at 0.5%/1.4%/0.4%, $H_0$ tension at <1%, 10 of 12 fermion masses within $\times 3$, three particle generations from three topological vacua, and a mass gap from positive curvature. Two predictions separate the framework from alternatives: $a_0(z) \propto H(z)$ while $\Lambda$ remains constant. Falsification criteria are pre-registered to Euclid DR1.
 
 ## The Firing Order
 
@@ -12,8 +14,8 @@ Each step depends on the one before; nothing later exists independently from wha
 2. Embedding defines the structure
 3. The cosmic wave expresses the boundary
 4. Time is phase of the wave
-5. Sampling resolves position in the domain
-6. Meaning arises only after realization
+5. Sampling locates the observer on the domain
+6. The observable is the output; no value precedes the sample
 
 ## Inputs
 
@@ -69,17 +71,17 @@ The hierarchy terminates here. "What's outside?" is malformed; there is no bound
 
 ### Surface
 
-The Möbius strip is the minimal non-orientable surface with $S^1$ boundary. By the classification of compact surfaces, a connected non-orientable manifold with a single boundary component is formed by removing a disk from the connected sum of $k$ crosscaps. The Möbius strip is the minimal case ($k = 1$), unique by surface classification. Non-orientability is required:
+The Möbius strip is the minimal non-orientable surface with $S^1$ boundary. By the classification of compact surfaces, a connected non-orientable manifold with a single boundary component is formed by removing a disk from the connected sum of $k$ crosscaps. The Möbius strip is the minimal case ($k = 1$), unique by surface classification. Non-orientability produces three consequences:
 
-| Requirement | Why non-orientable |
+| Consequence | Mechanism |
 |---|---|
-| Anti-periodic BC | $\psi(y + \pi R_\Lambda) = -\psi(y)$; the sign flip requires a surface that reverses orientation |
-| Half-integer spectrum | Mode numbers $\nu = 1/2, 3/2, 5/2, \ldots$; orientable surfaces produce only integers |
-| $\mathbb{Z}_2$ holonomy | The normal direction cannot be globally defined |
+| Anti-periodic BC | Sections of the orientation bundle acquire a sign flip: $\psi(y + \pi R_\Lambda) = -\psi(y)$ |
+| Half-integer spectrum | Mode numbers $\nu = 1/2, 3/2, 5/2, \ldots$; the constant mode is forbidden |
+| $\mathbb{Z}_2$ holonomy | The normal direction reverses under one traversal |
 
-Orientable surfaces satisfy none of these. The Möbius strip is the unique surface satisfying all three.
+Orientable surfaces produce none of these.
 
-The eigenvalue problem $-\partial_y^2 \psi = \lambda \psi$ under the anti-periodic BC requires $e^{ik\pi R_\Lambda} = -1$, giving $k = (2m+1)/R_\Lambda$. Defining the mode number $\nu = kR_\Lambda/2$, the allowed values are $\nu = 1/2, 3/2, 5/2, \ldots$: half-integers in this normalization. The constant mode ($k = 0$) is forbidden. Matter is fermionic because the surface is non-orientable.
+The eigenvalue problem $-\partial_y^2 \psi = \lambda \psi$ under the anti-periodic BC requires $e^{ik\pi R_\Lambda} = -1$, giving $k = (2m+1)/R_\Lambda$. Defining the mode number $\nu = kR_\Lambda/2$, the allowed values are $\nu = 1/2, 3/2, 5/2, \ldots$: half-integers in this normalization. The constant mode ($k = 0$) is forbidden. The field $\psi$ is a section of the orientation line bundle: the unique nontrivial real line bundle on a non-orientable surface, whose sections pick up a sign flip under the orientation-reversing identification. Matter is fermionic because the surface is non-orientable and the physical field couples to its orientation structure.
 
 ### Temporal Edge
 
@@ -214,15 +216,7 @@ Mode intensity dilutes as $(\sqrt{\Omega})^{-n}$. The manifold index $n$ specifi
 | 2 | Möbius surface | $\Omega_\Lambda$ | $10^{-122}$ | $\Lambda$ |
 | 3 | Space $S^3$ | $\Omega_\Lambda$ | $10^{-183}$ | Null dark matter detection |
 
-#### Why edge uses $\Omega_H$ while surface uses $\Omega_\Lambda$
-
-The temporal edge $S^1$ is where time happens; only the edge can reference a quantity that evolves with cosmic time. The Hubble horizon $R_H(z) = c/H(z)$ evolves; therefore epoch-dependent observables ($H_0$, $a_0$) reference $\Omega_H$. 
-
-The Möbius surface and $S^3$ space are defined by $\Lambda$, which sets the boundary condition itself. Boundary conditions are fixed; therefore epoch-independent observables reference $\Omega_\Lambda$. 
-
-The space ($n = 3$) scaling of $(\sqrt{\Omega})^{-3} \sim 10^{-183}$ suppresses any non-gravitational signal to observational null. 
-
-Wrong manifold assignments fail by 61 orders of magnitude.
+**The scale selection rule.** Edge modes ($n = 1$) reference $\Omega_H(z) = (c/H(z)\ell_P)^2$, which evolves: epoch-dependent observables ($H_0$, $a_0$) live here. Surface and space modes ($n = 2, 3$) reference $\Omega_\Lambda = (R_\Lambda/\ell_P)^2$, which is fixed by the boundary condition: epoch-independent observables ($\Lambda$, null DM) live here. Wrong assignments fail by 61 orders of magnitude.
 
 ### Selection Rules
 
@@ -254,6 +248,8 @@ $\Lambda$ sits at the antinode: slope exactly zero. Environmental perturbations 
 ## Fibonacci Wells
 
 Fibonacci positions minimize destructive interference on the 120 domain (Hurwitz: $\varphi$ is hardest to approximate rationally). Below $F_7$, amplitude is indistinguishable from noise. $F_7 = 13$ is the unique well satisfying Fibonacci stability, amplitude above the noise floor, and $\gcd(13, 120) = 1$.
+
+Three constraints force the observable assignments. First, the manifold index separates edge modes ($n = 1$, epoch-dependent: $H_0$, $a_0$) from surface modes ($n = 2$, epoch-independent: $\Lambda$). Second, the bosonic projection: photon-mediated observables access only the 60-grid (even numerators survive $2I \to I$); dynamical observables access the full 120. Third, $\Lambda$ sits at the antinode (60/120) by eigenvalue identity. Of the remaining wells, only 34/120 has an even numerator and is therefore visible on the bosonic grid, forcing $H_0$. The well 13/120 requires the full 120-grid ($\gcd(13,120) = 1$), making it accessible only to dynamical (non-photon-mediated) observation, forcing $a_0$. The table below summarizes these forced outcomes.
 
 | $F_n$ | Grid | Well | $C(\Theta)$ | Observable | Assignment logic |
 |---|---|---|---|---|---|
@@ -312,7 +308,7 @@ Their product yields $A/A_P$: the modal realization; the ratio of the observable
 | $H_0$ | $t_P^{-1}$ | 120 | 34/120 | 1.208 | 1 | $1.2 \times 10^{-61}$ |
 | $\Lambda$ | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $2.9 \times 10^{-122}$ * |
 
-> *Includes the 3/2 Gauss-Codazzi conversion from surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ to space observable $\Lambda_\text{obs} = 3/R_\Lambda^2$. Gravity in [the-waltz](../spectrum/the-waltz.md).
+> *The surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ is computed directly on the curved totally geodesic metric $ds^2 = dy^2 + \cos^2(y/R_\Lambda)\,dw^2$ and confirmed from below by the Bochner identity; equality is unique. The Gauss-Codazzi conversion $\Lambda_\text{obs} = (3/2)\,\Lambda_\text{top} = 3/R_\Lambda^2$ follows under three conditions: totally geodesic embedding ($K_{ij} = 0$), isotropy (CMB-verified to $10^{-5}$), and de Sitter vacuum (late-time ΛCDM attractor). Agreement with observation: ~2%. Gravity in [the-waltz](../spectrum/the-waltz.md).
 
 $\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by domain resolution. Full derivation in [fine-structure](../spectrum/fine-structure.md).
 
@@ -320,31 +316,45 @@ The $a_0/H_0$ ratio is locked by well positions: $C(13/120)/C(34/120) = 0.184$. 
 
 **[Run the Calculations for Yourself](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
 
-## Symbol Glossary
+### The Gauge Ladder
 
-Observables are located in time on the edge and positioned on the mode spectrum. Cosmic phase $t$ sets *when*; phase position $\Theta$ sets *where*.
+Dimensionless couplings resolve within the hierarchy at the grid level rather than the manifold level. A single principle assigns each gauge force: the phase slot inherits the grid of the carrier, the exponent slot inherits the grid of the confinement target.
 
-| Symbol | Name | Domain | Description |
+| Force | Phase grid | Exponent grid | Formula | Predicted | Observed | Agreement |
+|---|---|---|---|---|---|---|
+| EM | 60R (bosonic carrier) | 60R (bosonic charge) | $C(13/60) \cdot \Omega_\Lambda^{-1/60}$ | 0.00733 | 0.00730 | 0.5% |
+| Strong | 60R (bosonic carrier) | 120 (confined fermions) | $C(17/60) \cdot \Omega_\Lambda^{-1/120}$ | 0.1162 | 0.1179 | 1.4% |
+| Weak | 120 (spinorial carrier) | 120 (fermion transitions) | $C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)$ | 0.0339 | 0.0338 | 0.4% |
+
+The Coxeter pair $(13, 17)$ under $h(E_8) = 30$ is forced: all alternative conjugate pairs fail by 93% to 770%. The three forces exhaust the grid ladder (monotone in spinorial content). The fourth rung (spinorial carrier, bosonic target) is structurally closed: it would require reconstructing $\psi$ from $|\psi|^2$, inverting the firing order. Three gauge forces, three rungs, no vacancy to fill. Full derivation in [fine-structure](../spectrum/fine-structure.md).
+
+## Pre-Registered Predictions / Falsification
+
+Three predictions separate this framework from alternatives: a₀(z) tracks H(z) while Λ remains constant, and no non-gravitational dark matter signal will ever fire. Everything else raises or lowers credibility. All values deposited on Zenodo before data release.
+
+### Primary (any one kills the framework)
+
+| Prediction | MIT value | Falsified if | Euclid channel |
 |---|---|---|---|
-| $t$ | Cosmic phase | $[0, 4\pi]$ | Temporal phase of $\Psi$; $t = 4\pi\, T / T_\text{cycle}$ |
-| $\phi$ | Spatial phase | $[0, 4\pi]$ | Cavity mode coordinate; $\phi \equiv 2\pi s / L_\text{fund}$; uniform for $m_h = 0$ |
-| $\delta$ | Epoch offset | $-1.06$ rad | Distance from turnaround |
-| $\Omega$ | Scale | $(\mathcal{R}/\ell_P)^2$ | Planck areas on horizon; $\mathcal{R}$ is $R_H$ or $R_\Lambda$ per manifold |
-| $\Omega_H$ | Hubble scale | $(R_H/\ell_P)^2$ | Evolves with epoch |
-| $\Omega_\Lambda$ | De Sitter scale | $(R_\Lambda/\ell_P)^2$ | Fixed by $\Lambda$ |
-| $\Theta$ | Phase position | $[0,1]$ on 120 | Observable's position on mode spectrum |
-| $\Theta_0$ | Fibonacci well | $\{13, 21, 34, 55, 60\}/120$ | Fixed geometric position |
-| $\Theta_f$ | Phase field | 0 or $2/120$ | Local environmental shift |
+| a₀(z) ∝ H(z) | a₀/cH = 0.184 | a₀ consistent with constant at z > 2, ≥2σ | Weak lensing rotation curves across z bins |
+| Λ constant | Λ_obs = 3/R_Λ² | Binned ρ_DE(z)/ρ_DE(0) departs from unity at 2σ | SNe + BAO + lensing in redshift bins |
+| Null DM detection | Permanent null (n=3 suppressed to 10⁻¹⁸³) | Non-gravitational signal at ≥5σ, replicated | Lensing mass vs. clustering mass comparison |
 
-## Scope
+### Secondary (raise or lower credibility)
 
-MIT is a topological framework: boundary conditions and permitted mode structure. Boundary conditions are prior to dynamics. Standard dynamics describes the music; MIT defines the instrument.
+| Prediction | MIT value | Falsified if |
+|---|---|---|
+| Modulation zero-crossing | z_cross = 0.663 | Transition center < 0.4 or > 0.9 at 2σ |
+| w(z) shape | Cosine (not linear) | Linear CPL preferred at ΔAIC > 4 |
+| No phantom crossing | w_eff > −1 everywhere | Model-independent w < −1 at 2σ |
+| H₀ discrete snap | 8.4% shift (67.4 → 73.1) | H₀ distributed continuously across environments |
+| 3/2 Gauss-Codazzi | 3Λ_top = 2Λ_obs | Independent R and Λ_obs inconsistent at >3σ |
+| Gauge couplings | α, α_s, α_W at 0.5%, 1.4%, 0.4% | Any coupling outside 5% under refined Ω_Λ |
+| Three forces only | Fourth rung (120/60) structurally closed | Fourth fundamental force or SUSY partners observed |
 
-**What MIT claims.** One postulate, three primitive constants ($c$, $\hbar$, $G$), two measured scales ($R_\Lambda$, $L_\text{fund}$), one borrowed parameter ($\Omega_m$), one scaling law. The Fibonacci wells are fixed positions on the 120-domain, determined by the group structure of $2I$ before any observable is consulted. Every component traces to the topological postulate.
+**Judgment Day: October 21, 2026.**
 
-**What MIT leaves intact.** Einstein's field equations and the Standard Model particle content are unchanged. MIT addresses why observables take their values and why gauge fields confine into three generations.
-
-**Parallel work.** Luminet, Weeks, and collaborators proposed $S^3/2I$ as spatial topology, matching CMB low-$\ell$ anomalies. The COMPACT collaboration calculates eigenmodes of non-orientable manifolds, closely overlapping the mathematics MIT requires. Milgrom's MOND established $a_0$ as a fundamental acceleration scale; MIT derives it as an edge mode and predicts $a_0(z) \propto H(z)$.
+Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.
 
 ## Repository
 
