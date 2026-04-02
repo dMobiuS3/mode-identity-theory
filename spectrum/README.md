@@ -40,6 +40,8 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 
 [The Waltz](the-waltz.md)
 
+[![The Waltz](https://img.youtube.com/vi/5QDKZavD5g4/mqdefault.jpg)](https://www.youtube.com/watch?v=5QDKZavD5g4)
+
 ---
 
 ### Spectrum Scoreboard
