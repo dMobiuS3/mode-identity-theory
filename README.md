@@ -30,7 +30,7 @@ The constants of the universe follow across 122 orders of magnitude.
 
 :atom_symbol: **One formula:**
 
-$$\Large \boxed{m(\rho,\sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30} \times T^2(\rho \otimes \sigma)}$$
+$$\Large \boxed{m(\rho,\sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30} \cdot T^2(\rho \otimes \sigma)}$$
 
 Four factors compose to rank 24 fermion masses:
 
