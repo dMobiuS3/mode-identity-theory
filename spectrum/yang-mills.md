@@ -20,7 +20,7 @@ The Weitzenböck identity on $S^3$ decomposes the gauge-covariant Hodge Laplacia
 
 $$\Delta_{\mathrm{Hodge}} = \nabla_A^\ast \nabla_A + \mathrm{Ric}$$
 
-On the round $S^3$ of radius $R$, the Ricci tensor is $R_{ij} = (2/R^2)\,g_{ij}$. Since $\nabla_A^\ast \nabla_A \geq 0$ and $\mathrm{Ric} = 2/R^2 > 0$, every coexact (divergence-free) gauge fluctuation around any flat connection satisfies:
+On the round $S^3$ of radius $R$, the Ricci tensor is $R_{ij} = (2/R^2)g_{ij}$. Since $\nabla_A^\ast \nabla_A \geq 0$ and $\mathrm{Ric} = 2/R^2 > 0$, every coexact (divergence-free) gauge fluctuation around any flat connection satisfies:
 
 $$\lambda_{\min} \geq \frac{2}{R^2}$$
 
@@ -40,7 +40,7 @@ The standard and Galois embeddings are distinguished by the golden ratio: $\rho_
 
 ### Vacuum isolation
 
-Each vacuum is isolated: vanishing $H^1(M;\,\mathrm{ad}\,\rho) = 0$ at each flat connection guarantees that no continuous moduli connect the families and no massless modes bridge them. For any finite group $G$ and any $\mathbb{R}G$-module $V$, Maschke's theorem ($|G|$ invertible in $\mathbb{R}$) implies $H^n(G;\,V) = 0$ for all $n \geq 1$. Applied with $G = 2I$ and $V = \mathfrak{su}(2)$ under $\mathrm{Ad} \circ \rho$: $H^1(2I;\,\mathfrak{su}(2)_{\mathrm{Ad} \circ \rho}) = 0$ for every $\rho$, irreducible or trivial. For the trivial connection specifically, $H^1(M;\,\mathrm{ad}\,\rho_{\mathrm{triv}}) = H^1(M;\,\mathbb{R})^3$; since $\pi_1(M) = 2I$ is a perfect group ($2I$ equals its own commutator subgroup), $H_1(M;\,\mathbb{Z}) = 0$, so $H^1(M;\,\mathbb{R}) = 0$ by universal coefficients. Both routes give the same conclusion.
+Each vacuum is isolated: vanishing $H^1(M; \mathrm{ad}\ \rho) = 0$ at each flat connection guarantees that no continuous moduli connect the families and no massless modes bridge them. For any finite group $G$ and any $\mathbb{R}G$-module $V$, Maschke's theorem ($\lvert G \rvert$ invertible in $\mathbb{R}$) implies $H^n(G; V) = 0$ for all $n \geq 1$. Applied with $G = 2I$ and $V = \mathfrak{su}(2)$ under $\mathrm{Ad} \circ \rho$, this gives $H^1 = 0$ for every $\rho$, irreducible or trivial. For the trivial connection specifically, $H^1(M; \mathrm{ad}\ \rho_\mathrm{triv}) = H^1(M; \mathbb{R})^3$; since $\pi_1(M) = 2I$ is a perfect group ($2I$ equals its own commutator subgroup), $H_1(M; \mathbb{Z}) = 0$, so $H^1(M; \mathbb{R}) = 0$ by universal coefficients. Both routes give the same conclusion.
 
 Each vacuum is stable on the physical fluctuation space. This is independent of the $H^1$ argument: the Weitzenböck bound from Section I applies to coexact (divergence-free) 1-forms, which are precisely the physical gauge fluctuations after Coulomb gauge-fixing. Since $\lambda \geq 2/R^2 > 0$ for every such mode, no physical fluctuation has zero or negative eigenvalue. Isolation (no directions to move) and stability (no soft modes) are established by separate mechanisms. The number three is the count of flat $\mathrm{SU}(2)$ connections on $S^3/2I$. The identification of three vacua with three particle generations is a structural observation within Mode Identity Theory; it is not a consequence of the Yang-Mills analysis presented here. The mathematical result is that exactly three isolated, stable vacua exist.
 
@@ -56,7 +56,7 @@ $$\lambda_k = \frac{(k+1)^2}{R^2}$$
 
 On $S^3 = \mathrm{SU}(2)$, the Hodge Laplacian commutes with the isometry group $\mathrm{SU}(2)_L \times \mathrm{SU}(2)_R$, so its eigenvalue on an irreducible component $(j_L, j_R)$ takes the form $\lambda = a \cdot j_L(j_L+1) + b \cdot j_R(j_R+1) + c$. Hodge star symmetry ($*$ swaps $j_L \leftrightarrow j_R$) forces $a = b$. Agreement with the scalar Laplacian on exact 1-forms at $(j, j)$ fixes $a = 2/R^2$, $c = 0$. Coexact 1-forms appear at $(j_R \pm 1, j_R)$; both series yield eigenvalue $(k+1)^2/R^2$ with $k = 1, 2, 3, \ldots$
 
-On the quotient $M = S^3/2I$, physical modes at level $k$ must satisfy a twisted equivariance condition: the adjoint representation $\mathrm{ad}(\sigma)$ of the vacuum must appear in the $2I$-decomposition of the 1-form representation at that level. By Frobenius reciprocity, the dimension of the $\mathrm{ad}(\sigma)$-isotypic equivariant subspace at level $k$ is $\langle \mathrm{ad}(\sigma),\, (V_{k-1} \oplus V_{k+1})\vert_{2I} \rangle_{2I}$. When this inner product vanishes, no equivariant section exists and the level is filtered out entirely.
+On the quotient $M = S^3/2I$, physical modes at level $k$ must satisfy a twisted equivariance condition: the adjoint representation $\mathrm{ad}(\sigma)$ of the vacuum must appear in the $2I$-decomposition of the 1-form representation at that level. By Frobenius reciprocity, the dimension of the $\mathrm{ad}(\sigma)$-isotypic equivariant subspace at level $k$ is $\langle \mathrm{ad}(\sigma), (V_{k-1} \oplus V_{k+1})\vert_{2I} \rangle_{2I}$. When this inner product vanishes, no equivariant section exists and the level is filtered out entirely.
 
 ### Representation content at each level
 
@@ -123,7 +123,7 @@ Every prediction is checkable by finite computation.
 | Prediction | Falsified if |
 |---|---|
 | 3 conjugacy classes in $\mathrm{Hom}(2I, \mathrm{SU}(2))/\mathrm{conj}$ | Additional class constructed, or standard and Galois proved conjugate |
-| $H^1(M;\,\mathrm{ad}\,\rho) = 0$ at irreducible flats | Nonzero cohomology demonstrated |
+| $H^1(M; \mathrm{ad}\ \rho) = 0$ at irreducible flats | Nonzero cohomology demonstrated |
 | First 3b appearance at $k = 5$ ($R_8$ first in $V_6\vert_{2I}$) | Character sum yields $R_8$ at lower $k$ |
 | Galois gap at $k = 5$ | Coexact 1-form of 3b type found at lower $k$ |
 
