@@ -28,7 +28,7 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 
 ---
 
-**The perfect mirror.** The same manifold that predicts masses and couplings reads L-function structure with arbitrary precision, including the Riemann zeta function itself. However, it cannot constrain individual zeros. The reading capacity and writing incapacity are two faces of the same geometric fact: the curvature that realizes matter is the curvature that shields primes.
+**The perfect mirror.** The same manifold that predicts masses and couplings reads L-function structure with arbitrary precision, including the Riemann zeta function itself. However, it cannot constrain individual zeros. The reading capacity and writing incapacity are two faces of the same geometric fact: the curvature that realizes matter is the same curvature that shields the primes.
 
 [The Mirror](the-mirror.md)
 
