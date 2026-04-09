@@ -139,3 +139,7 @@ Every prediction is checkable by finite computation.
 SU(2) Yang-Mills on the Poincaré Homology Sphere has a positive spectral gap. Positive curvature forces it. Three isolated vacua produce three families. The McKay correspondence filters the Galois sector through four empty levels, yielding a ninefold enhancement at the branch tip of the $E_8$ graph. The level gap is topological; the eigenvalues are geometric. The computation reduces to finite group representation theory, standard gauge theory, and Riemannian geometry.
 
 *On curved ground, confinement is easy money.*
+
+---
+
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
