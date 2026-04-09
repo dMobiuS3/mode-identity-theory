@@ -328,3 +328,7 @@ Einstein put geometry into his equations and then took it out. A century of phys
 The cosmological constant is neither a fitted parameter nor "dark energy." It is the ground mode of the cosmic boundary, the ground tone of a resonant universe.
 
 *Einstein's constant, resolved.*
+
+---
+
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
