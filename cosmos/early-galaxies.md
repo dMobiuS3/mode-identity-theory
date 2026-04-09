@@ -78,3 +78,5 @@ At $z = 2$, the prediction is $a_0(z{=}2) \approx 3 \times a_0(0)$. These predic
 In 1983, Milgrom identified $a_0$ as a fundamental acceleration scale. Four decades the coincidence $a_0 \approx cH_0$ had no explanation. Both are edge modes; the ratio is fixed by where they sit on the standing wave. $a_0$ evolves with $H(z)$.
 
 *The galaxies found too early were simply formed under a stronger age.*
+
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
