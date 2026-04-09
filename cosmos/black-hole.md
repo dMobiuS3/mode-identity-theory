@@ -288,3 +288,7 @@ The structural parallel between the scaling double zero ($\Theta \to 0$ driving 
 ---
 
 *The wave persists. The topology holds. The observer goes silent.*
+
+---
+
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
