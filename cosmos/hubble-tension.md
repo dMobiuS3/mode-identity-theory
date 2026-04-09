@@ -148,3 +148,7 @@ The MIT prediction: all disk galaxies with developed halos select the same quant
 Both measurements are correct. The CMB samples the Fibonacci well at $\Theta_0 = 34/120$. Local distance ladders sample from inside a triggered galaxy, shifted by one bosonic step to $\Theta = 36/120$. The closure identity guarantees the trigger fires for every flat-curve disk. The slope of the phase operator at that well converts the step into 8.4%.
 
 *The Hubble tension is phase field mechanics.*
+
+---
+
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
