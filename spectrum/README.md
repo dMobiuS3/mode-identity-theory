@@ -71,4 +71,4 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 
 ---
 
-**[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)**
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
