@@ -23,7 +23,7 @@ Four factors. Four sources. Each traces independently to the topological postula
 |---|---|---|
 | $\mu_\Lambda$ | Vacuum energy floor. Fourth root of cosmological constant energy density. Sets the overall mass scale. | $\rho_\Lambda^{1/4} \approx 2.25 \text{ meV}$ |
 | $C_{\text{geom}}(\rho)$ | Phase factor. Geometric mean of $C(e/D) = 2\sin^2(\pi e/D)$ over Kostant exponents. Encodes each irrep's position on the domain. | $D = 60$ (integer spin) or $120$ (half-integer) |
-| $(\sqrt{\Omega_\Lambda})^{\,\text{dist}/30}$ | Hierarchy exponent. McKay graph distance from $R_0$ determines orders of magnitude from the vacuum floor. Denominator is $h(E_8) = 30$. | $\sqrt{\Omega_\Lambda} \approx 1.019 \times 10^{61}$ |
+| $(\sqrt{\Omega_\Lambda})^{\text{dist}/30}$ | Hierarchy exponent. McKay graph distance from $R_0$ determines orders of magnitude from the vacuum floor. Denominator is $h(E_8) = 30$. | $\sqrt{\Omega_\Lambda} \approx 1.019 \times 10^{61}$ |
 | $T^2(\rho \otimes \sigma)$ | Reidemeister torsion, vacuum-twisted via tensor product. Provides fine structure within each mass shell. The generation mechanism. | 24 values from 8 irreps × 3 vacua |
 
 ## II. The Factors
