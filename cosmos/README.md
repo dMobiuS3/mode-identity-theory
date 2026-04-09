@@ -56,23 +56,23 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 | Observable | Predicted | Observed | Agreement |
 |---|---|---|---|
-| $\Lambda_\text{obs} \cdot \ell_P^2$ | $2.9 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~2% |
-| $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 | $> 3\sigma$ with independent $H_0$ | exact |
-| $\Lambda$ constant | eigenvalue of fixed topology | no variation detected | ✓ |
-| $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
-| $z_\text{cross}$ | 0.663 | DESI transition region | awaiting Euclid DR1 |
-| $\Delta\text{AIC}$ vs ΛCDM | $\leq 0$ | $-2.1$ (DESI DR2 + Pantheon+ + Planck) | passed |
-| CMB $\ell_\text{cut}$ | ~32 | deficit below $\ell \lesssim 30$ | ✓ |
-| CMB parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
-| CMB parity magnitude | $R_{TT} = 0.814$ | $R_{TT} \approx 0.81$ | 0.5% |
-| CMB alignment | exists | $\Delta\theta_{23} \approx 10°$ | ~ |
-| CMB matched circles | null expected | null observed | ✓ |
-| $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
-| $H_0$ local shift | 8.4% | ~8.7% | ~3% |
-| $H_0$ bimodality | 67 / 73, not continuous | two persistent camps | ✓ |
-| $a_0/(cH_0)$ | 0.184 | 0.183 | <1% |
-| $a_0/a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
-| $a_0(z) \propto H(z)$ | $a_0(z{=}2) \approx 3\times$ local | awaiting high-z rotation curves | open |
+| [↗](cosmos/cosmological-constant.md) $\Lambda_\text{obs} \cdot \ell_P^2$ | $2.9 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~2% |
+| [↗](spectrum/the-waltz.md) $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 | $> 3\sigma$ with independent $H_0$ | exact |
+| [↗](cosmos/cosmological-constant.md) $\Lambda$ constant | eigenvalue of fixed topology | no variation detected | ✓ |
+| [↗](cosmos/dark-energy.md) $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
+| [↗](cosmos/dark-energy.md) $z_\text{cross}$ | 0.663 | DESI transition region | awaiting Euclid DR1 |
+| [↗](cosmos/dark-energy.md) $\Delta\text{AIC}$ vs ΛCDM | $\leq 0$ | $-2.1$ (DESI DR2 + Pantheon+ + Planck) | passed |
+| [↗](cosmos/cmb-anomalies.md) CMB $\ell_\text{cut}$ | ~32 | deficit below $\ell \lesssim 30$ | ✓ |
+| [↗](cosmos/cmb-anomalies.md) CMB parity sign | $R_{TT} < 1$ | $R_{TT} \approx 0.81$ | ✓ |
+| [↗](cosmos/cmb-anomalies.md) CMB parity magnitude | $R_{TT} = 0.814$ | $R_{TT} \approx 0.81$ | 0.5% |
+| [↗](cosmos/cmb-anomalies.md) CMB alignment | exists | $\Delta\theta_{23} \approx 10°$ | ~ |
+| [↗](cosmos/cmb-anomalies.md) CMB matched circles | null expected | null observed | ✓ |
+| [↗](cosmos/hubble-tension.md) $H_0 \cdot t_P$ | $1.2 \times 10^{-61}$ | $1.18 \times 10^{-61}$ | ~2% |
+| [↗](cosmos/hubble-tension.md) $H_0$ local shift | 8.4% | ~8.7% | ~3% |
+| [↗](cosmos/hubble-tension.md) $H_0$ bimodality | 67 / 73, not continuous | two persistent camps | ✓ |
+| [↗](cosmos/early-galaxies.md) $a_0/(cH_0)$ | 0.184 | 0.183 | <1% |
+| [↗](cosmos/early-galaxies.md) $a_0/a_P$ | $2.2 \times 10^{-62}$ | $2.16 \times 10^{-62}$ | ~2% |
+| [↗](cosmos/early-galaxies.md) $a_0(z) \propto H(z)$ | $a_0(z{=}2) \approx 3\times$ local | awaiting high-z rotation curves | open |
 
 ---
 
