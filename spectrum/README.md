@@ -48,26 +48,26 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 
 | Observable | Predicted | Observed | Agreement |
 |---|---|---|---|
-| Null dark matter | permanent | ongoing null results | ✓ |
-| Mass gap | $> 0$ | confinement observed | ✓ |
-| Particle generations | 3 (mass gaps) | 3 | exact |
-| Force count | 3 (grid exhaustion) | 3 | exact |
-| Null SUSY | permanent | ongoing null results | ✓ |
-| Spectral inaccessibility | no $\mathcal{F}$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |
-| Color from $Z_3$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
-| Domain from $Z_4$ | $D = 60$ (int) vs $120$ (half-int) | integer/half-integer split | exact |
-| Eta sign gate | $\eta > 0 \implies Q \leq 0$ | all SM-assigned entries | exact |
-| Fermion masses | 24 entries | all 12 SM: 10/12 within $\times 3$ | systematic |
-| $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
-| $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
-| $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
-| Rank 16 entry | $R_5$ std, ~349 MeV | no known fermion | open |
-| Dead zone | 6 states, eV to keV | no SM fermions in range | open |
-| $\nu$ floor | $\mu_\Lambda \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
-| $\alpha_s$ | 0.11622 | 0.11790 | 1.42% |
-| $\alpha_W$ | 0.03392 | 0.03378 | 0.41% |
-| $\alpha$ | 0.00733 | 0.007297 | 0.49% |
-| $\alpha_s / \alpha_W$ | 3.426 (pure geometry) | 3.490 | ~2% |
+| [↗](the-waltz.md) Null dark matter | permanent | ongoing null results | ✓ |
+| [↗](yang-mills.md) Mass gap | $> 0$ | confinement observed | ✓ |
+| [↗](yang-mills.md) Particle generations | 3 (mass gaps) | 3 | exact |
+| [↗](fine-structure.md) Force count | 3 (grid exhaustion) | 3 | exact |
+| [↗](fine-structure.md) Null SUSY | permanent | ongoing null results | ✓ |
+| [↗](the-mirror.md) Spectral inaccessibility | no $\mathcal{F}$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |
+| [↗](mass-spectrum.md) Color from $Z_3$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
+| [↗](mass-spectrum.md) Domain from $Z_4$ | $D = 60$ (int) vs $120$ (half-int) | integer/half-integer split | exact |
+| [↗](mass-spectrum.md) Eta sign gate | $\eta > 0 \implies Q \leq 0$ | all SM-assigned entries | exact |
+| [↗](mass-spectrum.md) Fermion masses | 24 entries | all 12 SM: 10/12 within $\times 3$ | systematic |
+| [↗](mass-spectrum.md) $m_\mu$ | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
+| [↗](mass-spectrum.md) $m_u$ | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
+| [↗](mass-spectrum.md) $m_e$ | $5.21 \times 10^{-4}$ GeV | $5.11 \times 10^{-4}$ GeV | 2% |
+| [↗](mass-spectrum.md) Rank 16 entry | $R_5$ std, ~349 MeV | no known fermion | open |
+| [↗](mass-spectrum.md) Dead zone | 6 states, eV to keV | no SM fermions in range | open |
+| [↗](mass-spectrum.md) $\nu$ floor | $\mu_\Lambda \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
+| [↗](fine-structure.md) $\alpha_s$ | 0.11622 | 0.11790 | 1.42% |
+| [↗](fine-structure.md) $\alpha_W$ | 0.03392 | 0.03378 | 0.41% |
+| [↗](fine-structure.md) $\alpha$ | 0.00733 | 0.007297 | 0.49% |
+| [↗](fine-structure.md) $\alpha_s / \alpha_W$ | 3.426 (pure geometry) | 3.490 | ~2% |
 
 ---
 
