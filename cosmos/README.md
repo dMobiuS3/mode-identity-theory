@@ -57,7 +57,7 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 | Observable | Predicted | Observed | Agreement |
 |---|---|---|---|
 | [↗](cosmological-constant.md) $\Lambda_\text{obs} \cdot \ell_P^2$ | $2.9 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~2% |
-| [↗](../spectrum/the-waltz.md) $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 | $> 3\sigma$ with independent $H_0$ | exact |
+| [↗](cosmological-constant.md) $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 | $> 3\sigma$ with independent $H_0$ | exact |
 | [↗](cosmological-constant.md) $\Lambda$ constant | eigenvalue of fixed topology | no variation detected | ✓ |
 | [↗](dark-energy.md) $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
 | [↗](dark-energy.md) $z_\text{cross}$ | 0.663 | DESI transition region | awaiting Euclid DR1 |
