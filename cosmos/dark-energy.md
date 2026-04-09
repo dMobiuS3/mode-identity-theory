@@ -104,3 +104,7 @@ MIT predicts $w(z)$ has curvature. A purely linear $w(z)$ at high precision woul
 The cosmological constant remains what the framework requires: a surface mode fixed by boundary conditions.
 
 *What "evolves" is not Λ, but perspective.*
+
+---
+
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
