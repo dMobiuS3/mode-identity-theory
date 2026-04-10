@@ -1,3 +1,7 @@
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
+
+---
+
 # H₀ Local: Hubble Tension as Phase Field
 
 Measurements of the Hubble constant have split into two persistent camps: the cosmic microwave background gives 67.4 km/s/Mpc; local distance ladders give 73. The discrepancy survives every systematic check and every independent method. Mode Identity Theory resolves the tension through the phase field: observers embedded in galactic structure sample from a shifted position on the 120-domain. The shift is one bosonic step, $\Theta_f = 2/120$, and the logarithmic slope of the phase operator at the $H_0$ well converts that step into an 8.4% increase. Both measurements are correct. They sample different positions on the same wave.
