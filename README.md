@@ -10,7 +10,7 @@ Mode Identity Theory starts with a simple bet: fundamental physics is not missin
 
 Topology becomes the source of structure and this repository lays out the results. The universe admits a standing wave and matter becomes a sample. Time ticks in phase and doesn't run in the background. The observer is part of the realization, not external to it.
 
-In 300 BC, Euclid proved Plato's observation that only 5 solids close perfectly in space. In 2026, ESA's Euclid telescope will ask: what geometry gives the universe its shape? MIT is betting on one shape, one wave, one equation, one formula, and one identity. The rest is accounting.
+In 300 BC, Euclid proved Plato's observation that only 5 solids close perfectly in space. In 2026, ESA's Euclid telescope will ask what geometry gives the universe its shape. MIT is betting on one shape, one wave, one equation, one formula, and one identity. The rest is accounting.
 
 ---
 
