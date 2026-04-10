@@ -1,3 +1,7 @@
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
+
+---
+
 # a₀ Evolving: High-Redshift Galaxy Masses
 
 James Webb has found galaxies too massive, too early. Stellar masses of $\sim 10^{10}\,M_\odot$ within 600 Myr of the Big Bang require star formation efficiencies exceeding unity under ΛCDM, a physical impossibility. 
