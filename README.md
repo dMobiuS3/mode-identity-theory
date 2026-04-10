@@ -145,7 +145,7 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
   <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Euclid_mission_poster_horizontal.png/:/rs=w:2560,h:1440" width="300" alt="Euclid Mission">
 </a>
 
-**[Judgment Day: October 21, 2026.](https://dmobius3.github.io/mode-identity-theory/tools/euclid-dr1.html)**
+**[Judgment Day: October 21, 2026.](https://dmobius3.github.io/mode-identity-theory/framework/euclid-dr1.html)**
 
 Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.
 
@@ -155,9 +155,9 @@ Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.
 
 Every link between topology and observable is live. The code is the math. There are no hidden knobs.
 
-**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/tools/topology.html)**
+**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/framework/topology.html)**
 
-**[Run the Calculations](https://dmobius3.github.io/mode-identity-theory/tools/calculator.html)**
+**[Run the Calculations](https://dmobius3.github.io/mode-identity-theory/framework/calculator.html)**
 
 ---
 
