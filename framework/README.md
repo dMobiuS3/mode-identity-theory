@@ -4,7 +4,7 @@
 
 # Mode Identity Theory
 
-MIT was a topological thought formed on philosophical grounds before any prediction was computed. Waves were fundamental before any matter was consulted, and nothing was twisted besides Plato after the fact.
+MIT was a topological thought formed on philosophical grounds before any prediction was computed. Waves were fundamental before any matter was consulted, and nothing was tuned besides Plato after the fact.
 
 One postulate ($S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$, $\partial S^3 = \emptyset$), three constants ($c$, $\hbar$, $G$), two measured scales, one borrowed parameter, zero free parameters. Einstein's field equations and Standard Model particle content are unchanged. MIT provides what GR leaves undefined: boundary conditions.
 
