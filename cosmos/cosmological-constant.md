@@ -131,7 +131,7 @@ A totally geodesic surface in $S^3$ of radius $R$ carries the constant-curvature
 
 $$ds^2 = dy^2 + \cos^2(y/R)\,dw^2$$
 
-Gaussian curvature $K_G = 1/R^2$. Scalar curvature $R_\Sigma = 2K_G = 2/R^2$. The factor $\cos(y/R)$ vanishes at $y = \pi R/2$: a coordinate pole at the midpoint of the band, smooth on the surface.
+Gaussian curvature $K_G = 1/R^2$. Scalar curvature $R_\Sigma = 2K_G = 2/R^2$. The factor $\cos(y/R)$ vanishes at $y = \pi R/2$: a coordinate pole at the midpoint of the band, smooth on the surface. Full treatment in [ground-eigenvalue](/ground-eigenvalue.md) cosmos/ground-eigenvalue.md
 
 ### B. The Eigenvalue
 
