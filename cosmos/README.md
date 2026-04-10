@@ -10,7 +10,7 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 **Wave-matter identity.** Five symbols: $\lambda = h/p$. The equation does not say matter behaves like a wave; it says the wavelength of matter is $h/p$. De Broglie knew this by 1923 and coined it "the phase-wave," insisting that only its phase, not amplitude, carried the physical content. By 1956, he called "this line of thought abandoned," and asked "whether, on the contrary, it may not be the pathway that might lead to the true Microphysics of the Future."
 
-[Early Galaxies](early-galaxies.md)
+***[Early Galaxies](early-galaxies.md)***
 
 [![Early Galaxies](https://img.youtube.com/vi/vx0F1zpUt_4/mqdefault.jpg)](https://www.youtube.com/watch?v=vx0F1zpUt_4)
 
@@ -18,7 +18,7 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 **Surface origin.** The standard question begins at a singularity: all of space compressed to zero dimension. However, if time is the boundary of a 2D manifold, there is no point. Time is the edge of the Möbius surface; the edge exists because the surface has a boundary, and the standing wave lives on the edge. There is no singularity.
 
-[Cosmological Constant](cosmological-constant.md)
+***[Cosmological Constant](cosmological-constant.md)***
 
 [![Cosmological Constant](https://img.youtube.com/vi/hN8iArWssNU/mqdefault.jpg)](https://www.youtube.com/watch?v=hN8iArWssNU)
 
@@ -26,7 +26,7 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 **Non-orientable topology.** Take a belt, give it a half-twist, and close it. The edge you trace with your finger is the same edge on the parallel side. A field completing one lap returns with opposite sign. The Möbius strip is the simplest such shape with a boundary. Matter is fermionic; the anti-periodic sector is selected by observation. Everything derived traces to and from the flip.
 
-[CMB Anomalies](cmb-anomalies.md)
+***[CMB Anomalies](cmb-anomalies.md)***
 
 [![CMB Anomalies](https://img.youtube.com/vi/bBoBazf76lA/mqdefault.jpg)](https://www.youtube.com/watch?v=bBoBazf76lA)
 
@@ -34,7 +34,7 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 **Bounded evaluation.** Suppose we define the infinite by the divide by zero. Not as metaphor, but as the structure of our domain. The observer sits at the geometric mean $\sqrt{\Omega} \approx 10^{61}$ where $\infty/0$ has structure at the limits.
 
-[Hubble Tension](hubble-tension.md)
+***[Hubble Tension](hubble-tension.md)***
 
 [![Hubble Tension](https://img.youtube.com/vi/zg7il8pWhAY/mqdefault.jpg)](https://www.youtube.com/watch?v=zg7il8pWhAY)
 
@@ -42,7 +42,7 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 **Embedded sampling.** Imagine being an ant on a power line, able to move in two dimensions freely; but to the distant observer, you only have one direction to move. Nested topology dilutes a mode's intensity with scale, and where you are is determined by character, not preference. Epoch-dependent observables live on the edge, epoch-independent observables live on the surface, and gravity embeds them together. The ant can only measure what its dimension allows.
 
-[Dark Energy](dark-energy.md)
+***[Dark Energy](dark-energy.md)***
 
 [![Dark Energy](https://img.youtube.com/vi/CGFTYpJY3j8/mqdefault.jpg)](https://www.youtube.com/watch?v=CGFTYpJY3j8)
 
@@ -50,7 +50,7 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 **Black Double Zero.** The wave $\Psi$ still flows. The surface still hums at $\Lambda$. The topology holds and information is not lost. The observer is still in space but unable to speak.
 
-[Black Hole](black-hole.md)
+***[Black Hole](black-hole.md)***
 
 [![Black Double Zero's](https://img.youtube.com/vi/iByR_Bv5Vng/mqdefault.jpg)](https://www.youtube.com/watch?v=iByR_Bv5Vng)
 
