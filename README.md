@@ -2,7 +2,7 @@
 
 [![Topology before Matter](https://img.youtube.com/vi/ANzQhGGzoAk/mqdefault.jpg)](https://www.youtube.com/watch?v=ANzQhGGzoAk)
 
-**[`framework/`](framework/)**
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
 
 ---
 
@@ -116,16 +116,6 @@ Blind outputs of a fixed structure, checked against observation:
 | [↗](spectrum/fine-structure.md) $\alpha_W$ | 0.03392 | 0.03378 | 0.41% |
 | [↗](spectrum/fine-structure.md) $\alpha$ | 0.00733 | 0.007297 | 0.49% |
 | [↗](spectrum/fine-structure.md) $\alpha_s / \alpha_W$ | 3.426 (pure geometry) | 3.490 | ~2% |
-
----
-
-## Repository
-
-| Folder | Contents |
-|---|---|
-| **[`framework/`](framework/)** | Core derivation from topology to scaling law. |
-| **[`cosmos/`](cosmos/)** | Five foundations resolve five cosmological anomalies, one-to-one. |
-| **[`spectrum/`](spectrum/)** | The same boundary reveals confinement, 24 fermionic masses, and fine structure. |
 
 ---
 
