@@ -356,7 +356,7 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 | Gauge couplings | α, α_s, α_W at 0.5%, 1.4%, 0.4% | Any coupling outside 5% under refined Ω_Λ |
 | Three forces only | Fourth rung (120/60) structurally closed | Fourth fundamental force or SUSY partners observed |
 
-**[Judgment Day: October 21, 2026.](https://dmobius3.github.io/mode-identity-theory/tools/euclid-dr1.html)**
+**[Judgment Day: October 21, 2026.](https://dmobius3.github.io/mode-identity-theory/framework/euclid-dr1.html)**
 
 Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.
 
