@@ -1,3 +1,7 @@
+/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
+
+---
+
 # The Spectrum
 
 **Fermion Mass Formula from Spectral Geometry on $S^3/2I$**
