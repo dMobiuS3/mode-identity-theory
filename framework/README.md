@@ -360,4 +360,6 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 
 Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.
 
+---
+
 / **[`main/`](../README.md)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
