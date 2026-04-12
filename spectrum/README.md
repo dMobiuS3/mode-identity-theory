@@ -48,7 +48,7 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 
 ---
 
-### Spectrum Scoreboard
+## :musical_score: :rainbow:
 
 | Observable | Predicted | Observed | Agreement |
 |---|---|---|---|
