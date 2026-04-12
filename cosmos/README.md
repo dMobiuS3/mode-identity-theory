@@ -56,7 +56,7 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 ---
 
-## :musical_score: :ringed_planet:
+## :ringed_planet: Score
 
 | Observable | Predicted | Observed | Agreement |
 |---|---|---|---|
