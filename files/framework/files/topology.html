@@ -501,10 +501,11 @@ var clock = new THREE.Clock();
 
 function animate() {
   requestAnimationFrame(animate);
+  var dt = clock.getDelta();
   var t = clock.getElapsedTime();
 
   if (autoRotate) {
-    targetTheta += 0.007;
+    targetTheta += 0.15 * dt;
   }
   updateCamera();
 
