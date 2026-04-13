@@ -1,4 +1,4 @@
-/ **[`framework/`](../../framework/)** / **[`cosmos/`](../../cosmos/)** / **[`spectrum/`](../../spectrum/)** /
+/ **[`main/`](../../../README.md)** / **[`framework/`](../../framework/)** / **[`cosmos/`](../../cosmos/)** / **[`spectrum/`](../../spectrum/)** /
 
 ---
 
@@ -111,4 +111,4 @@ The cosmological constant remains what the framework requires: a surface mode fi
 
 ---
 
-/ **[`framework/`](../../framework/)** / **[`cosmos/`](../../cosmos/)** / **[`spectrum/`](../../spectrum/)** /
+/ **[`main/`](../../../README.md)** / **[`framework/`](../../framework/)** / **[`cosmos/`](../../cosmos/)** / **[`spectrum/`](../../spectrum/)** /
