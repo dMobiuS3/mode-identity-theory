@@ -38,7 +38,7 @@ Three constants fix the physics. Two measurements set the size. One borrowed par
 | Scale | Value | Role |
 |---|---|---|
 | $R_\Lambda$ | $\approx 5.3$ Gpc | De Sitter horizon radius; sets the size of the domain |
-| $L_\text{fund}$ | $\approx 2.1$ Gpc | CMB low- $\ell$ cutoff; sets the cavity mode. See [cmb-anomalies](../cosmos/cmb-anomalies.md) |
+| $L_\text{fund}$ | $\approx 2.1$ Gpc | CMB low- $\ell$ cutoff; sets the cavity mode. See [cmb-anomalies](../cosmos/files/cmb-anomalies.md) |
 
 **Concordance parameter**
 
@@ -63,7 +63,7 @@ $$\Large {S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3
 
 A temporal edge bounds a non-orientable surface embedded in a closed space. The space has no boundary. Two uniqueness theorems force the manifold triad: the classification of compact surfaces forces the Möbius strip, and the Poincaré theorem forces $S^3$. The postulate has one realization.
 
-**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/framework/topology.html)**
+**[Visualize the Topology](https://dmobius3.github.io/mode-identity-theory/files/framework/files/topology.html)**
 
 ### Space
 
@@ -130,7 +130,7 @@ Flat SU(2) connections on $S^3/2I$ are classified by conjugacy classes of homomo
 | Standard | $4/R_\Lambda^2$ | Irreducible connection | Generation 2 |
 | Galois | $36/R_\Lambda^2$ ($9\times$) | Galois conjugate connection | Generation 3 |
 
-Three particle generations from three topological vacua. Full derivation in [Yang-Mills](../spectrum/yang-mills.md).
+Three particle generations from three topological vacua. Full derivation in [Yang-Mills](../spectrum/files/yang-mills.md).
 
 ### The Mass Formula
 
@@ -145,7 +145,7 @@ $$\Large m(\rho, \sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqr
 | $(\sqrt{\Omega_\Lambda})^{\text{dist}/30}$ | Hierarchy; orders of magnitude from vacuum floor | McKay graph distance; $h(E_8) = 30$ as denominator |
 | $T^2(\rho \otimes \sigma)$ | Fine structure within each mass shell; generation splitter | Reidemeister torsion; $T^2(R_3)/T^2(R_4) = \varphi^{-4}$ exact |
 
-Applied to 8 nontrivial irreps across 3 vacua, the formula produces 24 mass entries. 12 map to Standard Model fermions; 10 land within a factor of 3; three (electron, up quark, muon) land within 6%. Full derivation in [mass-spectrum](../spectrum/mass-spectrum.md).
+Applied to 8 nontrivial irreps across 3 vacua, the formula produces 24 mass entries. 12 map to Standard Model fermions; 10 land within a factor of 3; three (electron, up quark, muon) land within 6%. Full derivation in [mass-spectrum](../spectrum/files/mass-spectrum.md).
 
 ### Particle Identity
 
@@ -188,7 +188,7 @@ $$\Large t_\text{now} \approx 5.22 \text{ rad} \qquad \delta \equiv t - 2\pi = -
 | $0$ | 90 | $3\pi$ | Second crossing | 24.9 |
 | $+1$ | 120 | $4\pi$ | Completion | 33 |
 
-The bounded topology implies a standing wave, not heat death. The second half of the cycle is the universe settling into resonance. Turnaround at $t = 2\pi$ produces the same observational signature as phantom crossing in fluid-based dark energy models; the corresponding redshift $z_\text{cross} \approx 0.663$ follows from $\delta$. Full derivation in [dark-energy](../cosmos/dark-energy.md).
+The bounded topology implies a standing wave, not heat death. The second half of the cycle is the universe settling into resonance. Turnaround at $t = 2\pi$ produces the same observational signature as phantom crossing in fluid-based dark energy models; the corresponding redshift $z_\text{cross} \approx 0.663$ follows from $\delta$. Full derivation in [dark-energy](../cosmos/files/dark-energy.md).
 
 ## Cosmic Scale
 
@@ -247,7 +247,7 @@ The anti-periodic ground state is $\psi_0(\Theta) = \sin(\pi\Theta)$. Observable
 | $\Theta = 1/2$ (antinode) | 2 | 0 | Maximum amplitude; topologically protected |
 | $\Theta = 1$ (boundary) | 0 | $\to -\infty$ | No observable amplitude |
 
-$\Lambda$ sits at the antinode: slope exactly zero. Environmental perturbations leave it unmoved. The cosmological constant is topologically fixed. Full derivation in [cosmological-constant](../cosmos/cosmological-constant.md).
+$\Lambda$ sits at the antinode: slope exactly zero. Environmental perturbations leave it unmoved. The cosmological constant is topologically fixed. Full derivation in [cosmological-constant](../cosmos/files/cosmological-constant.md).
 
 ## Fibonacci Wells
 
@@ -289,7 +289,7 @@ The classification index $\mathcal{T}$ compares the gravitational potential drop
 | $H_0$ | 34/120 | $2/120$ | $5.1 \times 2/120$ | 8.4% |
 | $\Lambda_\text{top}$ | 60/120 | $2/120$ | $0 \times 2/120$ | 0% |
 
-The 8.4% shift at the $H_0$ well resolves the Hubble tension: $67.4 \times 1.084 \approx 73$ km/s/Mpc. The distance ladder calibration anchor is set inside the Milky Way's phase field; the CMB gives the unshifted value. Full mechanics in [hubble-tension](../cosmos/hubble-tension.md).
+The 8.4% shift at the $H_0$ well resolves the Hubble tension: $67.4 \times 1.084 \approx 73$ km/s/Mpc. The distance ladder calibration anchor is set inside the Milky Way's phase field; the CMB gives the unshifted value. Full mechanics in [hubble-tension](../cosmos/files/hubble-tension.md).
 
 ## The Scaling Law
 
@@ -312,13 +312,13 @@ Their product yields $A/A_P$: the modal realization; the ratio of the observable
 | $H_0$ | $t_P^{-1}$ | 120 | 34/120 | 1.208 | 1 | $1.2 \times 10^{-61}$ |
 | $\Lambda$ | $\ell_P^{-2}$ | 120 | 60/120 | 2.00 | 2 | $2.9 \times 10^{-122}$ * |
 
-> * The surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ is computed directly on the curved totally geodesic metric $ds^2 = dy^2 + \cos^2(y/R_\Lambda)\,dw^2$ and confirmed from below by the Bochner identity; equality is unique. The Gauss-Codazzi conversion $\Lambda_\text{obs} = (3/2)\,\Lambda_\text{top} = 3/R_\Lambda^2$ follows under three conditions: totally geodesic embedding ($K_{ij} = 0$), isotropy (CMB-verified to $10^{-5}$), and de Sitter vacuum (late-time ΛCDM attractor). Agreement with observation: ~2%. Gravity in [the-waltz](../spectrum/the-waltz.md).
+> * The surface eigenvalue $\Lambda_\text{top} = 2/R_\Lambda^2$ is computed directly on the curved totally geodesic metric $ds^2 = dy^2 + \cos^2(y/R_\Lambda)\,dw^2$ and confirmed from below by the Bochner identity; equality is unique. The Gauss-Codazzi conversion $\Lambda_\text{obs} = (3/2)\,\Lambda_\text{top} = 3/R_\Lambda^2$ follows under three conditions: totally geodesic embedding ($K_{ij} = 0$), isotropy (CMB-verified to $10^{-5}$), and de Sitter vacuum (late-time ΛCDM attractor). Agreement with observation: ~2%. Gravity in [the-waltz](../spectrum/files/the-waltz.md).
 
-$\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by domain resolution. Full derivation in [fine-structure](../spectrum/fine-structure.md).
+$\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by domain resolution. Full derivation in [fine-structure](../spectrum/files/fine-structure.md).
 
-The $a_0/H_0$ ratio is locked by well positions: $C(13/120)/C(34/120) = 0.184$. Because both are edge modes referencing $\Omega_H(z)$, the ratio holds at every epoch: $a_0(z) \propto H(z)$. Full derivation in [early-galaxies](../cosmos/early-galaxies.md).
+The $a_0/H_0$ ratio is locked by well positions: $C(13/120)/C(34/120) = 0.184$. Because both are edge modes referencing $\Omega_H(z)$, the ratio holds at every epoch: $a_0(z) \propto H(z)$. Full derivation in [early-galaxies](../cosmos/files/early-galaxies.md).
 
-**[Run the Calculations for Yourself](https://dmobius3.github.io/mode-identity-theory/framework/calculator.html)**
+**[Run the Calculations for Yourself](https://dmobius3.github.io/mode-identity-theory/files/framework/files/calculator.html)**
 
 ### The Gauge Ladder
 
@@ -330,7 +330,7 @@ Dimensionless couplings resolve within the hierarchy at the grid level rather th
 | Strong | 60R (bosonic carrier) | 120 (confined fermions) | $C(17/60) \cdot \Omega_\Lambda^{-1/120}$ | 0.1162 | 0.1179 | 1.4% |
 | Weak | 120 (spinorial carrier) | 120 (fermion transitions) | $C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)$ | 0.0339 | 0.0338 | 0.4% |
 
-The Coxeter pair $(13, 17)$ under $h(E_8) = 30$ is forced: all alternative conjugate pairs fail by 93% to 770%. The three forces exhaust the grid ladder (monotone in spinorial content). The fourth rung (spinorial carrier, bosonic target) is structurally closed: it would require reconstructing $\psi$ from $|\psi|^2$, inverting the firing order. Three gauge forces, three rungs, no vacancy to fill. Full derivation in [fine-structure](../spectrum/fine-structure.md).
+The Coxeter pair $(13, 17)$ under $h(E_8) = 30$ is forced: all alternative conjugate pairs fail by 93% to 770%. The three forces exhaust the grid ladder (monotone in spinorial content). The fourth rung (spinorial carrier, bosonic target) is structurally closed: it would require reconstructing $\psi$ from $|\psi|^2$, inverting the firing order. Three gauge forces, three rungs, no vacancy to fill.
 
 ## Pre-Registered Predictions / Falsification
 
@@ -354,7 +354,7 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 | H<sub>0</sub> discrete snap | 8.4% shift (67.4 → 73.1) | H<sub>0</sub> distributed continuously across environments |
 | 3/2 Gauss-Codazzi | 3Λ<sub>top</sub> = 2Λ<sub>obs</sub> | Independent R and Λ<sub>obs</sub> inconsistent at >3σ |
 
-**[Judgment Day: October 21, 2026.](https://dmobius3.github.io/mode-identity-theory/framework/euclid-dr1.html)**
+**[Judgment Day: October 21, 2026.](https://dmobius3.github.io/mode-identity-theory/files/framework/files/euclid-dr1.html)**
 
 Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.
 
