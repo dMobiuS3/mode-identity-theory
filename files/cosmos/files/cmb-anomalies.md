@@ -1,4 +1,4 @@
-/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
+/ **[`framework/`](../../framework/)** / **[`cosmos/`](../../cosmos/)** / **[`spectrum/`](../../spectrum/)** /
 
 ---
 
@@ -216,4 +216,4 @@ Three anomalies. One geometry. One locality cost. These are not noise.
 
 ---
 
-/ **[`framework/`](../framework/)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
+/ **[`framework/`](../../framework/)** / **[`cosmos/`](../../cosmos/)** / **[`spectrum/`](../../spectrum/)** /
