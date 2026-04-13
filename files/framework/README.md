@@ -134,7 +134,7 @@ Flat SU(2) connections on $S^3/2I$ are classified by conjugacy classes of homomo
 
 Three particle generations from three topological vacua. Full derivation in [Yang-Mills](../spectrum/files/yang-mills.md).
 
-### The Mass Formula
+### [The Mass Forumula](https://dmobius3.github.io/mode-identity-theory/files/framework/files/calculator.html)
 
 Four factors, each traced independently to the postulate:
 
@@ -293,7 +293,7 @@ The classification index $\mathcal{T}$ compares the gravitational potential drop
 
 The 8.4% shift at the $H_0$ well resolves the Hubble tension: $67.4 \times 1.084 \approx 73$ km/s/Mpc. The distance ladder calibration anchor is set inside the Milky Way's phase field; the CMB gives the unshifted value. Full mechanics in [hubble-tension](../cosmos/files/hubble-tension.md).
 
-## The Scaling Law
+## [The Scaling Law](https://dmobius3.github.io/mode-identity-theory/files/framework/files/calculator.html)
 
 $$\Large {\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
@@ -319,8 +319,6 @@ Their product yields $A/A_P$: the modal realization; the ratio of the observable
 $\alpha$ occupies the same well as $a_0$ on the 60R-grid; its exponent is fixed by domain resolution. Full derivation in [fine-structure](../spectrum/files/fine-structure.md).
 
 The $a_0/H_0$ ratio is locked by well positions: $C(13/120)/C(34/120) = 0.184$. Because both are edge modes referencing $\Omega_H(z)$, the ratio holds at every epoch: $a_0(z) \propto H(z)$. Full derivation in [early-galaxies](../cosmos/files/early-galaxies.md).
-
-**[Run the Calculations for Yourself](https://dmobius3.github.io/mode-identity-theory/blob/main/files/framework/files/calculator.html)**
 
 ### The Gauge Ladder
 
