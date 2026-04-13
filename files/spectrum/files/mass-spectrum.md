@@ -14,7 +14,7 @@ The formula is applied to the 8 nontrivial irreducible representations of the bi
 |---|---|
 | Assigned | 11 of 12 Standard Model fermions |
 | Within ×3 | 10 of 11 |
-| Within 6% | 3 ($e$ Electron, $u$ Up quark, $\mu$ Muon) |
+| Within 6% | 3 ($e$ electron, $u$ up quark, $\mu$ muon) |
 | Unassigned | $\nu_2$ (8.6 meV falls between rank 1 and rank 2; no $(\rho, \sigma)$ pair) |
 
 ## I. The Formula
