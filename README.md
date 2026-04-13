@@ -131,7 +131,7 @@ Blind outputs of a fixed structure, checked against observation:
 
 Three predictions separate this framework from alternatives: a₀(z) tracks H(z) while Λ remains constant, and no non-gravitational dark matter signal will ever be found. Everything else raises or lowers credibility. All values deposited on Zenodo before data release.
 
-**:telescope: [Judgment Day: October 21, 2026.](https://dmobius3.github.io/mode-identity-theory/framework/euclid-dr1.html)**
+**:telescope: [Judgment Day: October 21, 2026](https://dmobius3.github.io/mode-identity-theory/framework/euclid-dr1.html)**
 
 ### Primary (any one kills the framework)
 
