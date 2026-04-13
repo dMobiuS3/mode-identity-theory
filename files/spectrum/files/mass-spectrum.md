@@ -8,14 +8,14 @@
 
 The Standard Model contains 12 fundamental fermions spanning 12 orders of magnitude in mass. The Higgs mechanism explains how particles acquire mass. It does not explain why they have the masses they do. This paper constructs a mass formula from four ingredients, each traced to a single topological postulate: $S^1 = \partial(\text{Mobius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset$. 
 
-The formula is applied to the 8 nontrivial irreducible representations of the binary icosahedral group across 3 isolated flat connections, producing 24 mass predictions. Of these, 11 correspond to Standard Model fermions: 10 are reproduced within a factor of 3 and all 11 within a factor of 4. One SM fermion ($\nu_2$) falls between adjacent entries with no assignment. Eight predictions have no SM assignments.
+The formula is applied to the 8 nontrivial irreducible representations of the binary icosahedral group across 3 isolated flat connections, producing 24 mass predictions. Of these, 10 correspond to Standard Model fermions: 9 are reproduced within a factor of 3 and all 10 within a factor of 4. Two SM fermions have no assignment: $\nu_2$ falls between adjacent entries, and the charm quark is displaced by the $T_3$ resolution at rank 17. Eight predictions have no SM assignments.
 
 | Result | Count |
 |---|---|
-| Assigned | 11 of 12 Standard Model fermions |
-| Within ×3 | 10 of 11 |
+| Assigned | 10 of 12 Standard Model fermions |
+| Within ×3 | 9 of 10 |
 | Within 6% | 3 ($e$ electron, $u$ up quark, $\mu$ muon) |
-| Unassigned | $\nu_2$ (8.6 meV falls between rank 1 and rank 2; no $(\rho, \sigma)$ pair) |
+| Unassigned | $\nu_2$ (8.6 meV falls between rank 1 and rank 2), $c$ (displaced by $\tau$ resolution at rank 17) |
 
 ## I. The Formula
 
@@ -142,7 +142,7 @@ The 24 vacuum torsion values follow from $\log T^2(\rho \otimes \sigma) = \sum_\
 
 24 predictions from the mass formula. The table below shows assignments to Standard Model (SM) fermions and unassigned predictions.
 
-The assignment is constrained, not free. The formula produces 24 ranked entries; three structural filters narrow which entries can correspond to which fermions. The eta sign gate (§IV.3) restricts positive electric charge to negative-eta entries. The $Z_3$ face decomposition (§IV.1) restricts color-charged assignments to irreps carrying colored pairs. The $Z_4$ edge decomposition (§IV.2) fixes the domain for each spin parity. Together these filters eliminate most of the $24 \times 12$ possible pairings before any mass comparison is made, leaving a constrained mapping in which each SM fermion lands at its correct mass shell.
+The assignment is constrained, not free. The formula produces 24 ranked entries; four structural filters narrow which entries can correspond to which fermions. The Coxeter-Galois gate (§IV.4) assigns weak isospin $T_3 = \pm 1/2$ to each entry. The $Z_3$ face decomposition (§IV.1) restricts color-charged assignments to irreps carrying colored pairs. The $Z_4$ edge decomposition (§IV.2) fixes the domain for each spin parity. The eta sign gate (§IV.3) restricts positive electric charge to negative-eta entries. Together these filters determine the quantum numbers $(T_3, Y, Q)$ at each $(\rho, \sigma)$ pair before any mass comparison is made.
 
 | Rank | $\rho$ | dist | $\sigma$ | Mass (GeV) | SM | Observed (GeV) | Ratio |
 |---|---|---|---|---|---|---|---|
@@ -163,7 +163,7 @@ The assignment is constrained, not free. The formula produces 24 ranked entries;
 | 14 | $R_8$ | 5 | gal | $1.51 \times 10^{-2}$ | $d$ | $4.67 \times 10^{-3}$ | 3.22 |
 | **15** | **$R_8$** | **5** | **std** | $\mathbf{1.03 \times 10^{-1}}$ | **$\mu$ / $s$** | $\mathbf{1.057 \times 10^{-1}}$ / $\mathbf{9.34 \times 10^{-2}}$ | **1.02** / **1.10** |
 | 16 | $R_5$ | 6 | std | $3.49 \times 10^{-1}$ | | target | |
-| 17 | $R_4$ | 6 | std | $7.34 \times 10^{-1}$ | $c$ / $\tau$ | 1.27 / 1.777 | 1.73 / 2.42 |
+| 17 | $R_4$ | 6 | std | $7.34 \times 10^{-1}$ | $\tau$ | 1.777 | 2.42 |
 | 18 | $R_2$ | 7 | gal | 5.33 | $b$ | 4.18 | 1.28 |
 | 19 | $R_4$ | 6 | gal | 5.84 | $b$ | 4.18 | 1.40 |
 | 20 | $R_4$ | 6 | triv | 5.97 | $b$ | 4.18 | 1.43 |
@@ -178,7 +178,9 @@ The assignment is constrained, not free. The formula produces 24 ranked entries;
 
 *The down quark (rank 14).* The ratio of 3.22 is the weakest assigned hit after $\nu_2$, and the only charged fermion outside the ×3 window. The down quark mass itself carries large uncertainty (4.67 $\pm$ 0.5 MeV from lattice QCD), but even at the upper end of the allowed range the tension remains. Whether this reflects a systematic residual at high McKay distance or a needed correction in the $R_8$ Galois vacuum sector is open.
 
-*Ambiguities at ranks 15 and 17.* Rank 15 sits between the muon (105.7 MeV) and strange quark (93.4 MeV), particles with different quantum numbers. Rank 17 sits between the charm quark (1.27 GeV) and tau lepton (1.777 GeV). The mass formula places each rank at the correct mass shell but does not yet resolve which particle occupies it. The electroweak selection rule (Section IV.4) is the mechanism intended to break these degeneracies; that derivation is in progress.
+*Rank 15 resolution.* Rank 15 sits between the muon (105.7 MeV) and strange quark (93.4 MeV). The Coxeter-Galois gate (§IV.4) assigns $T_3 = -1/2$ to this entry. The $Z_3$ face decomposition then splits the mass shell: the singlet component carries the muon ($Q = -1$), the colored component carries the strange quark ($Q = -1/3$). Both particles occupy the same $(\rho, \sigma)$ address in different color sectors.
+
+*Rank 17 resolution.* Rank 17 ($R_4$, std) has $j_\text{first} = 2$ (integer). Stage 1 of the Coxeter-Galois gate assigns $T_3 = -1/2$, resolving the former $c/\tau$ ambiguity in favor of the tau lepton ($Q = -1$, from the singlet $Z_3$ sector). The charm quark ($T_3 = +1/2$) does not occupy rank 17; its assignment within the 24-entry table is open (see §VI).
 
 *The b-quark cluster.* Five entries (ranks 18-22) from four distinct $(\rho, \sigma)$ pairs cluster near the b mass at 4.18 GeV, with ratios from 1.28 to 2.80. This is a dense region of the spectrum where multiple irrep-vacuum combinations land in the same mass shell. The closest entry is rank 18 ($R_2$, gal, ratio 1.28). Whether the remaining entries represent structural redundancy, mixing contributions, or unassigned states is open.
 
@@ -200,7 +202,7 @@ The face stabilizer $Z_3 \subset 2I$ is generated by order-3 elements. Restricti
 | $R_7$ | 5 | 1 | 2 | $e$ |
 | $R_8$ | 6 | 2 | 2 | $u$, $d$, $\mu/s$ |
 | $R_5$ | 4 | 2 | 1 | $b$ |
-| $R_4$ | 3 | 1 | 1 | $c/\tau$, $b$ |
+| $R_4$ | 3 | 1 | 1 | $\tau$, $b$ |
 | $R_2$ | 2 | 0 | 1 | $b$, $t$ |
 
 Every assigned fermion's color charge is accommodated by the $Z_3$ decomposition of its irrep. The electron (color singlet) sits on $R_7$, which carries 1 singlet. The quarks sit on irreps with colored pairs. The neutrinos sit on $R_1$, which has no singlet content at the irrep level; the tensor product $R_1 \otimes \sigma$ with the vacuum connection generates the singlet channel through which the neutrino propagates as a color-neutral state.
@@ -228,15 +230,47 @@ Equivalently: positive electric charge requires negative eta. All entries with $
 
 The eta invariant measures spectral asymmetry: the parity content of the mode. This gate connects parity to electric charge through the spectral geometry.
 
-### 4. Vacuum as Electroweak Selector
+### 4. Weak Isospin from the Coxeter-Galois Gate
 
-The same irrep carries different fermions in different vacua. $R_8$ produces the up quark (trivial vacuum), down quark (Galois), and muon or strange (standard). The vacuum $\sigma$ selects the electroweak identity.
+The same irrep carries different fermions in different vacua. $R_8$ produces the up quark (trivial vacuum), down quark (Galois), and muon or strange (standard). The vacuum $\sigma$ selects the electroweak identity. The rule determining weak isospin $T_3$ at each $(\rho, \sigma)$ is a two-stage filter, computable entirely from Tools 2-4 before any mass is evaluated.
 
-The mechanism is structural: the two nontrivial vacua ($R_1$ and $R_2$) are half-integer irreps. Tensoring a half-integer $\rho$ with a half-integer $\sigma$ produces integer-spin components, which carry none of the eight $E_8$ exponents. The Coxeter conjugate pair $(13, 17)$ under $h(E_8) = 30$, which governs all three SM gauge coupling strengths in the companion analysis, is preserved by the trivial vacuum and completely stripped by the nontrivial vacua.
+**Stage 1: Spectral parity.** If $j_\text{first}(\rho, \sigma) \in \mathbb{Z}$ (integer), the mode enters the Dirac spectrum through the bosonic channel: $T_3 = -1/2$.
 
-For $R_8$ specifically: the trivial vacuum preserves the $(13, 17)$ pair $\to$ up quark ($Q = +2/3$, highest charge). The nontrivial vacua erase it $\to$ down quark or lepton ($Q \leq -1/3$).
+**Stage 2: Coxeter-Galois gate.** For half-integer $j_\text{first}$, evaluate two conditions. First: does $\rho$ carry the Coxeter conjugate pair $(13, 17)$ under $h(E_8) = 30$, and is it stripped by the vacuum? The pair lives in the Kostant exponents of $R_2$, $R_6$, and $R_8$ (all half-integer). The trivial vacuum preserves it ($\rho \otimes R_0 = \rho$). The nontrivial vacua strip it (half-integer $\otimes$ half-integer $\to$ integer-spin components, which carry none of the eight $E_8$ exponents). Second: does the tensor product $\rho \otimes \sigma$ contain a Galois-nonfixed irrep? The four Galois-nonfixed irreps are $\{R_1, R_2, R_3, R_4\}$, whose characters involve $\sqrt{5}$; the Galois-fixed irreps $\{R_0, R_5, R_6, R_7, R_8\}$ are invariant under $\sqrt{5} \to -\sqrt{5}$.
 
-The specific rule mapping each $(\rho, \sigma)$ to weak isospin $T_3$ and hypercharge $Y$ is the primary open problem in particle identity. The spectral data $(\eta, j_\text{first}, T^2)$ track electric charge within individual irreps, with the vacuum providing the selection. The eta sign gate and the exponent stripping mechanism are the two sharpest structural constraints identified so far.
+Both conditions must hold for $T_3 = -1/2$. If either $(13, 17)$ is preserved (trivial vacuum, or $\rho$ lacks the pair) or the product is entirely Galois-fixed, then $T_3 = +1/2$.
+
+In one line:
+
+$$T_3 = -\tfrac{1}{2} \iff j_\text{first} \in \mathbb{Z},\ \text{or}\ (13,17)\ \text{stripped and}\ \rho \otimes \sigma\ \text{has Galois-nonfixed content.}$$
+
+**Verification against SM-assigned entries:**
+
+| Rank | $\rho$ | $\sigma$ | $j_\text{first}$ | $(13,17)$ | $\rho \otimes \sigma$ | Galois-nonfixed? | Path | $T_3$ |
+|---|---|---|---|---|---|---|---|---|
+| 1 | $R_1$ | std | 1/2 | N/A | $R_0 + R_3$ | (irrelevant) | no pair $\to$ +1/2 | +1/2 ✓ |
+| 2 | $R_1$ | gal | 5/2 | N/A | $R_5$ | (irrelevant) | no pair $\to$ +1/2 | +1/2 ✓ |
+| 12 | $R_7$ | triv | 2 | N/A | $R_7$ | — | $j_\text{first} \in \mathbb{Z}$ | $-$1/2 ✓ |
+| 13 | $R_8$ | triv | 5/2 | kept | $R_8$ | — | pair kept $\to$ +1/2 | +1/2 ✓ |
+| 14 | $R_8$ | gal | 1/2 | stripped | $R_7 + R_5 + R_3$ | $R_3$ yes | both $\to$ $-$1/2 | $-$1/2 ✓ |
+| 15 | $R_8$ | std | 3/2 | stripped | $R_7 + R_5 + R_4$ | $R_4$ yes | both $\to$ $-$1/2 | $-$1/2 ✓ |
+| 17 | $R_4$ | std | 2 | N/A | $R_8$ | — | $j_\text{first} \in \mathbb{Z}$ | $-$1/2 ✓ |
+| 18 | $R_2$ | gal | 3/2 | stripped | $R_0 + R_4$ | $R_4$ yes | both $\to$ $-$1/2 | $-$1/2 ✓ |
+| 23 | $R_2$ | triv | 7/2 | kept | $R_2$ | — | pair kept $\to$ +1/2 | +1/2 ✓ |
+| 24 | $R_2$ | std | 5/2 | stripped | $R_5$ | all fixed | Galois-fixed $\to$ +1/2 | +1/2 ✓ |
+
+Ten entries, ten correct assignments. Rank 17 is resolved as $\tau$ ($T_3 = -1/2$). Rank 24 is resolved as $t$ ($T_3 = +1/2$): $R_2 \otimes R_1 = R_5$, and $R_5$ is Galois-fixed, so the Galois involution has nothing to act on and the state retains upper isospin by structural inertia.
+
+**Hypercharge and electric charge follow from $Z_3$.** Once $T_3$ is fixed, the $Z_3$ face decomposition (§IV.1) determines color, and the Gell-Mann-Nishijima formula $Q = T_3 + Y/2$ closes the circuit:
+
+| $Z_3$ sector | $T_3$ | $Q$ | $Y$ |
+|---|---|---|---|
+| Singlet (lepton) | $+1/2$ | 0 (neutrino) | $-1$ |
+| Singlet (lepton) | $-1/2$ | $-1$ (charged lepton) | $-1$ |
+| Triplet (quark) | $+1/2$ | $+2/3$ (up-type) | $+1/3$ |
+| Triplet (quark) | $-1/2$ | $-1/3$ (down-type) | $+1/3$ |
+
+All ingredients are representation-theoretic: $j_\text{first}$ from SU(2) $\to$ 2I branching rules, Kostant exponents from the McKay correspondence, tensor product decompositions from the character table, and Galois-fixed/nonfixed status from Gal($\mathbb{Q}(\sqrt{5})/\mathbb{Q}$). Identity is determined before mass is computed.
 
 ### 5. The Vertex and the Twist
 
@@ -265,7 +299,7 @@ $R_7$ occupies a special position in this structure. $R_7 \otimes R_1 = R_7 \oti
 |---|---|---|---|
 | Face ($Z_3$) | Order 3 | Color: singlet vs triplet | Locked |
 | Edge ($Z_4$) | Order 4 | Domain: $D = 60$ vs $120$ | Locked |
-| Vertex ($Z_5$) | Order 5 | Electroweak interface | Current work |
+| Vertex ($Z_5$) | Order 5 | Electroweak: $T_3$ via Coxeter-Galois gate | Established |
 | Face/Edge ratio | $3/2$ | Gravity: Gauss-Codazzi | Motivated |
 | Vertex through twist | $\cos(\pi/10)$ | Weak coupling correction | Motivated |
 
@@ -298,7 +332,7 @@ Rank 3 ($R_1$, triv) predicts ~0.4 eV. Cosmological bounds constrain the sum of 
 
 ### The $\nu_2$ Gap
 
-$\nu_2$ at 8.6 meV sits between rank 1 (0.2 meV) and rank 2 (66.7 meV), a ratio gap of ~7.75× from rank 2. This is the mass formula's only genuine miss among the twelve SM fermions. The experimentally allowed window for $\nu_2$ is roughly 10-50 meV, constrained from below by solar neutrino data and from above by the cosmological mass sum. The normal vs. inverted hierarchy remains experimentally undetermined; JUNO and DUNE are expected to resolve this. Whether vacuum mixing between $R_1$ entries or additional structure at the neutrino scale closes the gap remains OPEN.
+$\nu_2$ at 8.6 meV sits between rank 1 (0.2 meV) and rank 2 (66.7 meV), a ratio gap of ~7.75× from rank 2. Together with the charm quark (displaced by the $\tau$ resolution at rank 17), these are the two SM fermions with no $(\rho, \sigma)$ assignment. The experimentally allowed window for $\nu_2$ is roughly 10-50 meV, constrained from below by solar neutrino data and from above by the cosmological mass sum. The normal vs. inverted hierarchy remains experimentally undetermined; JUNO and DUNE are expected to resolve this. Whether vacuum mixing between $R_1$ entries or additional structure at the neutrino scale closes the gap remains OPEN.
 
 ---
 
@@ -306,7 +340,8 @@ $\nu_2$ at 8.6 meV sits between rank 1 (0.2 meV) and rank 2 (66.7 meV), a ratio 
 
 | Item | Status |
 |------|--------|
-| $(\rho, \sigma) \to (T_3, Y)$ assignment rule | Primary open problem. Eta sign gate and exponent stripping constrain but do not complete the mapping. |
+| $T_3$ assignment rule | Established. Two-stage filter: $j_\text{first}$ parity + Coxeter-Galois gate. 10/10 SM entries verified. See §IV.4. |
+| Charm quark assignment | OPEN. $T_3$ rule resolves rank 17 as $\tau$, displacing charm. All $R_4$ entries have integer $j_\text{first}$ ($T_3 = -1/2$ at every vacuum), so charm cannot live on $R_4$. Candidate entries under investigation. |
 | $\nu_2$ gap | 8.6 meV falls between ranks 1 and 2. Vacuum mixing or neutrino-scale structure could close it. |
 | Down quark tension | Rank 14 ratio 3.22; see Section III notes. Systematic residual at high McKay distance or $R_8$ Galois correction needed. |
 | Fermion mass residual | Systematic overshoot growing with McKay distance. One-parameter correction pattern identified, not derived. |
