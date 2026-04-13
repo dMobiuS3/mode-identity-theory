@@ -150,6 +150,11 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 | No phantom crossing | w<sub>eff</sub> > −1 everywhere | Model-independent w < −1 at 2σ |
 | H<sub>0</sub> discrete snap | 8.4% shift (67.4 → 73.1) | H<sub>0</sub> distributed continuously across environments |
 | 3/2 Gauss-Codazzi | 3Λ<sub>top</sub> = 2Λ<sub>obs</sub> | Independent R and Λ<sub>obs</sub> inconsistent at >3σ |
+| CMB ℓ<sub>cut</sub> | ~32 | ℓ<sub>cut</sub> outside [15, 50] on reanalysis |
+| Gauge couplings | α 0.5%, α<sub>s</sub> 1.4%, α<sub>W</sub> 0.4% | Any coupling outside 5% under refined Ω<sub>Λ</sub> |
+| Three forces only | Grid ladder exhausted at 3 rungs | Fourth fundamental force or SUSY partners observed |
+| ν floor | μ<sub>Λ</sub> ≈ 2.25 meV | Lightest neutrino mass contradicts at >3σ |
+| Rank 16 entry | ~349 MeV, R<sub>5</sub> std | No particle found, or particle found with wrong quantum numbers |
 
 <a href="https://www.esa.int/Science_Exploration/Space_Science/Euclid_overview">
   <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Euclid_mission_poster_horizontal.png/:/rs=w:2560,h:1440" width="300" alt="Euclid Mission">
