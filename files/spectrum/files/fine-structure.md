@@ -59,7 +59,7 @@ For dimensional observables, $n = 1, 2, 3$ counts whole manifold embeddings. Eac
 | 3 | Grid resolution | Minimum step $= 1/60$ |
 | 4 | One step of $\Omega$ on 60 positions | $\Omega^{1/60}$ |
 
-Dimensional observables count whole floors because they carry Planck dimensions (powers of $\ell_P$, $t_P$) requiring whole-manifold dilution. Dimensionless couplings carry no Planck dimensions; they resolve at the grid level. The exponent $1/60 = 1/\lvert I \rvert$ on $\Omega$ follows from two convergent paths (McKay packetization, dimensionless dilution rule). The McKay mass spectrum derives the same $\text{dist}/30$ hierarchy, producing 10/12 SM fermion masses within a factor of 3.
+Dimensional observables count whole floors because they carry Planck dimensions (powers of $\ell_P$, $t_P$) requiring whole-manifold dilution. Dimensionless couplings carry no Planck dimensions; they resolve at the grid level. The exponent $1/60 = 1/\lvert I \rvert$ on $\Omega$ follows from two convergent paths (McKay packetization, dimensionless dilution rule). The McKay mass spectrum derives the same $\text{dist}/30$ hierarchy, producing 9/12 SM fermion masses within a factor of 3.
 
 ### The derivation chain
 
