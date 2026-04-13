@@ -6,7 +6,7 @@
 
 [![Cosmological Constant](https://img.youtube.com/vi/hN8iArWssNU/mqdefault.jpg)](https://www.youtube.com/watch?v=hN8iArWssNU)
 
-Einstein introduced Λ in 1917 to hold the universe static. When Hubble proved expansion, he removed it, calling it his "biggest blunder." A century later, standard cosmology revived Λ as dark energy. This note completes the arc: there is no dark energy nor mysterious force. Λ is set by the ground-mode eigenvalue of the cosmic boundary; the geometry of the universe itself driving 'expansion'. Einstein was right the first time, for reasons then unknown.
+Einstein introduced Λ in 1917 to hold the universe static. When Hubble proved expansion, he removed it, calling it his "biggest blunder." A century later, standard cosmology revived Λ as 'dark energy'. This note completes the arc: there is no dark energy nor mysterious force. Λ is set by the ground-mode eigenvalue of the cosmic boundary; the geometry of the universe itself driving 'expansion'. Einstein was right the first time, for reasons then unknown.
 
 The Möbius band selects half-integer modes; the lowest yields $\Lambda_\text{top} = 2/R^2$, where $R$ is the curvature radius of $S^3$. The ground eigenvalue of the twisted Laplacian on the curved Möbius band equals its scalar curvature exactly; the Gauss-Codazzi equations under totally geodesic embedding and isotropy convert this to the observed $\Lambda_\text{obs}$, differing by a factor of 3/2.
 
@@ -331,7 +331,7 @@ These predictions are stated in advance of the European Space Agency's Euclid Da
 
 Einstein put geometry into his equations and then took it out. A century of physics put it back in and called it energy when it was geometry all along. The blunder was not adding Λ, it was removing it.
 
-The cosmological constant is neither a fitted parameter nor "dark energy." It is the ground mode of the cosmic boundary, the ground tone of a resonant universe.
+The cosmological constant is neither a fitted parameter nor 'dark energy'. It is the ground mode of the cosmic boundary, the ground tone of a resonant universe.
 
 *Einstein's constant, resolved.*
 
