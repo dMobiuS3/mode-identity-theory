@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mode Identity Theory | The Topology</title>
   <meta name="description" content="Interactive visualization of the topological postulate: S¹ = ∂(Möbius) ↪ S³, ∂S³ = ∅">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
       --bg: #050810; --text: #c8dce8;
       --dim: rgba(180,200,220,0.5); --dimmer: rgba(180,200,220,0.3);
       --accent: #6ec1e4; --edge: #e85040; --surface: #88c8e8;
-      --serif: 'Cormorant Garamond', Georgia, serif;
-      --mono: 'IBM Plex Mono', monospace;
+      --sans: 'Space Grotesk', system-ui, sans-serif;
+      --mono: 'JetBrains Mono', monospace;
     }
     html, body { width: 100%; height: 100%; overflow: hidden; background: var(--bg); color: var(--text); font-family: var(--mono); }
     canvas { display: block; width: 100%; height: 100%; cursor: grab; }
@@ -31,11 +31,11 @@
       pointer-events: none;
     }
     .title-bar h1 {
-      font-family: var(--serif); font-size: 36px; font-weight: 300;
+      font-family: var(--sans); font-size: 38px; font-weight: 300;
       letter-spacing: 5px; color: rgba(230,240,248,0.9);
     }
     .title-bar .eq {
-      font-family: var(--serif); font-size: 19px; font-weight: 400;
+      font-family: var(--mono); font-size: 17px; font-weight: 400;
       color: var(--dim); letter-spacing: 1px; margin-top: 6px;
     }
 
@@ -48,7 +48,7 @@
       display: flex; align-items: center; gap: 10px;
       background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
       border-radius: 6px; padding: 10px 14px; cursor: pointer;
-      font-family: var(--mono); font-size: 13px; color: var(--dim);
+      font-family: var(--sans); font-size: 14px; font-weight: 500; color: var(--dim);
       transition: all 0.3s; letter-spacing: 0.3px; min-width: 160px;
       -webkit-user-select: none; user-select: none;
     }
@@ -69,25 +69,25 @@
     /* Annotation panel */
     .annotation {
       position: fixed; right: 24px; top: 50%; transform: translateY(-50%); z-index: 20;
-      max-width: 220px; padding: 18px 20px;
+      max-width: 240px; padding: 20px 22px;
       background: rgba(5,8,16,0.85); border: 1px solid rgba(255,255,255,0.06);
       border-radius: 8px; backdrop-filter: blur(12px);
       transition: opacity 0.4s;
     }
     .annotation .a-label {
-      font-size: 11px; font-weight: 600; letter-spacing: 2px;
+      font-family: var(--sans); font-size: 12px; font-weight: 600; letter-spacing: 2px;
       text-transform: uppercase; margin-bottom: 6px; opacity: 0.5;
     }
     .annotation .a-name {
-      font-family: var(--serif); font-size: 26px; font-weight: 400;
-      margin-bottom: 8px; letter-spacing: 0.5px;
+      font-family: var(--sans); font-size: 24px; font-weight: 400;
+      margin-bottom: 10px; letter-spacing: 0.3px;
     }
     .annotation .a-body {
-      font-size: 14px; color: var(--dim); line-height: 1.65;
+      font-family: var(--sans); font-size: 15px; color: var(--dim); line-height: 1.65;
     }
     .annotation .a-math {
-      font-family: var(--serif); font-size: 19px; color: var(--accent);
-      margin: 8px 0; letter-spacing: 0.5px;
+      font-family: var(--mono); font-size: 17px; color: var(--accent);
+      margin: 10px 0; letter-spacing: 0.5px;
     }
 
     /* Bottom bar */
@@ -98,17 +98,17 @@
       pointer-events: none;
     }
     .bottom-bar .hint {
-      font-size: 12px; color: rgba(180,200,220,0.3); letter-spacing: 1px;
+      font-family: var(--sans); font-size: 13px; color: rgba(180,200,220,0.3); letter-spacing: 1px;
     }
 
     @media (max-width: 700px) {
       .title-bar h1 { font-size: 26px; letter-spacing: 3px; }
-      .title-bar .eq { font-size: 15px; }
+      .title-bar .eq { font-size: 14px; }
       .controls { left: 12px; }
       .ctrl-btn { min-width: 44px; padding: 10px; }
       .ctrl-btn span { display: none; }
       .annotation { right: 12px; max-width: 180px; padding: 14px; }
-      .annotation .a-name { font-size: 22px; }
+      .annotation .a-name { font-size: 20px; }
     }
   </style>
 </head>
