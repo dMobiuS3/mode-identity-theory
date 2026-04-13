@@ -4,6 +4,8 @@
 
 # Black Double Zero's
 
+[![Black Double Zero's](https://img.youtube.com/vi/iByR_Bv5Vng/mqdefault.jpg)](https://www.youtube.com/watch?v=iByR_Bv5Vng)
+
 Where Θ hits the wall and Ω collapses to nothing. *A working supplement to Mode Identity Theory.*
 
 **Status:** Sections I-V derived or motivated from the scaling law. Section II.A connects to spectral geometry results from the RH program.
