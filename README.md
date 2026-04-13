@@ -81,7 +81,7 @@ Three constants fix the physics. Two measurements set the size. One borrowed par
 
 ---
 
-## :musical_score: Scoreboard
+## :musical_score: Score
 
 Blind outputs of a fixed structure, checked against observation:
 
