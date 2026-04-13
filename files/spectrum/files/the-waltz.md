@@ -4,6 +4,8 @@
 
 # The Waltz: Λ *Note* to Einstein's Field Equations
 
+[![The Waltz](https://img.youtube.com/vi/5QDKZavD5g4/mqdefault.jpg)](https://www.youtube.com/watch?v=5QDKZavD5g4)
+
 *Two partners, one cost. Space curves continuously. The surface samples discretely. Gravity is the step between them.*
 
 The cosmological constant Λ lives on the Möbius surface as a topological eigenvalue. Observation infers it from three-dimensional dynamics in $S^3$. The Gauss-Codazzi equations provide the interface: a $3/2$ conversion factor that carries 2D surface curvature into 3D spatial geometry.
