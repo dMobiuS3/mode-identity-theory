@@ -322,8 +322,6 @@ The $a_0/H_0$ ratio is locked by well positions: $C(13/120)/C(34/120) = 0.184$. 
 
 **[Run the Calculations for Yourself](https://dmobius3.github.io/mode-identity-theory/blob/main/files/framework/files/calculator.html)**
 
-[MIT Calculator](https://dmobius3.github.io/mode-identity-theory/files/framework/files/calculator.html)
-
 ### The Gauge Ladder
 
 Dimensionless couplings resolve within the hierarchy at the grid level rather than the manifold level. A single principle assigns each gauge force: the phase slot inherits the grid of the carrier, the exponent slot inherits the grid of the confinement target.
