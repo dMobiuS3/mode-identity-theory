@@ -295,4 +295,4 @@ The structural parallel between the scaling double zero ($\Theta \to 0$ driving 
 
 ---
 
-/ **[`framework/`](../../framework/)** / **[`cosmos/`](../../cosmos/)** / **[`spectrum/`](../../spectrum/)** /
+/ **[`main/`](../../../README.md)** / **[`framework/`](../../framework/)** / **[`cosmos/`](../../cosmos/)** / **[`spectrum/`](../../spectrum/)** /
