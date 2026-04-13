@@ -12,7 +12,7 @@ Where Θ hits the wall and Ω collapses to nothing. *A working supplement to Mod
 
 ---
 
-## I. What a Black Hole Is
+## I. What is it?
 
 A Black Hole is a region where enough wave content on the Möbius surface is enclosed to push two quantities to their boundary values simultaneously. The phase position $\Theta$ reaches the boundary of the domain, driving the sampling amplitude $C(\Theta) = 2\sin^2(\pi\Theta)$ to zero: the spatial mode reaches its node and observation ceases. The local scale hierarchy $\Omega_H$ collapses to zero: the Hubble radius shrinks to nothing and no scale separation remains. $\Theta$ hitting the wall is the geometric event. $C$ vanishing is what the observer experiences. $\Omega_H$ collapsing is the independent partner. Both limits arrive at the same place.
 
