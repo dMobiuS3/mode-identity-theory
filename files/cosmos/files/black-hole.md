@@ -122,7 +122,7 @@ The spectral mirror (§II.A) reinforces this: at $s = 0$, the spectral determina
 
 ### IV.A The Geometric Complement
 
-The [`Sector $\mathcal{A}$ eigenvalue problem`](ground-eigenvalue.md) gives the ground eigenfunction and the metric coefficient on the totally geodesic Möbius band in $S^3$:
+The [Sector $\mathcal{A}$ eigenvalue problem](ground-eigenvalue.md) gives the ground eigenfunction and the metric coefficient on the totally geodesic Möbius band in $S^3$:
 
 $$u_0(y) = \sin(y/R), \qquad J(y) = \cos(y/R)$$
 
