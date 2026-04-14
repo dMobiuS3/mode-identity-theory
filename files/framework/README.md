@@ -200,7 +200,7 @@ $$\Omega_H(z) \equiv \left(\frac{R_H(z)}{\ell_P}\right)^2, \quad R_H = c/H(z)$$
 
 At the present epoch, $\Omega_H \approx \Omega_\Lambda \approx 10^{122}$. The coincidence is structural: the observer sits near the temporal midpoint of $\Psi$.
 
-### [The Observer](../cosmos/files/cmb-anamolies.md)
+### [The Observer](../cosmos/files/cmb-anomalies.md)
 
 The bounded domain spans from $\Omega \sim 10^{122}$ (horizon) to $10^0$ (Planck). The IR $\leftrightarrow$ UV fixed point $x = \Omega/x$ gives:
 
