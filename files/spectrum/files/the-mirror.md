@@ -390,7 +390,7 @@ The spectral inaccessibility theorem is a negative result for the RH direction. 
 
 | Spectral object | Role in § III | MIT physics role |
 |----------------|--------------|-----------------|
-| Reidemeister torsion | L-factorization at $s=0$ | Fermion mass formula (10/12 within $\times3$) |
+| Reidemeister torsion | L-factorization at $s=0$ | Fermion mass formula (10 assigned, 9 within $\times3$) |
 | $\varphi^{-4}$ Galois pair | $-2\sqrt{5}\cdot L(1,\chi_2)$, exact to 79 digits | Mass ratio between generations |
 | $h(E_8)=30$ | McKay multiplicity period | Mass hierarchy exponent ($\mathrm{dist}/30$) |
 | Three flat connections | Three isolated vacua, $H^1=0$ | Three particle generations |
