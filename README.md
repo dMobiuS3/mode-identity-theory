@@ -87,7 +87,7 @@ Blind outputs of a fixed structure, checked against observation:
 | Observable | Predicted | Observed | Agreement |
 |---|---|---|---|
 | [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda_\text{obs} \cdot \ell_P^2$ | $2.9 \times 10^{-122}$ | $2.84 \times 10^{-122}$ | ~2% |
-| [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 (Gravitational cost) | $> 3\sigma$ with independent $H_0$ | exact |
+| [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda_\text{obs}/\Lambda_\text{top}$ | 3/2 (gravitational cost) | $> 3\sigma$ with independent $H_0$ | exact |
 | [↗](/files/cosmos/files/cosmological-constant.md) $\Lambda$ constant | eigenvalue of fixed topology | no variation detected | ✓ |
 | [↗](/files/cosmos/files/dark-energy.md) $w_\text{eff}(z) > -1$ | no phantom crossing | DESI DR2 compatible | ✓ |
 | [↗](/files/cosmos/files/dark-energy.md) $z_\text{cross}$ | 0.663 | DESI transition region | awaiting Euclid DR1 |
