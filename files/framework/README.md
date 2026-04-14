@@ -116,11 +116,11 @@ $$\Delta t_{\min} = \frac{4\pi}{120} = \frac{\pi}{30}$$
 
 **The minimum action** $\Delta S_{\min} = \hbar\pi/30$: frame-independent by construction ($\hbar$ is invariant; $\pi/30$ is a pure number set by the topology, not by a coordinate choice).
 
-### Confinement
+### [Confinement](../spectrum/files/yang-mills.md)
 
 Positive Ricci curvature on $S^3$ means every coexact gauge fluctuation around a flat connection has a minimum eigenvalue. The Weitzenböck identity on the Hodge Laplacian gives $\lambda \geq 2/R_\Lambda^2 > 0$. The mass gap exists and is at least $2/R_\Lambda^2$; the actual gap at the trivial and standard vacua is $4/R_\Lambda^2$. Confinement is geometric.
 
-### [Three Generations](../spectrum/files/yang-mills.md)
+### Three Generations
 
 Flat SU(2) connections on $S^3/2I$ are classified by conjugacy classes of homomorphisms from $2I$ into SU(2). Exactly three exist. Each is isolated ($H^1 = 0$): no continuous moduli, no Goldstone bridges between families.
 
