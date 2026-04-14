@@ -51,13 +51,15 @@ The surface-mode coupling is invisible to the CMB by construction. At recombinat
 
 The observer's position within the cosmic cycle is measured from the geometric turnaround ($t = 2\pi$, where $\Psi = -1$; $t$ increases monotonically from $t = 0$). The derivation:
 
-$$L_\text{fund} \approx 2.1 \text{ Gpc} \xrightarrow{\text{Friedmann}} T_\text{cycle} \approx 33.2 \text{ Gyr} \xrightarrow{t = 4\pi\, T/T_\text{cycle}} t_\text{now} = 4\pi \times \frac{13.8}{33.2} = 5.22 \text{ rad} \xrightarrow{\delta \equiv t - 2\pi} \delta = -1.06 \text{ rad}$$
+$$\Omega_m, \Omega_\Lambda, H_0 \xrightarrow{\text{Friedmann}} T_\text{cycle} \approx 33.2 \text{ Gyr} \xrightarrow{t = 4\pi\, T/T_\text{cycle}} t_\text{now} = 4\pi \times \frac{13.8}{33.2} = 5.22 \text{ rad} \xrightarrow{\delta \equiv t - 2\pi} \delta = -1.06 \text{ rad}$$
 
-Both inputs are prior to any BAO dataset. The resulting $z_\text{cross} = 0.663$ coincides with the center of DESI's non-parametric $w(z)$ transition region. This coincidence is a consistency check, not a calibration. The prediction is registered on Zenodo prior to Euclid DR1.
+All inputs are prior to any BAO dataset. The resulting $z_\text{cross} = 0.663$ coincides with the center of DESI's non-parametric $w(z)$ transition region. This coincidence is a consistency check, not a calibration. The prediction is registered on Zenodo prior to Euclid DR1.
 
 ### The Coupling ε
 
-ε is a translation coefficient, measuring how the MIT standing wave projects into the Friedmann equation. It belongs to the interface between the two frameworks: MIT's own structure (boundary conditions, standing wave, surface-mode eigenvalue) contains no free amplitude parameter. The projection into standard Friedmann variables requires one because the two descriptions parameterize the expansion history differently. Whether MIT can derive ε from its own geometry remains an open problem.
+ε is a translation coefficient, measuring how the MIT standing wave projects into the Friedmann equation. It belongs to the interface between the two frameworks: MIT's own structure (boundary conditions, standing wave, surface-mode eigenvalue) contains no free amplitude parameter. The projection into standard Friedmann variables requires one because the two descriptions parameterize the expansion history differently.
+
+The CMB topology analysis independently determines the observer's geodesic distance from the domain center: $d = 2.1$ Gpc, corresponding to $\chi = d/R = 0.40$ rad in $S^3$ (constrained by four CMB observables). The profiled coupling $\varepsilon \approx 0.16$ is numerically consistent with $(d/R)^2 = 0.160$ to better than 1%. This suggests the modulation amplitude may trace to the standing wave energy density at the observer's position, whose lowest spatially-varying mode scales as $\chi^2$ at small $\chi$. A first-principles derivation equating the local mode amplitude with the Friedmann-sector coupling remains open; the functional form of the $z$-dependence has not been verified from this geometric picture.
 
 The calibration proceeds by inject-and-recover: MIT distances are generated at trial ε, a CPL template is fitted, and the recovered $w_0$ is matched to the target $w_0 = -0.773$ from DES-SN5YR + Planck + SDSS BAO, which contains no DESI data. This yields ε = 0.255 and is locked before the DESI analysis (prediction mode, $k = 2$). Separately, profiling ε on the DESI combination yields a best-fit of ε = 0.16 (profile mode, $k = 3$; see Results). The residual difference between the two values likely reflects dataset-dependent systematics and the distortion introduced by fitting a cosine modulation through a linear CPL template.
 
