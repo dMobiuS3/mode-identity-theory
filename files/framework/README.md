@@ -23,9 +23,11 @@ Each step depends on the one before; nothing later exists independently from wha
 5. Sampling locates the observer on the domain
 6. The observable is the output; no value precedes the sample
 
+---
+
 ## Inputs
 
-Three constants fix the physics. Two measurements set the size. One borrowed parameter locates the time.
+Two constants fix the physics. Two measurements anchor the scale. One borrowed parameter locates the time.
 
 **Primitives**
 
@@ -33,31 +35,27 @@ Three constants fix the physics. Two measurements set the size. One borrowed par
 |---|---|---|
 | $c$ | 299,792,458 m/s | Propagation rate on the temporal edge $S^1$ |
 | $\hbar$ | $1.055 \times 10^{-34}$ J s | Action quantum; converts mode number to energy |
-| $G$ | $6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻² | [Curvature-energy dictionary at the Planck floor](../spectrum/files/the-waltz.md) |
+
+These are irreducible. $c$ defines the causal structure of spacetime; the topology lives inside it. $\hbar$ converts dimensionless ratios (which the topology provides) into physical energies. Without both, the mathematics exists but the physics doesn't.
 
 **Measured scales**
 
 | Scale | Value | Role |
 |---|---|---|
-| $R_\Lambda$ | $\approx 5.3$ Gpc | De Sitter horizon radius; sets the size of the domain |
-| $L_\text{fund}$ | $\approx 2.1$ Gpc | [CMB low-ℓ cutoff; sets the cavity mode](../cosmos/files/cmb-anomalies.md) |
+| $R$ | $\approx 5.3$ Gpc | Curvature radius of $S^3$; sets the size of the domain |
+| $m_e$ | $0.511$ MeV | Electron mass; anchors the particle spectrum |
+
+These are irreducible. The topology is a shape, not a size: a sphere of any radius is still a sphere. $R$ sets the scale. The mass formula gives every particle mass as $m_e$ times dimensionless topological ratios times a power of $\Omega$; without one mass, you have all the ratios but no absolute scale. Two measurements because the mass formula with unknowns $(R, G)$ and one known $(m_e)$ gives one equation in two unknowns.
 
 **Concordance parameter**
 
 | Parameter | Value | Role |
 |---|---|---|
-| $\Omega_m$ | 0.315 | Matter density fraction; used solely to locate the present epoch ($t_\text{now} = 5.22$ rad) |
+| $\Omega_m$ | 0.315 | Matter density fraction; locates the present epoch ($t_\text{now} = 5.22$ rad) |
 
-**Derived**
+The only borrowed parameter. $\Omega_m$ enters solely through the Friedmann integral to determine where the observer stands on the standing wave. Whether the topology constrains $\Omega_m$ is an OPEN question.
 
-| Const. | Definition | Value |
-|---|---|---|
-| $\ell_P$ | $\sqrt{\hbar G/c^3}$ | $1.616 \times 10^{-35}$ m |
-| $t_P$ | $\ell_P/c$ | $5.391 \times 10^{-44}$ s |
-| $a_P$ | $c/t_P$ | $5.561 \times 10^{51}$ m/s² |
-| $\Omega_\Lambda$ | $(R_\Lambda/\ell_P)^2$ | $\approx 10^{122}$ * |
-
-> * $\Omega_\Lambda$ here is the Planck-area count on the de Sitter horizon, not the standard cosmological density fraction ($\Omega_\Lambda^\text{ΛCDM} \approx 0.685$). The two are related by $\Omega_\Lambda = 3/(\Lambda \cdot \ell_P^2) \sim 10^{122}$.
+---
 
 ## [The Topology](https://dmobius3.github.io/mode-identity-theory/files/framework/files/topology.html)
 
