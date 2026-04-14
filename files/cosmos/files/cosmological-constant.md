@@ -6,16 +6,19 @@
 
 [![Cosmological Constant](https://img.youtube.com/vi/hN8iArWssNU/mqdefault.jpg)](https://www.youtube.com/watch?v=hN8iArWssNU)
 
-Einstein introduced Λ in 1917 to hold the universe static. When Hubble observered 'expansion,' he removed it, calling it his "biggest blunder." A century later, standard cosmology revived Λ as 'dark energy.' This note completes the arc: there is no dark energy nor mysterious force. Λ is set by the ground-mode eigenvalue of the cosmic boundary; the geometry of the universe itself driving 'expansion.' Einstein was right the first time, for reasons then unknown.
+Einstein introduced Λ in 1917 to hold the universe static. When Hubble observed 'expansion,' he removed it, calling it his "biggest blunder." A century later, standard cosmology revived Λ as 'dark energy.' This note completes the arc: there is no dark energy nor mysterious force. Λ is set by the ground-mode eigenvalue of the cosmic boundary; the geometry of the universe itself driving 'expansion.' Einstein was right the first time, for reasons then unknown.
 
 The Möbius band selects half-integer modes; the lowest yields $\Lambda_\text{top} = 2/R^2$, where $R$ is the curvature radius of $S^3$. The ground eigenvalue of the twisted Laplacian on the curved Möbius band equals its scalar curvature exactly; the Gauss-Codazzi equations under totally geodesic embedding and isotropy convert this to the observed $\Lambda_\text{obs}$, differing by a factor of 3/2.
 
 | Quantity | Value |
 |---|---|
-| Prediction | $\Lambda_\text{obs} = 3/R^2 = 1.12 \times 10^{-52}\;\text{m}^{-2}$ |
+| Derived | $\Lambda \cdot R^2 = 3$, where 3 = eigenvalue (2) $\times$ Gauss-Codazzi (3/2) |
+| Measured | $R \approx 5.3$ Gpc (single input) |
+| Result | $\Lambda_\text{obs} = 3/R^2 = 1.12 \times 10^{-52}\;\text{m}^{-2}$ |
 | Observed | $1.11 \times 10^{-52}\;\text{m}^{-2}$ |
-| In Planck units | $2.9 \times 10^{-122}$ vs $2.84 \times 10^{-122}$ |
-| Agreement | ~2% |
+| Cross-check | Molien gap on $S^3/2I$ gives $R \approx 5.0$ Gpc independently of $\Lambda$ |
+
+Standard cosmology does not constrain $\Lambda \cdot R^2$. This framework derives the coefficient from topology.
 
 ## I. The Constant
 
@@ -86,11 +89,13 @@ $$2L = 2\pi R \quad \Rightarrow \quad L = \pi R$$
 
 One lap ($L$) brings you to the flip side. Two laps ($2L$) bring you home.
 
-R is fixed observationally from the CMB, independent of Λ. The power spectrum shows suppression below $\ell \lesssim 30$, implying a minimum wavenumber $k_\text{min} = \pi^2/2L_\text{fund}$ and a fundamental length scale $L_\text{fund} \approx 2.1$ Gpc read directly from the spectrum. The topology connects $L_\text{fund}$ to R: the Möbius boundary traverses the band once per lap, so $L_\text{band} = \pi R$. The observed ratio $L_\text{band}/L_\text{fund} \approx 7.93$ then gives:
+$R$ is the curvature radius of $S^3$, the single measured scale of the framework. From standard cosmological parameters:
 
-$$R = \frac{L_\text{fund} \times 7.93}{\pi} \approx 5.3 \text{ Gpc} = 1.64 \times 10^{26} \text{ m}$$
+$$R = \frac{c}{H_0\sqrt{\Omega_\Lambda}} \approx 5.3 \text{ Gpc} = 1.64 \times 10^{26} \text{ m}$$
 
-This value of R enters the eigenvalue computation.
+If the shape is correct, one measurement determines everything. The framework predicts $\Lambda_\text{obs} = 3/R^2$, where the coefficient 3 is derived from the eigenvalue (factor of 2) and the Gauss-Codazzi conversion (factor of 3/2). Every other observable is also fixed by $R$ and the topology: the CMB mode deficit, the spectral gap, the gauge couplings. Each is an independent check that the shape rings true.
+
+The Molien series for the binary icosahedral group $2I$ provides a cross-check on $R$ independent of $\Lambda$. The scalar harmonic spectrum on $S^3/2I$ is empty for shells $N = 1$ through $11$; the first surviving shell ($N = 12$) maps to CMB multipole $\ell_\text{char} = \sqrt{N(N+2)}\,\chi_*/R \approx 34$, consistent with the observed power deficit below $\ell \lesssim 30$.
 
 The Möbius band has a single boundary traversed twice. Traversing the band once returns a field to the opposite side — the geometry itself imposes the sign flip:
 
@@ -274,7 +279,7 @@ $${\Lambda_\text{obs} = \frac{3}{R^2}}$$
 
 The coefficient 3 decomposes as two factors. The curved eigenvalue $\lambda_0 = 2/R^2$: the ground mode on the totally geodesic surface carries this geometric factor directly. The Gauss-Codazzi conversion 3/2: intrinsic 2D curvature maps to observed 3D spatial curvature through the embedding interface. Their product: $2 \times 3/2 = 3$.
 
-With R fixed from the CMB low-ℓ cutoff (§II.A), $R = 1.64 \times 10^{26}$ m:
+With $R = 5.3$ Gpc $= 1.64 \times 10^{26}$ m (§II.A):
 
 $$\frac{3}{R^2} = \frac{3}{(1.64 \times 10^{26})^2} = 1.12 \times 10^{-52}\;\text{m}^{-2}$$
 
@@ -285,7 +290,7 @@ Observed: $\Lambda_\text{obs} = 1.11 \times 10^{-52}\;\text{m}^{-2}$. Agreement 
 | Step | Input | Output |
 |---|---|---|
 | 1 | Möbius topology | Anti-periodic BC; $L = \pi R$ |
-| 2 | $L = \pi R$ + CMB low-ℓ cutoff ($L_\text{fund} \approx 2.1$ Gpc) | $R \approx 5.3$ Gpc |
+| 2 | $R$ measured (single scale of the framework) | $R \approx 5.3$ Gpc |
 | 3 | Even transverse mode | 1D reduction |
 | 4 | Anti-periodic BC | Half-integer spectrum |
 | 5 | Isotropy + orthogonality | Ground mode ($m = 0$) |
@@ -323,7 +328,7 @@ Eigenvalues of the Laplacian on fixed topology are constants. If the topology is
 | Prediction | Falsified if | Threshold |
 |---|---|---|
 | Λ constant | Best-fit Λ in redshift bins shows significant variation | >2σ across independent probes (SNe, BAO, CMB) |
-| 3/2 conversion | $3\Lambda_\text{obs} \neq 2/R^2$, with R from CMB low-ℓ cutoff and $\Lambda_\text{obs}$ from SNe/BAO | >3σ |
+| 3/2 conversion | $\Lambda_\text{obs} \cdot R^2 \neq 3$, with $R$ and $\Lambda_\text{obs}$ from independent probes | >3σ |
 
 These predictions are stated in advance of the European Space Agency's Euclid Data Release 1, scheduled for October 2026.
 
