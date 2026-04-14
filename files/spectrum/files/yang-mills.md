@@ -120,7 +120,13 @@ The existence of the gap, the discreteness of vacua, the vanishing $H^1$, and th
 
 Within Mode Identity Theory, $R$ is fixed by cosmological parameters, making $\Delta^2 = 4/R^2$ a determinate physical constant. The same positive curvature $\mathrm{Ric}(S^3) = 2/R^2$ that guarantees confinement here enters the Gauss-Codazzi conversion that produces Λ. One geometry, two consequences: the cosmological constant and the spectral gap share a common origin in the curvature of $S^3$.
 
-The $2I$ structure performs three roles: it partitions phase space into the 120-domain (the scaling law), it filters gauge fluctuations into three isolated vacua with computed spectral gaps (this result), and it provides the spectral geometry whose McKay multiplicities are the $E_8$ root system. The same McKay filtering, applied to the trivial representation rather than the adjoint, determines the scalar harmonic spectrum on $S^3/2I$: the Molien series for the invariant ring of $2I$ empties the first five spin levels after $j = 0$, producing the CMB power deficit observed below $\ell \lesssim 30$.
+The $2I$ structure performs three roles: it partitions phase space into the 120-domain (the scaling law), it filters gauge fluctuations into three isolated vacua with computed spectral gaps (this result), and it provides the spectral geometry whose McKay multiplicities are the $E_8$ root system.
+
+The same McKay filtering, applied to the trivial representation $R_0$ rather than the adjoint, determines the scalar harmonic spectrum on $S^3/2I$. Scalar harmonics on $S^3$ are graded by polynomial degree $N = 0, 1, 2, \ldots$ with eigenvalue $N(N+2)/R^2$. The center $\{-1\} \in 2I$ acts on degree $N$ by $(-1)^N$, restricting $R_0$-invariants to even $N$. Among these, the Molien series
+
+$$P(t) = \frac{1 - t^{60}}{(1 - t^{12})(1 - t^{20})(1 - t^{30})}$$
+
+shows the first nontrivial invariant at $N = 12$. Five even-degree shells ($N = 2, 4, 6, 8, 10$) are empty. The mechanism parallels the gauge sector: the McKay recursion walks along the $E_8$ graph, and the trivial representation does not reappear until the walk returns after twelve steps. The last empty shell ($N = 10$) has characteristic multipole $\ell_{\mathrm{char}} = \sqrt{N(N+2)}\,\chi_*/R \approx 29$; the first surviving shell ($N = 12$) has $\ell_{\mathrm{char}} \approx 34$. The Molien gap produces a mode density deficit below $\ell \lesssim 30$, matching the observed CMB low-$\ell$ power suppression.
 
 ## V. Falsification
 
