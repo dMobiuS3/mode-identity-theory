@@ -6,7 +6,7 @@
 
 [![Fine Structure](https://img.youtube.com/vi/Z_NBRuKNFDI/mqdefault.jpg)](https://www.youtube.com/watch?v=Z_NBRuKNFDI)
 
-The fine structure constant $\alpha \approx 1/137$ governs the strength of electromagnetic interaction. It is dimensionless: a pure number carrying no Planck units. No framework in standard physics predicts its value. Within Mode Identity Theory, the same scaling law that produces Λ, $H_0$, and $a_0$ extends to dimensionless couplings. The result is $\alpha = C(13/60) \cdot \Omega_\Lambda^{-1/60} = 0.00733$, within 0.5% of the measured value, derived from one topological postulate with no free parameters. The same structure yields all three gauge couplings.
+The fine structure constant $\alpha \approx 1/137$ governs the strength of electromagnetic interaction. It is dimensionless: a pure number carrying no Planck units. No framework in standard physics predicts its value. Within Mode Identity Theory, the same scaling law that produces Λ, $H_0$, and $a_0$ extends to dimensionless couplings. The result is $\alpha = C(13/60) \cdot \Omega_\Lambda^{-1/60} = 0.00733$, within 0.5% of the measured value, derived from one topological postulate. The same structure yields all three gauge couplings.
 
 **Results at a glance**
 
@@ -19,7 +19,7 @@ The fine structure constant $\alpha \approx 1/137$ governs the strength of elect
 
 ## I. The Problem
 
-The fine structure constant $\alpha = e^2/(4\pi\varepsilon_0\hbar c) \approx 1/137.036$ governs the strength of electromagnetic interaction. It is dimensionless: a pure number carrying no Planck units. No framework in standard physics predicts its value.
+The fine structure constant $\alpha = e^2/(4\pi\varepsilon_0\hbar c) \approx 1/137.036$ governs the strength of electromagnetic interaction. It is dimensionless: a pure number carrying no Planck units.
 
 Within MIT, dimensional observables scale from Planck references via the scaling law $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$, where $n = 1, 2, 3$ counts manifold embedding depth and each integer floor suppresses by $\sqrt{\Omega} \approx 10^{61}$. For dimensional observables, $A_P$ is the Planck reference (e.g. $\ell_P^{-2}$ for Λ, $t_P^{-1}$ for $H_0$). For a dimensionless coupling, $A_P = 1$: couplings are order unity at the Planck scale. The question becomes: what is $n$?
 
