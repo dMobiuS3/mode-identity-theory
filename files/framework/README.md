@@ -8,7 +8,7 @@ MIT was a topological thought formed on philosophical grounds before any predict
 
 One postulate ($S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$, $\partial S^3 = \emptyset$), two constants, two measured scales, and one borrowed parameter. Einstein's field equations and Standard Model particle content are unchanged. MIT provides what GR leaves undefined: boundary conditions.
 
-From this: $\Lambda$ at 2%, three gauge couplings at <2%, $H_0$ tension at <1%, three particle generations from three topological vacua, a mass gap from positive curvature, and 10 of 12 fermion masses within $\times 3$. Two predictions separate the framework from alternatives: $a_0(z) \propto H(z)$ while $\Lambda$ remains constant. Falsification criteria are pre-registered to Euclid DR1.
+From this: $\Lambda$ at 2%, three gauge couplings at <2%, $H_0$ tension at <1%, three particle generations from three topological vacua, a mass gap from positive curvature, and 10 of 12 fermion masses assigned with 9 within $\times 3$. Two predictions separate the framework from alternatives: $a_0(z) \propto H(z)$ while $\Lambda$ remains constant. Falsification criteria are pre-registered to Euclid DR1.
 
 [![The Perfect Shape](https://img.youtube.com/vi/U3VtY8GZox8/mqdefault.jpg)](https://www.youtube.com/watch?v=U3VtY8GZox8)
 
@@ -132,7 +132,7 @@ Flat SU(2) connections on $S^3/2I$ are classified by conjugacy classes of homomo
 
 Three particle generations from three topological vacua.
 
-### [The Mass Forumula](https://dmobius3.github.io/mode-identity-theory/files/framework/files/calculator.html)
+### [The Mass Formula](https://dmobius3.github.io/mode-identity-theory/files/framework/files/calculator.html)
 
 Four factors, each traced independently to the postulate:
 
@@ -145,7 +145,7 @@ $$\Large m(\rho, \sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (\sqrt{
 | $(\sqrt{\Omega_\Lambda})^{\text{dist}/30}$ | Hierarchy; orders of magnitude from vacuum floor | McKay graph distance; $h(E_8) = 30$ as denominator |
 | $T^2(\rho \otimes \sigma)$ | Fine structure within each mass shell; generation splitter | Reidemeister torsion; $T^2(R_3)/T^2(R_4) = \varphi^{-4}$ exact |
 
-Applied to 8 nontrivial irreps across 3 vacua, the formula produces 24 mass entries. 12 map to Standard Model fermions; 10 land within a factor of 3; three (electron, up quark, muon) land within 6%.
+Applied to 8 nontrivial irreps across 3 vacua, the formula produces 24 mass entries. 10 map to Standard Model fermions; 9 land within a factor of 3; three (electron, up quark, muon) land within 6%.
 
 ### [Particle Identity](../spectrum/files/mass-spectrum.md)
 
@@ -173,7 +173,7 @@ $$\Large {\Psi = \cos(t/2)}$$
 | $\Psi(0) = +1$ | Cosine over sine | $t = 0$ at amplitude maximum; $\partial_t\Psi\|_{t=0} = 0$ |
 | Ground state $m_h = 0$ | No higher harmonics | Isotropy ($10^{-5}$) and orthogonality (Gpc integration) |
 
-The cosmic phase $t = 4\pi\, T/T_\text{cycle}$ where $T$ is cosmic proper time and $T_\text{cycle} \approx 33.2$ Gyr from the Friedmann integral over $L_\text{fund}$.
+The cosmic phase $t = 4\pi\, T/T_\text{cycle}$ where $T$ is cosmic proper time and $T_\text{cycle} \approx 33.2$ Gyr from the Friedmann integral with Planck 2018 parameters ($\Omega_m = 0.315$, $H_0 = 67.4$ km/s/Mpc).
 
 [![Time](https://img.youtube.com/vi/9N6g-kDgUDc/mqdefault.jpg)](https://www.youtube.com/watch?v=9N6g-kDgUDc)
 
