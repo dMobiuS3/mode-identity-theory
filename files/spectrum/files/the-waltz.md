@@ -49,7 +49,7 @@ The Codazzi equation (momentum conservation) is satisfied to leading order in an
 
 The full Gauss equation contains extrinsic curvature terms ($K_{ij}$) beyond the vacuum. Excited modes ($m > 0$) on the Möbius surface bend the embedding, producing corrections to $R_{\text{spatial}}$ with the correct algebraic form. The scale is wrong by $\sqrt{\Omega} \approx 10^{61}$: the surface lives at $n = 2$, and extracting an $n = 0$ quantity ($G$) from $n = 2$ data introduces exactly this offset.
 
-The ratio of mode amplitude to energy density (f²/ρ) grows with $R$, so any "G" extracted from a single surface mode scales with the domain size rather than remaining constant. The scaling law enforces manifold-depth separation: matter enters through $S^3/2I$ spectral geometry (particle spectrum, mass gap, three generations), while the Möbius surface determines the vacuum. The binary icosahedral group determines matter.
+The ratio of mode amplitude to energy density (f²/ρ) grows with $R$, so any $G$ extracted from a single surface mode scales with the domain size rather than remaining constant. The scaling law enforces manifold-depth separation: matter enters through $S^3/2I$ spectral geometry (particle spectrum, mass gap, three generations), while the Möbius surface determines the vacuum. The binary icosahedral group determines matter.
 
 | Coefficient | Source |
 |---|---|
