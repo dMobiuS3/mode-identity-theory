@@ -313,7 +313,7 @@ The interior cone point at $y = \pi R/2$, corresponding to the pole of the under
 
 ---
 
-*B. Shatto (2026) - Manuscript GEOPHY-S-26-00461 — submitted to Journal of Geometry and Physics.*
+*Shatto, B. (2026) - Manuscript GEOPHY-S-26-00461 — submitted to Journal of Geometry and Physics.*
 
 ---
 
