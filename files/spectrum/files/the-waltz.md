@@ -160,7 +160,7 @@ The Fibonacci wells are the stable positions at depth $\sqrt{\Omega}$; the modes
 
 ---
 
-The topology sources the curvature. The spectrum sources the energy. G is what makes them agree: a derivation of Newton's constant from geometry. The dark sector is the geometry itself, visible to gravity and invisible to everything else.
+The topology sources the curvature. The spectrum sources the energy. G is the cost of realization and the dark sector is the geometry itself, visible to gravity but invisible to everything else.
 
 Space leads, the surface follows. The floor hums at Λ.
 
