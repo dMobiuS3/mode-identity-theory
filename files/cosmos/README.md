@@ -48,7 +48,7 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 ---
 
-**Black Double Zero.** The wave $\Psi$ still flows. The surface still hums at $\Lambda$. The topology holds and information is not lost. The observer is still in space but unable to speak.
+**Black Double Zero's.** The wave $\Psi$ still flows. The surface still hums at $\Lambda$. The topology holds and information is not lost. The observer is still in space but unable to speak.
 
 ***[Black Hole](files/black-hole.md)***
 
