@@ -1,4 +1,4 @@
-/ **[`main/`](../../README.md)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
+/ **[`main`](../../README.md)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
 
 ---
 
@@ -367,4 +367,4 @@ Euclid's independent measurement will either end MIT, ΛCDM, or both. Full stop.
 
 ---
 
-/ **[`main/`](../../README.md)** / **[`cosmos/`](../cosmos/)** / **[`spectrum/`](../spectrum/)** /
+/ **[`main`](../../README.md)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
