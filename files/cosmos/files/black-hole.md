@@ -86,6 +86,16 @@ This is the same mechanism by which the horizon is sharp: the sampling boundary 
 
 **What this connection is.** It is a structural parallel between the scaling law (Tool 5) and the spectral geometry (Tool 3). Both the horizon and $s = 0$ are special points where two independent quantities vanish simultaneously ($\Theta$ and $\Omega_H$ on the scaling side; $Z_\sigma$ and $(s)_k$ on the spectral side), and the physics is carried by the derivative at that point. Both are filters: the double zero kills everything except the essential structure.
 
+**Three witnesses, one pattern.** The double zero at the horizon has three independent descriptions, each with the same structure: value vanishes, derivative carries content through.
+
+| Domain | Value vanishes | Derivative survives |
+|--------|---------------|-------------------|
+| Scaling | $C(\Theta) \to 0$ (quadratic: $C \approx 2\pi^2\Theta^2$) | $C''(0) = 4\pi^2$ |
+| Spectral | $Z_\sigma(0) = 0$ for nontrivial $\sigma$ | $Z'_\sigma(0) = \log T^2$ (torsion) |
+| Eigenfunction | $u_0(0) = 0$ | $u_0'(0) = 1/R$ (slope through node) |
+
+The scaling and eigenfunction zeros are the same physical event ($\Theta \to 0$ and $u_0 \to 0$ are related by $C = 2u_0^2$). The spectral zero lives in a different parameter space ($s$, not $\Theta$) and is structurally parallel but proved independent (Lemma 8). The physical event is one double zero with two witnesses (scaling and eigenfunction). The spectral analog is a parallel double zero in its own domain. Three descriptions, two events, one pattern.
+
 **What this connection is not.** It is not a derivation of Hawking radiation from spectral geometry, or of torsion from the scaling law. The $\Phi \to \Theta$ mapping (§VIII.1) is derived at leading order; the spectral-to-physical bridge (§VIII.5) remains open. The $s \leftrightarrow \Theta$ bridge is proved not to exist by the Shatto Theorem (The Mirror, Lemma 8), established by four independent approaches on $S^1$ (heat kernel, theta function, Poisson summation, direct decomposition). The non-existence has two distinct mechanisms: on $S^1$, every eigenspace with anti-periodic BC is 2-dimensional (sin and cos), and the spectral zeta sees only eigenvalues and multiplicities, blind to the sin/cos choice that defines $C(\Theta)$; on $S^3/2I$, right-$\mathrm{SU}(2)$ homogeneity acts transitively, forcing the twisted heat kernel constant on each fiber diagonal so that continuous geometric position drops out structurally. The parallel is exact at the level of structure. Whether the physical $\Phi \to \Theta$ mapping faces an analogous obstruction, or whether the gravitational potential provides the discrete localization that the spectral geometry lacks, is an open question.
 
 ---
