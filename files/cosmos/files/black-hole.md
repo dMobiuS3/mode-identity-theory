@@ -8,7 +8,7 @@
 
 Where Θ hits the wall and Ω collapses to nothing. *A working supplement to Mode Identity Theory.*
 
-**Status:** Sections I-V derived or motivated from the scaling law. Section II.A connects to spectral geometry results from the RH program. The $\Phi \to \Theta$ mapping (§VIII.1) is derived at leading order; Hawking temperature is derived (§V, §VIII.4); minimum mass is computed (§VIII.2); area entropy is motivated but the $1/4$ factor remains open (§III). The directional problem (§VI) is resolved.
+**Status:** Sections I-V derived or motivated from the scaling law. Section II.A connects to spectral geometry results from the RH program. The $\Phi \to \Theta$ mapping (§VIII.1) is derived at leading order; Hawking temperature is derived (§V, §VIII.4); minimum mass is computed (§VIII.2); area entropy is motivated but the $1/4$ factor remains open (§III). The domain is topologically closed (§VI).
 
 ---
 
@@ -23,7 +23,7 @@ General Relativity sits at the $3/2$ Gauss-Codazzi interface, between the tempor
 | Singularity: infinite density | $\Theta \to 0$ (geometric event) and $\Omega_H \to 0$ (scale collapse) simultaneously. $C(\Theta) \to 0$ follows from the first. Double zero in the scaling law. |
 | Event horizon: point of no return | Radius where enclosed $n = 2$ content closes the sampling channel |
 | Information destroyed | Information unsampled. Wave persists through the node. |
-| Entropy scales with area (puzzle) | Surface ($n = 2$) is fundamental. Area scaling is expected. |
+| Entropy scales with area | Surface ($n = 2$) is fundamental. Area scaling is motivated; the factor $1/4$ is open. |
 
 ---
 
@@ -96,7 +96,7 @@ This is the same mechanism by which the horizon is sharp: the sampling boundary 
 
 The scaling and eigenfunction zeros are the same physical event ($\Theta \to 0$ and $u_0 \to 0$ are related by $C = 2u_0^2$). The spectral zero lives in a different parameter space ($s$, not $\Theta$) and is structurally parallel but proved independent (Lemma 8). The physical event is one double zero with two witnesses (scaling and eigenfunction). The spectral analog is a parallel double zero in its own domain. Three descriptions, two events, one pattern.
 
-**What this connection is not.** It is not a derivation of Hawking radiation from spectral geometry, or of torsion from the scaling law. The $\Phi \to \Theta$ mapping (§VIII.1) is derived at leading order; the spectral-to-physical bridge (§VIII.5) remains open. The $s \leftrightarrow \Theta$ bridge is proved not to exist by the Shatto Theorem (The Mirror, Lemma 8), established by four independent approaches on $S^1$ (heat kernel, theta function, Poisson summation, direct decomposition). The non-existence has two distinct mechanisms: on $S^1$, every eigenspace with anti-periodic BC is 2-dimensional (sin and cos), and the spectral zeta sees only eigenvalues and multiplicities, blind to the sin/cos choice that defines $C(\Theta)$; on $S^3/2I$, right-$\mathrm{SU}(2)$ homogeneity acts transitively, forcing the twisted heat kernel constant on each fiber diagonal so that continuous geometric position drops out structurally. The parallel is exact at the level of structure. Whether the physical $\Phi \to \Theta$ mapping faces an analogous obstruction, or whether the gravitational potential provides the discrete localization that the spectral geometry lacks, is an open question.
+**What this connection is not.** It is not a derivation of Hawking radiation from spectral geometry, or of torsion from the scaling law. The $\Phi \to \Theta$ mapping (§VIII.1) is derived at leading order; the spectral-to-physical bridge (§VIII.5) remains open. The $s \leftrightarrow \Theta$ bridge is proved not to exist by the Shatto Theorem (The Mirror, Lemma 8), established by four independent approaches on $S^1$ (heat kernel, theta function, Poisson summation, direct decomposition). The non-existence has two distinct mechanisms: on $S^1$, every eigenspace with anti-periodic BC is 2-dimensional (sin and cos), and the spectral zeta sees only eigenvalues and multiplicities, blind to the sin/cos choice that defines $C(\Theta)$; on $S^3/2I$, right-$\mathrm{SU}(2)$ homogeneity acts transitively, forcing the twisted heat kernel constant on each fiber diagonal so that continuous geometric position drops out structurally. The parallel is exact at the level of structure. The physical $\Phi \to \Theta$ mapping avoids the spectral obstruction: the gravitational potential provides the discrete localization that spectral geometry lacks, because mass at a specific location breaks the right-$\mathrm{SU}(2)$ isometry.
 
 ---
 
@@ -112,7 +112,7 @@ Bekenstein-Hawking entropy $S \propto A$ is motivated by surface primacy. The sp
 | 4 | $S \propto A$ (area, not volume) | MOTIVATED |
 | 5 | $S = A/(4\ell_P^2)$ with the factor $1/4$ | OPEN |
 
-In standard physics, area scaling is one of the deepest puzzles in quantum gravity: why not volume? In MIT, volume ($n = 3$) never had independent gauge content. The puzzle reduces: entropy lives on the surface because the surface carries the boundary condition. The horizon area is the natural count of $n = 2$ modes at the sampling boundary.
+In standard physics, area scaling is a deep question: why area rather than volume? In MIT, volume ($n = 3$) carries no independent gauge content. Entropy lives on the surface because the surface carries the boundary condition. The horizon area is the natural count of $n = 2$ degrees of freedom at the sampling boundary.
 
 What remains open is the coefficient. The shell sum across the 34 discrete grid positions diverges (outer shells have arbitrarily large area) and does not reproduce $S_{BH}$. Only the horizon surface itself has the correct area scaling. The factor $1/4$ is not produced by the Gauss-Codazzi ratio ($3/2$), by the structural coefficient $\sin(\pi\Theta_0)$, or by any evident combination of current framework quantities. A microstate counting rule, a spectral degeneracy law, or a topological partition function on the horizon would be needed.
 
@@ -209,7 +209,7 @@ If Hawking radiation carries energy away, enclosed content decreases, the $\Thet
 
 ---
 
-## VI. The Phase Walk and the Directional Problem: Resolution
+## VI. The Phase Walk and the Closed Domain
 
 The §9 phase field shifts $\Theta$ by one bosonic step (2/120) inside a galactic potential. The black hole case is the same phase operator driven to the boundary by a deep gravitational potential.
 
@@ -217,15 +217,13 @@ The §9 phase field shifts $\Theta$ by one bosonic step (2/120) inside a galacti
 
 The full 120-grid comes from $|2I| = 120$. Observation squares the wavefunction, projecting $2I \to I$, giving the 60R bosonic grid. This projection traces to the edge stabilizer $Z_4 \subset 2I$: integer-spin irreps carry only real $Z_4$ content ($D = 60$), half-integer carry only complex pairs ($D = 120$). For photon-mediated observables, the effective domain is $[0, 60/120]$. The antinode at 60/120 is the boundary of the bosonic domain. Bosonic sampling reaches $\Lambda$ and stops.
 
-### The directional problem and its resolution
+### The two nodes are one point
 
-The Hubble tension steps $\Theta$ from 34/120 to 36/120 (toward the antinode, $C$ increases). The horizon requires $\Theta \to 0$ (toward the node, $C$ decreases). These appear to point in opposite directions on the domain coordinate.
-
-Resolution: the two nodes are the same point. The eigenfunction $u_0 = \sin(y/R)$ vanishes at $y = 0$ and $y = \pi R$. The Möbius identification $(y + \pi R, w) \sim (y, -w)$ maps these two endpoints to the same central circle. The anti-periodic boundary condition gives $u_0(\pi R) = -u_0(0) = 0$. $\Theta = 0$ and $\Theta = 1$ are two coordinate addresses for one physical location on the band.
+The eigenfunction $u_0 = \sin(y/R)$ vanishes at $y = 0$ and $y = \pi R$. The Möbius identification $(y + \pi R, w) \sim (y, -w)$ maps these two endpoints to the same central circle. The anti-periodic boundary condition gives $u_0(\pi R) = -u_0(0) = 0$. $\Theta = 0$ and $\Theta = 1$ are two coordinate addresses for one physical location on the band.
 
 The domain is topologically closed. Every direction away from the antinode leads to the node. Every direction away from the node leads to the antinode. The Hubble tension (stepping from 34/120 toward 36/120) and the horizon (walking from 34/120 toward 0/120) are both paths to the same destination ($C = 0$, the central circle), one the long way around and one the short way. The gravitational potential determines how far you walk. The arch determines the terrain. Deep potentials take the short path to the nearest copy of the node.
 
-There is no directional problem. There is one arch, one node (with two coordinate addresses), and one antinode.
+One arch, one node (with two coordinate addresses), one antinode.
 
 ### The spectral mirror
 
