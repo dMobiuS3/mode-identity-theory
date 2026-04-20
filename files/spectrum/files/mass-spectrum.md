@@ -172,7 +172,7 @@ The assignment is constrained, not free. The formula produces 24 ranked entries;
 | 23 | $R_2$ | 7 | triv | 44.54 | $t$ | 172.7 | 3.88 |
 | 24 | $R_2$ | 7 | std | 261.46 | $t$ | 172.7 | 1.51 |
 
-**Notes on the table.**
+**Notes on the table:**
 
 *Neutrino masses.* The $\nu_1$ observed value is inferred from $\Delta m^2_{21}$ assuming normal hierarchy with a near-zero lightest mass; the absolute mass scale is experimentally unknown. KATRIN, JUNO, and Project 8 will constrain this. The $\nu_3$ value uses $\sqrt{\Delta m^2_{31}}$ as a proxy. The ratio 1.98 for $\nu_1$ depends on this assumption.
 
