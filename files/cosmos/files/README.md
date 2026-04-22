@@ -2,7 +2,7 @@
 
 ---
 
-# :ringed_planet: Cosmos Working Notes
+# :ringed_planet: Κόσμος Working Notes
 
 Interpretive supplements to the published [cosmos](../) papers. Not load-bearing; no new derivations.
 

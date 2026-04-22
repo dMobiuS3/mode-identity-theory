@@ -2,7 +2,7 @@
 
 ---
 
-# :rainbow: Spectrum Working Notes
+# :rainbow: Στοιχεῖα Working Notes
 
 Interpretive supplements to the published [spectrum](../) papers. Not load-bearing; no new derivations.
 
