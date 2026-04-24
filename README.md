@@ -20,15 +20,11 @@ In 300 BC, Euclid proved Plato's observation that only 5 solids close perfectly 
 
 $$\Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}$$
 
-The 3‑sphere isn't an empty space. It comes with a native grid of 120 equally spaced positions, the maximum symmetry the room can support.
+Your belt has two surfaces and two edges that never meet. Twist it once and buckle it again. Suddenly it's a Möbius strip: the same two surfaces and edges fused as one. Now expand that surface to universal scale and embed it in the only closed 3-manifold that exists.
 
-This wasn't chosen. It's the tiled surface that came with the room.
+The 3‑sphere itself wasn't just empty. It comes with a native grid of 120 equally spaced positions, the maximum symmetry the space can permit.
 
-Your belt has two surfaces and two edges that never meet. Twist it once and buckle it again. Suddenly it's a Möbius strip: the same two surfaces and edges fused as one.
-
-Now expand that surface to universal scale and embed it in a closed three‑dimensional space. That's MIT.
-
-One shape. Everything else is accounting.
+None of this was chosen. It's the simpleist shape that allows physics to exist.
 
 Ψ **One Wave:**
 
@@ -38,23 +34,19 @@ The universe samples a standing wave. The mathematics requires it.
 
 The wave is cosine and began at its peak. We didn't start at zero and build upward; we started at full amplitude and are moving toward the turnaround.
 
-The Möbius twist forces a sign‑flip: the fundamental mode is $4\pi$.
-
-The Möbius twist has a consequence: traveling once around is flipped, so twice is needed to bring you home.
+The Möbius twist forces a sign‑flip: the fundamental mode is $4\pi$. The twist also has a consequence: traveling once around is flipped, so twice is needed to bring you home.
 
 Most wave patterns cancel while certain modes survive. The ones that come back are fermionic, the wave patterns where matter is sampled.
-
-The topology doesn't just allow matter. It enforces it.
 
 :balance_scale: **One Equation:**
 
 $$\Large \boxed{\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}$$
 
-One equation. Every observable. Two questions determine any constant in the universe: where are you on the wave, and how deep into the domain are you standing?
+One equation. Every observable. Two questions determine any constant in the universe: where are you on the wave, and how deep in the domain are you sampling?
 
 $C(\Theta) = 2\sin^2(\pi\Theta)$ is your position on the 120-grid.
 
-Not all 120 positions are equal. Some are more stable than others — places where the wave can settle long enough to matter. The golden ratio $\varphi$ charts the course: the hardest number to approximate creates the most stable positions on the grid. Fibonacci appears in sunflowers and seashells as the universe finds its most stable sampling positions.
+Not all 120 positions on the grid are equal. Some are more stable than others — places where the wave can settle long enough to matter. The golden ratio $\varphi$ charts the course: the hardest number to approximate creates the most stable positions on the grid. Fibonacci appears in sunflowers and seashells as the universe finds its most stable wells to sample.
 
 $(\sqrt{\Omega})^{-n}$ is how far the geometry has diluted the signal by the time it reaches you.
 
@@ -74,21 +66,19 @@ $$\Large \boxed{m(\rho,\sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (
 
 Four factors compose to rank 24 fermion masses. Each factor does exactly one thing.
 
-**The Neutrino Floor.** $\mu_\Lambda$ sets the stage — the lightest neutrino is not a small fermion mass, but the *floor* of the mass spectrum, the lowest energy the geometry can resolve at the edge. Every particle mass is built on top of it.
+**The Neutrino Floor.** $\mu_\Lambda$ sets the stage — the lightest neutrino is not a small fermion mass, but the *floor* of the mass spectrum, the lowest energy the geometry can resolve at the edge. Every particle mass is built from the ambient hum of $\Lambda$.
 
 **The Kostant Sunflower.** $C_{\text{geom}}(\rho)$ selects the position — each irreducible representation $\rho$ of the binary icosahedral group carries a specific geometric weight, nine positions on a discrete sunflower. The pattern exhausts the group; no tenth position exists.
 
-**The McKay Elevator.** $(\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30}$ raises the energy — each step up the McKay graph lifts the mass by a fixed factor. The denominator 30 is the Coxeter number of $E_8$, setting the height of the elevator by exceptional geometry, not fit.
+**The McKay Elevator.** $(\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30}$ raises the energy — each step up the McKay graph lifts the mass by a fixed factor. The denominator 30 is the Coxeter number of $E_8$, setting the height of the elevator by exceptional geometry.
 
-**The Reidemeister Torsion.** $T^2(\rho \otimes \sigma)$ dials in the vacuum — the same particle lives in three vacua (trivial, standard, Galois), the three flat connections that generate three generations. Torsion is the fine dial that tunes mass by which vacuum the particle sits in.
-
-One formula. Twenty-four masses. Ten of twelve Standard Model fermions assigned, nine within a factor of three.
+**The Reidemeister Torsion.** $T^2(\rho \otimes \sigma)$ dials in the vacuum — the same particle lives in three vacua (trivial, standard, Galois), the three flat connections that generate three generations. Torsion is the fine dial that tunes mass by which vacuum the particle is realized.
 
 :small_red_triangle: **One Identity:**
 
 $$\Large \boxed{|2I| = 120 = 2^3 \cdot 3 \cdot 5}$$
 
-The binary icosahedral group $2I$ is the largest exceptional discrete subgroup of $SU(2)$. Its order factors into exactly three primes — and those three primes run everything.
+The binary icosahedral group $2I$ is the largest exceptional discrete subgroup of $SU(2)$. Its order factors into exactly three primes — and those three primes identify everything.
 
 **Faces.** $Z_3$ sorts color — the three-fold rotational stabilizers become the three color charges of QCD. Singlet or triplet per irrep; six of six fermion assignments match.
 
