@@ -60,7 +60,7 @@ The Möbius strip is embedded as a totally geodesic surface in a great $S^2 \sub
 
 $$(x_1, x_2, x_3, x_4) \mapsto (-x_1, -x_2, -x_3, x_4)$$
 
-which is an ambient isometry of $S^3$ that reverses orientation on the surface. The induced metric is $ds^2 = dy^2 + \cos^2(y/R)\,dw^2$, carrying constant Gaussian curvature $K = 1/R^2$. The non-orientable identification imposes anti-periodic boundary conditions on fields: traversing the strip once flips the sign; two traversals return to the start.
+which is an ambient isometry of $S^3$ that reverses orientation on the surface. The Möbius band is a submanifold embedded within $S^3/2I$; it does not re-quotient the ambient space. The induced metric is $ds^2 = dy^2 + \cos^2(y/R)\,dw^2$, carrying constant Gaussian curvature $K = 1/R^2$. Fields coupled to the surface's orientation structure (sections of the orientation line bundle) satisfy anti-periodic boundary conditions: traversing the strip once flips the sign; two traversals return to the start.
 
 ### C. The Molien Spectrum
 
@@ -123,7 +123,7 @@ The COMPACT collaboration independently confirmed that non-orientable manifolds 
 
 ### D. Alignment
 
-The Möbius twist axis defines a preferred direction in $S^3$. The $2I$-invariant modes at each surviving shell are axially symmetric about this axis: their $\ell = 2$ and $\ell = 3$ components point the same way. The quadrupole and octupole are aligned by construction.
+The Möbius twist axis defines a preferred direction in $S^3$. The embedding of $2I$ in SU(2) $\cong S^3$ is chosen so that the twist axis (the $x_4$ direction in the antipodal map) coincides with an icosahedral symmetry axis. The $2I$-invariant modes at each surviving shell inherit axial symmetry about this direction: their $\ell = 2$ and $\ell = 3$ components point the same way. The quadrupole and octupole are aligned by construction.
 
 The observed 10° misalignment is parallax. The observer's displacement $d$ from the domain center shifts the apparent axis on the last-scattering sphere:
 
@@ -175,7 +175,7 @@ A single geometric structure accounts for four persistent CMB features. The topo
 
 **Parity.** The non-orientable identification drives $R_{TT} < 1$ systematically. The method of images gives the leading-order formula; the effective attenuation $\eta_{\mathrm{eff}} \approx 0.150$ emerges from the mode sum at $d = 2.1$ Gpc.
 
-**Alignment.** The Möbius twist axis defines the preferred direction. The 2I-invariant modes are axially symmetric about it. The observed misalignment is parallax: $d/\chi_* = 8.6°$.
+**Alignment.** The Möbius twist axis defines the preferred direction. The embedding of $2I$ in SU(2) aligns this axis with an icosahedral symmetry axis, so the $2I$-invariant modes inherit axial symmetry about it. The observed misalignment is parallax: $d/\chi_* = 8.6°$.
 
 **One position, four observables.** The observer sits at geodesic distance $d = 2.1$ Gpc from the domain center, corresponding to $\chi = 0.40$ rad in $S^3$. This single parameter controls the parity magnitude, the alignment angle, the quadrupole suppression, and (through the Molien gap) the low-ℓ transition scale. Four independent measurements constrain one number. The over-determination is the test.
 
