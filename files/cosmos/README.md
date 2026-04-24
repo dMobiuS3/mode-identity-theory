@@ -8,7 +8,9 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 
 ---
 
-**Wave-matter identity.** Five symbols: $\lambda = h/p$. The equation does not say matter behaves like a wave; it says the wavelength of matter is $h/p$. De Broglie knew this by 1923 and coined it "the phase-wave," insisting that only its phase, not amplitude, carried the physical content. By 1956, he called "this line of thought abandoned," and asked "whether, on the contrary, it may not be the pathway that might lead to the true Microphysics of the Future."
+**Wave-matter identity.** Five symbols: $\lambda = h/p$. The equation does not say matter behaves like a wave; it says the wavelength of matter is $h/p$. Acceleration follows the same rule at the boundary.
+
+In 1983, Milgrom identified $a_0$ as a fundamental acceleration scale. Four decades the coincidence $a_0 \approx cH_0$ had no explanation. Both are edge modes; the ratio is fixed by where they sit on the standing wave. $a_0$ evolves with $H(z)$; the galaxies JWST found too early were simply formed under a stronger age.
 
 ***[Early Galaxies](files/early-galaxies.md)***
 
@@ -17,6 +19,8 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 ---
 
 **Surface origin.** The standard question begins at a singularity: all of space compressed to zero dimension. However, if time is the boundary of a 2D manifold, there is no point. Time is the edge of the Möbius surface; the edge exists because the surface has a boundary, and the standing wave lives on the edge. There is no singularity.
+
+Einstein introduced $\Lambda$ in 1917, together with the equations capable of sustaining it. The constant endured a century of reinterpretation because it required none. $\Lambda$ is the ground mode of the cosmic boundary, felt through the Gauss-Codazzi embedding of geometry.
 
 ***[Cosmological Constant](files/cosmological-constant.md)***
 
@@ -33,6 +37,10 @@ Five foundations of Mode Identity Theory map to five cosmological anomalies that
 ---
 
 **Bounded evaluation.** Suppose we define the infinite by the divide by zero. Not as metaphor, but as the structure of our domain. The observer sits at the geometric mean $\sqrt{\Omega} \approx 10^{61}$ where $\infty/0$ has structure at the limits.
+
+Hubble measured the tension in 1929 from the same structure: a phase field effect. Distance ladders calibrated within galaxies like ours sample a shifted well, while the cosmic microwave background measures where it is unphased. Both observations are correct, probing different regions of the same space.
+
+Dirac recognized that the large numbers of cosmology were not arbitrary. What was missing in 1937 was the domain that bounded them. Infinity to zero spanning $10^{122}$; where the observer is square rooted. His large number was not a coincidental anomaly; it was the area of the floor where we stand.
 
 ***[Hubble Tension](files/hubble-tension.md)***
 
