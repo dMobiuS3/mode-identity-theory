@@ -12,7 +12,7 @@ What began as an accidental search query turned philosophy, turned topology, tur
 
 Topology is structure and de Broglie's wave becomes fundamental. The shape of the universe admits a standing wave. Matter is a sample. Time ticks in phase. The observer is part of the realization, not external to it.
 
-In 300 BC, Euclid proved Plato's observation that only five solids close perfectly in space. In October 2026, ESA's Euclid telescope will ask what geometry gives the universe its shape. MIT is betting on one shape, one wave, one equation, one formula, and one identity. The rest, is accounting.
+In 300 BC, Euclid proved Plato's observation that only five solids close perfectly in space. In October 2026, ESA's Euclid telescope will ask what geometry gives the universe its shape. MIT is betting on one shape, one wave, one equation, one formula, and one identity. The rest; is accounting.
 
 ---
 
