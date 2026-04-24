@@ -34,7 +34,7 @@ The cosmological anomalies resolved at the far end of the universe occur at the 
 
 **Gravity.** For decades, the search for dark matter focused on particles and detectors aimed at the smallest scales. The absence of signal is the confirmation of light. What was sought was in the geometry of space itself. An interface long present in its formalism, only awaiting its topological interpretation.
 
-Embed the surface in space and the curvature converts the samlple to energy by $3/2$; that is gravity. Massless bosons remain on the edge while matter is realized on the surface.
+Embed the surface in space and the curvature converts the sample to energy by $3/2$; that is gravity. Massless bosons remain on the edge while matter is realized on the surface.
 
 ***[The Waltz](files/the-waltz.md)***
 
