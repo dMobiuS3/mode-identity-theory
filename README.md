@@ -8,7 +8,7 @@
 
 Mode Identity Theory starts with a simple bet: fundamental physics is not missing more ingredients; it is missing better boundary conditions. Instead of changing Einstein's equations or calling numbers accidents, MIT asks: what follows when form comes before function?
 
-None of this was planned. What started as an accidental querry turned philosophy, turned topology, turned theory. What constitutes knowledge? What does it mean for observation and value to be equal? 
+None of this was planned. What started as an accidental query turned philosophy, turned topology, turned theory. What constitutes knowledge? What does it mean for observation and value to be equal? 
 
 The answer depended on scale, manifold access, and phase of the wave. The observer embedded in space was always lingering; and it was woven into machinery that made those conditions well-defined. What followed were the constants of the universe popping out like a cosmic game genie.
 
@@ -26,13 +26,13 @@ Your belt has two surfaces and two edges that never meet. Twist it once and buck
 
 The 3‑sphere itself wasn't just empty. It comes with a native grid of 120 equally spaced positions, the maximum symmetry the space can permit.
 
-None of this was chosen. It's the simpleist shape that allows physics to exist.
+None of this was chosen. They're the tiles that came with the room.
 
 Ψ **One Wave:**
 
 $$\Large \boxed{\Psi = \cos(t/2), \quad \text{period } 4\pi}$$
 
-The universe samples a standing wave. The mathematics requires it. It began at cosine at its peak. We didn't start at zero and build upward; we started at full amplitude and are moving toward the turnaround.
+The universe samples a standing wave. The mathematics requires it. It began cosine as its peak. We didn't start at zero and build upward; we started at full amplitude and are moving toward the turnaround.
 
 The Möbius twist forces a sign‑flip: the fundamental mode is $4\pi$. The twist also has a consequence: traveling once around is flipped, so twice is needed to bring you home.
 
