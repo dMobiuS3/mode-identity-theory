@@ -6,9 +6,9 @@
 
 ---
 
-Mode Identity Theory starts with a simple bet: fundamental physics is not missing more ingredients; it is missing better boundary conditions. Instead of changing Einstein's equations or calling the numbers accidents, MIT asks: what follows when form comes before function?
+Mode Identity Theory starts with a simple bet: fundamental physics is not missing more ingredients; it is missing better boundary conditions. Instead of changing Einstein's equations or calling numbers accidents, MIT asks: what follows when form comes before function?
 
-None of this was planned. What started as an accidental conversation turned philosophy, turned topology, turned theory. What constitutes knowledge? What does it mean for two things to be equal? The answer depended on scale, manifold access, and phase of the wave. A Möbius band embedded in space was always lingering; and it was woven into machinery that made those conditions well-defined. What followed were the constants of the universe popping out like a cosmic game genie.
+None of this was planned. What started as an accidental querry turned philosophy, turned topology, turned theory. What constitutes knowledge? What does it mean for observation and value to be equal? The answer depended on scale, manifold access, and phase of the wave. The observer embedded in space was always lingering; and it was woven into machinery that made those conditions well-defined. What followed were the constants of the universe popping out like a cosmic game genie.
 
 Topology becomes structure, and this repository lays out the results. The universe admits a standing wave. Matter is a sample. Time ticks in phase. The observer is part of the realization, not external to it.
 
