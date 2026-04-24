@@ -28,7 +28,9 @@ Einstein introduced $\Lambda$ in 1917, together with the equations capable of su
 
 ---
 
-**Non-orientable topology.** Take a belt, give it a half-twist, and close it. The edge you trace with your finger is the same edge on the parallel side. A field completing one lap returns with opposite sign. The Möbius strip is the simplest such shape with a boundary. Matter is fermionic; the anti-periodic sector is selected by observation. Everything derived traces to and from the flip.
+**Non-orientable topology.** The CMB is not an image viewed through topology; it is the resonant pattern of the bounded domain. Three features have persisted across COBE, WMAP, and Planck: suppressed power at low $\ell$, odd-over-even parity, and an aligned quadrupole and octupole. For two decades, each has been called a fluke. They are three projections of one structure. Suppression is global: the cavity's eigenvalues. Parity and alignment are local: the cost of observing from somewhere.
+
+What we called the axis of evil may be the axis of origin, not a flaw in the cosmos but the reflection of first resonance.
 
 ***[CMB Anomalies](files/cmb-anomalies.md)***
 
