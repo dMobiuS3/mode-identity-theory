@@ -18,7 +18,7 @@ In 1983, Milgrom identified $a_0$ as a fundamental acceleration scale. Four deca
 
 ---
 
-**Surface origin.** The standard question begins at a singularity: all of space compressed to zero dimension. However, if time is the boundary of a 2D manifold, there is no point. Time is the edge of the Möbius surface; the edge exists because the surface has a boundary, and the standing wave lives on the edge. There is no singularity.
+**Surface origin.** The standard question begins at a singularity: all of space compressed to zero dimension. However, if time is the boundary of a 2D manifold, there is no point. Time is the edge of the Möbius surface; the edge exists because the surface has a boundary, and the standing wave lives on the edge.
 
 Einstein introduced $\Lambda$ in 1917, together with the equations capable of sustaining it. The constant endured a century of reinterpretation because it required none. $\Lambda$ is the ground mode of the cosmic boundary, felt through the Gauss-Codazzi embedding of geometry.
 
@@ -30,7 +30,7 @@ Einstein introduced $\Lambda$ in 1917, together with the equations capable of su
 
 **Non-orientable topology.** The CMB is not an image viewed through topology; it is the resonant pattern of the bounded domain. Three features have persisted across COBE, WMAP, and Planck: suppressed power at low $\ell$, odd-over-even parity, and an aligned quadrupole and octupole. For two decades, each has been called a fluke. They are three projections of one structure. Suppression is global: the cavity's eigenvalues. Parity and alignment are local: the cost of observing from somewhere.
 
-What we called the axis of evil may be the axis of origin, not a flaw in the cosmos but the reflection of first resonance.
+What we called the axis of evil may be the univere revealing the geometry of its first light.
 
 ***[CMB Anomalies](files/cmb-anomalies.md)***
 
@@ -38,11 +38,9 @@ What we called the axis of evil may be the axis of origin, not a flaw in the cos
 
 ---
 
-**Bounded evaluation.** Suppose we define the infinite by the divide by zero. Not as metaphor, but as the structure of our domain. The observer sits at the geometric mean $\sqrt{\Omega} \approx 10^{61}$ where $\infty/0$ has structure at the limits.
+**Bounded evaluation.** Dirac recognized that the large numbers of cosmology were not arbitrary. What was missing in 1937 was the domain that bounded them. Infinity to zero spanning $10^{122}$; where the observer is square rooted. His large number was not a coincidental anomaly; it was the area of the floor where we stand.
 
 Hubble measured the tension in 1929 from the same structure: a phase field effect. Distance ladders calibrated within galaxies like ours sample a shifted well, while the cosmic microwave background measures where it is unphased. Both observations are correct, probing different regions of the same space.
-
-Dirac recognized that the large numbers of cosmology were not arbitrary. What was missing in 1937 was the domain that bounded them. Infinity to zero spanning $10^{122}$; where the observer is square rooted. His large number was not a coincidental anomaly; it was the area of the floor where we stand.
 
 ***[Hubble Tension](files/hubble-tension.md)***
 
@@ -52,13 +50,15 @@ Dirac recognized that the large numbers of cosmology were not arbitrary. What wa
 
 **Embedded sampling.** Imagine being an ant on a power line, able to move in two dimensions freely; but to the distant observer, you only have one direction to move. Nested topology dilutes a mode's intensity with scale, and where you are is determined by character, not preference. Epoch-dependent observables live on the edge, epoch-independent observables live on the surface, and gravity embeds them together. The ant can only measure what its dimension allows.
 
+When Λ is fixed by the geometry of the universe, what looks like evolution is the observer's phase position on a standing wave. 
+
 ***[Dark Energy](files/dark-energy.md)***
 
 [![Dark Energy](https://img.youtube.com/vi/CGFTYpJY3j8/mqdefault.jpg)](https://www.youtube.com/watch?v=CGFTYpJY3j8)
 
 ---
 
-**Black Double Zero's.** The wave $\Psi$ still flows. The surface still hums at $\Lambda$. The topology holds and information is not lost. The observer is still in space but unable to speak.
+**Black Double Zero's.** The wave $\Psi$ still flows. The surface still hums at $\Lambda$. The topology holds and information is not lost. The observer is still in space but unable to speak. A working document.
 
 ***[Black Hole](files/black-hole.md)***
 
