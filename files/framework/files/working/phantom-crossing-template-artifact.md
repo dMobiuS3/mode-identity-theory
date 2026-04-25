@@ -351,7 +351,7 @@ Among the tested alternatives, only the half-integer exponent −1/2 reproduces 
 
 [13] A. Shafieloo, V. Sahni, and A. A. Starobinsky, Phys. Rev. D 80, 101301 (2009).
 
-[14] arXiv:2506.15091 (2025).
+[14] R. E. Keeley, A. Shafieloo, and W. L. Matthewson, arXiv:2506.15091 (2025).
 
 [15] B. Shatto, Mode Identity Theory: Modal Realization on Nested Topology (2025). DOI:10.5281/zenodo.18064856.
 
