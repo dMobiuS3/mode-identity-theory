@@ -312,16 +312,21 @@ Bounded dark energy sectors produce apparent phantom crossings under standard tw
 
 ## Appendix A: Clock Exponent Selection
 
-Three alternative clock rates were tested against the SN+BAO dataset:
+Three alternative clock rates were tested against the joint Pantheon+ + DESI DR2 BAO dataset using the same MCMC setup as the primary Λcos fit (§5.2): identical priors on H₀r_d and M_B, identical sampler configuration, identical likelihood construction.
 
-| Model | Clock rate dt/dτ | High-z H scaling | Δχ² vs ΛCDM |
-|-------|-----------------|-----------------|-------------|
-| A (proper time) | S⁰ = 1 | (1+z)¹ | > +400 |
-| B (conformal) | S⁻¹ | (1+z)² | > +11,000 |
-| C (symmetric) | S⁺¹ | (1+z)⁰ | > +60 |
-| **D (budget)** | **S⁻¹/²** | **(1+z)³/²** | **+0.13** |
+| Model | n | High-z H scaling | Best-fit s₀ | H₀r_d (km/s) | χ²_SN | χ²_BAO | χ²_total | Δχ² vs ΛCDM |
+|---|---|---|---|---|---|---|---|---|
+| A (proper time) | 0 | (1+z)¹ | 0.823 | 9280 | 1814.8 | 176.4 | 1991.2 | +218.7 |
+| B (conformal) | −1 | (1+z)² | 0.001* | 8555 | 1834.5 | 1759.9 | 3594.4 | +1821.9 |
+| C (symmetric) | +1 | (1+z)⁰ | 0.962 | 9219 | 2737.6 | 6311.5 | 9049.1 | +7276.6 |
+| **D (budget)** | **−1/2** | **(1+z)³/²** | **0.075** | **10010** | **1759.0** | **13.5** | **1772.6** | **+0.13** |
+| ΛCDM (baseline) | — | — | (Ω_m = 0.312) | 10046 | 1759.9 | 12.6 | 1772.4 | 0 |
 
-Among the tested alternatives, only the half-integer exponent −1/2 reproduces the matter-dominated asymptotic scaling required by the data. The exponent is selected by three-dimensional matter dilution (ρ ∝ S⁻³) through the Friedmann square root (H ∝ ρ¹/²), giving H ∝ S⁻³/² at high z and the exact two-term H²(z) at all z.
+*Model B saturates at the s₀ prior floor. The likelihood is monotonic toward s₀ → 0 under the (1+z)² scaling, so the reported value reflects the boundary, not a posterior peak. Acceptance fractions: A 0.71, B 0.69, C 0.72; all chains converged with stable autocorrelation times.
+
+Each integer alternative fails for a distinct reason. Model A's (1+z)¹ scaling is too soft to reproduce matter dilution; the supernova sector tolerates this within Δχ²_SN ≈ 55, but the BAO sector adds a 164 penalty as the high-redshift bins (z = 1.32, 1.48, 2.33) reject the soft scaling. Model B saturates against the s₀ floor because the (1+z)² scaling offers no improvement over ΛCDM at any positive s₀; the BAO sector dominates the rejection at Δχ²_BAO ≈ 1747. Model C's (1+z)⁰ scaling at high redshift is the most dramatic failure: with no decay of the matter-like term, both sectors reject the model (Δχ²_SN ≈ 980, Δχ²_BAO ≈ 6300).
+
+The half-integer exponent n = −1/2 is selected analytically by three-dimensional matter dilution (ρ_m ∝ S⁻³) through the Friedmann square root (H ∝ ρ¹/²), giving H ∝ S⁻³/² at high z and the exact two-term matter sector of §2.3 at all z. The empirical fits confirm the analytic selection: among integer and half-integer powers, only n = −1/2 is viable.
 
 ---
 
