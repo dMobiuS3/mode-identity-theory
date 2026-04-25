@@ -48,7 +48,7 @@ The budget phase t and proper time τ are related by a clock rate. From S = sin(
 
 $$H = \frac{1}{S}\frac{dS}{d\tau} = \frac{\cos(t/2)}{2\sin(t/2)} \cdot \frac{dt}{d\tau}$$
 
-For a power-law clock dt/dτ = Sⁿ, this gives H = cos(t/2) · Sⁿ⁻¹/2. We adopt the standard Friedmann scaling H² ∝ ρ_m ∝ S⁻³ [18] as a selection criterion, requiring consistency with the observed matter-dominated expansion at high redshift. At high redshift (S → 0), cos(t/2) → 1, and the requirement H ∝ S⁻³/² selects n − 1 = −3/2, giving:
+For a power-law clock $dt/d\tau = S^n$, this gives $H = \tfrac{1}{2}\cos(t/2)\,S^{n-1}$. We adopt the standard Friedmann scaling H² ∝ ρ_m ∝ S⁻³ [18] as a selection criterion, requiring consistency with the observed matter-dominated expansion at high redshift. At high redshift (S → 0), cos(t/2) → 1, and the requirement H ∝ S⁻³/² selects n − 1 = −3/2, giving:
 
 $$\frac{dt}{d\tau} = S^{-1/2} = \sin^{-1/2}(t/2)$$
 
@@ -247,7 +247,7 @@ With Ω_Λ = 0.685 fixed, Λcos is strongly disfavored (Δχ² = +67.9). The ten
 
 This tension is not specific to Λcos. Adding CMB priors shifts the preferred Ω_Λ from 0.685–0.688 (SN+BAO) to ~0.715 in both ΛCDM and Λcos. Flat ΛCDM absorbs the shift through Ω_m (which moves from 0.312 to 0.285). Λcos at fixed Ω_Λ cannot absorb it. Freeing Ω_Λ restores full consistency: the Λcos fit with Ω_Λ free yields Ω_Λ = 0.715 [0.711, 0.718] and Δχ² = +0.43 relative to non-flat ΛCDM at the same parameter count.
 
-The 3% shift from 0.685 to 0.715 is a known DESI-era tension between BAO and CMB distance scales [1]. Whether the topology-derived Ω_Λ = 0.685 or the combined-data value 0.715 is closer to the true value requires the full Planck TTTEEE+lowE likelihood, which is beyond the scope of this letter.
+The 3% shift from 0.685 to 0.715 is a known DESI-era tension between BAO and CMB distance scales [1]. Whether the topology-derived Ω_Λ = 0.685 or the combined-data value 0.715 is closer to the true value requires the full Planck TTTEEE+lowE likelihood, which is beyond the scope of this paper.
 
 ### 5.6 Internal consistency
 
@@ -300,7 +300,7 @@ Current combined data (Pantheon+ and DESI DR2 BAO) constrain s₀ < 0.18 at 95% 
 
 ### 7.3 Broader framework
 
-The budget identity and the budget clock derive from a topological framework on S³ [15] that independently addresses the cosmological constant [16] and the fermion mass spectrum. The present paper is self-contained: the Λcos H²(z), the template bias argument, and the observational constraints depend only on the budget identity and the budget clock.
+The budget identity and the budget clock derive from a topological framework on S³ [15] that independently addresses the cosmological constant [16]. The present paper is self-contained: the Λcos H²(z), the template bias argument, and the observational constraints depend only on the budget identity and the budget clock.
 
 ## 8. Conclusions
 
