@@ -34,13 +34,17 @@ The paper is organized as follows. Section 2 derives the Λcos model from the bu
 
 ### 2.1 The budget identity
 
-On a closed three-sphere S³ with a non-orientable identification (Möbius-type boundary condition), anti-periodic boundary conditions require ψ(t + 2π) = −ψ(t), selecting half-integer harmonics [15]. The ground state satisfying ψ(0) = +1 (maximum amplitude at the initial epoch) and dψ/dt|₀ = 0 (standing wave) is Ψ = cos(t/2), with period 4π. A companion spatial budget identity u₀² + J² = 1 is established on this surface [16]; we propose the temporal direction carries the same structure:
+On a closed three-sphere S³ with a non-orientable identification (Möbius-type boundary condition), anti-periodic boundary conditions require ψ(t + 2π) = −ψ(t), selecting half-integer harmonics [15]. The ground state satisfying ψ(0) = +1 (maximum amplitude at the initial epoch) and dψ/dt|₀ = 0 (standing wave) is Ψ = cos(t/2), with period 4π.
 
-$$\Psi^2 + S^2 = 1, \qquad \Psi = \cos(t/2), \qquad S = \sin(t/2)$$
+For any standing wave Ψ = A cos(ωt + φ), the energy invariant Ψ² + (Ψ̇/ω)² = A² is conserved at every phase. Applied to the cosmological wave Ψ = cos(t/2) with ω = 1/2 and unit amplitude (from ψ(0) = 1 above), this gives:
 
-where S is the modal realization amplitude: the fraction of the standing wave expressed as resolvable structure at phase t. At t = 0, Ψ = 1 and S = 0 (full wave, nothing realized). As phase advances, wave amplitude trades into realization. S plays the role of a normalized scale factor, with the redshift relation 1 + z = s₀/S, where s₀ = S(t_now) is the present-epoch value.
+$$\Psi^2 + S^2 = 1, \qquad \Psi = \cos(t/2), \qquad S \equiv -\dot\Psi/\omega = \sin(t/2)$$
 
-The identity Ψ² + S² = 1 is the Pythagorean theorem on the phase circle; its mathematical content is trivial. The physical content resides in the proposal that S = sin(t/2) governs the expansion history, with the identity acting as a constraint that couples wave amplitude to realization at every epoch.
+The identity is the standing-wave energy invariant, not an additional postulate. S is the quadrature complement of Ψ: the amplitude carried by the velocity channel of the wave at phase t. At t = 0, Ψ = 1 and S = 0 (all amplitude in the displacement channel). As phase advances, amplitude transfers from displacement to velocity.
+
+S is identified with the cosmological scale factor through the modal realization principle [15]: realized matter content corresponds to the velocity channel of the standing wave, with realization growing as S(t). This fixes the redshift relation 1 + z = s₀/S, where s₀ = S(t_now) is the present-epoch value. The identification is validated phenomenologically by the high-redshift scaling match ρ_m ∝ S⁻³, recovered through the clock selection in §2.2.
+
+A companion spatial budget identity u₀² + J² = 1 is established on the Möbius surface [16], where the eigenfunction u₀ = sin(y/R) and Jacobi field J = cos(y/R) partition amplitude between sampling and geometric extent. The temporal and spatial budgets share the Pythagorean form but arise independently: the spatial identity is geometric (Pythagorean theorem on the meridian), while the temporal identity is dynamical (energy invariant of the standing wave).
 
 ### 2.2 The budget clock
 
