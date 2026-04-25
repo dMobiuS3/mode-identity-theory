@@ -52,11 +52,11 @@ The universe has two boundaries: the cosmic horizon at the ceiling and the Planc
 
 Three layers host different physics:
 
-*(n = 1)* 1D Möbius edge: experienced as time when sampling $a_0$ and $H_0$.
+*(n = 1)* 1D Möbius edge — experienced as time when sampling $a_0$ and $H_0$.
 
-*(n = 2)* 2D Möbius surface: vibrating like a drum head and humming ambiently at $\Lambda$.
+*(n = 2)* 2D Möbius surface — vibrating like a drum head and humming ambiently at $\Lambda$.
 
-*(n = 3)* 3D space: No dimensional access to this volume, so we will never measure anything dark.
+*(n = 3)* 3D space — No dimensional access to this volume, so we will never measure anything dark.
 
 :atom_symbol: **One Formula:**
 
