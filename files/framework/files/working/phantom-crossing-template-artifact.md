@@ -332,6 +332,12 @@ Bounded non-phantom expansion histories can produce apparent phantom crossings u
 
 ---
 
+## Data and code availability
+
+The MCMC chains, analysis scripts, and figure-generation code that reproduce all results in this paper are publicly available at [github.com/dmobius3/lambdacos](https://github.com/dmobius3/lambdacos) and archived at Zenodo ([DOI:10.5281/zenodo.19798852](https://doi.org/10.5281/zenodo.19798852)). The Pantheon+ supernova compilation [2] is available at [pantheonplussh0es.github.io](https://pantheonplussh0es.github.io/) and the DESI DR2 BAO measurements [1] at [data.desi.lbl.gov](https://data.desi.lbl.gov/).
+
+---
+
 ## Appendix A: Clock Exponent Selection
 
 Three alternative clock rates were tested against the joint Pantheon+ + DESI DR2 BAO dataset using the same MCMC setup as the primary Λcos fit (§5.2): identical priors on H₀r_d and M_B, identical sampler configuration, identical likelihood construction.
