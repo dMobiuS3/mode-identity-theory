@@ -12,9 +12,9 @@ bshatto.pe@gmail.com
 
 ## Abstract
 
-DESI DR2 reports 2.8–4.2σ evidence that the dark energy equation of state w evolves with redshift, including an apparent phantom crossing through w = −1. We show that bounded dark energy sectors (finite departures from Λ) produce apparent phantom crossings under standard two-parameter templates. We derive a specific realization (Λcos) from a temporal budget identity on S³ and constrain it with Pantheon+ and DESI DR2 BAO. At data-allowed parameter values, the induced CPL distortion is structurally present but modest (w₀ ≈ −1.02) and of opposite sign in w_a, establishing the mechanism without reproducing the DESI best-fit amplitude.
+DESI DR2 reports 2.8–4.2σ evidence that the dark energy equation of state w evolves with redshift, including an apparent phantom crossing through w = −1. We show that bounded non-phantom expansion histories can produce apparent phantom crossings under standard two-parameter templates. We derive a specific realization (Λcos) from a temporal budget identity on S³ and constrain it with Pantheon+ and DESI DR2 BAO. At data-allowed parameter values, the induced CPL distortion is structurally present but modest (w₀ ≈ −1.02) and of opposite sign in w_a, establishing the mechanism without reproducing the DESI best-fit amplitude.
 
-The Λcos model yields H²(z)/H₀² = α(1+z)³ − β(1+z) + Ω_Λ, where α and β are determined by a single parameter s₀ = sin(t_now/2) and the cosmological constant Ω_Λ = 0.685 is taken as input from a companion topological analysis. The model satisfies w_eff(z) > −1 at all redshifts, recovers ΛCDM exactly as s₀ → 0, and predicts a novel negative (1+z)¹ term in H² absent from the four canonical FLRW components. A joint MCMC fit to Pantheon+ (1701 SNe Ia) and DESI DR2 BAO (13 data points) yields Δχ² = +0.13 relative to flat ΛCDM at the same parameter count, with s₀ < 0.18 (95% CL, flat prior). The constraint is robust across prior choices (s₀ < 0.12–0.21) and Ω_Λ variations (0.68–0.70). Adding compressed Planck distance priors introduces a shared Ω_Λ tension common to both ΛCDM and Λcos, resolvable by freeing Ω_Λ (Δχ² = +0.43).
+The Λcos model yields H²(z)/H₀² = α(1+z)³ − β(1+z) + Ω_Λ, where α and β are determined by a single parameter s₀ = sin(t_now/2) and the cosmological constant Ω_Λ = 0.685 is taken as input from a companion topological analysis. The model satisfies w_eff(z) > −1 at all redshifts, recovers ΛCDM exactly as s₀ → 0, and predicts a novel negative (1+z)¹ term in H² absent from the four canonical FLRW components. A joint MCMC fit to Pantheon+ (1701 SNe Ia) and DESI DR2 BAO (13 data points) yields Δχ² = +0.13 relative to flat ΛCDM at the same parameter count, with s₀ < 0.18 (95% CL, flat prior). The constraint is robust across prior choices (s₀ < 0.12–0.21) and Ω_Λ variations (0.68–0.715). Adding compressed Planck distance priors introduces a shared Ω_Λ tension common to both ΛCDM and Λcos, resolvable by freeing Ω_Λ (Δχ² = +0.43).
 
 ---
 
@@ -42,7 +42,7 @@ $$\Psi^2 + S^2 = 1, \qquad \Psi = \cos(t/2), \qquad S \equiv -\dot\Psi/\omega = 
 
 The identity is the standing-wave energy invariant, not an additional postulate. S is the quadrature complement of Ψ: the amplitude carried by the velocity channel of the wave at phase t. At t = 0, Ψ = 1 and S = 0 (all amplitude in the displacement channel). As phase advances, amplitude transfers from displacement to velocity.
 
-S is identified with the cosmological scale factor through the modal realization principle [15]: realized matter content corresponds to the velocity channel of the standing wave, with realization growing as S(t). This fixes the redshift relation 1 + z = s₀/S, where s₀ = S(t_now) is the present-epoch value. The identification is validated phenomenologically by the high-redshift scaling match ρ_m ∝ S⁻³, recovered through the clock selection in §2.2.
+S is identified with the cosmological scale factor through the modal realization principle [15]: realized matter content corresponds to the velocity channel of the standing wave, with realization growing as S(t). This fixes the redshift relation 1 + z = s₀/S, where s₀ = S(t_now) is the present-epoch value. The clock selection in §2.2 requires self-consistency between this identification and the standard matter-era scaling ρ_m ∝ S⁻³; the independent validation comes from the distance-redshift fit to Pantheon+ and DESI DR2 BAO data (§5).
 
 ### 2.2 The budget clock
 
@@ -50,7 +50,7 @@ The budget phase t and proper time τ are related by a clock rate. From S = sin(
 
 $$H = \frac{1}{S}\frac{dS}{d\tau} = \frac{\cos(t/2)}{2\sin(t/2)} \cdot \frac{dt}{d\tau}$$
 
-For a power-law clock $dt/d\tau = S^n$, this gives $H = \tfrac{1}{2}\cos(t/2)\,S^{n-1}$. We adopt the standard Friedmann scaling H² ∝ ρ_m ∝ S⁻³ [18] as a selection criterion, requiring consistency with the observed matter-dominated expansion at high redshift. At high redshift (S → 0), cos(t/2) → 1, and the requirement H ∝ S⁻³/² selects n − 1 = −3/2, giving:
+For a power-law clock $dt/d\tau = S^n$, this gives $H = \tfrac{1}{2}\cos(t/2)\,S^{n-1}$. The power-law form is the minimal one-parameter family relating phase and proper time; more general clocks $dt/d\tau = f(S)$ would introduce functional freedom beyond a single exponent and are not considered here. We adopt the standard Friedmann scaling H² ∝ ρ_m ∝ S⁻³ [18] as a selection criterion, requiring consistency with the observed matter-dominated expansion at high redshift. At high redshift (S → 0), cos(t/2) → 1, and the requirement H ∝ S⁻³/² selects n − 1 = −3/2, giving:
 
 $$\frac{dt}{d\tau} = S^{-1/2} = \sin^{-1/2}(t/2)$$
 
@@ -72,7 +72,7 @@ Normalizing to H₀ at z = 0 gives H₀² = (1−s₀²)/(4s₀³), so:
 
 $$\frac{H^2}{H_0^2} = \frac{(1+z)^3 - s_0^2(1+z)}{1 - s_0^2}$$
 
-The cosmological constant enters the Friedmann equation additively as a separate constant component, with Ω_Λ = 0.685 taken as input from a companion topological analysis, derived independently of CMB data [16]. Scaling the matter sector to (1 − Ω_Λ) at z = 0:
+The budget identity governs the matter sector: the clock and redshift relation determine how matter dilutes with phase. The cosmological constant, as a vacuum energy density independent of the expansion history, enters the standard Friedmann equation [18] as a separate additive component. Since the budget identity does not modify the Einstein field equations, the additive structure is inherited from GR. Ω_Λ = 0.685 is taken as input from a companion topological analysis, derived independently of CMB data [16]. Scaling the matter sector to (1 − Ω_Λ) at z = 0:
 
 $$\frac{H^2(z)}{H_0^2} = \frac{1 - \Omega_\Lambda}{1 - s_0^2}(1+z)^3 - \frac{(1 - \Omega_\Lambda)\,s_0^2}{1 - s_0^2}(1+z) + \Omega_\Lambda$$
 
@@ -168,9 +168,9 @@ Two features are evident. First, the crossing persists at every s₀ > 0, confir
 
 ### 4.4 Comparison with the DESI best fit
 
-The DESI CPL best fit reports w₀ ≈ −0.75 and w_a ≈ −0.86. The Λcos-induced distortion at data-allowed s₀ differs in both amplitude (|w₀ + 1| = 0.02 vs 0.25) and sign (w_a positive vs negative). The template bias mechanism is therefore established as a structural effect, but the Λcos model at its current constraint does not reproduce the DESI best-fit parameters quantitatively.
+The DESI CPL best fit reports w₀ ≈ −0.75 and w_a ≈ −0.86. The Λcos-induced distortion at data-allowed s₀ differs in both amplitude (|w₀ + 1| = 0.02 vs 0.25, a factor of ~12) and sign (w_a = +0.26 vs −0.86). The template bias mechanism is therefore established as a structural effect, but the Λcos model at its current constraint does not reproduce the DESI best-fit parameters quantitatively. Bridging the amplitude gap would require either a larger bounded deformation (s₀ ≳ 0.4, ruled out by current data) or a different functional form for the dark energy sector.
 
-This distinction is important. The paper's claim is that bounded dark energy sectors generically produce apparent phantom crossings under standard two-parameter templates, and Λcos provides a concrete, falsifiable example. The claim is not that Λcos at s₀ < 0.18 explains the specific amplitude of the DESI signal.
+This distinction is important. The paper demonstrates that a bounded non-phantom expansion history (Λcos) produces apparent phantom crossings under standard two-parameter templates. The claim is not that Λcos at s₀ < 0.18 explains the specific amplitude of the DESI signal.
 
 ## 5. Observational Constraints
 
@@ -186,7 +186,7 @@ MCMC sampling uses an affine-invariant ensemble sampler (32 walkers, 5000 steps,
 
 Flat ΛCDM free parameters: Ω_m, H₀r_d, M_B.
 Λcos free parameters: s₀, H₀r_d, M_B (with Ω_Λ = 0.685 fixed).
-Both models have three free parameters.
+Both models have three free parameters. The primary results are reported at fixed Ω_Λ = 0.685 for clarity; §5.4 demonstrates stability of the s₀ constraint across the range spanning the SN+BAO-preferred and CMB-distance-prior-preferred values (Ω_Λ = 0.68–0.715), and §5.5 confirms the model remains competitive when Ω_Λ is freed entirely (Δχ² = +0.43 at equal parameter count).
 
 | | Flat ΛCDM | Λcos |
 |-|-----------|------|
@@ -213,7 +213,7 @@ Since the Λcos posterior is concentrated near the lower prior boundary, the 95%
 | Prior on s₀ | s₀ median | s₀ 95% UL | χ²_min |
 |-------------|-----------|-----------|--------|
 | Flat s₀ ∈ [0.001, 0.99] (baseline) | 0.075 | 0.184 | 1772.6 |
-| Flat in s₀² (more weight near zero) | 0.118 | 0.211 | 1772.6 |
+| Flat in s₀² (more weight at larger s₀) | 0.118 | 0.211 | 1772.6 |
 | Flat in log₁₀(s₀) (scale-invariant) | 0.012 | 0.119 | 1772.6 |
 
 The χ²_min is identical across all three priors (the likelihood is unchanged; only the posterior weighting differs). The 95% upper limit ranges from 0.12 to 0.21, a factor of ~1.8. The constraint is prior-sensitive in detail but data-driven in character: all three priors yield s₀ ≪ 1.
@@ -228,8 +228,9 @@ The primary fit fixes Ω_Λ = 0.685 from a companion analysis [16]. To test robu
 | 0.685 (baseline) | 0.075 | 0.184 | +0.13 |
 | 0.690 | 0.088 | 0.204 | +0.04 |
 | 0.700 | 0.149 | 0.262 | +0.93 |
+| 0.715 (CMB-preferred) | 0.277 | 0.348 | +2.39 |
 
-The s₀ constraint varies smoothly with Ω_Λ, with the 95% upper limit ranging from 0.16 to 0.26 across the tested interval. The best Δχ² occurs near Ω_Λ = 0.69. The results are stable: no fine-tuning of Ω_Λ is required.
+The s₀ constraint varies smoothly with Ω_Λ, with the 95% upper limit ranging from 0.16 to 0.35 across the tested interval. The best Δχ² occurs near Ω_Λ = 0.69. At the CMB-preferred value Ω_Λ = 0.715, the best-fit s₀ shifts to 0.288 (nonzero) and the model is mildly disfavored (Δχ² = +2.39). The results are stable across the tested range; no fine-tuning of Ω_Λ is required.
 
 ### 5.5 CMB distance priors
 
@@ -249,11 +250,26 @@ With Ω_Λ = 0.685 fixed, Λcos is strongly disfavored (Δχ² = +67.9). The ten
 
 This tension is not specific to Λcos. Adding CMB priors shifts the preferred Ω_Λ from 0.685–0.688 (SN+BAO) to ~0.715 in both ΛCDM and Λcos. Flat ΛCDM absorbs the shift through Ω_m (which moves from 0.312 to 0.285). Λcos at fixed Ω_Λ cannot absorb it. Freeing Ω_Λ restores full consistency: the Λcos fit with Ω_Λ free yields Ω_Λ = 0.715 [0.711, 0.718] and Δχ² = +0.43 relative to non-flat ΛCDM at the same parameter count.
 
-The 3% shift from 0.685 to 0.715 is a known DESI-era tension between BAO and CMB distance scales [1]. Whether the topology-derived Ω_Λ = 0.685 or the combined-data value 0.715 is closer to the true value requires the full Planck TTTEEE+lowE likelihood, which is beyond the scope of this paper.
+The 3% shift from 0.685 to 0.715 is a known DESI-era tension between BAO and CMB distance scales [1]. The compressed-prior test used here is an approximate background-level consistency check, not a substitute for the full correlated Planck likelihood. Whether the topology-derived Ω_Λ = 0.685 or the combined-data value 0.715 is closer to the true value requires the full Planck TTTEEE+lowE likelihood, which is beyond the scope of this paper.
 
 ### 5.6 Internal consistency
 
 The matter fraction in Λcos is set by construction through Ω_m = 1 − Ω_Λ. The (1+z)³ coefficient α = Ω_m/(1−s₀²) is a dressed version of this input. As a consistency check: at any s₀, α(1 − s₀²) returns Ω_m = 0.315. The dressing is algebraically self-consistent and does not introduce additional freedom.
+
+### 5.7 Model comparison
+
+To contextualize the Λcos result, we compare against wCDM (constant w as a free parameter, 4 free parameters: Ω_m, w, H₀r_d, M_B) fitted to the same SN+BAO dataset:
+
+| Model | Free params | χ²_min | Δχ² | ΔAIC | ΔBIC |
+|-------|-----------|--------|-----|------|------|
+| Flat ΛCDM | 3 | 1772.4 | 0 | 0 | 0 |
+| Λcos (Ω_Λ = 0.685) | 3 | 1772.6 | +0.13 | +0.13 | +0.13 |
+| Λcos (Ω_Λ = 0.715) | 3 | 1774.8 | +2.39 | +2.39 | +2.39 |
+| wCDM | 4 | 1759.4 | −13.0 | −11.0 | −5.6 |
+
+The wCDM fit yields w = −0.854 [−0.91, −0.80] (68% CI), preferring a quintessence-like (w > −1) departure from ΛCDM at ΔAIC = −11.0. This is the same qualitative signal underlying the DESI phantom-crossing result: the SN+BAO data favor some departure from w = −1. The distinction is that wCDM captures this as a constant shift toward w > −1, while CPL projects it into a crossing through w = −1. The Λcos model, which satisfies w_eff > −1 by construction, is consistent with the wCDM direction but does not achieve the same χ² improvement because the data-allowed s₀ is too small to produce a detectable departure.
+
+A Savage-Dickey density ratio at s₀ = 0 gives B₀₁ = 6.8 (stable across KDE bandwidths from 6.7 to 6.8), corresponding to moderate evidence for ΛCDM over Λcos on the Jeffreys scale. This confirms the Δχ² result: current data do not require the budget identity's correction term.
 
 ## 6. Predictions
 
@@ -288,15 +304,21 @@ The first prediction (epoch-dependent acceleration scale) is derived from the sa
 
 ### 7.1 Template bias
 
-The central result of this paper is that bounded dark energy sectors produce apparent phantom crossings when fitted with standard two-parameter w(z) templates. We have demonstrated this explicitly for CPL, BA, and JBP parameterizations: all three recover w₀ < −1 from Λcos distances that satisfy w_eff > −1 at every redshift. A three-parameter polynomial does not produce the crossing, confirming that the effect arises from basis restriction rather than from the underlying physics.
+The central result of this paper is that a bounded non-phantom expansion history can produce apparent phantom crossings when fitted with standard two-parameter w(z) templates. We have demonstrated this explicitly for CPL, BA, and JBP parameterizations applied to Λcos distances: all three recover w₀ < −1 from Λcos distances that satisfy w_eff > −1 at every redshift. A three-parameter polynomial does not produce the crossing, confirming that the effect arises from basis restriction rather than from the underlying physics.
 
 This finding has precedent. Linder and Huterer [12] identified CPL template bias, Shafieloo, Sahni, and Starobinsky [13] demonstrated spurious phantom crossings from model-dependent reconstruction, and recent work [8,14] has raised similar concerns about the DESI signal specifically. The present contribution is to provide a concrete, topology-derived bounded model (rather than a generic cautionary argument), to test multiple parameterizations, and to scan the template bias amplitude across the full parameter range allowed by current data.
+
+The DESI extended analysis [9] itself tests five parameterizations beyond CPL and finds consistent phantom-crossing behavior across all of them. This might seem to rule out template bias as an explanation. However, the DESI analysis fits each parameterization to real data, which may contain a genuine departure from ΛCDM (as the wCDM comparison in §5.7 suggests). The mock exercise in §4 asks a different question: can a model that provably satisfies w > −1 produce phantom crossings across the same family of templates? The answer is yes, confirming that template agreement across parameterizations is necessary but not sufficient evidence for a true crossing.
 
 At data-allowed values (s₀ < 0.18), the induced CPL distortion is w₀ ≈ −1.02 with positive w_a, structurally present but modest in amplitude and opposite in sign to the DESI best fit (w₀ ≈ −0.75, w_a ≈ −0.86). The paper establishes the mechanism without claiming to reproduce the DESI signal quantitatively.
 
 ### 7.2 Status of Λcos
 
-The Λcos model rests on three inputs: the budget identity Ψ² + S² = 1 (proposed), the power-law clock rate dt/dτ = S⁻¹/² (selected by matter-era asymptotic scaling), and the cosmological constant Ω_Λ = 0.685 (taken from a companion analysis [16]). The resulting H²(z) is derived algebraically from these inputs. The model recovers ΛCDM exactly as s₀ → 0.
+The Λcos model rests on three inputs: the budget identity Ψ² + S² = 1 (derived as the standing-wave energy invariant), the power-law clock rate dt/dτ = S⁻¹/² (selected by matter-era asymptotic scaling), and the cosmological constant Ω_Λ = 0.685 (taken from a companion analysis [16]). The resulting H²(z) is derived algebraically from these inputs. The model recovers ΛCDM exactly as s₀ → 0.
+
+The companion analysis [16] derives Ω_Λ from the ground eigenvalue of the Laplace-Beltrami operator on the Möbius surface embedded in S³, giving Λ_top = 2/R² with Gauss-Codazzi conversion to the observed value. It is currently available as a preprint. To mitigate the dependence on this external input, the paper reports Ω_Λ sensitivity across 0.68–0.715 (§5.4) and presents the Ω_Λ-free fit with CMB distance priors (§5.5), which yields Ω_Λ = 0.715 [0.711, 0.718] at Δχ² = +0.43 relative to non-flat ΛCDM. The primary SN+BAO results are stable across the tested Ω_Λ range, and the model remains competitive with ΛCDM when Ω_Λ is treated as a free parameter.
+
+The present analysis constrains only background observables (distances and expansion rates). The Λcos modification to H(z) also affects the linear growth rate f(z)σ₈(z), which provides an independent test. However, predicting growth requires specifying the perturbation-level sound speed of the effective dark energy component, which the budget identity does not constrain. A comparison with redshift-space distortion data (e.g., fσ₈ from DESI or earlier surveys) is deferred to future work.
 
 Current combined data (Pantheon+ and DESI DR2 BAO) constrain s₀ < 0.18 at 95% CL, consistent with the ΛCDM limit. Λcos matches ΛCDM at Δχ² = +0.13 across the SN+BAO dataset. Adding CMB distance priors introduces a shared Ω_Λ tension resolvable by freeing Ω_Λ (Δχ² = +0.43 at equal parameter count). The model is a minimal bounded extension of ΛCDM, with a specific falsifiable signature (the negative (1+z)¹ term) testable by Euclid DR1.
 
@@ -306,7 +328,7 @@ The budget identity and the budget clock derive from a topological framework on 
 
 ## 8. Conclusions
 
-Bounded dark energy sectors produce apparent phantom crossings under standard two-parameter templates. The Λcos model, derived from a temporal budget identity on S³, provides a concrete realization satisfying w_eff(z) > −1 at all redshifts while matching the Pantheon+ and DESI DR2 BAO distance-redshift relation at Δχ² = +0.13 relative to flat ΛCDM. Current data constrain the model's single new parameter to s₀ < 0.18 (95% CL), and the predicted negative (1+z)¹ contribution to H²(z) is a standing target for Euclid DR1.
+Bounded non-phantom expansion histories can produce apparent phantom crossings under standard two-parameter templates. The Λcos model, derived from a temporal budget identity on S³, provides a concrete realization satisfying w_eff(z) > −1 at all redshifts while matching the Pantheon+ and DESI DR2 BAO distance-redshift relation at Δχ² = +0.13 relative to flat ΛCDM. Current data constrain the model's single new parameter to s₀ < 0.18 (95% CL), and the predicted negative (1+z)¹ contribution to H²(z) is a standing target for Euclid DR1.
 
 ---
 
