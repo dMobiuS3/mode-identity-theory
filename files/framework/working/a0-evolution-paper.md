@@ -804,7 +804,7 @@ Mode Identity Theory takes as its single postulate the bounded topology
 
 $$S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \qquad \partial S^3 = \emptyset.$$
 
-A temporal edge $S^1$ bounds a non-orientable 2-surface (the Möbius strip) embedded in a closed 3-space. The space has no boundary. Two uniqueness theorems force this triad: $S^3$ is the unique simply connected closed 3-manifold (Poincaré), and the Möbius strip is the unique minimal non-orientable surface with a single $S^1$ boundary component (classification of compact surfaces).
+A temporal edge $S^1$ bounds a non-orientable 2-surface (the Möbius strip) embedded in a closed 3-space. The space has no boundary. Three structural constraints leave no other topological choice. (i) By the Poincaré theorem, $S^3$ is the unique simply connected closed 3-manifold; it is diffeomorphic to $\text{SU}(2)$ and admits a spin structure, accommodating fermionic matter. (ii) By the classification of compact surfaces, the Möbius strip is the unique minimal non-orientable surface with a single $S^1$ boundary component, whose $\mathbb{Z}_2$ holonomy under one traversal produces the anti-periodic boundary condition selected by fermionic matter. (iii) The terminus $\partial S^3 = \emptyset$ closes the embedding hierarchy: there is no further boundary from which to observe. The three constraints fix the topology uniquely.
 
 ### A.2 The phase operator
 
@@ -820,7 +820,7 @@ This is the framework's *phase operator*: it specifies how observable amplitude 
 
 ### A.3 The 120-domain
 
-The physical observable space is the quotient $S^3/2I$, where $2I$ is the binary icosahedral group. The discrete subgroups of $\text{SU}(2) \cong S^3$ are classified: cyclic groups, binary dihedral groups, and three exceptional groups (binary tetrahedral $|2T| = 24$, binary octahedral $|2O| = 48$, binary icosahedral $|2I| = 120$). The framework selects $2I$ as the largest exceptional discrete subgroup, giving the maximum spectral resolution compatible with $S^3$. The phase position is therefore quantized:
+The physical observable space is the quotient $S^3/2I$, where $2I$ is the binary icosahedral group. The discrete subgroups of $\text{SU}(2) \cong S^3$ are classified: cyclic groups, binary dihedral groups, and three exceptional groups (binary tetrahedral $|2T| = 24$, binary octahedral $|2O| = 48$, binary icosahedral $|2I| = 120$). Two convergent constraints select $2I$. (i) It is the largest exceptional discrete subgroup of $\text{SU}(2)$, giving the maximum spectral resolution compatible with $S^3$. (ii) The icosahedron is the unique Platonic solid whose $(2,3,5)$ branch orders are consecutive Fibonacci numbers satisfying $2 + 3 = 5$; this Fibonacci-recurrence structure is what makes the Fibonacci wells (A.4) the natural stable positions on the resulting 120-domain. The phase position is therefore quantized:
 
 $$\Theta \in \{k/120 : k = 0, 1, \ldots, 119\}.$$
 
@@ -828,7 +828,7 @@ For photon-mediated observables, the bosonic projection $|\psi|^2$ erases the an
 
 ### A.4 The Fibonacci wells
 
-Phase positions on the 120-domain that maximize stability against environmental perturbation form the framework's *Fibonacci wells*. The selection follows from Hurwitz's theorem: the golden ratio $\varphi$ is the irrational number hardest to approximate by rational fractions of bounded denominator, so positions $k/120$ with $k$ a Fibonacci number minimize destructive interference between modes. The wells used in this paper are
+Phase positions on the 120-domain that maximize stability against environmental perturbation form the framework's *Fibonacci wells*. The selection follows from two converging structures: (i) Hurwitz's theorem — the golden ratio $\varphi$ is the irrational number hardest to approximate by rational fractions of bounded denominator, so positions $k/120$ with $k$ a Fibonacci number minimize destructive interference between modes; (ii) the icosahedral $(2,3,5)$ Fibonacci-recurrence noted in A.3, which makes the Fibonacci numbers the natural lattice of stable positions on the 120-domain native to $S^3/2I$. The wells used in this paper are
 
 $$\Theta_\text{wells} \in \{13, 21, 34, 55\}/120,$$
 
@@ -862,7 +862,7 @@ Three constraints fix the well assignments used in §2:
 2. **Bosonic projection**: photon-mediated observables access only the 60-grid (even numerators in the 120-domain); dynamical observables access the full 120-grid.
 3. **Antinode requirement for $\Lambda$**: as a topologically protected eigenvalue, $\Lambda$ sits at $60/120$ where $d\ln C/d\Theta = 0$.
 
-Of the Fibonacci wells, only $34/120$ has an even numerator and is therefore accessible on the bosonic grid, forcing $H_0 \mapsto 34/120$. The well $13/120$ requires the full 120-grid ($\gcd(13, 120) = 1$), making it accessible only to dynamical (non-photon-mediated) observation, forcing $a_0 \mapsto 13/120$. The wells $21/120$ and $55/120$ remain unassigned in this paper.
+Three forcings then locate the wells uniquely. (a) $a_0$ occupies the coprime well $13/120$, *forced by irreducibility*: $\gcd(13, 120) = 1$ requires the full 120-grid, accessible only to dynamical (non-photon-mediated) observation. (b) $\Lambda$ occupies the antinode $60/120$, *forced by ground-state maximality*: it is the unique position where $C(\Theta)$ takes its maximum and $d\ln C/d\Theta = 0$. (c) Among the remaining Fibonacci wells, only $34/120$ carries an even numerator and therefore survives the bosonic filter for photon-mediated observation; $H_0$ occupies it *by exclusion*. The wells $21/120$ and $55/120$ remain unassigned in this paper.
 
 The numerical match against observation that follows from these assignments — the Milgrom ratio at 0.8% from the well-pair cancellation — is computed in §2.5 of the main text. Other framework realizations of the scaling law at additional $(n, \Omega)$ pairs are outside the scope of the present paper.
 
