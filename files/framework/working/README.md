@@ -20,6 +20,18 @@ Research-in-progress across the framework. Ordered by current empirical pressure
 
 ---
 
+## [Epoch-Dependent Acceleration Scale from Bounded Topology](./a0-evolution-paper.md)
+
+**Priority:** Before Euclid DR1.
+
+**Problem:** The MOND acceleration scale $a_0 \approx 1.20 \times 10^{-10}$ m/s$^2$ satisfies a numerical coincidence with $cH_0$ that has remained unexplained for four decades; in standard MOND it is a free parameter, in $\Lambda$CDM it carries no physical content, and the JWST early-massive-galaxy crisis at $z \sim 7\text{-}10$ has no resolution within either framework.
+
+**Methodology:** Derive $a_0(z) = a_0(0)\,E(z)$ as a zero-parameter ratio cancellation in the scaling law ($a_0$ at well $13/120$ and $H$ at well $34/120$, both edge modes); generate five distinct testable predictions across cosmic time as different powers of $E(z) \in \{-1, -1/2, +1/4, +1/2, -1/4\}$ governing BTFR normalization, MOND transition radius, asymptotic flat velocity, lensing $M_\text{dyn}/M_b$ enhancement, and free-fall collapse time; forward-model the Übler 2017 radial pressure-support pipeline against the framework's monotonic prediction; identify the Euclid DR1 stacked galaxy-galaxy lensing measurement as the sharpest near-term test of both magnitude (74% predicted enhancement at $z = 2$) and universality (mass- and aperture-independence).
+
+**Dependencies:** Scaling law $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$, well assignments at $z = 0$ ($a_0$ at $13/120$, $H_0$ at $34/120$), Sector $\mathcal{A}$ surface-mode eigenvalue $\Omega_\Lambda$ for §8.5 CMB consistency, Λcos companion paper for the joint-outcome §9 prediction set.
+
+---
+
 ## [Phase Field Coherence Scale (SPARC)](./sparc-phase-field-notes.md)
 
 **Priority:** Before Euclid DR1.
