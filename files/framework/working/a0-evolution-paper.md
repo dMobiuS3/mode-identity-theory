@@ -573,6 +573,16 @@ The Übler measurement is the only existing quantitative test of the §4 framewo
 
 **Trend shape.** The observed offsets are non-monotonic in redshift ($-0.44 \to -0.27$ dex), while the framework predicts a strict monotonic decrease ($-0.227 \to -0.540$ dex). This is the core of the tension: the framework's evolution prediction is monotonic, the observation is not.
 
+Quantitatively, the residuals (observed minus MIT prediction) are $-0.216$ dex at $z \approx 0.9$ and $+0.270$ dex at $z \approx 2.3$, with opposite signs reflecting the non-monotonic trend. Translating to $\sigma$ tensions under three uncertainty budgets:
+
+| Uncertainty budget | $T(z=0.9)$ [σ] | $T(z=2.3)$ [σ] | Joint [σ] |
+|---|---|---|---|
+| Übler statistical only | $-5.4$ | $+5.4$ | $7.6$ |
+| + Lelli local-baseline (0.05 dex) | $-3.4$ | $+3.8$ | $5.1$ |
+| + velocity-correction systematic (0.10 dex) | $-1.8$ | $+2.2$ | $2.9$ |
+
+Even under the most conservative budget, with a generous 0.10 dex velocity-correction systematic added in quadrature, the joint tension is $2.9\sigma$ and the $z = 2.3$ point individually sits at $2.2\sigma$. Both exceed the $\geq 2\sigma$ falsification threshold stated in §10 Table 8. Under more defensible Budget B (statistical plus the standard SPARC local-baseline uncertainty), the joint tension is $5.1\sigma$. The current Übler data therefore constitutes a genuine quantitative tension with the framework's monotonic prediction at the trend-shape level, not a marginal disagreement that conservative systematics could absorb.
+
 The Übler pressure-support correction is a radial thick-disk expression $v_\text{circ}^2(r) = v_\text{rot}^2(r) + 2\,\sigma_0^2\,r/R_d$ [19], with the effective coefficient $\alpha(r) = 2r/R_d$ depending on the radial position at which $v_\text{rot}$ is measured and on the disk scale length $R_d$. Both quantities evolve systematically with redshift. A fixed-coefficient surrogate, with $\alpha$ chosen to grow plausibly across the literature range $\alpha \in [1.5, 3.4]$, fails to reproduce the observed non-monotonic offset pattern: such a model can match the $z \approx 2.3$ point but cannot simultaneously drive the $z \approx 0.9$ point down to $-0.44$ dex without requiring an unphysical $\alpha(z=0.9) \approx 0$. A full simulation under Übler's actual radial systematic, with sample-realistic distributions of $R_d$ and the radius at which the circular velocity is measured, is reported below as the H10 forward-model analysis.
 
 The framework's posture toward this constraint is to state the prediction without retreating to a softer claim. The §4 prediction is a monotonic decrease in the BTFR normalization with redshift, with magnitude set by $1/E(z)$. The Übler measurement is currently the only quantitative test of that prediction at intermediate redshift, and it is in tension at the trend-shape level.
