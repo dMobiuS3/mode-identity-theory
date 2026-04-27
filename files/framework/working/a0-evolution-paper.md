@@ -56,7 +56,7 @@ The §§3-7 predictions are not independent: they all derive from (1.2) and depe
 
 ### 1.4 Novelty relative to prior literature
 
-The evolving form $a_0(z) \propto H(z)$ has been speculated in the MOND literature as a possible interpretation of the local $a_0 \approx cH_0$ coincidence; Milgrom (1999) [4] explored this in a vacuum-effect framework, and a parallel speculation appears in prior MIT working notes without derivation. The present paper's contribution is not the bare proportionality but three specific results that follow from it.
+The evolving form $a_0(z) \propto H(z)$ has been speculated in the MOND literature as a possible interpretation of the local $a_0 \approx cH_0$ coincidence; Milgrom (1999) [4] explored this in a vacuum-effect framework. The present paper's contribution is not the bare proportionality but three specific results that follow from it.
 
 First, the relation is *derived within the framework* from the scaling-law postulate (§2) as a structural cancellation between two specific Fibonacci-well positions $C(13/120)$ and $C(34/120)$ on the 120-domain of $S^3/2I$, with the local Milgrom ratio recovered at the 0.8% level. The match is sparse on the full 120-domain (24 of 7,021 nonzero pairs match within 1%) and unique within the framework's Fibonacci-well subset (one of ten possible well-pairs). The derivation identifies the topological mechanism by which the proportionality arises and forces a single specific functional form (linear in $E(z)$) rather than admitting a family of speculative possibilities.
 
@@ -97,7 +97,7 @@ This rule is a postulate of the framework, with the same status as the gauge gro
 
 ### 2.2 Edge modes use $\Omega_H$
 
-Edge modes are observables tied to the $S^1$ boundary of the Mobius band ($n = 1$ in the embedding hierarchy). The boundary $S^1$ is a kinematic locus: it carries no intrinsic surface eigenvalue (the surface eigenvalue lives one dimension up, on Mobius itself, where the framework places Λ — see §2.8 contrast). What an edge mode references is the embedding scale of $S^1$ in the ambient cosmological geometry. The natural such scale is the Hubble horizon $R_H = c/H$, and its dimensionless Planck ratio is $\Omega_H$.
+Edge modes are observables tied to the $S^1$ boundary of the Mobius band ($n = 1$ in the embedding hierarchy). The boundary $S^1$ is a kinematic locus: it carries no intrinsic surface eigenvalue (the surface eigenvalue lives one dimension up, on Mobius itself, where the framework places Λ; see §2.8 contrast). What an edge mode references is the embedding scale of $S^1$ in the ambient cosmological geometry. The natural such scale is the Hubble horizon $R_H = c/H$, and its dimensionless Planck ratio is $\Omega_H$.
 
 Therefore, for any edge-mode observable evaluated at cosmic epoch $z$:
 
@@ -140,11 +140,11 @@ The value $0.1846$ is a structural consequence of the framework's well assignmen
 
 ### 2.5 Consistency check on absolute values at $z = 0$
 
-The ratio (2.4) determines the evolution but says nothing about the absolute value of $a_0$ at any single epoch. The absolute values come from the individual scaling-law projections (2.2)-(2.3) evaluated at $z = 0$, and serve as a check that the well assignments themselves match observation. Observed inputs (Planck 2018 [20] $H_0 = 67.4$ km/s/Mpc, SPARC $a_0 = 1.20 \times 10^{-10}$ m/s$^2$):
+The ratio (2.4) determines the evolution but says nothing about the absolute value of $a_0$ at any single epoch. The absolute values are calibration inputs: the wells $13/120$ and $34/120$ were assigned individually to fit the observed $a_0(0)$ and $H_0$ at $z = 0$. Observed inputs (Planck 2018 [20] $H_0 = 67.4$ km/s/Mpc, SPARC $a_0 = 1.20 \times 10^{-10}$ m/s$^2$):
 
 $$\frac{a_0^{\text{obs}}}{c\,H_0^{\text{obs}}} = \frac{1.20 \times 10^{-10}}{6.55 \times 10^{-10}} = 0.1832$$
 
-Predicted ratio from the wells: 0.1846. Agreement to 0.8%. The Milgrom coincidence $a_0 \approx c\,H_0$ resolves to a ratio of two phase-operator values at fixed wells. The absolute value of $H_0\,t_P$ predicted by (2.3) reproduces the observed $H_0$ at the 2% level under the framework's hierarchy ratio $\Omega_H \approx 10^{122}$; the absolute value of $a_0/a_P$ from (2.2) follows by the same factor.
+Predicted ratio from the wells: 0.1846. Agreement to 0.8%. The Milgrom coincidence $a_0 \approx c\,H_0$ resolves to a ratio of two phase-operator values at fixed wells. The ratio is the testable structural claim of the well assignments; the individual absolute values of $a_0$ and $H_0$ are the calibration inputs that fix $\Theta_{a_0} = 13/120$ and $\Theta_{H_0} = 34/120$, not independent predictions.
 
 To calibrate the strength of this match, we compute the combinatorial baseline. Of the 7,021 unordered nonzero phase-position pairs $(k_1, k_2)/120$ with $k_1, k_2 \in \{1, \ldots, 119\}$, only 24 produce a ratio $C(k_1/120)/C(k_2/120)$ within 1% of the observed $0.1832$, a fraction of 0.342%. Modulo the reflection symmetry $C(k) = C(120-k)$, these collapse to 6 unique phase-operator value pairs. Within the framework's selected Fibonacci-well subset $\{13, 21, 34, 55, 60\}/120$, exactly one of the ten possible unordered well-pairs matches: the framework's $(13, 34)$. The match is therefore sparse on the full 120-domain (one in $\sim 300$ pairs) and unique within the topologically-selected Fibonacci-well structure (one in 10).
 
@@ -212,7 +212,7 @@ The two framework-wide concerns most likely to attract referee attention are:
 
 1. *The selection rule.* The scale-selection rule assigns edge-mode observables ($n = 1$) to the kinematic hierarchy $\Omega_H$ and surface-mode observables ($n = 2$) to the eigenvalue hierarchy $\Omega_\Lambda$. This assignment is a postulate of the framework, with the same status as the gauge group $SU(3) \times SU(2) \times U(1)$ in the Standard Model. Its consequence within the present paper is the §2.5 cancellation that recovers the Milgrom ratio at 0.8% and locates the framework's $a_0$ uniquely among the Fibonacci wells. A future uniqueness result for the $(n, \Omega)$ pairing is the right next step but is not a prerequisite for the present paper, just as Standard-Model phenomenology proceeded for decades before any uniqueness argument for $SU(3) \times SU(2) \times U(1)$ existed.
 
-2. *The local-epoch reading.* §2.6 defends this from symmetry. The argument is structural rather than theorem-like: freezing $\Omega_H$ at $\Omega_H(0)$ would *be* the addition of a postulate (a preferred epoch), and the bounded domain offers no support for one. A referee may push on whether the absence of a preferred epoch is itself sufficient to force the local reading. The framework rejects preferred-epoch postulates elsewhere as well: the surface-sector treatment of cosmic dark-energy evolution (companion analysis) uses a $t$-dependent standing wave precisely because no time slice is privileged in the bounded cosmic domain.
+2. *The local-epoch reading.* §2.6 defends this from symmetry. The argument is structural rather than theorem-like: freezing $\Omega_H$ at $\Omega_H(0)$ would *be* the addition of a postulate (a preferred epoch), and the bounded domain offers no structural support for one. A referee may push on whether the absence of a preferred epoch is itself sufficient to force the local reading; the framework's position is that under the bounded cosmic topology no time slice is privileged, so the scaling law evaluated at face value gives the local reading by default and freezing $\Omega_H(0)$ is what would require the addition.
 
 Both are framework-wide concerns shared with the broader framework analysis; neither is unique to this paper, and neither is a defect in the algebra of §2.4.
 
@@ -257,11 +257,11 @@ Two values fix the magnitude of the prediction. At $z = 2$, $a_0$ is $3.03$ time
 
 The shape of the curve in the regime $z = 0$ to $5$ is dominated by the matter term in (3.2); $E(z) \propto (1+z)^{3/2}$ to leading order. Above $z \sim 100$ radiation matters; this is far above the redshifts where the §§4-7 predictions live, and the parameterization in (3.2) is self-consistent throughout.
 
-### 3.3 Cosmology dependence and consistency with the companion Λcos analysis
+### 3.3 Cosmology dependence
 
-A companion analysis on the surface sector (separately submitted) develops a topological resolution to the DESI DR2 [8] evidence for evolving dark-energy equation of state, working from the same scaling-law postulate (Appendix A.5). That analysis modifies the Friedmann form (3.2) by a phase-modulated Λ term with a single parameter $s_0 < 0.18$ (95% CL). Within the resulting $\Lambda\text{cos}$ cosmology the modifications to $E(z)$ are concentrated at $z < 1$ where Λ dominates the energy budget, and they fall below 1% for $z > 2$. The §3 table and §§4-7 predictions are therefore essentially independent of the cosmology choice within the redshift window where the present paper makes testable claims. Where the two cosmologies diverge ($z \lesssim 1$), the divergence is well within current observational uncertainties on $E(z)$ and on the §§4-7 observables.
+We adopt the standard flat ΛCDM expansion history (3.2) with Planck 2018 [20] parameters throughout this paper. The §§4-7 predictions are robust to reasonable variations in the cosmological parameters within their current observational uncertainties: at $z > 1$ the matter term in (3.2) dominates the energy budget and the fractional sensitivity of $E(z)$ to $\Omega_m$ within current Planck and DESI constraints stays at the percent level; at $z < 1$ the late-time energy budget enters but the corresponding shifts in the §§4-7 observables remain well within current measurement uncertainties at intermediate redshift.
 
-We use the standard ΛCDM form throughout this paper for transparency and to allow direct comparison with published high-$z$ measurements that are typically reported under the same cosmology. The prediction of an evolving $a_0$ is independent of which member of the Λ family is chosen, because the cancellation in §2.4 strips the hierarchy factor regardless of how $H(z)$ itself is parameterized.
+The prediction of an evolving $a_0$ is independent of which Friedmann form is chosen for $H(z)$. The cancellation in §2.4 strips the hierarchy factor regardless of how $H(z)$ is parameterized: $a_0(z) \propto H(z)$ holds for any expansion history. Adopting the standard ΛCDM form is therefore a transparency choice that allows direct comparison with published high-$z$ measurements typically reported under the same cosmology, not a load-bearing assumption of the framework's evolution prediction.
 
 ### 3.4 What §3 establishes
 
@@ -452,7 +452,9 @@ The mass-aperture-independent enhancement is the defining feature of the §6 pre
 
 A 74% excess in stacked $M_\text{dyn}/M_b$ at $z = 2$ relative to local galaxies of the same baryonic mass is the direct prediction at the Newtonian-inversion proxy level. It applies identically across galaxy mass and lensing aperture in the deep-MOND regime.
 
-Under ΛCDM, the $M_\text{dyn}/M_b$ ratio at fixed baryonic mass and aperture also evolves with redshift, driven by halo concentration evolution and structural changes in the dark-matter halo population [15,16]. The discriminating test between the two pictures is therefore not the existence of redshift evolution but its functional form. We compute the ΛCDM prediction for an $L^*$ archetype ($M_b = 6 \times 10^{10}\,M_\odot$) using a Moster-style stellar-to-halo mass relation [17] and the Duffy concentration $c(M_\text{halo}, z)$ [15], with the NFW enclosed mass at fixed physical aperture giving the inferred dynamical mass under the same Newtonian inversion (6.1). At the canonical $R = 100$ kpc aperture, the ΛCDM prediction is $M_\text{dyn}/M_b = 14.0$ at $z = 0$, $13.6$ at $z = 1$, and $13.7$ at $z = 2$: approximately flat with weak non-monotonicity. The framework prediction at the same aperture is $11.98 \to 16.03 \to 20.86$ across the same redshifts: monotonically increasing as $\sqrt{E(z)}$. The two pictures are quantitatively distinguishable at $z = 2$ by a factor of 1.52 in $M_\text{dyn}/M_b$, large enough to be targeted by a stratified Euclid DR1 stacked analysis (§6.6) once stellar-mass calibration, photometric-redshift uncertainty, aperture definition, and satellite/halo-modeling systematics are propagated.
+Under ΛCDM, the $M_\text{dyn}/M_b$ ratio at fixed baryonic mass and aperture also evolves with redshift, driven by halo concentration evolution and structural changes in the dark-matter halo population [15,16]. The discriminating test between the two pictures is therefore not the existence of redshift evolution but its functional form.
+
+We compute the ΛCDM prediction for an $L^*$ archetype ($M_b = 6 \times 10^{10}\,M_\odot$) using a Moster-style stellar-to-halo mass relation [17] and the Duffy concentration $c(M_\text{halo}, z)$ [15], with the NFW enclosed mass at fixed physical aperture giving the inferred dynamical mass under the same Newtonian inversion (6.1). At the canonical $R = 100$ kpc aperture, the ΛCDM prediction is $M_\text{dyn}/M_b = 14.0$ at $z = 0$, $13.6$ at $z = 1$, and $13.7$ at $z = 2$: approximately flat with weak non-monotonicity. The framework prediction at the same aperture is $11.98 \to 16.03 \to 20.86$ across the same redshifts: monotonically increasing as $\sqrt{E(z)}$. The two pictures are quantitatively distinguishable at $z = 2$ by a factor of 1.52 in $M_\text{dyn}/M_b$, large enough to be targeted by a stratified Euclid DR1 stacked analysis (§6.6) once stellar-mass calibration, photometric-redshift uncertainty, aperture definition, and satellite/halo-modeling systematics are propagated.
 
 The mass- and aperture-dependence of the ΛCDM prediction sharpens the discriminator further. At $R = 100$ kpc, the ΛCDM $M_\text{dyn}/M_b$ ratio at $z = 2$ relative to $z = 0$ is 0.76 for a Sub-$L^*$ ($M_b = 10^{10}\,M_\odot$) galaxy, 0.98 for $L^*$, and 1.13 for a Giant ($M_b = 1.5 \times 10^{11}\,M_\odot$). The framework predicts the same factor 1.74 for all three. At fixed $L^*$ baryonic mass, the ΛCDM ratio at $z = 2$ is 1.07 at $R = 30$ kpc, 0.98 at $R = 100$ kpc, and 0.92 at $R = 300$ kpc; the framework predicts the same factor 1.74 across all apertures. The framework's universal $\sqrt{E(z)}$ enhancement, mass-independent and aperture-independent in the deep-MOND regime, is the falsifiable signature that distinguishes the prediction from the ΛCDM halo-evolution picture under any reasonable choice of stellar-to-halo mass relation and concentration parameterization.
 
@@ -701,7 +703,7 @@ Either-or outcomes do not imply the framework is half-correct; they would identi
 
 ### 9.3 Pre-registration and the broader framework
 
-The companion analysis is pre-registered prior to the Euclid DR1 release (October 2026) and DESI DR3. The present paper will be pre-registered prior to the same Euclid DR1 window. Pre-registration is the framework's standard practice for testable predictions: assignments calibrated at $z = 0$ generate forward-looking claims that cannot be silently retreated from when data arrives.
+The present paper will be deposited on Zenodo prior to the Euclid DR1 release in October 2026, fixing its predictions before the data arrive. The companion analysis is similarly deposited prior to Euclid DR1 and DESI DR3.
 
 The companion analysis on the surface sector and the present paper are the framework's two near-term tests; the broader claim that the same scaling-law postulate produces predictions in additional sectors of the framework is a meta-result that accrues with each individual test, but is not the subject of the present paper.
 
@@ -786,7 +788,7 @@ The framework's evolution claim therefore stands or falls on a defined, near-ter
 
 ## Acknowledgments
 
-The author thanks the framework collaboration for ongoing discussions of the Mode Identity Theory selection rule and its empirical validation across multiple observable channels. Computational support and systematic stress-testing of the Übler radial pressure-support pipeline were essential to the §8.2 verdict. No external funding supported this work.
+The author thanks colleagues for ongoing discussions of the Mode Identity Theory selection rule and for systematic stress-testing of the Übler radial pressure-support pipeline that informed the §8.2 verdict. No external funding supported this work.
 
 ## Data availability
 
@@ -828,7 +830,7 @@ For photon-mediated observables, the bosonic projection $|\psi|^2$ erases the an
 
 ### A.4 The Fibonacci wells
 
-Phase positions on the 120-domain that maximize stability against environmental perturbation form the framework's *Fibonacci wells*. The selection follows from two converging structures: (i) Hurwitz's theorem — the golden ratio $\varphi$ is the irrational number hardest to approximate by rational fractions of bounded denominator, so positions $k/120$ with $k$ a Fibonacci number minimize destructive interference between modes; (ii) the icosahedral $(2,3,5)$ Fibonacci-recurrence noted in A.3, which makes the Fibonacci numbers the natural lattice of stable positions on the 120-domain native to $S^3/2I$. The wells used in this paper are
+Phase positions on the 120-domain that maximize stability against environmental perturbation form the framework's *Fibonacci wells*. The selection follows from two converging structures: (i) Hurwitz's theorem, which states that the golden ratio $\varphi$ is the irrational number hardest to approximate by rational fractions of bounded denominator, so positions $k/120$ with $k$ a Fibonacci number minimize destructive interference between modes; (ii) the icosahedral $(2,3,5)$ Fibonacci-recurrence noted in A.3, which makes the Fibonacci numbers the natural lattice of stable positions on the 120-domain native to $S^3/2I$. The wells used in this paper are
 
 $$\Theta_\text{wells} \in \{13, 21, 34, 55\}/120,$$
 
@@ -864,7 +866,7 @@ Three constraints fix the well assignments used in §2:
 
 Three forcings then locate the wells uniquely. (a) $a_0$ occupies the coprime well $13/120$, *forced by irreducibility*: $\gcd(13, 120) = 1$ requires the full 120-grid, accessible only to dynamical (non-photon-mediated) observation. (b) $\Lambda$ occupies the antinode $60/120$, *forced by ground-state maximality*: it is the unique position where $C(\Theta)$ takes its maximum and $d\ln C/d\Theta = 0$. (c) Among the remaining Fibonacci wells, only $34/120$ carries an even numerator and therefore survives the bosonic filter for photon-mediated observation; $H_0$ occupies it *by exclusion*. The wells $21/120$ and $55/120$ remain unassigned in this paper.
 
-The numerical match against observation that follows from these assignments — the Milgrom ratio at 0.8% from the well-pair cancellation — is computed in §2.5 of the main text. Other framework realizations of the scaling law at additional $(n, \Omega)$ pairs are outside the scope of the present paper.
+The numerical match against observation that follows from these assignments, the Milgrom ratio at 0.8% from the well-pair cancellation, is computed in §2.5 of the main text. Other framework realizations of the scaling law at additional $(n, \Omega)$ pairs are outside the scope of the present paper.
 
 ---
 
