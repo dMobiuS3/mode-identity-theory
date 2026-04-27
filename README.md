@@ -22,9 +22,7 @@ $$\Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \parti
 
 Your belt has two surfaces and two edges that never meet. Twist it once and buckle it again. Suddenly it's a Möbius strip: the same two surfaces and edges fused as one. Now expand that surface to universal scale and embed it in the only closed 3-manifold that exists.
 
-The 3‑sphere itself wasn't just empty. It comes with a native grid of 120 equally spaced positions, the maximum symmetry the space can permit.
-
-None of this was chosen. They were the tiles that came with the room.
+The 3‑sphere itself wasn't just empty. It comes with a native grid of 120 equally spaced positions, the maximum symmetry the space can permit. None of this was chosen. They were the tiles that came with the room.
 
 Ψ **One Wave:**
 
