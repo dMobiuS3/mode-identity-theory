@@ -34,9 +34,9 @@ Mode Identity Theory (MIT; the framework's foundational structure is summarized 
 
 $$\frac{A}{A_P} = C(\Theta)\,(\sqrt{\Omega})^{-n}, \quad \text{(1.1)}$$
 
-mapping a Planck-normalized observable $A/A_P$ to a phase position $\Theta \in \{k/120 : k = 0, \ldots, 119\}$ on the 120-domain native to $S^3/2I$, a manifold-mode index $n$ assigned by the embedding hierarchy $S^1 \subset \text{Mobius} \subset S^3$, and a hierarchy ratio $\Omega$ chosen by a selection rule. The phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ is the squared modulus of the anti-periodic ground mode on the Möbius surface, derived in the framework's foundational papers [22,24].
+mapping a Planck-normalized observable $A/A_P$ to a phase position $\Theta \in \{k/120 : k = 0, \ldots, 119\}$ on the 120-domain native to $S^3/2I$, a manifold-mode index $n$ assigned by the embedding hierarchy $S^1 \subset \text{Mobius} \subset S^3$, and a hierarchy ratio $\Omega$ chosen by a selection rule. The phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ is the squared modulus of the anti-periodic ground mode on the Möbius surface, derived in Appendix A.2.
 
-Two specific assignments are the subject of this paper and its companion. The MOND scale $a_0$ is identified as an edge-mode observable ($n = 1$) referenced to the kinematic horizon ratio $\Omega_H = (c/(H\,\ell_P))^2$, with phase position $\Theta = 13/120$. The cosmological constant Λ is identified as a surface-mode observable ($n = 2$) referenced to the eigenvalue ratio $\Omega_\Lambda$, with phase position $\Theta = 60/120$. The Hubble rate $H$ is itself an edge-mode observable at $\Theta = 34/120$. Both the $(a_0, H_0)$ wells and the Λ position are calibrated against local measurements at percent-level precision [21,22], and their forward-looking implications for cosmic evolution are structurally inverse: the framework predicts that $a_0$ evolves with $H(z)$ while Λ remains constant, the inverse of the standard ΛCDM presumption where Λ is the candidate evolving quantity (DESI's $w(z)$) and $a_0$ is assumed universal.
+Two specific assignments are the subject of this paper and its companion. The MOND scale $a_0$ is identified as an edge-mode observable ($n = 1$) referenced to the kinematic horizon ratio $\Omega_H = (c/(H\,\ell_P))^2$, with phase position $\Theta = 13/120$. The cosmological constant Λ is identified as a surface-mode observable ($n = 2$) referenced to the eigenvalue ratio $\Omega_\Lambda$, with phase position $\Theta = 60/120$. The Hubble rate $H$ is itself an edge-mode observable at $\Theta = 34/120$. Both the $(a_0, H_0)$ wells and the Λ position are calibrated against local measurements at percent-level precision (Appendix A.7), and their forward-looking implications for cosmic evolution are structurally inverse: the framework predicts that $a_0$ evolves with $H(z)$ while Λ remains constant, the inverse of the standard ΛCDM presumption where Λ is the candidate evolving quantity (DESI's $w(z)$) and $a_0$ is assumed universal.
 
 ### 1.3 What this paper does
 
@@ -52,7 +52,7 @@ with $E(z) \equiv H(z)/H_0$ the standard Friedmann dimensionless Hubble paramete
 
 §8 treats the existing constraint landscape honestly: a live tension with the KMOS3D BTFR trend shape, the inherited cluster-scale MOND mass discrepancy at $z \lesssim 0.3$ (where the framework's evolution correction is at the percent level against a factor-five problem), the structurally resolved CMB consistency under the framework's selection rule (where cosmological perturbations sit in a different manifold-mode sector than $a_0$), and below-sensitivity status elsewhere. The framework's monotonic BTFR prediction is in tension with current intermediate-redshift kinematic data [9]; the comparison, including a forward-modeled simulation of the radial pressure-support systematic, is treated in §8. §9 connects to a companion analysis (separately submitted) developing the surface-sector prediction. §10 collects the full predictive content into a single table and identifies the falsification windows. §11 closes.
 
-The §§3-7 predictions are not independent: they all derive from (1.2) and depend on $E(z)$ through different powers ($-1$, $-1/2$, $+1/4$, $+1/2$, $-1/4$ across §§4-7). A single measurement of any one observable at any one redshift tests all five through their shared cosmological dependence. The Euclid DR1 release in October 2026 will deliver the sharpest such test in the form of stacked galaxy-galaxy weak lensing at $z = 0.5\text{–}2$ stratified by baryonic mass and aperture.
+The §§3-7 predictions are not independent: they all derive from (1.2) and depend on $E(z)$ through different powers ($-1$, $-1/2$, $+1/4$, $+1/2$, $-1/4$ across §§4-7). A measurement in any one channel tests $E(z)$ via that channel; verifying consistency across multiple channels at the same redshift tests the universality of the deep-MOND scaling across observable classes. The Euclid DR1 release in October 2026 will deliver the sharpest such test in the form of stacked galaxy-galaxy weak lensing at $z = 0.5\text{–}2$ stratified by baryonic mass and aperture.
 
 ### 1.4 Novelty relative to prior literature
 
@@ -176,7 +176,7 @@ The shared $(\sqrt{\Omega_H(z)})^{-1}$ divides out whenever both observables are
 
 ### 2.8 Why Λ does not evolve (contrast)
 
-The same scaling-law machinery places Λ at well $60/120$ with $n = 2$ (surface mode) and $\Omega = \Omega_\Lambda$ [21,22]:
+The same scaling-law machinery places Λ at well $60/120$ with $n = 2$ (surface mode) and $\Omega = \Omega_\Lambda$ (Appendix A.5):
 
 $$\frac{\Lambda}{\ell_P^{-2}} = C(60/120)\,(\sqrt{\Omega_\Lambda})^{-2} = 2 \cdot \Omega_\Lambda^{-1}$$
 
@@ -214,7 +214,7 @@ The two framework-wide concerns most likely to attract referee attention are:
 
 2. *The local-epoch reading.* §2.6 defends this from symmetry. The argument is structural rather than theorem-like: freezing $\Omega_H$ at $\Omega_H(0)$ would *be* the addition of a postulate (a preferred epoch), and the bounded domain offers no support for one. A referee may push on whether the absence of a preferred epoch is itself sufficient to force the local reading. The framework rejects preferred-epoch postulates elsewhere as well: the surface-sector treatment of cosmic dark-energy evolution (companion analysis) uses a $t$-dependent standing wave precisely because no time slice is privileged in the bounded cosmic domain.
 
-Both are framework-wide concerns shared with the other Sector A papers; neither is unique to this paper, and neither is a defect in the algebra of §2.4.
+Both are framework-wide concerns shared with the broader framework analysis; neither is unique to this paper, and neither is a defect in the algebra of §2.4.
 
 ## 3. H(z) and $a_0(z)$ across cosmic time
 
@@ -249,7 +249,7 @@ Table 1 lists $E(z)$, $H(z)$, $a_0(z)$, the deep-MOND enhancement factor $\sqrt{
 | 10.0 | 20.5255 | 1383.42 | $2.46 \times 10^{-9}$ | 20.526 | 4.530 | 0.470 |
 | 15.0 | 36.0133 | 2427.29 | $4.32 \times 10^{-9}$ | 36.013 | 6.001 | 0.267 |
 
-Two values fix the magnitude of the prediction. At $z = 2$, $a_0$ is $3.03$ times its local value with deep-MOND enhancement $1.74$; this is the cleanest window for direct rotation-curve and Tully-Fisher tests (§§4-5) and yields a 74% excess in lensing-inferred $M_\text{dyn}/M_b$ over local galaxies of the same baryonic mass (§6). At $z = 10$, $a_0$ reaches $20.5$ times its local value with deep-MOND enhancement $4.53$; this is the regime probed by JWST imaging of the earliest assembled stellar populations (§7), where the corresponding $E(z)^{1/4} \approx 2.13$ collapse-time speedup brings the inferred star-formation efficiencies of the impossibly-early candidates into the physically permitted range. The $a_0(z) = c H(z)$ heuristic implicit in the local Milgrom coincidence becomes a precise epoch-dependent statement rather than a numerical accident.
+Two values fix the magnitude of the prediction. At $z = 2$, $a_0$ is $3.03$ times its local value with deep-MOND enhancement $1.74$; this is the cleanest window for direct rotation-curve and Tully-Fisher tests (§§4-5) and yields a 74% excess in lensing-inferred $M_\text{dyn}/M_b$ over local galaxies of the same baryonic mass (§6). At $z = 10$, $a_0$ reaches $20.5$ times its local value with deep-MOND enhancement $4.53$; this is the regime probed by JWST imaging of the earliest assembled stellar populations (§7), where the corresponding $E(z)^{1/4} \approx 2.13$ collapse-time speedup reduces the required star-formation efficiency for the impossibly-early candidates by approximately a factor of two, with the per-candidate verdict deferred to future analysis (§7). The $a_0(z) = c H(z)$ heuristic implicit in the local Milgrom coincidence becomes a precise epoch-dependent statement rather than a numerical accident.
 
 ### 3.2 Figure 1: $a_0(z)/a_0(0)$ across cosmic time
 
@@ -257,7 +257,7 @@ Two values fix the magnitude of the prediction. At $z = 2$, $a_0$ is $3.03$ time
 
 The shape of the curve in the regime $z = 0$ to $5$ is dominated by the matter term in (3.2); $E(z) \propto (1+z)^{3/2}$ to leading order. Above $z \sim 100$ radiation matters; this is far above the redshifts where the §§4-7 predictions live, and the parameterization in (3.2) is self-consistent throughout.
 
-### 3.3 Cosmology dependence and consistency with the companion Λcos paper
+### 3.3 Cosmology dependence and consistency with the companion Λcos analysis
 
 A companion analysis on the surface sector (separately submitted) develops a topological resolution to the DESI DR2 [8] evidence for evolving dark-energy equation of state, working from the same scaling-law postulate (Appendix A.5). That analysis modifies the Friedmann form (3.2) by a phase-modulated Λ term with a single parameter $s_0 < 0.18$ (95% CL). Within the resulting $\Lambda\text{cos}$ cosmology the modifications to $E(z)$ are concentrated at $z < 1$ where Λ dominates the energy budget, and they fall below 1% for $z > 2$. The §3 table and §§4-7 predictions are therefore essentially independent of the cosmology choice within the redshift window where the present paper makes testable claims. Where the two cosmologies diverge ($z \lesssim 1$), the divergence is well within current observational uncertainties on $E(z)$ and on the §§4-7 observables.
 
@@ -303,7 +303,7 @@ The exponent here is unity; the per-redshift shift in inferred baryonic mass is 
 
 ### 4.2 Numerical predictions
 
-Table 2 evaluates (4.3)-(4.5) at six reference redshifts. The fractional shifts apply universally across the BTFR's full mass range; they do not depend on $M_b$.
+Table 2 evaluates (4.3)-(4.5) at six reference redshifts. The fractional shifts apply universally across the BTFR's full mass range in the deep-MOND limit; they do not depend on $M_b$ for galaxies whose outer dynamics sit in that limit. Galaxies that sit in the intermediate MOND regime ($g_N \sim a_0$) at $z = 0$ may shift further from the deep-MOND limit at higher $z$, requiring the full interpolating function for precise predictions (§4.4).
 
 **Table 2.** BTFR normalization, baryonic-mass shift at fixed velocity, and velocity shift at fixed baryonic mass under the framework prediction (4.3)-(4.5). The local theoretical BTFR normalization is $A_\text{BTFR}(0) = 1/(G\,a_0(0)) = 62.78$ $M_\odot/(\text{km/s})^4$ in the deep-MOND limit; see §4.4 for the relation to the SPARC empirical value.
 
@@ -369,7 +369,7 @@ Equations (5.2) and (5.3) together state the full epoch dependence of the deep-M
 
 Table 3 evaluates (5.1)-(5.3) at $z = 0$ and $z = 2$ for four baryonic-mass archetypes spanning the SPARC range from dwarfs to giants.
 
-**Table 3.** Predicted MOND transition radius and asymptotic flat velocity at $z = 0$ and $z = 2$ for four baryonic-mass archetypes. The shifts $r_M(z=2)/r_M(0) = 0.574$ and $v_\text{flat}(z=2)/v_\text{flat}(0) = 1.320$ are mass-independent and apply identically across the table. Galaxy archetypes are chosen with rounded baryonic masses $M_b$ and disk scale lengths $R_d$ matched to representative SPARC objects (DDO 154, NGC 2403, NGC 6946, UGC 2885).
+**Table 3.** Predicted MOND transition radius and asymptotic flat velocity at $z = 0$ and $z = 2$ for four baryonic-mass archetypes. The shifts $r_M(z=2)/r_M(0) = 0.574$ and $v_\text{flat}(z=2)/v_\text{flat}(0) = 1.320$ are mass-independent in the deep-MOND limit and apply identically across the table; real-sample applications inherit the §4.4 caveat for galaxies in the intermediate MOND regime. Galaxy archetypes are chosen with rounded baryonic masses $M_b$ and disk scale lengths $R_d$ matched to representative SPARC objects (DDO 154, NGC 2403, NGC 6946, UGC 2885).
 
 | Archetype | $M_b$ [$M_\odot$] | $R_d$ [kpc] | $r_M(0)$ [kpc] | $r_M(2)$ [kpc] | $v_\text{flat}(0)$ [km/s] | $v_\text{flat}(2)$ [km/s] |
 |---|---:|---:|---:|---:|---:|---:|
@@ -539,7 +539,7 @@ Table 5 lists the six central-value massive candidates ($\log_{10}(M_\star/M_\od
 
 The speedup factor is uniformly $\sim 1.92\text{–}2.06$ across the sample, varying by less than 8% across the full $z = 7.3\text{–}9.1$ range. The framework therefore reduces the required star-formation efficiency by approximately a factor of two for every massive candidate in the sample, with no per-galaxy tuning. The published Labbé analysis reports $\varepsilon_\text{SF}^{\Lambda\text{CDM}}$ ranging from $\sim 0.4$ to $\geq 1$ across the sample. Under (7.3), the framework reduces these required efficiencies by a uniform factor of $E(z)^{1/4} \approx 1.9\text{–}2.1$. Whether the resulting $\varepsilon_\text{SF}^\text{MIT}$ values move any specific candidate from "formally impossible" to "permitted" depends on the halo-mass priors carried over from the $\Lambda$CDM-side analysis (halo mass function, abundance matching prescription, survey volume, photometric-redshift uncertainty), which the framework does not improve directly. The §7 contribution is the multiplicative speedup factor, not the per-galaxy verdict; the latter is a free-fall order-of-magnitude estimate, not a full simulation, and the per-candidate analysis required to assign individual verdicts is reserved for future work.
 
-The per-object ε_SF analysis with explicit halo abundance matching, which requires assumptions about the halo mass function and survey volume that vary across published prescriptions, is reserved for the companion Zenodo preprint to this paper.
+The per-object ε_SF analysis with explicit halo abundance matching, which requires assumptions about the halo mass function and survey volume that vary across published prescriptions, is reserved for future per-object analysis.
 
 ### 7.3 Status, caveats, and falsification
 
@@ -686,7 +686,7 @@ The two predictions are testable through disjoint instruments and analyses, and 
 
 **Edge-sector tests (this paper).** Intermediate-redshift Tully-Fisher (KMOS3D, KGES), galaxy-galaxy weak lensing (Euclid DR1), and JWST early-galaxy spectroscopy. Five distinct observables, all governed by powers of $E(z)$ as compiled in §10 Table 7.
 
-**Surface-sector tests (companion paper).** Baryon acoustic oscillation distance ratios (DESI DR2/DR3), Type Ia supernova distance moduli (Pantheon+, DES-SN5YR), and the CMB-calibrated sound-horizon ruler. The companion paper reports $\Delta\chi^2 = +0.13$ relative to flat ΛCDM at the same parameter count, with the model's single parameter constrained to $s_0 < 0.18$ (95% CL).
+**Surface-sector tests (companion analysis).** Baryon acoustic oscillation distance ratios (DESI DR2/DR3), Type Ia supernova distance moduli (Pantheon+, DES-SN5YR), and the CMB-calibrated sound-horizon ruler. The companion analysis reports $\Delta\chi^2 = +0.13$ relative to flat ΛCDM at the same parameter count, with the model's single parameter constrained to $s_0 < 0.18$ (95% CL).
 
 Three joint outcomes are structurally distinct and would carry different evidentiary weight:
 
@@ -701,7 +701,7 @@ Either-or outcomes do not imply the framework is half-correct; they would identi
 
 ### 9.3 Pre-registration and the broader framework
 
-The companion paper is pre-registered on Zenodo prior to the Euclid DR1 release (October 2026) and DESI DR3. The present paper will be pre-registered on Zenodo prior to the same Euclid DR1 window. Pre-registration is the framework's standard practice for testable predictions: assignments calibrated at $z = 0$ generate forward-looking claims that cannot be silently retreated from when data arrives.
+The companion analysis is pre-registered prior to the Euclid DR1 release (October 2026) and DESI DR3. The present paper will be pre-registered prior to the same Euclid DR1 window. Pre-registration is the framework's standard practice for testable predictions: assignments calibrated at $z = 0$ generate forward-looking claims that cannot be silently retreated from when data arrives.
 
 Beyond $a_0$ and Λ, the framework's broader prediction set covers additional realizations of the scaling law at fixed $(n, \Omega)$ pairs and well positions $\Theta$, including the Hubble constant $H_0$ (§2.4 above) and the fine-structure constant $\alpha$ (Appendix A.7). Each is a closed prediction of the framework, calibrated at $z = 0$ when applicable and falsifiable through its own observable channel. The companion analysis on the surface sector and the present paper are the framework's two near-term tests; the broader claim that all such observables follow from one measurement postulate is itself a meta-prediction whose status accrues with each individual test.
 
