@@ -478,9 +478,7 @@ A 74% excess in stacked $M_\text{dyn}/M_b$ at $z = 2$ relative to local galaxies
 
 Under ΛCDM, the $M_\text{dyn}/M_b$ ratio at fixed baryonic mass and aperture also evolves with redshift, driven by halo concentration evolution and structural changes in the dark-matter halo population [15,16]. The discriminating test between the two pictures is therefore not the existence of redshift evolution but its functional form.
 
-For an $L^*$ archetype ($M_b = 6 \times 10^{10}\,M_\odot$) at the canonical $R = 100$ kpc aperture, the ΛCDM prediction under representative Moster-style stellar-to-halo mass relation (SHMR) [17] and Duffy-style concentration [15] inputs is $M_\text{dyn}/M_b = 14.0$ at $z = 0$, $13.6$ at $z = 1$, and $13.7$ at $z = 2$: approximately flat with weak non-monotonicity. The framework prediction at the same aperture is $11.98 \to 16.03 \to 20.86$ across the same redshifts: monotonically increasing as $\sqrt{E(z)}$. The two pictures are quantitatively distinguishable at $z = 2$ by a factor of 1.52 in $M_\text{dyn}/M_b$, large enough to be targeted by a stratified Euclid DR1 stacked analysis (§6.6) once stellar-mass calibration, photometric-redshift uncertainty, aperture definition, and satellite/halo-modeling systematics are propagated. Different reasonable choices for the SHMR or concentration relation shift the absolute ΛCDM curve values, but the qualitative mass- and aperture-dependence of the ΛCDM shift persists across reasonable parameterizations and is the structural feature that distinguishes the ΛCDM picture from the framework's universal $\sqrt{E(z)}$ enhancement.
-
-*ΛCDM methodology.* The ΛCDM curves use representative halo masses and concentrations at each redshift: $(M_\text{halo}, c) = (1.5 \times 10^{12}\,M_\odot, 7.5)$ at $z = 0$, $(1.0 \times 10^{12}\,M_\odot, 5.0)$ at $z = 1$, and $(7.0 \times 10^{11}\,M_\odot, 3.5)$ at $z = 2$ for $L^*$, with archetype-appropriate values for Sub-$L^*$ and Giant. The dynamical mass at fixed physical aperture $R$ is $M_\text{dyn}(R, z) = M_\text{NFW}(R; M_\text{halo}, c, z) + M_b$, with Navarro-Frenk-White (NFW) enclosed mass evaluated under the $R_{200}$ virial-radius definition $R_\text{vir}^3 = 3 M_\text{halo} / [4\pi \cdot 200 \cdot \rho_\text{crit}(0)\, E(z)^2]$ and the inferred ratio computed under the same Newtonian inversion (6.1) used by the framework prediction.
+For an $L^*$ archetype ($M_b = 6 \times 10^{10}\,M_\odot$) at the canonical $R = 100$ kpc aperture, the ΛCDM prediction under representative Moster-style stellar-to-halo mass relation (SHMR) [17] and Duffy-style concentration [15] inputs is $M_\text{dyn}/M_b = 14.0$ at $z = 0$, $13.6$ at $z = 1$, and $13.7$ at $z = 2$: approximately flat with weak non-monotonicity. The framework prediction at the same aperture is $11.98 \to 16.03 \to 20.86$ across the same redshifts: monotonically increasing as $\sqrt{E(z)}$. The two pictures are quantitatively distinguishable at $z = 2$ by a factor of 1.52 in $M_\text{dyn}/M_b$, large enough to be targeted by a stratified Euclid DR1 stacked analysis (§6.6) once stellar-mass calibration, photometric-redshift uncertainty, aperture definition, and satellite/halo-modeling systematics are propagated. Different reasonable choices for the SHMR or concentration relation shift the absolute ΛCDM curve values, but the qualitative mass- and aperture-dependence of the ΛCDM shift persists across reasonable parameterizations and is the structural feature that distinguishes the ΛCDM picture from the framework's universal $\sqrt{E(z)}$ enhancement. The ΛCDM comparison methodology, including the specific $(M_\text{halo}, c)$ values and the Navarro-Frenk-White (NFW) enclosed-mass definition, is detailed in Appendix B.
 
 The mass- and aperture-dependence of the ΛCDM prediction sharpens the discriminator further. At $R = 100$ kpc, the ΛCDM $M_\text{dyn}/M_b$ ratio at $z = 2$ relative to $z = 0$ is 0.76 for a Sub-$L^*$ ($M_b = 10^{10}\,M_\odot$) galaxy, 0.98 for $L^*$, and 1.13 for a Giant ($M_b = 1.5 \times 10^{11}\,M_\odot$). The framework predicts the same factor 1.74 for all three. At fixed $L^*$ baryonic mass, the ΛCDM ratio at $z = 2$ is 1.07 at $R = 30$ kpc, 0.98 at $R = 100$ kpc, and 0.92 at $R = 300$ kpc; the framework predicts the same factor 1.74 across all apertures. The framework's universal $\sqrt{E(z)}$ enhancement, mass-independent and aperture-independent in the deep-MOND regime, is the falsifiable signature that distinguishes the prediction from the ΛCDM halo-evolution picture under any reasonable choice of stellar-to-halo mass relation and concentration parameterization.
 
@@ -853,6 +851,49 @@ Three framework-internal eligibility conditions identify which Fibonacci wells a
 Under these conditions, the empirical calibrations to $a_0$, $H_0$, and $\Lambda$ at $z = 0$ resolve as follows. (a) The well calibrated to $a_0$ is $13/120$, the unique coprime position ($\gcd(13, 120) = 1$) consistent with the irreducibility condition that dynamical (non-photon-mediated) observables access the full 120-grid. (b) The well calibrated to $\Lambda$ is $60/120$, consistent with the ground-state maximality condition for a topologically protected eigenvalue. (c) The well calibrated to $H_0$ is $34/120$: among the Fibonacci wells $\{13, 21, 34, 55\}/120$ available to edge-mode observables, $34/120$ is the unique even-numerator option consistent with the bosonic-filter condition for photon-mediated observation. The wells $21/120$ and $55/120$ remain unassigned in this paper.
 
 These assignments have the status of empirical calibrations at $z = 0$ that land on positions compatible with the framework's eligibility conditions; they are not first-principles derivations of the well positions. The combinatorial test in §2.5 quantifies the strength of the match: among the ten unordered Fibonacci-well pairs in $\{13, 21, 34, 55, 60\}/120$, only $(13, 34)$ reproduces the observed Milgrom ratio $a_0/(cH_0)$ within 1%, providing a sparsity check on the calibrated assignment. A first-principles derivation of the well positions from the Hurwitz/Fibonacci structure of the 120-domain is future work; until then, the assignments have the status of two parameters fitting two measurements at $z = 0$ as documented in §2.9. Other framework realizations of the scaling law at additional $(n, \Omega)$ pairs are outside the scope of the present paper.
+
+---
+
+## Appendix B: ΛCDM comparison methodology for §6.2
+
+§6.2 compares the framework's $\sqrt{E(z)}$ enhancement of $M_\text{dyn}/M_b$ against a ΛCDM baseline that evolves with redshift through halo-concentration evolution and stellar-to-halo-mass relation (SHMR) shifts. This appendix specifies the parameterization used.
+
+**Galaxy archetypes.** Four baryonic-mass anchors spanning the SPARC range:
+
+| Archetype | $M_b$ [$M_\odot$] |
+|---|---:|
+| Dwarf | $3.5 \times 10^8$ |
+| Sub-$L^*$ | $1.0 \times 10^{10}$ |
+| $L^*$ | $6.0 \times 10^{10}$ |
+| Giant | $1.5 \times 10^{11}$ |
+
+**Halo masses and concentrations.** Representative values consistent with Moster-style SHMR calibration [17] and Duffy-style concentration evolution [15], at the $L^*$ archetype:
+
+| $z$ | $M_\text{halo}$ [$M_\odot$] | $c$ |
+|---:|---:|---:|
+| 0 | $1.5 \times 10^{12}$ | 7.5 |
+| 1 | $1.0 \times 10^{12}$ | 5.0 |
+| 2 | $7.0 \times 10^{11}$ | 3.5 |
+
+Sub-$L^*$ and Giant archetypes use archetype-appropriate $(M_\text{halo}, c)$ values from the same parameterization. The values are representative defaults rather than freshly inverted SHMR fits at each redshift; alternative literal Moster 2013 inversions shift the absolute ΛCDM curve values but preserve the qualitative mass- and aperture-dependence that constitutes the §6.2 discriminator.
+
+**NFW enclosed mass.** The dynamical mass at fixed physical aperture $R$ is
+
+$$M_\text{dyn}(R, z) = M_\text{NFW}(R; M_\text{halo}, c, z) + M_b,$$
+
+with
+
+$$M_\text{NFW}(R) = M_\text{halo} \cdot \frac{\ln(1 + R/r_s) - (R/r_s)/(1 + R/r_s)}{\ln(1 + c) - c/(1 + c)},$$
+
+scale radius $r_s = R_\text{vir}/c$, and virial radius defined under the $R_{200}$ convention:
+
+$$R_\text{vir}^3 = \frac{3 M_\text{halo}}{4\pi \cdot 200 \cdot \rho_\text{crit}(0)\, E(z)^2}.$$
+
+The inferred ratio $M_\text{dyn}/M_b$ is computed under the same Newtonian inversion (6.1) used by the framework prediction.
+
+**Cosmology.** Planck 2018 [20] parameters: $\rho_\text{crit}(0) = 8.55 \times 10^{-27}$ kg/m³, $\Omega_m = 0.315$, $\Omega_\Lambda = 0.685$, $H_0 = 67.4$ km/s/Mpc.
+
+The dataset and per-aperture comparison are deposited as `h9-comparison-table.csv` and `h9-figure5-LCDM-overlay.csv` in the data deposit.
 
 ---
 
