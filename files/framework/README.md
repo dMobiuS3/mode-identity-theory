@@ -1,4 +1,4 @@
-/ **[`main`](../../README.md)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
+/ **[`main`](../../)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
 
 ---
 
@@ -367,4 +367,4 @@ Three predictions separate this framework from alternatives: a₀(z) tracks H(z)
 
 ---
 
-/ **[`main`](../../README.md)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
+/ **[`main`](../../)** / **[`cosmos`](../cosmos/)** / **[`spectrum`](../spectrum/)** /
