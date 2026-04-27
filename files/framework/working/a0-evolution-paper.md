@@ -36,7 +36,7 @@ $$\frac{A}{A_P} = C(\Theta) \cdot N^n, \quad \text{(1.1)}$$
 
 mapping a Planck-normalized observable $A/A_P$ to a phase position $\Theta \in \{k/120 : k = 0, \ldots, 119\}$ on the 120-domain native to $S^3/2I$, a manifold-mode index $n$ assigned by the embedding hierarchy $S^1 \subset \text{Mobius} \subset S^3$, and a dimensionless hierarchy normalization $N \equiv (\sqrt{\Omega})^{-1}$ fixed empirically by calibrating one observable per manifold-mode class (§2.3). The phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ is the squared modulus of the anti-periodic ground mode on the Möbius surface, derived in Appendix A.2.
 
-Two specific assignments are the subject of this paper and its companion. The MOND scale $a_0$ is identified as an edge-mode observable ($n = 1$) referenced to the kinematic horizon ratio $\Omega_H = (c/(H\,\ell_P))^2$, with phase position $\Theta = 13/120$. The cosmological constant Λ is identified as a surface-mode observable ($n = 2$) referenced to the eigenvalue ratio $\Omega_\Lambda$, with phase position $\Theta = 60/120$. The Hubble rate $H$ is itself an edge-mode observable at $\Theta = 34/120$. Both the $(a_0, H_0)$ wells and the Λ position are calibrated against local measurements at percent-level precision, and their forward-looking implications for cosmic evolution are structurally inverse: the framework predicts that $a_0$ evolves with $H(z)$ while Λ remains constant, the inverse of the standard ΛCDM presumption where Λ is the candidate evolving quantity (DESI's $w(z)$) and $a_0$ is assumed universal.
+Two specific assignments are the subject of this paper and its companion. The MOND scale $a_0$ is identified as an edge-mode observable ($n = 1$) referenced to the kinematic horizon ratio $\Omega_H \approx (c/(H\,\ell_P))^2$, with phase position $\Theta = 13/120$. The cosmological constant Λ is identified as a surface-mode observable ($n = 2$) referenced to the eigenvalue ratio $\Omega_\Lambda$, with phase position $\Theta = 60/120$. The Hubble rate $H$ is itself an edge-mode observable at $\Theta = 34/120$. Both the $(a_0, H_0)$ wells and the Λ position are calibrated against local measurements at percent-level precision, and their forward-looking implications for cosmic evolution are structurally inverse: the framework predicts that $a_0$ evolves with $H(z)$ while Λ remains constant, the inverse of the standard ΛCDM presumption where Λ is the candidate evolving quantity (DESI's $w(z)$) and $a_0$ is assumed universal.
 
 ### 1.3 What this paper does
 
@@ -424,7 +424,7 @@ The same framework also predicts a structural feature absent from constant-$a_0$
 
 Three independent falsification windows live in §5:
 
-1. The asymptotic plateau prediction (5.3) at any single redshift, in tension with (4.5) of §4.
+1. The asymptotic plateau prediction (5.3) at any single redshift, equivalent to (4.4)/(4.5) of §4.
 2. The MOND-radius scaling (5.2), tested by tracing the rotation-curve transition across a sample of high-$z$ galaxies.
 3. The mass-independence of both (5.2) and (5.3), tested across the full BTFR mass range at the same redshift.
 
@@ -557,9 +557,7 @@ Table 5 lists the six central-value massive candidates ($\log_{10}(M_\star/M_\od
 | 14924 | 8.831 | 10.02 | 2.041 |
 | 35300 | 9.077 | 10.40 | 2.060 |
 
-The speedup factor is uniformly $\sim 1.92\text{–}2.06$ across the sample, varying by less than 8% across the full $z = 7.3\text{–}9.1$ range. The framework therefore reduces the required star-formation efficiency by approximately a factor of two for every massive candidate in the sample, with no per-galaxy tuning. The published Labbé analysis reports $\varepsilon_\text{SF}^{\Lambda\text{CDM}}$ ranging from $\sim 0.4$ to $\geq 1$ across the sample. Under (7.3), the framework reduces these required efficiencies by a uniform factor of $E(z)^{1/4} \approx 1.9\text{–}2.1$. Whether the resulting $\varepsilon_\text{SF}^\text{MIT}$ values move any specific candidate from "formally impossible" to "permitted" depends on the halo-mass priors carried over from the $\Lambda$CDM-side analysis (halo mass function, abundance matching prescription, survey volume, photometric-redshift uncertainty), which the framework does not improve directly. The §7 contribution is the multiplicative speedup factor, not the per-galaxy verdict; the latter is a free-fall order-of-magnitude estimate, not a full simulation, and the per-candidate analysis required to assign individual verdicts is reserved for future work.
-
-The per-object ε_SF analysis with explicit halo abundance matching, which requires assumptions about the halo mass function and survey volume that vary across published prescriptions, is reserved for future per-object analysis.
+The speedup factor is uniformly $\sim 1.92\text{–}2.06$ across the sample, varying by less than 8% across the full $z = 7.3\text{–}9.1$ range. The framework therefore reduces the required star-formation efficiency by approximately a factor of two for every massive candidate in the sample, with no per-galaxy tuning. The published Labbé analysis reports $\varepsilon_\text{SF}^{\Lambda\text{CDM}}$ ranging from $\sim 0.4$ to $\geq 1$ across the sample. Under (7.3), the framework reduces these required efficiencies by a uniform factor of $E(z)^{1/4} \approx 1.9\text{–}2.1$. Whether the resulting $\varepsilon_\text{SF}^\text{MIT}$ values move any specific candidate from "formally impossible" to "permitted" depends on the halo-mass priors carried over from the $\Lambda$CDM-side analysis (halo mass function, abundance matching prescription, survey volume, photometric-redshift uncertainty), which the framework does not improve directly. The §7 contribution is the multiplicative speedup factor, not the per-galaxy verdict; the latter is a free-fall order-of-magnitude estimate, not a full simulation, and the per-candidate analysis with explicit halo abundance matching is reserved for future work.
 
 ### 7.3 Status, caveats, and falsification
 
@@ -591,7 +589,7 @@ $$\Delta b^\text{MIT}(z=0.9) = -\log_{10} E(0.9) = -0.227~\text{dex}, \qquad \De
 
 The Übler measurement is the only existing quantitative test of the §4 framework prediction at intermediate redshift. The other intermediate-$z$ kinematic samples treated below (Genzel et al. 2017 [10]) do not report a BTFR zero-point, and the next quantitative tests will arrive with Euclid DR1.
 
-**Magnitude.** The framework predictions and the Übler observations are in the same envelope: both are large negative shifts, both place the high-$z$ BTFR substantially below the local relation. Neither value rules out the framework at $\geq 2\sigma$ when systematic uncertainties on the velocity-correction prescription are propagated.
+**Magnitude.** The framework predictions and the Übler observations are in the same envelope: both are large negative shifts, both place the high-$z$ BTFR substantially below the local relation. The single-redshift residuals are quantified in the σ-tension table below.
 
 **Trend shape.** The observed offsets are non-monotonic in redshift ($-0.44 \to -0.27$ dex), while the framework predicts a strict monotonic decrease ($-0.227 \to -0.540$ dex). This is the core of the tension: the framework's evolution prediction is monotonic, the observation is not.
 
@@ -696,7 +694,7 @@ The framework is therefore consistent with the existing constraint landscape at 
 
 The framework derivation of §2 makes two structurally independent predictions about cosmic evolution, both following from the same measurement postulate $A/A_P = C(\Theta) \cdot N^n$ but addressing different sectors of the manifold-mode hierarchy.
 
-**§§3-7 (this paper).** The MOND acceleration scale is an edge-mode observable ($n = 1$) referenced to the kinematic horizon ratio $\Omega_H = (c/(H\,\ell_P))^2$. The local-epoch reading of (2.1) gives $a_0(z) = a_0(0)\,E(z)$, governing galactic-scale dynamics across cosmic time and tested through the five-exponent prediction set summarized in §10.
+**§§3-7 (this paper).** The MOND acceleration scale is an edge-mode observable ($n = 1$) referenced to the kinematic horizon ratio $\Omega_H \approx (c/(H\,\ell_P))^2$. The local-epoch reading of (2.1) gives $a_0(z) = a_0(0)\,E(z)$, governing galactic-scale dynamics across cosmic time and tested through the five-exponent prediction set summarized in §10.
 
 **Surface-sector prediction (separately submitted companion analysis).** The cosmological constant Λ is a surface-mode observable ($n = 2$) referenced to the eigenvalue ratio $\Omega_\Lambda$ (Appendix A.5). The local-epoch reading of (2.1) gives $\Lambda = \text{const.}$ at every epoch, while the apparent equation-of-state evolution $w(z)$ reported by DESI DR2 [8] arises as a template artifact from the observer's phase position $t \approx 5.22$ rad on the underlying standing wave $\Psi(t) = \cos(t/2)$.
 
@@ -712,7 +710,7 @@ The two predictions are testable through disjoint instruments and analyses, and 
 
 **Surface-sector tests (companion analysis).** Baryon acoustic oscillation distance ratios (DESI DR2/DR3 [8]), Type Ia supernova distance moduli (Pantheon+ [27], DES-SN5YR [28]), and the CMB-calibrated sound-horizon ruler. The companion analysis reports $\Delta\chi^2 = +0.13$ relative to flat ΛCDM at the same parameter count, with the model's single parameter constrained to $s_0 < 0.18$ (95% CL).
 
-Three joint outcomes are structurally distinct and would carry different evidentiary weight:
+Four joint outcomes are structurally distinct and would carry different evidentiary weight:
 
 | Edge sector ($a_0$ evolves) | Surface sector (Λ constant) | Implication |
 |---|---|---|
