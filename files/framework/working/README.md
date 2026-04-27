@@ -4,63 +4,70 @@
 
 # :ocean: Working Notes
 
-Research-in-progress across the framework. Ordered by current empirical pressure: papers near a publication or test gate first; long-horizon proofs and interpretive notes last. Each entry says what is at stake and what would falsify or confirm it.
+Research-in-progress across the framework. Ordered by current empirical pressure: papers gated by the Euclid DR1 falsification window first, long-horizon proofs and interpretive notes after.
 
 ---
 
 ## [Phantom Crossing as Template Artifact](./phantom-crossing-template-artifact.md)
 
-**Status:** Pre-registered ahead of Euclid DR1. Joint fit established against Pantheon+ and DESI DR2 BAO.
-
-The Λcos model $H^2(z)/H_0^2 = \alpha(1+z)^3 - \beta(1+z) + \Omega_\Lambda$ is derived from the temporal budget identity on $S^3$ and fit jointly to Pantheon+ (1701 SNe Ia) and DESI DR2 BAO (13 points). The result: bounded non-phantom expansion produces an apparent CPL phantom crossing as a template artifact, with $w_\text{eff}(z) > -1$ enforced at every redshift by construction. This is the most concrete near-term test of MIT against the strongest current dark-energy anomaly. The mechanism stands or falls on DESI DR3 and downstream BAO releases: deterioration of the joint fit puts the bounded-expansion picture in trouble.
+**Priority:** Before Euclid DR1.
+**Problem:** DESI DR2's apparent phantom crossing ($w < -1$ near $z \approx 0.5$) appears to require negative kinetic energy or ghost fields under standard CPL templates.
+**Methodology:** Derive Λcos $H^2(z)/H_0^2 = \alpha(1+z)^3 - \beta(1+z) + \Omega_\Lambda$ from the temporal budget identity; jointly fit Pantheon+ (1701 SNe Ia) and DESI DR2 BAO (13 points); show CPL recovery produces an apparent phantom crossing while $w_\text{eff}(z) > -1$ holds at every redshift.
+**Dependencies:** Temporal Budget Identity, Sector $\mathcal{A}$ eigenvalue ($\Omega_\Lambda = 0.685$ as input).
 
 ---
 
-## [Phase Field Coherence Scale Predictions Across the SPARC Galaxy Sample](./sparc-phase-field-notes.md)
+## [Phase Field Coherence Scale (SPARC)](./sparc-phase-field-notes.md)
 
-**Status:** Working draft. Three-component falsification plan; analysis pending. Submission targeted before Euclid DR1, October 2026.
-
-The phase-field mechanism that resolves the Hubble tension predicts three independent signatures across the 175-galaxy SPARC sample: (1) the gravitational transition radius tracks $L_f = v_c^2/a_0$; (2) the threshold $\mathcal{T}/\mathcal{T}_c \approx 2.2$ is universally crossed for every flat-rotation-curve galaxy; (3) $H_0$ measurements cluster bimodally rather than varying continuously with $v_c$. Each test is component-isolating: if one fails, the failure mode says exactly which piece broke (the coherence scale, the closure identity, or the binary response). This is MIT's parallel falsification path to Euclid DR1: same deadline, independent dataset, same yes/no question.
+**Priority:** Before Euclid DR1.
+**Problem:** The Hubble-tension mechanism predicts a binary phase shift inside a coherence scale $L_f = v_c^2/a_0$; it needs an independent test outside the cosmological distance ladder.
+**Methodology:** Three component-isolating tests on the 175-galaxy SPARC sample: (1) gravitational transition radius tracks $L_f$; (2) threshold $\mathcal{T}/\mathcal{T}_c \approx 2.2$ universally crossed for all flat-rotation-curve galaxies; (3) $H_0$ measurements bimodal rather than continuous in $v_c$.
+**Dependencies:** Hubble-tension well assignment ($\Theta = 34/120 \to 36/120$), MOND scale $a_0$ from $C(13/120)$, closure identity $\mathcal{T}_c = 2\xi v_c^2/c^2$.
 
 ---
 
 ## [The Temporal Budget Identity](./temporal-budget-notes.md)
 
-**Status:** Established at model level. Pantheon+ recovers $\Omega_m = 0.315$ at $\Delta\chi^2 = +0.6$ vs flat ΛCDM, same parameter count. First-principles derivation of the clock exponent remains open.
-
-The identity $\Psi^2 + S^2 = 1$ with the Waltz clock $d\tau/dt = S^{1/2}$ is the foundation under the Λcos paper above. Without it, phantom-crossing-as-template is a phenomenological observation; with it derived from $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ without invoking GR, the derivation closes from topology to data. The current gap: the clock exponent $n = 1/2$ is selected by self-consistency with matter-era $H \propto S^{-3/2}$, not yet derived from the embedding directly. Closing that gap moves Λcos from "fits the data" to "forced by topology."
+**Priority:** Before Euclid DR1 (model-level result in hand).
+**Problem:** The Λcos derivation rests on $\Psi^2 + S^2 = 1$ and the Waltz clock $d\tau/dt = S^{1/2}$, but the clock exponent $n = 1/2$ is currently selected by consistency with $H \propto S^{-3/2}$ rather than derived from the embedding.
+**Methodology:** Derive $n = 1/2$ from $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ without invoking GR; the current Pantheon+ fit recovers $\Omega_m = 0.315$ at $\Delta\chi^2 = +0.6$ vs flat ΛCDM at the same parameter count.
+**Dependencies:** Möbius spatial budget $u_0^2 + J^2 = 1$, Sector $\mathcal{A}$ eigenvalue.
 
 ---
 
-## [McKay Propagator Correction to the Fermion Mass Formula](./mckay-propagator-correction.md)
+## [McKay Propagator Correction](./mckay-propagator-correction.md)
 
-**Status:** OPEN. Priority A. Two of twelve SM fermions (down quark, top quark) overshoot by $\times 3+$ at high McKay distance.
-
-The mass formula currently lands 10/12 SM fermions within $\times 3$, with the misses concentrated at high distance and split across vacua (Galois fails at dist 5; trivial fails at dist 7). The hypothesis: a vacuum-dependent correction at the $R_8$ branch point of the McKay graph captures both misses with one structural mechanism, since torsion is the only factor in the formula that varies with vacuum. If the correction works without fitted parameters, 10/12 becomes 12/12, and the Coxeter-Galois gate that currently excludes charm from $R_4$ may simultaneously open. If it doesn't, the formula structure itself needs revision and the charm displacement is real and permanent.
+**Priority:** Before Euclid DR1 (Priority A, mass-formula internal).
+**Problem:** Two of twelve SM fermions overshoot at high McKay distance (down $\times 3.2$, top $\times 3.9$); the misses split across vacua, and the Coxeter-Galois gate separately excludes charm from $R_4$.
+**Methodology:** Test vacuum-dependent corrections at the $R_8$ branch point where the McKay graph forks to $R_4$ and $R_5$; compute $\Pi_T = \prod T^2(i \otimes \sigma)$ along intermediate nodes for all 24 entries; require the correction reverse sign across vacua to fix both misses with one mechanism.
+**Dependencies:** Mass formula structure, McKay graph for binary icosahedral group, $C_\text{geom}$ and torsion tables, Coxeter-Galois gate.
 
 ---
 
 ## [The Scaling Law as Forced Measurement Postulate on S³/2I](./scaling-law-uniqueness.md)
 
-**Status:** Future work. Post-October 2026 (PhD target). Sketch of a Gleason-style uniqueness argument.
-
-The scaling law $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ is currently a declared measurement postulate. The target is to prove it is the unique sampling rule compatible with $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ with anti-periodic BC and the 120-domain, the way Born's rule is the unique probability measure compatible with Hilbert-space lattice structure (Gleason 1957). If the proof closes, the scaling law upgrades from DECLARED to AXIOM (forced), and every downstream result (couplings, masses, Hubble mechanism) inherits that footing. If it does not, the fallback is explicit enumeration of alternatives showing each fails at least one constraint: weaker than Gleason but stronger than "we chose the simplest form."
+**Priority:** Post-Euclid (PhD target).
+**Problem:** $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$ is currently a declared measurement postulate; every downstream result inherits that DECLARED status.
+**Methodology:** Prove uniqueness in the style of Gleason's theorem: enumerate the topological constraints (anti-periodic BC, bounded domain, 120-discreteness, observer at $\sqrt{\Omega}$, dimensionless output, factorization) and show the scaling law is the only sampling rule compatible with all of them.
+**Dependencies:** Sector $\mathcal{A}$ eigenvalue paper, Lemma 8 (spectral inaccessibility), Möbius topology axioms.
 
 ---
 
 ## [Energy as Resolution Amplitude](./energy-as-resolution-amplitude.md)
 
-**Status:** MOTIVATED. Not derived. Research note for future paper.
-
-A candidate MIT reading of $E^2 = (mc^2)^2 + (pc)^2$ as the Pythagorean mode decomposition of the standing wave $\Psi$ at an observer's sampling coordinates. Energy stops being a property an object carries and becomes the amplitude of wave resolution along a sampling trajectory: rest mass is the amplitude resolved at a fixed point, momentum is the amplitude resolved along a path through $S^3$. The reframe is internally consistent with the rest of MIT's sampling picture but the derivation steps are specific and unwalked. Useful as conceptual orientation for how SR sits inside the framework; not load-bearing for any current prediction.
+**Priority:** Post-Euclid; not load-bearing for any current prediction.
+**Problem:** SR's $E^2 = (mc^2)^2 + (pc)^2$ is an empirical Pythagorean relation in the standard reading; MIT may permit reading it as the orthogonal mode decomposition of $\Psi$ at an observer's sampling coordinates.
+**Methodology:** Identify $mc^2$ as the temporal-mode content of the sampling operation and $pc$ as the spatial-mode content along a trajectory through $S^3$; verify orthogonality and consistency with the rest of the sampling picture.
+**Dependencies:** Standing wave $\Psi = \cos(t/2)$, scaling law for amplitude resolution.
 
 ---
 
 ## [Black Hole Phase Behavior](./black-hole-phase-notes.md)
 
-**Status:** Interpretive. Draws on Sector $\mathcal{A}$ eigenvalue paper and Black Double Zero; no new derivations.
-
-What happens to time, sampling, and the budget identity at a horizon and inside it, read through the standing-wave picture rather than GR's two-observer split. The notes consolidate where MIT's account of black-hole interiors departs from GR: no metric singularity, instead a double zero at $\Theta = 0$, $\Omega_H = 0$ where the scale hierarchy dissolves while the wave content persists. Interpretive, not load-bearing; useful for talks and as a reference for the interior-causality discussion.
+**Priority:** Post-Euclid; interpretive.
+**Problem:** GR splits the black-hole story across two observers (exterior vs infalling) and produces a metric singularity; MIT's standing-wave picture should give one consistent account.
+**Methodology:** Apply the budget identity and the $C(\Theta)$ sampling rule at and inside the horizon; identify the interior as a double zero where $\Theta = 0$, $\Omega_H = 0$ dissolve the scale hierarchy while wave content persists.
+**Dependencies:** Sector $\mathcal{A}$ eigenvalue paper, [Black Double Zero](../../cosmos/files/black-hole.md) §§II, IV.A, VI.
 
 ---
 
