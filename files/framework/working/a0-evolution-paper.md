@@ -34,7 +34,7 @@ Mode Identity Theory (MIT; the framework's foundational structure is summarized 
 
 $$\frac{A}{A_P} = C(\Theta) \cdot N^n, \quad \text{(1.1)}$$
 
-mapping a Planck-normalized observable $A/A_P$ to a phase position $\Theta \in \{k/120 : k = 0, \ldots, 119\}$ on the 120-domain native to $S^3/2I$, a manifold-mode index $n$ assigned by the embedding hierarchy $S^1 \subset \text{Mobius} \subset S^3$, and a dimensionless hierarchy normalization $N \equiv (\sqrt{\Omega})^{-1}$ fixed empirically by calibrating one observable per manifold-mode class (§2.3). The phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ is the squared modulus of the anti-periodic ground mode on the Möbius surface, derived in Appendix A.2.
+mapping a Planck-normalized observable $A/A_P$ to a phase position $\Theta \in \{k/120 : k = 0, \ldots, 119\}$ on the 120-domain native to $S^3/2I$, a manifold-mode index $n$ assigned by the embedding hierarchy $S^1 \subset \text{Mobius} \subset S^3$, and a dimensionless hierarchy normalization $N \equiv (\sqrt{\Omega})^{-1}$ fixed empirically by calibrating one observable per manifold-mode class (§2.3). The phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ is the squared modulus of the anti-periodic ground mode on the Möbius surface, derived in §2.1.
 
 Two specific assignments are the subject of this paper and its companion. The MOND scale $a_0$ is identified as an edge-mode observable ($n = 1$) referenced to the kinematic horizon ratio $\Omega_H \approx (c/(H\,\ell_P))^2$, with phase position $\Theta = 13/120$. The cosmological constant Λ is identified as a surface-mode observable ($n = 2$) referenced to the eigenvalue ratio $\Omega_\Lambda$, with phase position $\Theta = 60/120$. The Hubble rate $H$ is itself an edge-mode observable at $\Theta = 34/120$. Both the $(a_0, H_0)$ wells and the Λ position are calibrated against local measurements at percent-level precision, and their forward-looking implications for cosmic evolution are structurally inverse: the framework predicts that $a_0$ evolves with $H(z)$ while Λ remains constant, the inverse of the standard ΛCDM presumption where Λ is the candidate evolving quantity (DESI's $w(z)$) and $a_0$ is assumed universal.
 
@@ -68,19 +68,27 @@ The framework's broader prediction set, including the surface-sector Λ predicti
 
 ## 2. Deriving $a_0(z) \propto H(z)$ within the framework
 
-The result $a_0(z) = a_0(0)\,E(z)$ is conditional on three framework inputs documented in Appendix A: (i) the scaling-law postulate (Appendix A.5), (ii) the well assignments at $z = 0$ (Appendix A.6), and (iii) the local-epoch reading of the postulate's hierarchy factor, defended in §2.6 below. Within the framework these are postulates rather than first-principles derivations; their successful match to the Milgrom coincidence at the 0.8% level (§2.5) is what motivates taking them seriously in the present paper. The §2 derivation shows what follows from these inputs through algebra alone, and is in this conditional sense a derivation rather than an axiomatic theorem.
+The result $a_0(z) = a_0(0)\,E(z)$ is conditional on three framework inputs documented in Appendix A: (i) the scaling-law postulate (§2.1), (ii) the well assignments at $z = 0$ (Appendix A.3), and (iii) the local-epoch reading of the postulate's hierarchy factor, defended in §2.6 below. Within the framework these are postulates rather than first-principles derivations; their successful match to the Milgrom coincidence at the 0.8% level (§2.5) is what motivates taking them seriously in the present paper. The §2 derivation shows what follows from these inputs through algebra alone, and is in this conditional sense a derivation rather than an axiomatic theorem.
 
-### 2.1 Setup: the scaling law
+### 2.1 Setup: topology, phase operator, scaling law
 
-The framework's measurement postulate (Appendix A.5) is
+Mode Identity Theory takes as its single postulate the bounded topology
 
-$$\frac{A}{A_P} = C(\Theta) \cdot N^n$$
+$$S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \qquad \partial S^3 = \emptyset.$$
 
-where $A$ is a dimensional observable, $A_P$ its Planck reference, $\Theta \in \{k/120 : k = 0, 1, \ldots, 119\}$ a phase position on the 120-domain native to $S^3/2I$, $n$ a manifold-depth index assigned by the embedding hierarchy $S^1 \subset \text{Mobius} \subset S^3$, and $N \equiv (\sqrt{\Omega})^{-1}$ a dimensionless hierarchy normalization fixed empirically by calibration (§2.3). The phase operator
+A temporal edge $S^1$ bounds a non-orientable 2-surface (the Möbius strip) embedded in a closed 3-space. The space has no boundary. Three structural constraints leave no other topological choice. (i) By the Poincaré theorem, $S^3$ is the unique simply connected closed 3-manifold; it is diffeomorphic to $\text{SU}(2)$ and admits a spin structure, accommodating fermionic matter. (ii) By the classification of compact surfaces, the Möbius strip is the unique minimal non-orientable surface with a single $S^1$ boundary component, whose $\mathbb{Z}_2$ holonomy under one traversal produces the anti-periodic boundary condition selected by fermionic matter. (iii) The terminus $\partial S^3 = \emptyset$ closes the embedding hierarchy: there is no further boundary from which to observe.
 
-$$C(\Theta) = 2\sin^2(\pi\Theta)$$
+The Möbius identification $(y + L, w) \sim (y, -w)$ with longitudinal period $L = \pi R$ produces anti-periodic boundary conditions for any field $\psi$ defined on the surface, $\psi(y + L) = -\psi(y)$. Applied to the ground mode of the Laplace-Beltrami operator on the totally geodesic Möbius surface in $S^3$, this selects a half-integer spectrum with ground eigenfunction $\psi_0(y) = \sin(y/R) = \sin(\pi\Theta)$, where $\Theta = y/L \in [0, 1]$ is the dimensionless phase coordinate. Observable intensity is the squared modulus, normalized to unit mean over the domain:
 
-is the squared modulus of the anti-periodic ground mode on the Mobius surface, normalized to unit mean over the domain (Appendix A.2).
+$$C(\Theta) = 2\sin^2(\pi\Theta).$$
+
+This is the framework's *phase operator*: it specifies how observable amplitude depends on phase position.
+
+The framework's measurement postulate maps any dimensional observable $A$ to its Planck reference $A_P$ via
+
+$$\frac{A}{A_P} = C(\Theta) \cdot N^n,$$
+
+with $C(\Theta)$ above, $\Theta \in \{k/120 : k = 0, 1, \ldots, 119\}$ a phase position on the 120-domain native to the binary-icosahedral quotient $S^3/2I$ (Appendix A.1), $n$ a manifold-mode index assigned by the embedding hierarchy $S^1 \subset \text{Möbius} \subset S^3$, and $N \equiv (\sqrt{\Omega})^{-1}$ a dimensionless hierarchy normalization fixed empirically by calibration (§2.3 below).
 
 Two hierarchy ratios are available to a given observable:
 
@@ -89,17 +97,17 @@ Two hierarchy ratios are available to a given observable:
 | $\Omega_H$ | $(c / (H\,\ell_P))^2$ | Hubble horizon, $R_H = c/H$ |
 | $\Omega_\Lambda$ | $(\Lambda\,\ell_P^2)^{-1}$ | de Sitter horizon, $R_\Lambda = \sqrt{3/\Lambda}$ |
 
-The selection rule (Appendix A.5) assigns each observable to one of these. The rule, as stated:
+The selection rule assigns each observable to one of these by the manifold-mode index $n$:
 
-> If it evolves with epoch → $\Omega_H$. If it is set by the surface → $\Omega_\Lambda$.
+| Mode | $n$ | Manifold | Hierarchy normalization | Evolves? | Observables |
+|---|---:|---|---|---|---|
+| Edge | 1 | $S^1$ | $N_H(z)$ | Yes | $H_0$, $a_0$ |
+| Surface | 2 | Möbius | $N_\Lambda$ | No | $\Lambda$ |
+| Space | 3 | $S^3$ | $N_\Lambda$ | No | Cosmological perturbations |
 
-This rule is a postulate of the framework, with the same status as the gauge group $SU(3) \times SU(2) \times U(1)$ in the Standard Model: chosen, not derived, with consequences that are tested rather than assumed. The §2 derivation takes the rule as given and shows what follows.
+For edge modes the relevant normalization is $N_H \equiv (\sqrt{\Omega_H})^{-1}$, with the kinematic identification $N_H \approx Ht_P$ (using $\ell_P/c = t_P$). For surface modes the corresponding $N_\Lambda \equiv (\sqrt{\Omega_\Lambda})^{-1}$. The kinematic expressions are leading-order: the precise value of $N_H$ at each epoch is fixed empirically by calibrating one edge-mode observable, as developed in §2.3 below. The framework does not derive the absolute hierarchy normalization from topology; it uses an external measurement to set the scale, then predicts all other observables in the class relative to that scale, with the relative dimensionless ratios fixed by the well-position $C$ factors.
 
-It is convenient to introduce the dimensionless hierarchy normalization
-
-$$N \equiv (\sqrt{\Omega})^{-1}$$
-
-so that the scaling law for an $n = 1$ observable reads $A/A_P = C(\Theta) \cdot N$, and for an $n = 2$ observable $A/A_P = C(\Theta) \cdot N^2$. For edge modes the relevant normalization is $N_H \equiv (\sqrt{\Omega_H})^{-1}$, with the kinematic identification $N_H \approx Ht_P$ (using $\ell_P/c = t_P$). For surface modes the corresponding $N_\Lambda \equiv (\sqrt{\Omega_\Lambda})^{-1}$. The kinematic expressions are leading-order: the precise value of $N_H$ at each epoch is fixed empirically by calibrating one edge-mode observable, as developed in §2.3 below. The framework does not derive the absolute hierarchy normalization from topology; it uses an external measurement to set the scale, then predicts all other observables in the class relative to that scale, with the relative dimensionless ratios fixed by the well-position $C$ factors.
+The selection rule is a postulate of the framework, with the same status as the gauge group $SU(3) \times SU(2) \times U(1)$ in the Standard Model: chosen, not derived, with consequences that are tested rather than assumed. The §2 derivation takes the rule as given and shows what follows.
 
 ### 2.2 Edge modes use $\Omega_H$
 
@@ -113,7 +121,7 @@ with the kinematic identification $\Omega_H(z) \approx (c/(H(z)\ell_P))^2$ leadi
 
 ### 2.3 Calibration through $H$, prediction for $a_0$
 
-The well assignments calibrated at $z = 0$ under the framework's eligibility conditions (Appendix A.6) place $a_0$ at $\Theta = 13/120$ and $H$ at $\Theta = 34/120$, both edge modes ($n = 1$). The scaling law applied to each gives, at any epoch $z$:
+The well assignments calibrated at $z = 0$ under the framework's eligibility conditions (Appendix A.3) place $a_0$ at $\Theta = 13/120$ and $H$ at $\Theta = 34/120$, both edge modes ($n = 1$). The scaling law applied to each gives, at any epoch $z$:
 
 $$\frac{a_0(z)}{a_P} = C(13/120) \cdot N_H(z) \quad \text{(2.2)}$$
 
@@ -190,7 +198,7 @@ The shared $N_H(z)$ divides out whenever both observables are edge modes referen
 
 ### 2.8 Why Λ does not evolve (contrast)
 
-The same scaling-law machinery places Λ at well $60/120$ with $n = 2$ (surface mode) and $\Omega = \Omega_\Lambda$ (Appendix A.5):
+The same scaling-law machinery places Λ at well $60/120$ with $n = 2$ (surface mode) and $\Omega = \Omega_\Lambda$ (§2.1):
 
 $$\frac{\Lambda}{\ell_P^{-2}} = C(60/120) \cdot N_\Lambda^2 = 2 \cdot \Omega_\Lambda^{-1}$$
 
@@ -200,7 +208,7 @@ Two structural differences from $a_0$:
 
 2. *Hierarchy reference* is $\Omega_\Lambda$, not $\Omega_H$. $\Omega_\Lambda$ is set by Λ itself: it is the de Sitter horizon ratio, fixed by the surface-mode eigenvalue and the curvature radius $R$ of $S^3$. The selection rule places surface-mode observables in this class, structurally distinct from the kinematic edge sector that produces $a_0$ and $H$.
 
-Under the local-epoch reading, $\Omega_\Lambda$ is the same at every $z$ (it is a topological-eigenvalue ratio, not a kinematic ratio). Therefore Λ is constant. The phase position $\Theta = 60/120$ is the antinode of $C(\Theta)$, where $d\ln C/d\Theta = 0$ (Appendix A.4), giving topological protection against environmental perturbations as well.
+Under the local-epoch reading, $\Omega_\Lambda$ is the same at every $z$ (it is a topological-eigenvalue ratio, not a kinematic ratio). Therefore Λ is constant. The phase position $\Theta = 60/120$ is the antinode of $C(\Theta)$, where $d\ln C/d\Theta = 0$ (Appendix A.2), giving topological protection against environmental perturbations as well.
 
 The two predictions are therefore *structurally inverse*: $a_0$ evolves because it references the kinematic horizon $\Omega_H$; Λ does not evolve because it references the surface-eigenvalue $\Omega_\Lambda$. This inversion is not a tuning. It follows from the selection rule on $(n, \Omega)$ pairs.
 
@@ -210,12 +218,12 @@ Honest accounting of what is derived vs imported in §2:
 
 | Element | Status | Source |
 |---|---|---|
-| Scaling law $A/A_P = C(\Theta) \cdot N^n$ with $N \equiv (\sqrt{\Omega})^{-1}$ | Postulate | Appendix A.5 |
-| $C(\Theta) = 2\sin^2(\pi\Theta)$ | Derived | Anti-periodic ground mode on Möbius (Appendix A.2) |
-| Edge-mode $\Leftrightarrow$ $N_H$ | Postulate (selection rule) | Appendix A.5 |
-| Surface-mode $\Leftrightarrow$ $N_\Lambda$ | Postulate (selection rule) | Appendix A.5 |
-| Well assignment $\Theta_{a_0} = 13/120$ | Empirical at $z = 0$ | Appendix A.6 |
-| Well assignment $\Theta_{H_0} = 34/120$ | Empirical at $z = 0$ | Appendix A.6 |
+| Scaling law $A/A_P = C(\Theta) \cdot N^n$ with $N \equiv (\sqrt{\Omega})^{-1}$ | Postulate | §2.1 |
+| $C(\Theta) = 2\sin^2(\pi\Theta)$ | Derived | Anti-periodic ground mode on Möbius (§2.1) |
+| Edge-mode $\Leftrightarrow$ $N_H$ | Postulate (selection rule) | §2.1 |
+| Surface-mode $\Leftrightarrow$ $N_\Lambda$ | Postulate (selection rule) | §2.1 |
+| Well assignment $\Theta_{a_0} = 13/120$ | Empirical at $z = 0$ | Appendix A.3 |
+| Well assignment $\Theta_{H_0} = 34/120$ | Empirical at $z = 0$ | Appendix A.3 |
 | Local-epoch reading of $N_H$ | Default reading of the calibration relation; §2.6 shows freezing $N_H(0)$ would itself add a postulate | This section |
 | Calibration (2.3): $H\,t_P = C(34/120) \cdot N_H$ | Calibration (defines $N_H$ through measured $H$) | This section |
 | Prediction (2.2): $a_0/a_P = C(13/120) \cdot N_H$ | Derived (scaling law applied to the $a_0$ well) | This section |
@@ -238,7 +246,7 @@ The §2 derivation reduces the epoch dependence of $a_0$ to the epoch dependence
 
 $$a_0(z) = a_0(0)\,\frac{H(z)}{H_0} = a_0(0)\,E(z) \quad \text{(3.1)}$$
 
-with $E(z) \equiv H(z)/H_0$. The framework introduces no new parameter for the evolution; the only input is the cosmological expansion history. $H(z)$ is imported from standard cosmology rather than predicted by the scaling law: the framework's edge-mode assignment of $H$ (Appendix A.6) classifies $H$ within its observable hierarchy, and the predictive content of (3.1) is the structural ratio $a_0(z)/H(z) = a_0(0)/H_0$ that holds for any $H(z)$ history. The §2.4 substitution of the calibration (2.3) into the prediction (2.2) eliminates the hierarchy normalization $N_H(z)$ from the ratio regardless of how $H(z)$ is parameterized. We adopt the flat ΛCDM Friedmann form,
+with $E(z) \equiv H(z)/H_0$. The framework introduces no new parameter for the evolution; the only input is the cosmological expansion history. $H(z)$ is imported from standard cosmology rather than predicted by the scaling law: the framework's edge-mode assignment of $H$ (Appendix A.3) classifies $H$ within its observable hierarchy, and the predictive content of (3.1) is the structural ratio $a_0(z)/H(z) = a_0(0)/H_0$ that holds for any $H(z)$ history. The §2.4 substitution of the calibration (2.3) into the prediction (2.2) eliminates the hierarchy normalization $N_H(z)$ from the ratio regardless of how $H(z)$ is parameterized. We adopt the flat ΛCDM Friedmann form,
 
 $$E(z) = \sqrt{\Omega_m(1+z)^3 + \Omega_r(1+z)^4 + \Omega_\Lambda}, \quad \text{(3.2)}$$
 
@@ -635,7 +643,7 @@ This section addresses the apparent CMB tension in three steps: (i) the structur
 
 A naive application of the framework's $a_0(z)$ scaling to cosmological perturbations at recombination produces large modifications to the predicted CMB acoustic peak structure. At $z = 1090$, $a_0(z) \approx 2.79 \times 10^{-6}$ m/s$^2$, approximately 23,000 times the local value. The Newtonian gravitational acceleration of perturbations at the sound-horizon scale (133 kpc physical at recombination, corresponding to the comoving sound horizon of $\sim 145$ Mpc) with amplitude $\delta\rho/\rho \sim 10^{-5}$ is $g_N^\text{pert} \sim 4 \times 10^{-11}$ m/s$^2$, roughly five orders of magnitude below $a_0(z)$ at the same epoch. Under this naive reading, perturbations at recombination would be deeply in the MOND regime and the acoustic-peak amplitudes would deviate significantly from the well-fit ΛCDM prediction.
 
-The naive reading misapplies the framework's selection rule. The rule, introduced in §2 and detailed in Appendix A.5, assigns observables to manifold-mode classes by the index $n$ in the embedding hierarchy $S^1 \subset \text{Mobius} \subset S^3$:
+The naive reading misapplies the framework's selection rule. The rule, introduced in §2 and detailed in §2.1, assigns observables to manifold-mode classes by the index $n$ in the embedding hierarchy $S^1 \subset \text{Mobius} \subset S^3$:
 
 | Mode | $n$ | References | Evolves? | Governs |
 |---|---:|---|---|---|
@@ -659,7 +667,7 @@ $$\varepsilon \lesssim 1.2 \times 10^{-5} \quad (0.5\% \text{ tolerance}), \qqua
 
 with the sub-horizon BAO scale providing the most-constraining bound. The bound is robust against ansatz choice (modified interpolation function, scale-dependent coupling) within an order of magnitude. The framework's selection rule predicts $\varepsilon = 0$ exactly under the $n = 3$ space-mode assignment for cosmological perturbations, satisfying the empirical bound by every margin Planck currently provides.
 
-This handling differs structurally from how relativistic MOND extensions address the same recombination-scale problem. TeVeS [21] introduces additional scalar and vector fields whose dynamics reduce to GR at cosmological scales while reproducing MOND in the galactic regime; the resulting CMB perturbation predictions, computed in modified Boltzmann codes, are in residual tension with the third-acoustic-peak height and require additional dark-matter components to fit Planck [3]. BIMOND [22] introduces a second metric whose interaction term produces the MOND limit; its cosmological perturbation predictions remain incomplete in the published literature. More recently, Skordis & Złośnik (2021) [23] introduced an Æther-Scalar-Tensor (AeST) theory that reproduces the full ΛCDM CMB power spectrum without an additional cold dark matter component while supporting MOND-like galactic dynamics, the first relativistic MOND extension to fit the CMB acoustic structure end-to-end. The present framework's approach is structurally distinct from all three: rather than adding fields or metrics, it specifies through the manifold-mode selection rule (Appendix A.5) that galactic-edge and cosmological-perturbation physics sit in different sectors of the same scaling-law postulate. The decoupling is structural rather than dynamical; the empirical bound $\varepsilon \lesssim 10^{-5}$ confirms consistency with Planck without requiring the framework to commit to a specific relativistic completion. Whether the AeST-style dynamical mechanism and the present framework's structural decoupling are equivalent at the perturbation-theory level is the open question identified below.
+This handling differs structurally from how relativistic MOND extensions address the same recombination-scale problem. TeVeS [21] introduces additional scalar and vector fields whose dynamics reduce to GR at cosmological scales while reproducing MOND in the galactic regime; the resulting CMB perturbation predictions, computed in modified Boltzmann codes, are in residual tension with the third-acoustic-peak height and require additional dark-matter components to fit Planck [3]. BIMOND [22] introduces a second metric whose interaction term produces the MOND limit; its cosmological perturbation predictions remain incomplete in the published literature. More recently, Skordis & Złośnik (2021) [23] introduced an Æther-Scalar-Tensor (AeST) theory that reproduces the full ΛCDM CMB power spectrum without an additional cold dark matter component while supporting MOND-like galactic dynamics, the first relativistic MOND extension to fit the CMB acoustic structure end-to-end. The present framework's approach is structurally distinct from all three: rather than adding fields or metrics, it specifies through the manifold-mode selection rule (§2.1) that galactic-edge and cosmological-perturbation physics sit in different sectors of the same scaling-law postulate. The decoupling is structural rather than dynamical; the empirical bound $\varepsilon \lesssim 10^{-5}$ confirms consistency with Planck without requiring the framework to commit to a specific relativistic completion. Whether the AeST-style dynamical mechanism and the present framework's structural decoupling are equivalent at the perturbation-theory level is the open question identified below.
 
 The remaining open question is a first-principles perturbation-theoretic derivation of the edge/space-mode decoupling at recombination-relevant scales. Such a derivation, working from the Boltzmann hierarchy or equivalent under the framework's $(n, \Omega)$ assignments, would replace the present structural argument plus empirical bound with a closed-form proof. The required machinery (mode-projected propagators, anti-periodic boundary conditions on the Möbius surface, hierarchy-sensitive transfer functions) is expressible within the framework's existing postulates; we expect the calculation to be tractable rather than to require new theoretical inputs not already present in the framework, but it has not been carried through and is the principal open task for the framework's CMB-scale predictions.
 
@@ -694,7 +702,7 @@ The framework derivation of §2 makes two structurally independent predictions a
 
 **§§3-7 (this paper).** The MOND acceleration scale is an edge-mode observable ($n = 1$) referenced to the kinematic horizon ratio $\Omega_H \approx (c/(H\,\ell_P))^2$. The local-epoch reading of (2.1) gives $a_0(z) = a_0(0)\,E(z)$, governing galactic-scale dynamics across cosmic time and tested through the five-exponent prediction set summarized in §10.
 
-**Surface-sector prediction (separately submitted companion analysis).** The cosmological constant Λ is a surface-mode observable ($n = 2$) referenced to the eigenvalue ratio $\Omega_\Lambda$ (Appendix A.5). The local-epoch reading of (2.1) gives $\Lambda = \text{const.}$ at every epoch, while the apparent equation-of-state evolution $w(z)$ reported by DESI DR2 [8] arises as a template artifact from the observer's phase position $t \approx 5.22$ rad on the underlying standing wave $\Psi(t) = \cos(t/2)$.
+**Surface-sector prediction (separately submitted companion analysis).** The cosmological constant Λ is a surface-mode observable ($n = 2$) referenced to the eigenvalue ratio $\Omega_\Lambda$ (§2.1). The local-epoch reading of (2.1) gives $\Lambda = \text{const.}$ at every epoch, while the apparent equation-of-state evolution $w(z)$ reported by DESI DR2 [8] arises as a template artifact from the observer's phase position $t \approx 5.22$ rad on the underlying standing wave $\Psi(t) = \cos(t/2)$.
 
 The §8.5 selection rule organizes both predictions in a single table: the edge sector evolves through $\Omega_H(z)$, the surface sector remains fixed through $\Omega_\Lambda$, and (a third assignment relevant to §8.5's CMB consistency) the space sector ($n = 3$) governs cosmological perturbations also through $\Omega_\Lambda$. The two papers test the first two rows of that table; their joint outcome tests the rule itself.
 
@@ -814,69 +822,27 @@ All numerical predictions, mock-data simulations, and tabulated framework output
 
 ---
 
-## Appendix A: Mode Identity Theory foundational structure
+## Appendix A: 120-domain, Fibonacci wells, and well assignments
 
-This appendix collects the framework material required to verify the §2 derivation. It does not develop the framework's full content; it provides only the elements load-bearing for the predictions of this paper.
+The §2.1 body presents the bounded topology, the phase operator $C(\Theta)$, the scaling law, and the selection rule inline. This appendix supplies the supporting structure: the binary-icosahedral quotient that produces the 120-domain (A.1), the Fibonacci-well selection on the 120-domain (A.2), and the eligibility conditions that locate $a_0$, $H_0$, and $\Lambda$ at their respective well positions (A.3).
 
-### A.1 The bounded topology
+### A.1 The 120-domain
 
-Mode Identity Theory takes as its single postulate the bounded topology
-
-$$S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \qquad \partial S^3 = \emptyset.$$
-
-A temporal edge $S^1$ bounds a non-orientable 2-surface (the Möbius strip) embedded in a closed 3-space. The space has no boundary. Three structural constraints leave no other topological choice. (i) By the Poincaré theorem, $S^3$ is the unique simply connected closed 3-manifold; it is diffeomorphic to $\text{SU}(2)$ and admits a spin structure, accommodating fermionic matter. (ii) By the classification of compact surfaces, the Möbius strip is the unique minimal non-orientable surface with a single $S^1$ boundary component, whose $\mathbb{Z}_2$ holonomy under one traversal produces the anti-periodic boundary condition selected by fermionic matter. (iii) The terminus $\partial S^3 = \emptyset$ closes the embedding hierarchy: there is no further boundary from which to observe. The three constraints fix the topology uniquely.
-
-### A.2 The phase operator
-
-The Möbius identification $(y + L, w) \sim (y, -w)$ with longitudinal period $L = \pi R$ produces anti-periodic boundary conditions for any field $\psi$ defined on the surface:
-
-$$\psi(y + L) = -\psi(y).$$
-
-Applied to the ground mode of the Laplace-Beltrami operator on the totally geodesic Möbius surface in $S^3$, this selects a half-integer spectrum with ground eigenfunction $\psi_0(y) = \sin(y/R) = \sin(\pi\Theta)$, where $\Theta = y/L \in [0, 1]$ is the dimensionless phase coordinate. Observable intensity is the squared modulus, normalized to unit mean over the domain:
-
-$$C(\Theta) = 2\sin^2(\pi\Theta). \quad \text{(A.1)}$$
-
-This is the framework's *phase operator*: it specifies how observable amplitude depends on phase position.
-
-### A.3 The 120-domain
-
-The physical observable space is the quotient $S^3/2I$, where $2I$ is the binary icosahedral group. The discrete subgroups of $\text{SU}(2) \cong S^3$ are classified: cyclic groups, binary dihedral groups, and three exceptional groups (binary tetrahedral $|2T| = 24$, binary octahedral $|2O| = 48$, binary icosahedral $|2I| = 120$). Two convergent constraints select $2I$. (i) It is the largest exceptional discrete subgroup of $\text{SU}(2)$, giving the maximum spectral resolution compatible with $S^3$. (ii) The icosahedron is the unique Platonic solid whose $(2,3,5)$ branch orders are consecutive Fibonacci numbers satisfying $2 + 3 = 5$; this Fibonacci-recurrence structure is what makes the Fibonacci wells (A.4) the natural stable positions on the resulting 120-domain. The phase position is therefore quantized:
+The physical observable space is the quotient $S^3/2I$, where $2I$ is the binary icosahedral group. The discrete subgroups of $\text{SU}(2) \cong S^3$ are classified: cyclic groups, binary dihedral groups, and three exceptional groups (binary tetrahedral $|2T| = 24$, binary octahedral $|2O| = 48$, binary icosahedral $|2I| = 120$). Two convergent constraints select $2I$. (i) It is the largest exceptional discrete subgroup of $\text{SU}(2)$, giving the maximum spectral resolution compatible with $S^3$. (ii) The icosahedron is the unique Platonic solid whose $(2,3,5)$ branch orders are consecutive Fibonacci numbers satisfying $2 + 3 = 5$; this Fibonacci-recurrence structure is what makes the Fibonacci wells (A.2) the natural stable positions on the resulting 120-domain. The phase position is therefore quantized:
 
 $$\Theta \in \{k/120 : k = 0, 1, \ldots, 119\}.$$
 
 For photon-mediated observables, the bosonic projection $|\psi|^2$ erases the anti-periodic sign and halves the resolution to a 60-position grid (even numerators only).
 
-### A.4 The Fibonacci wells
+### A.2 The Fibonacci wells
 
-Phase positions on the 120-domain that maximize stability against environmental perturbation form the framework's *Fibonacci wells*. The selection follows from two converging structures: (i) Hurwitz's theorem, which states that the golden ratio $\varphi$ is the irrational number hardest to approximate by rational fractions of bounded denominator, so positions $k/120$ with $k$ a Fibonacci number minimize destructive interference between modes; (ii) the icosahedral $(2,3,5)$ Fibonacci-recurrence noted in A.3, which makes the Fibonacci numbers the natural lattice of stable positions on the 120-domain native to $S^3/2I$. The wells used in this paper are
+Phase positions on the 120-domain that maximize stability against environmental perturbation form the framework's *Fibonacci wells*. The selection follows from two converging structures: (i) Hurwitz's theorem, which states that the golden ratio $\varphi$ is the irrational number hardest to approximate by rational fractions of bounded denominator, so positions $k/120$ with $k$ a Fibonacci number minimize destructive interference between modes; (ii) the icosahedral $(2,3,5)$ Fibonacci-recurrence noted in A.1, which makes the Fibonacci numbers the natural lattice of stable positions on the 120-domain native to $S^3/2I$. The wells used in this paper are
 
 $$\Theta_\text{wells} \in \{13, 21, 34, 55\}/120,$$
 
 corresponding to Fibonacci numbers $F_7$ through $F_{10}$. The lower bound $F_7 = 13$ is the noise-floor condition: $F_n$ for $n < 7$ produces amplitude indistinguishable from neighboring 120-domain positions. The upper bound $F_{10} = 55$ is set by the symmetry $C(k/120) = C((120-k)/120)$, which makes $F_{11} = 89$ equivalent to $F_8 = 21$. A separate special position is the antinode at $\Theta = 60/120$, where $C(\Theta)$ takes its maximum value and the slope $d\ln C/d\Theta = 0$, providing topological protection against environmental shifts.
 
-### A.5 The scaling law and selection rule
-
-The framework's measurement postulate maps any dimensional observable $A$ to its Planck reference $A_P$ via
-
-$$\frac{A}{A_P} = C(\Theta) \cdot N^n, \quad \text{(A.2)}$$
-
-with $C(\Theta)$ from (A.1), $n$ a manifold-mode index assigned by the embedding hierarchy $S^1 \subset \text{Möbius} \subset S^3$, and $N \equiv (\sqrt{\Omega})^{-1}$ the dimensionless hierarchy normalization for the manifold-mode class. Two hierarchy normalizations are available, one per class:
-
-$$N_H \equiv (\sqrt{\Omega_H})^{-1} \quad \text{(edge: kinematic, } \approx Ht_P\text{)}, \qquad N_\Lambda \equiv (\sqrt{\Omega_\Lambda})^{-1} \quad \text{(surface: eigenvalue, fixed by } \Lambda\text{)},$$
-
-with the kinematic identifications $\Omega_H \approx (c/(H\ell_P))^2$ and $\Omega_\Lambda \approx (\Lambda\ell_P^2)^{-1}$ leading-order. The precise value of $N_H$ at each epoch is fixed empirically by the calibration relation $H\,t_P = C(\Theta_H) \cdot N_H$ (§2.3 of the main text); the kinematic expression and the calibrated value differ by the well-position factor $C(\Theta_H)$. The framework does not derive the absolute hierarchy normalization from topology; it uses an external measurement (in this paper, $H$) to set the scale, and the well-position $C$ factors set the relative dimensionless ratios across observables in the same class.
-
-The selection rule assigns observables to manifold-mode classes by the index $n$:
-
-| Mode | $n$ | Manifold | Hierarchy ratio | Evolves? | Observables |
-|---|---:|---|---|---|---|
-| Edge | 1 | $S^1$ | $\Omega_H(z)$ | Yes | $H_0$, $a_0$ |
-| Surface | 2 | Möbius | $\Omega_\Lambda$ | No | $\Lambda$ |
-| Space | 3 | $S^3$ | $\Omega_\Lambda$ | No | Cosmological perturbations |
-
-Edge modes inherit the kinematic evolution of $\Omega_H$ through $H(z)$; surface and space modes are fixed by the eigenvalue of $\Lambda$. This is the selection rule referenced in the body of the paper as the framework's structural classification of observables.
-
-### A.6 Well assignments for the present paper
+### A.3 Well assignments for the present paper
 
 Three framework-internal eligibility conditions identify which Fibonacci wells are consistent with each observable's measurement class:
 
