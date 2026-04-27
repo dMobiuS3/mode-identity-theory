@@ -93,7 +93,7 @@ Edge modes are observables tied to the $S^1$ boundary of the Mobius band ($n = 1
 
 Therefore, for any edge-mode observable evaluated at cosmic epoch $z$:
 
-$$\frac{A_{\text{edge}}(z)}{A_P} = C(\Theta_A)\,\bigl(\sqrt{\Omega_H(z)}\bigr)^{-1}, \qquad \Omega_H(z) \equiv \left(\frac{c}{H(z)\,\ell_P}\right)^2 \tag{2.1}$$
+$$\frac{A_{\text{edge}}(z)}{A_P} = C(\Theta_A)\,(\sqrt{\Omega_H(z)})^{-1}, \qquad \Omega_H(z) \equiv \left(\frac{c}{H(z)\,\ell_P}\right)^2 \tag{2.1}$$
 
 The phase position $\Theta_A$ and the manifold index ($n = 1$) are topological assignments and do not evolve. The full epoch dependence sits in $\Omega_H(z)$.
 
@@ -101,9 +101,9 @@ The phase position $\Theta_A$ and the manifold index ($n = 1$) are topological a
 
 The empirical match [21] places $a_0$ at well $\Theta = 13/120$ and $H$ at well $\Theta = 34/120$, both edge modes ($n = 1$, $\Omega = \Omega_H$). With $A_P = a_P = c/t_P$ for the acceleration and $A_P = t_P^{-1}$ for the frequency, equation (2.1) gives, at any epoch $z$:
 
-$$\frac{a_0(z)}{a_P} = C(13/120)\,\bigl(\sqrt{\Omega_H(z)}\bigr)^{-1} \tag{2.2}$$
+$$\frac{a_0(z)}{a_P} = C(13/120)\,(\sqrt{\Omega_H(z)})^{-1} \tag{2.2}$$
 
-$$H(z)\,t_P = C(34/120)\,\bigl(\sqrt{\Omega_H(z)}\bigr)^{-1} \tag{2.3}$$
+$$H(z)\,t_P = C(34/120)\,(\sqrt{\Omega_H(z)})^{-1} \tag{2.3}$$
 
 Two facts about the structure of (2.2)-(2.3) carry the entire derivation:
 
