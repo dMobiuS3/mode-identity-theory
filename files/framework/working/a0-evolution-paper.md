@@ -46,13 +46,13 @@ The §2 derivation reduces the local Milgrom coincidence to a structural ratio o
 
 $$a_0(z) = a_0(0)\,E(z), \quad \text{(1.2)}$$
 
-with $E(z) \equiv H(z)/H_0$ the standard Friedmann dimensionless Hubble parameter. This evolution is the one input that drives §§3-7.
+with $E(z) \equiv H(z)/H_0$ the standard Friedmann dimensionless Hubble parameter. This evolution is the one input that drives §§3-6.
 
-§3 tabulates $a_0(z)$ across the redshift range $z = 0$ to $15$. §4 derives the implication for the baryonic Tully-Fisher relation: a redshift-dependent normalization shift $A_\text{BTFR}(z)/A_\text{BTFR}(0) = 1/E(z)$, with the MOND interpolating-function dependence cancelling out of the ratio. §5 extends to galactic rotation-curve structure: the MOND transition radius contracts as $E(z)^{-1/2}$ and the asymptotic flat velocity rises as $E(z)^{+1/4}$, both mass-independent. §6 frames the lensing prediction as a Newtonian-inversion proxy: the inferred dynamical-mass-to-baryonic-mass ratio under the standard inversion convention is enhanced by $\sqrt{E(z)}$ at fixed aperture and baryonic mass, universally across the deep-MOND regime, sidestepping the need to commit to a specific relativistic completion of MOND. §7 applies the corresponding $E(z)^{1/4}$ collapse-time speedup to the JWST early-galaxy tension, reducing the required star-formation efficiency by a uniform factor of $\sim 2$ across the Labbé sample. Whether this resolves the impossibility constraint for any specific candidate depends on halo-mass priors that lie outside the framework's modification, and is reserved for future per-object analysis.
+§3 tabulates $a_0(z)$ across the redshift range $z = 0$ to $15$. §4 derives the implication for the baryonic Tully-Fisher relation: a redshift-dependent normalization shift $A_\text{BTFR}(z)/A_\text{BTFR}(0) = 1/E(z)$, with the MOND interpolating-function dependence cancelling out of the ratio. §5 extends to galactic rotation-curve structure: the MOND transition radius contracts as $E(z)^{-1/2}$ and the asymptotic flat velocity rises as $E(z)^{+1/4}$, both mass-independent. §6 frames the lensing prediction as a Newtonian-inversion proxy: the inferred dynamical-mass-to-baryonic-mass ratio under the standard inversion convention is enhanced by $\sqrt{E(z)}$ at fixed aperture and baryonic mass, universally across the deep-MOND regime, sidestepping the need to commit to a specific relativistic completion of MOND. §7.7 applies the corresponding $E(z)^{1/4}$ collapse-time speedup to the JWST early-galaxy tension, reducing the required star-formation efficiency by a uniform factor of $\sim 2$ across the Labbé sample. Whether this resolves the impossibility constraint for any specific candidate depends on halo-mass priors that lie outside the framework's modification, and is reserved for future per-object analysis.
 
-§8 treats the existing constraint landscape honestly: a live tension with the KMOS3D BTFR trend shape, the inherited cluster-scale MOND mass discrepancy at $z \lesssim 0.3$ (where the framework's evolution correction is at the percent level against a factor-five problem), the structurally resolved CMB consistency under the framework's selection rule (where cosmological perturbations sit in a different manifold-mode sector than $a_0$), and below-sensitivity status elsewhere. The framework's monotonic BTFR prediction is in tension with current intermediate-redshift kinematic data [9]; the comparison, including a forward-modeled simulation of the radial pressure-support systematic, is treated in §8. §9 connects to a companion analysis (separately submitted) developing the surface-sector prediction. §10 collects the full predictive content into a single table and identifies the falsification windows. §11 closes.
+§7 treats the existing constraint landscape honestly: a live tension with the KMOS3D BTFR trend shape (§7.2), the inherited cluster-scale MOND mass discrepancy at $z \lesssim 0.3$ (§7.4), the structurally resolved CMB consistency under the framework's selection rule (§7.5), the JWST early-galaxy collapse-time speedup as supporting evidence (§7.7), and below-sensitivity status elsewhere. The framework's monotonic BTFR prediction is in tension with current intermediate-redshift kinematic data [9]; the comparison, including a forward-modeled simulation of the radial pressure-support systematic, is treated in §7.2. §8 connects to a companion analysis (separately submitted) developing the surface-sector prediction. §9 collects the full predictive content into a single table and identifies the falsification windows. §10 closes.
 
-The §§3-7 predictions are not independent: they all derive from (1.2) and depend on $E(z)$ through different powers ($-1$, $-1/2$, $+1/4$, $+1/2$, $-1/4$ across §§4-7). A measurement in any one channel tests $E(z)$ via that channel; verifying consistency across multiple channels at the same redshift tests the universality of the deep-MOND scaling across observable classes. The Euclid DR1 release in October 2026 will deliver the sharpest such test in the form of stacked galaxy-galaxy weak lensing at $z = 0.5\text{–}2$ stratified by baryonic mass and aperture.
+The §§3-6 predictions are not independent: they all derive from (1.2) and depend on $E(z)$ through different powers ($-1$, $-1/2$, $+1/4$, $+1/2$, $-1/4$ across §§4-6). A measurement in any one channel tests $E(z)$ via that channel; verifying consistency across multiple channels at the same redshift tests the universality of the deep-MOND scaling across observable classes. The Euclid DR1 release in October 2026 will deliver the sharpest such test in the form of stacked galaxy-galaxy weak lensing at $z = 0.5\text{–}2$ stratified by baryonic mass and aperture.
 
 ### 1.4 Novelty relative to prior literature
 
@@ -60,11 +60,11 @@ The evolving form $a_0(z) \propto H(z)$ has been speculated in the MOND literatu
 
 First, the relation is *derived within the framework* from the scaling-law postulate (§2) as a structural cancellation between two specific Fibonacci-well positions $C(13/120)$ and $C(34/120)$ on the 120-domain of $S^3/2I$, with the local Milgrom ratio recovered at the 0.8% level. The match is sparse on the full 120-domain (24 of 7,021 nonzero pairs match within 1%) and unique within the framework's Fibonacci-well subset (one of ten possible well-pairs). The derivation identifies the topological mechanism by which the proportionality arises and yields a single specific functional form (linear in $E(z)$) rather than admitting a family of speculative possibilities.
 
-Second, the same derivation generates a *coupled five-exponent prediction set* across cosmic time (§§4-7), with all five observables (BTFR normalization, MOND transition radius, asymptotic flat velocity, lensing $M_\text{dyn}/M_b$ enhancement, free-fall collapse time) governed by the same $a_0(z) \propto E(z)$ input through different powers of $E(z) \in \{-1, -1/2, +1/4, +1/2, -1/4\}$. The five predictions are not independent and cannot be tuned separately; any measurement of one tests all five through their shared cosmological dependence.
+Second, the same derivation generates a *coupled five-exponent prediction set* across cosmic time (§§4-6), with all five observables (BTFR normalization, MOND transition radius, asymptotic flat velocity, lensing $M_\text{dyn}/M_b$ enhancement, free-fall collapse time) governed by the same $a_0(z) \propto E(z)$ input through different powers of $E(z) \in \{-1, -1/2, +1/4, +1/2, -1/4\}$. The five predictions are not independent and cannot be tuned separately; any measurement of one tests all five through their shared cosmological dependence.
 
-Third, the prediction set is subjected to *explicit constraint analysis* against existing data (§8), including a forward-model treatment of the Übler 2017 KMOS3D pressure-support pipeline that demonstrates the framework's monotonic BTFR prediction is in genuine tension with the only existing high-$z$ test, and that the tension cannot be dissolved by literature-plausible velocity-correction systematics. The §6 lensing prediction is also made at the level of the Newtonian-inferred dynamical mass, sidestepping the need to commit to a specific relativistic completion of MOND.
+Third, the prediction set is subjected to *explicit constraint analysis* against existing data (§7), including a forward-model treatment of the Übler 2017 KMOS3D pressure-support pipeline that demonstrates the framework's monotonic BTFR prediction is in genuine tension with the only existing high-$z$ test, and that the tension cannot be dissolved by literature-plausible velocity-correction systematics. The §6 lensing prediction is also made at the level of the Newtonian-inferred dynamical mass, sidestepping the need to commit to a specific relativistic completion of MOND.
 
-The framework's broader prediction set, including the surface-sector Λ prediction developed in a companion analysis on the same scaling-law postulate, is a meta-result whose status accrues across individual tests; the §9 joint-outcome table identifies four enumerated outcomes that the joint pattern across both sectors can produce.
+The framework's broader prediction set, including the surface-sector Λ prediction developed in a companion analysis on the same scaling-law postulate, is a meta-result whose status accrues across individual tests; the §8.2 joint-outcome table identifies four enumerated outcomes that the joint pattern across both sectors can produce.
 
 ## 2. Deriving $a_0(z) \propto H(z)$ within the framework
 
@@ -258,9 +258,9 @@ Equations (3.1)-(3.3) determine $a_0(z)$ at every epoch with no remaining freedo
 
 ### 3.1 Table of values
 
-Table 1 lists $E(z)$, $H(z)$, $a_0(z)$, the deep-MOND enhancement factor $\sqrt{a_0(z)/a_0(0)} = \sqrt{E(z)}$, and $t_\text{age}(z)$ at eight reference redshifts spanning the SPARC sample, the intermediate-$z$ rotation-curve regime, the BAO range, and the JWST early-galaxy window. The enhancement factor governs effective gravity, lensing-inferred dynamical mass, and free-fall collapse rates in the deep-MOND limit; it recurs throughout §§5-7 and is anchored here.
+Table 1 lists $E(z)$, $H(z)$, $a_0(z)$, the deep-MOND enhancement factor $\sqrt{a_0(z)/a_0(0)} = \sqrt{E(z)}$, and $t_\text{age}(z)$ at eight reference redshifts spanning the SPARC sample, the intermediate-$z$ rotation-curve regime, the BAO range, and the JWST early-galaxy window. The enhancement factor governs effective gravity, lensing-inferred dynamical mass, and free-fall collapse rates in the deep-MOND limit; it recurs throughout §§5-6 and is anchored here.
 
-**Table 1.** Evolution of the Hubble rate, MOND acceleration scale, deep-MOND enhancement factor, and cosmic age across the redshift range relevant to §§4-7.
+**Table 1.** Evolution of the Hubble rate, MOND acceleration scale, deep-MOND enhancement factor, and cosmic age across the redshift range relevant to §§4-6.
 
 | $z$ | $E(z)$ | $H(z)$ [km/s/Mpc] | $a_0(z)$ [m/s²] | $a_0(z)/a_0(0)$ | $\sqrt{a_0(z)/a_0(0)}$ | $t_\text{age}$ [Gyr] |
 |---:|---:|---:|---:|---:|---:|---:|
@@ -273,23 +273,23 @@ Table 1 lists $E(z)$, $H(z)$, $a_0(z)$, the deep-MOND enhancement factor $\sqrt{
 | 10.0 | 20.5255 | 1383.42 | $2.46 \times 10^{-9}$ | 20.526 | 4.530 | 0.470 |
 | 15.0 | 36.0133 | 2427.29 | $4.32 \times 10^{-9}$ | 36.013 | 6.001 | 0.267 |
 
-Two values fix the magnitude of the prediction. At $z = 2$, $a_0$ is $3.03$ times its local value with deep-MOND enhancement $1.74$; this is the cleanest window for direct rotation-curve and Tully-Fisher tests (§§4-5) and yields a 74% excess in lensing-inferred $M_\text{dyn}/M_b$ over local galaxies of the same baryonic mass (§6). At $z = 10$, $a_0$ reaches $20.5$ times its local value with deep-MOND enhancement $4.53$; this is the regime probed by JWST imaging of the earliest assembled stellar populations (§7), where the corresponding $E(z)^{1/4} \approx 2.13$ collapse-time speedup reduces the required star-formation efficiency for the impossibly-early candidates by approximately a factor of two, with the per-candidate verdict deferred to future analysis (§7). The $a_0(z) = c H(z)$ heuristic implicit in the local Milgrom coincidence becomes a precise epoch-dependent statement rather than a numerical accident.
+Two values fix the magnitude of the prediction. At $z = 2$, $a_0$ is $3.03$ times its local value with deep-MOND enhancement $1.74$; this is the cleanest window for direct rotation-curve and Tully-Fisher tests (§§4-5) and yields a 74% excess in lensing-inferred $M_\text{dyn}/M_b$ over local galaxies of the same baryonic mass (§6). At $z = 10$, $a_0$ reaches $20.5$ times its local value with deep-MOND enhancement $4.53$; this is the regime probed by JWST imaging of the earliest assembled stellar populations (§7.7), where the corresponding $E(z)^{1/4} \approx 2.13$ collapse-time speedup reduces the required star-formation efficiency for the impossibly-early candidates by approximately a factor of two, with the per-candidate verdict deferred to future analysis (§7.7). The $a_0(z) = c H(z)$ heuristic implicit in the local Milgrom coincidence becomes a precise epoch-dependent statement rather than a numerical accident.
 
 ### 3.2 Figure 1: $a_0(z)/a_0(0)$ across cosmic time
 
-**Figure 1.** $a_0(z)/a_0(0)$ from $z = 0$ to $z = 15$ under the framework prediction (3.1) with the standard flat ΛCDM expansion history (3.2) and Planck 2018 parameters [20]. The curve is the dimensionless Hubble parameter $E(z)$. Inflection from radiation-mediated to matter-dominated growth occurs near $z \sim 3000$ and is irrelevant to the redshift window probed by §§4-7. Log-uniform vertical axis recommended.
+**Figure 1.** $a_0(z)/a_0(0)$ from $z = 0$ to $z = 15$ under the framework prediction (3.1) with the standard flat ΛCDM expansion history (3.2) and Planck 2018 parameters [20]. The curve is the dimensionless Hubble parameter $E(z)$. Inflection from radiation-mediated to matter-dominated growth occurs near $z \sim 3000$ and is irrelevant to the redshift window probed by §§4-6. Log-uniform vertical axis recommended.
 
-The shape of the curve in the regime $z = 0$ to $5$ is dominated by the matter term in (3.2); $E(z) \propto (1+z)^{3/2}$ to leading order. Above $z \sim 100$ radiation matters; this is far above the redshifts where the §§4-7 predictions live, and the parameterization in (3.2) is self-consistent throughout.
+The shape of the curve in the regime $z = 0$ to $5$ is dominated by the matter term in (3.2); $E(z) \propto (1+z)^{3/2}$ to leading order. Above $z \sim 100$ radiation matters; this is far above the redshifts where the §§4-6 predictions live, and the parameterization in (3.2) is self-consistent throughout.
 
 ### 3.3 Cosmology dependence
 
-We adopt the standard flat ΛCDM expansion history (3.2) with Planck 2018 [20] parameters throughout this paper. The §§4-7 predictions are robust to reasonable variations in the cosmological parameters within their current observational uncertainties: at $z > 1$ the matter term in (3.2) dominates the energy budget and the fractional sensitivity of $E(z)$ to $\Omega_m$ within current Planck and DESI constraints stays at the percent level; at $z < 1$ the late-time energy budget enters but the corresponding shifts in the §§4-7 observables remain well within current measurement uncertainties at intermediate redshift.
+We adopt the standard flat ΛCDM expansion history (3.2) with Planck 2018 [20] parameters throughout this paper. The §§4-6 predictions are robust to reasonable variations in the cosmological parameters within their current observational uncertainties: at $z > 1$ the matter term in (3.2) dominates the energy budget and the fractional sensitivity of $E(z)$ to $\Omega_m$ within current Planck and DESI constraints stays at the percent level; at $z < 1$ the late-time energy budget enters but the corresponding shifts in the §§4-6 observables remain well within current measurement uncertainties at intermediate redshift.
 
 The prediction of an evolving $a_0$ is independent of which Friedmann form is chosen for $H(z)$. The substitution in §2.4 absorbs the hierarchy normalization $N_H(z)$ into the calibration regardless of how $H(z)$ is parameterized: $a_0(z) \propto H(z)$ holds for any expansion history. Adopting the standard ΛCDM form is therefore a transparency choice that allows direct comparison with published high-$z$ measurements typically reported under the same cosmology, not a load-bearing assumption of the framework's evolution prediction.
 
 ### 3.4 What §3 establishes
 
-Equation (3.1), Table 1, and Figure 1 together fix the inputs that the rest of the paper consumes. Each of §§4-7 takes $a_0(z)$ from this section and evaluates a specific observable: the BTFR normalization (§4), galactic rotation curves (§5), galaxy-galaxy lensing (§6), and JWST star-formation efficiencies (§7). All four sections inherit the same epoch dependence from this section; none of them introduces new free parameters. The §§4-7 results are therefore predictions of a single one-parameter relation, calibrated by the local value $a_0(0) = 1.20 \times 10^{-10}$ m/s$^2$ from SPARC.
+Equation (3.1), Table 1, and Figure 1 together fix the inputs that the rest of the paper consumes. Each of §§4-6 takes $a_0(z)$ from this section and evaluates a specific observable: the BTFR normalization (§4), galactic rotation curves (§5), galaxy-galaxy lensing (§6), and JWST star-formation efficiencies (§7.7). All four sections inherit the same epoch dependence from this section; none of them introduces new free parameters. The §§4-6 results are therefore predictions of a single one-parameter relation, calibrated by the local value $a_0(0) = 1.20 \times 10^{-10}$ m/s$^2$ from SPARC.
 
 ## 4. The baryonic Tully-Fisher relation across cosmic time
 
@@ -363,9 +363,9 @@ The framework predicts a strict monotonic decrease of $A_\text{BTFR}(z)$ with re
 - an observed $A_\text{BTFR}(z)$ at any single redshift inconsistent with the predicted value at $\geq 2\sigma$ after matched velocity-definition systematics are propagated, or
 - an observed non-monotonic $A_\text{BTFR}(z)$ trend across $z$ that cannot be accommodated by any redshift-dependent systematic in the kinematic pressure-support correction.
 
-The first criterion is testable today with stacked KMOS3D, MOSDEF, and KGES samples and will be sharpened by the Euclid DR1 galaxy catalog (October 2026). The second criterion requires kinematic measurements at a minimum of three redshift bins under matched velocity-correction prescriptions, a sample currently in assembly (see §8).
+The first criterion is testable today with stacked KMOS3D, MOSDEF, and KGES samples and will be sharpened by the Euclid DR1 galaxy catalog (October 2026). The second criterion requires kinematic measurements at a minimum of three redshift bins under matched velocity-correction prescriptions, a sample currently in assembly (see §7).
 
-Existing intermediate-redshift BTFR measurements [9] test the §4 normalization prediction directly; the comparison, the framework's current status against the observed non-monotonic trend, and the next-generation tests that will resolve the constraint are treated in §8.
+Existing intermediate-redshift BTFR measurements [9] test the §4 normalization prediction directly; the comparison, the framework's current status against the observed non-monotonic trend, and the next-generation tests that will resolve the constraint are treated in §7.
 
 ## 5. Rotation curves: MOND radius and asymptotic velocity across cosmic time
 
@@ -436,7 +436,7 @@ Three independent falsification windows live in §5:
 2. The MOND-radius scaling (5.2), tested by tracing the rotation-curve transition across a sample of high-$z$ galaxies.
 3. The mass-independence of both (5.2) and (5.3), tested across the full BTFR mass range at the same redshift.
 
-Any of these failing at $\geq 2\sigma$ after matched velocity-correction systematics constitutes falsification. The intermediate-$z$ rotation-curve constraints from KMOS3D and SINS [10,9] probe windows 1 and 3; their treatment is in §8.
+Any of these failing at $\geq 2\sigma$ after matched velocity-correction systematics constitutes falsification. The intermediate-$z$ rotation-curve constraints from KMOS3D and SINS [10,9] probe windows 1 and 3; their treatment is in §7.
 
 ## 6. Galaxy-galaxy weak lensing: dynamical mass enhancement across cosmic time
 
@@ -510,7 +510,7 @@ Three lensing observables are *not* addressed by §6, and require future work:
 
 1. *The full convergence profile $\gamma_t(R)$ as a function of aperture for an isolated galaxy.* This requires committing to a relativistic completion of MOND, which the framework does not yet do.
 
-2. *Cluster-scale lensing.* The MOND-cluster mass discrepancy [12] is an inherited problem from local MOND that evolving $a_0$ does not resolve, because clusters are observed at $z \lesssim 0.3$ where $a_0(z)/a_0(0) \leq 1.17$. The framework's contribution at cluster scales is at the percent level, well below the factor $\sim 5$ cluster discrepancy. §8 treats this in full.
+2. *Cluster-scale lensing.* The MOND-cluster mass discrepancy [12] is an inherited problem from local MOND that evolving $a_0$ does not resolve, because clusters are observed at $z \lesssim 0.3$ where $a_0(z)/a_0(0) \leq 1.17$. The framework's contribution at cluster scales is at the percent level, well below the factor $\sim 5$ cluster discrepancy. §7 treats this in full.
 
 3. *The sign and magnitude of any non-deep-MOND-regime corrections to (6.3).* For galaxies at intermediate accelerations ($g_N \sim a_0$) at $z = 0$, the same caveat from §4.4 applies: the deep-MOND ratio prediction may not extend cleanly into the transition region, where the interpolating function matters. (6.3) strictly applies in the deep-MOND limit.
 
@@ -526,64 +526,17 @@ The §6 prediction (6.3) admits two independent falsification windows:
 
 Both windows are accessible to Euclid DR1 (October 2026) galaxy-galaxy lensing at $z = 0.5\text{–}2$ with stacked samples of $\sim 10^5$ galaxies. The expected statistical sensitivity at fixed $M_b$ stratification is at the few-percent level on $M_\text{dyn}/M_b$, which is well below the 15-74% predicted shifts across the $z = 0.5$ to $2$ window.
 
-The forward reference to §8 covers the inherited cluster-MOND discrepancy and any current intermediate-$z$ lensing constraints.
+The forward reference to §7 covers the inherited cluster-MOND discrepancy and any current intermediate-$z$ lensing constraints.
 
-## 7. JWST early galaxies: collapse-time speedup at $z \sim 7\text{–}9$
+## 7. Existing constraints and consistency
 
-JWST imaging of the early universe has revealed candidate galaxies at $z = 7\text{–}10$ with stellar masses $M_\star \gtrsim 10^{10}\,M_\odot$ assembled within $\sim 600$ Myr of the Big Bang [6,26]. Under ΛCDM with standard halo growth and star-formation efficiency assumptions, the most massive of these candidates require $\varepsilon_\text{SF} \gtrsim 1$, formally impossible because no more than the cosmic-baryon-fraction-times-halo-mass can be converted into stars. The tension has prompted proposals invoking modified initial conditions, high primordial density peaks, or non-standard early IMFs. The framework offers a different resolution: under evolving $a_0(z)$, the effective gravitational acceleration in collapsing baryonic perturbations is enhanced by $\sqrt{a_0(z)/a_0(0)} = \sqrt{E(z)}$, and the corresponding free-fall collapse time is shortened by $E(z)^{1/4}$.
+The framework predictions of §§4-6 are tested against existing measurements in five regimes: local galactic dynamics ($z \approx 0$), intermediate-redshift kinematics ($z = 0.5\text{–}2.5$), galaxy clusters ($z \lesssim 0.3$), the cosmic microwave background ($z \approx 1090$), and strong gravitational lensing time delays. Each regime is treated separately because the constraints are independent and the framework's status differs across them.
 
-### 7.1 The collapse-speedup prediction
+### 7.1 Local galactic dynamics: SPARC and THINGS
 
-In the deep-MOND regime, the effective gravitational acceleration on a perturbation is
+The framework reproduces local MOND phenomenology by construction. The well assignments in §2 were calibrated against the local values $a_0(0) = 1.20 \times 10^{-10}$ m/s$^2$ and $H_0 = 67.4$ km/s/Mpc, and the BTFR normalization, rotation-curve fits, and lensing inferences at $z \approx 0$ inherit the standard MOND results documented in the SPARC and THINGS analyses [18,2,3]. No independent test at $z = 0$ is provided by the present paper; the §3 calibration is what the §§4-6 predictions are extrapolations from.
 
-$$g_\text{eff}(z) = \sqrt{g_N \cdot a_0(z)}, \quad \text{(7.1)}$$
-
-so that $g_\text{eff}(z)/g_\text{eff}(0) = \sqrt{a_0(z)/a_0(0)} = \sqrt{E(z)}$ at fixed Newtonian source $g_N$. The free-fall collapse time scales as $t_\text{ff} \propto 1/\sqrt{g_\text{eff}}$, so
-
-$$\boxed{\;\frac{t_\text{ff}(z)}{t_\text{ff}(0)} = \frac{1}{E(z)^{1/4}}\;}, \quad \text{(7.2)}$$
-
-i.e. the framework predicts that gravitational collapse at high redshift completes faster by a factor $E(z)^{1/4}$ than the constant-$a_0$ MOND benchmark. To order of magnitude, if collapse timescale sets the duty cycle of star formation, then the same stellar mass can be assembled with a star-formation efficiency lower by $E(z)^{1/4}$. Equivalently, the required $\varepsilon_\text{SF}$ to produce a given $M_\star$ at observed redshift $z$ is reduced from the ΛCDM value by
-
-$$\varepsilon_\text{SF}^\text{MIT}(z) = \varepsilon_\text{SF}^{\Lambda\text{CDM}}(z) \cdot \frac{1}{E(z)^{1/4}}. \quad \text{(7.3)}$$
-
-The factor $E(z)^{1/4}$ is anchored in §3 Table 1 (the deep-MOND enhancement column $\sqrt{E(z)}$ is its square; the speedup is the fourth root of $E(z)$). It is universal across galaxy mass and source distribution. The fourth-root dependence also makes the speedup robust against uncertainties in the expansion history at high redshift: a 10% change in $E(z)$ shifts the predicted efficiency correction by less than 3%, so the §7.2 sample-level result does not depend critically on the precision of the assumed cosmology.
-
-### 7.2 Application to the Labbé et al. 2023 candidate sample
-
-Table 5 lists the six central-value massive candidates ($\log_{10}(M_\star/M_\odot) > 10$) from the public Labbé sample [6], together with the framework speedup factor $E(z)^{1/4}$ at each candidate's photometric redshift.
-
-**Table 5.** Framework collapse-speedup factor $E(z)^{1/4}$ for the six massive central-value candidates from Labbé et al. 2023 [6]. Photometric redshifts and stellar masses from the public catalog associated with the Nature publication. The speedup factor is the multiplicative reduction in required star-formation efficiency under (7.3).
-
-| ID | $z_\text{phot}$ | $\log_{10}(M_\star/M_\odot)$ | $E(z)^{1/4}$ |
-|---:|---:|---:|---:|
-| 11184 | 7.318 | 10.18 | 1.917 |
-| 38094 | 7.477 | 10.89 | 1.931 |
-| 2859 | 8.106 | 10.03 | 1.983 |
-| 13050 | 8.137 | 10.14 | 1.986 |
-| 14924 | 8.831 | 10.02 | 2.041 |
-| 35300 | 9.077 | 10.40 | 2.060 |
-
-The speedup factor is uniformly $\sim 1.92\text{–}2.06$ across the sample, varying by less than 8% across the full $z = 7.3\text{–}9.1$ range. The framework therefore reduces the required star-formation efficiency by approximately a factor of two for every massive candidate in the sample, with no per-galaxy tuning. The published Labbé analysis reports $\varepsilon_\text{SF}^{\Lambda\text{CDM}}$ ranging from $\sim 0.4$ to $\geq 1$ across the sample. Under (7.3), the framework reduces these required efficiencies by a uniform factor of $E(z)^{1/4} \approx 1.9\text{–}2.1$. Whether the resulting $\varepsilon_\text{SF}^\text{MIT}$ values move any specific candidate from "formally impossible" to "permitted" depends on the halo-mass priors carried over from the $\Lambda$CDM-side analysis (halo mass function, abundance matching prescription, survey volume, photometric-redshift uncertainty), which the framework does not improve directly. The §7 contribution is the multiplicative speedup factor, not the per-galaxy verdict; the latter is a free-fall order-of-magnitude estimate, not a full simulation, and the per-candidate analysis with explicit halo abundance matching is reserved for future work.
-
-### 7.3 Status, caveats, and falsification
-
-**Status.** The §7 prediction is the universal speedup factor $E(z)^{1/4}$, not the per-galaxy efficiency. The latter inherits its uncertainty from the ΛCDM-side modeling (halo mass function, abundance matching, survey volume, photometric-redshift uncertainty). The framework contribution is the multiplicative correction.
-
-**Caveats.** The prediction (7.2) is a free-fall scaling argument, not a full simulation of structure formation under modified gravity. Two physical effects are not captured: (i) the back-reaction of the modified collapse rate on the baryon-to-dark-matter ratio in the collapsing region, and (ii) any modification to the initial-condition power spectrum from the §8 mode-selection question regarding cosmological perturbations. Both are open work and would refine but not overturn the order-of-magnitude estimate.
-
-**Falsification.** A measurement that confirms the Labbé candidates are genuine ($z \sim 7\text{–}9$, $M_\star \sim 10^{10}\,M_\odot$) but inconsistent with $\varepsilon_\text{SF} \sim 0.5$ at the $\geq 2\sigma$ level after halo-mass uncertainty is propagated would falsify (7.2). Spectroscopic confirmation of the central-value masses and redshifts of the impossible candidates with JWST/NIRSpec is the immediate test. The full sample-level test will follow with the COSMOS-Web spectroscopic complete to $z \sim 10$ in the next two years, well in advance of the Euclid DR1 weak-lensing window of §6.
-
-The §7 prediction is therefore a near-term, falsifiable corollary of the §3-§6 framework that addresses an existing ΛCDM tension without invoking new physics beyond the same $a_0(z) \propto E(z)$ scaling already required by §§4-6. It is supporting evidence in the present paper rather than the centerpiece, because the per-object analysis depends on ΛCDM-side modeling that the framework does not improve directly.
-
-## 8. Existing constraints and consistency
-
-The framework predictions of §§4-7 are tested against existing measurements in five regimes: local galactic dynamics ($z \approx 0$), intermediate-redshift kinematics ($z = 0.5\text{–}2.5$), galaxy clusters ($z \lesssim 0.3$), the cosmic microwave background ($z \approx 1090$), and strong gravitational lensing time delays. Each regime is treated separately because the constraints are independent and the framework's status differs across them.
-
-### 8.1 Local galactic dynamics: SPARC and THINGS
-
-The framework reproduces local MOND phenomenology by construction. The well assignments in §2 were calibrated against the local values $a_0(0) = 1.20 \times 10^{-10}$ m/s$^2$ and $H_0 = 67.4$ km/s/Mpc, and the BTFR normalization, rotation-curve fits, and lensing inferences at $z \approx 0$ inherit the standard MOND results documented in the SPARC and THINGS analyses [18,2,3]. No independent test at $z = 0$ is provided by the present paper; the §3 calibration is what the §§4-7 predictions are extrapolations from.
-
-### 8.2 Intermediate-redshift Tully-Fisher: KMOS3D
+### 7.2 Intermediate-redshift Tully-Fisher: KMOS3D
 
 The KMOS3D analysis of Übler et al. 2017 [9] reports the baryonic Tully-Fisher relation at two redshift bins, drawing on VLT/KMOS integral-field spectroscopy of $\sim 240$ star-forming galaxies. Their fixed-slope zero-points are $b = 10.68 \pm 0.04$ at $z \approx 0.9$ and $b = 10.85 \pm 0.05$ at $z \approx 2.3$. Relative to the local Lelli et al. baseline [2], their fiducial pressure-support-corrected analysis reports zero-point offsets
 
@@ -613,7 +566,7 @@ The Übler pressure-support correction is a radial thick-disk expression $v_\tex
 
 We forward-modeled Übler's radial pressure-support pipeline applied to mock galaxies generated under the framework's BTFR (4.3), using literature-realistic distributions of $M_b$, $R_d$, and $\sigma_0$ [11] and the published $v_\text{rot,max}/\sigma_0 > 4.4$ selection cut. Four bias models were swept across literature-plausible parameter ranges: radial-position uncertainty, beam-smearing of $\sigma_0$ at high $z$, non-asymptotic rotation curves at low $z$, and selection-induced mass-distribution shifts. None reproduces the observed $(-0.44, -0.27)$ dex pattern; the closest combined model recovers $(-0.295, -0.472)$ dex, leaving the $z = 0.9$ point still 0.15 dex above observed.
 
-The Übler tension is therefore not a velocity-correction artifact under any literature-plausible bias model. It is a genuine tension between the framework's monotonic prediction and the observed non-monotonic trend, and it cannot be dissolved by the simple systematic the §8.2 defense initially proposed.
+The Übler tension is therefore not a velocity-correction artifact under any literature-plausible bias model. It is a genuine tension between the framework's monotonic prediction and the observed non-monotonic trend, and it cannot be dissolved by the simple systematic the §7.2 defense initially proposed.
 
 Two concrete resolution paths remain:
 
@@ -623,11 +576,11 @@ Two concrete resolution paths remain:
 
 The framework's evolution prediction stands as the §4 derivation requires; its status against the present Übler measurement is one of genuine tension on the trend shape, and resolution awaits the next-generation matched-systematics measurements named above. The framework neither retreats from the prediction nor pretends to have explained the tension away.
 
-### 8.3 Intermediate-redshift rotation curves: SINS and KMOS3D
+### 7.3 Intermediate-redshift rotation curves: SINS and KMOS3D
 
 The Genzel et al. 2017 sample [10] of six massive star-forming disks at $z = 0.85\text{–}2.38$ reports declining outer rotation curves with low inferred dark-matter fractions, interpreted as baryon-dominated disks with pressure support. Because no BTFR zero-point is reported, the measurement is qualitatively consistent with §§4-5 but does not directly test the framework's normalization prediction (4.3). A joint re-analysis of the Genzel and Übler samples under matched velocity-correction prescriptions would convert this into a sharper constraint.
 
-### 8.4 Galaxy clusters: the Pointecouteau-Silk discrepancy
+### 7.4 Galaxy clusters: the Pointecouteau-Silk discrepancy
 
 Local MOND analyses of galaxy clusters report a residual mass discrepancy beyond what MOND alone provides. Pointecouteau & Silk (2005) [12] find that eight nearby relaxed X-ray clusters require an effective acceleration scale several times the galaxy-scale $a_0$ to reproduce the observed dynamical mass with MOND alone. Equivalently, MOND with the standard galactic $a_0$ underpredicts the cluster dynamical mass by roughly a factor of $\sim 5$ at $r \approx 0.5\,R_\text{vir}$.
 
@@ -635,7 +588,7 @@ The framework's evolving $a_0(z)$ does not resolve this discrepancy. The Pointec
 
 The cluster discrepancy is therefore an inherited problem from local MOND that the framework's epoch dependence does not address at the relevant cluster redshifts. The standard local-MOND interpretations of the discrepancy (residual gravitational sources at cluster scales, undetected baryonic components, or a breakdown of MOND in the cluster regime) apply unchanged. The cluster-scale mass discrepancy is an open problem shared by all MOND-class theories [13,14,3] and predates the present framework. The framework's epoch-dependent modification operates at the percent level in the cluster redshift range and neither introduces nor resolves this discrepancy.
 
-### 8.5 The cosmic microwave background at recombination
+### 7.5 The cosmic microwave background at recombination
 
 This section addresses the apparent CMB tension in three steps: (i) the structural argument from the framework's selection rule, which assigns cosmological perturbations to a different manifold-mode sector than $a_0$; (ii) an empirical leakage bound from Planck consistency, which constrains any residual coupling between the sectors; and (iii) the comparison with relativistic MOND extensions (TeVeS, BIMOND, AeST), which contextualizes the framework's structural decoupling against dynamical alternatives. The naive over-application identifies the issue; the structural argument resolves it conditional on the selection rule; the leakage bound and the relativistic-MOND comparison test that conditional from different angles.
 
@@ -669,13 +622,17 @@ This handling differs structurally from how relativistic MOND extensions address
 
 The remaining open question is a first-principles perturbation-theoretic derivation of the edge/space-mode decoupling at recombination-relevant scales. Such a derivation, working from the Boltzmann hierarchy or equivalent under the framework's $(n, \Omega)$ assignments, would replace the present structural argument plus empirical bound with a closed-form proof. The required machinery (mode-projected propagators, anti-periodic boundary conditions on the Möbius surface, hierarchy-sensitive transfer functions) is expressible within the framework's existing postulates; we expect the calculation to be tractable rather than to require new theoretical inputs not already present in the framework, but it has not been carried through and is the principal open task for the framework's CMB-scale predictions.
 
-The §8.5 position is conditional on the structural decoupling: (i) the apparent CMB tension under naive over-application of $a_0(z)$ dissolves under the framework's selection rule; (ii) the rule's assignment of cosmological perturbations to the $n = 3$ space-mode sector is the same rule that produces the §2.5 Milgrom-ratio match and is not introduced separately to address the CMB; (iii) any residual edge-mode leakage into cosmological perturbations is bounded to $\varepsilon \lesssim 10^{-5}$ by Planck consistency, with the framework's structural prediction $\varepsilon = 0$ satisfying the bound by every margin Planck currently provides; (iv) the framework's CMB prediction coincides with ΛCDM's at every Planck-measured observable, with the formal perturbation-theory derivation flagged as the principal open task.
+The §7.5 position is conditional on the structural decoupling: (i) the apparent CMB tension under naive over-application of $a_0(z)$ dissolves under the framework's selection rule; (ii) the rule's assignment of cosmological perturbations to the $n = 3$ space-mode sector is the same rule that produces the §2.5 Milgrom-ratio match and is not introduced separately to address the CMB; (iii) any residual edge-mode leakage into cosmological perturbations is bounded to $\varepsilon \lesssim 10^{-5}$ by Planck consistency, with the framework's structural prediction $\varepsilon = 0$ satisfying the bound by every margin Planck currently provides; (iv) the framework's CMB prediction coincides with ΛCDM's at every Planck-measured observable, with the formal perturbation-theory derivation flagged as the principal open task.
 
-### 8.6 Strong gravitational lensing time delays
+### 7.6 Strong gravitational lensing time delays
 
 Strong-lensing time-delay cosmography (TDCOSMO, H0LiCOW) probes $H_0$ at sub-percent precision but is not currently sensitive to $a_0(z)$ at the level of the framework's predictions, because the time-delay signal lives at lens-galaxy scales where the MOND interpolating function matters and the deep-MOND ratio prediction (4.3) does not strictly apply. Existing time-delay analyses are consistent with both the framework and standard ΛCDM at current precision; no live constraint exists in this regime.
 
-### 8.7 Summary of constraint status
+### 7.7 JWST early-galaxy collapse-time speedup (supporting evidence)
+
+JWST imaging at $z = 7\text{–}10$ has identified candidate massive galaxies [6,26] with stellar masses $M_\star \gtrsim 10^{10}\,M_\odot$ assembled within $\sim 600$ Myr of cosmic time, requiring star-formation efficiencies $\varepsilon_\text{SF} \gtrsim 1$ under standard ΛCDM halo growth, formally impossible because no more than the cosmic-baryon-fraction-times-halo-mass can be converted into stars. Under the framework's evolving $a_0(z)$, the deep-MOND effective gravitational acceleration $g_\text{eff} = \sqrt{g_N\,a_0(z)}$ scales as $\sqrt{E(z)}$ at fixed Newtonian source, and the corresponding free-fall collapse time $t_\text{ff} \propto 1/\sqrt{g_\text{eff}}$ shortens as $E(z)^{-1/4}$. Equivalently, the required $\varepsilon_\text{SF}$ to assemble a given $M_\star$ at observed redshift $z$ is reduced from the ΛCDM value by $\varepsilon_\text{SF}^\text{MIT}(z) = \varepsilon_\text{SF}^{\Lambda\text{CDM}}(z)/E(z)^{1/4}$. Applied to the six massive central-value candidates from the Labbé sample at $z_\text{phot} = 7.318\text{–}9.077$ (IDs 11184, 38094, 2859, 13050, 14924, 35300), the framework speedup factor $E(z)^{1/4} \approx 1.92\text{–}2.06$ reduces the required star-formation efficiency uniformly by approximately a factor of two, with no per-galaxy tuning. Whether this resolves the impossibility constraint for any specific candidate depends on halo-mass priors carried over from the ΛCDM-side analysis (halo mass function, abundance matching prescription, survey volume, photometric-redshift uncertainty), which the framework does not improve directly; the per-object analysis with explicit halo abundance matching is reserved for future work. The framework contribution here is the multiplicative speedup factor, supporting evidence for the framework's edge-mode evolution rather than a primary prediction. The full sample table and the Labbé candidate identifiers are provided in the data deposit.
+
+### 7.8 Summary of constraint status
 
 **Table 6.** Summary of existing constraint status across the five regimes treated above.
 
@@ -690,27 +647,27 @@ Strong-lensing time-delay cosmography (TDCOSMO, H0LiCOW) probes $H_0$ at sub-per
 
 The status column reads as one live tension (Übler, with the velocity-correction systematic explanation tested and ruled out by forward-modeling), one inherited open problem (clusters, neither caused nor resolved by the framework), one structurally resolved apparent tension (CMB, with rigorous derivation flagged), one qualitative consistency (Genzel), and two consistencies by construction or below sensitivity.
 
-The framework is therefore consistent with the existing constraint landscape at the level of the present paper's claims, except for the Übler trend-shape tension which is acknowledged and held against the framework's explicit prediction. The Euclid DR1 galaxy-galaxy lensing measurement (§6) and the matched-velocity-correction Tully-Fisher analysis (§4, §8.2) are the two near-term tests that will sharpen the constraint into a definitive result, in either direction, on a timescale of approximately two years.
+The framework is therefore consistent with the existing constraint landscape at the level of the present paper's claims, except for the Übler trend-shape tension which is acknowledged and held against the framework's explicit prediction. The Euclid DR1 galaxy-galaxy lensing measurement (§6) and the matched-velocity-correction Tully-Fisher analysis (§4, §7.2) are the two near-term tests that will sharpen the constraint into a definitive result, in either direction, on a timescale of approximately two years.
 
-## 9. Connection to the companion Λcos prediction and the broader framework
+## 8. Connection to the companion Λcos prediction and the broader framework
 
-### 9.1 Two predictions from one scaling law
+### 8.1 Two predictions from one scaling law
 
 The framework derivation of §2 makes two structurally independent predictions about cosmic evolution, both following from the same measurement postulate $A/A_P = C(\Theta) \cdot N^n$ but addressing different sectors of the manifold-mode hierarchy.
 
-**§§3-7 (this paper).** The MOND acceleration scale is an edge-mode observable ($n = 1$) referenced to the kinematic horizon ratio $\Omega_H \approx (c/(H\,\ell_P))^2$. The local-epoch reading of (2.1) gives $a_0(z) = a_0(0)\,E(z)$, governing galactic-scale dynamics across cosmic time and tested through the five-exponent prediction set summarized in §10.
+**§§3-6 (this paper).** The MOND acceleration scale is an edge-mode observable ($n = 1$) referenced to the kinematic horizon ratio $\Omega_H \approx (c/(H\,\ell_P))^2$. The local-epoch reading of (2.1) gives $a_0(z) = a_0(0)\,E(z)$, governing galactic-scale dynamics across cosmic time and tested through the five-exponent prediction set summarized in §9.
 
 **Surface-sector prediction (separately submitted companion analysis).** The cosmological constant Λ is a surface-mode observable ($n = 2$) referenced to the eigenvalue ratio $\Omega_\Lambda$ (§2.1). The local-epoch reading of (2.1) gives $\Lambda = \text{const.}$ at every epoch, while the apparent equation-of-state evolution $w(z)$ reported by DESI DR2 [8] arises as a template artifact from the observer's phase position $t \approx 5.22$ rad on the underlying standing wave $\Psi(t) = \cos(t/2)$.
 
-The §8.5 selection rule organizes both predictions in a single table: the edge sector evolves through $\Omega_H(z)$, the surface sector remains fixed through $\Omega_\Lambda$, and (a third assignment relevant to §8.5's CMB consistency) the space sector ($n = 3$) governs cosmological perturbations also through $\Omega_\Lambda$. The two papers test the first two rows of that table; their joint outcome tests the rule itself.
+The §7.5 selection rule organizes both predictions in a single table: the edge sector evolves through $\Omega_H(z)$, the surface sector remains fixed through $\Omega_\Lambda$, and (a third assignment relevant to §7.5's CMB consistency) the space sector ($n = 3$) governs cosmological perturbations also through $\Omega_\Lambda$. The two papers test the first two rows of that table; their joint outcome tests the rule itself.
 
 The structural symmetry is the headline: the framework predicts that $a_0$ evolves while Λ does not, the inverse of standard ΛCDM assumptions where Λ is the candidate evolving quantity (DESI's $w(z)$) and $a_0$ is assumed to be a universal constant.
 
-### 9.2 Independent tests, joint pattern
+### 8.2 Independent tests, joint pattern
 
 The two predictions are testable through disjoint instruments and analyses, and either could be confirmed or falsified independently of the other.
 
-**Edge-sector tests (this paper).** Intermediate-redshift Tully-Fisher (KMOS3D, KGES), galaxy-galaxy weak lensing (Euclid DR1), and JWST early-galaxy spectroscopy. Five distinct observables, all governed by powers of $E(z)$ as compiled in §10 Table 7.
+**Edge-sector tests (this paper).** Intermediate-redshift Tully-Fisher (KMOS3D, KGES), galaxy-galaxy weak lensing (Euclid DR1), and JWST early-galaxy spectroscopy. Five distinct observables, all governed by powers of $E(z)$ as compiled in §9 Table 7.
 
 **Surface-sector tests (companion analysis).** Baryon acoustic oscillation distance ratios (DESI DR2/DR3 [8]), Type Ia supernova distance moduli (Pantheon+ [27], DES-SN5YR [28]), and the CMB-calibrated sound-horizon ruler. The companion analysis reports $\Delta\chi^2 = +0.13$ relative to flat ΛCDM at the same parameter count, with the model's single parameter constrained to $s_0 < 0.18$ (95% CL).
 
@@ -725,17 +682,17 @@ Four joint outcomes are structurally distinct and would carry different evidenti
 
 Either-or outcomes do not imply the framework is half-correct; they would identify which $(n, \Omega)$ assignment fails. The rule's status is determined by the joint pattern, not by either test in isolation.
 
-### 9.3 Pre-registration and the broader framework
+### 8.3 Pre-registration and the broader framework
 
 The present paper will be deposited on Zenodo prior to the Euclid DR1 release in October 2026, fixing its predictions before the data arrive. The companion analysis is similarly deposited prior to Euclid DR1 and DESI DR3.
 
 The companion analysis on the surface sector and the present paper are the framework's two near-term tests; the broader claim that the same scaling-law postulate produces predictions in additional sectors of the framework is a meta-result that accrues with each individual test, but is not the subject of the present paper.
 
-## 10. Predictions and falsification
+## 9. Predictions and falsification
 
-### 10.1 Five predictions from one relation
+### 9.1 Five predictions from one relation
 
-The §§4-7 predictions follow from a single input: $a_0(z) = a_0(0)\,E(z)$, derived in §2 and tabulated in §3. Each section computes a different observable, and each observable depends on $E(z)$ through a different power. Table 7 collects all five.
+The §§4-6 predictions follow from a single input: $a_0(z) = a_0(0)\,E(z)$, derived in §2 and tabulated in §3. Each section computes a different observable, and each observable depends on $E(z)$ through a different power. Table 7 collects all five.
 
 **Table 7.** The full predictive content of the framework's evolving acceleration scale, organized by observable and scaling. Numerical values are evaluated at $z = 2$, the cleanest test window for current intermediate-redshift programs. All five entries derive from the single relation $a_0(z) = a_0(0)\,E(z)$ with no additional free parameter.
 
@@ -745,17 +702,17 @@ The §§4-7 predictions follow from a single input: $a_0(z) = a_0(0)\,E(z)$, der
 | §5 | MOND radius $r_M(z)/r_M(0)$ | $E(z)^{-1/2}$ | 0.574 | High-$z$ rotation curves |
 | §4, §5 | Asymptotic velocity $v_\text{flat}(z)/v_\text{flat}(0)$ at fixed $M_b$ | $E(z)^{+1/4}$ | 1.320 | KMOS3D, KGES, Euclid DR1 |
 | §6 | Lensing $M_\text{dyn}/M_b$ enhancement | $E(z)^{+1/2}$ | 1.741 | Euclid DR1 stacked galaxy-galaxy lensing |
-| §7 | Free-fall collapse time $t_\text{ff}(z)/t_\text{ff}(0)$ | $E(z)^{-1/4}$ | 0.758 | JWST early-galaxy spectroscopy |
+| §7.7 | Free-fall collapse time $t_\text{ff}(z)/t_\text{ff}(0)$ | $E(z)^{-1/4}$ | 0.758 | JWST early-galaxy spectroscopy |
 
 The five exponents $\{-1, -1/2, +1/4, +1/2, -1/4\}$ exhaust the ways a power of $a_0(z) \propto E(z)$ enters at the level of asymptotic deep-MOND galactic dynamics. They are not independent predictions: any measurement of $E(z)$ at a single redshift through any of the five observables determines the other four through their shared dependence on the same input. Conversely, a measurement that confirms one observable but disconfirms another at the same $z$ falsifies the framework's universality across observable classes, even if no individual exponent disagrees with data.
 
 This is the structural strength of the framework's evolution prediction. One relation calibrated at $z = 0$ ($a_0(0)$ from SPARC) generates five distinct $z$-dependent observable channels, all controlled by the same input $E(z)$ through different powers. The five channels are not independent tests of $E(z)$; they are correlated manifestations of one input. Independence between observable classes is tested by confirming consistency across two channels at the same redshift, which probes the universality of the deep-MOND scaling rather than the value of $E(z)$.
 
-### 10.2 Falsification criteria
+### 9.2 Falsification criteria
 
-Table 8 collects the falsification criteria stated in §§4-7. Each row gives the prediction's signature, the threshold at which the framework is ruled out, and the systematic that must be controlled to make the test robust.
+Table 8 collects the falsification criteria stated in §§4-6. Each row gives the prediction's signature, the threshold at which the framework is ruled out, and the systematic that must be controlled to make the test robust.
 
-**Table 8.** Falsification criteria for the five predictions of §§4-7. Failure of any criterion at $\geq 2\sigma$ in a matched-systematics measurement (uniform tracer, velocity definition, and analysis prescription across the redshift bins) constitutes formal falsification of the framework's $a_0(z) \propto E(z)$ relation. Existing heterogeneous-data tensions, including the Übler 2017 trend-shape tension treated in §8.2, are treated as provisional pending matched-systematics resolution.
+**Table 8.** Falsification criteria for the five predictions of §§4-6. Failure of any criterion at $\geq 2\sigma$ in a matched-systematics measurement (uniform tracer, velocity definition, and analysis prescription across the redshift bins) constitutes formal falsification of the framework's $a_0(z) \propto E(z)$ relation. Existing heterogeneous-data tensions, including the Übler 2017 trend-shape tension treated in §7.2, are treated as provisional pending matched-systematics resolution.
 
 | Prediction | Signature | Falsification threshold | Controlled systematic |
 |---|---|---|---|
@@ -764,25 +721,25 @@ Table 8 collects the falsification criteria stated in §§4-7. Each row gives th
 | §5 $r_M$ scaling | $r_M(z)/r_M(0) = E(z)^{-1/2}$ | Single-$z$ inconsistency at $\geq 2\sigma$ | Baryonic-mass distribution model |
 | §5, §6 mass-independence | Fractional shift independent of $M_b$ | Mass-stratified analysis showing mass-dependent shift | Halo-mass dependence in selection function |
 | §6 lensing | $M_\text{dyn}/M_b$ enhancement $= \sqrt{E(z)}$, mass- and aperture-independent | Single-$z$ inconsistency at $\geq 2\sigma$, OR mass/aperture-stratified analysis showing mass- or aperture-dependent shift | Halo-concentration evolution model (Duffy et al. 2008 [15] baseline) |
-| §7 JWST efficiency | $\varepsilon_\text{SF}^\text{MIT}(z) = \varepsilon_\text{SF}^{\Lambda\text{CDM}}(z)/E(z)^{1/4}$ | Spectroscopically confirmed candidate with $\varepsilon_\text{SF}^{\Lambda\text{CDM}} \geq 1$ whose corrected efficiency $\varepsilon_\text{SF}^\text{MIT} = \varepsilon_\text{SF}^{\Lambda\text{CDM}}/E(z)^{1/4}$ still exceeds unity at $\geq 2\sigma$ | Halo abundance matching prescription |
+| §7.7 JWST efficiency | $\varepsilon_\text{SF}^\text{MIT}(z) = \varepsilon_\text{SF}^{\Lambda\text{CDM}}(z)/E(z)^{1/4}$ | Spectroscopically confirmed candidate with $\varepsilon_\text{SF}^{\Lambda\text{CDM}} \geq 1$ whose corrected efficiency $\varepsilon_\text{SF}^\text{MIT} = \varepsilon_\text{SF}^{\Lambda\text{CDM}}/E(z)^{1/4}$ still exceeds unity at $\geq 2\sigma$ | Halo abundance matching prescription |
 
 The lensing test in row 5 is the cleanest of the five because the enhancement $\sqrt{E(z)}$ is universal across galaxy mass and aperture, whereas the ΛCDM alternative (halo concentration evolution) produces shifts that depend on both. A mass- and aperture-stratified Euclid DR1 analysis tests both the magnitude of the prediction and its universality in a single dataset.
 
-### 10.3 Test schedule
+### 9.3 Test schedule
 
 Three near-term measurements will deliver the bulk of the test:
 
 | Window | Instrument | Predictions tested | Expected delivery |
 |---|---|---|---|
-| Galaxy-galaxy lensing at $z = 0.5\text{–}2$ | Euclid DR1 | §6 (lensing), §10.2 universality | October 2026 |
+| Galaxy-galaxy lensing at $z = 0.5\text{–}2$ | Euclid DR1 | §6 (lensing), §9.2 universality | October 2026 |
 | Intermediate-$z$ BTFR with matched velocity corrections | KMOS3D + KGES + MOSDEF joint re-analysis | §4 BTFR, §5 $v_\text{flat}$ | Ongoing (~ 2026) |
-| Spectroscopic confirmation of impossible JWST candidates | JWST/NIRSpec follow-up of Labbé sample | §7 ε_SF | In progress (~ 2025-2026) |
+| Spectroscopic confirmation of impossible JWST candidates | JWST/NIRSpec follow-up of Labbé sample | §7.7 ε_SF | In progress (~ 2025-2026) |
 
 Beyond this window, sharper tests come from longer-term programs: a dedicated multi-redshift BTFR campaign with consistent kinematic tracers (H$\alpha$ at $z \sim 1.5$, [OIII] at $z \sim 1$, Pa$\alpha$ at $z \sim 0.3$) controlled for sample selection, the COSMOS-Web spectroscopic complete to $z \sim 10$, and the next generation of weak-lensing surveys (LSST, Roman) extending the §6 stratified analysis to $z \sim 3$.
 
 The framework's evolution prediction is therefore testable on a two-year timescale, with the Euclid DR1 lensing measurement providing the single sharpest test of the universal $\sqrt{E(z)}$ enhancement across galaxy mass and aperture.
 
-### 10.4 Summary
+### 9.4 Summary
 
 The framework's predictive content reduces to one statement and five corollaries.
 
@@ -794,15 +751,15 @@ The framework's predictive content reduces to one statement and five corollaries
 
 One relation. Five distinct observable channels. No further free parameters beyond the $z = 0$ SPARC calibration of $a_0(0)$. The framework's evolution claim stands or falls on the next two years of intermediate-redshift kinematic and lensing data.
 
-## 11. Conclusions
+## 10. Conclusions
 
 The Milgrom acceleration scale $a_0 \approx c\,H_0$ has stood for four decades as a numerical coincidence with no derivation. Mode Identity Theory's measurement postulate $A/A_P = C(\Theta) \cdot N^n$, with $N \equiv (\sqrt{\Omega})^{-1}$ the hierarchy normalization fixed by calibrating one observable per manifold-mode class, resolves the coincidence into an exact ratio of two phase-operator values at fixed Fibonacci wells on the 120-domain of $S^3/2I$, with $a_0$ and $H$ both edge-mode observables ($n = 1$) sharing the same edge-mode normalization $N_H$. The §2 derivation matches observation at the 0.8% level, with the match unique within the framework's selected Fibonacci-well subset of the 120-domain.
 
 The local-epoch reading of the postulate then yields the evolution: at every cosmic epoch $z$, the same scaling rule with the same wells references the local horizon $\Omega_H(z)$, giving $a_0(z) = a_0(0)\,E(z)$. Five distinct observables follow from this single relation as different powers of $E(z)$: the BTFR normalization shifts as $E(z)^{-1}$, the MOND transition radius contracts as $E(z)^{-1/2}$, the asymptotic flat velocity at fixed baryonic mass rises as $E(z)^{+1/4}$, the lensing-inferred dynamical mass enhancement scales as $E(z)^{+1/2}$, and the gravitational free-fall collapse time shortens as $E(z)^{-1/4}$. The five exponents are not independent; they are correlated translations of one input. A measurement in any one channel tests the value of $E(z)$ via that channel; verifying consistency across multiple channels at the same redshift tests the universality of the deep-MOND scaling across observable classes.
 
-The framework's $a_0(z) \propto E(z)$ relation lives in a constraint landscape that includes one live tension (the KMOS3D BTFR trend shape from Übler et al. 2017 [9], currently the only quantitative test of any §§4-7 prediction at intermediate redshift; a forward-modeled simulation of the Übler radial pressure-support pipeline applied to mock framework-true galaxies does not reproduce the observed non-monotonic offset, so the tension is genuine and not a velocity-correction artifact), one inherited and unaddressed problem (the cluster-scale MOND mass discrepancy at $z \lesssim 0.3$, where the framework's evolution correction is at the percent level against a factor-five problem), and one structurally resolved apparent tension (the CMB at recombination, where the framework's selection rule assigns cosmological perturbations to a different manifold-mode sector than $a_0$ and the resulting CMB prediction coincides with ΛCDM's at every Planck-measured observable). The remaining constraints are consistencies by construction or below current sensitivity. None of the resolved or inherited constraints alters the §§3-7 predictions in the redshift window where the present paper makes testable claims; the Übler tension is acknowledged and held against the framework's explicit prediction without retreat. Resolution comes from Euclid DR1 single-instrument matched-tracer kinematics and JWST follow-up samples at the original Übler redshifts, both arriving on a two-year horizon.
+The framework's $a_0(z) \propto E(z)$ relation lives in a constraint landscape that includes one live tension (the KMOS3D BTFR trend shape from Übler et al. 2017 [9], currently the only quantitative test of any §§4-6 prediction at intermediate redshift; a forward-modeled simulation of the Übler radial pressure-support pipeline applied to mock framework-true galaxies does not reproduce the observed non-monotonic offset, so the tension is genuine and not a velocity-correction artifact), one inherited and unaddressed problem (the cluster-scale MOND mass discrepancy at $z \lesssim 0.3$, where the framework's evolution correction is at the percent level against a factor-five problem), and one structurally resolved apparent tension (the CMB at recombination, where the framework's selection rule assigns cosmological perturbations to a different manifold-mode sector than $a_0$ and the resulting CMB prediction coincides with ΛCDM's at every Planck-measured observable). The remaining constraints are consistencies by construction or below current sensitivity. None of the resolved or inherited constraints alters the §§3-6 predictions in the redshift window where the present paper makes testable claims; the Übler tension is acknowledged and held against the framework's explicit prediction without retreat. Resolution comes from Euclid DR1 single-instrument matched-tracer kinematics and JWST follow-up samples at the original Übler redshifts, both arriving on a two-year horizon.
 
-A companion analysis on the surface sector (separately submitted) makes the structurally inverse prediction: Λ remains constant at every epoch, and the apparent dark-energy equation-of-state evolution reported by DESI DR2 [8] arises as a template artifact from the observer's phase position on the underlying cosmic standing wave. The two predictions follow from the same scaling law but reference different $(n, \Omega)$ sectors, and they are testable through disjoint instrument suites. Their joint outcome tests the framework's selection rule itself, with four enumerated outcomes carrying different evidentiary weight (§9.2).
+A companion analysis on the surface sector (separately submitted) makes the structurally inverse prediction: Λ remains constant at every epoch, and the apparent dark-energy equation-of-state evolution reported by DESI DR2 [8] arises as a template artifact from the observer's phase position on the underlying cosmic standing wave. The two predictions follow from the same scaling law but reference different $(n, \Omega)$ sectors, and they are testable through disjoint instrument suites. Their joint outcome tests the framework's selection rule itself, with four enumerated outcomes carrying different evidentiary weight (§8.2).
 
 The Euclid DR1 release (October 2026) will deliver the sharpest near-term test: a stacked galaxy-galaxy lensing measurement at $z = 0.5\text{–}2$ stratified by baryonic mass and aperture, simultaneously testing the magnitude (the predicted 15% to 74% enhancement of $M_\text{dyn}/M_b$) and the universality (mass- and aperture-independence) of the §6 prediction. The matched-systematics intermediate-redshift Tully-Fisher re-analysis and the JWST/NIRSpec spectroscopic confirmation of impossible Labbé candidates will follow on a similar timescale. All three programs are existing or imminent; no new instrument or observational capability is required.
 
@@ -812,11 +769,11 @@ The framework's evolution claim therefore stands or falls on a defined, near-ter
 
 ## Acknowledgments
 
-The author thanks the observational teams whose published data made this work possible: the SPARC collaboration (Lelli, McGaugh, Schombert) for the local rotation-curve sample [2,18]; Übler and the KMOS3D team for the intermediate-redshift Tully-Fisher measurements [9]; Wisnioski and the KMOS3D team for the kinematic-dispersion data used in the §8.2 forward model [11]; Genzel and the SINS/zC-SINF team for the high-redshift rotation curves [10]; Pointecouteau and Silk for the X-ray cluster analysis [12]; the JWST observing teams and the Labbé group for the early-galaxy catalog [6]; the Planck collaboration for the cosmological parameters and CMB amplitudes [20]; and the DESI collaboration for the dark-energy survey results [8]. No external funding supported this work.
+The author thanks the observational teams whose published data made this work possible: the SPARC collaboration (Lelli, McGaugh, Schombert) for the local rotation-curve sample [2,18]; Übler and the KMOS3D team for the intermediate-redshift Tully-Fisher measurements [9]; Wisnioski and the KMOS3D team for the kinematic-dispersion data used in the §7.2 forward model [11]; Genzel and the SINS/zC-SINF team for the high-redshift rotation curves [10]; Pointecouteau and Silk for the X-ray cluster analysis [12]; the JWST observing teams and the Labbé group for the early-galaxy catalog [6]; the Planck collaboration for the cosmological parameters and CMB amplitudes [20]; and the DESI collaboration for the dark-energy survey results [8]. No external funding supported this work.
 
 ## Data availability
 
-All numerical predictions, mock-data simulations, and tabulated framework outputs are deposited on Zenodo prior to the Euclid DR1 release in October 2026. The H10 Übler forward-model dataset (mock galaxy samples, recovered BTFR offsets across four bias models), the H9 ΛCDM discriminator overlay (NFW enclosed-mass curves at the canonical archetypes), the H11 CMB leakage bound table, the H12 combinatorial baseline table, the H13 Übler tension table, and the §3-§7 prediction tables (CSV format) are included in the deposit.
+All numerical predictions, mock-data simulations, and tabulated framework outputs are deposited on Zenodo prior to the Euclid DR1 release in October 2026. The H10 Übler forward-model dataset (mock galaxy samples, recovered BTFR offsets across four bias models), the H9 ΛCDM discriminator overlay (NFW enclosed-mass curves at the canonical archetypes), the H11 CMB leakage bound table, the H12 combinatorial baseline table, the H13 Übler tension table, and the §3-§6 prediction tables (CSV format) are included in the deposit.
 
 ---
 
