@@ -333,9 +333,9 @@ Table 2 evaluates (4.3)-(4.5) at six reference redshifts. The fractional shifts 
 |---:|---:|---:|---:|---:|---:|
 | 0.0 | 1.0000 | 62.78 | 1.0000 | 1.000 | 1.000 |
 | 0.5 | 1.3223 | 47.48 | 0.7563 | 0.756 | 1.072 |
-| 1.0 | 1.7906 | 35.06 | 0.5585 | 0.559 | 1.157 |
-| 2.0 | 3.0327 | 20.70 | 0.3297 | 0.330 | 1.320 |
-| 5.0 | 8.2972 | 7.57 | 0.1205 | 0.120 | 1.696 |
+| 1.0 | 1.7907 | 35.06 | 0.5585 | 0.558 | 1.157 |
+| 2.0 | 3.0327 | 20.70 | 0.3298 | 0.330 | 1.320 |
+| 5.0 | 8.2972 | 7.57 | 0.1205 | 0.121 | 1.697 |
 | 10.0 | 20.5255 | 3.06 | 0.0487 | 0.049 | 2.128 |
 
 Two values anchor the predictive content. At $z = 2$, the BTFR normalization is one-third of its local value; equivalently, a galaxy at $z = 2$ with the same baryonic mass as a local one rotates 32% faster, and a galaxy at $z = 2$ with the same rotation velocity has one-third the baryonic mass. At $z = 1$, the corresponding numbers are 56% normalization, 16% velocity shift, 44% mass deficit. These are the regimes accessible to current and near-term integral-field spectroscopy of intermediate-redshift disks. As a worked example consistent with the §5.2 archetype table: an $L^*$ disk on the deep-MOND BTFR ($M_b = 6 \times 10^{10}\,M_\odot$, $v_\text{flat}(0) = 176$ km/s under the theoretical normalization $A_\text{BTFR}(0) = 62.78\,M_\odot/(\text{km/s})^4$) is predicted by (4.4) to have $v_\text{flat}(2) \approx 232$ km/s at $z = 2$, a 32% increase at fixed baryonic mass.
