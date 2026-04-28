@@ -769,7 +769,7 @@ The author thanks the observational teams whose published data made this work po
 
 ## Data availability
 
-All numerical predictions, mock-data simulations, and tabulated framework outputs are deposited on Zenodo prior to the Euclid DR1 release in October 2026. In order of first appearance in the text, the deposit includes the combinatorial baseline table (supporting §2.5); the §§3-6 prediction tables (Tables 1-4) in CSV format; the ΛCDM lensing discriminator overlay (NFW enclosed-mass curves at the canonical archetypes, supporting §6.2 and Appendix B); the Übler forward-model dataset (mock galaxy samples and recovered BTFR offsets across four bias models, supporting §7.2); the Übler σ-tension table (supporting §7.2); the CMB leakage-bound table (supporting §7.5); and the Labbé candidate speedup factors (supporting §7.7). Source code for the analysis pipelines and figure-generation scripts is included.
+All numerical predictions and tabulated framework outputs are deposited on Zenodo prior to the Euclid DR1 release in October 2026. In order of first appearance in the text, the deposit includes the combinatorial baseline table (supporting §2.5); the §§3-6 prediction tables (Tables 1-4) in CSV format; the ΛCDM lensing discriminator overlay (NFW enclosed-mass curves at the canonical archetypes, supporting §6.2 and Appendix B); the Übler σ-tension table (supporting §7.2); the CMB leakage-bound table (supporting §7.5); and the Labbé candidate speedup factors (supporting §7.7). Source code for the analysis pipelines and figure-generation scripts is included.
 
 ---
 
