@@ -150,23 +150,23 @@ $$\frac{a_0(z)}{a_P} = C(13/120) \cdot \frac{H(z)\,t_P}{C(34/120)}$$
 
 Using $a_P = c/t_P$:
 
-$$\boxed{\;\frac{a_0(z)}{c\,H(z)} = \frac{C(13/120)}{C(34/120)} = 0.1846\;} \quad \text{(2.4)}$$
+$$\boxed{\;\frac{a_0(z)}{c\,H(z)} = \frac{C(13/120)}{C(34/120)} = 0.1845\;} \quad \text{(2.4)}$$
 
-The right-hand side is a pure topological number, independent of $z$. The wells $13/120$ and $34/120$ were calibrated individually to fit the absolute values of $a_0(0)$ and $H_0$ at $z = 0$: two parameters fitting two measurements. Their ratio $C(13/120)/C(34/120) = 0.1846$ was not tuned separately; it is a consequence of the calibration structure, with the well-position factors fixed by the 120-domain. The relation $a_0(z) \propto H(z)$ follows immediately, with the proportionality constant set by this ratio. Equivalently:
+The right-hand side is a pure topological number, independent of $z$. The wells $13/120$ and $34/120$ were calibrated individually to fit the absolute values of $a_0(0)$ and $H_0$ at $z = 0$: two parameters fitting two measurements. Their ratio $C(13/120)/C(34/120) = 0.1845$ was not tuned separately; it is a consequence of the calibration structure, with the well-position factors fixed by the 120-domain. The relation $a_0(z) \propto H(z)$ follows immediately, with the proportionality constant set by this ratio. Equivalently:
 
 $$a_0(z) = a_0(0)\,\frac{H(z)}{H_0} \quad \text{(2.5)}$$
 
-This is the central result of the section. No epoch-dependent quantity other than $H(z)$ enters; no auxiliary scale is introduced; the calibration through $H(z)$ absorbs the hierarchy-normalization piece, and what remains is the pure well-position ratio. The §2.5 agreement between 0.1846 and the observed 0.1832 (0.8%) is a test of the well-assignment structure, with the matching strength quantified against the combinatorial baseline below.
+This is the central result of the section. No epoch-dependent quantity other than $H(z)$ enters; no auxiliary scale is introduced; the calibration through $H(z)$ absorbs the hierarchy-normalization piece, and what remains is the pure well-position ratio. The §2.5 agreement between 0.1845 and the observed 0.1833 (0.7%) is a test of the well-assignment structure, with the matching strength quantified against the combinatorial baseline below.
 
 ### 2.5 Consistency check on absolute values at $z = 0$
 
 The ratio (2.4) determines the evolution but says nothing about the absolute value of $a_0$ at any single epoch. The absolute values are calibration inputs: the wells $13/120$ and $34/120$ were assigned individually to fit the observed $a_0(0)$ and $H_0$ at $z = 0$. Observed inputs (Planck 2018 [20] $H_0 = 67.4$ km/s/Mpc, SPARC $a_0 = 1.20 \times 10^{-10}$ m/s$^2$):
 
-$$\frac{a_0^{\text{obs}}}{c\,H_0^{\text{obs}}} = \frac{1.20 \times 10^{-10}}{6.55 \times 10^{-10}} = 0.1832$$
+$$\frac{a_0^{\text{obs}}}{c\,H_0^{\text{obs}}} = \frac{1.20 \times 10^{-10}}{6.548 \times 10^{-10}} = 0.1833$$
 
-Predicted ratio from the wells: 0.1846. Agreement to 0.8%. The Milgrom coincidence $a_0 \approx c\,H_0$ resolves to a ratio of two phase-operator values at fixed wells. The ratio is the testable structural claim of the well assignments; the individual absolute values of $a_0$ and $H_0$ are the calibration inputs that fix $\Theta_{a_0} = 13/120$ and $\Theta_{H_0} = 34/120$, not independent predictions.
+Predicted ratio from the wells: 0.1845. Agreement to 0.7%. The Milgrom coincidence $a_0 \approx c\,H_0$ resolves to a ratio of two phase-operator values at fixed wells. The ratio is the testable structural claim of the well assignments; the individual absolute values of $a_0$ and $H_0$ are the calibration inputs that fix $\Theta_{a_0} = 13/120$ and $\Theta_{H_0} = 34/120$, not independent predictions.
 
-To calibrate the strength of this match, we compute the combinatorial baseline. Of the 7,021 unordered nonzero phase-position pairs $(k_1, k_2)/120$ with $k_1, k_2 \in \{1, \ldots, 119\}$, only 24 produce a ratio $C(k_1/120)/C(k_2/120)$ within 1% of the observed $0.1832$, a fraction of 0.342%. Modulo the reflection symmetry $C(k) = C(120-k)$, these collapse to 6 unique phase-operator value pairs. Within the framework's selected Fibonacci-well subset $\{13, 21, 34, 55, 60\}/120$, exactly one of the ten possible unordered well-pairs matches: the framework's $(13, 34)$. The match is therefore sparse on the full 120-domain (one in $\sim 300$ pairs) and unique within the topologically-selected Fibonacci-well structure (one in 10).
+To calibrate the strength of this match, we compute the combinatorial baseline. Of the 7,021 unordered nonzero phase-position pairs $(k_1, k_2)/120$ with $k_1, k_2 \in \{1, \ldots, 119\}$, only 24 produce a ratio $C(k_1/120)/C(k_2/120)$ within 1% of the observed $0.1833$, a fraction of 0.342%. Modulo the reflection symmetry $C(k) = C(120-k)$, these collapse to 6 unique phase-operator value pairs. Within the framework's selected Fibonacci-well subset $\{13, 21, 34, 55, 60\}/120$, exactly one of the ten possible unordered well-pairs matches: the framework's $(13, 34)$. The match is therefore sparse on the full 120-domain (one in $\sim 300$ pairs) and unique within the topologically-selected Fibonacci-well structure (one in 10).
 
 The absolute-value check tests the well assignments (which were calibrated to $z = 0$ measurements). The evolution prediction is independent of this calibration and follows from the structural ratio (2.4).
 
@@ -263,13 +263,13 @@ Table 1 lists $E(z)$, $H(z)$, $a_0(z)$, the deep-MOND enhancement factor $\sqrt{
 | $z$ | $E(z)$ | $H(z)$ [km/s/Mpc] | $a_0(z)$ [m/s²] | $a_0(z)/a_0(0)$ | $\sqrt{a_0(z)/a_0(0)}$ | $t_\text{age}$ [Gyr] |
 |---:|---:|---:|---:|---:|---:|---:|
 | 0.0 | 1.0000 | 67.40 | $1.20 \times 10^{-10}$ | 1.000 | 1.000 | 13.79 |
-| 0.5 | 1.3223 | 89.12 | $1.59 \times 10^{-10}$ | 1.322 | 1.150 | 8.58 |
-| 1.0 | 1.7906 | 120.69 | $2.15 \times 10^{-10}$ | 1.791 | 1.338 | 5.84 |
-| 2.0 | 3.0327 | 204.40 | $3.64 \times 10^{-10}$ | 3.033 | 1.741 | 3.27 |
+| 0.5 | 1.3223 | 89.13 | $1.59 \times 10^{-10}$ | 1.322 | 1.150 | 8.58 |
+| 1.0 | 1.7907 | 120.69 | $2.15 \times 10^{-10}$ | 1.791 | 1.338 | 5.84 |
+| 2.0 | 3.0327 | 204.41 | $3.64 \times 10^{-10}$ | 3.033 | 1.741 | 3.27 |
 | 3.0 | 4.5682 | 307.90 | $5.48 \times 10^{-10}$ | 4.568 | 2.137 | 2.14 |
 | 5.0 | 8.2972 | 559.23 | $9.96 \times 10^{-10}$ | 8.297 | 2.880 | 1.17 |
 | 10.0 | 20.5255 | 1383.42 | $2.46 \times 10^{-9}$ | 20.526 | 4.530 | 0.470 |
-| 15.0 | 36.0133 | 2427.29 | $4.32 \times 10^{-9}$ | 36.013 | 6.001 | 0.267 |
+| 15.0 | 36.0133 | 2427.29 | $4.32 \times 10^{-9}$ | 36.013 | 6.001 | 0.268 |
 
 Two values fix the magnitude of the prediction. At $z = 2$, $a_0$ is $3.03$ times its local value with deep-MOND enhancement $1.74$; this is the cleanest window for direct rotation-curve and Tully-Fisher tests (§§4-5) and yields a 74% excess in lensing-inferred $M_\text{dyn}/M_b$ over local galaxies of the same baryonic mass (§6). At $z = 10$, $a_0$ reaches $20.5$ times its local value with deep-MOND enhancement $4.53$; this is the regime probed by JWST imaging of the earliest assembled stellar populations (§7.7), where the corresponding $E(z)^{1/4} \approx 2.13$ collapse-time speedup reduces the required star-formation efficiency for the impossibly-early candidates by approximately a factor of two, with the per-candidate verdict deferred to future analysis (§7.7). The $a_0(z) = c H(z)$ heuristic implicit in the local Milgrom coincidence becomes a precise epoch-dependent statement rather than a numerical accident.
 
