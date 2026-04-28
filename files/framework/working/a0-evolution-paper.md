@@ -12,7 +12,7 @@ bshatto.pe@gmail.com
 
 ## Abstract
 
-Modified Newtonian Dynamics rests on a single dimensional parameter, $a_0 \approx 1.20 \times 10^{-10}$ m/s$^2$, whose proximity to the cosmic scale $cH_0$ has remained unexplained for four decades. Within Mode Identity Theory, a measurement-postulate framework on the bounded topology $S^1 = \partial(\text{Möbius}) \subset S^3$, the framework's well assignments and scaling-law postulate predict the local Milgrom ratio $a_0/(cH_0)$ as the ratio of two phase-operator values at adjacent Fibonacci wells of the 120-domain, agreeing with observation at the 0.8% level. Under a local-epoch reading of the same postulate, the framework predicts an evolving acceleration scale $a_0(z) = a_0(0)\,E(z)$ with $E(z)$ the standard Friedmann dimensionless Hubble parameter. Five distinct observable channels follow as different powers of $E(z)$: the baryonic Tully-Fisher normalization ($E^{-1}$), the MOND transition radius ($E^{-1/2}$), the asymptotic flat velocity at fixed baryonic mass ($E^{+1/4}$), the lensing-inferred dynamical-mass-to-baryonic-mass ratio ($E^{+1/2}$), and the gravitational free-fall collapse time ($E^{-1/4}$). The five exponents are correlated manifestations of one cosmological input rather than independent predictions. Existing constraints are treated honestly, including a provisional 2.9σ trend-shape tension with the KMOS3D Tully-Fisher data. The Euclid DR1 release in October 2026 will deliver the sharpest near-term test through stacked galaxy-galaxy weak lensing at $z = 0.5\text{–}2$, simultaneously probing the predicted 74% enhancement at $z = 2$ and its mass- and aperture-universality.
+Modified Newtonian Dynamics rests on a single dimensional parameter, $a_0 \approx 1.20 \times 10^{-10}$ m/s$^2$, whose proximity to the cosmic scale $cH_0$ has remained unexplained for four decades. Within Mode Identity Theory, a measurement-postulate framework on the bounded topology $S^1 = \partial(\text{Möbius}) \subset S^3$, the framework's well assignments at $z = 0$ and scaling-law postulate predict the local Milgrom ratio $a_0/(cH_0)$ as the ratio of two phase-operator values at adjacent Fibonacci wells of the 120-domain, agreeing with observation at the 0.8% level. Under a local-epoch reading of the same postulate, the framework predicts an evolving acceleration scale $a_0(z) = a_0(0)\,E(z)$ with $E(z)$ the standard Friedmann dimensionless Hubble parameter. Five distinct observable channels follow as different powers of $E(z)$: the baryonic Tully-Fisher normalization ($E^{-1}$), the MOND transition radius ($E^{-1/2}$), the asymptotic flat velocity at fixed baryonic mass ($E^{+1/4}$), the lensing-inferred dynamical-mass-to-baryonic-mass ratio ($E^{+1/2}$), and the gravitational free-fall collapse time ($E^{-1/4}$). The five exponents are correlated manifestations of one cosmological input rather than independent predictions. Existing constraints are treated honestly, including a provisional 2.9σ trend-shape tension with the KMOS3D Tully-Fisher data. The Euclid DR1 release in October 2026 will deliver the sharpest near-term test through stacked galaxy-galaxy weak lensing at $z = 0.5\text{–}2$, simultaneously probing the predicted 74% enhancement at $z = 2$ and its mass- and aperture-universality.
 
 ---
 
@@ -152,7 +152,7 @@ Using $a_P = c/t_P$:
 
 $$\boxed{\;\frac{a_0(z)}{c\,H(z)} = \frac{C(13/120)}{C(34/120)} = 0.1846\;} \quad \text{(2.4)}$$
 
-The right-hand side is a pure topological number, independent of $z$. The framework predicts the Milgrom ratio exactly: it is the ratio of the well-position $C$ factors. The relation $a_0(z) \propto H(z)$ follows immediately, with the proportionality constant fixed by topology. Equivalently:
+The right-hand side is a pure topological number, independent of $z$. The framework predicts the Milgrom ratio as a fixed topological invariant: the ratio of the well-position $C$ factors. The relation $a_0(z) \propto H(z)$ follows immediately, with the proportionality constant fixed by topology. Equivalently:
 
 $$a_0(z) = a_0(0)\,\frac{H(z)}{H_0} \quad \text{(2.5)}$$
 
@@ -538,7 +538,7 @@ The framework reproduces local MOND phenomenology by construction. The well assi
 
 ### 7.2 Intermediate-redshift Tully-Fisher: KMOS3D
 
-The KMOS3D analysis of Übler et al. 2017 [9] reports the baryonic Tully-Fisher relation at two redshift bins, drawing on VLT/KMOS integral-field spectroscopy of $\sim 240$ star-forming galaxies. Their fixed-slope zero-points are $b = 10.68 \pm 0.04$ at $z \approx 0.9$ and $b = 10.85 \pm 0.05$ at $z \approx 2.3$. Relative to the local Lelli et al. baseline [2], their fiducial pressure-support-corrected analysis reports zero-point offsets
+The KMOS3D survey [11] (a 3D integral-field galaxy survey with the K-band Multi-Object Spectrograph at the VLT) provided the Übler et al. 2017 [9] analysis of the baryonic Tully-Fisher relation at two redshift bins, drawing on VLT/KMOS integral-field spectroscopy of $\sim 240$ star-forming galaxies. Their fixed-slope zero-points are $b = 10.68 \pm 0.04$ at $z \approx 0.9$ and $b = 10.85 \pm 0.05$ at $z \approx 2.3$. Relative to the local Lelli et al. baseline [2], their fiducial pressure-support-corrected analysis reports zero-point offsets
 
 $$\Delta b^\text{obs}(z=0.9) = -0.44~\text{dex}, \qquad \Delta b^\text{obs}(z=2.3) = -0.27~\text{dex}.$$
 
@@ -560,7 +560,7 @@ Quantitatively, the residuals (observed minus MIT prediction) are $-0.216$ dex a
 | + Lelli local-baseline (0.05 dex) | $-3.4$ | $+3.8$ | $5.1$ |
 | + velocity-correction systematic (0.10 dex) | $-1.8$ | $+2.2$ | $2.9$ |
 
-Even under the most conservative budget, with a generous 0.10 dex velocity-correction systematic added in quadrature, the joint tension reaches $2.9\sigma$ and the $z = 2.3$ point individually sits at $2.2\sigma$. Under the more defensible Budget B (statistical plus the standard SPARC local-baseline uncertainty), the joint tension is $5.1\sigma$. The current Übler data therefore constitutes a genuine quantitative tension with the framework's monotonic prediction at the trend-shape level, not a marginal disagreement that conservative systematics could absorb. We treat this as a *provisional tension* rather than a formal falsification of the §4 prediction. The comparison combines heterogeneous velocity definitions and cross-redshift pressure-support corrections relative to the local SPARC baseline; one such systematic is tested by the H10 forward model below and ruled out as the sole explanation, but the broader cross-instrument and cross-tracer heterogeneity in the comparison remains. Formal falsification of (4.3) requires a matched-systematics measurement at $\geq 2\sigma$ in the sense of Table 8: a single instrument, uniform kinematic tracer, and identically applied velocity-correction prescription across the redshift bins.
+Even under the most conservative budget, with a generous 0.10 dex velocity-correction systematic added in quadrature, the joint tension reaches $2.9\sigma$ and the $z = 2.3$ point individually sits at $2.2\sigma$. Under the more defensible Budget B (statistical plus the standard SPARC local-baseline uncertainty), the joint tension is $5.1\sigma$. The current Übler data therefore constitutes a genuine quantitative tension with the framework's monotonic prediction at the trend-shape level, not a marginal disagreement that conservative systematics could absorb. We treat this as a *provisional tension* rather than a formal falsification of the §4 prediction. The comparison combines heterogeneous velocity definitions and cross-redshift pressure-support corrections relative to the local SPARC baseline; one such systematic is tested by the H10 forward model below and ruled out as the sole explanation, but the broader cross-instrument and cross-tracer heterogeneity in the comparison remains. Formal falsification of (4.3) requires a matched-systematics measurement at $\geq 2\sigma$ in the sense of Table 7: a single instrument, uniform kinematic tracer, and identically applied velocity-correction prescription across the redshift bins.
 
 The Übler pressure-support correction is a radial thick-disk expression $v_\text{circ}^2(r) = v_\text{rot}^2(r) + 2\,\sigma_0^2\,r/R_d$ [19], with the effective coefficient $\alpha(r) = 2r/R_d$ depending on the radial position at which $v_\text{rot}$ is measured and on the disk scale length $R_d$. Both quantities evolve systematically with redshift. A fixed-coefficient surrogate, with $\alpha$ chosen to grow plausibly across the literature range $\alpha \in [1.5, 3.4]$, fails to reproduce the observed non-monotonic offset pattern: such a model can match the $z \approx 2.3$ point but cannot simultaneously drive the $z \approx 0.9$ point down to $-0.44$ dex without requiring an unphysical $\alpha(z=0.9) \approx 0$. A full simulation under Übler's actual radial systematic, with sample-realistic distributions of $R_d$ and the radius at which the circular velocity is measured, is reported below as the H10 forward-model analysis.
 
@@ -634,7 +634,7 @@ JWST imaging at $z = 7\text{–}10$ has identified candidate massive galaxies [6
 
 ### 7.8 Summary of constraint status
 
-**Table 6.** Summary of existing constraint status across the five regimes treated above.
+**Table 5.** Summary of existing constraint status across the five regimes treated above.
 
 | Regime | Constraint | Framework status |
 |---|---|---|
@@ -667,7 +667,7 @@ The structural symmetry is the headline: the framework predicts that $a_0$ evolv
 
 The two predictions are testable through disjoint instruments and analyses, and either could be confirmed or falsified independently of the other.
 
-**Edge-sector tests (this paper).** Intermediate-redshift Tully-Fisher (KMOS3D, KGES), galaxy-galaxy weak lensing (Euclid DR1), and JWST early-galaxy spectroscopy. Five distinct observables, all governed by powers of $E(z)$ as compiled in §9 Table 7.
+**Edge-sector tests (this paper).** Intermediate-redshift Tully-Fisher (KMOS3D, KGES), galaxy-galaxy weak lensing (Euclid DR1), and JWST early-galaxy spectroscopy. Five distinct observables, all governed by powers of $E(z)$ as compiled in §9 Table 6.
 
 **Surface-sector tests (companion analysis).** Baryon acoustic oscillation distance ratios (DESI DR2/DR3 [8]), Type Ia supernova distance moduli (Pantheon+ [27], DES-SN5YR [28]), and the CMB-calibrated sound-horizon ruler. The companion analysis reports $\Delta\chi^2 = +0.13$ relative to flat ΛCDM at the same parameter count, with the model's single parameter constrained to $s_0 < 0.18$ (95% CL).
 
@@ -692,9 +692,9 @@ The companion analysis on the surface sector and the present paper are the frame
 
 ### 9.1 Five predictions from one relation
 
-The §§4-6 predictions follow from a single input: $a_0(z) = a_0(0)\,E(z)$, derived in §2 and tabulated in §3. Each section computes a different observable, and each observable depends on $E(z)$ through a different power. Table 7 collects all five.
+The §§4-6 predictions follow from a single input: $a_0(z) = a_0(0)\,E(z)$, derived in §2 and tabulated in §3. Each section computes a different observable, and each observable depends on $E(z)$ through a different power. Table 6 collects all five.
 
-**Table 7.** The full predictive content of the framework's evolving acceleration scale, organized by observable and scaling. Numerical values are evaluated at $z = 2$, the cleanest test window for current intermediate-redshift programs. All five entries derive from the single relation $a_0(z) = a_0(0)\,E(z)$ with no additional free parameter.
+**Table 6.** The full predictive content of the framework's evolving acceleration scale, organized by observable and scaling. Numerical values are evaluated at $z = 2$, the cleanest test window for current intermediate-redshift programs. All five entries derive from the single relation $a_0(z) = a_0(0)\,E(z)$ with no additional free parameter.
 
 | Section | Observable | Scaling | Value at $z = 2$ | Test instrument |
 |---|---|---|---|---|
@@ -710,9 +710,9 @@ This is the structural strength of the framework's evolution prediction. One rel
 
 ### 9.2 Falsification criteria
 
-Table 8 collects the falsification criteria stated in §§4-6. Each row gives the prediction's signature, the threshold at which the framework is ruled out, and the systematic that must be controlled to make the test robust.
+Table 7 collects the falsification criteria stated in §§4-6. Each row gives the prediction's signature, the threshold at which the framework is ruled out, and the systematic that must be controlled to make the test robust.
 
-**Table 8.** Falsification criteria for the five predictions of §§4-6. Failure of any criterion at $\geq 2\sigma$ in a matched-systematics measurement (uniform tracer, velocity definition, and analysis prescription across the redshift bins) constitutes formal falsification of the framework's $a_0(z) \propto E(z)$ relation. Existing heterogeneous-data tensions, including the Übler 2017 trend-shape tension treated in §7.2, are treated as provisional pending matched-systematics resolution.
+**Table 7.** Falsification criteria for the five predictions of §§4-6. Failure of any criterion at $\geq 2\sigma$ in a matched-systematics measurement (uniform tracer, velocity definition, and analysis prescription across the redshift bins) constitutes formal falsification of the framework's $a_0(z) \propto E(z)$ relation. Existing heterogeneous-data tensions, including the Übler 2017 trend-shape tension treated in §7.2, are treated as provisional pending matched-systematics resolution.
 
 | Prediction | Signature | Falsification threshold | Controlled systematic |
 |---|---|---|---|
@@ -745,15 +745,15 @@ The framework's predictive content reduces to one statement and five corollaries
 
 **Statement.** $a_0(z) = a_0(0) \cdot E(z)$, with $a_0(0)$ from local SPARC calibration and $E(z)$ from standard cosmology.
 
-**Corollaries.** The five exponents of $E(z)$ in Table 7 govern the BTFR normalization, the MOND transition radius, the asymptotic flat velocity at fixed baryonic mass, the lensing-inferred dynamical-mass enhancement, and the free-fall collapse-time speedup. Each is mass-independent and aperture-independent (where applicable) in the deep-MOND regime, and follows from the §3 input with no further free parameter beyond the $z = 0$ calibration of $a_0(0)$.
+**Corollaries.** The five exponents of $E(z)$ in Table 6 govern the BTFR normalization, the MOND transition radius, the asymptotic flat velocity at fixed baryonic mass, the lensing-inferred dynamical-mass enhancement, and the free-fall collapse-time speedup. Each is mass-independent and aperture-independent (where applicable) in the deep-MOND regime, and follows from the §3 input with no further free parameter beyond the $z = 0$ calibration of $a_0(0)$.
 
-**Falsification.** Any single measurement at $\geq 2\sigma$ from a Table 8 row, after the named systematic is controlled, falsifies the statement. The Euclid DR1 measurement of stacked galaxy-galaxy lensing at $z = 0.5\text{–}2$ is the sharpest single test, with mass- and aperture-stratified analysis simultaneously testing the magnitude and the universality of the prediction.
+**Falsification.** Any single measurement at $\geq 2\sigma$ from a Table 7 row, after the named systematic is controlled, falsifies the statement. The Euclid DR1 measurement of stacked galaxy-galaxy lensing at $z = 0.5\text{–}2$ is the sharpest single test, with mass- and aperture-stratified analysis simultaneously testing the magnitude and the universality of the prediction.
 
 One relation. Five distinct observable channels. No further free parameters beyond the $z = 0$ SPARC calibration of $a_0(0)$. The framework's evolution claim stands or falls on the next two years of intermediate-redshift kinematic and lensing data.
 
 ## 10. Conclusions
 
-The Milgrom acceleration scale $a_0 \approx c\,H_0$ has stood for four decades as a numerical coincidence with no derivation. Mode Identity Theory's measurement postulate $A/A_P = C(\Theta) \cdot N^n$, with $N \equiv (\sqrt{\Omega})^{-1}$ the hierarchy normalization fixed by calibrating one observable per manifold-mode class, resolves the coincidence into an exact ratio of two phase-operator values at fixed Fibonacci wells on the 120-domain of $S^3/2I$, with $a_0$ and $H$ both edge-mode observables ($n = 1$) sharing the same edge-mode normalization $N_H$. The §2 derivation matches observation at the 0.8% level, with the match unique within the framework's selected Fibonacci-well subset of the 120-domain.
+The Milgrom acceleration scale $a_0 \approx c\,H_0$ has stood for four decades as a numerical coincidence with no derivation. Mode Identity Theory's measurement postulate $A/A_P = C(\Theta) \cdot N^n$, with $N \equiv (\sqrt{\Omega})^{-1}$ the hierarchy normalization fixed by calibrating one observable per manifold-mode class, resolves the coincidence into a fixed topological ratio of two phase-operator values at Fibonacci wells on the 120-domain of $S^3/2I$, with $a_0$ and $H$ both edge-mode observables ($n = 1$) sharing the same edge-mode normalization $N_H$. The §2 derivation matches observation at the 0.8% level, with the match unique within the framework's selected Fibonacci-well subset of the 120-domain.
 
 The local-epoch reading of the postulate then yields the evolution: at every cosmic epoch $z$, the same scaling rule with the same wells references the local horizon $\Omega_H(z)$, giving $a_0(z) = a_0(0)\,E(z)$. Five distinct observables follow from this single relation as different powers of $E(z)$: the BTFR normalization shifts as $E(z)^{-1}$, the MOND transition radius contracts as $E(z)^{-1/2}$, the asymptotic flat velocity at fixed baryonic mass rises as $E(z)^{+1/4}$, the lensing-inferred dynamical mass enhancement scales as $E(z)^{+1/2}$, and the gravitational free-fall collapse time shortens as $E(z)^{-1/4}$. The five exponents are not independent; they are correlated translations of one input. A measurement in any one channel tests the value of $E(z)$ via that channel; verifying consistency across multiple channels at the same redshift tests the universality of the deep-MOND scaling across observable classes.
 
@@ -900,7 +900,7 @@ The dataset and per-aperture comparison are deposited as `h9-comparison-table.cs
 
 [22] M. Milgrom, Phys. Rev. D 80, 123536 (2009).
 
-[23] C. Skordis and T. Złośnik, Phys. Rev. Lett. 127, 161302 (2021).
+[23] C. Skordis and T. Złośnik, Phys. Rev. Lett. 127, 161302 (2021); Phys. Rev. D 104, 104046 (2021).
 
 [24] J. W. Moffat, J. Cosmol. Astropart. Phys. 03, 004 (2006).
 
