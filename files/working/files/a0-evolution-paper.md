@@ -803,6 +803,8 @@ Three framework-internal eligibility conditions identify which Fibonacci wells a
 
 Under these conditions, the empirical calibrations to $a_0$, $H_0$, and $\Lambda$ at $z = 0$ resolve as follows. (a) The well calibrated to $a_0$ is $13/120$, the unique coprime position ($\gcd(13, 120) = 1$) consistent with the irreducibility condition that dynamical (non-photon-mediated) observables access the full 120-grid. (b) The well calibrated to $\Lambda$ is $60/120$, consistent with the ground-state maximality condition for a topologically protected eigenvalue. (c) The well calibrated to $H_0$ is $34/120$: among the Fibonacci wells $\{13, 21, 34, 55\}/120$ available to edge-mode observables, $34/120$ is the unique even-numerator option consistent with the bosonic-filter condition for photon-mediated observation. The wells $21/120$ and $55/120$ remain unassigned in this paper.
 
+The eligibility conditions (1)-(3) above are not introduced ad hoc to land the present calibration: they are pre-registered framework structure from the foundational MIT deposit [36], in which the manifold mode-index classification ($n = 1, 2, 3$) and the bosonic filter (the $|\psi|^2$ projection from the binary-icosahedral 120-domain to the icosahedral 60-grid for photon-mediated observation) are stated as derivations from the topology postulate $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ and the anti-periodic boundary condition, prior to the present $a_0/H_0/\Lambda$ calibration. The antinode condition for $\Lambda$ is structural: $\Theta = 60/120$ is the location where $C(\Theta)$ takes its maximum and $d\ln C/d\Theta = 0$. Under conditions (1)-(3), each observable has exactly one valid Fibonacci well: $a_0$ is forced to $13/120$ (the unique coprime member, satisfying the dynamical-observable condition), $H_0$ to $34/120$ (the unique even-numerator member, satisfying the bosonic-filter condition for photon-mediated observation), and $\Lambda$ to $60/120$ (the antinode). The look-elsewhere effect on the well assignment is therefore zero given the pre-registered eligibility conditions; the §2.5 combinatorial sparsity argument quantifies the Milgrom-ratio match strength against this constrained search space rather than against the unconstrained 120-domain.
+
 These assignments have the status of empirical calibrations at $z = 0$ that land on positions compatible with the framework's eligibility conditions; they are not first-principles derivations of the well positions. The combinatorial test in §2.5 quantifies the strength of the match: among the ten unordered Fibonacci-well pairs in $\{13, 21, 34, 55, 60\}/120$, only $(13, 34)$ reproduces the observed Milgrom ratio $a_0/(cH_0)$ within 1%, providing a sparsity check on the calibrated assignment. A first-principles derivation of the well positions from the Hurwitz/Fibonacci structure of the 120-domain is future work; until then, the assignments have the status of two parameters fitting two measurements at $z = 0$ as documented in §2.9. Other framework realizations of the scaling law at additional $(n, \Omega)$ pairs are outside the scope of the present paper.
 
 ---
@@ -921,6 +923,8 @@ The dataset and per-aperture comparison are deposited as `tables/table4.csv` and
 [34] M. Millon et al., Astron. Astrophys. 639, A101 (2020).
 
 [35] K. C. Wong et al., Mon. Not. R. Astron. Soc. 498, 1420 (2020).
+
+[36] B. Shatto, Mode Identity Theory: Modal Realization from Nested Topology (2025). DOI:10.5281/zenodo.18064856.
 
 ---
 
