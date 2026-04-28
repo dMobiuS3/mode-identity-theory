@@ -472,7 +472,7 @@ The mass-aperture-independent enhancement is the defining feature of the §6 pre
 | 1.0 | 1.338 | 33.8% |
 | 2.0 | 1.741 | 74.1% |
 
-A 74% excess in stacked $M_\text{dyn}/M_b$ at $z = 2$ relative to local galaxies of the same baryonic mass is the direct prediction at the Newtonian-inversion proxy level. It applies identically across galaxy mass and lensing aperture in the deep-MOND regime.
+A 74% excess in stacked $M_\text{dyn}/M_b$ at $z = 2$ relative to local galaxies of the same baryonic mass is the framework prediction at the Newtonian-inversion proxy level. It applies identically across galaxy mass and lensing aperture in the deep-MOND regime.
 
 Under ΛCDM, the $M_\text{dyn}/M_b$ ratio at fixed baryonic mass and aperture also evolves with redshift, driven by halo concentration evolution and structural changes in the dark-matter halo population [15,16]. The discriminating test between the two pictures is therefore not the existence of redshift evolution but its functional form.
 
@@ -494,7 +494,7 @@ Table 4 evaluates (6.3) for the $L^*$ archetype at three standard galaxy-galaxy 
 | 100 | 11.98 | 13.77 | 16.03 | 20.86 | 34.50 |
 | 300 | 35.93 | 41.32 | 48.08 | 62.57 | 103.50 |
 
-The fractional shift from $z = 0$ to $z = 2$ is identical across all three rows: a factor $1.741$ ($\sqrt{E(z=2)}$). The $R = 100$ kpc row provides the canonical galaxy-galaxy lensing example: a quoted $M_\text{dyn}/M_b = 11.98$ at the local Universe (the standard "dark-matter dominated" inference of $\sim 92\%$ dark mass fraction) becomes $20.86$ at $z = 2$ (under the same Newtonian inversion, $\sim 95\%$ inferred dark mass fraction). The 74% excess is the framework prediction, observable directly through stacked lensing at known galaxy redshift. The mass-independence of the same enhancement, verified across the full supplementary table, is what distinguishes the framework prediction from the ΛCDM halo-concentration alternative discussed in §6.2.
+The fractional shift from $z = 0$ to $z = 2$ is identical across all three rows: a factor $1.741$ ($\sqrt{E(z=2)}$). The $R = 100$ kpc row provides the canonical galaxy-galaxy lensing example: a quoted $M_\text{dyn}/M_b = 11.98$ at the local Universe (the standard "dark-matter dominated" inference of $\sim 92\%$ dark mass fraction) becomes $20.86$ at $z = 2$ (under the same Newtonian inversion, $\sim 95\%$ inferred dark mass fraction). The 74% excess is the framework prediction, accessible through stacked lensing at known galaxy redshift. The mass-independence of the same enhancement, verified across the full supplementary table, is what distinguishes the framework prediction from the ΛCDM halo-concentration alternative discussed in §6.2.
 
 ### 6.4 Figure 5: $M_\text{dyn}/M_b$ vs aperture for $L^*$ at $z = 0, 1, 2$
 
@@ -512,7 +512,7 @@ Three lensing observables are *not* addressed by §6, and require future work:
 
 3. *The sign and magnitude of any non-deep-MOND-regime corrections to (6.3).* For galaxies at intermediate accelerations ($g_N \sim a_0$) at $z = 0$, the same caveat from §4.4 applies: the deep-MOND ratio prediction may not extend cleanly into the transition region, where the interpolating function matters. (6.3) strictly applies in the deep-MOND limit.
 
-These three are open. The $M_\text{dyn}/M_b$ scaling (6.3) is what the framework predicts directly and unambiguously; the rest is acknowledged outside the scope.
+These three are open. The $M_\text{dyn}/M_b$ scaling (6.3) is what the framework predicts unambiguously; the rest is acknowledged outside the scope.
 
 ### 6.6 Falsification
 
