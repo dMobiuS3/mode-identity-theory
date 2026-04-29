@@ -133,7 +133,7 @@ The intrinsic scalar curvature is:
 
 $$R_\Sigma = 2K = \frac{2}{R^2}$$
 
-This is the curvature the $S^2$ quotient construction contributes. The $S^2$ quotient construction supplies it through the inherited constant curvature. The Laplace-Beltrami operator on this metric is the object of Sections 5 and 6.
+The $S^2$ quotient construction supplies it through the inherited constant curvature. The Laplace-Beltrami operator on this metric is the object of Sections 5 and 6.
 
 ---
 
@@ -185,7 +185,7 @@ Section 5 established $\lambda_0 \leq 2/R^2$ via direct computation. This sectio
 
 **Non-orientability.** The Möbius band is non-orientable, but the divergence theorem is applied here via the Riemannian density $|\cos(y/R)|\,dy\,dw$, which is a positive measure well-defined on any Riemannian manifold without requiring an orientation. The orientability obstruction to integrating differential forms does not apply to integration against a positive density.
 
-The Bochner argument is applied entirely within Sector $\mathcal{A}$. All subsequent analysis assumes $u = u(y)$ admissible in the sense of Section 2.
+We apply this identity to an eigenfunction $u$ in Sector $\mathcal{A}$.
 
 Let $u$ be any admissible eigenfunction in Sector $\mathcal{A}$ with $-\Delta_g u = \lambda u$ and Neumann boundary condition $\partial_\nu u\big|_{\partial M} = 0$. Apply the Bochner formula in dimension 2:
 
