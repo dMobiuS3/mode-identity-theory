@@ -128,7 +128,7 @@ The cosmological background selects the ground mode:
 | Isotropy | Higher modes ($m > 0$) have internal nodes, creating $O(1)$ anisotropy. CMB is isotropic to $10^{-5}$. |
 | Orthogonality | Cosmological measurements integrate over Gpc volumes. Oscillating cross-terms cancel. |
 
-### A. Totally Geodesic Embedding
+### A. The Totally Geodesic Condition
 
 The ground mode has no internal nodes. The embedding that matches this is the one with no extrinsic structure: the full extrinsic curvature tensor vanishes ($K_{ij} = 0$). This is the totally geodesic condition, the unique embedding carrying no bending information, selected by the ground mode's simplicity.
 
