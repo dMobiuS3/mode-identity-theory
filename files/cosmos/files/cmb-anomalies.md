@@ -56,11 +56,7 @@ This is the single geometric parameter. The expansion dynamics are those of flat
 
 ### B. The Möbius Surface
 
-The Möbius strip is embedded as a totally geodesic surface in a great $S^2 \subset S^3$. The identification is the antipodal map restricted to the equatorial belt:
-
-$$(x_1, x_2, x_3, x_4) \mapsto (-x_1, -x_2, -x_3, x_4)$$
-
-which is an ambient isometry of $S^3$ that reverses orientation on the surface. The Möbius band is a submanifold embedded within $S^3/2I$; it does not re-quotient the ambient space. The induced metric is $ds^2 = dy^2 + \cos^2(y/R)\,dw^2$, carrying constant Gaussian curvature $K = 1/R^2$. Fields coupled to the surface's orientation structure (sections of the orientation line bundle) satisfy anti-periodic boundary conditions: traversing the strip once flips the sign; two traversals return to the start.
+The covering $S^2 \subset S^3$ is totally geodesic ($K_{ij} = 0$). The Möbius band is constructed from a spherical band on this $S^2$ by the boundary-edge identification $(0, w) \sim (\pi R, -w)$. The band is a surface within $S^3/2I$; the construction does not re-quotient the spatial domain. The induced metric is $ds^2 = dy^2 + \cos^2(y/R)\,dw^2$, carrying constant Gaussian curvature $K = 1/R^2$. Fields coupled to the surface's orientation structure (sections of the orientation line bundle) satisfy anti-periodic boundary conditions: traversing the strip once flips the sign; two traversals return to the start.
 
 ### C. The Molien Spectrum
 
@@ -123,7 +119,7 @@ The COMPACT collaboration independently confirmed that non-orientable manifolds 
 
 ### D. Alignment
 
-The Möbius twist axis defines a preferred direction in $S^3$. The embedding of $2I$ in SU(2) $\cong S^3$ is chosen so that the twist axis (the $x_4$ direction in the antipodal map) coincides with an icosahedral symmetry axis. The $2I$-invariant modes at each surviving shell inherit axial symmetry about this direction: their $\ell = 2$ and $\ell = 3$ components point the same way. The quadrupole and octupole are aligned by construction.
+The Möbius twist axis defines a preferred direction in $S^3$. The embedding of $2I$ in SU(2) $\cong S^3$ is chosen so that the twist axis (the normal to the covering $S^2$) coincides with an icosahedral symmetry axis. The $2I$-invariant modes at each surviving shell inherit axial symmetry about this direction: their $\ell = 2$ and $\ell = 3$ components point the same way. The quadrupole and octupole are aligned by construction.
 
 The observed 10° misalignment is parallax. The observer's displacement $d$ from the domain center shifts the apparent axis on the last-scattering sphere:
 
