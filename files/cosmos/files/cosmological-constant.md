@@ -83,7 +83,7 @@ The Möbius identification twists the band:
 
 $$(y + L, w) \sim\; (y, {-w})$$
 
-The longitudinal period $L$ is set by the embedding. Let $R$ denote the curvature radius of the ambient $S^3$. The boundary $S^1$ is a single closed loop traversing the band twice; its total length is $2L$. The embedding selects $S^1$ as a great circle of $S^3$ (the maximally symmetric, geodesic choice), with circumference $2\pi R$:
+The longitudinal period $L$ is set by the metric. Let $R$ denote the curvature radius of $S^3$. The boundary $S^1$ is a single closed loop traversing the band twice; its total length is $2L$. Since $g_{yy} = 1$, each meridional leg has length $\pi R$; two legs give $2L = 2\pi R$:
 
 $$2L = 2\pi R \quad \Rightarrow \quad L = \pi R$$
 
@@ -132,11 +132,7 @@ The cosmological background selects the ground mode:
 
 The ground mode has no internal nodes. The embedding that matches this is the one with no extrinsic structure: the full extrinsic curvature tensor vanishes ($K_{ij} = 0$). This is the totally geodesic condition, the unique embedding carrying no bending information, selected by the ground mode's simplicity.
 
-$K_{ij} = 0$ is a pointwise condition; non-orientability is a global topological property. They operate at different levels. A fundamental patch of the Möbius band embeds in a great $S^2 \subset S^3$ with $K_{ij} = 0$ everywhere. The Möbius identification is the antipodal map:
-
-$$(x_1, x_2, x_3, x_4) \mapsto (-x_1, -x_2, -x_3, x_4)$$
-
-This is an ambient isometry of $S^3$. It preserves $S^2$ setwise, reverses orientation on $S^2$, and fixes the normal direction $x_4$. Since $K_{ij} = 0$ is preserved under ambient isometries, it holds on the covering spherical band. The covering $S^2$ is totally geodesic in $S^3$; the Möbius band inherits this metric through the quotient construction.
+$K_{ij} = 0$ is a pointwise condition; non-orientability is a global topological property. They operate at different levels. The covering $S^2 \subset S^3$ is totally geodesic ($K_{ij} = 0$ everywhere). The Möbius band is constructed from a spherical band on this $S^2$ by the boundary-edge identification $(0, w) \sim (\pi R, -w)$ and inherits the constant-curvature metric through this construction.
 
 A totally geodesic surface in $S^3$ of radius $R$ carries the constant-curvature metric:
 
