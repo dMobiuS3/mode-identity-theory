@@ -40,6 +40,8 @@ Because both $a_0$ and $H$ reference the same epoch-dependent hierarchy in the f
 
 $$a_0(z) = a_0(0)\,E(z), \quad E(z) \equiv H(z)/H_0. \quad \text{(1.2)}$$
 
+The bare possibility $a_0 \propto H$ has appeared previously in MOND-motivated discussions of the Milgrom coincidence. The novelty here is not the dimensional guess, but the specific framework mechanism: the ratio is fixed by $C(13/120)/C(34/120)$, the evolution is linear in $E(z)$, and the five observable exponents are locked together rather than tuned independently.
+
 Five testable predictions follow as different powers of $E(z)$, with no additional free parameter beyond the local SPARC calibration. The Euclid DR1 release in October 2026 will deliver the sharpest test through stacked galaxy-galaxy weak lensing at $z = 0.5\text{--}2$. The framework's monotonic BTFR prediction is currently in tension with the only existing intermediate-redshift measurement [10]; this tension is quantified in §4 and held without retreat.
 
 §2 derives (1.1) and (1.2). §3 propagates the evolution into five observable channels. §4 treats existing constraints. §5 specifies the Euclid test. §6 closes.
@@ -69,6 +71,8 @@ The two well assignments are local identifications: $H$ calibrates the edge hier
 **Local-epoch reading.** Equation (2.4) holds at every $z$ because $N_H(z)$ is calibrated through the local $H(z)$ at the observer's epoch, not frozen at $N_H(0)$. The alternative, anchoring $N_H$ to the present, would require a privileged time slice. The bounded domain $S^3$ with $\partial S^3 = \emptyset$ has no preferred epoch; the standing wave $\Psi(t) = \cos(t/2)$ that governs the cosmic cycle is itself $t$-dependent throughout. The local-epoch reading is the default; freezing $N_H(0)$ would be the addition of a postulate the topology does not support (Appendix A.4).
 
 **Why Λ does not evolve.** The same scaling law places $\Lambda$ at the antinode $\Theta = 60/120$ with $n = 2$ (surface mode), referenced to $\Omega_\Lambda$: the fixed eigenvalue hierarchy associated with the $\Lambda$ eigenvalue, not the redshift-dependent fractional density parameter of standard cosmological notation. Under the local-epoch reading, this eigenvalue hierarchy is the same at every $z$. The phase position $60/120$ has $d\ln C/d\Theta = 0$, giving topological protection against perturbation. The two predictions are structurally inverse: $a_0$ evolves because it references $\Omega_H$; $\Lambda$ does not because it references $\Omega_\Lambda$. This inversion is forced by the selection rule (Appendix A.2).
+
+Thus the result is a conditional prediction of the framework: given the scaling law, selection rule, calibrated well assignments, and local-epoch reading, the redshift evolution follows by substitution, with no additional evolution parameter.
 
 **Status of the §2 argument.**
 
