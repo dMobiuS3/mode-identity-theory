@@ -12,7 +12,9 @@ bshatto.pe@gmail.com
 
 ## Abstract
 
-The MOND acceleration scale $a_0 \approx 1.20 \times 10^{-10}$ m/s$^2$ satisfies $a_0/(cH_0) \approx 0.18$, a coincidence unexplained for four decades. Within a bounded-topology measurement framework on $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ (Appendix A), independent local identifications of $a_0$ and $H$ at specific phase positions on the 120-domain of $S^3/2I$ produce this ratio as a non-adjustable consequence: $C(13/120)/C(34/120) = 0.1845$, agreeing with the observed $0.1833$ at $0.7\%$ and unique among the framework's Fibonacci-well pairs. Because both observables reference the same epoch-dependent hierarchy, the ratio holds at every redshift: $a_0(z) = a_0(0)\,E(z)$. Five observable channels follow as powers of $E(z)$ with no additional free parameter: the baryonic Tully-Fisher normalization ($E^{-1}$), the MOND transition radius ($E^{-1/2}$), the asymptotic velocity at fixed baryonic mass ($E^{+1/4}$), the Newtonian-inferred lensing enhancement ($E^{+1/2}$), and the gravitational collapse time ($E^{-1/4}$). The lensing channel predicts a mass- and aperture-universal 74% enhancement of $M_\text{dyn}/M_b$ at $z = 2$, testable through mass- and aperture-stratified Euclid DR1 stacking in October 2026 and distinct from the mass- and aperture-dependent ΛCDM halo-concentration alternative. The same selection rule leaves $\Lambda$ fixed, separating the evolving galactic scale from the dark-energy sector. Existing constraints include a provisional 2.9σ trend-shape tension with the KMOS3D Tully-Fisher data, tested by forward modeling and not dissolved.
+The MOND acceleration scale $a_0 \approx 1.20 \times 10^{-10}$ m/s$^2$ satisfies $a_0/(cH_0) \approx 0.18$, a coincidence unexplained for four decades. Within a bounded-topology measurement framework on $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ (Appendix A), independent local identifications of $a_0$ and $H$ at specific phase positions on the 120-domain of $S^3/2I$ produce this ratio as a non-adjustable consequence: $C(13/120)/C(34/120) = 0.1845$, agreeing with the observed $0.1833$ at $0.7\%$ and unique among the framework's Fibonacci-well pairs. Because both observables reference the same epoch-dependent hierarchy, the ratio holds at every redshift: $a_0(z) = a_0(0)\,E(z)$. 
+
+Five observable channels follow as powers of $E(z)$ with no additional free parameter: the baryonic Tully-Fisher normalization ($E^{-1}$), the MOND transition radius ($E^{-1/2}$), the asymptotic velocity at fixed baryonic mass ($E^{+1/4}$), the Newtonian-inferred lensing enhancement ($E^{+1/2}$), and the gravitational collapse time ($E^{-1/4}$). The lensing channel predicts a mass- and aperture-universal 74% enhancement of $M_\text{dyn}/M_b$ at $z = 2$, testable through mass- and aperture-stratified Euclid DR1 stacking in October 2026 and distinct from the mass- and aperture-dependent ΛCDM halo-concentration alternative. The same selection rule leaves $\Lambda$ fixed, separating the evolving galactic scale from the dark-energy sector. Existing constraints include a provisional 2.9σ trend-shape tension with the KMOS3D Tully-Fisher data, tested by forward modeling and not dissolved.
 
 ---
 
@@ -204,7 +206,7 @@ Even under the most conservative budget, the joint tension is 2.9σ. We treat th
 
 We tested whether the Übler radial pressure-support correction can produce the observed non-monotonic pattern from a monotonic underlying BTFR. Mock galaxies at $z = 0.9$ and $z = 2.3$ were generated under the framework's prediction with literature-realistic distributions of baryonic mass, scale length, and velocity dispersion [13]. The Übler thick-disk correction $v_\text{circ}^2(r) = v_\text{rot}^2(r) + 2\sigma_0^2\,r/R_d$ was applied with the published selection cut $v_\text{rot,max}/\sigma_0 > 4.4$. Four bias models (radial-position uncertainty, beam-smearing of $\sigma_0$, non-asymptotic rotation curves, selection-induced mass shifts) were swept over literature-plausible ranges. None reproduces the observed $(-0.44, -0.27)$ pattern. The closest combined model recovers $(-0.295, -0.472)$, leaving the $z = 0.9$ point 0.15 dex above observed. The mock-generation script, parameter ranges, and random seeds are deposited with the supplementary material.
 
-The tension is genuine and not a velocity-correction artifact. The prediction stands. Resolution will come from Euclid DR1 matched-tracer kinematics and JWST follow-up at the original Übler redshifts (§5).
+The tension is genuine and not a velocity-correction artifact; however, the prediction stands. Resolution will come from Euclid DR1 matched-tracer kinematics and JWST follow-up at the original Übler redshifts (§5).
 
 ### 4.2 Galaxy clusters
 
@@ -272,9 +274,7 @@ The lensing row is the cleanest because $\sqrt{E(z)}$ is universal while the ΛC
 | Resolved kinematics at Übler redshifts | JWST NIRSpec IFU | BTFR at $z = 0.9$, $z = 2.3$ | In progress |
 | Spectroscopic confirmation, $z = 7\text{--}9$ | JWST NIRSpec | JWST efficiency | 2025--2026 |
 
-All programs listed are existing or imminent. No new instrument or observational capability is required.
-
-This paper and its predictions will be deposited on Zenodo prior to the Euclid DR1 release, fixing the numbers before the data arrive.
+All programs listed are existing or imminent. No new instrument or observational capability is required. This paper and its predictions are deposited on Zenodo prior to the Euclid DR1 release, fixing the numbers before the data arrive.
 
 ---
 
@@ -289,8 +289,6 @@ The prediction lives in a constraint landscape with one genuine tension (Übler 
 A companion analysis (separately submitted) makes the structurally inverse prediction from the same scaling law: $\Lambda$ remains constant, and the apparent $w(z)$ evolution reported by DESI DR2 is a template artifact. The two predictions test different sectors of the framework's selection rule through disjoint instruments.
 
 The sharpest scheduled test is Euclid DR1 in October 2026: stacked galaxy-galaxy lensing at $z = 0.5\text{--}2$ stratified by mass and aperture, probing both the predicted 74% enhancement and its universality in a regime where the framework and ΛCDM produce quantitatively distinct shifts. This paper and its predictions will be registered on Zenodo prior to that release.
-
-State the rule, derive its consequences, accept the data.
 
 ---
 
@@ -426,8 +424,6 @@ The ΛCDM prediction spans 37 percentage points across the mass range (0.76 to 1
 A Euclid DR1 stacked analysis stratified by both stellar mass and aperture tests the framework on two axes simultaneously: the magnitude of the redshift shift and its universality across mass and aperture. In normalized redshift evolution at $L^*$, the discriminator is $1.74/0.98 \simeq 1.78$, well above the statistical scale expected for large stacked samples, though the limiting uncertainty will be systematic calibration rather than raw shape noise.
 
 Cosmological parameters: Planck 2018 [6], $\rho_\text{crit}(0) = 8.53 \times 10^{-27}$ kg/m$^3$, $\Omega_m = 0.315$, $\Omega_\Lambda = 0.685$, $H_0 = 67.4$ km/s/Mpc.
-
----
 
 ---
 
