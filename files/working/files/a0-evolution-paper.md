@@ -222,7 +222,7 @@ The consistency condition is quantitative. Writing a minimal leakage coupling $g
 
 ### 4.4 Other regimes
 
-Local SPARC and THINGS measurements are consistent by construction: the well assignments were calibrated against $a_0(0)$ and $H_0$ at $z = 0$ (§2). Strong-lensing time-delay cosmography (TDCOSMO [17], H0LiCOW [18]) is below current sensitivity to the framework's predictions. Neither provides an independent test.
+Local SPARC and THINGS measurements are consistent by construction: the well assignments were calibrated against $a_0(0)$ and $H_0$ at $z = 0$ (§2). The Genzel et al. [22] SINS/zC-SINF sample of six massive star-forming disks at $z = 0.9\text{--}2.4$ reports declining outer rotation curves with low inferred dark-matter fractions; because no fixed-slope BTFR zero-point is published, the data are qualitatively consistent with §3.1 but do not provide a quantitative test of the normalization prediction. Strong-lensing time-delay cosmography (TDCOSMO [17], H0LiCOW [18]) is below current sensitivity to the framework's predictions. None of these regimes is sharp enough to test the framework's normalization prediction independently.
 
 ### 4.5 Summary
 
