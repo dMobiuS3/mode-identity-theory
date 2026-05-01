@@ -254,7 +254,7 @@ Euclid's stated objective is to characterize the dark Universe and its evolution
 
 **Table 7.** Falsification criteria for the five §3 predictions. A matched-systematics discrepancy at $\geq 2\sigma$ is treated as a reportable tension; formal falsification requires either $\geq 3\sigma$ in one channel or mutually consistent $\geq 2\sigma$ failures across independent redshift bins or observables.
 
-| Prediction | Signature | Falsified if | Key systematic |
+| Prediction | Signature | Reportable tension if | Key systematic |
 |---|---|---|---|
 | BTFR normalization | $A(z)/A(0) = 1/E(z)$ | Single-$z$ inconsistency at $\geq 2\sigma$ | Pressure-support correction |
 | BTFR trend shape | Monotonic decrease | Non-monotonic trend confirmed under matched systematics | Cross-instrument tracer mismatch |
@@ -274,7 +274,7 @@ The lensing row is the cleanest because $\sqrt{E(z)}$ is universal while the ΛC
 | Resolved kinematics at Übler redshifts | JWST NIRSpec IFU | BTFR at $z = 0.9$, $z = 2.3$ | In progress |
 | Spectroscopic confirmation, $z = 7\text{--}9$ | JWST NIRSpec | JWST efficiency | 2025--2026 |
 
-All programs listed are existing or imminent. No new instrument or observational capability is required. This paper and its predictions are deposited on Zenodo prior to the Euclid DR1 release, fixing the numbers before the data arrive.
+All programs listed are existing or imminent. No new instrument or observational capability is required. This paper and its predictions will be deposited on Zenodo prior to the Euclid DR1 release, fixing the numbers before the data arrive.
 
 ---
 
@@ -288,7 +288,7 @@ The prediction lives in a constraint landscape with one genuine tension (Übler 
 
 A companion analysis (separately submitted) makes the structurally inverse prediction from the same scaling law: $\Lambda$ remains constant, and the apparent $w(z)$ evolution reported by DESI DR2 is a template artifact. The two predictions test different sectors of the framework's selection rule through disjoint instruments.
 
-The sharpest scheduled test is Euclid DR1 in October 2026: stacked galaxy-galaxy lensing at $z = 0.5\text{--}2$ stratified by mass and aperture, probing both the predicted 74% enhancement and its universality in a regime where the framework and ΛCDM produce quantitatively distinct shifts. This paper and its predictions will be registered on Zenodo prior to that release.
+The sharpest scheduled test is Euclid DR1 in October 2026: stacked galaxy-galaxy lensing at $z = 0.5\text{--}2$ stratified by mass and aperture, probing both the predicted 74% enhancement and its universality in a regime where the framework and ΛCDM produce quantitatively distinct shifts. This paper and its predictions will be deposited on Zenodo prior to that release.
 
 ---
 
