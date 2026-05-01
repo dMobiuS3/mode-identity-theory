@@ -66,7 +66,7 @@ Equation (2.3) is the calibration: $H$ is the measured input that fixes $N_H(z) 
 
 $$\boxed{\;\frac{a_0(z)}{c\,H(z)} = \frac{C(13/120)}{C(34/120)} = 0.1845\;} \quad \text{(2.4)}$$
 
-The two well assignments are separately calibrated: $H$ calibrates the edge hierarchy at $\Theta = 34/120$, while $a_0$ is assigned to $\Theta = 13/120$. Both share the same $N_H(z)$, so (2.4) follows algebraically once the assignments are made. The non-trivial content is not the algebra but the output: the ratio lands at 0.1845 against an observed 0.1833, a 0.7% match at a position where only 0.34% of the domain's pairs agree within 1%. Numerically, $a_0^{\text{obs}}/(cH_0^{\text{obs}}) = 1.20 \times 10^{-10} / 6.548 \times 10^{-10} = 0.1833$. Of the 7,021 unordered distinct nonzero phase-position pairs on the 120-domain, 24 reproduce this ratio within 1%; the reflection symmetry $C(k) = C(120-k)$ collapses them to 6 unique phase-operator value pairs. Among the framework's six Fibonacci-well pairs, $(13, 34)$ is the unique match.
+The two well assignments are separately calibrated: $H$ calibrates the edge hierarchy at $\Theta = 34/120$, while $a_0$ is assigned to $\Theta = 13/120$. Both share the same $N_H(z)$, so (2.4) follows algebraically once the assignments are made. The non-trivial content is not the algebra but the output: the ratio lands at 0.1845 against an observed 0.1833, a 0.7% match at a position where only 0.34% of the domain's pairs agree within 1%. Numerically, $a_0^{\text{obs}}/(cH_0^{\text{obs}}) = 1.20 \times 10^{-10} / 6.548 \times 10^{-10} = 0.1833$. Of the 7,021 unordered distinct nonzero phase-position pairs on the 120-domain, 24 reproduce this ratio within 1%; the reflection symmetry $C(k) = C(120-k)$ collapses them to 6 unique phase-operator value pairs. Among the framework's six Fibonacci-well pairs, $(13, 34)$ is the unique match (Figure 1).
 
 **Local-epoch reading.** Equation (2.4) holds at every $z$ because $N_H(z)$ is calibrated through the local $H(z)$ at the observer's epoch, not frozen at $N_H(0)$. The alternative, anchoring $N_H$ to the present, would require a privileged time slice. The bounded domain $S^3$ with $\partial S^3 = \emptyset$ has no preferred epoch; the standing wave $\Psi(t) = \cos(t/2)$ that governs the cosmic cycle is itself $t$-dependent throughout. The local-epoch reading is the default; freezing $N_H(0)$ would be the addition of a postulate the topology does not motivate (Appendix A.4).
 
@@ -152,7 +152,7 @@ Galaxy-galaxy weak lensing infers a dynamical mass $M_\text{dyn}(R) = v_\text{fl
 
 $$\boxed{\;\frac{M_\text{dyn}(R,z)/M_b}{M_\text{dyn}(R,0)/M_b} = \sqrt{E(z)}\;}. \quad \text{(3.3)}$$
 
-The enhancement is mass-independent and aperture-independent (for $R \gg r_M$). At $z = 2$, $M_\text{dyn}/M_b$ is 74% higher than at $z = 0$ at any fixed mass and aperture.
+The enhancement is mass-independent and aperture-independent (for $R \gg r_M$). At $z = 2$, $M_\text{dyn}/M_b$ is 74% higher than at $z = 0$ at any fixed mass and aperture (Figure 2).
 
 **Table 4.** Predicted $M_\text{dyn}/M_b$ for the $L^*$ archetype at three lensing apertures.
 
@@ -180,7 +180,7 @@ In the deep-MOND regime, $g_\text{eff} = \sqrt{g_N \cdot a_0(z)}$ scales as $\sq
 | Lensing $M_\text{dyn}/M_b$ | $E(z)^{+1/2}$ | 1.741 | Euclid DR1 stacked lensing |
 | Free-fall collapse time | $E(z)^{-1/4}$ | 0.758 | JWST spectroscopy |
 
-The five exponents are correlated manifestations of one input. A measurement of any one observable at any one redshift tests $a_0(z) = a_0(0)\,E(z)$ through that channel; consistency across channels at the same $z$ tests the universality of the deep-MOND scaling across observable classes.
+The five exponents are correlated manifestations of one input (Figure 3). A measurement of any one observable at any one redshift tests $a_0(z) = a_0(0)\,E(z)$ through that channel; consistency across channels at the same $z$ tests the universality of the deep-MOND scaling across observable classes.
 
 ---
 
@@ -196,7 +196,7 @@ The framework predicts
 
 $$\Delta b^{\text{MIT}}(z{=}0.9) = -0.227~\text{dex}, \qquad \Delta b^{\text{MIT}}(z{=}2.3) = -0.540~\text{dex}.$$
 
-Two features matter. First, the magnitudes overlap: both the prediction and the data place the high-$z$ BTFR substantially below the local relation. Second, the trend shapes disagree: the data are non-monotonic ($-0.44 \to -0.27$), while the prediction is strictly monotonic ($-0.227 \to -0.540$).
+Two features matter. First, the magnitudes overlap: both the prediction and the data place the high-$z$ BTFR substantially below the local relation. Second, the trend shapes disagree: the data are non-monotonic ($-0.44 \to -0.27$), while the prediction is strictly monotonic ($-0.227 \to -0.540$) (Figure 4).
 
 The tension is quantified across three uncertainty budgets:
 
