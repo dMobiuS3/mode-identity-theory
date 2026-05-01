@@ -242,7 +242,7 @@ One live tension, one inherited problem, one structural decoupling, two consiste
 
 # §5 The Euclid DR1 test
 
-The Euclid DR1 release in October 2026 will deliver the sharpest single test of the framework's evolution prediction through stacked galaxy-galaxy weak lensing at $z = 0.5\text{--}2$.
+Euclid's stated objective is to characterize the dark Universe and its evolution across $z = 0\text{--}2$ [19]. The framework gives two structurally inverse predictions in that sector: $a_0(z) \propto H(z)$ in galactic dynamics (this paper); $\Lambda$ constant (companion paper). The Euclid DR1 release in October 2026 delivers the sharpest test of the $a_0(z)$ prediction through stacked galaxy-galaxy weak lensing at $z = 0.5\text{--}2$.
 
 **What Euclid measures.** The wide survey is expected to provide the photometric redshifts, stellar-mass estimates, galaxy shapes, and sample sizes needed for a stacked galaxy-galaxy lensing test. For the framework, the relevant observable is the Newtonian-equivalent $M_\text{dyn}/M_b$ inferred from stacked tangential shear profiles after mass and redshift stratification. Equation (3.3) is a prediction for this quoted proxy, not a standalone relativistic lensing law.
 
@@ -340,7 +340,7 @@ Under the eligibility conditions:
 
 (c) $\Lambda$ is assigned $\Theta = 60/120$: the antinode, where the phase operator takes its maximum and the log-slope vanishes.
 
-The wells $21/120$ and $55/120$ remain unassigned in this paper. The assignments have the status of empirical calibrations at $z = 0$ that land on positions compatible with the eligibility conditions. The manifold-mode classification, bosonic-projection filter, selection rule, and the prediction $a_0(z) \propto H(z)$ were established in the framework's foundational deposit [19] prior to the present paper's calibration, foreclosing post-hoc adjustment of the eligibility conditions to fit the well assignments. A first-principles derivation from the Hurwitz/Fibonacci structure of the 120-domain is future work.
+The wells $21/120$ and $55/120$ remain unassigned in this paper. The assignments have the status of empirical calibrations at $z = 0$ that land on positions compatible with the eligibility conditions. The manifold-mode classification, bosonic-projection filter, selection rule, and the prediction $a_0(z) \propto H(z)$ were established in the framework's foundational deposit [20] prior to the present paper's calibration, foreclosing post-hoc adjustment of the eligibility conditions to fit the well assignments. A first-principles derivation from the Hurwitz/Fibonacci structure of the 120-domain is future work.
 
 ## A.4 The local-epoch reading
 
@@ -429,7 +429,7 @@ Cosmological parameters: Planck 2018 [6], $\rho_\text{crit}(0) = 8.53 \times 10^
 
 ## Acknowledgments
 
-The author thanks the observational teams whose published data made this work possible: the SPARC collaboration (Lelli, McGaugh, Schombert) for the local rotation-curve sample [2,20]; Übler and the KMOS3D team for the intermediate-redshift Tully-Fisher measurements [10]; Wisnioski and the KMOS3D team for the kinematic-dispersion data used in the §4.1 forward model [13]; Genzel and the SINS/zC-SINF team for the high-redshift rotation curves [21]; Pointecouteau and Silk for the X-ray cluster analysis [14]; the JWST observing teams and the Labbé group for the early-galaxy catalog [7]; the Planck collaboration for the cosmological parameters and CMB amplitudes [6]; and the DESI collaboration for the dark-energy survey results [9]. No external funding supported this work.
+The author thanks the observational teams whose published data made this work possible: the SPARC collaboration (Lelli, McGaugh, Schombert) for the local rotation-curve sample [2,21]; Übler and the KMOS3D team for the intermediate-redshift Tully-Fisher measurements [10]; Wisnioski and the KMOS3D team for the kinematic-dispersion data used in the §4.1 forward model [13]; Genzel and the SINS/zC-SINF team for the high-redshift rotation curves [22]; Pointecouteau and Silk for the X-ray cluster analysis [14]; the JWST observing teams and the Labbé group for the early-galaxy catalog [7]; the Planck collaboration for the cosmological parameters and CMB amplitudes [6]; and the DESI collaboration for the dark-energy survey results [9]. No external funding supported this work.
 
 ## Data availability
 
@@ -475,11 +475,13 @@ All numerical predictions and tabulated framework outputs will be deposited on Z
 
 [18] K. C. Wong et al., Mon. Not. R. Astron. Soc. 498, 1420 (2020).
 
-[19] B. Shatto, Mode Identity Theory: Modal Realization from Nested Topology (2025). DOI:10.5281/zenodo.18064856.
+[19] Euclid Collaboration: Y. Mellier et al., arXiv:2405.13491 (2024).
 
-[20] S. S. McGaugh, F. Lelli, and J. M. Schombert, Phys. Rev. Lett. 117, 201101 (2016).
+[20] B. Shatto, Mode Identity Theory: Modal Realization from Nested Topology (2025). DOI:10.5281/zenodo.18064856.
 
-[21] R. Genzel et al., Nature 543, 397 (2017).
+[21] S. S. McGaugh, F. Lelli, and J. M. Schombert, Phys. Rev. Lett. 117, 201101 (2016).
+
+[22] R. Genzel et al., Nature 543, 397 (2017).
 
 ---
 
