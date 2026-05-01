@@ -34,7 +34,7 @@ This paper develops one hypothesis and its consequences. Within a bounded-topolo
 
 $$\frac{a_0}{cH} = \frac{C(13/120)}{C(34/120)} = 0.1845, \quad \text{(1.1)}$$
 
-agreeing with the observed $0.1833$ at the $0.7\%$ level. The ratio itself is not an adjustable parameter: once the $a_0$ and $H$ wells are fixed by the independent local identifications, (1.1) follows. Among the framework's ten Fibonacci-well pairs, $(13, 34)$ is the unique pair that reproduces the observed ratio within 1% (§2).
+agreeing with the observed $0.1833$ at the $0.7\%$ level. The ratio itself is not an adjustable parameter: once the $a_0$ and $H$ wells are fixed by the independent local identifications, (1.1) follows. Among the framework's six Fibonacci-well pairs, $(13, 34)$ is the unique pair that reproduces the observed ratio within 1% (§2).
 
 Because both $a_0$ and $H$ reference the same epoch-dependent hierarchy in the framework's scaling law, the ratio (1.1) holds at every cosmic epoch. The evolution follows:
 
@@ -66,7 +66,7 @@ Equation (2.3) is the calibration: $H$ is the measured input that fixes $N_H(z) 
 
 $$\boxed{\;\frac{a_0(z)}{c\,H(z)} = \frac{C(13/120)}{C(34/120)} = 0.1845\;} \quad \text{(2.4)}$$
 
-The two well assignments are local identifications: $H$ calibrates the edge hierarchy at $\Theta = 34/120$, while $a_0$ is assigned to $\Theta = 13/120$. Once these identifications are fixed, the ratio (2.4) is not independently adjustable. The observed Milgrom ratio $a_0^{\text{obs}}/(cH_0^{\text{obs}}) = 1.20 \times 10^{-10} / 6.548 \times 10^{-10} = 0.1833$ agrees with (2.4) at the $0.7\%$ level. Among the 7,021 unordered distinct nonzero phase-position pairs on the 120-domain, 24 reproduce this ratio within 1% (a fraction of $0.34\%$); the reflection symmetry $C(k) = C(120-k)$ collapses these to 6 unique phase-operator value pairs. Among the framework's ten Fibonacci-well pairs, $(13, 34)$ is the unique match.
+The two well assignments are local identifications: $H$ calibrates the edge hierarchy at $\Theta = 34/120$, while $a_0$ is assigned to $\Theta = 13/120$. Once these identifications are fixed, the ratio (2.4) is not independently adjustable. The observed Milgrom ratio $a_0^{\text{obs}}/(cH_0^{\text{obs}}) = 1.20 \times 10^{-10} / 6.548 \times 10^{-10} = 0.1833$ agrees with (2.4) at the $0.7\%$ level. Among the 7,021 unordered distinct nonzero phase-position pairs on the 120-domain, 24 reproduce this ratio within 1% (a fraction of $0.34\%$); the reflection symmetry $C(k) = C(120-k)$ collapses these to 6 unique phase-operator value pairs. Among the framework's six Fibonacci-well pairs, $(13, 34)$ is the unique match.
 
 **Local-epoch reading.** Equation (2.4) holds at every $z$ because $N_H(z)$ is calibrated through the local $H(z)$ at the observer's epoch, not frozen at $N_H(0)$. The alternative, anchoring $N_H$ to the present, would require a privileged time slice. The bounded domain $S^3$ with $\partial S^3 = \emptyset$ has no preferred epoch; the standing wave $\Psi(t) = \cos(t/2)$ that governs the cosmic cycle is itself $t$-dependent throughout. The local-epoch reading is the default; freezing $N_H(0)$ would be the addition of a postulate the topology does not support (Appendix A.4).
 
