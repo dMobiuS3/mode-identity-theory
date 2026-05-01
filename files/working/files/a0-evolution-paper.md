@@ -64,7 +64,7 @@ Equation (2.3) is the calibration: $H$ is the measured input that fixes $N_H(z) 
 
 $$\boxed{\;\frac{a_0(z)}{c\,H(z)} = \frac{C(13/120)}{C(34/120)} = 0.1845\;} \quad \text{(2.4)}$$
 
-The two well assignments are local identifications: $H$ calibrates the edge hierarchy at $\Theta = 34/120$, while $a_0$ is assigned to $\Theta = 13/120$. Once these identifications are fixed, the ratio (2.4) is not independently adjustable. The observed Milgrom ratio $a_0^{\text{obs}}/(cH_0^{\text{obs}}) = 1.20 \times 10^{-10} / 6.548 \times 10^{-10} = 0.1833$ agrees with (2.4) at the $0.7\%$ level. Among the 7,021 unordered distinct nonzero phase-position pairs on the 120-domain, 12 reproduce this ratio within 1% (a fraction of $0.17\%$); among the framework's ten Fibonacci-well pairs, $(13, 34)$ is the unique match.
+The two well assignments are local identifications: $H$ calibrates the edge hierarchy at $\Theta = 34/120$, while $a_0$ is assigned to $\Theta = 13/120$. Once these identifications are fixed, the ratio (2.4) is not independently adjustable. The observed Milgrom ratio $a_0^{\text{obs}}/(cH_0^{\text{obs}}) = 1.20 \times 10^{-10} / 6.548 \times 10^{-10} = 0.1833$ agrees with (2.4) at the $0.7\%$ level. Among the 7,021 unordered distinct nonzero phase-position pairs on the 120-domain, 24 reproduce this ratio within 1% (a fraction of $0.34\%$); among the framework's ten Fibonacci-well pairs, $(13, 34)$ is the unique match.
 
 **Local-epoch reading.** Equation (2.4) holds at every $z$ because $N_H(z)$ is calibrated through the local $H(z)$ at the observer's epoch, not frozen at $N_H(0)$. The alternative, anchoring $N_H$ to the present, would require a privileged time slice. The bounded domain $S^3$ with $\partial S^3 = \emptyset$ has no preferred epoch; the standing wave $\Psi(t) = \cos(t/2)$ that governs the cosmic cycle is itself $t$-dependent throughout. The local-epoch reading is the default; freezing $N_H(0)$ would be the addition of a postulate the topology does not support (Appendix A.4).
 
@@ -206,7 +206,7 @@ Even under the most conservative budget, the joint tension is 2.9σ. We treat th
 
 We tested whether the Übler radial pressure-support correction can produce the observed non-monotonic pattern from a monotonic underlying BTFR. Mock galaxies at $z = 0.9$ and $z = 2.3$ were generated under the framework's prediction with literature-realistic distributions of baryonic mass, scale length, and velocity dispersion [13]. The Übler thick-disk correction $v_\text{circ}^2(r) = v_\text{rot}^2(r) + 2\sigma_0^2\,r/R_d$ was applied with the published selection cut $v_\text{rot,max}/\sigma_0 > 4.4$. Four bias models (radial-position uncertainty, beam-smearing of $\sigma_0$, non-asymptotic rotation curves, selection-induced mass shifts) were swept over literature-plausible ranges. None reproduces the observed $(-0.44, -0.27)$ pattern. The closest combined model recovers $(-0.295, -0.472)$, leaving the $z = 0.9$ point 0.15 dex above observed. The mock-generation script, parameter ranges, and random seeds are deposited with the supplementary material.
 
-The tension is genuine and not a velocity-correction artifact; however, the prediction stands. Resolution will come from Euclid DR1 matched-tracer kinematics and JWST follow-up at the original Übler redshifts (§5).
+The tension is genuine and not a velocity-correction artifact. The prediction stands. Resolution will come from Euclid DR1 matched-tracer kinematics and JWST follow-up at the original Übler redshifts (§5).
 
 ### 4.2 Galaxy clusters
 
