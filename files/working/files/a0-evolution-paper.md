@@ -421,6 +421,19 @@ At the canonical $R = 100$ kpc aperture, the ΛCDM $M_\text{dyn}/M_b$ ratio at $
 
 The ΛCDM prediction spans 37 percentage points across the mass range (0.76 to 1.13); the framework predicts a universal 1.74. At fixed $L^*$ mass, the ΛCDM ratio also varies with aperture: 1.07 at $R = 30$ kpc, 0.98 at $R = 100$ kpc, 0.92 at $R = 300$ kpc; the framework predicts 1.74 at all three.
 
+**Sensitivity bracketing.** Table B.1 evaluates the same NFW pipeline under pessimistic and optimistic SHMR + concentration parameterizations at the $L^*$ archetype, $R = 100$ kpc.
+
+**Table B.1.** ΛCDM $L^*$ $M_\text{dyn}/M_b$ at $R = 100$ kpc under three parameterizations, against the framework's universal prediction.
+
+| Parameterization | $(M_\text{halo}, c)$ at $z = 0$ | $(M_\text{halo}, c)$ at $z = 2$ | $M_\text{dyn}/M_b$: $z=0$ / $z=2$ | Framework / ΛCDM at $z=2$ |
+|---|---|---|---|---|
+| Pessimistic | $(2.0 \times 10^{12}, 9.0)$ | $(1.0 \times 10^{12}, 4.5)$ | 17.7 / 17.5 | 1.19 |
+| Representative | $(1.5 \times 10^{12}, 7.5)$ | $(7.0 \times 10^{11}, 3.5)$ | 14.0 / 13.8 | 1.52 |
+| Optimistic | $(1.0 \times 10^{12}, 6.0)$ | $(5.0 \times 10^{11}, 2.5)$ | 10.3 / 11.2 | 1.86 |
+| **Framework (universal)** | — | — | **11.98 / 20.86** | — |
+
+Even under the pessimistic parameterization, the framework's $z = 2$ prediction sits 19% above the ΛCDM upper bracket. The normalized evolution-ratio framing ($1.74/0.98 \simeq 1.78$) inherits this robustness with additional cancellation, since the ΛCDM $z = 2$ and $z = 0$ endpoints shift correlatedly under SHMR and concentration variations and the ratio is more stable than either absolute value.
+
 A Euclid DR1 stacked analysis stratified by both stellar mass and aperture tests the framework on two axes simultaneously: the magnitude of the redshift shift and its universality across mass and aperture. In normalized redshift evolution at $L^*$, the discriminator is $1.74/0.98 \simeq 1.78$, well above the statistical scale expected for large stacked samples, though the limiting uncertainty will be systematic calibration rather than raw shape noise.
 
 Cosmological parameters: Planck 2018 [6], $\rho_\text{crit}(0) = 8.53 \times 10^{-27}$ kg/m$^3$, $\Omega_m = 0.315$, $\Omega_\Lambda = 0.685$, $H_0 = 67.4$ km/s/Mpc.
