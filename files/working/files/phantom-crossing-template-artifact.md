@@ -86,7 +86,7 @@ The negative (1+z)¹ term is absent from the four canonical FLRW components:
 | Matter | (1+z)³ |
 | Curvature | (1+z)² |
 | Cosmological constant | (1+z)⁰ |
-| Λcos correction | (1+z)¹ |
+| **Λcos correction** | **(1+z)¹** |
 
 A constant-w fluid with w = −2/3 (domain walls) would produce the same redshift scaling. The Λcos term is distinguished here by the tied coefficient −β(s₀), rather than by the scaling alone. Its coefficient is −β = −(1−Ω_Λ)s₀²/(1−s₀²), strictly negative for s₀ > 0 and vanishing in the ΛCDM limit.
 
