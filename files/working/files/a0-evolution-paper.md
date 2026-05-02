@@ -278,7 +278,7 @@ The lensing row is the cleanest because $\sqrt{E(z)}$ is universal while the ΛC
 | Resolved kinematics at Übler redshifts | JWST NIRSpec IFU | BTFR at $z = 0.9$, $z = 2.3$ | In progress |
 | Spectroscopic confirmation, $z = 7\text{--}9$ | JWST NIRSpec | JWST efficiency | 2025--2026 |
 
-All programs listed are existing or imminent. No new instrument or observational capability is required. This paper and its predictions will be deposited on Zenodo prior to the Euclid DR1 release, fixing the numbers before the data arrive.
+All programs listed are existing or imminent. No new instrument or observational capability is required. This paper and its predictions are deposited on Zenodo (concept DOI: 10.5281/zenodo.19980665) prior to the Euclid DR1 release, fixing the numbers before the data arrive.
 
 ---
 
@@ -292,7 +292,7 @@ The prediction lives in a constraint landscape with one genuine tension (Übler 
 
 A companion analysis (separately submitted) makes the structurally inverse prediction from the same scaling law: $\Lambda$ remains constant, and the apparent $w(z)$ evolution reported by DESI DR2 is a template artifact. The two predictions test different sectors of the framework's selection rule through disjoint instruments.
 
-The sharpest scheduled test is Euclid DR1 in October 2026: stacked galaxy-galaxy lensing at $z = 0.5\text{--}2$ stratified by mass and aperture, probing both the predicted 74% enhancement and its universality in a regime where the framework and ΛCDM produce quantitatively distinct shifts. This paper and its predictions will be deposited on Zenodo prior to that release.
+The sharpest scheduled test is Euclid DR1 in October 2026: stacked galaxy-galaxy lensing at $z = 0.5\text{--}2$ stratified by mass and aperture, probing both the predicted 74% enhancement and its universality in a regime where the framework and ΛCDM produce quantitatively distinct shifts. This paper and its predictions are deposited on Zenodo (concept DOI: 10.5281/zenodo.19980665) prior to that release.
 
 ---
 
@@ -450,7 +450,7 @@ The author thanks the observational teams whose published data made this work po
 
 ## Data availability
 
-All numerical predictions and tabulated framework outputs will be deposited on Zenodo prior to the Euclid DR1 release in October 2026. The deposit includes the combinatorial baseline table (supporting §2); the §§3-5 prediction tables (Tables 1-5) in CSV format; the ΛCDM lensing discriminator overlay (NFW enclosed-mass curves at the canonical archetypes, supporting §3.3 and Appendix B); the Übler σ-tension table (supporting §4.1); the CMB leakage-bound table (supporting §4.3); and the Labbé candidate speedup factors (supporting §3.4). Source code for the analysis pipelines and figure-generation scripts will be made available at https://github.com/dmobius3/a0z.
+All numerical predictions, tabulated framework outputs, and source code for the analysis pipelines and figure-generation scripts are archived at Zenodo (concept DOI: 10.5281/zenodo.19980665), mirrored from https://github.com/dmobius3/a0z (release v1.1.0). The archive includes the combinatorial baseline table (supporting §2); the §§3-5 prediction tables (Tables 1-5) in CSV format; the ΛCDM lensing discriminator overlay (NFW enclosed-mass curves at the canonical archetypes, supporting §3.3 and Appendix B); the Übler σ-tension table (supporting §4.1); the CMB leakage-bound table (supporting §4.3); and the Labbé candidate speedup factors (supporting §3.4).
 
 ---
 
