@@ -27,7 +27,7 @@ Work left to right. No backflow. If something fails at Tool 3, you do not "fix" 
 | 120 structure | 2I (binary icosahedral, largest exceptional discrete subgroup of SU(2) ≅ S³) acts freely; \|2I\| = 120 | DERIVED |
 | Gauss-Codazzi | 3/2 curvature interface: R_spatial = 3R_Σ = 2Λ → Λ_obs = (3/2)Λ_top. Ground eigenvalue λ₀ = 2/R² = R_Σ derived directly; Bochner bound confirms λ₀ ≥ R_Σ with equality unique. | DERIVED |
 | Topological protection of Λ | Λ_top sits at the antinode (Θ = 60/120) where d ln C/dΘ = 0. Zero slope means no perturbation can shift it. Λ is constant because the mode cannot be displaced. | DERIVED |
-| G as consistency condition | G is not derived from topology but is constrained by it. Given Λ = 3/R² (Möbius eigenvalue) and μ_Λ from the mass spectrum: G = 3c⁴ / (8π R² μ_Λ⁴). All G-dependence collects into a single power law: m ∝ G^{-(15+d)/60}. The solution is closed-form, not transcendental. One equation, one unknown, given c, ℏ, R, and one measured particle mass. Electron anchor: +7%, muon: -7%, geometric mean: <1%. G is the exchange rate between what the surface curves and what the spectrum hums. | ESTABLISHED |
+| G as exchange rate | The topology independently sources both the curvature (Λ_obs = 3/R² from the Möbius eigenvalue through Gauss-Codazzi) and the energy floor (μ_Λ from the mass spectrum). G is the exchange rate between them: G = 3c⁴/(8πR²μ_Λ⁴). All G-dependence collects into a single power law: m ∝ G^{-(15+d)/60}. The solution is closed-form, not transcendental. One equation, one unknown, given c, ℏ, R, and one measured particle mass. Electron anchor: +7%, muon: -7%, geometric mean: <1%. | ESTABLISHED |
 
 **What this tool settles:**
 
@@ -42,7 +42,7 @@ The 120-grid IS S³ structure, not a filter applied to it. S¹ is partitioned in
 | Stabilizer triple (2, 3, 5) | Color, domain, forces, gravity ratio | Face/edge/vertex decompositions and interfaces |
 | Observer at √Ω | Coupling constants, hierarchy | Scaling law at Fibonacci wells |
 | S³ space | Spatial curvature | Responds to all of the above |
-| G (consistency condition) | Curvature-energy dictionary | 3c⁴/(8πR²μ_Λ⁴); exchange rate between surface and spectrum |
+| G | Curvature-energy exchange rate | 3c⁴/(8πR²μ_Λ⁴); closed-form from topology + one mass anchor |
 
 **Why gravity resists quantization:** Space (S³) curves continuously. The Möbius surface samples discretely via the 120 domain. The 3/2 conversion carries one into the other, bridging their difference in kind. Quantizing that bridge would require both partners to be the same type. The topology permits neither discretizing S³ geometry nor making the mode spectrum continuous. The resistance is structural.
 
@@ -121,7 +121,7 @@ The binary icosahedral group 2I inherits three stabilizer subgroups from the ico
 | Face (Z₃) | Order 3 | Color: singlet vs triplet | LOCKED |
 | Edge (Z₄) | Order 4 | Domain: D = 60 vs 120; spin-statistics | LOCKED |
 | Vertex (Z₅) | Order 5 | Electroweak interface; T₃ via Coxeter-Galois gate | ESTABLISHED |
-| Face/Edge ratio | 3/2 | Gravity: Gauss-Codazzi curvature conversion | MOTIVATED |
+| Face/Edge ratio | 3/2 | Gravity: Gauss-Codazzi curvature conversion | DERIVED |
 | Vertex through twist | cos(π/10) | Weak coupling correction; parity violation | MOTIVATED |
 
 The three stabilizer orders 2, 3, 5 are the primes dividing |2I| = 120 and the conductors of the four surviving Dirichlet characters in the torsion L-basis.
@@ -230,11 +230,11 @@ Note: R7 is the only irrep where T²(std) = T²(gal). The electron sits at the p
 
 **What this tool answers:** "What number does this representation carry?" This is the spectral DNA of MIT.
 
-**What it does NOT do:** Provide a uniform algebraic closed form across both spin parities. Both are exact; integer-spin is also algebraic. And by Lemma 8, no natural map exists between the phase position Θ and the spectral parameter s. The fine structure of the mass formula cannot be completed by extending spectral arithmetic. This is proved, not open. The mass formula (C_geom × McKay elevator × torsion) is not just what was found — it is the only structure the geometry permits.
+**What it does NOT do:** Provide a uniform algebraic closed form across both spin parities. Both are exact; integer-spin is also algebraic. By Lemma 8, no natural map exists between the phase position Θ and the spectral parameter s. The fine structure of the mass formula cannot be completed by extending spectral arithmetic. This is proved, not open. The mass formula (C_geom × McKay elevator × torsion) is not just what was found; it is the only structure the geometry permits.
 
-Lemma 8 also explains why this boundary is structurally necessary rather than a limitation of technique.
+Lemma 8 explains why this boundary is structurally necessary rather than a limitation of technique.
 
-### Curvature Duality (DERIVED — §6)
+### Curvature Duality (DERIVED)
 
 The positive Ricci curvature Ric = 2/R² does two things simultaneously from the same equation:
 
@@ -337,13 +337,12 @@ The bridge between spectral geometry (Tools 2-3) and the scaling law (Tool 5) is
 
 | Observable | Θ | C(Θ) | n | Ω | A/A_P | Status |
 |------------|-------|----------|---|-------|-------|--------|
-| α | 13/60 | 0.79 | 1/30 | Ω_Λ | 7.33 × 10⁻³ | n ESTABLISHED* |
+| α | 13/60 | 0.79 | 1/30 | Ω_Λ | 7.33 × 10⁻³ | n ESTABLISHED |
 | a₀/a_P | 13/120 | 0.22 | 1 | Ω_H | 2.2 × 10⁻⁶² | DERIVED |
 | H₀ · t_P | 34/120 | 1.21 | 1 | Ω_H | 1.2 × 10⁻⁶¹ | DERIVED |
-| Λ_obs · ℓ_P² | 60/120 | 2.00 | 2 | Ω_Λ | 3.0 × 10⁻¹²² | DERIVED** |
+| Λ_obs · ℓ_P² | 60/120 | 2.00 | 2 | Ω_Λ | 3.0 × 10⁻¹²² | DERIVED |
 
-*Alpha uses bosonic grid (Θ on 1/60 lattice). Exponent n = 1/30 is ESTABLISHED (professional certainty; two convergent paths: McKay packetization, dimensionless dilution rule). The Phase-logΩ route is proved not to exist (Lemma 8: no natural map between Θ and s on S³/2I).
-**Λ_obs = (3/2) × Λ_top by Gauss-Codazzi embedding.
+Alpha uses bosonic grid (Θ on 1/60 lattice). Exponent n = 1/30 is ESTABLISHED (professional certainty; two convergent paths: McKay packetization, dimensionless dilution rule). The Phase-logΩ route is proved not to exist (Lemma 8: no natural map between Θ and s on S³/2I). Λ_obs = (3/2) × Λ_top by Gauss-Codazzi embedding.
 
 ### The 24 Predictions (Mass Formula Output)
 
@@ -395,10 +394,9 @@ The bridge between spectral geometry (Tools 2-3) and the scaling law (Tool 5) is
 | Coherence scale | L_f = v_c²/a₀ | Dimensional analysis; ~13 kpc for Milky Way |
 | Phase field response | Θ_f = 2/120 · 1(𝒯 ≥ 𝒯_c) | Binary; minimum bosonic step or nothing |
 | H₀ shift | 8.4% | C(36/120)/C(34/120) = 1.084 |
-| Inputs | c, ℏ, R, m_e | + Ωm (concordance) |
-| Free parameters | 0 | |
+| Inputs | c, ℏ, R (from H_∞), m_e | + Ωm (concordance) |
 
-### The Sunflower Hint
+### The Sunflower
 
 The matter well 13/60 in the scaling law IS the golden angle on the 120 domain:
 ```
@@ -418,8 +416,8 @@ The scaling law and mass formula are established. Remaining open work:
 | Fermion mass residual | Systematic overshoot growing with McKay dist; one-parameter correction at high dist needed |
 | Rank 3 exclusion | R1 triv at ~0.4 eV; non-SM state or structural correction: OPEN |
 | Rank 16 target | R5 std at ~349 MeV; no SM assignment; prediction standing |
-| Black ∅ mechanism | ESTABLISHED. Horizon = double zero: Θ → 0 drives C(Θ) → 0 (sampling ceases); Ω_H → 0 independently collapses local hierarchy. Information preserved: wave persists through node, unsampled not destroyed. Area scaling falls out of surface primacy (n=2 fundamental). Open: Φ → Θ mapping — the function f(Φ/c²) that connects gravitational potential to phase position, reproducing the galactic binary trigger in weak field and reaching Θ = 0 at the Schwarzschild horizon (Φ/c² = -1/2). Priority 1. |
-| Spectral-physical bridge | OPEN — narrowed. The spectral double zero (Tool 3: torsion survivor log T²) and the physical double zero (Tool 5: Hawking radiation at C gradient) are structurally parallel. The direct route — a continuous map s ↔ Θ — is proved not to exist (continuous position drops out of spectral data on S³/2I by right-SU(2) homogeneity; four independent proofs). One route remains: through the physical Φ → Θ mapping. If gravitational potential provides the discrete localization that spectral geometry lacks, the torsion survivors {log 2, log 3, log 5, log φ} could constrain horizon structure through the same arithmetic that constrains the fermion mass spectrum, unifying Tools 3 and 5 at the domain boundary. But the Φ → Θ mapping must be built first. |
+| Black ∅ mechanism | ESTABLISHED. Horizon = double zero: Θ → 0 drives C(Θ) → 0 (sampling ceases); Ω_H → 0 independently collapses local hierarchy. Information preserved: wave persists through node, unsampled not destroyed. Area scaling falls out of surface primacy (n=2 fundamental). Open: Φ → Θ mapping (the function f(Φ/c²) that connects gravitational potential to phase position, reproducing the galactic binary trigger in weak field and reaching Θ = 0 at the Schwarzschild horizon where Φ/c² = -1/2). Priority 1. |
+| Spectral-physical bridge | OPEN (narrowed). The spectral double zero (Tool 3: torsion survivor log T²) and the physical double zero (Tool 5: Hawking radiation at C gradient) are structurally parallel. The direct route (a continuous map s ↔ Θ) is proved not to exist (Lemma 8: continuous position drops out of spectral data on S³/2I by right-SU(2) homogeneity; four independent proofs). One route remains: through the physical Φ → Θ mapping. If gravitational potential provides the discrete localization that spectral geometry lacks, the torsion survivors {log 2, log 3, log 5, log φ} could constrain horizon structure through the same arithmetic that constrains the fermion mass spectrum, unifying Tools 3 and 5 at the domain boundary. But the Φ → Θ mapping must be built first. |
 
 ---
 
@@ -448,20 +446,6 @@ COMPARE TO OBSERVATION
 ```
 
 If something fails at step 3, you do not fix it at step 5. That is how you avoid numerology.
-
----
-
-## Status Summary
-
-| Tool | Lock Status | Notes |
-|------|-------------|-------|
-| 1. Frame | LOCKED | All axioms, all derived topology. G consistency condition identified. Division of labor settled. |
-| 2. Skeleton | LOCKED | Character table, McKay, Kostant, tensors, vacuum spectra, C_geom values, stabilizer structure |
-| 3. Fingerprint | LOCKED (integer-spin); EXACT (half-integer) | φ⁻⁴ exact; 24 vacuum torsion values computed; spin-parity split characterized |
-| 4. Selector | LOCKED | Three vacua, gaps, triplication, eta sign gate, vacuum-as-electroweak-selector |
-| 5. Output | LOCKED (scaling law); ESTABLISHED (mass formula, T₃ rule, α exponent, G); OPEN (charm assignment, ν₂ gap) | Bridge found: C_geom × McKay elevator × torsion. 10 SM fermions assigned, 9 within ×3. G closed-form from (c, ℏ, R, m_e). Two α formal derivation paths remain; direct Phase-logΩ route proved not to exist. |
-
-Everything upstream is fixed. Only the output map remains.
 
 ---
 
