@@ -88,7 +88,7 @@ The negative (1+z)¹ term is absent from the four canonical FLRW components:
 | Cosmological constant | (1+z)⁰ |
 | **Λcos correction** | **(1+z)¹** |
 
-A constant-w fluid with w = −2/3 (domain walls) would produce the same redshift scaling. The Λcos term is distinguished here by the tied coefficient −β(s₀), rather than by the scaling alone. Its coefficient is −β = −(1−Ω_Λ)s₀²/(1−s₀²), strictly negative for s₀ > 0 and vanishing in the ΛCDM limit.
+A constant-w fluid with w = −2/3 (domain walls) would produce the same redshift scaling. The Λcos term is distinguished here by the tied coefficient −β(s₀), rather than by the scaling alone. Its coefficient is −β = −(1−Ω_Λ)s₀²/(1−s₀²), strictly negative for s₀ > 0 and vanishing in the ΛCDM limit. Interpreted as an effective fluid, the negative coefficient would imply a violation of the weak energy condition. However, the (1+z)¹ term is not an independent component but a correction arising from the bounded parameterization of the matter sector; energy condition arguments apply to physical stress-energy, not to diagnostic residuals of an algebraic decomposition.
 
 ---
 
@@ -123,7 +123,7 @@ $$\boxed{w_{\rm eff}(z) > -1 \quad \text{for the fiducial-matter diagnostic spli
 
 The constraint 0 < s₀ < 1 follows from the definition s₀ = sin(t_now/2) with 0 < t_now ≤ π (§2.1). At s₀ = 0, w_eff = −1 everywhere (the fiducial flat ΛCDM limit). For s₀ > 0, the correction is positive and begins at order s₀².
 
-The decomposition choice matters: had we instead subtracted the dressed coefficient α(1+z)³, the residual would be −β(1+z) + Ω_Λ, which is a decreasing function of z and yields a different w_eff trajectory. The motivation for the adopted diagnostic split is that Ω_m = 1 − Ω_Λ is held fixed as the fiducial matter fraction, independent of s₀. The s₀-dependent excess relative to Ω_m(1+z)³ is therefore assigned to X(z), the effective residual component whose equation of state is being diagnosed.
+The decomposition choice matters: had we instead subtracted the dressed coefficient α(1+z)³, the residual would be −β(1+z) + Ω_Λ, which is a decreasing function of z and yields a different w_eff trajectory. Because that residual dilutes faster than a cosmological constant, it necessarily produces w_eff < −1 at sufficiently high z; this is a decomposition artifact, not a property of the physics. The motivation for the adopted diagnostic split is that Ω_m = 1 − Ω_Λ is held fixed as the fiducial matter fraction, independent of s₀. The s₀-dependent excess relative to Ω_m(1+z)³ is therefore assigned to X(z), the effective residual component whose equation of state is being diagnosed.
 
 ---
 
