@@ -14,7 +14,7 @@ Independent Researcher, St. Petersburg, FL, USA
 
 DESI DR2 reports a 2.8–4.2σ preference for dynamical dark energy in combined analyses, with standard w₀w_a fits favoring an apparent crossing of w = −1. We show that a non-phantom expansion history can produce apparent phantom crossings when analyzed with standard two-parameter templates. We construct a specific realization, Λcos, and constrain it using Pantheon+ and DESI DR2 BAO. At data-allowed parameter values, the induced CPL distortion is structurally present but modest (w₀ ≈ −1.02) and of opposite sign in w_a, establishing the mechanism without reproducing the DESI best-fit amplitude.
 
-The Λcos model yields H²(z)/H₀² = α(1+z)³ − β(1+z) + Ω_Λ, where α and β are determined by a single parameter s₀ and a fixed reference value Ω_Λ = 0.685. Under the fiducial-matter diagnostic split, the model satisfies w_eff(z) > −1 at all redshifts, recovers the fiducial flat ΛCDM limit as s₀ → 0, and contains a negative (1+z)¹ term in H² absent from the four canonical FLRW density scalings. A joint MCMC fit to Pantheon+ (1701 SNe Ia) and DESI DR2 BAO (13 data points) yields Δχ² = +0.11 relative to flat ΛCDM at the same parameter count, with s₀ < 0.18 (95% CL, flat prior). The constraint is robust across prior choices (s₀ < 0.12–0.21) and Ω_Λ variations (0.68–0.715). Adding compressed Planck distance priors shifts the preferred Ω_Λ in both ΛCDM and Λcos; allowing Ω_Λ to vary gives statistically equivalent fits (Δχ² = +0.43 at equal parameter count).
+The Λcos model yields H²(z)/H₀² = α(1+z)³ − β(1+z) + Ω_Λ, where α and β are determined by a single parameter s₀ and a fixed reference value Ω_Λ = 0.685. Under the fiducial-matter diagnostic split, the model satisfies w_eff(z) > −1 at all redshifts, recovers the fiducial flat ΛCDM limit as s₀ → 0, and contains a negative (1+z)¹ term in H² absent from the four canonical FLRW density scalings. A joint MCMC fit to Pantheon+ (1701 SNe Ia) and DESI DR2 BAO (13 data points) yields Δχ² = +0.11 relative to flat ΛCDM at the same parameter count, with s₀ < 0.18 (95% CL, flat prior). The constraint is robust across prior choices (s₀ < 0.12–0.21) and Ω_Λ variations (0.68–0.715). Adding compressed Planck distance priors shifts the preferred Ω_Λ in both ΛCDM and Λcos; allowing Ω_Λ to vary gives statistically equivalent fits (Δχ² = +0.28 at equal parameter count).
 
 ---
 
@@ -192,8 +192,8 @@ Both models have three free parameters. The primary results are reported at the 
 
 | | Flat ΛCDM | Λcos |
 |-|-----------|------|
-| **Primary parameter** | Ω_m = 0.312 [0.304, 0.321] | s₀ = 0.072 [0.023, 0.140] |
-| **H₀r_d (km/s)** | 10044 [9976, 10113] | 10009 [9974, 10041] |
+| **Primary parameter** | Ω_m = 0.312 [0.304, 0.321] | s₀ = 0.073 [0.023, 0.139] |
+| **H₀r_d (km/s)** | 10044 [9976, 10113] | 10010 [9975, 10042] |
 | **M_B** | −19.355 [−19.360, −19.350] | −19.353 [−19.357, −19.350] |
 | **χ²_min** | 1772.5 | 1772.6 |
 | **χ²_SN / χ²_BAO** | 1759.9 / 12.6 | 1759.0 / 13.5 |
@@ -215,7 +215,7 @@ Since the Λcos posterior is concentrated near the lower prior boundary, the 95%
 | Prior on s₀ | s₀ median | s₀ 95% UL | χ²_min |
 |-------------|-----------|-----------|--------|
 | Flat s₀ ∈ [0.001, 0.99] (baseline) | 0.072 | 0.181 | 1772.6 |
-| Flat in s₀² (more weight at larger s₀) | 0.116 | 0.210 | 1772.6 |
+| Flat in s₀² (more weight at larger s₀) | 0.115 | 0.208 | 1772.6 |
 | Flat in log₁₀(s₀) (scale-invariant) | 0.011 | 0.115 | 1772.6 |
 
 The χ²_min is identical across all three priors (the likelihood is unchanged; only the posterior weighting differs). The 95% upper limit ranges from 0.12 to 0.21, a factor of ~1.8. The constraint is prior-sensitive in detail but data-driven in character: all three priors yield s₀ ≪ 1.
@@ -226,13 +226,13 @@ The primary fit uses Ω_Λ = 0.685 as a fixed reference value. To test robustnes
 
 | Ω_Λ | s₀ median | s₀ 95% UL | Δχ² vs ΛCDM |
 |-----|-----------|-----------|-------------|
-| 0.680 | 0.064 | 0.163 | +0.78 |
-| 0.685 (baseline) | 0.072 | 0.181 | +0.11 |
-| 0.690 | 0.088 | 0.204 | +0.04 |
-| 0.700 | 0.149 | 0.262 | +0.93 |
-| 0.715 (CMB-preferred) | 0.277 | 0.348 | +2.39 |
+| 0.680 | 0.061 | 0.163 | +0.83 |
+| 0.685 (baseline) | 0.073 | 0.180 | +0.11 |
+| 0.690 | 0.089 | 0.205 | +0.07 |
+| 0.700 | 0.149 | 0.261 | +0.96 |
+| 0.715 (CMB-preferred) | 0.277 | 0.349 | +2.38 |
 
-The s₀ constraint varies smoothly with Ω_Λ, with the 95% upper limit ranging from 0.16 to 0.35 across the tested interval. The best Δχ² occurs near Ω_Λ = 0.69. At the CMB-preferred value Ω_Λ = 0.715, the best-fit s₀ shifts to 0.288 (nonzero) and the model is mildly disfavored (Δχ² = +2.39). The results are stable across the tested range; no fine-tuning of Ω_Λ is required.
+The s₀ constraint varies smoothly with Ω_Λ, with the 95% upper limit ranging from 0.16 to 0.35 across the tested interval. The best Δχ² occurs near Ω_Λ = 0.69. At the CMB-preferred value Ω_Λ = 0.715, the best-fit s₀ shifts to 0.288 (nonzero) and the model is mildly disfavored (Δχ² = +2.38). The results are stable across the tested range; no fine-tuning of Ω_Λ is required.
 
 ### 5.5 CMB distance priors
 
@@ -243,13 +243,13 @@ The four-parameter Λcos fit with Ω_Λ free and the four-parameter non-flat ΛC
 | | Λcos (Ω_Λ free) | Non-flat ΛCDM |
 |-|------------------|---------------|
 | **Free params** | s₀, Ω_Λ, H₀r_d, M_B | Ω_m, Ω_Λ, H₀r_d, M_B |
-| **Best-fit Ω_Λ** | 0.715 [0.711, 0.718] | 0.722 |
-| **χ²_min** | 1817.8 | 1817.3 |
-| **Δχ²** | +0.43 | 0 (reference) |
+| **Best-fit Ω_Λ** | 0.714 [0.711, 0.718] | 0.720 [0.708, 0.732] |
+| **χ²_min** | 1814.8 | 1814.5 |
+| **Δχ²** | +0.28 | 0 (reference) |
 
-The two models are indistinguishable at Δχ² = +0.43 with the same parameter count.
+The two models are indistinguishable at Δχ² = +0.28 with the same parameter count.
 
-For comparison, fixing Ω_Λ = 0.685 introduces a penalty of Δχ² = +67.9 relative to flat ΛCDM (3 parameters each). This tension is driven by the BAO sector (χ²_BAO = 125 vs 31), not by the CMB priors themselves (χ²_CMB = 1.4 for Λcos vs 16.2 for ΛCDM). The effect is not specific to Λcos: adding CMB priors shifts the preferred Ω_Λ from 0.685–0.688 (SN+BAO) to ~0.715 in both ΛCDM and Λcos. Flat ΛCDM absorbs the shift through Ω_m (which moves from 0.312 to 0.285). Λcos at fixed Ω_Λ cannot absorb it. The shift from Ω_Λ ≈ 0.685 to Ω_Λ ≈ 0.715 should therefore be interpreted as a background-distance consistency issue in the compressed-prior setup, rather than as a failure mode unique to Λcos.
+For comparison, fixing Ω_Λ = 0.685 introduces a penalty of Δχ² ≈ +66 relative to flat ΛCDM (3 parameters each). This tension is driven by the BAO sector (χ²_BAO = 120 vs 30), not by the CMB priors themselves (χ²_CMB = 1.3 for Λcos vs 14.7 for ΛCDM). The effect is not specific to Λcos: adding CMB priors shifts the preferred Ω_Λ from 0.685–0.688 (SN+BAO) to ≈ 0.714 (Λcos with Ω_Λ free) and ≈ 0.720 (non-flat ΛCDM). Flat ΛCDM absorbs the shift through Ω_m (which moves from 0.312 to 0.286). Λcos at fixed Ω_Λ cannot absorb it. The shift from Ω_Λ ≈ 0.685 to Ω_Λ ≈ 0.714 should therefore be interpreted as a background-distance consistency issue in the compressed-prior setup, rather than as a failure mode unique to Λcos.
 
 The compressed-prior test used here is an approximate background-level consistency check, not a substitute for the full correlated Planck likelihood.
 
@@ -265,12 +265,12 @@ To contextualize the Λcos result, we compare against wCDM (constant w as a free
 |-------|-----------|--------|-----|------|------|
 | Flat ΛCDM | 3 | 1772.4 | 0 | 0 | 0 |
 | Λcos (Ω_Λ = 0.685) | 3 | 1772.6 | +0.11 | +0.11 | +0.11 |
-| Λcos (Ω_Λ = 0.715) | 3 | 1774.8 | +2.39 | +2.39 | +2.39 |
+| Λcos (Ω_Λ = 0.715) | 3 | 1774.8 | +2.38 | +2.38 | +2.38 |
 | wCDM | 4 | 1759.4 | −13.0 | −11.0 | −5.6 |
 
 The wCDM fit yields w = −0.852 [−0.89, −0.81] (68% CI), preferring a quintessence-like (w > −1) departure from ΛCDM at ΔAIC = −11.0. This is the same qualitative signal underlying the DESI phantom-crossing result: the SN+BAO data favor some departure from w = −1. The distinction is that wCDM captures this as a constant shift toward w > −1, while CPL projects it into a crossing through w = −1. The Λcos model, for which w_eff > −1 at all redshifts (§3), is consistent with the wCDM direction but does not achieve the same χ² improvement because the data-allowed s₀ is too small to produce a detectable departure.
 
-For the baseline flat prior in s₀, a Savage-Dickey density ratio at the s₀ prior boundary (with boundary-reflected KDE) gives B₀₁ ≈ 7.2 (stable to ±0.05 across bandwidths), corresponding to moderate evidence for ΛCDM over Λcos on the Jeffreys scale. This Bayes factor should be interpreted conditional on the baseline prior choice. The result confirms the Δχ² finding: current data do not require the ansatz's correction term.
+For the baseline flat prior in s₀, a Savage-Dickey density ratio at the s₀ prior boundary (with boundary-reflected KDE) gives B₀₁ ≈ 7.3 (stable to ±0.02 across bandwidths), corresponding to moderate evidence for ΛCDM over Λcos on the Jeffreys scale. This Bayes factor should be interpreted conditional on the baseline prior choice. The result confirms the Δχ² finding: current data do not require the ansatz's correction term.
 
 ---
 
@@ -312,7 +312,7 @@ The Λcos model rests on three inputs: a bounded auxiliary variable S = sin(t/2)
 
 The present analysis constrains only background observables (distances and expansion rates). The Λcos modification to H(z) also affects the linear growth rate f(z)σ₈(z), which provides an independent test. However, predicting growth requires specifying the perturbation-level sound speed of the effective dark energy component, which the background ansatz does not constrain. A comparison with redshift-space distortion data (e.g., fσ₈ from DESI or earlier surveys) is deferred to future work.
 
-Current combined data (Pantheon+ and DESI DR2 BAO) constrain s₀ < 0.18 at 95% CL, consistent with the ΛCDM limit. Λcos matches ΛCDM at Δχ² = +0.11 across the SN+BAO dataset. Adding compressed Planck distance priors shifts the preferred Ω_Λ, a background-distance consistency issue that is removed when Ω_Λ is freed (Δχ² = +0.43 at equal parameter count). The model is a minimal one-parameter deformation of the fiducial flat ΛCDM expansion history, with a specific falsifiable signature (the negative (1+z)¹ term) testable by next-generation BAO measurements.
+Current combined data (Pantheon+ and DESI DR2 BAO) constrain s₀ < 0.18 at 95% CL, consistent with the ΛCDM limit. Λcos matches ΛCDM at Δχ² = +0.11 across the SN+BAO dataset. Adding compressed Planck distance priors shifts the preferred Ω_Λ, a background-distance consistency issue that is removed when Ω_Λ is freed (Δχ² = +0.28 at equal parameter count). The model is a minimal one-parameter deformation of the fiducial flat ΛCDM expansion history, with a specific falsifiable signature (the negative (1+z)¹ term) testable by next-generation BAO measurements.
 
 ---
 
