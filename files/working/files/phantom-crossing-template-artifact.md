@@ -188,7 +188,7 @@ MCMC sampling uses an affine-invariant ensemble sampler (32 walkers, 5000 steps,
 
 Flat ΛCDM free parameters: Ω_m, H₀r_d, M_B.
 Λcos free parameters: s₀, H₀r_d, M_B (with Ω_Λ = 0.685 fixed).
-Both models have three free parameters. The primary results are reported at the fixed reference value Ω_Λ = 0.685; §5.4 demonstrates stability of the s₀ constraint across the range 0.68–0.715, and §5.5 confirms the model remains competitive when Ω_Λ is freed entirely (Δχ² = +0.43 at equal parameter count).
+Both models have three free parameters. The primary results are reported at the fixed reference value Ω_Λ = 0.685; §5.4 demonstrates stability of the s₀ constraint across the range 0.68–0.715, and §5.5 confirms the model remains competitive when Ω_Λ is freed entirely (Δχ² = +0.28 at equal parameter count).
 
 | | Flat ΛCDM | Λcos |
 |-|-----------|------|
