@@ -273,7 +273,7 @@ Because both observables reference the same epoch-dependent hierarchy, the ratio
 
 The prediction lives in a constraint landscape with one genuine tension (Übler et al. KMOS3D BTFR trend shape at 2.9σ, tested by forward modeling and not dissolved), one inherited problem (cluster-scale MOND discrepancy, untouched by the framework's $\lesssim 8\%$ low-redshift correction), and one structural decoupling (CMB via the selection rule, with leakage bounded to $\varepsilon \leq 1.2 \times 10^{-5}$ by Planck). The Übler tension is acknowledged and held against the prediction without retreat.
 
-A separate preprint applies the same selection rule to the dark-energy sector [DOI:10.5281/zenodo.XXXXX]; the present paper is limited to the galactic-dynamics consequence $a_0(z) = a_0(0)\,E(z)$.
+A separate preprint applies the same selection rule to the dark-energy sector (DOI: [10.5281/zenodo.19798852](https://doi.org/10.5281/zenodo.19798852)); the present paper is limited to the galactic-dynamics consequence $a_0(z) = a_0(0)\,E(z)$.
 
 The sharpest scheduled test is Euclid DR1 in October 2026: stacked galaxy-galaxy lensing at $z = 0.5\text{--}2$ stratified by mass and aperture, probing both the predicted 74% enhancement and its universality in a regime where the framework and ΛCDM produce quantitatively distinct shifts. This paper and its predictions are deposited on Zenodo (concept DOI: 10.5281/zenodo.19980665) prior to that release.
 
