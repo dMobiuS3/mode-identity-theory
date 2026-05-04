@@ -409,7 +409,7 @@ The author thanks the observational teams whose published data made this work po
 
 ## Data availability
 
-All numerical predictions, tabulated framework outputs, and source code for the analysis pipelines and figure-generation scripts are archived at Zenodo (concept DOI: 10.5281/zenodo.19980665), mirrored from https://github.com/dmobius3/a0z. The archive includes the combinatorial baseline table (supporting §2); the §§3-5 prediction tables (Tables 1-5) in CSV format; the ΛCDM lensing discriminator overlay (NFW enclosed-mass curves at the canonical archetypes, supporting §3.3 and Appendix B); the Übler σ-tension table and the four-bias forward-model sweep (supporting §4.1); the CMB leakage-bound table (supporting §4.3); and the Labbé candidate speedup factors (supporting §3.4).
+All numerical predictions, tabulated framework outputs, and source code for the analysis pipelines and figure-generation scripts are archived at Zenodo (concept DOI: 10.5281/zenodo.19980665), mirrored from https://github.com/dmobius3/a0z. The archive includes the combinatorial baseline table (supporting §2); the §§3-5 prediction tables (Tables 1-5) in CSV format; the ΛCDM lensing discriminator overlay (NFW enclosed-mass curves at the canonical archetypes, supporting §3.3 and Appendix B); the Übler σ-tension table and the four-bias forward-model script (mock-generation, bias parameterization, and random seeds; supporting §4.1); the CMB leakage-bound table (supporting §4.3); and the Labbé candidate speedup factors (supporting §3.4).
 
 ---
 
