@@ -12,9 +12,7 @@ bshatto.pe@gmail.com
 
 ## Abstract
 
-The MOND acceleration scale $a_0 \approx 1.20 \times 10^{-10}$ m/s$^2$ satisfies $a_0/(cH_0) \approx 0.18$, a coincidence unexplained for four decades. We show that both the coincidence and a redshift-evolving acceleration scale $a_0(z) = a_0(0)\,E(z)$, with $E(z) = H(z)/H_0$, follow from a single topological structure (§2; Appendix A). Five correlated galactic observables follow as different powers of $E(z)$ with no additional free parameter beyond the local SPARC calibration: the baryonic Tully-Fisher normalization ($E^{-1}$), the MOND transition radius ($E^{-1/2}$), the asymptotic velocity at fixed baryonic mass ($E^{+1/4}$), the Newtonian-inferred lensing enhancement ($E^{+1/2}$), and the gravitational collapse time ($E^{-1/4}$). The lensing channel predicts a mass- and aperture-universal 74% enhancement of $M_\text{dyn}/M_b$ at $z = 2$, testable through mass- and aperture-stratified Euclid DR1 stacking in October 2026 and distinct from the mass- and aperture-dependent ΛCDM halo-concentration alternative. Existing constraints include a provisional 2.9σ trend-shape tension with the KMOS3D Tully-Fisher data, tested by forward modeling and not dissolved.
-
-The topological structure is a bounded-topology measurement framework on $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ in which separately calibrated assignments of $a_0$ and $H$ to specific phase positions on the 120-domain of $S^3/2I$ produce the Milgrom ratio as an algebraic consequence of the shared edge-mode hierarchy: $C(13/120)/C(34/120) = 0.1845$, agreeing with the observed $0.1833$ at the $0.7\%$ level and unique among the framework's Fibonacci-well pairs. The non-trivial content is carried by the 0.7% match at a combinatorially sparse position. Because both observables reference the same epoch-dependent hierarchy, the ratio holds at every cosmic epoch; the same selection rule leaves $\Lambda$ fixed, separating the evolving galactic scale from the dark-energy sector.
+We propose that the MOND acceleration scale evolves with cosmic epoch as $a_0(z) = a_0(0)\,E(z)$, where $E(z) = H(z)/H_0$. This single input predicts five correlated high-redshift observables: BTFR normalization ($E^{-1}$), MOND transition radius ($E^{-1/2}$), asymptotic velocity at fixed baryonic mass ($E^{+1/4}$), Newtonian-inferred lensing mass enhancement ($E^{+1/2}$), and collapse-time shortening ($E^{-1/4}$). The prediction is calibrated to the local SPARC value and compared with the KMOS3D Tully-Fisher offsets, where it faces a 2.9σ trend-shape tension under conservative systematics. Its sharpest near-term test is Euclid DR1 stacked galaxy-galaxy lensing at $z = 0.5\text{--}2$: the model predicts a mass- and aperture-independent 74% enhancement of $M_\text{dyn}/M_b$ at $z = 2$, unlike the mass- and aperture-dependent evolution expected from ΛCDM halo concentration. The topological mechanism fixing $a_0/(cH) = 0.1845$ is presented in §2 and Appendix A.
 
 ---
 
@@ -22,13 +20,11 @@ The topological structure is a bounded-topology measurement framework on $S^1 = 
 
 The MOND acceleration scale $a_0 \approx 1.20 \times 10^{-10}$ m/s$^2$ has governed the phenomenology of galactic rotation curves for four decades [1]. Fitted to the local SPARC sample with intrinsic scatter of 0.1 dex [2,3], it satisfies a numerical coincidence that has never been explained: $a_0/(cH_0) \approx 0.18$, with the Hubble rate setting the dimensional scale of the MOND threshold [4,5]. Within standard MOND this ratio is an accident; within ΛCDM it has no physical correlate at all. It has remained unexplained since Milgrom first noted it in 1983.
 
-Three current observational tensions share this same dimensional anchor.
+Two current observational tensions share this same dimensional anchor.
 
 First, the coincidence itself. Using the standard SPARC normalization [2] and Planck background value [6], $a_0/(cH_0) = 0.183$, numerically stable across four decades of improving measurements with no theoretical account of why.
 
-Second, JWST has revealed candidate galaxies at $z \sim 7\text{--}10$ with stellar masses $M_\star \gtrsim 10^{10}\,M_\odot$ assembled within 600 Myr of the Big Bang [7,8]. Under standard halo-growth assumptions, the most extreme candidates imply unusually high star-formation efficiencies and have been discussed as a potential early-structure tension. If $a_0$ were larger at early times, gravitational collapse would proceed faster and the tension would ease.
-
-Third, DESI DR2, combined with CMB and supernova data, strengthens the reported preference for an evolving dark-energy equation of state [9]. If $\Lambda$ is actually constant and the apparent evolution is a template artifact, the question becomes what *does* evolve with the Hubble rate. The framework explored here answers: $a_0$.
+Second, JWST has revealed candidate galaxies at $z \sim 7\text{--}10$ with stellar masses $M_\star \gtrsim 10^{10}\,M_\odot$ assembled within 600 Myr of the Big Bang [7,8]. Under standard halo-growth assumptions, the most extreme candidates imply unusually high star-formation efficiencies and have been discussed as a potential early-structure tension. If $a_0$ were larger at early times, gravitational collapse would proceed faster and the tension would ease. A related application to the DESI DR2 dark-energy signal [9] is treated in a separate preprint; this paper is limited to the galactic-dynamics consequence of an epoch-dependent $a_0$.
 
 This paper develops one hypothesis and its consequences. Within a bounded-topology measurement framework on $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ (Appendix A), the Milgrom ratio resolves to the ratio of two phase-operator values at Fibonacci wells on the 120-domain native to $S^3/2I$:
 
@@ -68,24 +64,11 @@ $$\boxed{\;\frac{a_0(z)}{c\,H(z)} = \frac{C(13/120)}{C(34/120)} = 0.1845\;} \qua
 
 The two well assignments are separately calibrated: $H$ calibrates the edge hierarchy at $\Theta = 34/120$, while $a_0$ is assigned to $\Theta = 13/120$. Both share the same $N_H(z)$, so (2.4) follows algebraically once the assignments are made. The non-trivial content is not the algebra but the output: the ratio lands at 0.1845 against an observed 0.1833, a 0.7% match at a position where only 0.34% of the domain's pairs agree within 1%. Numerically, $a_0^{\text{obs}}/(cH_0^{\text{obs}}) = 1.20 \times 10^{-10} / 6.548 \times 10^{-10} = 0.1833$. Of the 7,021 unordered distinct nonzero phase-position pairs on the 120-domain, 24 reproduce this ratio within 1%; the reflection symmetry $C(k) = C(120-k)$ collapses them to 6 unique phase-operator value pairs. Among the framework's six Fibonacci-well pairs, $(13, 34)$ is the unique match (Figure 1).
 
-**Local-epoch reading.** Equation (2.4) holds at every $z$ because $N_H(z)$ is calibrated through the local $H(z)$ at the observer's epoch, not frozen at $N_H(0)$. The alternative, anchoring $N_H$ to the present, would require a privileged time slice. The bounded domain $S^3$ with $\partial S^3 = \emptyset$ has no preferred epoch; the standing wave $\Psi(t) = \cos(t/2)$ that governs the cosmic cycle is itself $t$-dependent throughout. The local-epoch reading is the default; freezing $N_H(0)$ would be the addition of a postulate the topology does not motivate (Appendix A.4).
+**Local-epoch reading.** Equation (2.4) holds at every $z$ because $N_H(z)$ is calibrated through the local $H(z)$ at the observer's epoch, not frozen at $N_H(0)$. The alternative, anchoring $N_H$ to the present, would require a privileged time slice. The bounded domain $S^3$ with $\partial S^3 = \emptyset$ has no preferred epoch; the standing wave $\Psi(t) = \cos(t/2)$ that governs the cosmic cycle is itself $t$-dependent throughout. The local-epoch reading is the default; freezing $N_H(0)$ would be the addition of a postulate the topology does not motivate. The two readings are observably distinct at every $z > 0$: at $z = 2$ the BTFR normalization differs by a factor of 3 between them, and the Euclid DR1 test (§5) will distinguish them.
 
 **Why Λ does not evolve.** The same scaling law places $\Lambda$ at the antinode $\Theta = 60/120$ with $n = 2$ (surface mode), referenced to $\Omega_\Lambda$: the fixed eigenvalue hierarchy associated with the $\Lambda$ eigenvalue, not the redshift-dependent fractional density parameter of standard cosmological notation. Under the local-epoch reading, this eigenvalue hierarchy is the same at every $z$. The phase position $60/120$ has $d\ln C/d\Theta = 0$, giving topological protection against perturbation. The two predictions are structurally inverse: $a_0$ evolves because it references $\Omega_H$; $\Lambda$ does not because it references $\Omega_\Lambda$. This inversion is forced by the selection rule (Appendix A.2).
 
 Thus the result is a conditional prediction of the framework: given the scaling law, selection rule, calibrated well assignments, and local-epoch reading, the redshift evolution follows by substitution, with no additional evolution parameter.
-
-**Status of the §2 argument.**
-
-| Element | Status |
-|---------|--------|
-| Scaling law (2.1) | Postulate |
-| $C(\Theta) = 2\sin^2(\pi\Theta)$ | Derived (anti-periodic BC) |
-| Selection rule: edge $\to \Omega_H$, surface $\to \Omega_\Lambda$ | Postulate |
-| Well assignments $\Theta_{a_0} = 13/120$, $\Theta_H = 34/120$ | Calibrated at $z = 0$ |
-| Local-epoch reading of $N_H$ | Default (§2 above) |
-| Calibration (2.3) | Defines $N_H$ through measured $H$ |
-| Prediction (2.2) | Scaling law at the $a_0$ well |
-| $a_0(z) = a_0(0)\,E(z)$ | Derived, given the above |
 
 ---
 
@@ -222,7 +205,7 @@ A naive application of $a_0(z)$ to cosmological perturbations at $z = 1090$ give
 
 The framework's selection rule (§2, Appendix A.2) separates this channel structurally. The rule assigns $a_0$ to the edge sector ($n = 1$, $\Omega_H$) and cosmological perturbations to the space sector ($n = 3$, $\Omega_\Lambda$). Under this assignment, the $a_0(z)$ scaling governs galactic dynamics and does not propagate to perturbation evolution. The same rule independently produces the §2 Milgrom-ratio match at 0.7% and the Λ-constant prediction; it was not introduced to address the CMB.
 
-The consistency condition is quantitative. Writing a minimal leakage coupling $g_\text{eff} = g_N + \varepsilon\sqrt{g_N\,a_0(z)}$, the Planck first-peak amplitude (0.5% tolerance) constrains $\varepsilon \leq 1.2 \times 10^{-5}$. The framework predicts $\varepsilon = 0$ under exact edge/space decoupling, satisfying the bound by five orders of magnitude. A first-principles perturbation-theory derivation of the decoupling is flagged as the principal open task for the framework's CMB-scale predictions (Appendix A.5).
+The consistency condition is quantitative. Writing a minimal leakage coupling $g_\text{eff} = g_N + \varepsilon\sqrt{g_N\,a_0(z)}$, the Planck first-peak amplitude, measured to 0.5% precision, constrains $\varepsilon \leq 1.2 \times 10^{-5}$. The framework predicts $\varepsilon = 0$ under exact edge/space decoupling, satisfying the bound by five orders of magnitude. A first-principles perturbation-theory derivation of the decoupling is the principal open task for the framework's CMB-scale predictions.
 
 ### 4.4 Other regimes
 
@@ -235,7 +218,7 @@ Local SPARC and THINGS measurements are consistent by construction: the well ass
 | Regime | Status |
 |---|---|
 | Local ($z = 0$) | Consistent by construction |
-| Intermediate-$z$ BTFR (Übler [10]) | Provisional 2.9σ tension on trend shape |
+| Intermediate-$z$ BTFR (Übler [10]) | 2.9σ tension on trend shape |
 | Galaxy clusters [14] | Inherited, unaddressed (~8% vs factor-5) |
 | CMB ($z = 1090$) | Structurally decoupled; $\varepsilon \leq 1.2 \times 10^{-5}$ from Planck |
 | Strong-lens time delays | Below current sensitivity |
@@ -290,7 +273,7 @@ Because both observables reference the same epoch-dependent hierarchy, the ratio
 
 The prediction lives in a constraint landscape with one genuine tension (Übler et al. KMOS3D BTFR trend shape at 2.9σ, tested by forward modeling and not dissolved), one inherited problem (cluster-scale MOND discrepancy, untouched by the framework's $\lesssim 8\%$ low-redshift correction), and one structural decoupling (CMB via the selection rule, with leakage bounded to $\varepsilon \leq 1.2 \times 10^{-5}$ by Planck). The Übler tension is acknowledged and held against the prediction without retreat.
 
-A companion analysis (separately submitted) makes the structurally inverse prediction from the same scaling law: $\Lambda$ remains constant, and the apparent $w(z)$ evolution reported by DESI DR2 is a template artifact. The two predictions test different sectors of the framework's selection rule through disjoint instruments.
+A separate preprint applies the same selection rule to the dark-energy sector [DOI:10.5281/zenodo.XXXXX]; the present paper is limited to the galactic-dynamics consequence $a_0(z) = a_0(0)\,E(z)$.
 
 The sharpest scheduled test is Euclid DR1 in October 2026: stacked galaxy-galaxy lensing at $z = 0.5\text{--}2$ stratified by mass and aperture, probing both the predicted 74% enhancement and its universality in a regime where the framework and ΛCDM produce quantitatively distinct shifts. This paper and its predictions are deposited on Zenodo (concept DOI: 10.5281/zenodo.19980665) prior to that release.
 
@@ -298,7 +281,7 @@ The sharpest scheduled test is Euclid DR1 in October 2026: stacked galaxy-galaxy
 
 # Appendix A: Framework foundations
 
-This appendix supplies the structural detail behind the §2 derivation. The bounded topology, phase operator, scaling law, and selection rule are stated in §2. This appendix develops the 120-domain (A.1), the selection rule's physical basis (A.2), the well-assignment eligibility conditions (A.3), the local-epoch reading in full (A.4), and the framework-level open items (A.5).
+This appendix supplies the structural detail behind the §2 derivation. The bounded topology, phase operator, scaling law, and selection rule are stated in §2. This appendix develops the 120-domain (A.1), the selection rule's physical basis (A.2), and the well-assignment eligibility conditions (A.3).
 
 ## A.1 The 120-domain
 
@@ -345,30 +328,6 @@ Under the eligibility conditions:
 (c) $\Lambda$ is assigned $\Theta = 60/120$: the antinode, where the phase operator takes its maximum and the log-slope vanishes.
 
 The wells $21/120$ and $55/120$ remain unassigned in this paper. The assignments have the status of empirical calibrations at $z = 0$ that land on positions compatible with the eligibility conditions. The manifold-mode classification, bosonic-projection filter, selection rule, and the prediction $a_0(z) \propto H(z)$ were established in the framework's foundational deposit [20] prior to the present paper's calibration, foreclosing post-hoc adjustment of the eligibility conditions to fit the well assignments. A first-principles derivation from the Hurwitz/Fibonacci structure of the 120-domain is future work.
-
-## A.4 The local-epoch reading
-
-The body §2 states the local-epoch reading in one paragraph. Here is the full argument.
-
-Three components of the scaling law (2.1) are topological and do not evolve: the phase operator $C(\Theta)$ is fixed by the 120-domain (A.1), the manifold index $n$ is fixed by the embedding hierarchy, and the Fibonacci wells are fixed by Hurwitz stability (A.3). The sole evolving component is the hierarchy normalization $N_H(z)$, calibrated through the local Hubble rate $H(z)$ at the observer's epoch via (2.3).
-
-The local-epoch reading says: a measurement performed at epoch $z$ calibrates $N_H$ through the local $H(z)$, not through some privileged past or future value. This is the default reading of a measurement postulate: it specifies what an observer measures at the measurement event.
-
-The alternative would anchor $N_H$ permanently to its present-day value $N_H(0)$, so that all edge-mode observables retain their $z = 0$ values at every epoch. Under this alternative, $a_0$ is constant. But this alternative requires introducing an external preferred epoch into the scaling law. The bounded domain $S^3$ with $\partial S^3 = \emptyset$ has no preferred time slice: the standing wave $\Psi(t) = \cos(t/2)$ is $t$-dependent throughout, and the framework refuses to fix a privileged epoch anywhere in the cycle.
-
-The local-epoch reading is therefore not a separate postulate added to the framework. It is the refusal to add one. Freezing $N_H(0)$ would be the addition; the local reading is the default.
-
-Observable distinguishability: the two readings ($a_0$ evolves vs $a_0$ constant) produce quantitatively different predictions at every $z > 0$. At $z = 2$, the BTFR normalization differs by a factor of 3 between the two readings. The Euclid DR1 test (§5) will distinguish them.
-
-## A.5 Open items
-
-Two framework-level open questions are flagged for completeness:
-
-1. **CMB perturbation-theory derivation.** The edge/space-mode decoupling (A.2) is a structural argument supported by the Planck leakage bound $\varepsilon \leq 1.2 \times 10^{-5}$ (§4.3). A first-principles derivation from the Boltzmann hierarchy under the framework's $(n, \Omega)$ assignments would replace the structural argument with a closed-form proof. The required machinery (mode-projected propagators, anti-periodic boundary conditions, hierarchy-sensitive transfer functions) is expressible within the framework's existing postulates; the calculation has not been carried through.
-
-2. **Well-position derivation.** The well assignments (A.3) are empirical calibrations at $z = 0$. A derivation of the assignments from the Hurwitz/Fibonacci structure of the 120-domain, independent of the $z = 0$ measurements, would elevate the well positions from calibrated inputs to derived outputs. This is the next foundational step after the present prediction paper.
-
-Neither open item affects the §§3-5 predictions or the §5 falsification criteria; both are flagged as future work within the framework's existing postulate set.
 
 ---
 
