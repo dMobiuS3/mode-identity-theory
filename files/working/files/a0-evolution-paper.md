@@ -20,7 +20,7 @@ The topological structure is a bounded-topology measurement framework on $S^1 = 
 
 # §1 Introduction
 
-The MOND acceleration scale $a_0 \approx 1.20 \times 10^{-10}$ m/s$^2$ has governed the phenomenology of galactic rotation curves for four decades [1]. Fitted to the local SPARC sample with intrinsic scatter of 0.1 dex [2,3], it satisfies a numerical coincidence that has never been explained: $a_0/(cH_0) \approx 0.18$, with the Hubble rate setting the dimensional scale of the MOND threshold [4,5]. Within standard MOND this ratio is an accident. Within ΛCDM it has no physical content. It has remained unexplained since Milgrom first noted it in 1983.
+The MOND acceleration scale $a_0 \approx 1.20 \times 10^{-10}$ m/s$^2$ has governed the phenomenology of galactic rotation curves for four decades [1]. Fitted to the local SPARC sample with intrinsic scatter of 0.1 dex [2,3], it satisfies a numerical coincidence that has never been explained: $a_0/(cH_0) \approx 0.18$, with the Hubble rate setting the dimensional scale of the MOND threshold [4,5]. Within standard MOND this ratio is an accident; within ΛCDM it has no physical correlate at all. It has remained unexplained since Milgrom first noted it in 1983.
 
 Three current observational tensions share this same dimensional anchor.
 
@@ -30,7 +30,7 @@ Second, JWST has revealed candidate galaxies at $z \sim 7\text{--}10$ with stell
 
 Third, DESI DR2, combined with CMB and supernova data, strengthens the reported preference for an evolving dark-energy equation of state [9]. If $\Lambda$ is actually constant and the apparent evolution is a template artifact, the question becomes what *does* evolve with the Hubble rate. The framework explored here answers: $a_0$.
 
-This paper develops one hypothesis and its consequences. Within a bounded-topology measurement framework on $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ (Appendix A), the Milgrom ratio resolves to the ratio of two phase-operator values at adjacent Fibonacci wells on the 120-domain native to $S^3/2I$:
+This paper develops one hypothesis and its consequences. Within a bounded-topology measurement framework on $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3$ (Appendix A), the Milgrom ratio resolves to the ratio of two phase-operator values at Fibonacci wells on the 120-domain native to $S^3/2I$:
 
 $$\frac{a_0}{cH} = \frac{C(13/120)}{C(34/120)} = 0.1845, \quad \text{(1.1)}$$
 
@@ -148,7 +148,7 @@ The comparison isolates the effect of $a_0(z)$ at fixed baryonic distribution. R
 
 ### 3.3 Lensing dynamical mass: $E(z)^{+1/2}$
 
-Galaxy-galaxy weak lensing infers a dynamical mass $M_\text{dyn}(R) = v_\text{flat}^2 R / G$ within aperture $R$ under the standard Newtonian inversion. This is a proxy-level prediction for the mass that would be quoted under the standard Newtonian dynamical inversion. It does not supply a relativistic lensing completion; rather, it defines the redshift scaling that the framework predicts for the Newtonian-equivalent $M_\text{dyn}$ reported by lensing analyses. In the deep-MOND limit:
+Galaxy-galaxy weak lensing infers a dynamical mass $M_\text{dyn}(R) = v_\text{flat}^2 R / G$ within aperture $R$ under the standard Newtonian inversion. The framework's prediction below applies to this Newtonian-equivalent proxy, not to a relativistic lensing law it does not yet supply: it defines the redshift scaling predicted for the $M_\text{dyn}$ that lensing analyses report under the standard inversion. In the deep-MOND limit:
 
 $$\boxed{\;\frac{M_\text{dyn}(R,z)/M_b}{M_\text{dyn}(R,0)/M_b} = \sqrt{E(z)}\;}. \quad \text{(3.3)}$$
 
@@ -284,7 +284,7 @@ All programs listed are existing or imminent. No new instrument or observational
 
 # §6 Conclusions
 
-The Milgrom coincidence $a_0 \approx cH_0$ resolves, within the bounded-topology framework of Appendix A, to a fixed ratio of two phase-operator values at adjacent Fibonacci wells: $a_0/(cH) = C(13/120)/C(34/120) = 0.1845$, agreeing with the observed $0.1833$ at $0.7\%$. The $a_0$ and $H$ wells are fixed by separately calibrated assignments at $z = 0$ sharing the same edge-mode hierarchy; the ratio follows algebraically and is unique among the framework's Fibonacci-well pairs (§2).
+The Milgrom coincidence $a_0 \approx cH_0$ resolves, within the bounded-topology framework of Appendix A, to a fixed ratio of two phase-operator values at Fibonacci wells: $a_0/(cH) = C(13/120)/C(34/120) = 0.1845$, agreeing with the observed $0.1833$ at $0.7\%$. The $a_0$ and $H$ wells are fixed by separately calibrated assignments at $z = 0$ sharing the same edge-mode hierarchy; the ratio follows algebraically and is unique among the framework's Fibonacci-well pairs (§2).
 
 Because both observables reference the same epoch-dependent hierarchy, the ratio holds at every cosmic epoch: $a_0(z) = a_0(0)\,E(z)$. Five observable channels follow as different powers of $E(z)$, with no additional free parameter. The BTFR normalization shifts as $E(z)^{-1}$, the MOND transition radius contracts as $E(z)^{-1/2}$, the asymptotic velocity at fixed baryonic mass rises as $E(z)^{+1/4}$, the lensing-inferred dynamical mass enhancement scales as $E(z)^{+1/2}$, and the gravitational collapse time shortens as $E(z)^{-1/4}$. The five exponents are correlated, not independent: consistency across channels at the same redshift tests the universality of the deep-MOND scaling.
 
@@ -316,7 +316,7 @@ The chronon, the smallest phase advance the domain can register, is $\Delta t_\t
 
 The scaling law (§2, eq. 2.1) assigns each observable a manifold-mode index $n$ from the embedding hierarchy $S^1 \subset \text{Möbius} \subset S^3$ and a corresponding hierarchy normalization $N$. The physical basis for the $(n, \Omega)$ assignment is:
 
-**Edge modes ($n = 1$, $\Omega_H$).** The boundary $S^1$ is a kinematic locus: it carries no intrinsic eigenvalue (the surface eigenvalue lives one dimension up, on the Möbius strip, where $\Lambda$ is placed). What an edge-mode observable references is the embedding scale of $S^1$ in the ambient cosmological geometry. The natural such scale is the Hubble horizon $R_H = c/H$, and its dimensionless Planck ratio is $\Omega_H \approx (c/(H\ell_P))^2$. Because $H$ evolves with cosmic epoch, edge-mode observables inherit that evolution through the calibrated normalization $N_H(z) = H(z)\,t_P/C(34/120)$.
+**Edge modes ($n = 1$, $\Omega_H$).** The boundary $S^1$ is a kinematic locus: it carries no intrinsic eigenvalue (the surface eigenvalue lives one dimension up, on the Möbius strip, where $\Lambda$ is placed). What an edge-mode observable references is the embedding scale of $S^1$ in the ambient cosmological geometry. The natural such scale is the Hubble horizon $R_H = c/H$, and its dimensionless Planck ratio is $\Omega_H = (c/(H\ell_P))^2$. Because $H$ evolves with cosmic epoch, edge-mode observables inherit that evolution through the calibrated normalization $N_H(z) = H(z)\,t_P/C(34/120)$.
 
 **Surface modes ($n = 2$, $\Omega_\Lambda$).** The Möbius strip carries an intrinsic eigenvalue: the ground mode of the Laplace-Beltrami operator on the totally geodesic surface in $S^3$ gives $\lambda_0 = 2/R^2$, where $R$ is the curvature radius of $S^3$. The Gauss-Codazzi embedding converts this to $\Lambda_\text{obs} = (3/2)\lambda_0 = 3/R^2$ under three conditions: totally geodesic embedding ($K_{ij} = 0$), isotropy (CMB-verified to $10^{-5}$), and de Sitter vacuum. The hierarchy ratio $\Omega_\Lambda = (\Lambda\ell_P^2)^{-1}$ is set by this eigenvalue and does not evolve.
 
