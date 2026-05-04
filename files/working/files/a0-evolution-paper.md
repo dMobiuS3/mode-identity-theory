@@ -20,7 +20,7 @@ We propose that the MOND acceleration scale evolves with cosmic epoch as $a_0(z)
 
 The MOND acceleration scale $a_0 \approx 1.20 \times 10^{-10}$ m/s$^2$ has governed the phenomenology of galactic rotation curves for four decades [1]. Fitted to the local SPARC sample with intrinsic scatter of 0.1 dex [2,3], it satisfies a numerical coincidence that has never been explained: $a_0/(cH_0) \approx 0.18$, with the Hubble rate setting the dimensional scale of the MOND threshold [4,5]. Within standard MOND this ratio is an accident; within ΛCDM it has no physical correlate at all. It has remained unexplained since Milgrom first noted it in 1983.
 
-Two current observational tensions share this same dimensional anchor.
+Two current problems motivate examining this scale across cosmic time.
 
 First, the coincidence itself. Using the standard SPARC normalization [2] and Planck background value [6], $a_0/(cH_0) = 0.183$, numerically stable across four decades of improving measurements with no theoretical account of why.
 
@@ -193,7 +193,7 @@ Even under the most conservative budget, the joint tension is 2.9σ. We treat th
 
 We tested whether the Übler radial pressure-support correction can produce the observed non-monotonic pattern from a monotonic underlying BTFR. Mock galaxies at $z = 0.9$ and $z = 2.3$ were generated under the framework's prediction with literature-realistic distributions of baryonic mass, scale length, and velocity dispersion [13]. The Übler thick-disk correction $v_\text{circ}^2(r) = v_\text{rot}^2(r) + 2\sigma_0^2\,r/R_d$ was applied with the published selection cut $v_\text{rot,max}/\sigma_0 > 4.4$. Four bias models (radial-position uncertainty, beam-smearing of $\sigma_0$, non-asymptotic rotation curves, selection-induced mass shifts) were swept over literature-plausible ranges. No combination reproduces the observed $(-0.44, -0.27)$ pattern. Pulling biases to optimize the $z = 0.9$ fit gives $\Delta b(0.9) = -0.29$ dex, leaving the $z = 0.9$ point 0.15 dex above observed; at the same parameters $\Delta b(2.3) = -0.65$ dex, 0.38 dex below observed. The joint-L2 best fit gives $(\Delta b(0.9), \Delta b(2.3)) = (-0.17, -0.43)$ at residuals $(+0.28, -0.16)$ dex. The mock-generation script, bias parameterization, and random seeds are archived with the rest of the analysis pipeline at the Zenodo deposit cited in the Data availability section.
 
-The tension is genuine and not a velocity-correction artifact. The prediction stands. Resolution will come from Euclid DR1 matched-tracer kinematics and JWST follow-up at the original Übler redshifts (§5).
+The tension is genuine and not a velocity-correction artifact. The prediction stands. Resolution will come from Euclid DR1 stacked lensing and JWST/ground-IFU matched-tracer follow-up at the original Übler redshifts (§5).
 
 ### 4.2 Galaxy clusters
 
@@ -229,7 +229,7 @@ One live tension, one inherited problem, one structural decoupling, two consiste
 
 # §5 The Euclid DR1 test
 
-Euclid's stated objective is to characterize the dark Universe and its evolution across $z = 0\text{--}2$ [19]. The framework gives two structurally inverse predictions in that sector: $a_0(z) \propto H(z)$ in galactic dynamics (this paper); $\Lambda$ constant (companion paper). The Euclid DR1 release in October 2026 is expected to deliver the sharpest test of the $a_0(z)$ prediction through stacked galaxy-galaxy weak lensing at $z = 0.5\text{--}2$.
+Euclid's stated objective is to characterize the dark Universe and its evolution across $z = 0\text{--}2$ [19]. The present paper focuses on the galactic-dynamics prediction $a_0(z) \propto H(z)$. The Euclid DR1 release in October 2026 is expected to deliver the sharpest test of this prediction through stacked galaxy-galaxy weak lensing at $z = 0.5\text{--}2$.
 
 **What Euclid measures.** The wide survey is expected to provide the photometric redshifts, stellar-mass estimates, galaxy shapes, and sample sizes needed for a stacked galaxy-galaxy lensing test. For the framework, the relevant observable is the Newtonian-equivalent $M_\text{dyn}/M_b$ inferred from stacked tangential shear profiles after mass and redshift stratification. Equation (3.3) is a prediction for this quoted proxy, not a standalone relativistic lensing law. The §5 test is accordingly a test of the proxy-level prediction, not of a relativistic lensing theory the framework does not yet supply.
 
@@ -267,7 +267,7 @@ All programs listed are existing or imminent. No new instrument or observational
 
 # §6 Conclusions
 
-The Milgrom coincidence $a_0 \approx cH_0$ resolves, within the bounded-topology framework of Appendix A, to a fixed ratio of two phase-operator values at Fibonacci wells: $a_0/(cH) = C(13/120)/C(34/120) = 0.1845$, agreeing with the observed $0.1833$ at $0.7\%$. The $a_0$ and $H$ wells are fixed by separately calibrated assignments at $z = 0$ sharing the same edge-mode hierarchy; the ratio follows algebraically and is unique among the framework's Fibonacci-well pairs (§2).
+The Milgrom coincidence $a_0 \approx cH_0$ is accounted for, within the bounded-topology framework of Appendix A, by a fixed ratio of two phase-operator values at Fibonacci wells: $a_0/(cH) = C(13/120)/C(34/120) = 0.1845$, agreeing with the observed $0.1833$ at $0.7\%$. The $a_0$ and $H$ wells are fixed by separately calibrated assignments at $z = 0$ sharing the same edge-mode hierarchy; the ratio follows algebraically and is unique among the framework's Fibonacci-well pairs (§2).
 
 Because both observables reference the same epoch-dependent hierarchy, the ratio holds at every cosmic epoch: $a_0(z) = a_0(0)\,E(z)$. Five observable channels follow as different powers of $E(z)$, with no additional free parameter. The BTFR normalization shifts as $E(z)^{-1}$, the MOND transition radius contracts as $E(z)^{-1/2}$, the asymptotic velocity at fixed baryonic mass rises as $E(z)^{+1/4}$, the lensing-inferred dynamical mass enhancement scales as $E(z)^{+1/2}$, and the gravitational collapse time shortens as $E(z)^{-1/4}$. The five exponents are correlated, not independent: consistency across channels at the same redshift tests the universality of the deep-MOND scaling.
 
