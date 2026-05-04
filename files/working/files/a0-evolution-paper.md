@@ -287,6 +287,8 @@ This appendix supplies the structural detail behind the §2 derivation. The boun
 
 The physical observable space is the quotient $S^3/2I$, where $2I$ is the binary icosahedral group with $|2I| = 120$. The discrete subgroups of $\text{SU}(2) \cong S^3$ are classified: cyclic groups $\mathbb{Z}_n$, binary dihedral groups $2D_n$, and three exceptional groups (binary tetrahedral $|2T| = 24$, binary octahedral $|2O| = 48$, binary icosahedral $|2I| = 120$). Two constraints select $2I$.
 
+The quotient $S^3/2I$ is the Poincaré homology sphere: the classical example of a closed 3-manifold with the integral homology of $S^3$ but nontrivial fundamental group, obtained as the quotient of $S^3$ by the binary icosahedral group $2I$ [23]. The same group occupies the $E_8$ position in the ADE classification of finite subgroups of $\text{SU}(2)$, and its representation theory maps to the $E_8$ Dynkin diagram through the McKay correspondence [24]. More generally, quotients $S^3/\Gamma$ by finite freely acting subgroups are spherical space forms, classified in the standard space-form literature [25]. The framework's use of $2I$ is therefore not ad hoc: within the finite exceptional binary polyhedral subgroups of $\text{SU}(2)$, it is the largest case and the $E_8$ endpoint of the ADE/McKay classification.
+
 First, $2I$ is the largest exceptional discrete subgroup of $\text{SU}(2)$, giving the maximum spectral resolution compatible with $S^3$. In the framework, the quotient order $|2I| = 120$ defines the discrete phase domain used to label observable positions, with spacing $\Delta\Theta = 1/120$.
 
 Second, the icosahedron is the unique Platonic solid whose branch orders $(2, 3, 5)$ are consecutive Fibonacci numbers satisfying $2 + 3 = 5$. This Fibonacci-recurrence structure makes the Fibonacci positions on the 120-domain the natural stable lattice (A.2 below and the Hurwitz stability argument in A.3).
@@ -458,6 +460,12 @@ All numerical predictions, tabulated framework outputs, and source code for the 
 [21] S. S. McGaugh, F. Lelli, and J. M. Schombert, Phys. Rev. Lett. 117, 201101 (2016).
 
 [22] R. Genzel et al., Nature 543, 397 (2017).
+
+[23] N. Saveliev, *Lectures on the Topology of 3-Manifolds*, 2nd ed. (de Gruyter, Berlin, 2012).
+
+[24] J. McKay, Proc. Symp. Pure Math. **37**, 183 (1980).
+
+[25] J. A. Wolf, *Spaces of Constant Curvature*, 6th ed. (AMS Chelsea, Providence, 2011).
 
 ---
 
