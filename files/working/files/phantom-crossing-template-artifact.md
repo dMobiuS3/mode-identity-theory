@@ -56,7 +56,7 @@ With this clock, the exact non-vacuum kernel is:
 
 $$\frac{1}{S}\frac{dS}{d\tau} = \frac{\sqrt{1 - S^2}}{2S^{3/2}}$$
 
-The √(1−S²) factor equals unity at high z and generates the (1+z)¹ correction at low z (§2.4). For the tested integer alternatives, n = +1, 0, −1 give (1/S)(dS/dτ) ∝ (1+z)⁰, (1+z)¹, (1+z)², respectively. Only n = −1/2 gives the matter-era scaling (1+z)³/². This was verified against Pantheon+ data, where all three integer-power alternatives exceed Δχ² > 60 relative to ΛCDM [Appendix A].
+The √(1−S²) factor equals unity at high z and generates the (1+z)¹ correction at low z (§2.4). For the tested integer alternatives, n = +1, 0, −1 give (1/S)(dS/dτ) ∝ (1+z)⁰, (1+z)¹, (1+z)², respectively. Only n = −1/2 gives the matter-era scaling (1+z)³/². This was verified against Pantheon+ data, where all three integer-power alternatives give Δχ² > 60 relative to ΛCDM (Appendix A).
 
 ### 2.3 The Hubble rate
 
