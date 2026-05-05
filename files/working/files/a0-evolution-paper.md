@@ -22,7 +22,7 @@ The MOND acceleration scale $a_0 \approx 1.20 \times 10^{-10}$ m/s$^2$ has gover
 
 Two current problems motivate examining this scale across cosmic time.
 
-First, the coincidence itself. Using the standard SPARC normalization [2] and Planck background value [6], $a_0/(cH_0) = 0.183$, numerically stable across four decades of improving measurements with no theoretical account of why.
+First, the coincidence itself. Using the standard SPARC normalization [2] and Planck 2018 $H_0$ [6], $a_0/(cH_0) = 0.183$, numerically stable across four decades of improving measurements with no theoretical account of why.
 
 Second, JWST has revealed candidate galaxies at $z \sim 7\text{--}10$ with stellar masses $M_\star \gtrsim 10^{10}\,M_\odot$ assembled within 600 Myr of the Big Bang [7,8]. Under standard halo-growth assumptions, the most extreme candidates imply unusually high star-formation efficiencies and have been discussed as a potential early-structure tension. If $a_0$ were larger at early times, gravitational collapse would proceed faster and the tension would ease. A related application to the DESI DR2 dark-energy signal [9] is treated in a separate preprint; this paper is limited to the galactic-dynamics consequence of an epoch-dependent $a_0$.
 
