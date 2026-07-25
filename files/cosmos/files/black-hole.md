@@ -312,6 +312,8 @@ Potential observational signatures (all require detailed modeling, and depend on
 
 These are speculative pending the ontology question above, not an established prediction to test against LIGO/LISA ringdown data.
 
+Which reading is operative decides whether that status is even testable. Only (1), physical layers, predicts a real deviation in the radiated signal: a genuine layer in the geometry perturbs the effective potential a ringdown probes. (2) keeps the metric continuous by construction, so the wave itself propagates exactly as GR predicts and there is nothing for a ringdown measurement to catch, the discreteness living only in how the field is sampled, not in what is radiated. (3), pure bookkeeping, predicts nothing observable by definition. A null result in existing ringdown data would therefore rule out (1) specifically, not the shell construction as a whole; a positive result would be evidence for (1) over (2) and (3), not for the shells undifferentiated. No frozen test is registered yet.
+
 ### VIII.4 Black Hole Thermodynamics (Priority 4)
 
 | Law | GR statement | MIT target | Status |
