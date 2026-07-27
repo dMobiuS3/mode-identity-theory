@@ -4,71 +4,79 @@
 
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/alpha%20banner.png?raw=true" width="100%" alt="Fine Structure">
 
-The fine structure constant $\alpha \approx 1/137$ governs the strength of electromagnetic interaction. It is dimensionless: a pure number carrying no Planck units. No framework in standard physics predicts its value. Within Mode Identity Theory, the topological hierarchy behind Λ, $H_0$, and $a_0$ also governs dimensionless couplings. The result is $\alpha = C(13/60) \cdot \Omega_\Lambda^{-1/60} = 0.00733$, within 0.5% of the measured value, derived from one topological postulate. The same structure yields all three gauge couplings.
+The fine structure constant $`\alpha \approx 1/137`$ governs the strength of electromagnetic interaction. It is dimensionless: a pure number carrying no Planck units. No framework in standard physics predicts its value. Within Mode Identity Theory, the topological hierarchy behind Λ, $`H_0`$, and $`a_0`$ also governs dimensionless couplings. The result is $`\alpha = C(13/60) \cdot \Omega_\Lambda^{-1/60} = 0.00733`$, within 0.5% of the measured value, derived from one topological postulate. The same structure yields all three gauge couplings.
 
 **Results at a glance**
 
 | Coupling | Predicted | Observed | Agreement |
 |---|---|---|---|
-| $\alpha$ | 0.00733 | 0.00730 | 0.5% |
-| $\alpha_s$ | 0.1162 | 0.1179 | 1.4% |
-| $\alpha_W$ | 0.0339 | 0.0338 | 0.4% |
-| $\alpha_s / \alpha_W$ | 3.426 | 3.490 | 1.8% (pure geometry, no $\Omega_\Lambda$) |
+| $`\alpha`$ | 0.00733 | 0.00730 | 0.5% |
+| $`\alpha_s`$ | 0.1162 | 0.1179 | 1.4% |
+| $`\alpha_W`$ | 0.0339 | 0.0338 | 0.4% |
+| $`\alpha_s / \alpha_W`$ | 3.426 | 3.490 | 1.8% (pure geometry, no $`\Omega_\Lambda`$) |
 
 ## I. The Problem
 
-Within MIT, dimensional observables scale from Planck references via the scaling law $A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$. Edge modes such as $H_0$ and $a_0$ reference the evolving hierarchy $\Omega_H(z)$, while surface/space modes reference the fixed boundary hierarchy $\Omega_\Lambda = (R_\Lambda / \ell_P)^2 \approx 10^{122}$. 
+Within MIT, dimensional observables scale from Planck references via the scaling law $`A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}`$. Edge modes such as $`H_0`$ and $`a_0`$ reference the evolving hierarchy $`\Omega_H(z)`$, while surface/space modes reference the fixed boundary hierarchy $`\Omega_\Lambda = (R_\Lambda / \ell_P)^2 \approx 10^{122}`$. 
 
-$n = 1, 2, 3$ counts manifold embedding depth. Each integer floor suppresses by $\sqrt{\Omega_\Lambda} \approx 10^{61}$: one floor gives $H_0$ and $a_0$, two floors give $\Lambda$, three floors give the null dark-matter signal. Dimensionless couplings carry no Planck units, so manifold floors do not apply. They access the same hierarchy $\Omega_\Lambda$ at a different resolution: grid steps rather than manifold depth.
+$`n = 1, 2, 3`$ counts manifold embedding depth. Each integer floor suppresses by $`\sqrt{\Omega_\Lambda} \approx 10^{61}`$: one floor gives $`H_0`$ and $`a_0`$, two floors give $`\Lambda`$, three floors give the null dark-matter signal. Dimensionless couplings carry no Planck units, so manifold floors do not apply. They access the same hierarchy $`\Omega_\Lambda`$ at a different resolution: grid steps rather than manifold depth.
 
-$\alpha$ couples matter (edge, $n = 1$) to geometry (surface, $n = 2$) through the photon, a boson. In the formal Planck-floor limit, the coupling becomes order unity; in the present low-energy universe, the fixed boundary hierarchy suppresses it. How it is suppressed, and by how much, is what the rest of this page derives: which well, which grid, and which fractional power of $\Omega_\Lambda$.
+$`\alpha`$ couples matter (edge, $`n = 1`$) to geometry (surface, $`n = 2`$) through the photon, a boson. In the formal Planck-floor limit, the coupling becomes order unity; in the present low-energy universe, the fixed boundary hierarchy suppresses it. How it is suppressed, and by how much, is what the rest of this page derives: which well, which grid, and which fractional power of $`\Omega_\Lambda`$.
 
 ## II. Three Ingredients
 
 ### The matter well
 
-The well at 13/120 governs matter dynamics: it is the Fibonacci well ($F_7 = 13$) assigned to the MOND acceleration scale $a_0$. It satisfies $\gcd(13, 120) = 1$, making it maximally coprime to the grid and maximally detached from geometric symmetry. This is where matter sits on the mode spectrum.
+The well at 13/120 governs matter dynamics: it is the Fibonacci well ($`F_7 = 13`$) assigned to the MOND acceleration scale $`a_0`$. It satisfies $`\gcd(13, 120) = 1`$, making it maximally coprime to the grid and maximally detached from geometric symmetry. This is where matter sits on the mode spectrum.
 
 ### The bosonic grid
 
-The coupling $\alpha$ is an observable intensity: photons are bosons, and coupling constants are squared amplitudes. Observable intensities $\lvert\psi\rvert^2$ have period 1, placing them on the 60-position bosonic grid ($\lvert I \rvert = 60$) rather than the 120-position spinor grid ($\lvert 2I \rvert = 120$) where the wavefunction $\psi$ lives with anti-period 1.
+The coupling $`\alpha`$ is an observable intensity: photons are bosons, and coupling constants are squared amplitudes. Observable intensities $`\lvert\psi\rvert^2`$ have period 1, placing them on the 60-position bosonic grid ($`\lvert I \rvert = 60`$) rather than the 120-position spinor grid ($`\lvert 2I \rvert = 120`$) where the wavefunction $`\psi`$ lives with anti-period 1.
 
-The well label (13) stays the same. The grid denominator changes: $120 \to 60$. The phase operator evaluates differently at the two resolutions:
+The well label (13) stays the same. The grid denominator changes: $`120 \to 60`$. The phase operator evaluates differently at the two resolutions:
 
 | Grid | Position | Physics |
 |---|---|---|
-| 60R (bosonic) | 13/60 | Matter coupling ($\alpha$) |
-| 120 (spinor) | 13/120 | Matter dynamics ($a_0$) |
+| 60R (bosonic) | 13/60 | Matter coupling ($`\alpha`$) |
+| 120 (spinor) | 13/120 | Matter dynamics ($`a_0`$) |
 
 ### The fractional exponent
 
-For dimensional observables, $n = 1, 2, 3$ counts whole manifold embeddings. Each floor suppresses by $\sqrt{\Omega_\Lambda}$. Dimensional observables count whole floors because they carry Planck dimensions (powers of $\ell_P$, $t_P$) requiring whole-manifold dilution. Dimensionless couplings carry no Planck dimensions; they resolve at the grid level. 
+For dimensional observables, $`n = 1, 2, 3`$ counts whole manifold embeddings. Each floor suppresses by $`\sqrt{\Omega_\Lambda}`$. Dimensional observables count whole floors because they carry Planck dimensions (powers of $`\ell_P`$, $`t_P`$) requiring whole-manifold dilution. Dimensionless couplings carry no Planck dimensions; they resolve at the grid level. 
 
-The bosonic grid has 60 positions, so the minimum resolved step is $1/60 = 1/\lvert I \rvert$, and one grid step of the hierarchy gives $\Omega_\Lambda^{-1/60}$. The exponent follows from two convergent paths (McKay packetization, dimensionless dilution rule). The McKay mass spectrum derives the same $\text{dist}/30$ hierarchy, a comparison that lands 5 of 8 charged fermions within a factor of 3 ($m_e$ the benchmark).
+The bosonic grid has 60 positions, so the minimum resolved step is $`1/60 = 1/\lvert I \rvert`$, and one grid step of the hierarchy gives $`\Omega_\Lambda^{-1/60}`$. The exponent follows from two convergent paths (McKay packetization, dimensionless dilution rule). The McKay mass spectrum derives the same $`\text{dist}/30`$ hierarchy, a comparison that lands 5 of 8 charged fermions within a factor of 3 ($`m_e`$ the benchmark).
 
 ## III. The formula
 
-The scaling law for a dimensionless coupling ($A_P = 1$) is:
+The scaling law for a dimensionless coupling ($`A_P = 1`$) is:
 
-$$\alpha = C(\Theta) \cdot \Omega_\Lambda^{-1/60}$$
+```math
+\alpha = C(\Theta) \cdot \Omega_\Lambda^{-1/60}
+```
 
-with $\Theta = 13/60$ (matter well on bosonic grid) and $\Omega_\Lambda = (R_\Lambda / \ell_P)^2 \approx 10^{122}$.
+with $`\Theta = 13/60`$ (matter well on bosonic grid) and $`\Omega_\Lambda = (R_\Lambda / \ell_P)^2 \approx 10^{122}`$.
 
-**Phase factor.** The phase operator $C(\Theta) = 2\sin^2(\pi\Theta)$ evaluated at $\Theta = 13/60$:
+**Phase factor.** The phase operator $`C(\Theta) = 2\sin^2(\pi\Theta)`$ evaluated at $`\Theta = 13/60`$:
 
-$$C(13/60) = 2\sin^2\left(\pi \cdot \frac{13}{60}\right) = 2 \times (0.6293)^2 = 0.7921$$
+```math
+C(13/60) = 2\sin^2\left(\pi \cdot \frac{13}{60}\right) = 2 \times (0.6293)^2 = 0.7921
+```
 
 **Hierarchy suppression.** One grid step of the vacuum hierarchy:
 
-$$\Omega_\Lambda^{-1/60} = \left(10^{122}\right)^{-1/60} = 10^{-2.033} = 0.009261$$
+```math
+\Omega_\Lambda^{-1/60} = \left(10^{122}\right)^{-1/60} = 10^{-2.033} = 0.009261
+```
 
 **Product:**
 
-$$\alpha = 0.7921 \times 0.009261 = 0.007336$$
+```math
+\alpha = 0.7921 \times 0.009261 = 0.007336
+```
 
-Observed: $\alpha = 0.007297$. Agreement: 0.5%.
+Observed: $`\alpha = 0.007297`$. Agreement: 0.5%.
 
-At the Planck floor ($\Omega_\Lambda \to 1$), the suppression vanishes and $\alpha \to C(13/60) = 0.792$: order unity, as expected for a coupling at the scale where the hierarchy collapses.
+At the Planck floor ($`\Omega_\Lambda \to 1`$), the suppression vanishes and $`\alpha \to C(13/60) = 0.792`$: order unity, as expected for a coupling at the scale where the hierarchy collapses.
 
 ### The derivation chain
 
@@ -76,18 +84,18 @@ These three ingredients (matter well, bosonic grid, fractional exponent) map ont
 
 | # | Input | Output | Status |
 |---|---|---|---|
-| 1 | $S^1 = \partial(\text{Möbius}) \hookrightarrow S^3,\ \partial S^3 = \emptyset$ | Anti-periodic BC | Derived |
-| 2 | $F_7 = 13$, $\gcd(13, 120) = 1$; EM couples matter | Matter well 13 | Derived |
-| 3 | $\lvert\psi\rvert^2$ (bosonic) | 60R-grid; $\Theta = 13/60$ | Derived |
-| 4 | $\alpha$ epoch-independent | Reference $\Omega_\Lambda$ | Derived |
-| 5 | Minimum grid step: $1/\lvert I \rvert = 1/60$ | $\Omega_\Lambda^{-1/60}$ | Established |
-| 6 | $C(13/60) \times \Omega_\Lambda^{-1/60}$ | $\alpha = 0.00733$ | Output |
+| 1 | $`S^1 = \partial(\text{Möbius}) \hookrightarrow S^3,\ \partial S^3 = \emptyset`$ | Anti-periodic BC | Derived |
+| 2 | $`F_7 = 13`$, $`\gcd(13, 120) = 1`$; EM couples matter | Matter well 13 | Derived |
+| 3 | $`\lvert\psi\rvert^2`$ (bosonic) | 60R-grid; $`\Theta = 13/60`$ | Derived |
+| 4 | $`\alpha`$ epoch-independent | Reference $`\Omega_\Lambda`$ | Derived |
+| 5 | Minimum grid step: $`1/\lvert I \rvert = 1/60`$ | $`\Omega_\Lambda^{-1/60}`$ | Established |
+| 6 | $`C(13/60) \times \Omega_\Lambda^{-1/60}`$ | $`\alpha = 0.00733`$ | Output |
 
 Four derivations. One established result. The grid-hierarchy exponent (stage 5) is supported by two independent arguments (McKay packetization, dimensionless dilution rule) and by the restricted uniqueness scan in Section IV.
 
 ## IV. Uniqueness
 
-Accuracy alone cannot distinguish the formula from numerology. A scan of all combinations $C(\Theta) \times \Omega_\Lambda^{-1/d}$ across grid positions and candidate denominators tests whether the MIT formula is structurally selected or merely lucky.
+Accuracy alone cannot distinguish the formula from numerology. A scan of all combinations $`C(\Theta) \times \Omega_\Lambda^{-1/d}`$ across grid positions and candidate denominators tests whether the MIT formula is structurally selected or merely lucky.
 
 | Scan | Combinations | Hits < 0.5% | Expected by chance |
 |---|---|---|---|
@@ -98,13 +106,13 @@ In the broad scan, the formula is indistinguishable from chance: roughly 3 hits 
 
 ### The best competitor
 
-The most accurate alternative is $C(34/120) \times \Omega_\Lambda^{-1/55}$, achieving 0.06% error (six times better than MIT). It fails three structural tests:
+The most accurate alternative is $`C(34/120) \times \Omega_\Lambda^{-1/55}`$, achieving 0.06% error (six times better than MIT). It fails three structural tests:
 
 | Test | MIT formula | Competitor |
 |---|---|---|
 | Grid type | Bosonic (60R): photon is boson | Spinor (120): wrong statistics |
-| Well | 13 (matter / $a_0$): EM couples matter | 34 ($H_0$): phase clock, not coupling |
-| Exponent denominator | $60 = \lvert I \rvert$ (group order) | $55 = F_{10}$ (Fibonacci, not group) |
+| Well | 13 (matter / $`a_0`$): EM couples matter | 34 ($`H_0`$): phase clock, not coupling |
+| Exponent denominator | $`60 = \lvert I \rvert`$ (group order) | $`55 = F_{10}`$ (Fibonacci, not group) |
 
 ### Structural checklist
 
@@ -112,28 +120,28 @@ Only the MIT formula passes all six constraints:
 
 | # | Constraint | Rationale |
 |---|---|---|
-| 1 | Bosonic grid ($60 = \lvert I \rvert$) | Photons are bosons |
-| 2 | Matter well ($F_7 = 13$) | EM couples matter |
-| 3 | Coprime: $\gcd(13, 60) = 1$ | Maximally detached from symmetry |
-| 4 | Group exponent $1/\lvert I \rvert$ | Denominator = icosahedral order |
-| 5 | Coxeter: $1/2h$, $h(E_8) = 30$ | Root system depth |
-| 6 | Epoch-independent: $\Omega_\Lambda$ | $\alpha$ is constant |
+| 1 | Bosonic grid ($`60 = \lvert I \rvert`$) | Photons are bosons |
+| 2 | Matter well ($`F_7 = 13`$) | EM couples matter |
+| 3 | Coprime: $`\gcd(13, 60) = 1`$ | Maximally detached from symmetry |
+| 4 | Group exponent $`1/\lvert I \rvert`$ | Denominator = icosahedral order |
+| 5 | Coxeter: $`1/2h`$, $`h(E_8) = 30`$ | Root system depth |
+| 6 | Epoch-independent: $`\Omega_\Lambda`$ | $`\alpha`$ is constant |
 
 Accuracy alone is inconclusive. Structure selects the MIT formula uniquely.
 
 ## V. The Gauge Ladder
 
-The $\alpha$ derivation uses two structural choices: a phase well (which Kostant exponent) and a grid resolution (60R or 120). For the electromagnetic coupling, both slots are bosonic. A single principle extends this to all three gauge forces: each formula slot inherits the grid matching the interaction character of its participant. The phase slot tracks the carrier. The exponent slot tracks what the force confines.
+The $`\alpha`$ derivation uses two structural choices: a phase well (which Kostant exponent) and a grid resolution (60R or 120). For the electromagnetic coupling, both slots are bosonic. A single principle extends this to all three gauge forces: each formula slot inherits the grid matching the interaction character of its participant. The phase slot tracks the carrier. The exponent slot tracks what the force confines.
 
 ### The Coxeter pair
 
-The $E_8$ root system has Coxeter number $h = 30$. Its exponents are the integers coprime to $h$: $\{1, 7, 11, 13, 17, 19, 23, 29\}$. These pair under conjugation $e \leftrightarrow h - e$. The electromagnetic coupling uses the Kostant exponent 13. Its conjugate is $30 - 13 = 17$. All alternative conjugate pairs under $h(E_8) = 30$ fail by 93% to 770%. The pair $(13, 17)$ is forced.
+The $`E_8`$ root system has Coxeter number $`h = 30`$. Its exponents are the integers coprime to $`h`$: $`\{1, 7, 11, 13, 17, 19, 23, 29\}`$. These pair under conjugation $`e \leftrightarrow h - e`$. The electromagnetic coupling uses the Kostant exponent 13. Its conjugate is $`30 - 13 = 17`$. All alternative conjugate pairs under $`h(E_8) = 30`$ fail by 93% to 770%. The pair $`(13, 17)`$ is forced.
 
 The same exponent 17 governs both the strong and weak couplings. What differs is the grid.
 
 ### Grid ladder selection rule
 
-The domain sizes $60 = |I|$ and $120 = |2I|$ trace to the edge stabilizer $Z_4 \subset 2I$: integer-spin irreps carry only real $Z_4$ content (domain $D = 60$), half-integer carry only complex pairs ($D = 120$). That $-I$ spin sort fixes the $60/120$ split for the mass irreps. The gauge-carrier ladder below reuses those two domains under a distinct criterion, identity-preserving (60R) versus fermion-changing (120) action, not the mediator's own spin; the two uses of the split should not be conflated.
+The domain sizes $`60 = |I|`$ and $`120 = |2I|`$ trace to the edge stabilizer $`Z_4 \subset 2I`$: integer-spin irreps carry only real $`Z_4`$ content (domain $`D = 60`$), half-integer carry only complex pairs ($`D = 120`$). That $`-I`$ spin sort fixes the $`60/120`$ split for the mass irreps. The gauge-carrier ladder below reuses those two domains under a distinct criterion, identity-preserving (60R) versus fermion-changing (120) action, not the mediator's own spin; the two uses of the split should not be conflated.
 
 Each gauge force occupies a rung of the carrier/target grid ladder. Each coupling formula has two slots: one for the force carrier (photon, gluon, or W/Z) and one for what the force acts on or confines. Each slot is assigned to the 60R-grid when the role is bosonic (intensity-like) or to the 120-grid when the role is spinorial (wavefunction-like). The three observed gauge forces occupy three of the four possible pairings, with spinorial content increasing monotonically:
 
@@ -143,35 +151,41 @@ Each gauge force occupies a rung of the carrier/target grid ladder. Each couplin
 | Strong | Bosonic (gluon rotates color) | 60R | Spinorial (confined fermions) | 120 | 1 of 2 |
 | Weak | Fermion-changing (W/Z swaps flavor) | 120 | Spinorial (fermion transitions) | 120 | 2 of 2 |
 
-The three forces exhaust the lower triangle of the grid matrix. There are no gaps and no unused rungs. The color structure that determines strong force coupling traces to the face stabilizer $Z_3 \subset 2I$, whose decomposition separates each irrep into color singlets (lepton-type) and color triplet/anti-triplet pairs (quark-type), as established in the companion mass spectrum analysis. The grid distinction traces to the edge stabilizer $Z_4$. The gauge ladder is the stabilizer structure of the icosahedron expressed through the force sector.
+The three forces exhaust the lower triangle of the grid matrix. There are no gaps and no unused rungs. The color structure that determines strong force coupling traces to the face stabilizer $`Z_3 \subset 2I`$, whose decomposition separates each irrep into color singlets (lepton-type) and color triplet/anti-triplet pairs (quark-type), as established in the companion mass spectrum analysis. The grid distinction traces to the edge stabilizer $`Z_4`$. The gauge ladder is the stabilizer structure of the icosahedron expressed through the force sector.
 
-### $\alpha_s$: the strong coupling
+### $`\alpha_s`$: the strong coupling
 
-The gluon is a boson (phase grid = 60R), but it confines fermions (exponent grid = 120). Kostant exponent 17 on the 60R phase grid, with one step of $\Omega_\Lambda$ on the 120 domain:
+The gluon is a boson (phase grid = 60R), but it confines fermions (exponent grid = 120). Kostant exponent 17 on the 60R phase grid, with one step of $`\Omega_\Lambda`$ on the 120 domain:
 
-$$\alpha_s = C(17/60) \times \Omega_\Lambda^{-1/120} = 0.1162$$
+```math
+\alpha_s = C(17/60) \times \Omega_\Lambda^{-1/120} = 0.1162
+```
 
 Observed: 0.1179. Agreement: 1.4%.
 
-### $\alpha_W$: the weak coupling and the Plato twist
+### $`\alpha_W`$: the weak coupling and the Plato twist
 
-The W and Z bosons swap flavor: a fermion-changing operation. Both slots sit on the 120 fermion domain (phase grid = 120, exponent grid = 120). The $W$ and $Z$ remain spin-1 bosons; their 120 assignment comes from that flavor-changing action, not from their spin, and it is a motivated selection rule rather than a derived one. Kostant exponent 17 on the 120 phase grid:
+The W and Z bosons swap flavor: a fermion-changing operation. Both slots sit on the 120 fermion domain (phase grid = 120, exponent grid = 120). The $`W`$ and $`Z`$ remain spin-1 bosons; their 120 assignment comes from that flavor-changing action, not from their spin, and it is a motivated selection rule rather than a derived one. Kostant exponent 17 on the 120 phase grid:
 
-$$\alpha_W = C(17/120) \times \Omega_\Lambda^{-1/120} \times \cos(\pi/10) = 0.0339$$
+```math
+\alpha_W = C(17/120) \times \Omega_\Lambda^{-1/120} \times \cos(\pi/10) = 0.0339
+```
 
 Observed: 0.0338. Agreement: 0.4%.
 
-**The Plato twist.** The correction $\cos(\pi/10) \approx 0.951$ arises from the dodecahedral geometry of $S^3/2I$. The dodecahedron (dual to the icosahedron) has angular defect $\pi/5$ at each vertex. The Möbius $Z_2$ holonomy halves the defect to $\pi/10$. The weak force is the only Standard Model interaction that violates parity; it is the only coupling that traverses the twist.
+**The Plato twist.** The correction $`\cos(\pi/10) \approx 0.951`$ arises from the dodecahedral geometry of $`S^3/2I`$. The dodecahedron (dual to the icosahedron) has angular defect $`\pi/5`$ at each vertex. The Möbius $`Z_2`$ holonomy halves the defect to $`\pi/10`$. The weak force is the only Standard Model interaction that violates parity; it is the only coupling that traverses the twist.
 
-In the stabilizer framework, the Plato twist encodes how vertex geometry ($Z_5$) reaches the observer through the Möbius twist ($Z_2$). Color ($Z_3$) transmits cleanly through the surface, which is why the strong and electromagnetic forces carry no twist correction. The vertex information passes through the non-orientable identification, picking up $\cos(\pi/10) = \sqrt{(2+\varphi)}/2$ as the projection factor. The golden ratio $\varphi$ enters from $Z_5$ (icosahedral vertex symmetry) and the factor 2 from $Z_2$ (edge/Möbius holonomy). The twist correction is the vertex-edge stabilizer interface.
+In the stabilizer framework, the Plato twist encodes how vertex geometry ($`Z_5`$) reaches the observer through the Möbius twist ($`Z_2`$). Color ($`Z_3`$) transmits cleanly through the surface, which is why the strong and electromagnetic forces carry no twist correction. The vertex information passes through the non-orientable identification, picking up $`\cos(\pi/10) = \sqrt{(2+\varphi)}/2`$ as the projection factor. The golden ratio $`\varphi`$ enters from $`Z_5`$ (icosahedral vertex symmetry) and the factor 2 from $`Z_2`$ (edge/Möbius holonomy). The twist correction is the vertex-edge stabilizer interface.
 
-The correction is selective: it uniquely improves $\alpha_W$ (from 5.6% to 0.4%), and uniquely degrades both $\alpha$ (from 0.5% to 4.4%) and $\alpha_s$ (from 1.4% to 6.3%) if misapplied. The twist knows which force it belongs to.
+The correction is selective: it uniquely improves $`\alpha_W`$ (from 5.6% to 0.4%), and uniquely degrades both $`\alpha`$ (from 0.5% to 4.4%) and $`\alpha_s`$ (from 1.4% to 6.3%) if misapplied. The twist knows which force it belongs to.
 
-### $\alpha_s / \alpha_W$: pure geometry
+### $`\alpha_s / \alpha_W`$: pure geometry
 
-The ratio of the strong to weak coupling cancels all $\Omega_\Lambda$ dependence:
+The ratio of the strong to weak coupling cancels all $`\Omega_\Lambda`$ dependence:
 
-$$\frac{\alpha_s}{\alpha_W} = \frac{C(17/60)}{C(17/120) \times \cos(\pi/10)} = 3.426$$
+```math
+\frac{\alpha_s}{\alpha_W} = \frac{C(17/60)}{C(17/120) \times \cos(\pi/10)} = 3.426
+```
 
 Observed: 3.490. Agreement: 1.8%. Same Kostant exponent, different grids, one twist correction. The ratio between the strong and weak force is the geometry of the domain.
 
@@ -179,52 +193,62 @@ Observed: 3.490. Agreement: 1.8%. Same Kostant exponent, different grids, one tw
 
 | Coupling | Formula | Predicted | Observed | Agreement | Status |
 |---|---|---|---|---|---|
-| $\alpha$ | $C(13/60) \cdot \Omega_\Lambda^{-1/60}$ | 0.00733 | 0.00730 | 0.5% | Closed |
-| $\alpha_s$ | $C(17/60) \cdot \Omega_\Lambda^{-1/120}$ | 0.1162 | 0.1179 | 1.4% | Established |
-| $\alpha_W$ | $C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)$ | 0.0339 | 0.0338 | 0.4% | Motivated |
-| $\alpha_s/\alpha_W$ | $C(17/60) / [C(17/120) \cdot \cos(\pi/10)]$ | 3.426 | 3.490 | 1.8% | Established |
+| $`\alpha`$ | $`C(13/60) \cdot \Omega_\Lambda^{-1/60}`$ | 0.00733 | 0.00730 | 0.5% | Closed |
+| $`\alpha_s`$ | $`C(17/60) \cdot \Omega_\Lambda^{-1/120}`$ | 0.1162 | 0.1179 | 1.4% | Established |
+| $`\alpha_W`$ | $`C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)`$ | 0.0339 | 0.0338 | 0.4% | Motivated |
+| $`\alpha_s/\alpha_W`$ | $`C(17/60) / [C(17/120) \cdot \cos(\pi/10)]`$ | 3.426 | 3.490 | 1.8% | Established |
 
-The observed values of $\alpha_s$ and $\alpha_W$ are conventionally measured at $M_Z$ (~91 GeV), while $\alpha$ is measured at low energy. Whether the MIT predictions apply at matching scales is open (see Section VIII).
+The observed values of $`\alpha_s`$ and $`\alpha_W`$ are conventionally measured at $`M_Z`$ (~91 GeV), while $`\alpha`$ is measured at low energy. Whether the MIT predictions apply at matching scales is open (see Section VIII).
 
-Reading the α row as a prediction carries one caveat. The 0.5% holds when $\Omega_\Lambda$ is fixed from an independent anchor (the measured Λ). When α is instead the best-conditioned anchor that fixes $\Omega_\Lambda$, its own 0.5% is a consistency check, not an independent prediction, and the genuine output of that route is $\Lambda = 3/R^2$ to 24%. The surface sector is over-determined: you anchor on one of Λ, α, or the mass ratio and the rest become predictions, never all at once (see [Three readings of one hierarchy](../../framework/README.md#three-readings-of-one-hierarchy)).
+Reading the α row as a prediction carries one caveat. The 0.5% holds when $`\Omega_\Lambda`$ is fixed from an independent anchor (the measured Λ). When α is instead the best-conditioned anchor that fixes $`\Omega_\Lambda`$, its own 0.5% is a consistency check, not an independent prediction, and the genuine output of that route is $`\Lambda = 3/R^2`$ to 24%. The surface sector is over-determined: you anchor on one of Λ, α, or the mass ratio and the rest become predictions, never all at once (see [Three readings of one hierarchy](../../framework/README.md#three-readings-of-one-hierarchy)).
 
 ## VI. The α-Λ Connection
 
-Both the cosmological constant and the fine structure constant reference the same hierarchy $\Omega_\Lambda$. The difference is how much of it they use.
+Both the cosmological constant and the fine structure constant reference the same hierarchy $`\Omega_\Lambda`$. The difference is how much of it they use.
 
-$$\Lambda_\text{top} \cdot \ell_P^2 = \Omega_\Lambda^{-1} \cdot C(60/120) = 2\,\Omega_\Lambda^{-1}$$
+```math
+\Lambda_\text{top} \cdot \ell_P^2 = \Omega_\Lambda^{-1} \cdot C(60/120) = 2\,\Omega_\Lambda^{-1}
+```
 
-$$\alpha = \Omega_\Lambda^{-1/60} \cdot C(13/60)$$
+```math
+\alpha = \Omega_\Lambda^{-1/60} \cdot C(13/60)
+```
 
-Λ sits at the antinode: $C(60/120) = C(30/60) = 2$. This is the bare surface eigenvalue $\Lambda_\text{top}$; the observed cosmological value adds the Gauss/de Sitter conversion $3/2$, giving $\Lambda_\text{obs} \cdot \ell_P^2 = 3\,\Omega_\Lambda^{-1}$ (see the [cosmological constant](../../cosmos/files/cosmological-constant.md)). Grid choice is invisible at the antinode. $\alpha$ sits away from the antinode, where the grid matters: $C(13/60) = 0.79$ on the bosonic grid vs $C(13/120) = 0.22$ on the spinor grid.
+Λ sits at the antinode: $`C(60/120) = C(30/60) = 2`$. This is the bare surface eigenvalue $`\Lambda_\text{top}`$; the observed cosmological value adds the Gauss/de Sitter conversion $`3/2`$, giving $`\Lambda_\text{obs} \cdot \ell_P^2 = 3\,\Omega_\Lambda^{-1}`$ (see the [cosmological constant](../../cosmos/files/cosmological-constant.md)). Grid choice is invisible at the antinode. $`\alpha`$ sits away from the antinode, where the grid matters: $`C(13/60) = 0.79`$ on the bosonic grid vs $`C(13/120) = 0.22`$ on the spinor grid.
 
-Λ uses the full hierarchy (exponent 1). $\alpha$ uses 1/60-th: one grid step. The ratio of log-scalings confirms the relationship:
+Λ uses the full hierarchy (exponent 1). $`\alpha`$ uses 1/60-th: one grid step. The ratio of log-scalings confirms the relationship:
 
-$$\frac{\log\alpha}{\log(\Lambda \cdot \ell_P^2)} \approx \frac{-2.13}{-121.7} \approx \frac{1}{57}$$
+```math
+\frac{\log\alpha}{\log(\Lambda \cdot \ell_P^2)} \approx \frac{-2.13}{-121.7} \approx \frac{1}{57}
+```
 
-Close to 1/60; the offset comes from $C(13/60) \neq C(60/120)$. The coupling constant measures how much hierarchy one quantum of exchange crosses. Λ is the total vacuum energy, the entire surface mode. $\alpha$ is one interaction within that vacuum, one resolved step.
+Close to 1/60; the offset comes from $`C(13/60) \neq C(60/120)`$. The coupling constant measures how much hierarchy one quantum of exchange crosses. Λ is the total vacuum energy, the entire surface mode. $`\alpha`$ is one interaction within that vacuum, one resolved step.
 
 ### Planck-floor limit and scale matching
 
 The formula gives a fixed value of the electromagnetic coupling:
 
-$$\alpha = C(13/60)\,\Omega_\Lambda^{-1/60}$$
+```math
+\alpha = C(13/60)\,\Omega_\Lambda^{-1/60}
+```
 
-$\Omega_\Lambda$ is fixed by the cosmological boundary scale. The formula's argument is a boundary condition, not an energy scale. This is a base-value prediction, not a theory of energy-dependent running. The agreement is with the low-energy value of $\alpha$, not with $\alpha(M_Z)$.
+$`\Omega_\Lambda`$ is fixed by the cosmological boundary scale. The formula's argument is a boundary condition, not an energy scale. This is a base-value prediction, not a theory of energy-dependent running. The agreement is with the low-energy value of $`\alpha`$, not with $`\alpha(M_Z)`$.
 
-The Planck-floor limit is still meaningful. If the hierarchy were collapsed to $\Omega_\Lambda \to 1$:
+The Planck-floor limit is still meaningful. If the hierarchy were collapsed to $`\Omega_\Lambda \to 1`$:
 
-$$\alpha \to C(13/60) = 0.792$$
+```math
+\alpha \to C(13/60) = 0.792
+```
 
-Order unity. This is a structural limit of the formula: in a Planck-scale bounded domain, the hierarchy suppression disappears. It is not the same as saying that $\Omega_\Lambda$ varies locally with scattering energy in our universe.
+Order unity. This is a structural limit of the formula: in a Planck-scale bounded domain, the hierarchy suppression disappears. It is not the same as saying that $`\Omega_\Lambda`$ varies locally with scattering energy in our universe.
 
-Standard QED running remains a perturbative field-theory effect layered on top of the infrared coupling. Connecting the MIT base value to $\alpha(q^2)$ requires an additional derivation: either identifying the formula with $\alpha(q^2 = 0)$ and leaving conventional vacuum-polarization running unchanged, or deriving a scale-dependent effective hierarchy from MIT. That second step is open.
+Standard QED running remains a perturbative field-theory effect layered on top of the infrared coupling. Connecting the MIT base value to $`\alpha(q^2)`$ requires an additional derivation: either identifying the formula with $`\alpha(q^2 = 0)`$ and leaving conventional vacuum-polarization running unchanged, or deriving a scale-dependent effective hierarchy from MIT. That second step is open.
 
 This gives a geometric version of the usual unification intuition: when the hierarchy suppression is removed, the couplings become order unity. Whether this can be promoted to an energy-dependent unification mechanism requires the open scale-matching step above.
 
 ## VII. The Vacant Rung
 
-The grid ladder in Section V assigns two structural properties to each gauge force: the character of its carrier (phase grid) and the character of what it confines (exponent grid). Each slot resolves as bosonic (60R, intensity $|\psi|^2$, period 1) or spinorial (120, wavefunction $\psi$, anti-period 1). Two binary choices across two formula slots yield four possible rungs, three occupied.
+The grid ladder in Section V assigns two structural properties to each gauge force: the character of its carrier (phase grid) and the character of what it confines (exponent grid). Each slot resolves as bosonic (60R, intensity $`|\psi|^2`$, period 1) or spinorial (120, wavefunction $`\psi`$, anti-period 1). Two binary choices across two formula slots yield four possible rungs, three occupied.
 
 | Phase grid (carrier) | Exponent grid (target) | Physical reading | Force |
 |---|---|---|---|
@@ -233,15 +257,15 @@ The grid ladder in Section V assigns two structural properties to each gauge for
 | 120 | 120 | Fermion-changing carrier, fermion transitions | Weak |
 | 120 | 60R | Fermionic carrier, bosonic target | — |
 
-Three rungs are occupied; the upper off-diagonal entry, 120/60, is empty, and structurally so: a gauge rung preserves the fermion or boson character of what it acts on, so the 120/60 rung, a fermionic carrier acting on a bosonic target, has no realization among gauge forces. The firing order (topology $\to$ wave $\to$ observable) runs one direction, and the mechanism is the obstruction below.
+Three rungs are occupied; the upper off-diagonal entry, 120/60, is empty, and structurally so: a gauge rung preserves the fermion or boson character of what it acts on, so the 120/60 rung, a fermionic carrier acting on a bosonic target, has no realization among gauge forces. The firing order (topology $`\to`$ wave $`\to`$ observable) runs one direction, and the mechanism is the obstruction below.
 
 In the stabilizer framework, the three occupied rungs exhaust the monotone sequence in spinorial content:
 
 | Rung | Spinorial slots | Stabilizer interface | Force |
 |---|---|---|---|
-| 60R / 60R | 0 of 2 | Pure $Z_4$ real sector | EM |
-| 60R / 120 | 1 of 2 | $Z_3$ color (face) confining $Z_4$ complex sector | Strong |
-| 120 / 120 | 2 of 2 | $Z_5$ vertex through $Z_2$ twist | Weak |
+| 60R / 60R | 0 of 2 | Pure $`Z_4`$ real sector | EM |
+| 60R / 120 | 1 of 2 | $`Z_3`$ color (face) confining $`Z_4`$ complex sector | Strong |
+| 120 / 120 | 2 of 2 | $`Z_5`$ vertex through $`Z_2`$ twist | Weak |
 
 Spinorial content increases. The reverse move (from 2 spinorial slots to 1 bosonic target) would break monotonicity. The ladder climbs; it does not descend.
 
@@ -256,7 +280,7 @@ This is the structure of supersymmetric gauge interaction. Gauginos (spin-1/2 su
 
 ### The obstruction
 
-The vacancy is spin-statistical. A gauge rung acts within a statistics class: it changes phase, charge, or representation but leaves the fermion or boson character of what it acts on intact. The weak rung is the test case: its fermion-changing action swaps one fermion for another, so the target stays a fermion and the carrier stays a spin-1 boson. The vacant 120/60 rung would instead send the full-domain action into a bosonic target, crossing the fermion/boson class boundary; spin-statistics then forces the carrier itself to be a fermion, the gaugino above. This is the single cell where the Section V action criterion coincides with a literal spin-1/2 carrier, as its consequence and not in conflict with the rule, and none of the three real forces realizes it. Underneath, the anti-periodic boundary condition makes $\psi$ the fundamental object and $|\psi|^2$ its square: that projection is well-defined but non-invertible, which is the measurement-level reason the 120 and 60R grids stay distinct.
+The vacancy is spin-statistical. A gauge rung acts within a statistics class: it changes phase, charge, or representation but leaves the fermion or boson character of what it acts on intact. The weak rung is the test case: its fermion-changing action swaps one fermion for another, so the target stays a fermion and the carrier stays a spin-1 boson. The vacant 120/60 rung would instead send the full-domain action into a bosonic target, crossing the fermion/boson class boundary; spin-statistics then forces the carrier itself to be a fermion, the gaugino above. This is the single cell where the Section V action criterion coincides with a literal spin-1/2 carrier, as its consequence and not in conflict with the rule, and none of the three real forces realizes it. Underneath, the anti-periodic boundary condition makes $`\psi`$ the fundamental object and $`|\psi|^2`$ its square: that projection is well-defined but non-invertible, which is the measurement-level reason the 120 and 60R grids stay distinct.
 
 ### The prediction
 
@@ -272,8 +296,8 @@ The grid ladder was constructed to derive coupling constants. It was not designe
 
 | Test | Fails if | Status |
 |---|---|---|
-| Grid ladder pattern | No well/grid combination reproduces $\alpha_W$ or $\alpha_s$ at $< 5\%$ | Satisfied |
-| Plato twist selectivity | $\cos(\pi/10)$ improves $\alpha$ or $\alpha_s$ rather than uniquely $\alpha_W$ | Satisfied |
+| Grid ladder pattern | No well/grid combination reproduces $`\alpha_W`$ or $`\alpha_s`$ at $`< 5\%`$ | Satisfied |
+| Plato twist selectivity | $`\cos(\pi/10)`$ improves $`\alpha`$ or $`\alpha_s`$ rather than uniquely $`\alpha_W`$ | Satisfied |
 
 **External empirical tests** (contact with observation):
 
@@ -281,15 +305,15 @@ The grid ladder was constructed to derive coupling constants. It was not designe
 |---|---|---|
 | Force count | A fourth fundamental force occupies the 120/60 rung | Decisive |
 | SUSY vacancy | Gaugino-mediated interactions observed at any energy scale | Decisive |
-| Scale consistency / running | The three coupling values cannot be assigned to consistent reference scales, or MIT cannot connect the infrared $\alpha$ value to conventional $\alpha(q^2)$ running | Open |
-| $\alpha$ value | Agreement degrades beyond 2% with improved Λ | Moderate |
-| $\alpha$ – $\Lambda$ correlation | Refined Λ pushes predicted $\alpha$ further from CODATA | Weak (sensitivity suppressed by 1/60) |
+| Scale consistency / running | The three coupling values cannot be assigned to consistent reference scales, or MIT cannot connect the infrared $`\alpha`$ value to conventional $`\alpha(q^2)`$ running | Open |
+| $`\alpha`$ value | Agreement degrades beyond 2% with improved Λ | Moderate |
+| $`\alpha`$ – $`\Lambda`$ correlation | Refined Λ pushes predicted $`\alpha`$ further from CODATA | Weak (sensitivity suppressed by 1/60) |
 
-The first two confirm that the formula is structurally forced within MIT. The external tests are where the framework meets data. The force count and SUSY vacancy are tested by every collider run. The open question is scale consistency: the three predictions are made at different energy scales ($\alpha$ at low energy, $\alpha_s$ and $\alpha_W$ near $M_Z$), and deriving RG running from the MIT hierarchy structure remains open.
+The first two confirm that the formula is structurally forced within MIT. The external tests are where the framework meets data. The force count and SUSY vacancy are tested by every collider run. The open question is scale consistency: the three predictions are made at different energy scales ($`\alpha`$ at low energy, $`\alpha_s`$ and $`\alpha_W`$ near $`M_Z`$), and deriving RG running from the MIT hierarchy structure remains open.
 
 ---
 
-One Coxeter pair $(13, 17)$ forced by the $E_8$ root system. One grid ladder exhausted by three forces. One twist correction selective to parity violation. Three gauge couplings from the geometry of the domain, at 0.5%, 1.4%, and 0.4%. Their ratio at 1.8% with no $\Omega_\Lambda$ input at all. Λ uses the full vacuum hierarchy. $\alpha$ uses one-sixtieth of it. The strong and weak forces fill the remaining rungs.
+One Coxeter pair $`(13, 17)`$ forced by the $`E_8`$ root system. One grid ladder exhausted by three forces. One twist correction selective to parity violation. Three gauge couplings from the geometry of the domain, at 0.5%, 1.4%, and 0.4%. Their ratio at 1.8% with no $`\Omega_\Lambda`$ input at all. Λ uses the full vacuum hierarchy. $`\alpha`$ uses one-sixtieth of it. The strong and weak forces fill the remaining rungs.
 
 *The fine structure constant is the fine structure of the cosmological constant: the vacuum hierarchy resolved at its first step.*
 
