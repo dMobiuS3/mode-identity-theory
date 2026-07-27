@@ -14,11 +14,11 @@
 
 ## The Question
 
-The Hubble-tension note ([hubble-tension.md](../../../../cosmos/files/hubble-tension.md)) Section V states a discrete prediction: local H₀ should cluster at quantized values set by the lattice, not vary continuously between 67 and 73. The phase operator admits only the bare well ($\Theta_0 = 34/120$, H₀ ≈ 67) and the one-step shift ($\Theta = 36/120$, H₀ ≈ 73). Nothing in between.
+The Hubble-tension note ([hubble-tension.md](../../../../cosmos/files/hubble-tension.md)) Section V states a discrete prediction: local H₀ should cluster at quantized values set by the lattice, not vary continuously between 67 and 73. The phase operator admits only the bare well ($`\Theta_0 = 34/120`$, H₀ ≈ 67) and the one-step shift ($`\Theta = 36/120`$, H₀ ≈ 73). Nothing in between.
 
 This test asks one question: **do published H₀ measurements cluster into two discrete populations, or do they form a continuous spread?**
 
-It is independent of the trigger mechanism. The SPARC test ([sparc-phase-field.md](sparc-phase-field.md)) falsified the specific coherence-scale trigger $L_f = v_c^2/a_0$. The trigger says *why* a shift would happen; the bimodality test asks *whether* the two-population structure exists at all. A discrete framework can survive a failed trigger; it cannot survive a continuous H₀ distribution.
+It is independent of the trigger mechanism. The SPARC test ([sparc-phase-field.md](sparc-phase-field.md)) falsified the specific coherence-scale trigger $`L_f = v_c^2/a_0`$. The trigger says *why* a shift would happen; the bimodality test asks *whether* the two-population structure exists at all. A discrete framework can survive a failed trigger; it cannot survive a continuous H₀ distribution.
 
 This is a blind reanalysis of public data, not a pre-registered test. Every H₀ value used here was already published and widely known. The analysis choices (independent-subset membership, the statistical thresholds, the gap range) were fixed before the tests were run, but the data could not be blinded. The genuine forward test remains Euclid DR1.
 
@@ -85,7 +85,7 @@ The 13-row independent subset is the primary set; the full 18-row set is reporte
 
 ### Tests
 
-1. **Hartigan dip test** for unimodality. Run unweighted on the central values, then in a Monte-Carlo variant: each iteration draws every measurement from $\mathcal{N}(H_0, \sigma^2)$ and runs the dip test on the pooled draw, so a wide measurement spreads its mass and contributes less to any apparent cluster (5000 draws). The dip test has no native weighting; this is the uncertainty-propagated equivalent.
+1. **Hartigan dip test** for unimodality. Run unweighted on the central values, then in a Monte-Carlo variant: each iteration draws every measurement from $`\mathcal{N}(H_0, \sigma^2)`$ and runs the dip test on the pooled draw, so a wide measurement spreads its mass and contributes less to any apparent cluster (5000 draws). The dip test has no native weighting; this is the uncertainty-propagated equivalent.
 2. **Gaussian mixture model**, 1 versus 2 components, compared by BIC.
 3. **Gap test**: count of measurements in the predicted 69 to 71 gap, with GW170817 excluded because its σ ≈ 10 spans the whole range.
 
@@ -156,9 +156,9 @@ The first three rows all register against the discrete picture. The fourth holds
 
 ## VI. Relation to the SPARC result
 
-The two registered tests separate cleanly. SPARC ([sparc-phase-field.md](sparc-phase-field.md)) falsified the coherence-scale trigger $L_f = v_c^2/a_0$: the mechanism that would force ordinary disk galaxies to realize the phase shift. This test addresses the downstream observable: whether the shift, however triggered, leaves a discrete two-population fingerprint in H₀ data. It does not.
+The two registered tests separate cleanly. SPARC ([sparc-phase-field.md](sparc-phase-field.md)) falsified the coherence-scale trigger $`L_f = v_c^2/a_0`$: the mechanism that would force ordinary disk galaxies to realize the phase shift. This test addresses the downstream observable: whether the shift, however triggered, leaves a discrete two-population fingerprint in H₀ data. It does not.
 
-Both outcomes are negative for the testable phase-field predictions, and both leave the lattice arithmetic untouched. The 8.4% well sensitivity at $\Theta_0 = 34/120$ (hubble-tension.md Sections III and IV) is geometry, not a claim either test probes. What fails here is the empirical signature the discrete picture would produce: current H₀ data is consistent with a continuous distribution, sorted by calibration class but not quantized.
+Both outcomes are negative for the testable phase-field predictions, and both leave the lattice arithmetic untouched. The 8.4% well sensitivity at $`\Theta_0 = 34/120`$ (hubble-tension.md Sections III and IV) is geometry, not a claim either test probes. What fails here is the empirical signature the discrete picture would produce: current H₀ data is consistent with a continuous distribution, sorted by calibration class but not quantized.
 
 ---
 

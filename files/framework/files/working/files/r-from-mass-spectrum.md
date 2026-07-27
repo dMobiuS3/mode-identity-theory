@@ -36,7 +36,9 @@ The 4.5% ratio miss becomes a factor of 14 in Λ because the McKay lever is weak
 
 The mass formula (engine file §14):
 
-$$m(\rho, \sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega_\Lambda})^{\,\text{dist}(\rho)/30} \times T^2(\rho \otimes \sigma)$$
+```math
+m(\rho, \sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega_\Lambda})^{\,\text{dist}(\rho)/30} \times T^2(\rho \otimes \sigma)
+```
 
 Three of the four factors are dimensionless topological ratios:
 - C_geom(ρ): geometric mean of C(e/D) over Kostant exponents of irrep ρ
@@ -45,7 +47,9 @@ Three of the four factors are dimensionless topological ratios:
 
 All physical dimensions live in the vacuum energy floor:
 
-$$\mu_\Lambda = \rho_\Lambda^{1/4} = \left(\frac{\Lambda c^4}{8\pi G}\right)^{1/4}$$
+```math
+\mu_\Lambda = \rho_\Lambda^{1/4} = \left(\frac{\Lambda c^4}{8\pi G}\right)^{1/4}
+```
 
 Both μ_Λ and Ω_Λ = (R/ℓ_P)² depend on R and G. But G = 3c⁴/(8πR²μ_Λ⁴), so everything reduces to (c, ℏ, R, topological ratios).
 
@@ -62,15 +66,21 @@ From the Waltz working notes. G enters the mass formula through two doors:
 
 Total G-exponent in the mass formula:
 
-$$\alpha(d) = -\frac{1}{4} - \frac{d}{60} = -\frac{15 + d}{60}$$
+```math
+\alpha(d) = -\frac{1}{4} - \frac{d}{60} = -\frac{15 + d}{60}
+```
 
 The mass formula becomes:
 
-$$m = K(c, \hbar, R, \text{topology}) \cdot G^{-(15+d)/60}$$
+```math
+m = K(c, \hbar, R, \text{topology}) \cdot G^{-(15+d)/60}
+```
 
 where K contains only c, ℏ, R, and dimensionless topological ratios. Solving for G:
 
-$$G = \left(\frac{K}{m_{\text{obs}}}\right)^{60/(15+d)}$$
+```math
+G = \left(\frac{K}{m_{\text{obs}}}\right)^{60/(15+d)}
+```
 
 One equation, one unknown (G), given R and one measured mass. But G and R are related through Λ = 3/R² and G = 3c⁴/(8πR²μ_Λ⁴). So the system has one free parameter: R.
 
@@ -86,7 +96,9 @@ A second measured mass (m_μ) gives a second equation in the same unknown. The s
 
 The ratio of two masses at different McKay distances:
 
-$$\frac{m_\mu}{m_e} = \frac{C_\mu}{C_e} \times (\sqrt{\Omega_\Lambda})^{(d_\mu - d_e)/30} \times \frac{T^2_\mu}{T^2_e}$$
+```math
+\frac{m_\mu}{m_e} = \frac{C_\mu}{C_e} \times (\sqrt{\Omega_\Lambda})^{(d_\mu - d_e)/30} \times \frac{T^2_\mu}{T^2_e}
+```
 
 If d_μ ≠ d_e, the ratio depends on Ω_Λ, which depends on R. The topological prefactors are pure numbers. Measuring the ratio and computing the prefactors gives Ω_Λ, hence R.
 
@@ -131,7 +143,9 @@ The assignment rule is resolved (mass-spectrum.md §IV.4, 10/10 verified) and th
 
 The forward chain runs:
 
-$$m_e, m_\mu \text{ (measured)} \xrightarrow{\text{mass formula}} R \xrightarrow{\Lambda R^2 = 3} \Lambda$$
+```math
+m_e, m_\mu \text{ (measured)} \xrightarrow{\text{mass formula}} R \xrightarrow{\Lambda R^2 = 3} \Lambda
+```
 
 Λ is a prediction from particle physics: no CMB input, no de Sitter circularity. The coefficient 3 is derived from the postulate (eigenvalue + Gauss); the scale R is derived from the mass spectrum. This is a genuine, independent prediction of Λ from topology plus two measured masses.
 

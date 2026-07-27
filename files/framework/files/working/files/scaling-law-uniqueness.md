@@ -14,7 +14,9 @@
 
 Given S¹ = ∂(Möbius) ↪ S³, ∂S³ = ∅, with anti-periodic boundary conditions and the 120-domain native to S³, and given the observable class native to that topology (SU(2)-equivariant functionals of the first-positive boundary mode and the Hodge-Laplace spectrum), is there any measurement rule within that class other than
 
-$$\frac{A}{A_P} = C(\Theta) \cdot (\sqrt{\Omega})^{-n}$$
+```math
+\frac{A}{A_P} = C(\Theta) \cdot (\sqrt{\Omega})^{-n}
+```
 
 that produces finite, well-defined observables?
 
@@ -39,11 +41,11 @@ The two genuinely open mechanisms, the α_W twist and the extension selection, a
 
 ---
 
-**Note on calibration vs form.** The engine file writes the scaling law with $\approx$, reflecting that the kinematic identification of $\Omega$ with a physical quantity (e.g., $\Omega_H = (c/(H\ell_P))^2$ for edge modes) is approximate: the hierarchy normalization is fixed by calibrating through one measured anchor per sector ($H_0$ for edge modes, measured $\Lambda$ for surface and space modes, the mass-sector normalization for fermions).
+**Note on calibration vs form.** The engine file writes the scaling law with $`\approx`$, reflecting that the kinematic identification of $`\Omega`$ with a physical quantity (e.g., $`\Omega_H = (c/(H\ell_P))^2`$ for edge modes) is approximate: the hierarchy normalization is fixed by calibrating through one measured anchor per sector ($`H_0`$ for edge modes, measured $`\Lambda`$ for surface and space modes, the mass-sector normalization for fermions).
 
-The surface radius $R$ enters as the geometric parameter in the first positive eigenvalue $\lambda = 2/R^2$, and it is not yet fixed independently. The reason is structural, and it is the same reason the Yang-Mills gaps cannot fix it. Every observable is the single product $C(\Theta)\cdot(\sqrt{\Omega})^{-n}$, so one observable gives one equation, and $R$ reads out only as $R$-given-the-assumed-<i>C</i>. $R$ separates only when two observables share it at different powers. Same-power families return $R$-free ratios and nothing more: the Yang-Mills gaps live at $1/R^2$, $\Lambda$ lives at $1/R^2$, and within each the scale divides out. The mass spectrum is the one family carrying different powers, through the McKay elevator $(\sqrt{\Omega_\Lambda})^{\,\mathrm{dist}/30}$: the electron and muon sit at different McKay distances, so the same $R$ appears at two exponents, two equations, $R$ overdetermined. That is the route from calibration to forward prediction, and it is the mass-spectrum paper's open item.
+The surface radius $`R`$ enters as the geometric parameter in the first positive eigenvalue $`\lambda = 2/R^2`$, and it is not yet fixed independently. The reason is structural, and it is the same reason the Yang-Mills gaps cannot fix it. Every observable is the single product $`C(\Theta)\cdot(\sqrt{\Omega})^{-n}`$, so one observable gives one equation, and $`R`$ reads out only as $`R`$-given-the-assumed-<i>C</i>. $`R`$ separates only when two observables share it at different powers. Same-power families return $`R`$-free ratios and nothing more: the Yang-Mills gaps live at $`1/R^2`$, $`\Lambda`$ lives at $`1/R^2`$, and within each the scale divides out. The mass spectrum is the one family carrying different powers, through the McKay elevator $`(\sqrt{\Omega_\Lambda})^{\,\mathrm{dist}/30}`$: the electron and muon sit at different McKay distances, so the same $`R`$ appears at two exponents, two equations, $`R`$ overdetermined. That is the route from calibration to forward prediction, and it is the mass-spectrum paper's open item.
 
-The uniqueness question addressed here is about the *functional form* $C(\Theta) \times g(\Omega, n)$, separate from calibration.
+The uniqueness question addressed here is about the *functional form* $`C(\Theta) \times g(\Omega, n)`$, separate from calibration.
 
 ---
 
@@ -78,9 +80,11 @@ The precedent is exact for one piece only. C(Θ) is a normalized mode intensity 
 
 Any rule maps (phase position Θ, manifold depth n, hierarchy Ω) to a dimensionless observable ratio. The output space is ℝ⁺. The input space is {Θ ∈ k/120} × {n ∈ ℤ or ℤ/2} × {Ω ∈ ℝ⁺, finite}.
 
-**Step 2:** Constraint 5 narrows the output but does not factor it. A dimensionless output from dimensionless inputs need not be a product: $f(\Theta) + g(\Omega, n)$ and $f(\Theta)g(\Omega, n) + h(\Theta, \Omega)$ are equally dimensionless. The factored form
+**Step 2:** Constraint 5 narrows the output but does not factor it. A dimensionless output from dimensionless inputs need not be a product: $`f(\Theta) + g(\Omega, n)`$ and $`f(\Theta)g(\Omega, n) + h(\Theta, \Omega)`$ are equally dimensionless. The factored form
 
-$$\frac{A}{A_P} = f(\Theta) \cdot g(\Omega, n)$$
+```math
+\frac{A}{A_P} = f(\Theta) \cdot g(\Omega, n)
+```
 
 is supplied only by constraint 6 (Schur decoupling), and only if Θ ⊥ s extends to Θ ⊥ (Ω, n). The homothety reduction (below) delivers the independence of the coordinates, but independence is not separability: the no-cross-term step needs the commutant theorem, so at this step the factorization is a well-supported target, not a closed result.
 
@@ -130,11 +134,15 @@ The factored form was the one structural row left open. Dimensionlessness does n
 
 Independence is necessary but not sufficient. A joint function K = C(Θ)·F(n) + h(Θ, n) is consistent with independent coordinates: nothing so far excludes the cross-term h. Excluding it is an **algebra** statement, that the admissible observable algebra factors,
 
-$$\mathcal{A}_\text{obs} = \mathcal{A}_\Theta \otimes \mathcal{A}_\text{spec}, \qquad \text{equivalently } \mathrm{Comm}_{SU(2)}(\mathcal{H}_\Theta \otimes \mathcal{H}_{2I}) = \mathcal{A}_\Theta \otimes \mathcal{A}_{2I},$$
+```math
+\mathcal{A}_\text{obs} = \mathcal{A}_\Theta \otimes \mathcal{A}_\text{spec}, \qquad \text{equivalently } \mathrm{Comm}_{SU(2)}(\mathcal{H}_\Theta \otimes \mathcal{H}_{2I}) = \mathcal{A}_\Theta \otimes \mathcal{A}_{2I},
+```
 
 with the commutant containing no operator of the form h(Θ, λ_l). Schur (scalar on each block) and Lemma 8 (no natural Θ-spectral map) motivate this factorization but do not prove it. **This commutant theorem is the open target.** A candidate closure has since appeared from the spectral side: [the-mirror.md](../../../../spectrum/files/the-mirror.md) proves the 2I character algebra is the *closed* ceiling for basis-independent bulk content (Props 1-3, Lemma 7), and Lemma 8 puts Θ outside it. That is the algebra-completeness this step lacked; Schur + homothety gave only coordinate-independence. A bridge lemma over the observable class, the first-positive boundary mode adjoined to the mirror's Definition-2 spectral constructions, would then forbid any natural h(Θ, λ) and close the separation, pending a check that the two classes compose as stated. This is a candidate, not a closure. Granted it, K splits as C(Θ)·F(n) and
 
-$$\frac{A}{A_P} = C(\Theta) \cdot [F(n)(\sqrt{\Omega})^{-n}] = C(\Theta) \cdot g(\Omega, n). \qquad \blacksquare \text{ (modulo the commutant theorem)}$$
+```math
+\frac{A}{A_P} = C(\Theta) \cdot [F(n)(\sqrt{\Omega})^{-n}] = C(\Theta) \cdot g(\Omega, n). \qquad \blacksquare \text{ (modulo the commutant theorem)}
+```
 
 **What units cannot do, the algebra must.** Constraint 5 leaves h(Θ, Ω) alive because it is dimensionless; units and Lemma 8 deliver only the setup, that Θ and the spectral data are independent coordinates. Killing the cross-term is the algebra step (the commutant theorem), not a units step, which is why the separation cannot be settled at Step 2 and is not settled by independence alone.
 
