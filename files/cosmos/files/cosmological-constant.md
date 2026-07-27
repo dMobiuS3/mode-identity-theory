@@ -12,11 +12,11 @@ In general relativity Λ sits on the geometric side of the field equations,
 
 $$G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G\, T_{\mu\nu},$$
 
-multiplying the metric: pure geometry. General relativity is local. It gives dynamics on a domain but fixes neither the domain nor the value of Λ; on a flat, simply connected, non-compact background the coefficient is unconstrained. Reversing the hierarchy, a closed spatial domain carries a spectrum that fixes the coefficient: a surface curvature seed $R_\Sigma = 2/R^2$ converts, through the standard Gauss and de Sitter relations, to $\Lambda = 3/R^2$.
+multiplying the metric: pure geometry. General relativity is local. It gives dynamics on a domain but fixes neither the domain nor the value of Λ; on a flat, simply connected, non-compact background the coefficient is unconstrained. Reversing the hierarchy, the present closed-domain construction supplies a distinguished spectral seed, $R_\Sigma = 2/R^2$, which converts through the standard Gauss and de Sitter relations to $\Lambda = 3/R^2$.
 
-Moved to the matter side, $\rho_\Lambda = \Lambda c^4 / 8\pi G$ reads as a vacuum energy density, and the zero-point estimate overshoots observation by roughly 122 orders of magnitude, the cosmological-constant problem. That comparison equates a geometric term on the left with a local energy density on the right. This page keeps Λ on the left as global geometric data and returns in §VI to what that does and does not settle.
+Moved to the matter side, $\rho_\Lambda = \Lambda c^4 / 8\pi G$ reads as a vacuum energy density, and the zero-point estimate overshoots observation by roughly 122 orders of magnitude, the cosmological-constant problem. This construction does not derive the observed Λ from that mode sum; it instead treats Λ as global geometric data and returns in §VI to the unresolved radiative-stability question.
 
-Einstein's 1917 setting was a closed $S^3$ with Λ as geometry. This construction reclaims that setting, not his matter-Λ equilibrium: the staticity here is spectral, and $R$ stays open, so the result is the coefficient $\Lambda R^2 = 3$, not the observed number.
+Einstein's 1917 setting was a closed $S^3$ with Λ as geometry. This construction reclaims that setting, not his matter-Λ equilibrium: it does not use a matter-Λ force balance, and $R$ remains open, so the result is the coefficient $\Lambda R^2 = 3$, not the observed number.
 
 ## II. The geometry
 
@@ -34,7 +34,7 @@ The operator is the twisted Laplacian on sections of the orientation line bundle
 
 $$\lambda_+ = \frac{2}{R^2},$$
 
-the $\ell = 1$ zonal mode $\sin(y/R)$, common to the Friedrichs and bridging extensions for $\delta_0 > 2R/e$. The framework takes the narrow band $W \le \pi R/2$ as a physical input on the carrier, not a derived fact. The holonomy selects which level is physical; the curvature of the covering great-$S^2$ band, of which the carrier is the edge-identified quotient, fixes its value. (On a flat strip the same anti-periodic mode returns only $1/R^2$; the band's curvature supplies an equal $1/R^2$, doubling it to the scalar-curvature value.) The [first-eigenvalue paper](../../framework/files/bedrock/files/first-eigenvalue.md) carries the proof.
+the $\ell = 1$ zonal mode $\sin(y/R)$, common to the Friedrichs and bridging extensions for $\delta_0 > 2R/e$. The framework takes the narrow band $W \le \pi R/2$ as a physical input on the carrier, not a derived fact. The holonomy selects the twisted sector in which the first positive level is identified; the curvature of the covering great-$S^2$ band, of which the carrier is the edge-identified quotient, fixes its value. (On a flat strip the same anti-periodic mode returns only $1/R^2$; the band's curvature supplies an equal $1/R^2$, doubling it to the scalar-curvature value.) The [first-eigenvalue paper](../../framework/files/bedrock/files/first-eigenvalue.md) carries the proof.
 
 The same coefficient appears independently as the ambient Ricci term in the Weitzenböck bound on coexact $1$-forms, $\lambda \ge 2/R^2$ from $\mathrm{Ric} = (2/R^2)g$; the operators and spectral statements are distinct, and that bound is a curvature floor rather than an attained eigenvalue. See the [coexact-gap paper](../../framework/files/bedrock/files/coexact-gap.md).
 
@@ -62,7 +62,7 @@ The 3 is the isotropic spatial Ricci trace under $A_{ij} = 0$ on the great-$S^2$
 
 ## V. The open radius
 
-$\Lambda = 3/R^2$ yields a number only with an independent $R$. Reading $R$ off $\Lambda$ through $R = \sqrt{3/\Lambda}$ is circular. Two live routes fix $R$ without $\Lambda$, the CMB, or the de Sitter relation: the coupling ($\alpha$) route, better conditioned, returns $\Lambda = 3/R^2$ to within about 24%; the particle mass spectrum gives $R \approx 20$ Gpc as an order-of-magnitude cross-check. Neither yet closes the prediction. Details in [The R Problem](../../framework/files/working/files/r-problem.md) and [R from the mass spectrum](../../framework/files/working/files/r-from-mass-spectrum.md).
+$\Lambda = 3/R^2$ yields a number only with an independent $R$. Reading $R$ off $\Lambda$ through $R = \sqrt{3/\Lambda}$ is circular. Two live routes provide candidate independent estimates of $R$, without using $\Lambda$, the CMB, or the de Sitter relation: the coupling ($\alpha$) route, better conditioned, returns $\Lambda = 3/R^2$ to within about 24%; the particle mass spectrum gives $R \approx 20$ Gpc as an order-of-magnitude cross-check. Neither yet closes the prediction. Details in [The R Problem](../../framework/files/working/files/r-problem.md) and [R from the mass spectrum](../../framework/files/working/files/r-from-mass-spectrum.md).
 
 Read back from the observed value, the consistency radius is $R = \sqrt{3/\Lambda_\text{obs}} \approx 5.3$ Gpc and $\Lambda_\text{obs}\,\ell_P^2 \approx 2.9 \times 10^{-122}$; this is a calibration read-back, not an independent determination. The $S^3/2I$ quotient also produces a low-shell Molien gap relevant to CMB power, but that structure does not independently determine $R$; it is treated in [The R Problem](../../framework/files/working/files/r-problem.md) and the CMB notes.
 
@@ -72,7 +72,7 @@ Einstein's field equations are unchanged; Λ stays on the geometric side. The di
 
 $$\Lambda_\text{obs}\,R_\text{ind}^2 = 3,$$
 
-with $R_\text{ind}$ obtained without the Λ-radius relation, stated in advance of the European Space Agency's Euclid Data Release 1. The cosmology-relevant tests read against the spectroscopic BAO and weak-lensing analyses that arrive with the full DR1 in mid 2027; the DR1-Foundation release of November 2026 carries data but no cosmology-derived products, and ESA notes its release dates are tentative. A departure from 3 at $> 5\sigma$ with an independent $R$, or robust evidence that the dark-energy density evolves with redshift, would falsify the reading.
+with $R_\text{ind}$ obtained without the Λ-radius relation, stated in advance of the European Space Agency's Euclid Data Release 1. The cosmology-relevant tests read against the spectroscopic BAO and weak-lensing analyses that arrive with the full DR1 in mid 2027; the DR1-Foundation release of November 2026 carries data but no cosmology-derived products, and ESA notes its release dates are tentative. A departure from 3 at $> 5\sigma$, with $R$ obtained independently, would falsify the coefficient relation. Robust evidence that the dark-energy density evolves with redshift would instead falsify the broader identification of the observed component with a true cosmological constant.
 
 This construction treats Λ as global geometric data rather than deriving it from a zero-point mode sum. That reframes the role assigned to Λ, but it does not by itself establish radiative stability: quantum vacuum stress still contributes to the effective gravitational equations, and whether it can renormalize or disturb the proposed spectral relation remains open. The compulsoriness of the Möbius carrier and the dynamical stability of the cosmology are likewise open.
 
