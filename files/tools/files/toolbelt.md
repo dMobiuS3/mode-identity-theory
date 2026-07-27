@@ -244,7 +244,9 @@ where C(Θ) = 2 sin²(πΘ). Worked example, one well: α sits at Θ = 13/60 on 
 
 ### The Mass Formula
 
-$$m(\rho, \sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega_\Lambda})^{\,\text{dist}(\rho)/30} \times T^2(\rho \otimes \sigma)$$
+```math
+m(\rho, \sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega_\Lambda})^{\,\text{dist}(\rho)/30} \times T^2(\rho \otimes \sigma)
+```
 
 Four factors, four sources:
 

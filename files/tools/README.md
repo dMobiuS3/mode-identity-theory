@@ -8,7 +8,7 @@ Check it yourself. Nothing below is a demonstration: each page runs the framewor
 
 ## 👾 Interactive
 
-**[The Topology](https://dmobius3.github.io/mode-identity-theory/files/tools/files/topology.html)**: turn the $S^3/2I$ domain in your hand, the Möbius edge and the icosahedral structure and the McKay graph the spectrum is read from.
+**[The Topology](https://dmobius3.github.io/mode-identity-theory/files/tools/files/topology.html)**: turn the $`S^3/2I`$ domain in your hand, the Möbius edge and the icosahedral structure and the McKay graph the spectrum is read from.
 
 **[The Engine](https://dmobius3.github.io/mode-identity-theory/files/tools/files/engine.html)**: the derivation map, each layer following from the one before, topology down to realization.
 

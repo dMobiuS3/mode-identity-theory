@@ -4,11 +4,11 @@
 
 # :rainbow: Στοιχεῖα
 
-The spectrum is the near boundary of the same finite space. $S^3/2I$ discretises the domain into 120 positions; three flat connections give three generations; positive curvature confines gauge fields. The three prime stabilisers $(2,3,5)$ assign spin, color, and electroweak identity. Gauge couplings are the fine structure of $\Lambda$, diluted by the same hierarchy that sets the neutrino floor. The curvature that protects the zeros is the curvature that lets matter exist.
+The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretises the domain into 120 positions; three flat connections give three generations; positive curvature confines gauge fields. The three prime stabilisers $`(2,3,5)`$ assign spin, color, and electroweak identity. Gauge couplings are the fine structure of $`\Lambda`$, diluted by the same hierarchy that sets the neutrino floor. The curvature that protects the zeros is the curvature that lets matter exist.
 
 ---
 
-**Confinement.** Curve a space enough and nothing escapes. Gauge fields confine because the universal manifold is finite. Three isolated flat connections on $S^3/2I$ produce three families. The McKay correspondence filters the Galois sector through four empty levels; what survives carries a ninefold-enhanced gap, three times the mass.
+**Confinement.** Curve a space enough and nothing escapes. Gauge fields confine because the universal manifold is finite. Three isolated flat connections on $`S^3/2I`$ produce three families. The McKay correspondence filters the Galois sector through four empty levels; what survives carries a ninefold-enhanced gap, three times the mass.
 
 ***[Yang-Mills](files/yang-mills.md)***
 
@@ -24,7 +24,7 @@ The spectrum is the near boundary of the same finite space. $S^3/2I$ discretises
 
 ---
 
-**Fine structure.** In 1985, Feynman described 1/137 as a number coming without explanation. It is found in the first Fibonacci well on the bosonic grid. One step of $\Lambda$. At the Planck scale $\alpha$ approaches unity; the suppression to 1/137 is the hierarchy expressed across the domain. The number has an address.
+**Fine structure.** In 1985, Feynman described 1/137 as a number coming without explanation. It is found in the first Fibonacci well on the bosonic grid. One step of $`\Lambda`$. At the Planck scale $`\alpha`$ approaches unity; the suppression to 1/137 is the hierarchy expressed across the domain. The number has an address.
 
 ***[Fine Structure](files/fine-structure.md)***
 
@@ -55,26 +55,26 @@ Embed the surface in space and the curvature converts the sample to energy by 3/
 | Observable | Output | Observed | Agreement |
 |---|---|---|---|
 | [↗](files/the-waltz.md) Null dark matter | permanent | ongoing null results | ✓ |
-| [↗](files/yang-mills.md) Mass gap | $> 0$ | confinement observed | ✓ |
+| [↗](files/yang-mills.md) Mass gap | $`> 0`$ | confinement observed | ✓ |
 | [↗](files/yang-mills.md) Fermion generations | 3 (mass gaps) | 3 | exact |
 | [↗](files/fine-structure.md) Force count | 3 (grid exhaustion) | 3 | exact |
 | [↗](files/fine-structure.md) Null SUSY | permanent | ongoing null results | ✓ |
-| [↗](files/the-mirror.md) Spectral inaccessibility | no $\mathcal{F}$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |
-| [↗](files/mass-spectrum.md) Color from $Z_3$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
-| [↗](files/mass-spectrum.md) Domain from $Z_4$ | $D = 60$ (int) vs 120 (half-int) | integer/half-integer split | exact |
-| [↗](files/mass-spectrum.md) Weak isospin $T_3$ | $j_\text{first}$ parity + Coxeter-Galois gate | ten correct (8 assigned + 2 structural checks) | exact |
-| [↗](files/mass-spectrum.md) Eta sign gate | $\eta > 0 \implies Q \leq 0$ | all SM-assigned entries | exact |
-| [↗](files/mass-spectrum.md) Fermion masses | 24 entries | 5 of 8 charged within ×3 ($m_e$ benchmark; d outside, c unassigned, b uncounted, μ/s share rank 15) | comparison |
-| [↗](files/mass-spectrum.md) $m_\mu$ (muon) | $1.03 \times 10^{-1}$ GeV | $1.057 \times 10^{-1}$ GeV | ~3% |
-| [↗](files/mass-spectrum.md) $m_u$ (up quark) | $2.03 \times 10^{-3}$ GeV | $2.16 \times 10^{-3}$ GeV | 6% |
-| [↗](files/mass-spectrum.md) $m_e$ (electron) | mass benchmark | 0.511 MeV | normalization |
-| [↗](files/mass-spectrum.md) Rank 16 entry | $R_5$ std, ~349 MeV | no known fermion | open |
+| [↗](files/the-mirror.md) Spectral inaccessibility | no $`\mathcal{F}`$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |
+| [↗](files/mass-spectrum.md) Color from $`Z_3`$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
+| [↗](files/mass-spectrum.md) Domain from $`Z_4`$ | $`D = 60`$ (int) vs 120 (half-int) | integer/half-integer split | exact |
+| [↗](files/mass-spectrum.md) Weak isospin $`T_3`$ | $`j_\text{first}`$ parity + Coxeter-Galois gate | ten correct (8 assigned + 2 structural checks) | exact |
+| [↗](files/mass-spectrum.md) Eta sign gate | $`\eta > 0 \implies Q \leq 0`$ | all SM-assigned entries | exact |
+| [↗](files/mass-spectrum.md) Fermion masses | 24 entries | 5 of 8 charged within ×3 ($`m_e`$ benchmark; d outside, c unassigned, b uncounted, μ/s share rank 15) | comparison |
+| [↗](files/mass-spectrum.md) $`m_\mu`$ (muon) | $`1.03 \times 10^{-1}`$ GeV | $`1.057 \times 10^{-1}`$ GeV | ~3% |
+| [↗](files/mass-spectrum.md) $`m_u`$ (up quark) | $`2.03 \times 10^{-3}`$ GeV | $`2.16 \times 10^{-3}`$ GeV | 6% |
+| [↗](files/mass-spectrum.md) $`m_e`$ (electron) | mass benchmark | 0.511 MeV | normalization |
+| [↗](files/mass-spectrum.md) Rank 16 entry | $`R_5`$ std, ~349 MeV | no known fermion | open |
 | [↗](files/mass-spectrum.md) Dead zone | 6 states, eV to keV | no SM fermions in range | open |
-| [↗](files/mass-spectrum.md) $\nu$ floor | $\mu_\Lambda \approx 2.25$ meV | < 800 meV (KATRIN) | awaiting measurement |
-| [↗](files/fine-structure.md) $\alpha_s$ | 0.11622 | 0.11790 | 1.42% |
-| [↗](files/fine-structure.md) $\alpha_W$ | 0.03392 | 0.03378 | 0.41% |
-| [↗](files/fine-structure.md) $\alpha$ | 0.00733 | 0.007297 | 0.49% |
-| [↗](files/fine-structure.md) $\alpha_s / \alpha_W$ | 3.426 (pure geometry) | 3.490 | 1.8% |
+| [↗](files/mass-spectrum.md) $`\nu`$ floor | $`\mu_\Lambda \approx 2.25`$ meV | < 800 meV (KATRIN) | awaiting measurement |
+| [↗](files/fine-structure.md) $`\alpha_s`$ | 0.11622 | 0.11790 | 1.42% |
+| [↗](files/fine-structure.md) $`\alpha_W`$ | 0.03392 | 0.03378 | 0.41% |
+| [↗](files/fine-structure.md) $`\alpha`$ | 0.00733 | 0.007297 | 0.49% |
+| [↗](files/fine-structure.md) $`\alpha_s / \alpha_W`$ | 3.426 (pure geometry) | 3.490 | 1.8% |
 
 ---
 
