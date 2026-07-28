@@ -1,0 +1,72 @@
+/ **[`main`](/README.md)** / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
+
+---
+
+# The Half-Integer Torsion Correction
+
+**Status:** APPLIED (2026-07-28). The four half-integer torsion singles on [mass-spectrum](../../../../spectrum/files/mass-spectrum.md) were the coexact-only quantity; the full Ray-Singer values carry exact closed forms. 12 of the 24 table entries revised; headline 5-of-8 recomputed to 5 compatible / 4 adjudicated. Verification artifact: [`torsion-correction.test.py`](torsion-correction.test.py): 12 gates with stable ids, a mutation registry whose meta-guard enforces that the set of mutation targets equals the set of gate ids AND that every declared defect turns its gate red (13 mutations, all red; a gate added without a mutation fails the suite by construction).
+
+**Dependencies:** mass-spectrum §4 torsion tables and §III ledger; the [mckay-propagator-correction](mckay-propagator-correction.md) record (its 2026-07-28 banner); the queued `mass-null-v1.1` re-registration.
+
+---
+
+## 1. The finding
+
+The Ray-Singer torsion of a flat bundle on this space form combines both spectral towers:
+
+```math
+\log T^2 = \zeta'_{\text{coexact}}(0) - 2\,\zeta'_{\text{scalar}}(0)
+```
+
+For a half-integer irrep the scalar tower is supported at half-integer $`j`$ (odd $`n`$): $`V_1|_{2I} = R_1`$ is the first occupant. The original M5-era computation checked scalar multiplicities at integer $`j`$, found zeros, recorded "scalar sector identically zero for all half-integer irreps," and computed those four torsions from the coexact tower alone. The recomputation reproduces the pre-correction page values as exactly that truncation:
+
+| Irrep | Pre-correction (page) | $`e^{\zeta'_{\text{coex}}(0)}`$ recomputed | Full Ray-Singer (corrected) |
+|---|---|---|---|
+| $`R_1`$ | 15.887 | 15.8870 | $`\varphi^{-4}/4 = 0.0365`$ |
+| $`R_2`$ | 0.473 | 0.4732 | $`\varphi^{4}/4 = 1.7135`$ |
+| $`R_6`$ | 4.328 | 4.3284 | $`1`$ |
+| $`R_8`$ | 0.257 | 0.2574 | $`4`$ |
+
+The omission is isolated exactly: add the scalar term and the pre-correction values become the corrected ones. The scalar sector is also where the golden ratio enters, which resolves the old record's observed asymmetry ("the $`\varphi`$ mechanism is structurally absent for half-integer irreps") as an artifact of the truncation rather than a property of the torsion.
+
+## 2. What the corrected values satisfy
+
+| Identity | Value | Status |
+|---|---|---|
+| Sign calibration | $`T^2(R_7) = 9/4`$ | the ONE target that fixes the overall sign convention; its magnitude is still a nontrivial match |
+| Independent integer-spin closed forms | $`(4/5)\varphi^{-2}`$, $`25/9`$, $`(4/5)\varphi^{2}`$ | validate the resulting pipeline, 1e-8 |
+| Galois pair (integer) | $`T^2(R_3)/T^2(R_4) = \varphi^{-4}`$ | consistency identity, 1e-10 |
+| Galois pair (half-integer) | $`T^2(R_1)/T^2(R_2) = \varphi^{-8}`$ | consistency identity, 1e-10; the pair swaps under $`\varphi \to -1/\varphi`$ |
+| Sector products | integer $`= 4`$, half-integer $`= 1/4`$ | consistency identities, exact inverses |
+| Galois-fixed irreps | $`R_6 = 1`$, $`R_8 = 4`$ (with $`R_7 = 9/4`$, $`R_5 = 25/9`$) | rational, as Galois-fixedness requires |
+| Tensor multiplicities $`N_{\rho\sigma\tau}`$ | derived from the reconstructed character table | gated against known decompositions + all 81 dimension sums; the 24-product propagation uses these derived $`N`$, no handwritten constituent lists |
+
+Every value is elementary algebraic in $`\mathbb{Q}(\varphi)`$, uniformly across both spin parities.
+
+## 3. Consequences on the ledger
+
+12 of 24 products revised (the triv column of half-integer rows; the std/gal columns of integer rows; every product built purely from integer constituents is unchanged, including both non-acyclic diagonals). On the [mass-spectrum](../../../../spectrum/files/mass-spectrum.md) comparison: the electron benchmark, muon/strange, and down are unchanged; the top's nearest compatible entry becomes $`(R_2,\text{triv})`$ at 0.93; the tau moves to the $`(R_4,\text{gal})`$ singlet channel at 2.75; the up quark's former 6% hit was an artifact of the truncated torsion and the up is now unassigned; the bottom's nearest compatible coverage improves to 1.17, still unassigned under the sector-first rule. Headline: 5 of 8 compatible coverage, 4 of 8 adjudicated (pre-correction: 8/6/5). The $`R_1`$ sector becomes an ascending ladder (0.87, 7.3, 66.7 meV) in ordered qualitative resemblance to the observed splitting scales (splitting-level ratios 0.72 and 1.8), carried as proxy comparison only. The 2026-06 propagator elimination analyzed the pre-correction residuals and does not transfer; that question is reopened on the mass-spectrum §VI ledger.
+
+## 4. Scope: what is and is not established
+
+| Claim | Status |
+|---|---|
+| One exact target, $`T^2(R_7) = 9/4`$, fixes the overall sign convention; the remaining integer-spin closed forms validate the resulting pipeline; the Galois ratios and sector products are consistency identities | CERTIFIED at those grades |
+| The pre-correction half-integer values equal the coexact-only truncation | CERTIFIED (4/4 at page precision; the diagnosis gate) |
+| The tensor multiplicities and the 24-product propagation | derived in-script from the reconstructed character table and gated (known decompositions, dimension sums, revised-mass transcription, 12 unchanged products at ratio 1) |
+| The corrected half-integer closed forms | computed by ONE implementation (this artifact); an independent-method reproduction has not yet been performed and is queued on the OpenWave M8 track |
+| The corrected scorecard's statistical weight | NOT claimed; `mass-null-v1.1` against the corrected table is queued, and no corrected count is quoted as null-tested until it runs |
+
+## 5. Reproduce
+
+```
+python3 torsion-correction.test.py                   # 12 gates
+python3 torsion-correction.test.py --mutation-tests  # coverage-enforced registry, 13 defects red
+python3 torsion-correction.test.py --precise         # dps 50, jmax 80, derivative step 1e-5
+```
+
+Environment: python3 + numpy + mpmath. Every gate id must be attacked by at least one mutation (set equality enforced) and every mutation must turn its gate red, else the suite exits nonzero; the registry includes the original defect itself (running coexact-only breaks the corrected closed forms) and harness tests (perturbed transcription targets must fail their gates).
+
+---
+
+/ **[`main`](/README.md)** / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
