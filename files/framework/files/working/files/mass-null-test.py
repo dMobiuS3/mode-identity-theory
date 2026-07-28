@@ -19,15 +19,19 @@ Modes:
               tiny M, no Null D) to prove the code runs, producing no
               registered statistic.
   --run       the single registered ensemble. Gated: refuses unless HEAD is
-              tagged mass-null-v1.0. Nulls A/B/C at M=100000, Null D exact 576,
+              tagged mass-null-v1.1. Nulls A/B/C at M=100000, Null D exact 576,
               Generator(PCG64) seed 120, p_hat=(k+1)/(M+1) for A-C and the exact
               fraction for D, tails fixed in SCORE_TAILS.
 
-This is a published-precision test: it audits the numerical table at the
-source's displayed precision (C_geom 4 dp; half-integer base torsions R1,R2,R6,R8
-to 3-5 significant figures; closed forms R0,R3,R4,R5,R7 exact). The verdict machinery
-(statistic, four nulls, seed 120, M/576, SVII p_A bands) is frozen; this script
-reads inputs, it does not change the rule that reads them.
+v1.1 (2026-07-28): re-registration against the corrected torsion table (the
+half-integer torsion correction, torsion-correction.md): the four half-integer
+base torsions become their exact closed forms (phi^-4/4, phi^4/4, 1, 4), so all
+nine base factors are now exact (C_geom stays 4 dp). Only the inputs and the
+Step-0 expected values changed; the statistic, four nulls, seed 120, M/576, and
+the SVII p_A bands are byte-retained from v1.0. v1.0's run (p_A = 0.174 on the
+pre-correction table) is history; its results file is preserved as committed.
+The verdict machinery is frozen; this script reads inputs, it does not change
+the rule that reads them.
 """
 import numpy as np, itertools, math, json, hashlib, sys, os, csv, subprocess
 
@@ -35,8 +39,8 @@ PHI = (1 + 5 ** 0.5) / 2
 HERE = os.path.dirname(os.path.abspath(__file__))
 ART = {'inputs': 'mass-null-inputs.json', 'slotmap': 'mass-null-slotmap.csv', 'compat': 'mass-null-compat.csv'}
 # frozen digests of the committed artifacts (a run verifies it reads exactly these bytes)
-FROZEN_SHA256 = {'mass-null-inputs.json': '731e4a67b5916e72a290e6e70b50e42620cddc88b0ae859dc2fef47eeac59a2f',
-                 'mass-null-slotmap.csv': '23307267c0669150ed025164bb46960385ec2dcbfe1836e7061fc390892bcfbd',
+FROZEN_SHA256 = {'mass-null-inputs.json': '9efcd3f0766239d814745e184cab56dae2be2ba098cf773ea66a707e2d622237',
+                 'mass-null-slotmap.csv': '86ddf8184f0df42df56704359c3d46a1c6bfbd24c9606d1905a7f671b85d34ce',
                  'mass-null-compat.csv': 'd7b4def487bb25c0b944dc8dc336913010448a67a02a9452c5c3fa12729ac9cd'}
 def _sha256(name):
     return hashlib.sha256(open(os.path.join(HERE, name), 'rb').read()).hexdigest()
@@ -117,7 +121,7 @@ _CG = {"R1": 0.0988, "R2": 0.2436, "R3": 0.5553, "R4": 0.7970, "R5": 0.8017, "R6
 _DIST = {"R1": 1, "R2": 7, "R3": 2, "R4": 6, "R5": 6, "R6": 3, "R7": 4, "R8": 5}
 _MU, _SQ = 2.25e-12, 1.019e61
 _T2B = {"R0": 1.0, "R3": (4 / 5) * PHI ** -2, "R4": (4 / 5) * PHI ** 2, "R5": 25 / 9, "R7": 9 / 4,
-        "R1": 15.887, "R2": 0.473, "R6": 4.328, "R8": 0.257}
+        "R1": PHI ** -4 / 4, "R2": PHI ** 4 / 4, "R6": 1.0, "R8": 4.0}
 _JF = {'R1': {'triv': 0.5, 'std': 0.5, 'gal': 2.5}, 'R2': {'triv': 3.5, 'std': 2.5, 'gal': 1.5},
        'R3': {'triv': 1, 'std': 0, 'gal': 2}, 'R4': {'triv': 3, 'std': 2, 'gal': 0},
        'R5': {'triv': 3, 'std': 2, 'gal': 1}, 'R6': {'triv': 1.5, 'std': 0.5, 'gal': 1.5},
@@ -220,15 +224,15 @@ def gates():
     # G3b + anchors on the COMMITTED spectrum
     masses = [s['mass'] for s in ls]; sc = score(masses, lc)
     bj = min([j for j in range(24) if lc['b'][j] == 1], key=lambda j: abs(math.log(masses[j] / 4.18)))
-    ck['G3b_S1_is_6'] = (sc['S1'] == 6); ck['G3b_S1p_is_8'] = (sc['S1p'] == 8)
-    ck['G3b_b_via_R4gal_140'] = (ls[bj]['rho'] == 'R4' and ls[bj]['sig'] == 'gal'
-                                 and abs(max(4.18 / masses[bj], masses[bj] / 4.18) - 1.40) < 0.01)
+    ck['G3b_S1_is_5'] = (sc['S1'] == 5); ck['G3b_S1p_is_6'] = (sc['S1p'] == 6)
+    ck['G3b_b_via_R4gal_117'] = (ls[bj]['rho'] == 'R4' and ls[bj]['sig'] == 'gal'
+                                 and abs(max(4.18 / masses[bj], masses[bj] / 4.18) - 1.17) < 0.01)
     known = {('R1', 'std'): .5, ('R1', 'gal'): .5, ('R7', 'triv'): -.5, ('R8', 'triv'): .5, ('R8', 'gal'): -.5,
              ('R8', 'std'): -.5, ('R4', 'std'): -.5, ('R2', 'gal'): -.5, ('R2', 'triv'): .5, ('R2', 'std'): .5}
     sm = {(s['rho'], s['sig']): s for s in ls}
     ck['T3_gate_10_of_10'] = all(abs(sm[k]['T3'] - v) < 1e-9 for k, v in known.items())
     # coarse published-display check (a real transcription error would trip this)
-    pub = {('R8', 'triv'): (2.03e-3, 0.257), ('R2', 'std'): (261.46, 2.778), ('R8', 'std'): (0.103, 13.090)}
+    pub = {('R8', 'triv'): (3.16e-2, 4.000), ('R2', 'std'): (261.46, 2.778), ('R8', 'std'): (0.103, 13.090)}
     ck['published_display_coarse'] = all(abs(math.log10(sm[k]['mass'] / pm)) < 0.02 and abs(sm[k]['T2'] - pT) < 0.01
                                          for k, (pm, pT) in pub.items())
     # G0: committed inputs.json vs independent derivation
@@ -242,7 +246,7 @@ def gates():
     # committed artifacts match the frozen digests (skips any digest still PENDING at build time)
     ck['artifact_hashes_match'] = all(_sha256(n) == h for n, h in FROZEN_SHA256.items() if h != 'PENDING')
     # the pinned secondary thresholds (SIV) are defended, not merely printed
-    ck['G3b_secondaries_pinned'] = (sc['S2'] == 5 and sc['S3'] == 4 and abs(sc['S4'] - 0.375) < 1e-3 and sc['S5'] == 7)
+    ck['G3b_secondaries_pinned'] = (sc['S2'] == 4 and sc['S3'] == 4 and abs(sc['S4'] - 0.58425) < 1e-3 and sc['S5'] == 5)
     return ck, sc
 
 # ============================================================ ensemble (registered)
@@ -315,8 +319,8 @@ def _require_tag():
                                        stderr=subprocess.DEVNULL).decode().split()
     except Exception:
         tags = []
-    if 'mass-null-v1.0' not in tags:                 # membership: robust to a co-located archival/DOI tag
-        raise SystemExit(f"--run refused: HEAD does not carry tag mass-null-v1.0 (tags at HEAD: {tags}). "
+    if 'mass-null-v1.1' not in tags:                 # membership: robust to a co-located archival/DOI tag
+        raise SystemExit(f"--run refused: HEAD does not carry tag mass-null-v1.1 (tags at HEAD: {tags}). "
                          "Commit and tag the frozen bundle, then run this exact code once.")
 
 def run_ensemble(M=100000, seed=120):
@@ -341,7 +345,7 @@ def run_ensemble(M=100000, seed=120):
     report['nulls']['C'] = summarize(_null_C(rng, L, T2real, compat, M))
     report['nulls']['D'] = summarize(_null_D(L, compat, slots, N, base), denom=576)
     print(json.dumps(report, indent=1))
-    json.dump(report, open(os.path.join(HERE, 'mass-null-results.json'), 'w'), indent=1)
+    json.dump(report, open(os.path.join(HERE, 'mass-null-results-v1.1.json'), 'w'), indent=1)  # v1.0 results file preserved
     return report
 
 def selfcheck():

@@ -4,7 +4,7 @@
 
 # The Torsion Null Test
 
-**Status:** REGISTERED (2026-07-11). This commit is the frozen pre-registration: the design, the four nulls, the scoring, the RNG seed (120), the §VII decision bands, the execution script `mass-null-test.py`, and the three input artifacts (hashes in §V) are fixed here, before any null ensemble is drawn. The freeze is marked by the tag `mass-null-v1.0` on this commit; the script's `--run` refuses unless HEAD carries that tag, so the randomization cannot predate the freeze. No randomization has been executed. The single-run policy below governs execution.
+**Status:** v1.0 EXECUTED (2026-07-11, Results below); **v1.1 REGISTERED (2026-07-28)** against the corrected torsion table, §IX below. The v1.0 record (§I-§VIII and its Results) is the frozen history of the pre-correction run and is not edited; v1.1 changes the inputs only and retains the statistic, the four nulls, the scoring rule, the seed, and the decision bands verbatim.
 
 > **Re-baselined to the canonical torsion table (2026-07-11).** The torsion inputs are the canonical values from [mass-spectrum](../../../../spectrum/files/mass-spectrum.md) §4, including $`T^2(R_0) = 1`$: the canonical topological value of the non-acyclic trivial local system, not a constant chosen for convenience. This re-baseline updated only the *inputs the test reads*. The statistic, the four nulls, the scoring rule, the RNG seed (120), and the §VII decision bands are unchanged from the pre-correction design. Input error is correctable; the statistic and verdict bands are retained unchanged and are proposed for freeze, the same line drawn for the mass table. The null statistic is $`S_1 = 6`$ (a compatible-coverage count) while the public headline is 5-of-8 (an assignment count); §I explains why the two differ by exactly one fermion.
 
@@ -178,6 +178,47 @@ Design and execution are separated by the freeze tag, so the git history is the 
 Null A $`S_1`$ count table: $`\{1{:}45,\ 2{:}1935,\ 3{:}13816,\ 4{:}37758,\ 5{:}29079,\ 6{:}13490,\ 7{:}3877\}`$. Every null and every secondary lands well above 0.01; the tightest ($`S_4`$, lower tail) is 0.06-0.08. Nothing approaches significance in either direction.
 
 **Verdict (§VII, $`p_A \geq 0.1`$).** Random torsion reassignment reproduces the published hit rate; the mass table's evidential weight rests on the exact structural outputs (the 24-entry count, the ten-entry $`T_3`$ gate audit, the $`\varphi^{-4}`$ ratio) and the falsifiable outliers ($`\nu_2`$, rank 16, the dead zone), not on the $`\times 3`$ proximity count.
+
+---
+
+## IX. v1.1 Re-registration (2026-07-28): the corrected torsion table
+
+**Status: REGISTERED at the tag `mass-null-v1.1`, before any v1.1 ensemble is drawn.** The [half-integer torsion correction](torsion-correction.md) revised 12 of the 24 entries (mass-spectrum §4 correction note), so the v1.0 result ($`p_A = 0.174`$) is the frozen record of the pre-correction table and does not transfer. This section re-registers the identical test against the corrected table.
+
+**What changed: the inputs, nothing else.** The four half-integer base torsions become their exact closed forms, $`T^2(R_1) = \varphi^{-4}/4`$, $`T^2(R_2) = \varphi^{4}/4`$, $`T^2(R_6) = 1`$, $`T^2(R_8) = 4`$, so all nine base factors are now exact ($`C_\text{geom}`$ stays at its 4 dp published precision). The statistic ($`S_1`$ compatible coverage), the four nulls (A primary; B, C, D texture), the §IV scoring rule, the RNG seed (120), the ensemble sizes ($`M = 100{,}000`$; Null D exact 576), the fixed tails, the §VII decision bands and verdict language, and the single-run policy are retained from v1.0 byte-for-byte in the rule machinery. The script's `--run` now refuses unless HEAD carries `mass-null-v1.1`; v1.1 results write to `mass-null-results-v1.1.json`, preserving the v1.0 results file.
+
+**The skeleton claim, verified at the byte level.** The compatibility matrix `mass-null-compat.csv` is byte-identical to v1.0 (same SHA-256): the correction moved 12 masses and no slot's quantum numbers, exactly as §II's torsion-independence argument requires. The frozen v1.1 artifact hashes:
+
+```
+mass-null-inputs.json   9efcd3f0766239d814745e184cab56dae2be2ba098cf773ea66a707e2d622237
+mass-null-slotmap.csv   86ddf8184f0df42df56704359c3d46a1c6bfbd24c9606d1905a7f671b85d34ce
+mass-null-compat.csv    d7b4def487bb25c0b944dc8dc336913010448a67a02a9452c5c3fa12729ac9cd   (unchanged from v1.0)
+```
+
+**Observed scorecard on the corrected table (Step-0 deterministic, frozen here; all 12 reproduction gates pass).**
+
+| $`f`$ | best compatible slot | ratio | hit at $`\times 3`$? |
+|---|---|---|---|
+| $`u`$ | $`(R_8,\text{triv})`$ at 31.6 MeV | 14.61 | no |
+| $`d`$ | $`(R_8,\text{gal})`$ | 3.23 | no |
+| $`s`$ | $`(R_8,\text{std})`$ | 1.11 | yes |
+| $`c`$ | $`(R_8,\text{triv})`$ | 40.23 | no |
+| $`\mu`$ | $`(R_8,\text{std})`$ | 1.02 | yes |
+| $`\tau`$ | $`(R_4,\text{gal})`$ | 2.75 | yes |
+| $`b`$ | $`(R_4,\text{gal})`$ | 1.17 | yes |
+| $`t`$ | $`(R_2,\text{triv})`$ | 1.07 | yes |
+
+Frozen observed statistics: $`S_1 = 5`$, $`S_1' = 6`$, $`S_2 = 4`$, $`S_3 = 4`$, $`S_4 = 0.58425`$, $`S_5 = 5`$. Tails as in §V with the observed values substituted (primary: $`\Pr(S_1 \geq 5)`$ under Null A).
+
+Two structural notes, both the v1.0 §I geometry recurring one notch down. The compatible-coverage count (5) again exceeds the page's adjudicated-within-×3 count (4) by exactly the bottom quark, whose covering slot $`(R_4,\text{gal})`$ at 1.17 is outside its $`R_2`$ structural sector: the same single-fermion localization of density-versus-assignment as v1.0. And the raw-vs-gated gap ($`S_1' = 6`$ vs $`S_1 = 5`$) is now the up quark alone, whose only ×3 covers are the two electron-candidate slots $`(R_7,\text{std})`$ and $`(R_7,\text{gal})`$ at 2.33, both $`T_3 = -1/2`$ charged-lepton slots the gate correctly forbids to an up-type quark.
+
+**Decision bands.** §VII verbatim, read against the corrected table: $`p_A \geq 0.1`$ declares the ×3 comparison uninformative about the torsion dial; $`p_A \leq 0.01`$ declares the values carry fit information beyond density; between, inconclusive, no headline change licensed. The §VII propagation list applies on execution.
+
+---
+
+## X. v1.1 Results
+
+*(pending: single run at the tag `mass-null-v1.1`, seed 120)*
 
 ---
 
