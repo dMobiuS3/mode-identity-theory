@@ -4,7 +4,7 @@
 
 # The Torsion Null Test
 
-**Status:** v1.0 EXECUTED (2026-07-11, Results below); **v1.1 REGISTERED (2026-07-28)** against the corrected torsion table, §IX below. The v1.0 record (§I-§VIII and its Results) is the frozen history of the pre-correction run and is not edited; v1.1 changes the inputs only and retains the statistic, the four nulls, the scoring rule, the seed, and the decision bands verbatim.
+**Status:** v1.0 EXECUTED (2026-07-11, Results below); **v1.1 EXECUTED (2026-07-28: registered §IX, run §X, $`p_A = 0.690`$, uninformative band)** against the corrected torsion table. The v1.0 record (§I-§VIII and its Results) is the frozen history of the pre-correction run and is not edited; v1.1 changes the inputs only and retains the statistic, the four nulls, the scoring rule, the seed, and the decision bands verbatim.
 
 > **Re-baselined to the canonical torsion table (2026-07-11).** The torsion inputs are the canonical values from [mass-spectrum](../../../../spectrum/files/mass-spectrum.md) §4, including $`T^2(R_0) = 1`$: the canonical topological value of the non-acyclic trivial local system, not a constant chosen for convenience. This re-baseline updated only the *inputs the test reads*. The statistic, the four nulls, the scoring rule, the RNG seed (120), and the §VII decision bands are unchanged from the pre-correction design. Input error is correctable; the statistic and verdict bands are retained unchanged and are proposed for freeze, the same line drawn for the mass table. The null statistic is $`S_1 = 6`$ (a compatible-coverage count) while the public headline is 5-of-8 (an assignment count); §I explains why the two differ by exactly one fermion.
 
@@ -218,7 +218,22 @@ Two structural notes, both the v1.0 §I geometry recurring one notch down. The c
 
 ## X. v1.1 Results
 
-*(pending: single run at the tag `mass-null-v1.1`, seed 120)*
+*Executed 2026-07-28 at the frozen tag `mass-null-v1.1`, `Generator(PCG64)` seed 120, 40 s. Single run, no re-draws. Full output: `mass-null-results-v1.1.json`.*
+
+**Primary verdict (Null A): $`p_A = \Pr(S_1 \geq 5) = 0.690`$, in the $`p_A \geq 0.1`$ band.** Random reassignment of the corrected torsion values across the 24 slots reproduces the observed coverage: the null $`S_1`$ averages 5.02 against the observed 5, so on the corrected table the ×3 compatible-coverage count is not merely reachable by chance, it is the typical outcome of a random torsion assignment. The verdict is the same as v1.0's and cleaner: v1.0's observed 6 sat in the null's upper 17%; v1.1's observed 5 sits at the null's center.
+
+| Null | $`p(S_1 \geq 5)`$ | $`p(S_1' \geq 6)`$ | $`p(S_2)`$ | $`p(S_3)`$ | $`p(S_4 \leq)`$ | null $`S_1`$ mean |
+|---|---|---|---|---|---|---|
+| A (primary) | 0.690 | 0.854 | 0.567 | 0.289 | 0.338 | 5.02 |
+| B | 0.709 | 0.853 | 0.573 | 0.298 | 0.335 | 5.03 |
+| C | 0.755 | 0.912 | 0.654 | 0.266 | 0.350 | 5.24 |
+| D (exact, 576) | 0.854 | 0.809 | 0.844 | 0.443 | 0.448 | 5.44 |
+
+Null A $`S_1`$ count table: $`\{1{:}19,\ 2{:}747,\ 3{:}7724,\ 4{:}22520,\ 5{:}33667,\ 6{:}28434,\ 7{:}6416,\ 8{:}473\}`$. Every null and every secondary sits far from significance in either direction.
+
+**Verdict (§VII, $`p_A \geq 0.1`$ band, read against the corrected table).** Random torsion reassignment reproduces the corrected table's hit rate; the ×3 proximity count is uninformative about the torsion dial, and the mass table's evidential weight rests on the exact structural outputs (the 24-entry construction, the $`T_3`$ gate evaluations, and the closed-form torsion algebra: the Galois pairs $`\varphi^{-4}`$ and $`\varphi^{-8}`$, the exact-inverse sector products, $`R_7`$'s Galois-blind 4) together with the falsifiable outliers (the neutrino ladder's ordering, rank 16, the dead zone), not on the ×3 proximity count. The §VII sentence named the pre-correction outliers ($`\nu_2`$, rank 16, the dead zone); the corrected page's outlier set reads as above, with the $`\nu_2`$ gap replaced by the ladder's falsifiable ordering.
+
+**What this run cannot say** is unchanged from §VII: nothing about the skeleton it holds fixed, and a high $`p_A`$ does not falsify the formula's mechanism. It measures one thing: on the corrected table, the ×3 scorecard is not evidence about the torsions. The structural outputs carry the evidential weight, exactly where the corrected page already places it.
 
 ---
 
