@@ -85,7 +85,7 @@ Two independent derivation paths (combinatorial Reidemeister + spectral analytic
 
 Selectivity: maximum (4 of 16 characters). Domain: $`s=0`$ only.
 
-For half-integer irreps (R1, R2, R6, R8), the torsion values are computed by the same spectral method to equivalent precision. The difference is selectivity: 28–32 characters survive rather than 4, and the results remain as finite combinations of $`L'(0,\chi)`$ values without reducing to algebraic closed forms.
+For half-integer irreps (R1, R2, R6, R8), the same spectral method gives exact closed forms as well: the full Ray-Singer torsion resolves to $`\varphi^{-4}/4`$, $`\varphi^{4}/4`$, $`1`$, and $`4`$ respectively, so the maximal-selectivity reading holds across both spin parities. The earlier reading, that 28 to 32 characters survive without reducing, was an artifact of a coexact-only truncation that dropped the scalar tower; restoring it collapses the half-integer torsions to the golden-ratio closed forms above (see [the torsion correction](../../framework/files/working/files/torsion-correction.md)).
 
 ### B. Dirac Factorization
 
@@ -410,7 +410,7 @@ The spectral inaccessibility theorem is a negative result for the RH direction. 
 
 | Spectral object | Role in § III | MIT physics role |
 |----------------|--------------|-----------------|
-| Reidemeister torsion | L-factorization at $`s=0`$ | Fermion mass comparison ($`m_e`$ anchors the scale; 5 of 8 charged within $`\times3`$) |
+| Reidemeister torsion | L-factorization at $`s=0`$ | Fermion mass comparison ($`m_e`$ anchors the scale; 5 of 8 charged compatible within $`\times3`$, 4 after sector adjudication) |
 | $`\varphi^{-4}`$ Galois pair | $`-2\sqrt{5}\cdot L(1,\chi_2)`$, exact to 79 digits | Mass ratio between generations |
 | $`h(E_8)=30`$ | McKay multiplicity period | Mass hierarchy exponent ($`\mathrm{dist}/30`$) |
 | Three flat connections | Three isolated vacua, $`H^1=0`$ | Three particle generations |

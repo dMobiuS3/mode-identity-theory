@@ -44,7 +44,7 @@ The well label (13) stays the same. The grid denominator changes: $`120 \to 60`$
 
 For dimensional observables, $`n = 1, 2, 3`$ counts whole manifold embeddings. Each floor suppresses by $`\sqrt{\Omega_\Lambda}`$. Dimensional observables count whole floors because they carry Planck dimensions (powers of $`\ell_P`$, $`t_P`$) requiring whole-manifold dilution. Dimensionless couplings carry no Planck dimensions; they resolve at the grid level. 
 
-The bosonic grid has 60 positions, so the minimum resolved step is $`1/60 = 1/\lvert I \rvert`$, and one grid step of the hierarchy gives $`\Omega_\Lambda^{-1/60}`$. The exponent follows from two convergent paths (McKay packetization, dimensionless dilution rule). The McKay mass spectrum derives the same $`\text{dist}/30`$ hierarchy, a comparison that lands 5 of 8 charged fermions within a factor of 3 ($`m_e`$ the benchmark).
+The bosonic grid has 60 positions, so the minimum resolved step is $`1/60 = 1/\lvert I \rvert`$, and one grid step of the hierarchy gives $`\Omega_\Lambda^{-1/60}`$. The exponent follows from two convergent paths (McKay packetization, dimensionless dilution rule). The McKay mass spectrum derives the same $`\text{dist}/30`$ hierarchy, a comparison in which 5 of 8 charged fermions have a quantum-number-compatible entry within a factor of 3 ($`m_e`$ the benchmark).
 
 ## III. The formula
 

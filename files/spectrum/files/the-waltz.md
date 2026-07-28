@@ -63,7 +63,7 @@ The 3 reflects $`S^3`$'s three-dimensionality. The 2 is the GR definition of Λ.
 
 ### The dictionary has a definition
 
-The companion mass spectrum analysis derives fermion masses from a single formula, and the current scorecard (5 of 8 charged fermions within a factor of 3, the electron as the benchmark) is maintained in [the mass spectrum](mass-spectrum.md):
+The companion mass spectrum analysis derives fermion masses from a single formula, and the current scorecard (5 of 8 charged fermions have a compatible entry within a factor of 3, 4 after sector-first adjudication, the electron as the benchmark) is maintained in [the mass spectrum](mass-spectrum.md):
 
 ```math
 m(\rho, \sigma) = \mu_\Lambda \times C_{\text{geom}}(\rho) \times (\sqrt{\Omega_\Lambda})^{\text{dist}/30} \times T^2(\rho \otimes \sigma)

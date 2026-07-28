@@ -115,16 +115,16 @@
         <select id="specPreset">
           <option value="custom">Custom</option>
           <option value="e">electron (e)</option>
-          <option value="u">up quark (u)</option>
+          <option value="u">up quark (u, unassigned)</option>
           <option value="d">down quark (d)</option>
           <option value="mu">muon (μ)</option>
           <option value="s">strange (s)</option>
           <option value="tau">tau (τ)</option>
-          <option value="b">bottom (b)</option>
+          <option value="b">bottom (b, out-of-sector)</option>
           <option value="t">top (t)</option>
-          <option value="nu1">ν₁ (lightest)</option>
-          <option value="nu2">ν₂</option>
-          <option value="nu3">ν₃</option>
+          <option value="nu1">ν lightest-scale proxy</option>
+          <option value="nu2">ν solar-scale proxy</option>
+          <option value="nu3">ν atmospheric-scale proxy</option>
         </select>
       </label>
       <div class="form-row">
@@ -282,14 +282,14 @@ for (var r = 1; r <= 8; r++) {
 // ══════════════════════════════════════════════════════════════
 
 const T2 = {
-  1: {triv:15.887, std:0.00827, gal:2.778},
-  2: {triv:0.473,  std:2.778,  gal:0.0567},
-  3: {triv:0.306,  std:68.765, gal:0.257},
-  4: {triv:2.094,  std:0.257,  gal:2.048},
-  5: {triv:2.778,  std:0.122,  gal:4.089},
-  6: {triv:4.328,  std:0.688,  gal:4.712},
-  7: {triv:2.250,  std:1.114,  gal:1.114},
-  8: {triv:0.257,  std:13.090, gal:1.910}
+  1: {triv:0.0365, std:0.306,  gal:2.778},
+  2: {triv:1.714,  std:2.778,  gal:2.094},
+  3: {triv:0.306,  std:0.0365, gal:4.000},
+  4: {triv:2.094,  std:4.000,  gal:1.714},
+  5: {triv:2.778,  std:6.854,  gal:0.146},
+  6: {triv:1.000,  std:0.688,  gal:4.712},
+  7: {triv:2.250,  std:4.000,  gal:4.000},
+  8: {triv:4.000,  std:13.090, gal:1.910}
 };
 
 // ══════════════════════════════════════════════════════════════
@@ -354,7 +354,7 @@ function fS(v, d) {
 
 function badge(r) {
   if (!r) return "";
-  if (r <= 1.1)  return '<span class="badge badge-green">≤6%</span>';
+  if (r <= 1.1)  return '<span class="badge badge-green">≤10%</span>';
   if (r <= 3)    return '<span class="badge badge-gold">≤3×</span>';
   if (r <= 10)   return '<span class="badge badge-red">≤10×</span>';
   return '<span class="badge badge-dim">&gt;10×</span>';
@@ -491,19 +491,20 @@ var sI = document.getElementById('specIrrep');
 var sV = document.getElementById('specVacuum');
 var sP = document.getElementById('specPreset');
 
-// SM fermion preset assignments: {rho, sig, obs (GeV), name}
+// SM fermion presets, corrected to the 2026-07-28 torsion table.
+// state: "assigned" | "unassigned" | "out-of-sector" | "proxy"  (see mass-spectrum.md §III)
 var SP = {
-  e:   {rho:7, sig:"triv", obs:5.11e-4,  name:"e"},
-  u:   {rho:8, sig:"triv", obs:2.16e-3,  name:"u"},
-  d:   {rho:8, sig:"gal",  obs:4.67e-3,  name:"d"},
-  mu:  {rho:8, sig:"std",  obs:1.057e-1, name:"μ"},
-  s:   {rho:8, sig:"std",  obs:9.34e-2,  name:"s"},
-  tau: {rho:4, sig:"std",  obs:1.777,    name:"τ"},
-  b:   {rho:2, sig:"gal",  obs:4.18,     name:"b"},
-  t:   {rho:2, sig:"std",  obs:172.7,    name:"t"},
-  nu1: {rho:1, sig:"std",  obs:1e-13,    name:"ν₁"},
-  nu2: {rho:1, sig:"gal",  obs:8.6e-12,  name:"ν₂"},
-  nu3: {rho:1, sig:"gal",  obs:5.06e-11, name:"ν₃"}
+  e:   {rho:7, sig:"triv", obs:5.11e-4,  name:"e",  state:"assigned"},
+  d:   {rho:8, sig:"gal",  obs:4.67e-3,  name:"d",  state:"assigned"},
+  mu:  {rho:8, sig:"std",  obs:1.057e-1, name:"μ",  state:"assigned"},
+  s:   {rho:8, sig:"std",  obs:9.34e-2,  name:"s",  state:"assigned"},
+  tau: {rho:4, sig:"gal",  obs:1.777,    name:"τ",  state:"assigned"},
+  t:   {rho:2, sig:"triv", obs:172.7,    name:"t",  state:"assigned"},
+  u:   {rho:8, sig:"triv", obs:2.16e-3,  name:"u",  state:"unassigned",   note:"former up-type address; the correction moved it to ~31.6 MeV, no compatible entry, unassigned"},
+  b:   {rho:4, sig:"gal",  obs:4.18,     name:"b",  state:"out-of-sector", note:"structural sector R2 has no hit; this is the nearest compatible entry (R4,gal), outside sector, uncounted"},
+  nu1: {rho:1, sig:"triv", obs:null,     name:"ν (lightest-scale proxy)",     state:"proxy"},
+  nu2: {rho:1, sig:"std",  obs:8.6e-12,  name:"ν (solar-scale proxy)",        state:"proxy"},
+  nu3: {rho:1, sig:"gal",  obs:5.06e-11, name:"ν (atmospheric-scale proxy)",  state:"proxy"}
 };
 
 sP.addEventListener('change', function() {
@@ -539,20 +540,22 @@ function compSpec() {
     ["<strong>m</strong>", "<strong>" + fS(m, 4) + " GeV</strong>", "<strong>Product of four factors</strong>"]
   ];
 
-  // Observed value and computed ratio for SM presets
+  // Observed value / SM role for the selected preset (four states)
   var p = SP[sP.value];
   if (p) {
-    var obsRatio = Math.max(m / p.obs, p.obs / m);
-    bd.push([
-      p.name + " observed",
-      fS(p.obs, 4) + " GeV",
-      "PDG value"
-    ]);
-    bd.push([
-      "Ratio",
-      "×" + obsRatio.toFixed(2),
-      obsRatio <= 3 ? "within ×3" : "within ×10"
-    ]);
+    var roleTxt = {assigned:"assigned", unassigned:"unassigned (no compatible entry)",
+      "out-of-sector":"compatible but out-of-sector, uncounted",
+      proxy:"proxy comparison, not a hit"}[p.state];
+    var shortName = p.name.replace(/ \(.*/, "");
+    bd.push(["SM role", shortName, roleTxt]);
+    if (p.obs != null) {
+      var obsRatio = Math.max(m / p.obs, p.obs / m);
+      bd.push([shortName + " observed", fS(p.obs, 4) + " GeV",
+        p.state === "proxy" ? "measured scale" : "PDG value"]);
+      bd.push(["Ratio", "×" + obsRatio.toFixed(2),
+        p.state === "assigned" ? (obsRatio <= 3 ? "within ×3" : "within ×10") : roleTxt]);
+    }
+    if (p.note) bd.push(["detail", p.note, ""]);
   }
 
   document.querySelector('#specBreakdown tbody').innerHTML = bd.map(function(row, i) {
@@ -587,31 +590,46 @@ function build() {
   }
   ent.sort(function(a, b) { return a.m - b.m; });
 
-  var asgn = [
-    {rk:1, s:"ν₁"}, {rk:2, s:"ν₃"}, {rk:3, s:"ν₃"},
-    {rk:10,s:"e"}, {rk:11,s:"e"}, {rk:12,s:"e"},
-    {rk:13,s:"u"}, {rk:14,s:"d"}, {rk:15,s:"μ"},
-    {rk:17,s:"τ"}, {rk:18,s:"b"}, {rk:19,s:"b"},
-    {rk:20,s:"b"}, {rk:21,s:"b"}, {rk:22,s:"b"},
-    {rk:23,s:"t"}, {rk:24,s:"t"}
-  ];
-  asgn.forEach(function(a) {
-    if (ent[a.rk - 1]) {
-      ent[a.rk - 1].sm = a.s;
-      var obs = SM[a.s];
-      if (obs) ent[a.rk - 1].rat = Math.max(ent[a.rk - 1].m / obs, obs / ent[a.rk - 1].m);
+  // Corrected SM role per (irrep, vacuum), keyed so it is robust to sort order.
+  // state: assigned | unassigned | proxy | none  (mirrors mass-spectrum.md §III)
+  var ROLE = {
+    "7_triv": {s:"e",   obs:5.11e-4,  st:"assigned"},
+    "8_gal":  {s:"d",   obs:4.67e-3,  st:"assigned"},
+    "8_std":  {s:"μ / s", obs:1.057e-1, st:"assigned"},
+    "4_gal":  {s:"τ",   obs:1.777,    st:"assigned"},
+    "2_triv": {s:"t",   obs:172.7,    st:"assigned"},
+    "8_triv": {s:"u vacated", st:"unassigned"},
+    "1_triv": {s:"ν proxy", st:"proxy"},
+    "1_std":  {s:"ν proxy", st:"proxy"},
+    "1_gal":  {s:"ν proxy", st:"proxy"},
+    "5_gal":  {s:"target", st:"none"},
+    "2_gal":  {s:"no SM",  st:"none"}
+  };
+  ent.forEach(function(e) {
+    var role = ROLE[e.r + "_" + e.v];
+    if (role) {
+      e.sm = role.s; e.state = role.st;
+      if (role.st === "assigned" && role.obs) e.rat = Math.max(e.m / role.obs, role.obs / e.m);
     }
   });
 
+  var stateBadge = {
+    unassigned: '<span class="badge badge-dim">unassigned</span>',
+    proxy:      '<span class="badge badge-dim">proxy</span>',
+    none:       '<span class="badge badge-dim">no SM role</span>'
+  };
   document.querySelector('#massTable24 tbody').innerHTML = ent.map(function(e, i) {
-    var cl = e.dz ? 'dead-zone' : (e.rat > 0 && e.rat <= 1.1 ? 'hit-row' : '');
+    var assigned = e.state === "assigned";
+    var cl = (assigned && e.rat > 0 && e.rat <= 1.1) ? 'hit-row' : (e.dz ? 'dead-zone' : '');
     var t3str = e.t3 > 0 ? '+½' : '−½';
     var t3color = e.t3 > 0 ? 'var(--accent)' : 'var(--dim)';
+    var last = assigned ? badge(e.rat)
+             : (e.state ? stateBadge[e.state]
+             : (e.dz ? '<span class="badge badge-dim">dead zone</span>' : ''));
     return '<tr class="' + cl + '"><td>' + (i+1) + '</td><td>' + e.l + '</td><td>' + e.dim +
       '</td><td>' + e.dist + '</td><td>' + e.v + '</td><td style="color:' + t3color + '">' + t3str + '</td><td>' + e.t2.toFixed(3) +
       '</td><td>' + fS(e.m) + '</td><td>' + (e.sm || "-") + '</td><td>' +
-      (e.rat ? e.rat.toFixed(2) : "-") + '</td><td>' +
-      (e.sm ? badge(e.rat) : (e.dz ? '<span class="badge badge-dim">dead zone</span>' : '')) + '</td></tr>';
+      (assigned && e.rat ? e.rat.toFixed(2) : "-") + '</td><td>' + last + '</td></tr>';
   }).join('');
 
   document.querySelector('#cgeomTable tbody').innerHTML = Object.keys(IR).map(function(k) {

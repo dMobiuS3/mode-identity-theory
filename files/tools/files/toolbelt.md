@@ -168,14 +168,14 @@ From log T²(ρ⊗σ) = Σ_τ N_ρστ log T²(τ):
 
 | ρ | T²(ρ, triv) | T²(ρ, std) | T²(ρ, gal) |
 |---|-------------|------------|------------|
-| R1 | 15.887 | 0.00827 | 2.778 |
-| R2 | 0.473 | 2.778 | 0.0567 |
-| R3 | 0.306 | 68.765 | 0.257 |
-| R4 | 2.094 | 0.257 | 2.048 |
-| R5 | 2.778 | 0.122 | 4.089 |
-| R6 | 4.328 | 0.688 | 4.712 |
-| R7 | 2.250 | 1.114 | 1.114 |
-| R8 | 0.257 | 13.090 | 1.910 |
+| R1 | 0.0365 | 0.306 | 2.778 |
+| R2 | 1.714 | 2.778 | 2.094 |
+| R3 | 0.306 | 0.0365 | 4.000 |
+| R4 | 2.094 | 4.000 | 1.714 |
+| R5 | 2.778 | 6.854 | 0.146 |
+| R6 | 1.000 | 0.688 | 4.712 |
+| R7 | 2.250 | 4.000 | 4.000 |
+| R8 | 4.000 | 13.090 | 1.910 |
 
 R7 is the only irrep where T²(std) = T²(gal): the electron sits where the Galois distinction vanishes. These 24 values are the torsion factor T²(ρ⊗σ) you feed into the mass formula.
 
@@ -261,14 +261,14 @@ Four factors, four sources:
 
 | ρ | dist | σ | m (GeV) | SM |
 |---|------|----|---------|-----|
-| R1 | 1 | std | 1.98 × 10⁻¹³ | ν₁ |
+| R1 | 1 | std | 7.33 × 10⁻¹² | ν (proxy) |
 | R7 | 4 | triv | 5.21 × 10⁻⁴ | e |
-| R8 | 5 | triv | 2.03 × 10⁻³ | u |
+| R8 | 5 | triv | 3.16 × 10⁻² | unassigned |
 | R8 | 5 | std | 1.03 × 10⁻¹ | μ / s |
-| R4 | 6 | std | 7.34 × 10⁻¹ | τ |
-| R2 | 7 | std | 261.46 | t |
+| R4 | 6 | std | 1.14 × 10¹ | unassigned |
+| R2 | 7 | std | 261.46 | t (bracket) |
 
-Applied to the 8 nontrivial irreps across 3 vacua, the formula produces 24 entries across the fermion band. The match against the measured fermions is a comparison, not a prediction: the topology fixes the count and the quantum-number content of each entry, while the mass match is softer (pending a null test). The full 24-entry comparison (ranks, ratios, the 6-of-9 / 5-of-8 charged-fermion tally, the dead zone, the neutrino-generation and charm gaps) lives in [the mass spectrum](../../spectrum/files/mass-spectrum.md) §III.
+Applied to the 8 nontrivial irreps across 3 vacua, the formula produces 24 entries across the fermion band. The match against the measured fermions is a comparison, not a prediction: the topology fixes the count and the quantum-number content of each entry, while the mass match is softer (the null test returns an uninformative band: the ×3 count is density, not evidence for the specific torsion values). The full 24-entry comparison (ranks, ratios, the 5-of-8 compatible and 4-of-8 adjudicated tally within ×3, the dead zone, the neutrino proxy scales, and the unassigned up and charm) lives in [the mass spectrum](../../spectrum/files/mass-spectrum.md) §III.
 
 ### Key Numbers
 
