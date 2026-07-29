@@ -320,8 +320,6 @@ One Coxeter pair $`(13, 17)`$, its conjugation forced by $`E_8`$ arithmetic, its
 
 *The fine structure constant is the fine structure of the cosmological constant: the vacuum hierarchy resolved at its first step.*
 
-Deposited: [α fine structure: Λ Minimum Step to Mode Identity, v2](https://doi.org/10.5281/zenodo.18484780), with a reproducibility supplement that recomputes every number in the paper from the declared inputs.
-
 ---
 
 / **[`main`](/README.md)** / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
