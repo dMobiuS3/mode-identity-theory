@@ -4,7 +4,7 @@
 
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/alpha%20banner.png?raw=true" width="100%" alt="Fine Structure">
 
-The fine structure constant $`\alpha \approx 1/137`$ governs the strength of electromagnetic interaction. It is dimensionless: a pure number carrying no Planck units. No framework in standard physics predicts its value. Within Mode Identity Theory, the topological hierarchy behind Λ, $`H_0`$, and $`a_0`$ also governs dimensionless couplings. The result is $`\alpha = C(13/60) \cdot \Omega_\Lambda^{-1/60} = 0.00733`$, within 0.4% of the measured value, derived from one topological postulate. The same structure yields all three gauge couplings.
+The fine structure constant $`\alpha \approx 1/137`$ governs the strength of electromagnetic interaction. It is dimensionless: a pure number carrying no Planck units. No framework in standard physics predicts its value. Within Mode Identity Theory, the topological hierarchy behind Λ, $`H_0`$, and $`a_0`$ also governs dimensionless couplings. The result is $`\alpha = C(13/60) \cdot \Omega_\Lambda^{-1/60} = 0.00733`$, within 0.4% of the measured value, from one topological postulate. The same structure extends to the strong and weak couplings.
 
 **Results at a glance**
 
@@ -54,7 +54,7 @@ The scaling law for a dimensionless coupling ($`A_P = 1`$) is:
 \alpha = C(\Theta) \cdot \Omega_\Lambda^{-1/60}
 ```
 
-with $`\Theta = 13/60`$ (matter well on bosonic grid) and $`\Omega_\Lambda = (R_\Lambda / \ell_P)^2 = 1.054 \times 10^{122}`$, fixed from the measured Λ.
+with $`\Theta = 13/60`$ (matter well on bosonic grid) and $`\Omega_\Lambda = (R_\Lambda / \ell_P)^2 = 1.054 \times 10^{122}`$, fixed from the Planck 2018 Λ inference.
 
 **Phase factor.** The phase operator $`C(\Theta) = 2\sin^2(\pi\Theta)`$ evaluated at $`\Theta = 13/60`$:
 
@@ -85,15 +85,15 @@ These three ingredients (matter well, bosonic grid, fractional exponent) map ont
 | # | Input | Output | Status |
 |---|---|---|---|
 | 1 | $`S^1 = \partial(\text{Möbius}) \hookrightarrow S^3,\ \partial S^3 = \emptyset`$ | Anti-periodic BC | Derived |
-| 2 | $`F_7 = 13`$, $`\gcd(13, 120) = 1`$; EM couples matter | Matter well 13 | Derived |
-| 3 | $`\lvert\psi\rvert^2`$ (bosonic) | 60R-grid; $`\Theta = 13/60`$ | Derived |
-| 4 | $`\alpha`$ epoch-independent | Reference $`\Omega_\Lambda`$ | Derived |
+| 2 | $`F_7 = 13`$, $`\gcd(13, 120) = 1`$; EM couples matter | Matter well 13 | Motivated |
+| 3 | $`\lvert\psi\rvert^2`$ (bosonic) | 60R-grid; $`\Theta = 13/60`$ | Motivated grid assignment |
+| 4 | $`\alpha`$ epoch-independent | Reference $`\Omega_\Lambda`$ | Framework selection rule |
 | 5 | Minimum grid step: $`1/\lvert I \rvert = 1/60`$ | $`\Omega_\Lambda^{-1/60}`$ | Provisional |
 | 6 | $`C(13/60) \times \Omega_\Lambda^{-1/60}`$ | $`\alpha = 0.00733`$ | Output |
 
-Four derivations. One provisional structural step. The grid-hierarchy exponent (stage 5) is supported by two convergent arguments (McKay packetization, dimensionless dilution rule); the restricted scan in Section IV checks its identifiability within the framework's own rule set.
+One derivation, two motivated assignments, one framework selection rule, one provisional structural step, one arithmetic output. The grid-hierarchy exponent (stage 5) is supported by two convergent arguments (McKay packetization, dimensionless dilution rule); the restricted scan in Section IV checks its identifiability within the framework's own rule set.
 
-## IV. Uniqueness
+## IV. Identifiability
 
 Accuracy alone cannot distinguish the formula from numerology. A scan of all combinations $`C(\Theta) \times \Omega_\Lambda^{-1/d}`$ across grid positions and candidate denominators tests whether the MIT formula is structurally selected or merely lucky.
 
@@ -102,30 +102,31 @@ Accuracy alone cannot distinguish the formula from numerology. A scan of all com
 | Broad (all positions, all denominators) | 7,200 | 9 | ~7.6 |
 | Restricted (MIT constraints only) | 24 | 1 | — |
 
-In the broad scan, the formula is indistinguishable from chance: the local-density estimate expects about 7.6 hits and 9 are found. In the restricted scan (MIT structural constraints only), the formula is uniquely selected: of 24 candidates, exactly one lands within 0.5% of $`\alpha`$, the matter well at the minimum realized step.
+In the broad scan, the hit count does not exceed the baseline: the local-density estimate gives about 7.6 hits and 9 are found. Accuracy alone selects nothing. In the restricted scan (MIT structural constraints only), the formula is uniquely selected: of 24 candidates, exactly one lands within 0.5% of $`\alpha`$, the matter well at the minimum realized step. That is identifiability within the framework's own rule set: the constraints, taken together, pick the formula out uniquely.
 
 ### The best competitor
 
-The most accurate alternative is $`C(34/120) \times \Omega_\Lambda^{-1/55}`$, achieving 0.06% error (seven times better than MIT). It fails three structural tests:
+The most accurate alternative is $`C(34/120) \times \Omega_\Lambda^{-1/55}`$, achieving 0.06% error (seven times better than MIT). In the unreduced 120-grid notation used by the broad scan, its structural comparison with the MIT formula is:
 
 | Test | MIT formula | Competitor |
 |---|---|---|
-| Grid type | Bosonic (60R): photon is boson | Spinor (120): wrong statistics |
+| Grid type | Bosonic (60R): photon is boson | Spinor (120): violates the bosonic-grid assignment |
 | Well | 13 (matter / $`a_0`$): EM couples matter | 34 ($`H_0`$): phase clock, not coupling |
 | Exponent denominator | $`60 = \lvert I \rvert`$ (group order) | $`55 = F_{10}`$ (Fibonacci, not group) |
 
+Because $`34/120 = 17/60`$, the first two rows depend partly on how the same phase point is represented. On the reduced 60R-grid, the competitor uses the coprime Kostant seat 17: it satisfies the bosonic-grid condition, but it still fails the electromagnetic matter-seat assignment (13), and its denominator $`d = 55`$ is not one of the admitted group depths $`\{30, 60, 120\}`$. At $`d = 60`$, the corresponding restricted candidate gives $`C(17/60) \cdot \Omega_\Lambda^{-1/60} = 0.0112`$, a 53% miss. The runner-up is the conjugate seat off its menu: it reaches α only by leaving the rule set.
+
 ### Structural checklist
 
-Only the MIT formula passes all six constraints:
+Only the MIT formula passes all five constraints. The exponent denominator carries two readings of one condition ($`1/\lvert I \rvert = 1/60 = 1/2h(E_8)`$: group order and Coxeter depth), counted once:
 
 | # | Constraint | Rationale |
 |---|---|---|
 | 1 | Bosonic grid ($`60 = \lvert I \rvert`$) | Photons are bosons |
 | 2 | Matter well ($`F_7 = 13`$) | EM couples matter |
 | 3 | Coprime: $`\gcd(13, 60) = 1`$ | Maximally detached from symmetry |
-| 4 | Group exponent $`1/\lvert I \rvert`$ | Denominator = icosahedral order |
-| 5 | Coxeter: $`1/2h`$, $`h(E_8) = 30`$ | Root system depth |
-| 6 | Epoch-independent: $`\Omega_\Lambda`$ | $`\alpha`$ is constant |
+| 4 | Group-depth exponent: $`1/\lvert I \rvert = 1/2h(E_8)`$ | Icosahedral order; equivalently Coxeter depth of $`E_8`$ |
+| 5 | Epoch-independent: $`\Omega_\Lambda`$ | $`\alpha`$ is constant |
 
 Accuracy alone is inconclusive. Structure selects the MIT formula uniquely.
 
@@ -135,7 +136,7 @@ The $`\alpha`$ derivation uses two structural choices: a phase well (which Kosta
 
 ### The Coxeter pair
 
-The $`E_8`$ root system has Coxeter number $`h = 30`$. Its exponents are the integers coprime to $`h`$: $`\{1, 7, 11, 13, 17, 19, 23, 29\}`$. These pair under conjugation $`e \leftrightarrow h - e`$. The electromagnetic coupling uses the Kostant exponent 13. Its conjugate is $`30 - 13 = 17`$. The three alternative pairs miss the measured couplings by 15% to 156% across the nine comparisons. The pair $`(13, 17)`$ is forced.
+The $`E_8`$ root system has Coxeter number $`h = 30`$. Its exponents are the integers coprime to $`h`$: $`\{1, 7, 11, 13, 17, 19, 23, 29\}`$. These pair under conjugation $`e \leftrightarrow h - e`$. The electromagnetic coupling uses the Kostant exponent 13. Its conjugate is arithmetic: $`30 - 13 = 17`$. That the conjugate governs the strong and weak couplings is the ladder's working hypothesis, and it is the only viable one: the three alternative pairs miss the measured couplings by 15% to 156% across the nine comparisons. $`(13, 17)`$ is the pair.
 
 The same exponent 17 governs both the strong and weak couplings. What differs is the grid.
 
@@ -165,7 +166,7 @@ Observed: 0.1180. Agreement: 1.5%.
 
 ### $`\alpha_W`$: the weak coupling and the Plato twist
 
-The weak interaction is the chiral, parity-violating sector: its charged-current $`W^\pm`$ vertices change fermion flavor, while the neutral $`Z`$ current is flavor-diagonal at tree level. Both slots sit on the 120 fermion domain (phase grid = 120, exponent grid = 120). The $`W`$ and $`Z`$ remain spin-1 bosons; their 120 assignment comes from that chiral charged-current action, not from their spin, and it is a proposed selection rule rather than a derived one. Kostant exponent 17 on the 120 phase grid:
+The quantity here is the $`SU(2)_L`$ gauge coupling, $`\alpha_W \equiv \hat{g}^2/4\pi = \hat\alpha(M_Z)/\hat{s}_Z^2`$. The weak interaction is the chiral, parity-violating sector: its charged-current $`W^\pm`$ vertices change fermion flavor, while the neutral $`Z`$ current is flavor-diagonal at tree level. Both slots sit on the 120 fermion domain (phase grid = 120, exponent grid = 120). The $`W^\pm`$ remain spin-1 bosons; the 120 assignment reads their action, not their spin, and it is a proposed selection rule rather than a derived one. The $`Z`$, an electroweak mixture, plays no role in the carrier classification. Kostant exponent 17 on the 120 phase grid:
 
 ```math
 \alpha_W = C(17/120) \times \Omega_\Lambda^{-1/120} \times \cos(\pi/10) = 0.0339
@@ -173,11 +174,11 @@ The weak interaction is the chiral, parity-violating sector: its charged-current
 
 Observed: 0.0338. Agreement: 0.3%.
 
-**The Plato twist.** The correction $`\cos(\pi/10) \approx 0.951`$ arises from the dodecahedral geometry of $`S^3/2I`$. The dodecahedron (dual to the icosahedron) has angular defect $`\pi/5`$ at each vertex. The Möbius $`Z_2`$ holonomy halves the defect to $`\pi/10`$. The weak force is the only Standard Model interaction that violates parity; it is the only coupling that traverses the twist.
+**The Plato twist.** The correction $`\cos(\pi/10) \approx 0.951`$ arises from the dodecahedral geometry of $`S^3/2I`$. The dodecahedron (dual to the icosahedron) has angular defect $`\pi/5`$ at each vertex. The Möbius $`Z_2`$ holonomy is taken to halve the defect to $`\pi/10`$. The weak force is the only Standard Model interaction that violates parity; it is the only coupling that traverses the twist. The geometry is real; the halving step is not yet derived: no operator restriction, holonomy transport, or projection computation currently produces $`\cos(\pi/10)`$, and the factor is selected from the geometry's discrete menu rather than fitted continuously.
 
 In the stabilizer framework, the Plato twist encodes how vertex geometry ($`Z_5`$) reaches the observer through the Möbius twist ($`Z_2`$). Color ($`Z_3`$) transmits cleanly through the surface, which is why the strong and electromagnetic forces carry no twist correction. The vertex information passes through the non-orientable identification, picking up $`\cos(\pi/10) = \sqrt{(2+\varphi)}/2`$ as the projection factor. The golden ratio $`\varphi`$ enters from $`Z_5`$ (icosahedral vertex symmetry) and the factor 2 from $`Z_2`$ (edge/Möbius holonomy). The twist correction is the vertex-edge stabilizer interface.
 
-The correction is selective: it uniquely improves $`\alpha_W`$ (from 5.5% to 0.3%), and uniquely degrades both $`\alpha`$ (from 0.4% to 4.5%) and $`\alpha_s`$ (from 1.5% to 6.4%) if misapplied. The twist knows which force it belongs to.
+The correction is selective: it uniquely improves $`\alpha_W`$ (from 5.5% to 0.3%), and uniquely degrades both $`\alpha`$ (from 0.4% to 4.5%) and $`\alpha_s`$ (from 1.5% to 6.4%) if misapplied. The twist knows which force it belongs to; a derivation that produces it is what the ladder still owes.
 
 ### $`\alpha_s / \alpha_W`$: pure geometry
 
@@ -193,14 +194,14 @@ Observed: 3.490. Agreement: 1.8%. Same Kostant exponent, different grids, one tw
 
 | Coupling | Formula | Predicted | Observed | Agreement | Status |
 |---|---|---|---|---|---|
-| $`\alpha`$ | $`C(13/60) \cdot \Omega_\Lambda^{-1/60}`$ | 0.00733 | 0.00730 | 0.4% | Conditional (Λ-anchored) |
+| $`\alpha`$ | $`C(13/60) \cdot \Omega_\Lambda^{-1/60}`$ | 0.00733 | 0.00730 | 0.4% | Conditional (Λ-anchored); exponent provisional |
 | $`\alpha_s`$ | $`C(17/60) \cdot \Omega_\Lambda^{-1/120}`$ | 0.1162 | 0.1180 | 1.5% | Conjectural |
-| $`\alpha_W`$ | $`C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)`$ | 0.0339 | 0.0338 | 0.3% | Conjectural (twist ansatz) |
+| $`\alpha_W`$ | $`C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)`$ | 0.0339 | 0.0338 | 0.3% | Conjectural (Plato-twist ansatz) |
 | $`\alpha_s/\alpha_W`$ | $`C(17/60) / [C(17/120) \cdot \cos(\pi/10)]`$ | 3.426 | 3.490 | 1.8% | Conjectural |
 
-The observed values of $`\alpha_s`$ and $`\alpha_W`$ are conventionally measured at $`M_Z`$ (~91 GeV), while $`\alpha`$ is measured at low energy. Whether the MIT predictions apply at matching scales is open (see Section VIII).
+The percentages are convention-pinned, and the conventions carry weight. The α row is a $`q^2 = 0`$ statement: at $`M_Z`$ the same prediction misses $`\hat\alpha(M_Z)`$ by ≈6%. The 0.3% weak residual is specific to the $`\overline{\text{MS}}`$ convention at $`M_Z`$ ($`\alpha_W = \hat\alpha(M_Z)/\hat{s}_Z^2`$); substituting the on-shell mixing angle shifts the target by ≈3.5%. And the ladder has not yet seated hypercharge: above electroweak symmetry breaking, α is built from the $`U(1)_Y`$ and $`SU(2)_L`$ couplings, so a complete ladder would seat $`g_1`$ and derive $`\sin^2\theta_W`$. Scale matching is the open problem (see Section VIII).
 
-Reading the α row as a prediction carries one caveat. The 0.4% holds when $`\Omega_\Lambda`$ is fixed from an independent anchor (the measured Λ). When α is instead the best-conditioned anchor that fixes $`\Omega_\Lambda`$, its own 0.4% is a consistency check, not an independent prediction, and the genuine output of that route is $`\Lambda = 3/R^2`$ to 23%. The surface sector is over-determined: you anchor on one of Λ, α, or the mass ratio and the rest become predictions, never all at once (see [Three readings of one hierarchy](../../framework/README.md#three-readings-of-one-hierarchy)).
+Reading the α row as a prediction carries one caveat. The 0.4% holds when $`\Omega_\Lambda`$ is fixed externally, from the Planck Λ inference. When α is instead the best-conditioned anchor that fixes $`\Omega_\Lambda`$, its own 0.4% is a consistency check, not an independent prediction, and the genuine output of that route is $`\Lambda = 3/R^2`$ to 23%. The surface sector is over-determined: you anchor on one of Λ, α, or the mass ratio and the rest become predictions, never all at once (see [Three readings of one hierarchy](../../framework/README.md#three-readings-of-one-hierarchy)).
 
 ## VI. The α-Λ Connection
 
@@ -219,7 +220,7 @@ Both the cosmological constant and the fine structure constant reference the sam
 Λ uses the full hierarchy (exponent 1). $`\alpha`$ uses 1/60-th: one grid step. The ratio of log-scalings confirms the relationship:
 
 ```math
-\frac{\log\alpha}{\log(\Lambda \cdot \ell_P^2)} \approx \frac{-2.13}{-121.7} \approx \frac{1}{57}
+\frac{\log_{10}\alpha}{\log_{10}(\Lambda_\text{top} \cdot \ell_P^2)} \approx \frac{-2.13}{-121.7} \approx \frac{1}{57}
 ```
 
 Close to 1/60; the offset comes from $`C(13/60) \neq C(60/120)`$. The coupling constant measures how much hierarchy one quantum of exchange crosses. Λ is the total vacuum energy, the entire surface mode. $`\alpha`$ is one interaction within that vacuum, one resolved step.
@@ -247,6 +248,8 @@ Standard QED running remains a perturbative field-theory effect layered on top o
 This gives a geometric version of the usual unification intuition: when the hierarchy suppression is removed, the couplings become order unity. Whether this can be promoted to an energy-dependent unification mechanism requires the open scale-matching step above.
 
 ## VII. The Vacant Rung
+
+*Beyond the v2 deposit: the deposited paper stops at the vacant fourth pairing and defers its interpretation until the grid rule is derived. This section and the extension tests in Section VIII are the live framework's stronger reading.*
 
 The grid ladder in Section V assigns two structural properties to each gauge force: the character of its carrier (phase grid) and the character of what it confines (exponent grid). Each slot resolves as bosonic (60R, intensity $`|\psi|^2`$, period 1) or spinorial (120, wavefunction $`\psi`$, anti-period 1). Two binary choices across two formula slots yield four possible rungs, three occupied.
 
@@ -292,30 +295,32 @@ The grid ladder was constructed to derive coupling constants. It was not designe
 
 ## VIII. Falsification
 
-**Internal selection tests** (structural consistency of the construction):
+**Failure conditions (deposited v2)** — prospective, named before the fact:
 
-| Test | Fails if | Status |
+| Condition | Fails if | Scope |
 |---|---|---|
-| Grid ladder pattern | No well/grid combination reproduces $`\alpha_W`$ or $`\alpha_s`$ at $`< 5\%`$ | Satisfied |
-| Plato twist selectivity | $`\cos(\pi/10)`$ improves $`\alpha`$ or $`\alpha_s`$ rather than uniquely $`\alpha_W`$ | Satisfied |
+| Internal failure | A derivation of the grid rule or the Plato-twist factor, once constructed, yields a different grid assignment or a different correction | Ladder |
+| Convention stability | Common-scale, common-scheme updates move $`\alpha_s`$ or $`\alpha_W`$ outside a 5% tolerance under the stated $`M_Z`$, $`\overline{\text{MS}}`$ convention | Ladder |
+| Core consistency | A revised Λ moves the conditional α prediction outside 2% | α core |
 
-**External empirical tests** (contact with observation):
+**Working-extension tests** (beyond the deposit, contact with observation):
 
-| Test | Kills framework if | Sharpness |
+| Test | Kills the extension if | Sharpness |
 |---|---|---|
 | Force count | A fourth fundamental force occupies the 120/60 rung | Decisive |
 | SUSY vacancy | Gaugino-mediated interactions observed at any energy scale | Decisive |
 | Scale consistency / running | The three coupling values cannot be assigned to consistent reference scales, or MIT cannot connect the infrared $`\alpha`$ value to conventional $`\alpha(q^2)`$ running | Open |
-| $`\alpha`$ value | Agreement degrades beyond 2% with improved Λ | Moderate |
 | $`\alpha`$ – $`\Lambda`$ correlation | Refined Λ pushes predicted $`\alpha`$ further from CODATA | Weak (sensitivity suppressed by 1/60) |
 
-The first two confirm that the formula is structurally forced within MIT. The external tests are where the framework meets data. The force count and SUSY vacancy are tested by every collider run. The open question is scale consistency: the three predictions are made at different energy scales ($`\alpha`$ at low energy, $`\alpha_s`$ and $`\alpha_W`$ near $`M_Z`$), and deriving RG running from the MIT hierarchy structure remains open.
+The deposited conditions name in advance what would kill the construction. The extension tests are where the working framework meets data: the force count and SUSY vacancy are tested by every collider run. The open question spanning both is scale consistency: the three values sit at different energy scales ($`\alpha`$ at $`q^2 = 0`$, $`\alpha_s`$ and $`\alpha_W`$ at $`M_Z`$), and deriving RG running from the MIT hierarchy structure remains open.
 
 ---
 
-One Coxeter pair $`(13, 17)`$ forced by the $`E_8`$ root system. One grid ladder exhausted by three forces. One twist correction selective to parity violation. Three gauge couplings from the geometry of the domain, at 0.4%, 1.5%, and 0.3%. Their ratio at 1.8% with no $`\Omega_\Lambda`$ input at all. Λ uses the full vacuum hierarchy. $`\alpha`$ uses one-sixtieth of it. The strong and weak forces fill the remaining rungs.
+One Coxeter pair $`(13, 17)`$, its conjugation forced by $`E_8`$ arithmetic, its assignment the ladder's hypothesis. One grid ladder exhausted by three forces. One twist correction selective to parity violation. Three gauge couplings from the geometry of the domain, at 0.4%, 1.5%, and 0.3%. Their ratio at 1.8% with no $`\Omega_\Lambda`$ input at all. Λ uses the full vacuum hierarchy. $`\alpha`$ uses one-sixtieth of it. The strong and weak forces fill the remaining rungs.
 
 *The fine structure constant is the fine structure of the cosmological constant: the vacuum hierarchy resolved at its first step.*
+
+Deposited: [α fine structure: Λ Minimum Step to Mode Identity, v2](https://doi.org/10.5281/zenodo.18484780), with a reproducibility supplement that recomputes every number in the paper from the declared inputs.
 
 ---
 
