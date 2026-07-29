@@ -193,8 +193,8 @@ Outputs of a fixed structure, checked against observation:
 | [↗](/files/spectrum/files/the-waltz.md#iv-dark-matter-and-dark-energy-as-geometry) Null dark matter | permanent | ongoing null results | ✓ |
 | [↗](/files/spectrum/files/yang-mills.md#i-the-geometry) Mass gap | $`> 0`$ | confinement observed | ✓ |
 | [↗](/files/spectrum/files/yang-mills.md#ii-three-vacua) Fermion generations | 3 (mass gaps) | 3 | exact |
-| [↗](/files/spectrum/files/fine-structure.md#the-prediction) Force count | 3 (grid exhaustion) | 3 | exact |
-| [↗](/files/spectrum/files/fine-structure.md#the-prediction) Null SUSY | permanent | ongoing null results | ✓ |
+| [↗](/files/spectrum/files/fine-structure.md#the-prediction) Force count | 3 (grid-ladder conjecture) | 3 | consistent (conjecture) |
+| [↗](/files/spectrum/files/fine-structure.md#the-prediction) Null SUSY | no realized gaugino-mediated force (open conjecture) | ongoing null results | consistent (conjecture) |
 | [↗](/files/spectrum/files/the-mirror.md#ii-main-theorem) Spectral inaccessibility | no $`\mathcal{F}`$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |
 | [↗](/files/spectrum/files/mass-spectrum.md#1-color-from-faces) Color from $`Z_3`$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
 | [↗](/files/spectrum/files/mass-spectrum.md#2-domain-from-edges) Domain from $`Z_4`$ | $`D = 60`$ (int) vs $`120`$ (half-int) | integer/half-integer split | exact |

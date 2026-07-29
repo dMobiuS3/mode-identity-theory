@@ -57,8 +57,8 @@ Embed the surface in space and the curvature converts the sample to energy by 3/
 | [↗](files/the-waltz.md) Null dark matter | permanent | ongoing null results | ✓ |
 | [↗](files/yang-mills.md) Mass gap | $`> 0`$ | confinement observed | ✓ |
 | [↗](files/yang-mills.md) Fermion generations | 3 (mass gaps) | 3 | exact |
-| [↗](files/fine-structure.md) Force count | 3 (grid exhaustion) | 3 | exact |
-| [↗](files/fine-structure.md) Null SUSY | permanent | ongoing null results | ✓ |
+| [↗](files/fine-structure.md) Force count | 3 (grid-ladder conjecture) | 3 | consistent (conjecture) |
+| [↗](files/fine-structure.md) Null SUSY | no realized gaugino-mediated force (open conjecture) | ongoing null results | consistent (conjecture) |
 | [↗](files/the-mirror.md) Spectral inaccessibility | no $`\mathcal{F}`$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |
 | [↗](files/mass-spectrum.md) Color from $`Z_3`$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
 | [↗](files/mass-spectrum.md) Domain from $`Z_4`$ | $`D = 60`$ (int) vs 120 (half-int) | integer/half-integer split | exact |

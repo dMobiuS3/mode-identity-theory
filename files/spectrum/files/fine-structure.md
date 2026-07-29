@@ -88,10 +88,10 @@ These three ingredients (matter well, bosonic grid, fractional exponent) map ont
 | 2 | $`F_7 = 13`$, $`\gcd(13, 120) = 1`$; EM couples matter | Matter well 13 | Derived |
 | 3 | $`\lvert\psi\rvert^2`$ (bosonic) | 60R-grid; $`\Theta = 13/60`$ | Derived |
 | 4 | $`\alpha`$ epoch-independent | Reference $`\Omega_\Lambda`$ | Derived |
-| 5 | Minimum grid step: $`1/\lvert I \rvert = 1/60`$ | $`\Omega_\Lambda^{-1/60}`$ | Established |
+| 5 | Minimum grid step: $`1/\lvert I \rvert = 1/60`$ | $`\Omega_\Lambda^{-1/60}`$ | Provisional |
 | 6 | $`C(13/60) \times \Omega_\Lambda^{-1/60}`$ | $`\alpha = 0.00733`$ | Output |
 
-Four derivations. One established result. The grid-hierarchy exponent (stage 5) is supported by two independent arguments (McKay packetization, dimensionless dilution rule) and by the restricted uniqueness scan in Section IV.
+Four derivations. One provisional structural step. The grid-hierarchy exponent (stage 5) is supported by two convergent arguments (McKay packetization, dimensionless dilution rule); the restricted scan in Section IV checks its identifiability within the framework's own rule set.
 
 ## IV. Uniqueness
 
@@ -149,7 +149,7 @@ Each gauge force occupies a rung of the carrier/target grid ladder. Each couplin
 |---|---|---|---|---|---|
 | EM | Bosonic (photon preserves identity) | 60R | Bosonic (current, no confinement) | 60R | 0 of 2 |
 | Strong | Bosonic (gluon rotates color) | 60R | Spinorial (confined fermions) | 120 | 1 of 2 |
-| Weak | Fermion-changing (W/Z swaps flavor) | 120 | Spinorial (fermion transitions) | 120 | 2 of 2 |
+| Weak | Chiral charged currents ($`W^\pm`$ changes flavor; $`Z`$ flavor-diagonal at tree level) | 120 | Spinorial (fermion transitions) | 120 | 2 of 2 |
 
 The three forces exhaust the lower triangle of the grid matrix. There are no gaps and no unused rungs. The color structure that determines strong force coupling traces to the face stabilizer $`Z_3 \subset 2I`$, whose decomposition separates each irrep into color singlets (lepton-type) and color triplet/anti-triplet pairs (quark-type), as established in the companion mass spectrum analysis. The grid distinction traces to the edge stabilizer $`Z_4`$. The gauge ladder is the stabilizer structure of the icosahedron expressed through the force sector.
 
@@ -165,7 +165,7 @@ Observed: 0.1179. Agreement: 1.4%.
 
 ### $`\alpha_W`$: the weak coupling and the Plato twist
 
-The W and Z bosons swap flavor: a fermion-changing operation. Both slots sit on the 120 fermion domain (phase grid = 120, exponent grid = 120). The $`W`$ and $`Z`$ remain spin-1 bosons; their 120 assignment comes from that flavor-changing action, not from their spin, and it is a motivated selection rule rather than a derived one. Kostant exponent 17 on the 120 phase grid:
+The weak interaction is the chiral, parity-violating sector: its charged-current $`W^\pm`$ vertices change fermion flavor, while the neutral $`Z`$ current is flavor-diagonal at tree level. Both slots sit on the 120 fermion domain (phase grid = 120, exponent grid = 120). The $`W`$ and $`Z`$ remain spin-1 bosons; their 120 assignment comes from that chiral charged-current action, not from their spin, and it is a proposed selection rule rather than a derived one. Kostant exponent 17 on the 120 phase grid:
 
 ```math
 \alpha_W = C(17/120) \times \Omega_\Lambda^{-1/120} \times \cos(\pi/10) = 0.0339
@@ -193,10 +193,10 @@ Observed: 3.490. Agreement: 1.8%. Same Kostant exponent, different grids, one tw
 
 | Coupling | Formula | Predicted | Observed | Agreement | Status |
 |---|---|---|---|---|---|
-| $`\alpha`$ | $`C(13/60) \cdot \Omega_\Lambda^{-1/60}`$ | 0.00733 | 0.00730 | 0.5% | Closed |
-| $`\alpha_s`$ | $`C(17/60) \cdot \Omega_\Lambda^{-1/120}`$ | 0.1162 | 0.1179 | 1.4% | Established |
-| $`\alpha_W`$ | $`C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)`$ | 0.0339 | 0.0338 | 0.4% | Motivated |
-| $`\alpha_s/\alpha_W`$ | $`C(17/60) / [C(17/120) \cdot \cos(\pi/10)]`$ | 3.426 | 3.490 | 1.8% | Established |
+| $`\alpha`$ | $`C(13/60) \cdot \Omega_\Lambda^{-1/60}`$ | 0.00733 | 0.00730 | 0.5% | Conditional (Λ-anchored) |
+| $`\alpha_s`$ | $`C(17/60) \cdot \Omega_\Lambda^{-1/120}`$ | 0.1162 | 0.1179 | 1.4% | Conjectural |
+| $`\alpha_W`$ | $`C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)`$ | 0.0339 | 0.0338 | 0.4% | Conjectural (twist ansatz) |
+| $`\alpha_s/\alpha_W`$ | $`C(17/60) / [C(17/120) \cdot \cos(\pi/10)]`$ | 3.426 | 3.490 | 1.8% | Conjectural |
 
 The observed values of $`\alpha_s`$ and $`\alpha_W`$ are conventionally measured at $`M_Z`$ (~91 GeV), while $`\alpha`$ is measured at low energy. Whether the MIT predictions apply at matching scales is open (see Section VIII).
 
@@ -254,7 +254,7 @@ The grid ladder in Section V assigns two structural properties to each gauge for
 |---|---|---|---|
 | 60R | 60R | Bosonic carrier, bosonic current | EM |
 | 60R | 120 | Bosonic carrier, confined fermions | Strong |
-| 120 | 120 | Fermion-changing carrier, fermion transitions | Weak |
+| 120 | 120 | Flavor-changing charged-current carrier, fermion transitions | Weak |
 | 120 | 60R | Fermionic carrier, bosonic target | — |
 
 Three rungs are occupied; the upper off-diagonal entry, 120/60, is empty, and structurally so: a gauge rung preserves the fermion or boson character of what it acts on, so the 120/60 rung, a fermionic carrier acting on a bosonic target, has no realization among gauge forces. The firing order (topology $`\to`$ wave $`\to`$ observable) runs one direction, and the mechanism is the obstruction below.
@@ -280,7 +280,7 @@ This is the structure of supersymmetric gauge interaction. Gauginos (spin-1/2 su
 
 ### The obstruction
 
-The vacancy is spin-statistical. A gauge rung acts within a statistics class: it changes phase, charge, or representation but leaves the fermion or boson character of what it acts on intact. The weak rung is the test case: its fermion-changing action swaps one fermion for another, so the target stays a fermion and the carrier stays a spin-1 boson. The vacant 120/60 rung would instead send the full-domain action into a bosonic target, crossing the fermion/boson class boundary; spin-statistics then forces the carrier itself to be a fermion, the gaugino above. This is the single cell where the Section V action criterion coincides with a literal spin-1/2 carrier, as its consequence and not in conflict with the rule, and none of the three real forces realizes it. Underneath, the anti-periodic boundary condition makes $`\psi`$ the fundamental object and $`|\psi|^2`$ its square: that projection is well-defined but non-invertible, which is the measurement-level reason the 120 and 60R grids stay distinct.
+The vacancy is spin-statistical. A gauge rung acts within a statistics class: it changes phase, charge, or representation but leaves the fermion or boson character of what it acts on intact. The weak rung is the test case: its charged-current action swaps one fermion for another, so the target stays a fermion and the carrier stays a spin-1 boson. The vacant 120/60 rung would instead send the full-domain action into a bosonic target, crossing the fermion/boson class boundary; spin-statistics then forces the carrier itself to be a fermion, the gaugino above. This is the single cell where the Section V action criterion coincides with a literal spin-1/2 carrier, as its consequence and not in conflict with the rule, and none of the three real forces realizes it. Underneath, the anti-periodic boundary condition makes $`\psi`$ the fundamental object and $`|\psi|^2`$ its square: that projection is well-defined but non-invertible, which is the measurement-level reason the 120 and 60R grids stay distinct.
 
 ### The prediction
 
