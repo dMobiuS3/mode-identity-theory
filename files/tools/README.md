@@ -8,9 +8,9 @@ Check it yourself. Nothing below is a demonstration: each page runs the framewor
 
 ## 👾 Interactive
 
-**[The Topology](https://dmobius3.github.io/mode-identity-theory/files/tools/files/topology.html)**: turn the $`S^3/2I`$ domain in your hand, the Möbius edge and the icosahedral structure and the McKay graph the spectrum is read from.
-
 **[The Calculator](https://dmobius3.github.io/mode-identity-theory/files/tools/files/calculator.html)**: run the framework end to end. Four factors, four sources, one operation: the couplings, the 24-entry mass spectrum, and the cosmological readings, all computed from the postulate.
+
+**[The Topology](https://dmobius3.github.io/mode-identity-theory/files/tools/files/topology.html)**: turn the $`S^3/2I`$ domain in your hand, the Möbius edge and the icosahedral structure and the McKay graph the spectrum is read from.
 
 **[Euclid DR1 Countdown](https://dmobius3.github.io/mode-identity-theory/files/tools/files/euclid-dr1.html)**: the blind test. Every prediction and falsification threshold pre-registered on Zenodo before the data: DR1-Foundation in November 2026, then the cosmology products with the full DR1 in mid 2027.
 
