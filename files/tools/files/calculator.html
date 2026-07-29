@@ -37,6 +37,10 @@
     tr:nth-child(even) { background: rgba(0,0,0,0.02); }
     tr.dead-zone { background: rgba(192,57,43,0.06); color: rgba(40,60,80,0.45); }
     tr.hit-row { background: rgba(26,138,74,0.08); }
+    th.sortable { cursor: pointer; user-select: none; }
+    th.sortable:hover { color: var(--accent); }
+    th.sortable .arrow { display: inline-block; width: 10px; margin-left: 4px; opacity: 0.6; }
+    th.sortable.sorted .arrow { opacity: 1; color: var(--accent); }
     p.body { font-size: 16px; color: rgba(26,32,48,0.75); line-height: 1.7; margin-bottom: 14px; font-family: var(--sans); }
     .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
     label.field { display: block; margin-bottom: 16px; }
@@ -154,7 +158,21 @@
     <div class="section">
       <h3>The 24 Predictions</h3>
       <p class="body">Formula A applied to 8 nontrivial irreps × 3 vacua. Sorted by predicted mass.</p>
-      <div style="overflow-x:auto"><table id="massTable24"><thead><tr><th>#</th><th>ρ</th><th>dim</th><th>dist</th><th>σ</th><th>T₃</th><th>T²</th><th>Mass (GeV)</th><th>SM</th><th>Ratio</th><th></th></tr></thead><tbody></tbody></table></div>
+      <div style="overflow-x:auto"><table id="massTable24"><thead><tr>
+        <th class="sortable" data-sort="rank">#<span class="arrow"></span></th>
+        <th class="sortable" data-sort="r">ρ<span class="arrow"></span></th>
+        <th class="sortable" data-sort="dim">dim<span class="arrow"></span></th>
+        <th class="sortable" data-sort="sp">Spin<span class="arrow"></span></th>
+        <th class="sortable" data-sort="dist">dist<span class="arrow"></span></th>
+        <th class="sortable" data-sort="jf">j<sub>first</sub><span class="arrow"></span></th>
+        <th class="sortable" data-sort="v">σ<span class="arrow"></span></th>
+        <th class="sortable" data-sort="t3">T₃<span class="arrow"></span></th>
+        <th class="sortable" data-sort="t2">T²<span class="arrow"></span></th>
+        <th class="sortable" data-sort="m">Mass (GeV)<span class="arrow"></span></th>
+        <th class="sortable" data-sort="sm">SM<span class="arrow"></span></th>
+        <th class="sortable" data-sort="rat">Ratio<span class="arrow"></span></th>
+        <th></th>
+      </tr></thead><tbody></tbody></table></div>
       <div class="alert-red"><strong>Dead zone:</strong> Ranks 4-9 (R₃ at dist 2, R₆ at dist 3) produce masses between 10⁻⁹ and 10⁻⁶ GeV. No known SM fermions occupy this range. Overlaps sterile neutrino and warm dark matter search windows.</div>
     </div>
     <div class="section">
@@ -570,10 +588,11 @@ function build() {
       var v = ["triv","std","gal"][vi];
       var ir = IR[r];
       var m_ = mass(r, v);
-      ent.push({r:r, l:ir.l, dim:ir.dim, dist:ir.dist, v:v, t2:T2[r][v], m:m_, sm:"", rat:0, dz:ir.dist===2||ir.dist===3, t3:computeT3(r, v)});
+      ent.push({r:r, l:ir.l, dim:ir.dim, dist:ir.dist, sp:ir.sp, jf:ir.dist/2, v:v, t2:T2[r][v], m:m_, sm:"", rat:0, dz:ir.dist===2||ir.dist===3, t3:computeT3(r, v)});
     }
   }
   ent.sort(function(a, b) { return a.m - b.m; });
+  ent.forEach(function(e, i) { e.rank = i + 1; });
 
   // Corrected SM role per (irrep, vacuum), keyed so it is robust to sort order.
   // state: assigned | unassigned | proxy | none  (mirrors mass-spectrum.md §III)
@@ -603,19 +622,53 @@ function build() {
     proxy:      '<span class="badge badge-dim">proxy</span>',
     none:       '<span class="badge badge-dim">no SM role</span>'
   };
-  document.querySelector('#massTable24 tbody').innerHTML = ent.map(function(e, i) {
-    var assigned = e.state === "assigned";
-    var cl = (assigned && e.rat > 0 && e.rat <= 1.1) ? 'hit-row' : (e.dz ? 'dead-zone' : '');
-    var t3str = e.t3 > 0 ? '+½' : '−½';
-    var t3color = e.t3 > 0 ? 'var(--accent)' : 'var(--dim)';
-    var last = assigned ? badge(e.rat)
-             : (e.state ? stateBadge[e.state]
-             : (e.dz ? '<span class="badge badge-dim">dead zone</span>' : ''));
-    return '<tr class="' + cl + '"><td>' + (i+1) + '</td><td>' + e.l + '</td><td>' + e.dim +
-      '</td><td>' + e.dist + '</td><td>' + e.v + '</td><td style="color:' + t3color + '">' + t3str + '</td><td>' + e.t2.toFixed(3) +
-      '</td><td>' + fS(e.m) + '</td><td>' + (e.sm || "-") + '</td><td>' +
-      (assigned && e.rat ? e.rat.toFixed(2) : "-") + '</td><td>' + last + '</td></tr>';
-  }).join('');
+  function renderMassRows(rows) {
+    document.querySelector('#massTable24 tbody').innerHTML = rows.map(function(e) {
+      var assigned = e.state === "assigned";
+      var cl = (assigned && e.rat > 0 && e.rat <= 1.1) ? 'hit-row' : (e.dz ? 'dead-zone' : '');
+      var t3str = e.t3 > 0 ? '+½' : '−½';
+      var t3color = e.t3 > 0 ? 'var(--accent)' : 'var(--dim)';
+      var last = assigned ? badge(e.rat)
+               : (e.state ? stateBadge[e.state]
+               : (e.dz ? '<span class="badge badge-dim">dead zone</span>' : ''));
+      return '<tr class="' + cl + '"><td>' + e.rank + '</td><td>' + e.l + '</td><td>' + e.dim +
+        '</td><td>' + e.sp + '</td><td>' + e.dist + '</td><td>' + e.jf +
+        '</td><td>' + e.v + '</td><td style="color:' + t3color + '">' + t3str + '</td><td>' + e.t2.toFixed(3) +
+        '</td><td>' + fS(e.m) + '</td><td>' + (e.sm || "-") + '</td><td>' +
+        (assigned && e.rat ? e.rat.toFixed(2) : "-") + '</td><td>' + last + '</td></tr>';
+    }).join('');
+  }
+  renderMassRows(ent);
+
+  // Click-to-sort on massTable24 headers. Numeric vs string is inferred from the value.
+  // Track state per column so repeat click toggles direction.
+  var sortDir = {};
+  document.querySelectorAll('#massTable24 th.sortable').forEach(function(th) {
+    if (th.__wired) return; th.__wired = true;
+    th.addEventListener('click', function() {
+      var key = th.dataset.sort;
+      var dir = sortDir[key] === 'asc' ? 'desc' : 'asc';
+      sortDir = {}; sortDir[key] = dir;
+      var sample = ent.find(function(e) { return e[key] !== '' && e[key] != null; });
+      var isNum = sample && typeof sample[key] === 'number';
+      var sorted = ent.slice().sort(function(a, b) {
+        var av = a[key], bv = b[key];
+        if (isNum) { av = av || 0; bv = bv || 0; return dir === 'asc' ? av - bv : bv - av; }
+        av = (av == null ? '' : String(av));
+        bv = (bv == null ? '' : String(bv));
+        if (av === bv) return 0;
+        var cmp = av < bv ? -1 : 1;
+        return dir === 'asc' ? cmp : -cmp;
+      });
+      renderMassRows(sorted);
+      document.querySelectorAll('#massTable24 th.sortable').forEach(function(x) {
+        x.classList.remove('sorted');
+        var a = x.querySelector('.arrow'); if (a) a.textContent = '';
+      });
+      th.classList.add('sorted');
+      var arr = th.querySelector('.arrow'); if (arr) arr.textContent = dir === 'asc' ? '▲' : '▼';
+    });
+  });
 
   document.querySelector('#cgeomTable tbody').innerHTML = Object.keys(IR).map(function(k) {
     var ir = IR[k];
