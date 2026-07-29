@@ -4,15 +4,15 @@
 
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/alpha%20banner.png?raw=true" width="100%" alt="Fine Structure">
 
-The fine structure constant $`\alpha \approx 1/137`$ governs the strength of electromagnetic interaction. It is dimensionless: a pure number carrying no Planck units. No framework in standard physics predicts its value. Within Mode Identity Theory, the topological hierarchy behind Λ, $`H_0`$, and $`a_0`$ also governs dimensionless couplings. The result is $`\alpha = C(13/60) \cdot \Omega_\Lambda^{-1/60} = 0.00733`$, within 0.5% of the measured value, derived from one topological postulate. The same structure yields all three gauge couplings.
+The fine structure constant $`\alpha \approx 1/137`$ governs the strength of electromagnetic interaction. It is dimensionless: a pure number carrying no Planck units. No framework in standard physics predicts its value. Within Mode Identity Theory, the topological hierarchy behind Λ, $`H_0`$, and $`a_0`$ also governs dimensionless couplings. The result is $`\alpha = C(13/60) \cdot \Omega_\Lambda^{-1/60} = 0.00733`$, within 0.4% of the measured value, derived from one topological postulate. The same structure yields all three gauge couplings.
 
 **Results at a glance**
 
 | Coupling | Predicted | Observed | Agreement |
 |---|---|---|---|
-| $`\alpha`$ | 0.00733 | 0.00730 | 0.5% |
-| $`\alpha_s`$ | 0.1162 | 0.1179 | 1.4% |
-| $`\alpha_W`$ | 0.0339 | 0.0338 | 0.4% |
+| $`\alpha`$ | 0.00733 | 0.00730 | 0.4% |
+| $`\alpha_s`$ | 0.1162 | 0.1180 | 1.5% |
+| $`\alpha_W`$ | 0.0339 | 0.0338 | 0.3% |
 | $`\alpha_s / \alpha_W`$ | 3.426 | 3.490 | 1.8% (pure geometry, no $`\Omega_\Lambda`$) |
 
 ## I. The Problem
@@ -74,7 +74,7 @@ C(13/60) = 2\sin^2\left(\pi \cdot \frac{13}{60}\right) = 2 \times (0.6293)^2 = 0
 \alpha = 0.7921 \times 0.009261 = 0.007336
 ```
 
-Observed: $`\alpha = 0.007297`$. Agreement: 0.5%.
+Observed: $`\alpha = 0.007297`$. Agreement: 0.4%.
 
 At the Planck floor ($`\Omega_\Lambda \to 1`$), the suppression vanishes and $`\alpha \to C(13/60) = 0.792`$: order unity, as expected for a coupling at the scale where the hierarchy collapses.
 
@@ -99,14 +99,14 @@ Accuracy alone cannot distinguish the formula from numerology. A scan of all com
 
 | Scan | Combinations | Hits < 0.5% | Expected by chance |
 |---|---|---|---|
-| Broad (all positions, all denominators) | 3,527 | 3 | ~3 |
-| Restricted (MIT constraints only) | 47 | 1 | ~0.08 |
+| Broad (all positions, all denominators) | 7,200 | 9 | ~7.6 |
+| Restricted (MIT constraints only) | 24 | 1 | — |
 
-In the broad scan, the formula is indistinguishable from chance: roughly 3 hits are expected and 3 are found. In the restricted scan (MIT structural constraints only), the formula is uniquely selected. The probability of zero hits is ~92%; finding exactly one is notable.
+In the broad scan, the formula is indistinguishable from chance: the local-density estimate expects about 7.6 hits and 9 are found. In the restricted scan (MIT structural constraints only), the formula is uniquely selected: of 24 candidates, exactly one lands within 0.5% of $`\alpha`$, the matter well at the minimum realized step.
 
 ### The best competitor
 
-The most accurate alternative is $`C(34/120) \times \Omega_\Lambda^{-1/55}`$, achieving 0.06% error (six times better than MIT). It fails three structural tests:
+The most accurate alternative is $`C(34/120) \times \Omega_\Lambda^{-1/55}`$, achieving 0.06% error (seven times better than MIT). It fails three structural tests:
 
 | Test | MIT formula | Competitor |
 |---|---|---|
@@ -135,7 +135,7 @@ The $`\alpha`$ derivation uses two structural choices: a phase well (which Kosta
 
 ### The Coxeter pair
 
-The $`E_8`$ root system has Coxeter number $`h = 30`$. Its exponents are the integers coprime to $`h`$: $`\{1, 7, 11, 13, 17, 19, 23, 29\}`$. These pair under conjugation $`e \leftrightarrow h - e`$. The electromagnetic coupling uses the Kostant exponent 13. Its conjugate is $`30 - 13 = 17`$. All alternative conjugate pairs under $`h(E_8) = 30`$ fail by 93% to 770%. The pair $`(13, 17)`$ is forced.
+The $`E_8`$ root system has Coxeter number $`h = 30`$. Its exponents are the integers coprime to $`h`$: $`\{1, 7, 11, 13, 17, 19, 23, 29\}`$. These pair under conjugation $`e \leftrightarrow h - e`$. The electromagnetic coupling uses the Kostant exponent 13. Its conjugate is $`30 - 13 = 17`$. The three alternative pairs miss the measured couplings by 15% to 156% across the nine comparisons. The pair $`(13, 17)`$ is forced.
 
 The same exponent 17 governs both the strong and weak couplings. What differs is the grid.
 
@@ -161,7 +161,7 @@ The gluon is a boson (phase grid = 60R), but it confines fermions (exponent grid
 \alpha_s = C(17/60) \times \Omega_\Lambda^{-1/120} = 0.1162
 ```
 
-Observed: 0.1179. Agreement: 1.4%.
+Observed: 0.1180. Agreement: 1.5%.
 
 ### $`\alpha_W`$: the weak coupling and the Plato twist
 
@@ -171,13 +171,13 @@ The weak interaction is the chiral, parity-violating sector: its charged-current
 \alpha_W = C(17/120) \times \Omega_\Lambda^{-1/120} \times \cos(\pi/10) = 0.0339
 ```
 
-Observed: 0.0338. Agreement: 0.4%.
+Observed: 0.0338. Agreement: 0.3%.
 
 **The Plato twist.** The correction $`\cos(\pi/10) \approx 0.951`$ arises from the dodecahedral geometry of $`S^3/2I`$. The dodecahedron (dual to the icosahedron) has angular defect $`\pi/5`$ at each vertex. The Möbius $`Z_2`$ holonomy halves the defect to $`\pi/10`$. The weak force is the only Standard Model interaction that violates parity; it is the only coupling that traverses the twist.
 
 In the stabilizer framework, the Plato twist encodes how vertex geometry ($`Z_5`$) reaches the observer through the Möbius twist ($`Z_2`$). Color ($`Z_3`$) transmits cleanly through the surface, which is why the strong and electromagnetic forces carry no twist correction. The vertex information passes through the non-orientable identification, picking up $`\cos(\pi/10) = \sqrt{(2+\varphi)}/2`$ as the projection factor. The golden ratio $`\varphi`$ enters from $`Z_5`$ (icosahedral vertex symmetry) and the factor 2 from $`Z_2`$ (edge/Möbius holonomy). The twist correction is the vertex-edge stabilizer interface.
 
-The correction is selective: it uniquely improves $`\alpha_W`$ (from 5.6% to 0.4%), and uniquely degrades both $`\alpha`$ (from 0.5% to 4.4%) and $`\alpha_s`$ (from 1.4% to 6.3%) if misapplied. The twist knows which force it belongs to.
+The correction is selective: it uniquely improves $`\alpha_W`$ (from 5.5% to 0.3%), and uniquely degrades both $`\alpha`$ (from 0.4% to 4.5%) and $`\alpha_s`$ (from 1.5% to 6.4%) if misapplied. The twist knows which force it belongs to.
 
 ### $`\alpha_s / \alpha_W`$: pure geometry
 
@@ -193,14 +193,14 @@ Observed: 3.490. Agreement: 1.8%. Same Kostant exponent, different grids, one tw
 
 | Coupling | Formula | Predicted | Observed | Agreement | Status |
 |---|---|---|---|---|---|
-| $`\alpha`$ | $`C(13/60) \cdot \Omega_\Lambda^{-1/60}`$ | 0.00733 | 0.00730 | 0.5% | Conditional (Λ-anchored) |
-| $`\alpha_s`$ | $`C(17/60) \cdot \Omega_\Lambda^{-1/120}`$ | 0.1162 | 0.1179 | 1.4% | Conjectural |
-| $`\alpha_W`$ | $`C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)`$ | 0.0339 | 0.0338 | 0.4% | Conjectural (twist ansatz) |
+| $`\alpha`$ | $`C(13/60) \cdot \Omega_\Lambda^{-1/60}`$ | 0.00733 | 0.00730 | 0.4% | Conditional (Λ-anchored) |
+| $`\alpha_s`$ | $`C(17/60) \cdot \Omega_\Lambda^{-1/120}`$ | 0.1162 | 0.1180 | 1.5% | Conjectural |
+| $`\alpha_W`$ | $`C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)`$ | 0.0339 | 0.0338 | 0.3% | Conjectural (twist ansatz) |
 | $`\alpha_s/\alpha_W`$ | $`C(17/60) / [C(17/120) \cdot \cos(\pi/10)]`$ | 3.426 | 3.490 | 1.8% | Conjectural |
 
 The observed values of $`\alpha_s`$ and $`\alpha_W`$ are conventionally measured at $`M_Z`$ (~91 GeV), while $`\alpha`$ is measured at low energy. Whether the MIT predictions apply at matching scales is open (see Section VIII).
 
-Reading the α row as a prediction carries one caveat. The 0.5% holds when $`\Omega_\Lambda`$ is fixed from an independent anchor (the measured Λ). When α is instead the best-conditioned anchor that fixes $`\Omega_\Lambda`$, its own 0.5% is a consistency check, not an independent prediction, and the genuine output of that route is $`\Lambda = 3/R^2`$ to 24%. The surface sector is over-determined: you anchor on one of Λ, α, or the mass ratio and the rest become predictions, never all at once (see [Three readings of one hierarchy](../../framework/README.md#three-readings-of-one-hierarchy)).
+Reading the α row as a prediction carries one caveat. The 0.4% holds when $`\Omega_\Lambda`$ is fixed from an independent anchor (the measured Λ). When α is instead the best-conditioned anchor that fixes $`\Omega_\Lambda`$, its own 0.4% is a consistency check, not an independent prediction, and the genuine output of that route is $`\Lambda = 3/R^2`$ to 23%. The surface sector is over-determined: you anchor on one of Λ, α, or the mass ratio and the rest become predictions, never all at once (see [Three readings of one hierarchy](../../framework/README.md#three-readings-of-one-hierarchy)).
 
 ## VI. The α-Λ Connection
 
@@ -313,7 +313,7 @@ The first two confirm that the formula is structurally forced within MIT. The ex
 
 ---
 
-One Coxeter pair $`(13, 17)`$ forced by the $`E_8`$ root system. One grid ladder exhausted by three forces. One twist correction selective to parity violation. Three gauge couplings from the geometry of the domain, at 0.5%, 1.4%, and 0.4%. Their ratio at 1.8% with no $`\Omega_\Lambda`$ input at all. Λ uses the full vacuum hierarchy. $`\alpha`$ uses one-sixtieth of it. The strong and weak forces fill the remaining rungs.
+One Coxeter pair $`(13, 17)`$ forced by the $`E_8`$ root system. One grid ladder exhausted by three forces. One twist correction selective to parity violation. Three gauge couplings from the geometry of the domain, at 0.4%, 1.5%, and 0.3%. Their ratio at 1.8% with no $`\Omega_\Lambda`$ input at all. Λ uses the full vacuum hierarchy. $`\alpha`$ uses one-sixtieth of it. The strong and weak forces fill the remaining rungs.
 
 *The fine structure constant is the fine structure of the cosmological constant: the vacuum hierarchy resolved at its first step.*
 
