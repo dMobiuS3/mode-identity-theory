@@ -31,7 +31,7 @@ The well at 13/120 governs matter dynamics: it is the Fibonacci well ($`F_7 = 13
 
 ### The bosonic grid
 
-The coupling $`\alpha`$ is an observable intensity: photons are bosons, and coupling constants are squared amplitudes. Observable intensities $`\lvert\psi\rvert^2`$ have period 1, placing them on the 60-position bosonic grid ($`\lvert I \rvert = 60`$) rather than the 120-position spinor grid ($`\lvert 2I \rvert = 120`$) where the wavefunction $`\psi`$ lives with anti-period 1.
+Photons are bosons, and the framework reads the coupling $`\alpha = g^2/4\pi`$ as an intensity-like quantity rather than a spinor amplitude. Observable intensities $`\lvert\psi\rvert^2`$ have period 1, placing them on the 60-position bosonic grid ($`\lvert I \rvert = 60`$) rather than the 120-position spinor grid ($`\lvert 2I \rvert = 120`$) where the wavefunction $`\psi`$ lives with anti-period 1.
 
 The well label (13) stays the same. The grid denominator changes: $`120 \to 60`$. The phase operator evaluates differently at the two resolutions:
 
@@ -44,7 +44,7 @@ The well label (13) stays the same. The grid denominator changes: $`120 \to 60`$
 
 For dimensional observables, $`n = 1, 2, 3`$ counts whole manifold embeddings. Each floor suppresses by $`\sqrt{\Omega_\Lambda}`$. Dimensional observables count whole floors because they carry Planck dimensions (powers of $`\ell_P`$, $`t_P`$) requiring whole-manifold dilution. Dimensionless couplings carry no Planck dimensions; they resolve at the grid level. 
 
-The bosonic grid has 60 positions, so the minimum resolved step is $`1/60 = 1/\lvert I \rvert`$, and one grid step of the hierarchy gives $`\Omega_\Lambda^{-1/60}`$. The exponent follows from two convergent paths (McKay packetization, dimensionless dilution rule). The McKay mass spectrum derives the same $`\text{dist}/30`$ hierarchy, a comparison in which 5 of 8 charged fermions have a quantum-number-compatible entry within a factor of 3 ($`m_e`$ the benchmark).
+The bosonic grid has 60 positions, so the minimum resolved step is $`1/60 = 1/\lvert I \rvert`$, and one grid step of the hierarchy gives $`\Omega_\Lambda^{-1/60}`$. The exponent follows from two convergent paths (McKay packetization, dimensionless dilution rule). The McKay mass spectrum independently repeats the same $`\text{dist}/30`$ hierarchy; its within-factor-3 match rate for the charged fermions is not significant under the registered null ($`p_A = 0.690`$, $`m_e`$ the benchmark), so the companion supports the recurrence of the hierarchy, not an empirical hit rate.
 
 ## III. The formula
 
@@ -54,7 +54,7 @@ The scaling law for a dimensionless coupling ($`A_P = 1`$) is:
 \alpha = C(\Theta) \cdot \Omega_\Lambda^{-1/60}
 ```
 
-with $`\Theta = 13/60`$ (matter well on bosonic grid) and $`\Omega_\Lambda = (R_\Lambda / \ell_P)^2 \approx 10^{122}`$.
+with $`\Theta = 13/60`$ (matter well on bosonic grid) and $`\Omega_\Lambda = (R_\Lambda / \ell_P)^2 = 1.054 \times 10^{122}`$, fixed from the measured Λ.
 
 **Phase factor.** The phase operator $`C(\Theta) = 2\sin^2(\pi\Theta)`$ evaluated at $`\Theta = 13/60`$:
 
@@ -65,13 +65,13 @@ C(13/60) = 2\sin^2\left(\pi \cdot \frac{13}{60}\right) = 2 \times (0.6293)^2 = 0
 **Hierarchy suppression.** One grid step of the vacuum hierarchy:
 
 ```math
-\Omega_\Lambda^{-1/60} = \left(10^{122}\right)^{-1/60} = 10^{-2.033} = 0.009261
+\Omega_\Lambda^{-1/60} = \left(1.054 \times 10^{122}\right)^{-1/60} = 0.009253
 ```
 
 **Product:**
 
 ```math
-\alpha = 0.7921 \times 0.009261 = 0.007336
+\alpha = 0.7921 \times 0.009253 = 0.007329
 ```
 
 Observed: $`\alpha = 0.007297`$. Agreement: 0.4%.
@@ -97,7 +97,7 @@ Four derivations. One provisional structural step. The grid-hierarchy exponent (
 
 Accuracy alone cannot distinguish the formula from numerology. A scan of all combinations $`C(\Theta) \times \Omega_\Lambda^{-1/d}`$ across grid positions and candidate denominators tests whether the MIT formula is structurally selected or merely lucky.
 
-| Scan | Combinations | Hits < 0.5% | Expected by chance |
+| Scan | Combinations | Hits < 0.5% | Local-density baseline |
 |---|---|---|---|
 | Broad (all positions, all denominators) | 7,200 | 9 | ~7.6 |
 | Restricted (MIT constraints only) | 24 | 1 | — |
@@ -276,17 +276,17 @@ In the language of particle physics, the 120/60 entry requires:
 1. A **fermionic force carrier** (spinorial phase grid). All known mediators (photon, gluons, W, Z) are spin-1 bosons.
 2. A **bosonic confinement target** (bosonic exponent grid). The force would bind or confine integer-spin matter.
 
-This is the structure of supersymmetric gauge interaction. Gauginos (spin-1/2 superpartners of gauge bosons) mediate forces between scalar partners of fermions (squarks, sleptons). The SUSY force sector maps exactly onto the 120/60 rung: spinorial carriers acting on bosonic matter.
+This is the structure of supersymmetric gauge interaction. Gauginos (spin-1/2 superpartners of gauge bosons) mediate forces between scalar partners of fermions (squarks, sleptons). The SUSY force sector is the natural occupant of the 120/60 rung: spinorial (gaugino) carriers acting on bosonic (scalar) matter.
 
 ### The obstruction
 
-The vacancy is spin-statistical. A gauge rung acts within a statistics class: it changes phase, charge, or representation but leaves the fermion or boson character of what it acts on intact. The weak rung is the test case: its charged-current action swaps one fermion for another, so the target stays a fermion and the carrier stays a spin-1 boson. The vacant 120/60 rung would instead send the full-domain action into a bosonic target, crossing the fermion/boson class boundary; spin-statistics then forces the carrier itself to be a fermion, the gaugino above. This is the single cell where the Section V action criterion coincides with a literal spin-1/2 carrier, as its consequence and not in conflict with the rule, and none of the three real forces realizes it. Underneath, the anti-periodic boundary condition makes $`\psi`$ the fundamental object and $`|\psi|^2`$ its square: that projection is well-defined but non-invertible, which is the measurement-level reason the 120 and 60R grids stay distinct.
+The vacancy is a rule of the ladder, not a spin-statistics theorem. Every gauge rung here acts within a statistics class: it changes phase, charge, or representation but preserves the fermion-or-boson character of what it acts on, and the three occupied rungs climb monotonically in spinorial content. The weak rung is the test case: its charged-current action swaps one fermion for another, so the target stays a fermion and the carrier stays a spin-1 boson. The 120/60 cell reverses that climb, sending the full-domain action into a bosonic target, so it falls outside the pattern the three forces trace; the cell that would sit there needs a fermionic (gaugino) carrier binding bosonic matter, which no observed gauge force provides. Ordinary quantum field theory does permit fermionic mediators between fermions and bosons, so the obstruction here is the ladder's own rule, not a spin-statistics prohibition. Underneath, the anti-periodic boundary condition makes $`\psi`$ the fundamental object and $`|\psi|^2`$ its square: that projection is well-defined but non-invertible, which is the measurement-level reason the 120 and 60R grids stay distinct.
 
 ### The prediction
 
-The Standard Model force content is complete. Three gauge forces exhaust the geometrically permitted rungs of the carrier/target grid. A fourth fundamental force would require the 120/60 rung, which is structurally closed by the anti-periodic boundary condition.
+The Standard Model force content is complete. Three gauge forces exhaust the rungs the carrier/target ladder generates. A fourth fundamental force would require the 120/60 rung, which the ladder does not generate.
 
-Supersymmetric partners, in their standard formulation as gaugino-mediated interactions between scalar matter, occupy exactly this closed rung. The prediction is not that superpartners are heavy. It is that the gaugino-mediated SUSY force sector does not appear as a realized fundamental interaction, for the same topological reason that the Möbius strip has one edge rather than two.
+Supersymmetric partners, in their standard formulation as gaugino-mediated interactions between scalar matter, are the natural occupant of that ungenerated rung. The prediction is not that superpartners are heavy. It is that the gaugino-mediated SUSY force sector does not appear as a realized fundamental interaction, as intrinsic to the framework's picture as the Möbius strip having a single edge.
 
 The grid ladder was constructed to derive coupling constants. It was not designed to count forces. That it produces exactly three occupied rungs matching exactly three observed gauge interactions, with the vacancy mapping onto exactly the sector that decades of collider searches have failed to populate, is a structural output of the framework rather than an input to it.
 
