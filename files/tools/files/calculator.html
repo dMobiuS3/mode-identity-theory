@@ -69,7 +69,6 @@
 <div class="tabs">
   <button class="tab active" data-tab="calc">SCALING LAW</button>
   <button class="tab" data-tab="spectrum">SPECTRUM</button>
-  <button class="tab" data-tab="theory">THEORY</button>
 
 </div>
 <div class="content">
@@ -94,6 +93,13 @@
       <div class="result-box"><table id="resultTable"><tbody></tbody></table></div>
     </div>
     <div class="section"><h3>Phase Operator C(Θ)</h3><canvas id="domainCanvas" width="600" height="170"></canvas></div>
+    <div class="section"><h3>Manifold Assignment</h3><table><thead><tr><th>n</th><th>Manifold</th><th>Observables</th><th>(√Ω)⁻ⁿ</th></tr></thead><tbody>
+      <tr><td>1</td><td>Temporal edge S¹</td><td>H₀, a₀</td><td>~10⁻⁶¹</td></tr><tr><td>2</td><td>Möbius surface</td><td>Λ</td><td>~10⁻¹²²</td></tr><tr><td>3/2</td><td>Gauss-Codazzi interface</td><td>Gravity</td><td></td></tr><tr><td>3</td><td>Space S³</td><td>Null "dark matter"</td><td>~10⁻¹⁸³</td></tr>
+    </tbody></table></div>
+    <div class="section"><h3>Derivation Chain</h3>
+      <p class="body">The calculator derives every scale from first principles. No hardcoded outputs.</p>
+      <table id="chainTable"><thead><tr><th>Quantity</th><th>Formula</th><th>Value</th></tr></thead><tbody></tbody></table>
+    </div>
   </div>
 
   <!-- SPECTRUM -->
@@ -156,30 +162,11 @@
       <p class="body" style="margin-top:20px;margin-bottom:8px"><strong>Vacuum torsion T²(ρ ⊗ σ)</strong> (24 entries)</p>
       <table id="torsionTable"><thead><tr><th>ρ</th><th>T²(triv)</th><th>T²(std)</th><th>T²(gal)</th></tr></thead><tbody></tbody></table>
     </div>
-  </div>
-
-  <!-- THEORY -->
-  <div id="theory" class="panel">
-    <div class="section"><h3>The Postulate</h3><div class="eq-box">S¹ = ∂(Möbius) ↪ S³, &nbsp; ∂S³ = ∅</div><p class="body">The temporal edge bounds the Möbius surface embedded in hypersphere space. The space has no boundary. Everything derived traces to this topology.</p></div>
-    <div class="section"><h3>Five Foundations</h3><table><thead><tr><th>Foundation</th><th>Statement</th></tr></thead><tbody>
-      <tr><td>Wave-matter identity</td><td>λ = h/p is identity. Matter is wave, sampled.</td></tr>
-      <tr><td>Surface origin</td><td>Time is phase on the boundary of a 2D manifold.</td></tr>
-      <tr><td>Topology</td><td>ψ(y + L) = −ψ(y). A field traversing the manifold returns to minus itself.</td></tr>
-      <tr><td>Bounded evaluation</td><td>R_H / ℓ_P has definition at the limit ∞/0. The observer is the structural midpoint.</td></tr>
-      <tr><td>Embedded sampling</td><td>The observable's character selects the manifold (n = 1, 2, 3). Dimension follows the measurement.</td></tr>
-    </tbody></table></div>
-    <div class="section"><h3>The Cosmic Standing Wave</h3><div class="eq-box">Ψ = cos(t/2)</div><canvas id="waveCanvas" width="600" height="180"></canvas><p class="body" style="margin-top:12px">Anti-periodicity requires period 4π. Cosine is inherited because the universe initiates at maximum amplitude Ψ = +1. The present epoch sits at t ≈ 5.22 rad, approximately 2.8 Gyr before turnaround.</p></div>
     <div class="section"><h3>The 120 Domain</h3><p class="body">The binary icosahedral group 2I is the largest exceptional discrete subgroup of SU(2) ≅ S³, with |2I| = 120.</p><table><thead><tr><th>Term</th><th>Resolution</th><th>Source</th></tr></thead><tbody>
       <tr><td>120 domain</td><td>120 positions</td><td>|2I| = 120 native to S³</td></tr><tr><td>Grid</td><td>120 (fermionic)</td><td>Half-integer modes on the domain</td></tr><tr><td>60R-grid</td><td>60 (even only)</td><td>|ψ|² projects 2I → I</td></tr>
     </tbody></table></div>
-    <div class="section"><h3>Manifold Assignment</h3><table><thead><tr><th>n</th><th>Manifold</th><th>Observables</th><th>(√Ω)⁻ⁿ</th></tr></thead><tbody>
-      <tr><td>1</td><td>Temporal edge S¹</td><td>H₀, a₀</td><td>~10⁻⁶¹</td></tr><tr><td>2</td><td>Möbius surface</td><td>Λ</td><td>~10⁻¹²²</td></tr><tr><td>3/2</td><td>Gauss-Codazzi interface</td><td>Gravity</td><td></td></tr><tr><td>3</td><td>Space S³</td><td>Null "dark matter"</td><td>~10⁻¹⁸³</td></tr>
-    </tbody></table></div>
-    <div class="section"><h3>Derivation Chain</h3>
-      <p class="body">The calculator derives every scale from first principles. No hardcoded outputs.</p>
-      <table id="chainTable"><thead><tr><th>Quantity</th><th>Formula</th><th>Value</th></tr></thead><tbody></tbody></table>
-    </div>
   </div>
+
 
 </div>
 
@@ -370,7 +357,6 @@ document.querySelectorAll('.tab').forEach(function(b) {
     document.querySelectorAll('.panel').forEach(function(x) { x.classList.remove('active'); });
     b.classList.add('active');
     document.getElementById(b.dataset.tab).classList.add('active');
-    if (b.dataset.tab === 'theory') drawWave();
     if (b.dataset.tab === 'spectrum') compSpec();
   });
 });
@@ -702,41 +688,6 @@ function drawDomain(ht) {
   x.fillText("Θ", p.l + w / 2, p.t + h + 28); x.fillText("1", p.l + w, p.t + h + 16);
   x.textAlign = "right"; x.fillText("2", p.l - 6, p.t + 6);
   x.fillText("0", p.l - 6, p.t + h + 4); x.fillText("C(Θ)", p.l - 6, p.t + h / 2);
-}
-
-// ══════════════════════════════════════════════════════════════
-//  CANVAS: COSMIC STANDING WAVE
-// ══════════════════════════════════════════════════════════════
-
-function drawWave() {
-  var c = document.getElementById('waveCanvas'); if (!c) return;
-  var x = c.getContext('2d'), d = window.devicePixelRatio || 1, W = 600, H = 180;
-  c.width = W * d; c.height = H * d;
-  c.style.width = Math.min(W, innerWidth - 40) + 'px';
-  c.style.height = H * Math.min(W, innerWidth - 40) / W + 'px';
-  x.scale(d, d); x.clearRect(0, 0, W, H);
-  var p = {l:50, r:20, t:20, b:35}, w = W - p.l - p.r, h = H - p.t - p.b, my = p.t + h / 2;
-  x.strokeStyle = "rgba(40,60,80,0.12)"; x.lineWidth = 0.5;
-  for (var i = 0; i <= 4; i++) {
-    var px = p.l + (i / 4) * w;
-    x.beginPath(); x.moveTo(px, p.t); x.lineTo(px, p.t + h); x.stroke();
-  }
-  x.beginPath(); x.moveTo(p.l, my); x.lineTo(p.l + w, my); x.stroke();
-  x.strokeStyle = "#1a73c4"; x.lineWidth = 2; x.beginPath();
-  for (var i = 0; i <= w; i++) {
-    var t = (i / w) * 4 * Math.PI, y = my - Math.cos(t / 2) * (h * 0.42);
-    i === 0 ? x.moveTo(p.l + i, y) : x.lineTo(p.l + i, y);
-  }
-  x.stroke();
-  var tN = 5.22, xN = p.l + (tN / (4 * Math.PI)) * w, yN = my - Math.cos(tN / 2) * (h * 0.42);
-  x.fillStyle = "#b8860b"; x.beginPath(); x.arc(xN, yN, 5, 0, 2 * Math.PI); x.fill();
-  x.fillStyle = "rgba(184,134,11,0.9)"; x.font = "14px 'JetBrains Mono',monospace";
-  x.fillText("t ≈ 5.22", xN + 8, yN - 6);
-  x.fillStyle = "rgba(40,60,80,0.6)"; x.font = "13px 'JetBrains Mono',monospace";
-  x.textAlign = "center";
-  ["0","π","2π","3π","4π"].forEach(function(l, i) { x.fillText(l, p.l + (i / 4) * w, p.t + h + 16); });
-  x.textAlign = "right"; x.fillText("+1", p.l - 6, p.t + 12);
-  x.fillText("−1", p.l - 6, p.t + h); x.fillText("Ψ", p.l - 6, my + 4);
 }
 
 // ══════════════════════════════════════════════════════════════
