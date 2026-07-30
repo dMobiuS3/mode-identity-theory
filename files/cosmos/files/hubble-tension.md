@@ -4,227 +4,173 @@
 
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/hubble%20tension%20banner.png?raw=true" width="100%" alt="Hubble Tension">
 
-Measurements of the Hubble constant have split into two persistent camps: the cosmic microwave background gives 67.4 km/s/Mpc; local distance ladders give 73. The discrepancy has persisted across many systematic checks and independent methods. Mode Identity Theory identifies a candidate mechanism through the phase field: a one-step bosonic displacement on the 120-domain, whose size is fixed by the lattice geometry at 8.4%. The lattice calculation is untouched by the empirical failure. The galactic trigger proposed to realize the displacement does not survive its SPARC test.
+Measurements of the Hubble constant have split into two persistent camps: the cosmic microwave background gives 67.4 km/s/Mpc, local distance ladders give 73. The discrepancy has survived a decade of systematic checks across independent methods. Mode Identity Theory reads the pair as one Fibonacci well sampled at two positions on the 120-domain, with the size of the step between them fixed by the lattice at 8.4%. That arithmetic is what this page is about. The galactic mechanism proposed to realize the step has been pre-registered, tested against SPARC, and falsified, and the population signature it predicted was looked for and not found. Both results are reported below. What survives is a correspondence between two numbers, not an explanation of why they differ.
 
 **Summary**
 
 | Quantity | Status |
 |---|---|
 | Phase shift required | $`\Theta_f = 2/120`$ |
-| $`\Delta C/C`$ at $`H_0`$ well | 8.4%, unchanged |
-| Shifted value if physically realized | $`67.4 \times 1.084 \approx 73`$ km/s/Mpc |
+| $`\Delta C/C`$ at $`H_0`$ well | 8.4%, unchanged by either test |
+| Shifted value if realized | $`67.4 \times 1.0837 = 73.04`$ km/s/Mpc |
+| $`\Delta C/C`$ at $`\Lambda`$ under the same step | $`-0.27\%`$, stationary to first order but not zero |
+| Displacement direction | not fixed by the lattice; an imported choice |
 | Proposed trigger | $`L_f = v_c^2/a_0`$, falsified by SPARC |
+| Predicted discrete clustering | not detected |
 
 ## I. The Tension
 
-The Planck CMB measurement gives $`H_0 = 67.4 \pm 0.5`$ km/s/Mpc at $`z \approx 1100`$. The SH0ES collaboration measures $`H_0 = 73.0 \pm 1.0`$ km/s/Mpc from Cepheid-calibrated Type Ia supernovae at $`z \approx 0`$. The gap is ~9%, persistent across independent local methods: Cepheids, tip of the red giant branch, surface brightness fluctuations, and megamasers. The MIT phase-clock fit to Pantheon+ and DESI DR2 BAO prefers the low, Planck-side $`H_0 \approx 67.4`$ km/s/Mpc ($`H_0`$ is the fitted edge anchor, not a derived output), landing on the CMB side of the tension rather than the SH0ES side.
+The Planck CMB measurement gives $`H_0 = 67.4 \pm 0.5`$ km/s/Mpc at $`z \approx 1100`$. The SH0ES collaboration measures $`H_0 = 73.04 \pm 1.04`$ km/s/Mpc from Cepheid-calibrated Type Ia supernovae at $`z \approx 0`$. The gap is 8.4%.
 
-Systematic explanations have been scrutinized for a decade. The tension survives. It appears to be real.
+The two-camp description is accurate for those two anchors and is not an accurate description of the full literature. Tip-of-the-red-giant-branch and J-region asymptotic-giant-branch calibrations from the Carnegie-Chicago programme fall well below SH0ES, and time-delay cosmography spans a wide range depending on how the lens mass profile is treated. That untidiness matters for §V and is not incidental.
 
-Within MIT, the candidate resolution is structural. Both values can be represented as neighboring samples of the same Fibonacci well ($`\Theta_0 = 34/120`$), sampled at two different positions. The CMB measures the bare well. The local value corresponds to a one-step bosonic shift. What determines the size of that step is the lattice geometry (§II). The galactic trigger proposed to realize that shift is falsified by the SPARC test in §III.
+The MIT phase-clock fit to Pantheon+ and DESI DR2 BAO prefers the low, Planck-side value, with $`H_0`$ entering as the fitted edge anchor rather than a derived output. The framework therefore sits on the CMB side of the pair and treats the local excess as the quantity requiring explanation.
+
+Within MIT, the two values are represented as one Fibonacci well ($`\Theta_0 = 34/120`$) sampled at two positions. The CMB is taken to record a phase epoch predating local structure and therefore to sample the bare well; the local value corresponds to a one-step displacement. What the lattice fixes is the size of that step (§II). What it does not fix is why any observable would move, or in which direction.
 
 ## II. The Lattice Calculation
 
-Independent of any galactic trigger, the lattice calculation asks what one bosonic step would do at the $`H_0`$ well.
+Independent of any galactic trigger, the lattice asks what one bosonic step would do at the $`H_0`$ well.
 
-The phase operator $`C(\Theta) = 2\sin^2(\pi\Theta)`$ (the anti-periodic first-positive mode intensity, normalized to unit mean) has a logarithmic slope that differs at each Fibonacci well:
+The phase operator $`C(\Theta) = 2\sin^2(\pi\Theta)`$ (the anti-periodic first-positive mode intensity, normalized to unit mean) has a logarithmic slope that differs at each well:
 
 ```math
-\frac{d\ln C}{d\Theta} = 2\pi\cot(\pi\Theta), \qquad \frac{\Delta C}{C} = \frac{d\ln C}{d\Theta} \times \Delta\Theta
+\frac{d\ln C}{d\Theta} = 2\pi\cot(\pi\Theta)
 ```
 
-where $`\Delta\Theta`$ is the step size (1/120 for dynamical observables, 2/120 for bosonic).
-
-| Well | Θ | Slope sensitivity | Physical shift | Role |
+| Well | Θ | Slope | Finite change at $`\Delta\Theta = +2/120`$ | Character |
 |---|---|---|---|---|
-| $`a_0`$ | 13/120 | 17.7 per step | None | Defines the transition threshold |
-| $`H_0`$ | 34/120 | 5.1 per step | 8.4% | Measured through the field |
-| Λ | 60/120 | 0 per step | 0% | Topologically protected at antinode |
+| $`a_0`$ | 13/120 | 17.74 | $`+31.4\%`$ | steepest of the three |
+| $`H_0`$ | 34/120 | 5.09 | $`+8.4\%`$ | measured through the field |
+| $`\Lambda`$ | 60/120 | 0 | $`-0.27\%`$ | stationary to first order at the antinode |
 
-$`\Lambda`$ at slope zero is immovable: topologically protected at the antinode. $`H_0`$ at slope 5.1 absorbs one bosonic step (2/120) as an 8.4% shift. The step size is 2/120 because $`H_0`$ is measured through photon redshifts (bosonic), accessing only the $`|I| = 60`$ projection of the full $`|2I| = 120`$ lattice.
+The displacement column applies the same upward step at every well for comparison. Whether that step is the allowed one at $`a_0`$ is not settled here, since the framework treats $`a_0`$ as a dynamical rather than a bosonic observable.
 
-$`a_0`$ at slope 17.7 marks a steep, sensitive well, but the phase field does not shift it. The lattice geometry fixes the well position at $`\Theta = 13/120`$. The scaling law produces $`a_0 = C(13/120) \cdot (\sqrt{\Omega_H})^{-1} \cdot a_P`$ as output. Its steep slope explains why the MOND transition is sharp in the lattice description: a binary on/off behavior rather than a gradual ramp. The failed trigger hypothesis tested in §III used this $`a_0`$ value to define the proposed coherence radius.
+$`\Lambda`$ sits at the antinode where the derivative vanishes identically, so it is stationary to first order in $`\Theta`$. It is not invariant under a finite step:
+
+```math
+\frac{C(62/120)}{C(60/120)} = \cos^2\!\left(\frac{\pi}{60}\right) = 0.99726
+```
+
+a change of $`-0.27\%`$. The same step moves $`H_0`$ by 8.4%, a factor of about thirty larger. That differential, rather than any protection, is the sense in which the framework can move $`H_0`$ while holding $`\Lambda`$ nearly fixed.
+
+$`a_0`$ at slope 17.74 marks a steep, sensitive well. The derivative alone says nothing about the character of the MOND transition: a large derivative produces a sensitive continuous response, not a threshold. The binary mechanism that would have discretized it is the one §III reports as falsified.
 
 ### The 8.4% displacement
 
-At the bare well, $`\Theta_0 = 34/120`$:
+At the bare well $`\Theta_0 = 34/120`$, and at the adjacent bosonic position $`\Theta = 36/120`$:
 
 ```math
-C(34/120) = 2\sin^2(34\pi/120) = 1.208
+C(34/120) = 1.2079, \qquad C(36/120) = 1.3090, \qquad \frac{C(36/120)}{C(34/120)} = 1.0837
 ```
 
-Shifted by one bosonic step, $`\Theta = 36/120`$:
+Applied to the bare value:
 
 ```math
-C(36/120) = 2\sin^2(36\pi/120) = 1.309
+67.4 \times 1.0837 = 73.04 \;\text{km/s/Mpc}
 ```
 
-The ratio:
+which is the SH0ES scale. No galactic physics enters this calculation.
+
+### What the step size assumes
+
+Geometric observables are taken to access the 60-position bosonic sublattice, the even positions $`k/120 = j/60`$. That assignment is a framework selection rule, not a derivation, and it is the load-bearing assumption of this section. The stakes are direct: a displacement of $`1/120`$ would give $`C(35/120)/C(34/120) = 1.0421`$, a 4.2% shift rather than 8.4%.
+
+Both available steps have a published local determination close to them. Against the same 67.4 baseline, SH0ES implies $`+8.4\%`$ and matches the $`2/120`$ step, while the Carnegie-Chicago tip-of-the-red-giant-branch value of 70.39 implies $`+4.4\%`$, close to the 4.2% of the $`1/120`$ step. The uncertainties do separate SH0ES from the $`1/120`$ endpoint, at two to three standard deviations. They do not separate the two local determinations from each other. The same programme's JWST-only figures, 68.81 and 67.80, imply offsets near 2.1% and 0.6% and match no lattice step at all.
+
+Which step the framework calls correct is therefore not independent of which local determination is treated as canonical.
+
+### The lattice does not fix the direction
+
+The well at $`34/120`$ has two nearest bosonic neighbours, and they respond in opposite directions:
 
 ```math
-\frac{C(36/120)}{C(34/120)} = \frac{1.309}{1.208} = 1.084
+\frac{C(32/120)}{C(34/120)} = 0.9144, \qquad \frac{C(36/120)}{C(34/120)} = 1.0837
 ```
 
-The bare well gives $`H_0 = 67.4`$ km/s/Mpc (the MIT phase-clock best-fit, consistent with Planck). Multiply by the ratio:
+a change of $`-8.6\%`$ or $`+8.4\%`$. The lattice fixes the magnitude of a nearest-neighbour response at this well to roughly 8.5%, but not its sign. The upward branch lands on the SH0ES scale; the downward branch would carry 67.4 to 61.6. Orientation was supplied by the positive indicator in the trigger of §III, and with that trigger retired, nothing tested here selects the sign. It is a fourth imported choice alongside the phase operator, the well assignment, and the sublattice assignment.
+
+## III. The Trigger Hypothesis and Its Falsification
+
+The lattice fixes the size of the displacement but not whether anything realizes it. The mechanism proposed for that role was a binary threshold on galactic environment, with a coherence scale set by the radius at which the gravitational field falls to the MOND acceleration:
 
 ```math
-67.4 \times 1.084 \approx 73 \;\text{km/s/Mpc}
+L_f = \frac{v_c^2}{a_0} \approx 13\;\text{kpc for the Milky Way}
 ```
 
-This is the SH0ES-scale value. The 8.4% is an output of the lattice geometry at $`\Theta_0 = 34/120`$, produced by a step whose size is fixed at 2/120. No galactic physics enters this calculation.
+Every calibrator inside that radius was to share one phase shift, and the response was binary: one bosonic grid step or nothing, $`\Theta_f = (2/120)\cdot\mathbf{1}(\mathcal{T} \geq \mathcal{T}_c)`$. The appeal was closure. For a flat rotation curve both the trigger index and its critical value scale as $`v_c^2`$, so their ratio is galaxy-independent and every flat-curve disk crosses the threshold by the same factor. The full specification, the geometry factor, and the registered predictions are in the [SPARC working note](/files/framework/files/working/files/sparc-phase-field.md).
 
-## III. The Trigger Hypothesis and SPARC Test
-
-The lattice calculation fixes the size of the required displacement. The remaining question is whether ordinary disk galaxies physically realize that displacement. The trigger below was proposed for that role, then tested against SPARC in a frozen pipeline and falsified.
-
-### Phase decomposition
-
-The sampled position on the 120-domain is the sum of two terms:
-
-```math
-\Theta = \Theta_0 + \Theta_f
-```
-
-$`\Theta_0 = 34/120`$ is the Fibonacci well for $`H_0`$, fixed by the lattice geometry. $`\Theta_f`$ is the environment-dependent offset. The CMB samples the bare well ($`\Theta_f = 0`$) because it records a phase epoch before local structure existed. In the trigger hypothesis, local observations sample $`\Theta_0 + \Theta_f`$ from inside a triggered galaxy.
-
-### Coherence scale
-
-The proposed coherence scale is set by the galactic rotation curve and the MOND acceleration:
-
-```math
-L_f = \frac{v_c^2}{a_0}
-```
-
-This is the galactocentric radius where the gravitational field drops to $`a_0`$. For the Milky Way ($`v_c \approx 220`$ km/s, $`a_0 \approx 1.2 \times 10^{-10}`$ m/s²): $`L_f \approx 13`$ kpc. In the trigger model, every calibrator inside this radius shares the same phase shift.
-
-### Trigger and closure
-
-The trigger index $`\mathcal{T}`$ compares the gravitational potential drop across $`L_f`$ to a critical value $`\mathcal{T}_c = 2\xi\,v_c^2/c^2`$, where $`\xi \approx 0.46`$ is the mean potential depth computed from standard halo profiles (isothermal, NFW, and Hernquist all give 0.44 to 0.47):
-
-```math
-\mathcal{T} = \frac{2}{c^2 L_f}\int_0^{L_f}\Phi_\text{rel}(l)\,dl
-```
-
-where $`\Phi_\text{rel}(l) \equiv \Phi(L_f) - \Phi(l)`$ is the potential difference from the coherence boundary (gauge-invariant). For a flat rotation curve, $`\Phi(r) = v_c^2\ln(r/r_0)`$, so $`\Phi_\text{rel}(l) = v_c^2\ln(L_f/l)`$. The integral evaluates exactly: $`\int_0^{L_f} v_c^2\ln(L_f/l)\,dl = v_c^2 L_f`$ (substituting $`u = l/L_f`$, $`\int_0^1 (-\ln u)\,du = 1`$). Therefore $`\mathcal{T} = 2v_c^2/c^2`$, and the ratio becomes independent of the galaxy.
-
-The flat-curve evaluation is a special case of a general identity. For any circular rotation curve, $`v^2(r) = r\,d\Phi/dr`$, so
-
-```math
-\Phi_\text{rel}(l) = \Phi(L_f) - \Phi(l) = \int_l^{L_f}\frac{v^2(s)}{s}\,ds.
-```
-
-Switching the order of integration in $`\int_0^{L_f}\Phi_\text{rel}(l)\,dl`$ gives
-
-```math
-\int_0^{L_f}\Phi_\text{rel}(l)\,dl = \int_0^{L_f}v^2(l)\,dl.
-```
-
-Thus
-
-```math
-\mathcal{T} = \frac{2}{c^2 L_f}\int_0^{L_f}v^2(l)\,dl = \frac{2\langle v^2\rangle_{L_f}}{c^2},
-```
-
-where $`\langle v^2\rangle_{L_f}`$ is the radial mean-square circular velocity over the coherence interval $`[0, L_f]`$. For a flat curve, $`\langle v^2\rangle_{L_f} = v_c^2`$, recovering the result above. In that limit:
-
-```math
-\frac{\mathcal{T}}{\mathcal{T}_c} = \frac{1}{\xi} \approx 2.2
-```
-
-In the flat-curve limit, this is a closure identity. Both $`\mathcal{T}`$ and $`\mathcal{T}_c`$ scale as $`v_c^2`$; their ratio is galaxy-independent. Every flat-curve disk crosses the threshold by the same factor.
-
-For a general rotation curve, the threshold ratio becomes
-
-```math
-\frac{\mathcal{T}}{\mathcal{T}_c} = \frac{\langle v^2\rangle_{L_f}}{\xi\,v_c^2}.
-```
-
-The flat-curve closure value $`1/\xi \approx 2.2`$ is therefore modified only by the ratio $`\langle v^2\rangle_{L_f}/v_c^2`$. For rising-to-flat curves this factor is below unity; for peaked or mildly declining curves it is computed directly from the observed profile. The trigger condition becomes the transparent inequality
-
-```math
-\frac{\langle v^2\rangle_{L_f}}{v_c^2} > \xi \approx 0.46
-```
-
-where $`v_c`$ is the outer flat-region velocity. In the trigger hypothesis, the phase field remains active whenever the mean-square velocity across the coherence interval exceeds roughly half the flat-curve value. The binary response is:
-
-```math
-\Theta_f = \frac{2}{120} \cdot \mathbf{1}(\mathcal{T} \geq \mathcal{T}_c)
-```
-
-One bosonic grid step or nothing. The step size 2/120 is the minimum observable shift on the 60R-grid. The full 120-lattice is set by $`\lvert 2I \rvert = 120`$ (binary icosahedral group on $`S^3`$); observation accesses the bosonic projection $`\lvert I \rvert = 60`$, so the smallest realized step is $`2/120 = 1/60`$.
+Neither the scale nor the architecture was new. For a flat curve $`v_c^4 = GMa_0`$, so $`v_c^2/a_0 = \sqrt{GM/a_0}`$, the standard MOND transition radius. Applying an environmental gravitational threshold to distance-ladder calibrators and carrying the split into $`H_0`$ has a prior refereed instance in Desmond, Jain and Sakstein (2019). What the framework added was the proposal that the MOND radius also bounds a phase domain, and the quantized binary response.
 
 ### SPARC result
 
-The coherence-scale trigger was tested against 123 quality-filtered SPARC rotation curves in a frozen, pre-registered pipeline ([dmobius3/phase-field](https://github.com/dmobius3/phase-field), archived at DOI: [10.5281/zenodo.20271702](https://doi.org/10.5281/zenodo.20271702)). The pipeline was locked before data contact and executed once.
+The trigger was tested against 123 quality-filtered SPARC rotation curves in a frozen, pre-registered pipeline ([dmobius3/phase-field](https://github.com/dmobius3/phase-field), archived at DOI [10.5281/zenodo.20271702](https://doi.org/10.5281/zenodo.20271702)), locked before data contact and executed once.
 
-The result falsifies the coherence-scale trigger mechanism. The observed transition-radius slope is 0.23 (registered interval: 0.7 to 1.3); the flat-onset slope is 0.33; the median $`r_t/L_f`$ is 0.38; and 53.7% of flat-curve galaxies fall below $`\mathcal{T}/\mathcal{T}_c = 1`$ (registered limit: 5%). All verdicts are stable across the registered 27-cell sensitivity grid.
-
-The general identity makes the failure precise. Real SPARC rotation curves are not flat over $`[0, L_f]`$. For most disks, $`L_f`$ extends into the rising inner rotation curve, so $`\langle v^2\rangle_{L_f} < v_c^2`$. The typical mean-square suppression is near 0.41, below the trigger threshold $`\xi \approx 0.46`$. The flat-curve closure identity is not realized by the observed galaxy population.
-
-No revised coherence scale is introduced here. Any replacement trigger must be derived independently and tested separately.
-
-## IV. Propagation Model
-
-The failed SPARC trigger does not invalidate the propagation logic; it removes the specific mechanism that was supposed to activate it. If an independently derived trigger is found, the shift would propagate through measurement classes as follows.
-
-How much of the 8.4% reaches the final answer depends on where the absolute calibration is set. Two channels would transmit the displacement.
-
-### Calibration inheritance
-
-Local distance ladders anchor their absolute scale to calibrators inside a phase-active coherence domain. Every rung would inherit the full phase shift. The ruler itself would be shifted, so every distance measured with it would carry the 8.4%.
-
-### Phase-domain averaging
-
-Geometric methods (time-delay lensing, standard sirens) integrate $`1/H(z)`$ along the line of sight. The phase-shifted segment is only the local coherence domain; the rest of the path samples the bare well. For cosmological baselines ($`\chi \sim`$ Gpc), the local contribution is a fraction $`F = \chi_\text{local}/\chi \sim 10^{-5}`$. The direct averaging displacement is negligible (~ppm). If geometric methods return values above ~67, the source would be calibration inheritance through local priors in the analysis chain, not path averaging.
-
-### Which mechanism applies where
-
-| Method | Calibration | Channel | Expected H₀ if triggered |
+| Registered prediction | Criterion | Observed | Verdict |
 |---|---|---|---|
-| Cepheid/SN ladder (SH0ES) | Local anchors | Inheritance (full shift) | ~73 |
-| TRGB | Local anchors | Inheritance (full shift) | ~73 |
-| Megamasers | Local geometry | Inheritance (full shift) | ~73 |
-| Time-delay lenses | Geometric, late-time | Averaging (negligible) | ~67 |
-| Standard sirens | Geometric, late-time | Averaging (negligible) | ~67 |
-| BAO + BBN | Early-universe ruler | Neither (bare well) | ~67 |
-| CMB (Planck) | Early-universe physics | Neither (bare well) | ~67 |
+| Transition radius tracks $`L_f`$ | OLS slope in [0.7, 1.3] | slope $`\approx 0.23`$ | Fail |
+| Flat-onset radius tracks $`L_f`$ | ratio in [0.75, 1.25] | median 1.26 ($`n = 56`$) | Fail (near-miss) |
+| Closure identity holds | $`\leq 5\%`$ of flat-curve galaxies below threshold | 53.7% below (66/123) | Fail |
+| Trigger index predicts curve morphology | AUC separating flat from rising | no rising-curve galaxies pass cuts | Untestable |
 
-The key distinction is where the absolute calibration is set. The CMB records a phase epoch before local structure existed ($`\Theta_f = 0`$ by construction). BAO and BBN use an early-universe ruler ($`r_d`$) that predates the phase field. In the trigger model, local ladders would import the full shift because their anchors sit inside the coherence domain. The propagation prediction is stratification: if a trigger exists, $`H_0`$ values should sort by calibration class rather than by a continuous environmental gradient.
+Three of the four registered predictions returned a verdict and all three failed. The fourth returned none: no rising-curve galaxy survived the sample cuts, so the test that would have discriminated most sharply between the mechanism and ordinary galactic scaling was never evaluated. Verdicts are stable across the registered 27-cell sensitivity grid.
+
+The direction of the failure is legible. Real rotation curves are not flat over $`[0, L_f]`$: for most disks the interval reaches inward across the rising part of the curve, so the mean-square velocity falls below the threshold, with typical suppression near 0.41 against $`\xi \approx 0.46`$. That comparison is indicative rather than quantitative. The identity behind it holds only for an interval beginning at the centre, while the registered $`\xi`$ was computed on a chord centred at the observer's radius, which omits the rising inner curve and samples systematically higher $`v^2`$. The bias runs toward the failure it illustrates, plausibly by more than the margin between the two numbers. The registered verdicts do not depend on it.
+
+Post-hoc checks find that the transition radius correlates more tightly with baryonic mass than with $`L_f`$ at every plausible mass-to-light ratio, so the residual correlation is consistent with ordinary galactic size scaling rather than a phase-coherence effect. The threshold derivations built on $`L_f`$, namely the halo-profile geometry factor, the threshold hierarchy over the prime factors of 120, and the epoch-onset argument, are downstream of the trigger and are retired with it.
+
+No replacement coherence scale is introduced here.
+
+## IV. Propagation, Stated Conditionally
+
+The propagation logic is separable from the trigger: it describes how a displacement would reach an inferred $`H_0`$, given that something produced one. With the trigger falsified, this section is conditional throughout.
+
+Local distance ladders anchor their absolute scale to calibrators inside a putative coherence domain, so under that hypothesis every rung would inherit the full displacement. The ruler itself is shifted.
+
+Geometric methods integrate $`1/H(z)`$ along the line of sight, so a locally confined displacement enters only through the coherent fraction of the path. A 13 kpc domain on a baseline of order 1 Gpc gives a fraction near $`10^{-5}`$, falling to $`3 \times 10^{-6}`$ at the Hubble radius. Applied to the 8.4% step, that leaves a direct path-averaging displacement of about one part per million.
+
+This corrects the first version of this note, which treated phase-domain averaging as producing partial, intermediate $`H_0`$ values for geometric methods. The averaging channel is numerically irrelevant, and that prediction does not follow from it.
+
+The correction leaves an unexplained observation rather than a repaired one. Megamasers and one standard treatment of time-delay lensing both return values near 74, with uncertainties of a few km/s/Mpc, and for lensing the answer depends strongly on mass-profile treatment, with flexible models returning a Planck-side value instead. The corrected model no longer predicts intermediate values for geometric methods, and explaining their reported values would require an additional calibration-coupling mechanism that is not derived here.
 
 ## V. Test Outcomes
 
-Two tests have been run against the phase-field predictions. The SPARC test (§III) addressed the trigger mechanism. The bimodality test addressed the downstream observable: whether $`H_0`$ measurements cluster into two discrete populations.
+Two tests have been run. They carry different evidential weight and are reported separately for that reason.
 
-### [Trigger: falsified](https://github.com/dmobius3/mode-identity-theory/blob/main/files/framework/files/working/files/sparc-phase-field.md)
+### [Trigger: falsified](/files/framework/files/working/files/sparc-phase-field.md)
 
-The coherence-scale trigger $`L_f = v_c^2/a_0`$ does not produce the predicted coherence radius in observed galaxies. The transition radius tracks $`L_f`$ at slope 0.23, not the registered 0.7 to 1.3. The closure identity fails for 53.7% of flat-curve galaxies. The failure is diagnosed by the general identity: real rotation curves are not flat over $`[0, L_f]`$, so the mean-square velocity falls below the trigger threshold.
+Pre-registered, locked before data contact, run once. The coherence scale $`L_f = v_c^2/a_0`$ does not behave as a coherence radius in observed galaxies. This is the heavier of the two results.
 
-### [Discrete H₀ structure: not supported](https://github.com/dmobius3/mode-identity-theory/blob/main/files/framework/files/working/files/h0-bimodality-test.md)
+### [Discrete H₀ structure: not detected](/files/framework/files/working/files/h0-bimodality-test.md)
 
-The original discrete-vs-continuous prediction was that $`H_0`$ should cluster at two quantized values (67 and 73) with a clean gap in between. An exploratory compilation of 18 published $`H_0`$ measurements (13 independent) was tested against this prediction.
+The original prediction was that $`H_0`$ should cluster at two quantized values with a clean gap between them. An exploratory compilation of 18 published determinations, of which 13 form a de-duplicated sensitivity subset, was tested against it.
 
 | Pre-stated outcome | Observed |
 |---|---|
-| Continuous or intermediate spread rather than clean quantized clusters | Dip test cannot reject unimodality; intermediate values are present |
-| Two clusters at wrong values | GMM gives 68.4 / 73.5 where it picks 2 components; BIC is a statistical tie |
-| TRGB or JAGB land near 70 | TRGB/CCHP at 69.8, in the predicted gap |
-| Local methods near 73, early-universe near 67 | Holds: class stratification is real |
+| Continuous or intermediate spread rather than clean clusters | dip test cannot reject unimodality ($`p = 0.217`$ unweighted); intermediate values present |
+| Two clusters at wrong values | GMM gives 68.4 / 73.5 where it picks two components; BIC margins are a statistical tie |
+| TRGB or JAGB land near 70 | TRGB/CCHP at 69.8, inside the predicted gap |
+| Local methods near 73, early-universe near 67 | holds: class stratification is real |
 
 The first three rows register against the discrete picture. The fourth holds, but method-class stratification is the Hubble tension restated, not evidence of a quantized step.
 
+This test is exploratory rather than pre-registered, so it carries less weight than the SPARC result. It is a compilation by method class rather than the environment-binned histogram originally nominated, making it a close relative of the registered falsifier rather than that falsifier exactly. With 18 determinations the dip test has limited power, so failing to reject unimodality is not positive evidence for a single population. The subset is de-duplicated, not statistically independent: three retained rows share Carnegie-Chicago lineage and calibration targets. Several rows carry disclosed provenance defects, documented in the working note, which further reduce the weight the result can bear.
+
 ### What the tests do not address
 
-The 8.4% lattice calculation (§II) is geometry. Neither test probes that calculation directly. The well sensitivity, the step size, and the arithmetic match to the observed tension scale are unaffected by the trigger failure or the bimodality result. What failed are the proposed physical realization of the step and the predicted discrete population structure in current $`H_0`$ compilations.
+The lattice calculation of §II is geometry, and neither test probes it. The well sensitivity, the step size, and the arithmetic match to the observed tension scale are unaffected. What failed is the proposed physical realization of the step and the predicted discrete population structure.
 
 ## VI. What Survives
 
-The lattice calculation remains sharp: a one-step bosonic displacement from $`\Theta_0 = 34/120`$ to $`\Theta = 36/120`$ converts the bare value $`H_0 = 67.4`$ km/s/Mpc into $`H_0 \approx 73`$ km/s/Mpc through the phase-operator slope. That arithmetic is topology, not a fitted parameter, and neither test touches it.
+The correspondence: a one-step bosonic displacement from $`\Theta_0 = 34/120`$ to $`\Theta = 36/120`$ carries 67.4 km/s/Mpc to 73.04 through the phase-operator ratio, against 0.27% at $`\Lambda`$ under the same step. Neither test touches that arithmetic.
 
-What failed is the proposed galactic mechanism that would force ordinary disk galaxies to realize that displacement, and the predicted discrete two-population structure that realization would produce.
+It is fixed once four choices are stipulated: the phase operator, the well assignment, the bosonic-sublattice assignment, and the displacement orientation. All four are imported from the base framework rather than derived here, $`H_0`$ is itself the framework's calibration anchor, and a domain carrying 120 positions carries many neighbouring ratios. The match is a retrospective structural correspondence, not an out-of-sample prediction and not statistical evidence for the framework.
 
-The physical realization of the 8.4% remains open: the lattice produces the right step size, but no tested trigger delivers it. Any future trigger must come from first principles, not from fitting to the data that falsified the previous one. The SPARC result constrains its form: any viable coherence scale likely has to be smaller than $`v_c^2/a_0`$ (the observed transition radius is roughly $`0.4\,L_f`$), and the closure identity must account for rising inner rotation curves rather than assuming flatness over the full interval. The bimodality result constrains its observable signature: current $`H_0`$ data does not show clean quantized clustering.
+What failed is the galactic mechanism that would force ordinary disk galaxies to realize the displacement, and the discrete two-population structure that realization would have produced.
 
-*The Hubble tension is real. The lattice arithmetic matches its scale. The mechanism remains open.*
+What the failures leave is a specification. A replacement mechanism would have to select the bosonic sector and the positive orientation independently rather than inheriting either as an assignment; operate on a coherence scale not identified with $`v_c^2/a_0`$, while explaining why the observed acceleration transition sits near $`0.38\,L_f`$, a ratio a median alone does not establish as structural; accommodate rising inner rotation curves rather than assuming flatness over $`[0, L_f]`$; and not predict the clean bimodality already absent from the compilation. It would also have to be derived independently rather than fitted to the data that falsified its predecessor.
+
+*The Hubble tension is real. The lattice fixes a possible displacement scale. The physical operator that selects and realizes it remains unknown.*
 
 ---
 

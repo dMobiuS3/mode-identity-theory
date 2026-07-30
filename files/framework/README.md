@@ -176,7 +176,7 @@ The temporal anti-periodic tower and this positional profile are distinct eigenp
 | Position | $`C(\Theta)`$ | Slope $`d\ln C/d\Theta`$ | Significance |
 |---|---|---|---|
 | $`\Theta = 0`$ (boundary) | 0 | $`\to \infty`$ | No observable amplitude |
-| $`\Theta = 1/2`$ (antinode) | 2 | 0 | Maximum amplitude; topologically protected |
+| $`\Theta = 1/2`$ (antinode) | 2 | 0 | Maximum amplitude; stationary to first order |
 | $`\Theta = 1`$ (boundary) | 0 | $`\to -\infty`$ | No observable amplitude |
 
 $`\Lambda_\text{top}`$ sits at the antinode: slope exactly zero.
@@ -260,15 +260,15 @@ The $`a_0/(cH_0)`$ ratio is locked by well positions: $`C(13/120)/C(34/120) = 0.
 
 The phase position decomposes as $`\Theta = \Theta_0 + \Theta_f`$, where $`\Theta_0`$ is the Fibonacci well (fixed) and $`\Theta_f`$ is the local environmental shift.
 
-| Well | Θ | Slope sensitivity | Physical shift | Reason |
+| Well | Θ | Slope | Finite change at $`+2/120`$ | Character |
 |---|---|---|---|---|
-| $`a_0`$ | 13/120 | 17.7 per step | None | Defines the transition |
-| $`H_0`$ | 34/120 | 5.1 per step | 8.4% | Measured through the field |
-| $`\Lambda_\text{top}`$ | 60/120 | 0 per step | 0% | Topologically protected |
+| $`a_0`$ | 13/120 | 17.74 | $`+31.4\%`$ | steepest of the three |
+| $`H_0`$ | 34/120 | 5.09 | $`+8.4\%`$ | measured through the field |
+| $`\Lambda_\text{top}`$ | 60/120 | 0 | $`-0.27\%`$ | stationary to first order |
 
-The slope at each well determines its character. $`\Lambda`$ at slope zero is immovable: topologically protected at the antinode. $`H_0`$ at slope 5.1 absorbs one bosonic step (2/120) as an 8.4% shift: $`C(36/120)/C(34/120) = 1.084`$, giving $`67.4 \times 1.084 \approx 73`$ km/s/Mpc. This arithmetic is fixed by well positions and independent of any galactic mechanism: the lattice step stands on its own, while the galactic trigger that would realize the shift is withdrawn (the SPARC test, detailed on the [Hubble tension](../cosmos/files/hubble-tension.md) page), so the 8.4% is a topological number without an active mechanism.
+The slope at each well determines its character. $`\Lambda`$ sits at the antinode where the derivative vanishes, so it is stationary to first order in $`\Theta`$, but it is not invariant under a finite step: $`C(62/120)/C(60/120) = \cos^2(\pi/60) = 0.99726`$, a change of $`-0.27\%`$. $`H_0`$ at slope 5.09 takes the same step as an 8.4% shift, $`C(36/120)/C(34/120) = 1.0837`$, giving $`67.4 \times 1.0837 = 73.04`$ km/s/Mpc. The differential between the two wells is a factor of about thirty, and that differential rather than any protection is what lets the framework move $`H_0`$ while holding $`\Lambda`$ nearly fixed. The ratio is fixed by well positions and independent of any galactic mechanism, but it is fixed only once the phase operator, the well assignment, the sublattice assignment, and the displacement orientation are stipulated, all four of which are imported. The trigger that would have realized the shift is withdrawn (the SPARC test, detailed on the [Hubble tension](../cosmos/files/hubble-tension.md) page), so the 8.4% is a correspondence without an active mechanism.
 
-$`a_0`$ at slope 17.7 marks a steep, sensitive well, but the phase field does not shift it. The acceleration scale where MOND behavior turns on is the well position $`C(13/120) \cdot (\sqrt{\Omega_H})^{-1} \cdot a_P`$. The steep slope explains why the MOND transition is sharp: a binary on/off behavior rather than a gradual ramp.
+$`a_0`$ at slope 17.74 marks a steep, sensitive well, but the phase field does not shift it. The acceleration scale where MOND behavior turns on is the well position $`C(13/120) \cdot (\sqrt{\Omega_H})^{-1} \cdot a_P`$. The derivative alone says nothing about the character of the MOND transition: a large derivative produces a sensitive continuous response, not a threshold, and the binary mechanism that would have discretized it is the one the SPARC test falsified.
 
 ### [The Gauge Ladder](../spectrum/files/fine-structure.md)
 

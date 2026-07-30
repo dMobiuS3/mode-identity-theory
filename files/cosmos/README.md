@@ -48,7 +48,7 @@ In 1983, Milgrom identified $`a_0`$ as a fundamental acceleration scale. Four de
 
 **Bounded evaluation.** Dirac recognized that the large numbers of cosmology were not arbitrary. What was missing in 1937 was the domain that bounded them. Infinity to zero spanning $`10^{122}`$; where the observer is square rooted. His large number was not a coincidental anomaly; it was the area of the floor where we stand.
 
-Hubble measured the tension in 1929 from the same structure: a phase field effect. Distance ladders calibrated within galaxies like ours sample a shifted well, while the cosmic microwave background measures where it is unphased. Both observations are correct, probing different regions of the same space.
+Hubble measured the tension in 1929 from the same structure. The framework reads the two camps as one well sampled at two positions: distance ladders calibrated within galaxies like ours would sample a shifted well, while the cosmic microwave background measures where it is unphased. Both observations are correct. The lattice fixes the size of the step between them at 8.4%, and the galactic mechanism proposed to produce it has since been tested and falsified, so what stands is the correspondence rather than the cause.
 
 ***[Hubble Tension](files/hubble-tension.md)***
 
@@ -85,7 +85,7 @@ Hubble measured the tension in 1929 from the same structure: a phase field effec
 | [↗](files/dark-energy.md) $`(1+z)^1`$ term | negative, tied to $`s_0`$ | awaiting next-gen BAO | open |
 | [↗](files/cmb-anomalies.md) CMB low-ℓ deficit | Molien gap, lands $`\ell \approx 28`$ at the coupling-route R | deficit below $`\ell \lesssim 30`$ | open ([Rides on R](../framework/files/working/files/r-problem.md)) |
 | [↗](files/hubble-tension.md) $`H_0 \cdot t_P`$ | $`1.2 \times 10^{-61}`$ | $`1.18 \times 10^{-61}`$ | ~2% |
-| [↗](files/hubble-tension.md) $`H_0`$ local shift | 8.4% lattice prediction | ~9% observed gap | mechanism open |
+| [↗](files/hubble-tension.md) $`H_0`$ local shift | 8.4% lattice step | 8.4% observed gap | mechanism falsified, correspondence open |
 | [↗](files/early-galaxies.md) $`a_0/(cH_0)`$ | 0.184 | 0.183 | <1% |
 | [↗](../framework/README.md) $`a_0/a_P`$ | $`2.2 \times 10^{-62}`$ | $`2.16 \times 10^{-62}`$ | ~2% |
 | [↗](files/early-galaxies.md) $`a_0(z) \propto H(z)`$ | $`a_0(z{=}2) \approx 3\times`$ local | awaiting high-z rotation curves | open |

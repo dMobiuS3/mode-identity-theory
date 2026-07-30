@@ -280,7 +280,7 @@ Applied to the 8 nontrivial irreps across 3 vacua, the formula produces 24 entri
 | Chronon | π/30 | 4π/120 |
 | Bosonic step | 2/120 | Spinor to scalar projection |
 | Active wells | {13, 21, 34, 55, 60}/120 | Hurwitz stability + threshold |
-| H₀ shift | 8.4% | C(36/120)/C(34/120) = 1.084 (lattice arithmetic; the galactic trigger is withdrawn, SPARC) |
+| H₀ shift | 8.4% | C(36/120)/C(34/120) = 1.0837 (lattice arithmetic; the galactic trigger is withdrawn, SPARC) |
 | Inputs | c, ℏ, R, m_e | R open (α / mass-spectrum routes; de Sitter circular); Ω_m = 1 − Ω_Λ ≈ 0.315 is a temporal-budget output |
 
 Open derivations (the α exponent's single-principle form, the charm/assignment problem, the black-hole Φ → Θ dynamical mapping, the spectral-physical bridge) are tracked in the [working notes](../../framework/files/working/).

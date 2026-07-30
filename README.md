@@ -35,7 +35,7 @@ mode-identity-theory/
     ├── cosmos/                     # the static three-sphere seen whole
     │   ├── cosmological-constant      # Λ as the surface first-positive eigenvalue
     │   ├── dark-energy                # the acceleration scale a₀ on the phase clock
-    │   ├── hubble-tension             # H₀ as an edge mode, the topological 8.4%
+    │   ├── hubble-tension             # H₀ as an edge mode, the 8.4% lattice step
     │   ├── cmb-anomalies              # low-ℓ suppression as the Molien gap
     │   ├── early-galaxies             # early massive galaxies in a static geometry
     │   ├── black-holes                # black holes as topological nodes of the wave
@@ -186,7 +186,7 @@ Outputs of a fixed structure, checked against observation:
 | [↗](/files/cosmos/files/dark-energy.md#the-1z1-term) $`(1+z)^1`$ term | negative, tied to $`s_0`$ | awaiting next-gen BAO | open |
 | [↗](/files/cosmos/files/cmb-anomalies.md#iv-the-molien-shell-gap) CMB low-ℓ deficit | Molien gap, lands $`\ell \approx 28`$ at the coupling-route R | deficit below $`\ell \lesssim 30`$ | open ([Rides on R](/files/framework/files/working/files/r-problem.md)) |
 | [↗](/files/cosmos/files/hubble-tension.md#i-the-tension) $`H_0 \cdot t_P`$ | $`1.2 \times 10^{-61}`$ | $`1.18 \times 10^{-61}`$ | ~2% |
-| [↗](/files/cosmos/files/hubble-tension.md#the-84-displacement) $`H_0`$ local shift | 8.4% lattice prediction | ~9% observed gap | mechanism open |
+| [↗](/files/cosmos/files/hubble-tension.md#the-84-displacement) $`H_0`$ local shift | 8.4% lattice step | 8.4% observed gap | mechanism falsified, correspondence open |
 | [↗](/files/cosmos/files/early-galaxies.md#the-ratio-from-the-scaling-law) $`a_0/(cH_0)`$ | 0.184 | 0.183 | <1% |
 | [↗](/files/framework/README.md#the-assembled-engine) $`a_0/a_P`$ | $`2.2 \times 10^{-62}`$ | $`2.16 \times 10^{-62}`$ | ~2% |
 | [↗](/files/cosmos/files/early-galaxies.md#the-evolutionary-law) $`a_0(z) \propto H(z)`$ | $`a_0(z{=}2) \approx 3\times`$ local | awaiting high-z rotation curves | open |
