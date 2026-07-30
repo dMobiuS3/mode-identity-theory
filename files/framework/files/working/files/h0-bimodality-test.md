@@ -65,7 +65,7 @@ Eighteen published H₀ determinations, one row per independent analysis, compil
 | Cepheids only, no SNe | local-ladder | 71.70 | 1.30 | Stiskalek et al. 2026 | N |
 | Type II SNe, tailored EPM | independent | 74.90 | 1.90 | Vogl et al. 2025 | Y |
 
-Notes on individual rows. The Stiskalek et al. 2026 value is the MNRAS abstract figure 71.7 ± 1.3, the result under the paper's main stated selection assumption. GW170817 has an asymmetric interval (+12/−8); a symmetric σ ≈ 10 is used as a placeholder. The TDCOSMO row is model-dependent: Shajib et al. 2023 (parametrized mass profiles) gives 74.2 ± 1.6, Birrer et al. 2020 (maximally flexible mass models) gives 67.4 ± 3.7. Both are carried as a sensitivity check.
+Notes on individual rows. The ACT DR6 row is the **lensing + BAO** constraint of Madhavacheril et al. 2024 (ApJ 962, 113), $`H_0 = 68.3 \pm 1.1`$, not the later DR6 power-spectra determination of Louis et al. 2025; ACT DR6 has more than one published $`H_0`$, so the row is disambiguated here (attribution re-verified from source 2026-07-30; value and analysis unchanged). The Stiskalek et al. 2026 value is the MNRAS abstract figure 71.7 ± 1.3, the result under the paper's main stated selection assumption. GW170817 has an asymmetric interval (+12/−8); a symmetric σ ≈ 10 is used as a placeholder. The TDCOSMO row is model-dependent: Shajib et al. 2023 (parametrized mass profiles) gives 74.2 ± 1.6, Birrer et al. 2020 (maximally flexible mass models) gives 67.4 ± 3.7. Both are carried as a sensitivity check.
 
 ---
 
