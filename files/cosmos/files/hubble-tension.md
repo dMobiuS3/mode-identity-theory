@@ -4,7 +4,13 @@
 
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/hubble%20tension%20banner.png?raw=true" width="100%" alt="Hubble Tension">
 
-Measurements of the Hubble constant have split into two persistent camps: the cosmic microwave background gives 67.4 km/s/Mpc, local distance ladders give 73. The discrepancy has survived a decade of systematic checks across independent methods. Mode Identity Theory reads the pair as one Fibonacci well sampled at two positions on the 120-domain, with the size of the step between them fixed by the lattice at 8.4%. That arithmetic is what this page is about. The galactic mechanism proposed to realize the step has been pre-registered, tested against SPARC, and falsified, and the population signature it predicted was looked for and not found. Both results are reported below. What survives is a correspondence between two numbers, not an explanation of why they differ.
+Measurements of the Hubble constant have split into two persistent camps: the cosmic microwave background gives 67.4 km/s/Mpc, local distance ladders give 73.04. The discrepancy has survived a decade of systematic checks. Mode Identity Theory, referred to below as the framework, reads the pair as one Fibonacci well sampled at two positions on the 120-domain.
+
+**What matched.** One lattice step at the $`H_0`$ well carries 67.4 to 73.04 km/s/Mpc. The 8.4% size of that step is fixed by the geometry.
+
+**What failed.** The galactic mechanism proposed to realize the step, pre-registered and falsified against SPARC. And the two-population signature that mechanism predicted, looked for and not found.
+
+**What remains.** An unexplained numerical correspondence. Not a solution to the Hubble tension.
 
 **Summary**
 
@@ -24,9 +30,9 @@ The Planck CMB measurement gives $`H_0 = 67.4 \pm 0.5`$ km/s/Mpc at $`z \approx 
 
 The two-camp description is accurate for those two anchors and is not an accurate description of the full literature. Tip-of-the-red-giant-branch and J-region asymptotic-giant-branch calibrations from the Carnegie-Chicago programme fall well below SH0ES, and time-delay cosmography spans a wide range depending on how the lens mass profile is treated. That untidiness matters for §V and is not incidental.
 
-The MIT phase-clock fit to Pantheon+ and DESI DR2 BAO prefers the low, Planck-side value, with $`H_0`$ entering as the fitted edge anchor rather than a derived output. The framework therefore sits on the CMB side of the pair and treats the local excess as the quantity requiring explanation.
+The framework's own phase-clock fit to Pantheon+ and DESI DR2 BAO prefers the low, Planck-side value, with $`H_0`$ entering as the fitted edge anchor rather than a derived output. It therefore sits on the CMB side of the pair and treats the local excess as the quantity requiring explanation.
 
-Within MIT, the two values are represented as one Fibonacci well ($`\Theta_0 = 34/120`$) sampled at two positions. The CMB is taken to record a phase epoch predating local structure and therefore to sample the bare well; the local value corresponds to a one-step displacement. What the lattice fixes is the size of that step (§II). What it does not fix is why any observable would move, or in which direction.
+In that reading, the two values are one Fibonacci well ($`\Theta_0 = 34/120`$) sampled at two positions. The CMB is taken to record a phase epoch predating local structure and therefore to sample the bare well; the local value corresponds to a one-step displacement. What the lattice fixes is the size of that step (§II). What it does not fix is why any observable would move, or in which direction.
 
 ## II. The Lattice Calculation
 
@@ -115,7 +121,7 @@ The trigger was tested against 123 quality-filtered SPARC rotation curves in a f
 
 Three of the four registered predictions returned a verdict and all three failed. The fourth returned none: no rising-curve galaxy survived the sample cuts, so the test that would have discriminated most sharply between the mechanism and ordinary galactic scaling was never evaluated. Verdicts are stable across the registered 27-cell sensitivity grid.
 
-The direction of the failure is legible. Real rotation curves are not flat over $`[0, L_f]`$: for most disks the interval reaches inward across the rising part of the curve, so the mean-square velocity falls below the threshold, with typical suppression near 0.41 against $`\xi \approx 0.46`$. That comparison is indicative rather than quantitative. The identity behind it holds only for an interval beginning at the centre, while the registered $`\xi`$ was computed on a chord centred at the observer's radius, which omits the rising inner curve and samples systematically higher $`v^2`$. The bias runs toward the failure it illustrates, plausibly by more than the margin between the two numbers. The registered verdicts do not depend on it.
+The direction of the failure is legible. Real rotation curves are not flat over $`[0, L_f]`$: for most disks the interval reaches inward across the rising part of the curve, so the mean-square velocity falls below the threshold, with typical suppression near 0.41 against $`\xi \approx 0.46`$. That last comparison is indicative rather than quantitative, because the two quantities were computed on different radial geometries and the mismatch biases it toward the failure it illustrates; the [working note](/files/framework/files/working/files/sparc-phase-field.md) carries the detail. The registered verdicts do not depend on it.
 
 Post-hoc checks find that the transition radius correlates more tightly with baryonic mass than with $`L_f`$ at every plausible mass-to-light ratio, so the residual correlation is consistent with ordinary galactic size scaling rather than a phase-coherence effect. The threshold derivations built on $`L_f`$, namely the halo-profile geometry factor, the threshold hierarchy over the prime factors of 120, and the epoch-onset argument, are downstream of the trigger and are retired with it.
 
@@ -131,7 +137,7 @@ Geometric methods integrate $`1/H(z)`$ along the line of sight, so a locally con
 
 This corrects the first version of this note, which treated phase-domain averaging as producing partial, intermediate $`H_0`$ values for geometric methods. The averaging channel is numerically irrelevant, and that prediction does not follow from it.
 
-The correction leaves an unexplained observation rather than a repaired one. Megamasers and one standard treatment of time-delay lensing both return values near 74, with uncertainties of a few km/s/Mpc, and for lensing the answer depends strongly on mass-profile treatment, with flexible models returning a Planck-side value instead. The corrected model no longer predicts intermediate values for geometric methods, and explaining their reported values would require an additional calibration-coupling mechanism that is not derived here.
+The correction leaves an unexplained observation rather than a repaired one. Megamasers and one standard treatment of time-delay lensing both return values near 74, where the corrected model no longer predicts anything intermediate. Explaining them would require an additional calibration-coupling mechanism that is not derived here.
 
 ## V. Test Outcomes
 
@@ -156,21 +162,21 @@ The first three rows register against the discrete picture. The fourth holds, bu
 
 This test is exploratory rather than pre-registered, so it carries less weight than the SPARC result. It is a compilation by method class rather than the environment-binned histogram originally nominated, making it a close relative of the registered falsifier rather than that falsifier exactly. With 18 determinations the dip test has limited power, so failing to reject unimodality is not positive evidence for a single population. The subset is de-duplicated, not statistically independent: three retained rows share Carnegie-Chicago lineage and calibration targets. Several rows carry disclosed provenance defects, documented in the working note, which further reduce the weight the result can bear.
 
-### What the tests do not address
+### What the tests leave standing
 
-The lattice calculation of §II is geometry, and neither test probes it. The well sensitivity, the step size, and the arithmetic match to the observed tension scale are unaffected. What failed is the proposed physical realization of the step and the predicted discrete population structure.
+The arithmetic of §II remains true, and neither test probes it. That is a weaker statement than it sounds. An identity survives a test it was never exposed to, but it gains nothing from surviving, and without a mechanism that selects it the correspondence carries little evidential weight. What the tests removed is not the number. It is the reason to think the number means anything physical.
 
 ## VI. What Survives
 
-The correspondence: a one-step bosonic displacement from $`\Theta_0 = 34/120`$ to $`\Theta = 36/120`$ carries 67.4 km/s/Mpc to 73.04 through the phase-operator ratio, against 0.27% at $`\Lambda`$ under the same step. Neither test touches that arithmetic.
+The correspondence: a one-step bosonic displacement from $`\Theta_0 = 34/120`$ to $`\Theta = 36/120`$ carries 67.4 km/s/Mpc to 73.04 through the phase-operator ratio, against 0.27% at $`\Lambda`$ under the same step.
 
-It is fixed once four choices are stipulated: the phase operator, the well assignment, the bosonic-sublattice assignment, and the displacement orientation. All four are imported from the base framework rather than derived here, $`H_0`$ is itself the framework's calibration anchor, and a domain carrying 120 positions carries many neighbouring ratios. The match is a retrospective structural correspondence, not an out-of-sample prediction and not statistical evidence for the framework.
+It is fixed once four choices are stipulated: the phase operator, the well assignment, the bosonic-sublattice assignment, and the displacement orientation. All four are imported rather than derived here, $`H_0`$ is itself the framework's calibration anchor, and a domain carrying 120 positions carries many neighbouring ratios. The match is a retrospective structural correspondence, not an out-of-sample prediction and not statistical evidence.
 
 What failed is the galactic mechanism that would force ordinary disk galaxies to realize the displacement, and the discrete two-population structure that realization would have produced.
 
-What the failures leave is a specification. A replacement mechanism would have to select the bosonic sector and the positive orientation independently rather than inheriting either as an assignment; operate on a coherence scale not identified with $`v_c^2/a_0`$, while explaining why the observed acceleration transition sits near $`0.38\,L_f`$, a ratio a median alone does not establish as structural; accommodate rising inner rotation curves rather than assuming flatness over $`[0, L_f]`$; and not predict the clean bimodality already absent from the compilation. It would also have to be derived independently rather than fitted to the data that falsified its predecessor.
+What the failures leave is a specification. A replacement mechanism would have to select the bosonic sector and the direction on its own rather than inheriting them; run on a coherence scale other than $`v_c^2/a_0`$, while accounting for an acceleration transition observed near $`0.38\,L_f`$; work for rising inner rotation curves rather than assuming flatness; and not predict the clean bimodality that is already absent. It would also have to be derived independently rather than fitted to the data that falsified its predecessor.
 
-*The Hubble tension is real. The lattice fixes a possible displacement scale. The physical operator that selects and realizes it remains unknown.*
+*The discrepancy between the principal CMB and distance-ladder determinations is real. The lattice fixes a possible displacement scale. The physical operator that selects and realizes it remains unknown.*
 
 ---
 
