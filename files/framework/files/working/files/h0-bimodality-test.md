@@ -20,7 +20,7 @@ This test asks one question: **do published H₀ measurements cluster into two d
 
 It is independent of the trigger mechanism. The SPARC test ([sparc-phase-field.md](sparc-phase-field.md)) falsified the specific coherence-scale trigger $`L_f = v_c^2/a_0`$. The trigger says *why* a shift would happen; the bimodality test asks *whether* the two-population structure exists at all. A discrete framework can survive a failed trigger; it cannot survive a continuous H₀ distribution.
 
-This is a blind reanalysis of public data, not a pre-registered test. Every H₀ value used here was already published and widely known. The analysis choices (independent-subset membership, the statistical thresholds, the gap range) were fixed before the tests were run, but the data could not be blinded. The genuine forward test remains Euclid DR1.
+This is a blind reanalysis of public data, not a pre-registered test. Every H₀ value used here was already published and widely known. The analysis choices (de-duplicated-subset membership, the statistical thresholds, the gap range) were fixed before the tests were run, but the data could not be blinded. The genuine forward test remains Euclid DR1.
 
 ---
 
@@ -30,10 +30,10 @@ This is a blind reanalysis of public data, not a pre-registered test. Every H₀
 
 The distribution is statistically consistent with a single continuous population. It does sort by calibration class (early-universe low, local-ladder high), but that stratification is the Hubble tension itself; it is not evidence of a discrete quantized step.
 
-Three tests, run on a full 18-measurement set and a 13-row independent subset, with the model-dependent TDCOSMO value swapped between its two published determinations as a sensitivity check. All four configurations agree.
+Three tests, run on a full 18-measurement set and a 13-row de-duplicated subset, with the model-dependent TDCOSMO value swapped between its two published determinations as a sensitivity check. All four configurations agree.
 
-- **Hartigan dip test.** Fails to reject unimodality in every configuration. Primary config (independent subset, TDCOSMO = Shajib): p = 0.217 unweighted, median p = 0.469 with measurement uncertainties propagated by Monte Carlo, and only 5.3% of MC draws reach p < 0.05. No statistical signal of bimodality.
-- **Gaussian mixture.** BIC does not cleanly separate 1- from 2-component fits: the independent subset weakly favours 2 components, the full set weakly favours 1, and every ΔBIC is far below the ≈ 2 threshold for even weak evidence. The models are effectively tied. Where a 2-component fit is the nominal pick, its means land near 68.4 and 73.5, not the lattice-predicted 67 and 73.
+- **Hartigan dip test.** Fails to reject unimodality in every configuration. Primary config (de-duplicated subset, TDCOSMO = Shajib): p = 0.217 unweighted, median p = 0.469 with measurement uncertainties propagated by Monte Carlo, and only 5.3% of MC draws reach p < 0.05. No statistical signal of bimodality.
+- **Gaussian mixture.** BIC does not cleanly separate 1- from 2-component fits: the de-duplicated subset weakly favours 2 components, the full set weakly favours 1, and every ΔBIC is far below the ≈ 2 threshold for even weak evidence. The models are effectively tied. Where a 2-component fit is the nominal pick, its means land near 68.4 and 73.5, not the lattice-predicted 67 and 73.
 - **Gap test.** The predicted 69 to 71 gap is not empty. TRGB / CCHP (Freedman) at 69.8 ± 1.7 falls inside it, and JAGB / CCHP at 67.8 blurs the low edge.
 
 By the Section V kill table, a failure to reject unimodality is evidence against the quantized-step picture.
@@ -42,9 +42,9 @@ By the Section V kill table, a failure to reject unimodality is evidence against
 
 ## I. Data
 
-Eighteen published H₀ determinations, one row per independent analysis, compiled 2026-05-19 from the primary literature. Units km/s/Mpc. The "Indep." column marks membership in the independent subset (Section II).
+Eighteen published H₀ determinations, one row per analysis, compiled 2026-05-19 from the primary literature. Units km/s/Mpc. The "Dedup." column marks membership in the de-duplicated subset (Section II).
 
-| Method | Class | H₀ | σ | Reference | Indep. |
+| Method | Class | H₀ | σ | Reference | Dedup. |
 |---|---|---|---|---|---|
 | CMB, Planck 2018 | early-universe | 67.40 | 0.50 | Planck Collab. 2020 | Y |
 | CMB, ACT DR6 | early-universe | 68.30 | 1.10 | Madhavacheril et al. 2024 | Y |
@@ -77,9 +77,9 @@ Notes on individual rows. The Stiskalek et al. 2026 value is the MNRAS abstract 
 
 ## II. Method
 
-### Independent subset
+### De-duplicated subset
 
-The 18 measurements are not 18 independent data points. Many share anchor galaxies, supernova samples, or calibration steps; correlated measurements inflate apparent bimodality. Five rows are tagged non-independent and excluded from the primary subset:
+The 18 measurements are not 18 independent data points. Many share anchor galaxies, supernova samples, or calibration steps; correlated measurements inflate apparent bimodality. Five rows are dropped from the primary subset:
 
 - **JWST Cepheids, SH0ES (Riess 2024)** is an explicit cross-check of Riess et al. 2022, same team, anchors, and supernova sample.
 - **TRGB, Anand 2022** is a re-reduction of the same CCHP TRGB photometry with a different edge-detection method.
@@ -87,7 +87,7 @@ The 18 measurements are not 18 independent data points. Many share anchor galaxi
 - **Surface brightness fluctuations** has a zero-point tied to the Cepheid scale; it inherits that calibration rather than measuring H₀ independently.
 - **Tully-Fisher** has a zero-point calibrated on Cepheid and TRGB distances; same inheritance.
 
-The 13-row independent subset is the primary set; the full 18-row set is reported as secondary. The four early-universe experiments are kept in but share sound-horizon physics, noted where relevant.
+The 13-row de-duplicated subset is the primary set; the full 18-row set is reported as secondary. De-duplication removes the obvious re-analyses; it does not make the remainder statistically independent. Three retained rows come from the Carnegie-Chicago programme and share its lineage and calibration targets, and the retained ladder determinations are not mutually independent in a strict sense; a dependency matrix would be needed to support a stronger label. The four early-universe experiments are kept in but share sound-horizon physics, noted where relevant.
 
 ### Tests
 
@@ -111,9 +111,9 @@ Every measurement with its error bar, sorted by H₀ and coloured by class. The 
 
 | Configuration | dip p (unweighted) | median p (MC) | MC fraction p < 0.05 |
 |---|---|---|---|
-| Independent, TDCOSMO = Shajib (primary) | 0.217 | 0.469 | 5.3% |
+| De-duplicated, TDCOSMO = Shajib (primary) | 0.217 | 0.469 | 5.3% |
 | Full, TDCOSMO = Shajib | 0.722 | 0.606 | 2.3% |
-| Independent, TDCOSMO = Birrer | 0.661 | 0.648 | 2.9% |
+| De-duplicated, TDCOSMO = Birrer | 0.661 | 0.648 | 2.9% |
 | Full, TDCOSMO = Birrer | 0.308 | 0.620 | 1.9% |
 
 The null hypothesis is unimodal. It is not rejected anywhere.
@@ -124,13 +124,13 @@ The KDE shows a soft two-hump shape driven by the genuine class stratification, 
 
 ### Gaussian mixture
 
-BIC does not cleanly prefer two components. The independent subset weakly favours a 2-component fit (ΔBIC 0.47 with TDCOSMO = Shajib, 0.15 with Birrer); the full 18-row set weakly favours a single component (ΔBIC 0.73 and 0.30 the other way). Every margin is far below the ΔBIC ≈ 2 threshold for even weak evidence, so the 1- and 2-component models are statistically tied in all four configurations. Where a 2-component fit is the nominal pick (the independent subset), its means come out near 68.4 and 73.4 to 73.5: the low cluster is roughly one unit above the lattice value of 67.
+BIC does not cleanly prefer two components. The de-duplicated subset weakly favours a 2-component fit (ΔBIC 0.47 with TDCOSMO = Shajib, 0.15 with Birrer); the full 18-row set weakly favours a single component (ΔBIC 0.73 and 0.30 the other way). Every margin is far below the ΔBIC ≈ 2 threshold for even weak evidence, so the 1- and 2-component models are statistically tied in all four configurations. Where a 2-component fit is the nominal pick (the de-duplicated subset), its means come out near 68.4 and 73.4 to 73.5: the low cluster is roughly one unit above the lattice value of 67.
 
 ![GMM model selection](figures/h0-bimodality-fig3-gmm.png)
 
 ### Gap test
 
-One independent local-ladder method falls in the predicted 69 to 71 gap: TRGB / CCHP (Freedman) at 69.8 ± 1.7. JAGB / CCHP at 67.8 blurs the low edge. The gap is populated, not clean.
+One retained local-ladder method falls in the predicted 69 to 71 gap: TRGB / CCHP (Freedman) at 69.8 ± 1.7. JAGB / CCHP at 67.8 blurs the low edge. The gap is populated, not clean.
 
 ### Class means
 
