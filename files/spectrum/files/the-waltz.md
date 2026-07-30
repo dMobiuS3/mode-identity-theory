@@ -157,7 +157,7 @@ Mass reads from this directly: it is the cost of crossing from the temporal edge
 
 Photons carry energy and momentum along the temporal edge. They couple matter to matter through the electromagnetic interaction ($`\alpha`$ lives at the 13/60 well on the 60R-grid). They never enter the surface. All massless bosons share this character.
 
-The three gauge forces exhaust a grid ladder built from the same stabilizer structure: EM occupies the purely bosonic rung (60R/60R), the strong force mixes bosonic carriers with spinorial targets (60R/120), and the weak force is fully spinorial (120/120) with a $`\cos(\pi/10)`$ correction from the dodecahedral vertex defect halved by the Möbius twist. All three couplings derive from the Coxeter conjugate pair $`(13, 17)`$ under $`h(E_8) = 30`$, evaluated on their respective grids. The companion gauge coupling analysis reproduces $`\alpha`$ at 0.5%, $`\alpha_s`$ at 1.4%, and $`\alpha_W`$ at 0.4%.
+The three gauge forces exhaust a grid ladder built from the same stabilizer structure: EM occupies the purely bosonic rung (60R/60R), the strong force mixes bosonic carriers with spinorial targets (60R/120), and the weak force is fully spinorial (120/120) with a $`\cos(\pi/10)`$ correction from the dodecahedral vertex defect halved by the Möbius twist. All three couplings derive from the Coxeter conjugate pair $`(13, 17)`$ under $`h(E_8) = 30`$, evaluated on their respective grids. The companion gauge coupling analysis reproduces $`\alpha`$ at 0.4%, $`\alpha_s`$ at 1.5%, and $`\alpha_W`$ at 0.3%.
 
 | Propagation | Crosses to surface? | Mass |
 |---|---|---|

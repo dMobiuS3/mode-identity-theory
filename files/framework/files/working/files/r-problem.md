@@ -4,7 +4,7 @@
 
 # The R Problem
 
-**Status (2026-06-18):** Two live routes. The coupling (α) route pins Ω_Λ, hence R, returning Λ to a forward prediction at 24%; the mass-spectrum route is an independent cross-check at order of magnitude. This note tracks every route to an independent curvature radius R and where each stands; it sits above the detail in [r-from-mass-spectrum.md](r-from-mass-spectrum.md).
+**Status (2026-06-18):** Two live routes. The coupling (α) route pins Ω_Λ, hence R, returning Λ to a forward prediction at 23%; the mass-spectrum route is an independent cross-check at order of magnitude. This note tracks every route to an independent curvature radius R and where each stands; it sits above the detail in [r-from-mass-spectrum.md](r-from-mass-spectrum.md).
 
 **Related:** [R from the mass spectrum](r-from-mass-spectrum.md), [Calibration Structure](calibration-structure.md), [Scaling Law Uniqueness](scaling-law-uniqueness.md).
 
@@ -21,12 +21,12 @@
 | de Sitter | R = √(3/Λ) | **Circular.** Reads R off Λ, feeds Λ back. |
 | Molien gap (CMB) | low-ℓ feature → R ≈ 5.3 Gpc | **Not independent.** The old "sin-fold moves the first peak to ℓ ≈ 42, so R = 5.3 Gpc is excluded" was a coordinate error: the operative cosmology is flat FLRW and CMB-consistent. But the Molien gap still does not *determine* R on its own. |
 | L-ratio (CMB) | ℓ_cut → L_fund → ×8 → L_strip = πR → R | **Dead.** The factor of 8 has no topological derivation: three clean kills, and the geometry gives W = πR/2, not the W = R/4 the 8 would require. |
-| Coupling (α) | measured α → Ω_Λ → R | **Live, best-conditioned.** α matched to ~0.5%, lever-amplified to Λ at 24%; independent of Λ, CMB, de Sitter. |
+| Coupling (α) | measured α → Ω_Λ → R | **Live, best-conditioned.** α matched to ~0.4%, lever-amplified to Λ at 23%; independent of Λ, CMB, de Sitter. |
 | Particle mass spectrum | m_e, m_μ → R | **Live, executed.** Order of magnitude. See [r-from-mass-spectrum.md](r-from-mass-spectrum.md). |
 
 ## The live routes
 
-The coupling route inverts the fine-structure formula's Ω_Λ dependence: measured α fixes Ω_Λ, hence R, and returns Λ = 3/R² to within 24%. Because α is matched to ~0.5% and the lever is the same 60×, it is the tighter of the two live routes and sharpens R by about an order of magnitude over the mass route, without touching the mass residuals. It is independent of Λ, the CMB, and the de Sitter relation.
+The coupling route inverts the fine-structure formula's Ω_Λ dependence: measured α fixes Ω_Λ, hence R, and returns Λ = 3/R² to within 23%. Because α is matched to ~0.4% and the lever is the same 60×, it is the tighter of the two live routes and sharpens R by about an order of magnitude over the mass route, without touching the mass residuals. It is independent of Λ, the CMB, and the de Sitter relation.
 
 The mass-spectrum route inverts the fermion mass formula's Ω_Λ dependence: electron and muon give R ≈ 20 Gpc and Λ ≈ 8 × 10⁻⁵⁴ m⁻², about 14× (one order of magnitude) below observed. It is independent of Λ, the CMB, and the de Sitter relation, so it genuinely breaks the circularity. The precision is capped at order of magnitude by the McKay-lever amplification (60× for Δd = 1) acting on the mass formula's irreducible few-percent residual scatter, and a full pair scan shows no fermion pair beats electron-muon. Full computation in [r-from-mass-spectrum.md](r-from-mass-spectrum.md).
 
@@ -40,7 +40,7 @@ One piece of the L investigation stands independently of the dead factor of 8: t
 
 ## Where it stands
 
-Two routes are live. The coupling (α) route is the tighter, returning Λ to a forward prediction at 24%; the mass spectrum is an independent cross-check at order of magnitude, and the two agree to within their amplified input residuals. The mass route will not sharpen by pair selection (its floor is the mass formula's residual scatter times the smallest McKay lever, with no parameter-free way to shrink the high-distance residuals), but it does not need to: the α route already sharpens R by about an order of magnitude by feeding a better-conditioned input through the same 60× inversion. The L ratio remains a downstream consistency check rather than a route; its factor of 8 is dead on geometric grounds (W = πR/2, not R/4), independent of how precisely R is now known.
+Two routes are live. The coupling (α) route is the tighter, returning Λ to a forward prediction at 23%; the mass spectrum is an independent cross-check at order of magnitude, and the two agree to within their amplified input residuals. The mass route will not sharpen by pair selection (its floor is the mass formula's residual scatter times the smallest McKay lever, with no parameter-free way to shrink the high-distance residuals), but it does not need to: the α route already sharpens R by about an order of magnitude by feeding a better-conditioned input through the same 60× inversion. The L ratio remains a downstream consistency check rather than a route; its factor of 8 is dead on geometric grounds (W = πR/2, not R/4), independent of how precisely R is now known.
 
 ---
 

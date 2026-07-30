@@ -76,7 +76,7 @@ Hubble measured the tension in 1929 from the same structure: a phase field effec
 
 | Observable | Output | Observed | Agreement |
 |---|---|---|---|
-| [↗](files/cosmological-constant.md) $`\Lambda`$ (coupling $`\alpha`$ route) | $`\Lambda_\text{obs}\,\ell_P^2 \approx 2.9 \times 10^{-122}`$ | $`2.90 \times 10^{-122}`$ | ~24% |
+| [↗](files/cosmological-constant.md) $`\Lambda`$ (coupling $`\alpha`$ route) | $`\Lambda_\text{obs}\,\ell_P^2 \approx 2.9 \times 10^{-122}`$ | $`2.90 \times 10^{-122}`$ | ~23% |
 | [↗](files/cosmological-constant.md) $`\Lambda`$ (mass-spectrum cross-check) | $`\Lambda \approx 8 \times 10^{-54}`$ m⁻² | $`1.11 \times 10^{-52}`$ m⁻² | order of magnitude |
 | [↗](../spectrum/files/the-waltz.md) $`\Lambda_\text{obs}/\Lambda_\text{top}`$ | 3/2 (gravitational cost) | Gauss-equation conversion (vacuum sector) | exact |
 | [↗](files/cosmological-constant.md) $`\Lambda`$ eigenvalue | topological ($`2/R_\Lambda^2`$) constant | topological protection holds | ✓ |

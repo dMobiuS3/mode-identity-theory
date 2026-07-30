@@ -293,18 +293,18 @@ The couplings then follow one assignment rule: the phase slot inherits the grid 
 
 | Force | Phase grid | Exponent grid | Formula | Predicted | Observed | Agreement |
 |---|---|---|---|---|---|---|
-| EM ($`\alpha`$) | 60R (bosonic carrier) | 60R (bosonic current) | $`C(13/60) \cdot \Omega_\Lambda^{-1/60}`$ | 0.00733 | 0.00730 | 0.5% |
-| Strong ($`\alpha_s`$) | 60R (bosonic carrier) | 120 (confined fermions) | $`C(17/60) \cdot \Omega_\Lambda^{-1/120}`$ | 0.1162 | 0.1179 | 1.4% |
-| Weak ($`\alpha_W`$) | 120 (fermion-changing action) | 120 (fermion transitions) | $`C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)`$ | 0.0339 | 0.0338 | 0.4% |
-| SUSY rung (vacant) | 120 (fermionic carrier) | 60R (bosonic target) | none: would change fermion/boson class | — | no superpartners | structurally closed |
+| EM ($`\alpha`$) | 60R (bosonic carrier) | 60R (bosonic current) | $`C(13/60) \cdot \Omega_\Lambda^{-1/60}`$ | 0.00733 | 0.00730 | 0.4% |
+| Strong ($`\alpha_s`$) | 60R (bosonic carrier) | 120 (confined fermions) | $`C(17/60) \cdot \Omega_\Lambda^{-1/120}`$ | 0.1162 | 0.1180 | 1.5% |
+| Weak ($`\alpha_W`$) | 120 (fermion-changing action) | 120 (fermion transitions) | $`C(17/120) \cdot \Omega_\Lambda^{-1/120} \cdot \cos(\pi/10)`$ | 0.0339 | 0.0338 | 0.3% |
+| SUSY rung (vacant) | 120 (fermionic carrier) | 60R (bosonic target) | none: would change fermion/boson class | — | no superpartners | vacant (ladder rule) |
 
 **Scale caveat.** The displayed values compare $`\alpha`$ at low energy with $`\alpha_s`$ and $`\alpha_W`$ in their conventional $`Z`$-mass normalizations. The grid returns base assignments; reconciling the reference scales, or deriving the running from the topology, remains open.
 
-**Reading note.** These percent-level agreements are predictions *from the $`\Lambda`$ reading*: with $`\Omega_\Lambda`$ fixed by a surface anchor, the scaling law returns the couplings. When a coupling is instead the anchor that fixes $`\Omega_\Lambda`$ (the best-conditioned route, since $`\alpha`$ is the most precisely measured input), its own 0.5% becomes a consistency check rather than an independent prediction, and the genuine output of that route is $`\Lambda`$ to 24% ($`\alpha \to \Omega_\Lambda \to \Lambda = 3/R_\Lambda^2`$). The three interchangeable anchors are laid out under [Three readings of one hierarchy](#three-readings-of-one-hierarchy).
+**Reading note.** These percent-level agreements are predictions *from the $`\Lambda`$ reading*: with $`\Omega_\Lambda`$ fixed by a surface anchor, the scaling law returns the couplings. When a coupling is instead the anchor that fixes $`\Omega_\Lambda`$ (the best-conditioned route, since $`\alpha`$ is the most precisely measured input), its own 0.4% becomes a consistency check rather than an independent prediction, and the genuine output of that route is $`\Lambda`$ to 23% ($`\alpha \to \Omega_\Lambda \to \Lambda = 3/R_\Lambda^2`$). The three interchangeable anchors are laid out under [Three readings of one hierarchy](#three-readings-of-one-hierarchy).
 
 The Coxeter pair $`(13, 17)`$ under $`h(E_8) = 30`$ is forced: all alternative conjugate pairs fail by 93% to 770%. The three forces exhaust the grid ladder, monotone in spinorial content. There are only four ways to pair a carrier grid with a target grid, and the table shows three of them filled.
 
-**The fourth rung is supersymmetry's, and it is empty.** The one missing pairing would turn a fermion into a boson, exactly the move a superpartner symmetry asks for. Every real gauge rung acts within a statistics class: EM, strong, and weak change phase, charge, or representation but leave the fermion or boson character of what they act on intact. A superpartner rung would instead identify the fermionic 120-grid (the section $`\psi`$) with the bosonic 60R-grid (the intensity $`\lvert\psi\rvert^2`$), the split that the central element $`-I`$ and the Möbius sign flip carry, and no gauge rung crosses it. The obstruction is spin-statistical, not an attempted inverse of $`\psi \to \lvert\psi\rvert^2`$: that projection is well-defined but non-invertible, which is the measurement-level reason the two grids stay distinct. So the missing superpartner force is not an unreached energy scale but the closed fourth chair at a table set for exactly four.
+**The fourth rung is supersymmetry's, and it is empty.** The one missing pairing would turn a fermion into a boson, exactly the move a superpartner symmetry asks for. Every real gauge rung acts within a statistics class: EM, strong, and weak change phase, charge, or representation but leave the fermion or boson character of what they act on intact. A superpartner rung would instead identify the fermionic 120-grid (the section $`\psi`$) with the bosonic 60R-grid (the intensity $`\lvert\psi\rvert^2`$), the split that the central element $`-I`$ and the Möbius sign flip carry, and no gauge rung crosses it. The obstruction is the ladder's own rule, not a spin-statistics prohibition (ordinary quantum field theory permits fermionic mediators between fermions and bosons), not an attempted inverse of $`\psi \to \lvert\psi\rvert^2`$: that projection is well-defined but non-invertible, which is the measurement-level reason the two grids stay distinct. So the missing superpartner force is not an unreached energy scale but the closed fourth chair at a table set for exactly four.
 
 ## :atom_symbol: [One Formula](../spectrum/files/mass-spectrum.md)
 
@@ -449,13 +449,13 @@ To attach a scale you invert one observable for $`\Omega_\Lambda`$. Three are in
 
 | Anchor | Determines | $`\Lambda`$ | $`\alpha`$ | Precision driver |
 |---|---|---|---|---|
-| Measured $`\Lambda`$ (sets $`R_\Lambda`$) | $`\Omega_\Lambda`$ from $`R_\Lambda`$ | circular | 0.5% | current default |
-| Measured $`\alpha`$ | $`\Omega_\Lambda`$ from the coupling | 24% (genuine) | circular | best-conditioned |
+| Measured $`\Lambda`$ (sets $`R_\Lambda`$) | $`\Omega_\Lambda`$ from $`R_\Lambda`$ | circular | 0.4% | current default |
+| Measured $`\alpha`$ | $`\Omega_\Lambda`$ from the coupling | 23% (genuine) | circular | best-conditioned |
 | Mass spectrum ($`m_\mu/m_e`$) | $`\Omega_\Lambda`$ from the mass ratio | ~14x (genuine) | ~few % | independent cross-check |
 
-The headline is the second row: from one measured coupling, with no $`R_\Lambda`$ and no further calibration, the scaling law fixes the cosmological constant to 24%. The 122 orders of magnitude are not predicted here; they enter through $`\Omega_\Lambda`$, read from $`\alpha`$. What this route adds is the residual coefficient, to 24%. QFT, which does try to predict the magnitude from first principles, overshoots by $`10^{120}`$.
+The headline is the second row: from one measured coupling, with no $`R_\Lambda`$ and no further calibration, the scaling law fixes the cosmological constant to 23%. The 122 orders of magnitude are not predicted here; they enter through $`\Omega_\Lambda`$, read from $`\alpha`$. What this route adds is the residual coefficient, to 23%. QFT, which does try to predict the magnitude from first principles, overshoots by $`10^{120}`$.
 
-All three are the same inversion through the same 60-fold McKay/grid lever ($`\Lambda\ell_P^2 \propto \alpha^{60}`$), so they differ only in input conditioning: $`\alpha`$ matches its formula to ~0.5% and lands $`\Lambda`$ at 24%, the mass ratio matches to ~4.5% and lands ~14× off; the gap is amplified input error, not a structural inconsistency.
+All three are the same inversion through the same 60-fold McKay/grid lever ($`\Lambda\ell_P^2 \propto \alpha^{60}`$), so they differ only in input conditioning: $`\alpha`$ matches its formula to ~0.4% and lands $`\Lambda`$ at 23%, the mass ratio matches to ~4.5% and lands ~14× off; the gap is amplified input error, not a structural inconsistency.
 
 The mass reading earns its independent-cross-check label structurally: a same-depth ratio cancels $`R_\Lambda`$, but the electron and muon sit at different McKay distances, so their mass ratio keeps a net power of $`\sqrt{\Omega_\Lambda}`$ through the elevator and reads the scale rather than dividing it out.
 
@@ -476,8 +476,8 @@ Edge observables reference the evolving $`\Omega_H(z)`$; surface and space obser
 |---|---|
 | dimensionless ratios (couplings, $`a_0/cH_0`$, counts, $`T_3`$) | parameter-free, anchor-independent |
 | $`\Omega_\Lambda`$ | over-determined by three independent readings |
-| $`\Lambda`$ (absolute) | prediction from the $`\alpha`$ reading (24%) or the mass reading (~14x); circular from the $`\Lambda`$ reading |
-| $`\alpha`$, $`\alpha_s`$, $`\alpha_W`$ (absolute) | prediction from the $`\Lambda`$ reading (0.5%); the anchor when $`\alpha`$ is the input |
+| $`\Lambda`$ (absolute) | prediction from the $`\alpha`$ reading (23%) or the mass reading (~14x); circular from the $`\Lambda`$ reading |
+| $`\alpha`$, $`\alpha_s`$, $`\alpha_W`$ (absolute) | prediction from the $`\Lambda`$ reading (0.4%); the anchor when $`\alpha`$ is the input |
 | first positive eigenvalue $`2/R_\Lambda^2`$ | surface spectral result |
 | fermion mass ratios | structural predictions (McKay / torsion) |
 | absolute fermion masses | set by the $`m_e`$ benchmark |

@@ -147,7 +147,7 @@ The two sides differ in kind: one smooth, one discrete. So gravity should not be
 
 ## :control_knobs: Inputs
 
-Two constants fix the units. The absolute scale is a calibration choice, not a privileged input: the hierarchy $`\Omega_\Lambda`$ is over-determined, fixed to within residuals by Λ (through $`R_\Lambda`$), by $`\alpha`$, or by the mass ratio, and every dimensionless result holds under each choice. The $`\alpha`$ reading is the best-conditioned, fixing $`\Lambda`$ to ~24% with no $`R_\Lambda`$. The default entry below is $`R_\Lambda`$ for the cosmological scale and $`m_e`$ as the mass benchmark, with $`s_0`$ for the phase.
+Two constants fix the units. The absolute scale is a calibration choice, not a privileged input: the hierarchy $`\Omega_\Lambda`$ is over-determined, fixed to within residuals by Λ (through $`R_\Lambda`$), by $`\alpha`$, or by the mass ratio, and every dimensionless result holds under each choice. The $`\alpha`$ reading is the best-conditioned, fixing $`\Lambda`$ to ~23% with no $`R_\Lambda`$. The default entry below is $`R_\Lambda`$ for the cosmological scale and $`m_e`$ as the mass benchmark, with $`s_0`$ for the phase.
 
 **Primitives**
 
@@ -177,7 +177,7 @@ Outputs of a fixed structure, checked against observation:
 
 | Observable | Output | Observed | Agreement |
 |---|---|---|---|
-| [↗](/files/cosmos/files/cosmological-constant.md#d-the-scale-r-two-live-routes) $`\Lambda`$ (coupling $`\alpha`$ route) | $`\Lambda_\text{obs}\,\ell_P^2 \approx 2.9 \times 10^{-122}`$ | $`2.90 \times 10^{-122}`$ | ~24% |
+| [↗](/files/cosmos/files/cosmological-constant.md#d-the-scale-r-two-live-routes) $`\Lambda`$ (coupling $`\alpha`$ route) | $`\Lambda_\text{obs}\,\ell_P^2 \approx 2.9 \times 10^{-122}`$ | $`2.90 \times 10^{-122}`$ | ~23% |
 | [↗](/files/cosmos/files/cosmological-constant.md#d-the-scale-r-two-live-routes) $`\Lambda`$ (mass-spectrum cross-check) | $`\Lambda \approx 8 \times 10^{-54}`$ m⁻² | $`1.11 \times 10^{-52}`$ m⁻² | order of magnitude |
 | [↗](/files/spectrum/files/the-waltz.md#ii-gravity-as-the-cost-to-dance) $`\Lambda_\text{obs}/\Lambda_\text{top}`$ | 3/2 (gravitational cost) | Gauss-equation conversion (vacuum sector) | exact |
 | [↗](/files/cosmos/files/cosmological-constant.md#iii-the-first-positive-mode) $`\Lambda`$ eigenvalue | topological ($`2/R_\Lambda^2`$) constant | topological protection holds | ✓ |
@@ -207,9 +207,9 @@ Outputs of a fixed structure, checked against observation:
 | [↗](/files/spectrum/files/mass-spectrum.md#v-dead-zone-targets-and-exclusions) Rank 16 entry | $`R_5`$ gal, ~418 MeV | no known fermion | open |
 | [↗](/files/spectrum/files/mass-spectrum.md#v-dead-zone-targets-and-exclusions) Dead zone | 6 states, eV to keV | no SM fermions in range | open |
 | [↗](/files/spectrum/files/mass-spectrum.md#1-neutrino-floor--mu_lambda) $`\nu`$ floor | $`\mu_\Lambda \approx 2.25`$ meV | < 800 meV (KATRIN) | awaiting measurement |
-| [↗](/files/spectrum/files/fine-structure.md#alpha_s-the-strong-coupling) $`\alpha_s`$ | 0.11622 | 0.11790 | 1.42% |
-| [↗](/files/spectrum/files/fine-structure.md#alpha_w-the-weak-coupling-and-the-plato-twist) $`\alpha_W`$ | 0.03392 | 0.03378 | 0.41% |
-| [↗](/files/spectrum/files/fine-structure.md#iii-the-formula) $`\alpha`$ | 0.00733 | 0.007297 | 0.49% |
+| [↗](/files/spectrum/files/fine-structure.md#alpha_s-the-strong-coupling) $`\alpha_s`$ | 0.1162 | 0.1180 | 1.5% |
+| [↗](/files/spectrum/files/fine-structure.md#alpha_w-the-weak-coupling-and-the-plato-twist) $`\alpha_W`$ | 0.0339 | 0.0338 | 0.3% |
+| [↗](/files/spectrum/files/fine-structure.md#iii-the-formula) $`\alpha`$ | 0.00733 | 0.00730 | 0.4% |
 | [↗](/files/spectrum/files/fine-structure.md#alpha_s--alpha_w-pure-geometry) $`\alpha_s / \alpha_W`$ | 3.426 (pure geometry) | 3.490 | 1.8% |
 
 >The absolute mass scale and Λ are two ends of one loop: fix $`m_e`$ and the topology gives Λ; fix Λ and it gives $`m_e`$ to ~2%. Inverting the closure, a 2% shift in $`m_e`$ moves Λ by ~11% under the default calibration, where $`R`$ (hence $`\Omega_\Lambda`$) is set by Λ, so $`m_e \propto \Lambda^{11/60}`$ once the $`\mu_\Lambda`$ scale and the $`\Omega_\Lambda`$ feedback are collected. Neither end is privileged: the closure is the mass-spectrum reading of the hierarchy, and the mass ratios are free of the absolute scale.

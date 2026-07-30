@@ -16,7 +16,7 @@ Orienting notes that index other work.
 
 ### [Claim Ledger](files/claim-ledger.md)
 
-**Audit lens (2026-06-26):** A skeptical, framework-wide classification of every quantitative claim by epistemic type (forward prediction, zero-freedom structural result, internal theorem, loose comparison, calibration anchor, null result, open problem) and role. Separates the thin forward sector the framework lives or dies on (mostly Euclid DR1) from the retrodictions inside the calibration web, draws the web's eight cycles explicitly, and flags overclaims, double-counts, and the two real internal tensions: Cycle 2 ($`\alpha`$ is both input and output, so the 0.5% match is a consistency check) and Cycle 7 (the coupling-route and mass-route values of $`R`$ disagree ~4×). Built to keep the public pages honest, not as the framework's self-description; ends with a source-page triage queue.
+**Audit lens (2026-06-26):** A skeptical, framework-wide classification of every quantitative claim by epistemic type (forward prediction, zero-freedom structural result, internal theorem, loose comparison, calibration anchor, null result, open problem) and role. Separates the thin forward sector the framework lives or dies on (mostly Euclid DR1) from the retrodictions inside the calibration web, draws the web's eight cycles explicitly, and flags overclaims, double-counts, and the two real internal tensions: Cycle 2 ($`\alpha`$ is both input and output, so the 0.4% match is a consistency check) and Cycle 7 (the coupling-route and mass-route values of $`R`$ disagree ~4×). Built to keep the public pages honest, not as the framework's self-description; ends with a source-page triage queue.
 
 **Dependencies:** Indexes the whole framework; see especially [The R Problem](files/r-problem.md) and [Calibration Structure](files/calibration-structure.md).
 
@@ -139,7 +139,7 @@ Technical gaps with specific paths forward.
 **Coupling and scaling exponents.** Each is a distinct single-principle-derivation gap on a gauge or scaling exponent; the load-bearing number stays in place.
 
 - **dist/30 Hierarchy Exponent:** Three convergent paths connect McKay graph distance to the Coxeter number of $`E_8`$ as the scaling exponent; single-principle derivation open. *Deps:* McKay correspondence, $`E_8`$ Coxeter number.
-- **Scale Consistency:** Three gauge couplings evaluated at different energy scales; $`\alpha`$ hits 0.5% at low energy but 6.2% at $`M_Z`$, so the framework must commit to one evaluation scale or derive running from MIT structure. *Deps:* gauge coupling derivation (engine §15), scaling law.
+- **Scale Consistency:** Three gauge couplings evaluated at different energy scales; $`\alpha`$ hits 0.4% at low energy but 6.2% at $`M_Z`$, so the framework must commit to one evaluation scale or derive running from MIT structure. *Deps:* gauge coupling derivation (engine §15), scaling law.
 - **$`\alpha`$ Exponent:** The $`\alpha`$ exponent equals the minimum grid step; two convergent paths remain and the uniqueness scan confirms, but single-principle derivation is open. *Deps:* grid structure, scaling law.
 - **Plato Twist Derivation:** $`\cos(\pi/10)`$ is motivated by the dodecahedral half-defect and parity violation; the open link is the operator-level mechanism connecting $`\mathbb{Z}_2`$ holonomy to the multiplicative cosine projection on weak coupling. *Deps:* Möbius non-orientability, stabilizer decomposition.
 

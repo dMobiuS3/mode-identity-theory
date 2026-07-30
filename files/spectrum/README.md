@@ -71,9 +71,9 @@ Embed the surface in space and the curvature converts the sample to energy by 3/
 | [↗](files/mass-spectrum.md) Rank 16 entry | $`R_5`$ gal, ~418 MeV | no known fermion | open |
 | [↗](files/mass-spectrum.md) Dead zone | 6 states, eV to keV | no SM fermions in range | open |
 | [↗](files/mass-spectrum.md) $`\nu`$ floor | $`\mu_\Lambda \approx 2.25`$ meV | < 800 meV (KATRIN) | awaiting measurement |
-| [↗](files/fine-structure.md) $`\alpha_s`$ | 0.11622 | 0.11790 | 1.42% |
-| [↗](files/fine-structure.md) $`\alpha_W`$ | 0.03392 | 0.03378 | 0.41% |
-| [↗](files/fine-structure.md) $`\alpha`$ | 0.00733 | 0.007297 | 0.49% |
+| [↗](files/fine-structure.md) $`\alpha_s`$ | 0.1162 | 0.1180 | 1.5% |
+| [↗](files/fine-structure.md) $`\alpha_W`$ | 0.0339 | 0.0338 | 0.3% |
+| [↗](files/fine-structure.md) $`\alpha`$ | 0.00733 | 0.00730 | 0.4% |
 | [↗](files/fine-structure.md) $`\alpha_s / \alpha_W`$ | 3.426 (pure geometry) | 3.490 | 1.8% |
 
 ---

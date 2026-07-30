@@ -26,7 +26,7 @@ Type taxonomy, in descending order of empirical bite:
 
 A large structural framework with genuine topological content, whose quantitative contact with measurement runs through a calibration web that contains real cycles, producing a handful of genuinely falsifiable forward predictions centred on Euclid, most of them on the full DR1 release (mid 2027).
 
-The structural content is not circular. Three generations from three flat connections on S³/2I, the Yang-Mills mass gap at 4/R², chirality, the Molien deficit: these are retrodictions with zero adjustable freedom, theorems about the topology that happen to match the world. They are the bones. The quantitative comparisons (α to 0.5%, the couplings to ~1%, the masses to a factor of 3, a₀/cH₀ to <1%, Λ to 24%) are a different animal: each is a retrodiction inside the calibration web, hitting a number already known by choosing among wells, grids, exponents, and three vacua, with the selection rule that would remove that freedom an explicit open problem.
+The structural content is not circular. Three generations from three flat connections on S³/2I, the Yang-Mills mass gap at 4/R², chirality, the Molien deficit: these are retrodictions with zero adjustable freedom, theorems about the topology that happen to match the world. They are the bones. The quantitative comparisons (α to 0.4%, the couplings to ~1%, the masses to a factor of 3, a₀/cH₀ to <1%, Λ to 23%) are a different animal: each is a retrodiction inside the calibration web, hitting a number already known by choosing among wells, grids, exponents, and three vacua, with the selection rule that would remove that freedom an explicit open problem.
 
 What the framework actually lives or dies on is a thin set of forward bets, nearly all riding on Euclid DR1: epoch-independent Λ / flat Ω_DE(z), mass-independent a₀(z) ∝ H(z) (the single cleanest discriminator, immune to the stellar-M/L freedom that wrecks the rotation-curve tests), and the sign-fixed negative (1+z)¹ term in H²(z). These are thinner than the page count suggests: a₀(z), H(z), w_eff(z), and d_L(z) are one phase-clock relation read through four channels, not four independent predictions.
 
@@ -36,14 +36,14 @@ The framework's strongest feature is recorded falsification. It pre-registered a
 
 ## Reconciliation (verified 2026-06-26)
 
-The Flags and triage items below are the audit's prosecution case. A follow-up pass verified the 13 highest-risk flags against the live text, using the standard that a caveat counts only if it is discoverable from the claim's own context. Outcome: **9 handled** (caveat already at the point of claim), **3 partial** (a real caveat exists but in a different file, not discoverable, the only items needing an edit), **1 ledger error** (`lambda_alpha_route`: the 24% window and the circularity are stated inline at every live site), **1 working-only** (`clock_age`: the 0.79 Gyr vs 13.8 Gyr tension lives only in temporal-budget.md §VIII, which already flags it open; no public page makes an age-recovery claim). None were wholly uncaveated.
+The Flags and triage items below are the audit's prosecution case. A follow-up pass verified the 13 highest-risk flags against the live text, using the standard that a caveat counts only if it is discoverable from the claim's own context. Outcome: **9 handled** (caveat already at the point of claim), **3 partial** (a real caveat exists but in a different file, not discoverable, the only items needing an edit), **1 ledger error** (`lambda_alpha_route`: the 23% window and the circularity are stated inline at every live site), **1 working-only** (`clock_age`: the 0.79 Gyr vs 13.8 Gyr tension lives only in temporal-budget.md §VIII, which already flags it open; no public page makes an age-recovery claim). None were wholly uncaveated.
 
 Methodological lesson: the audit judged each claim stripped of its in-page caveats, which inflated the overclaim count. The live framework is markedly more honest than the Flags section below implies. Treat the flags as leads to verify, not findings to act on.
 
 **The real residual** (the only source edits the verification justified) is three one-line cross-references:
 
 1. **μ_Λ** (mass-spectrum.md §II.1): the Λ in μ_Λ = ρ_Λ^(1/4) is the measured CC taken as calibration input, so μ_Λ is the mass sector's anchor, not an output. **Done 2026-06-26.**
-2. **α** (fine-structure.md §V scorecard): when α is the Ω_Λ anchor, its 0.5% is a consistency check, not an independent prediction. **Done 2026-06-26** (framework/README.md gauge ladder and the Desktop engine §15 carry the note now too).
+2. **α** (fine-structure.md §V scorecard): when α is the Ω_Λ anchor, its 0.4% is a consistency check, not an independent prediction. **Done 2026-06-26** (framework/README.md gauge ladder and the Desktop engine §15 carry the note now too).
 3. **Phase-clock channels** (euclid-dr1.md): rows II/III/V are channels of one H²(z;s₀) relation, correlated tests not independent predictions. **Done 2026-06-26** (clearly-dated post-freeze clarification below the Prediction Summary table; touches no immutable prediction/threshold/scoring cell).
 
 Cycle 2 (α) and Cycle 7 (R routes) named below are real tensions, but already disclosed at every live site; the α §15 "CLOSED" framing now carries a calibration note in both the repo and the Desktop engine.
@@ -52,7 +52,7 @@ Cycle 2 (α) and Cycle 7 (R routes) named below are real tensions, but already d
 
 Most of the calibration loops below are benign (definitions, or self-flagged consistency radii). Two are the framework's real internal tensions and deserve to be stated starkly:
 
-**Cycle 2: α is both input and output.** The α route calibrates R from the measured fine-structure constant (α fixes Ω_Λ, hence R), and then the scaling law "predicts" α from that same R. So **α at 0.5% is a consistency check, not a prediction of α.** The genuinely non-circular content of that chain is downstream: α → R → Λ = 3/R² is a real ~24% prediction of the cosmological constant. State it that way. The engine's §15 "α CLOSED" tag is the top source-page fix: it should say α is the calibration input for R, making the 0.5% match a closure test, with the Λ-at-24% as the actual forward-ish content.
+**Cycle 2: α is both input and output.** The α route calibrates R from the measured fine-structure constant (α fixes Ω_Λ, hence R), and then the scaling law "predicts" α from that same R. So **α at 0.4% is a consistency check, not a prediction of α.** The genuinely non-circular content of that chain is downstream: α → R → Λ = 3/R² is a real ~23% prediction of the cosmological constant. State it that way. The engine's §15 "α CLOSED" tag is the top source-page fix: it should say α is the calibration input for R, making the 0.4% match a closure test, with the Λ-at-23% as the actual forward-ish content.
 
 **Cycle 7: the two routes to R disagree by ~4×.** R from the coupling route is ≈5.3 Gpc; R from the mass-spectrum route is ≈20 Gpc, and the corresponding Λ values differ by ~14× (>1 order of magnitude). The engine honestly labels the mass route "order of magnitude," but a 4× disagreement between the framework's two independent determinations of its master length scale is a real problem, not a footnote. Until one route is shown to be the correct determination of R, every "prediction" that flows through R inherits this ambiguity.
 
@@ -74,7 +74,7 @@ a₀ [obs, MOND 1.2e-10]
 a₀/(cH₀)     ← a₀, H₀ ; reproduced by C(13/120)/C(34/120) = 0.184
 α [obs ~1/137]
 α (predicted)← C(13/60), Ω_Λ          (well/grid/exponent selected)
-Ω_Λ (α-route)← α                      (α → Ω_Λ → R → Λ, 24%)  ← CYCLE 2
+Ω_Λ (α-route)← α                      (α → Ω_Λ → R → Λ, 23%)  ← CYCLE 2
 α_s, α_W     ← C(17/..), Ω_Λ, cos(π/10)
 m_e [obs, BENCHMARK]
 fermion masses ← μ_Λ, C_geom(ρ), Ω_Λ^(dist/30), T²(ρ⊗σ)   (all relative to m_e)
@@ -149,11 +149,11 @@ Proved, often architecturally load-bearing, empirically inert. ~150+ leaf lemmas
 
 | Claim | Predicted → measured | Agreement | Freedom | Anchored on |
 |---|---|---|---|---|
-| Fine-structure α | 0.00733 → 0.007297 | 0.5% | well(13)/grid(60)/exp(1/60); **α is also the input for R (Cycle 2)** | Ω_Λ, α (web) |
-| Strong coupling α_s | 0.1162 → 0.1179 | 1.4% | well/grid/exp; α_s runs with scale | Ω_Λ (web) |
-| Weak coupling α_W | 0.0339 → 0.0338 | 0.4% | + cos(π/10) "Plato twist" applied only here | Ω_Λ, cos(π/10) |
+| Fine-structure α | 0.00733 → 0.00730 | 0.4% | well(13)/grid(60)/exp(1/60); **α is also the input for R (Cycle 2)** | Ω_Λ, α (web) |
+| Strong coupling α_s | 0.1162 → 0.1180 | 1.5% | well/grid/exp; α_s runs with scale | Ω_Λ (web) |
+| Weak coupling α_W | 0.0339 → 0.0338 | 0.3% | + cos(π/10) "Plato twist" applied only here | Ω_Λ, cos(π/10) |
 | α_s/α_W | 3.43 → 3.49 | 2% | quotient of two already-counted fits | Z₃/Z₅ |
-| Λ via α route | 2.9e-122 → 2.90e-122 | within 24% window | 60-fold lever; route choice; Cycle 2 | α, Ω_Λ, R |
+| Λ via α route | 2.9e-122 → 2.90e-122 | within 23% window | 60-fold lever; route choice; Cycle 2 | α, Ω_Λ, R |
 | Λ via mass route | 8e-54 → 1.11e-52 | **~14× off (demote: a miss)** | bar relaxed %→OoM; Cycle 7 | m_e, Ω_Λ |
 | Λ_obs/Λ_top = 3/2 | 3/2 | exact (claim) vs a σ-statement | Gauss-vs-stabilizer 3/2 identity OPEN | Λ_top |
 | a₀/(cH₀) | 0.184 → 0.183 | <1% | well pair (13,34) selected; known 1983 MOND coincidence; both inputs | a₀, H₀ (web) |
@@ -235,7 +235,7 @@ Status is three-way, because "forced" hides a distinction the rest of this ledge
 
 The clear hits, each a candidate source-page fix:
 
-- **α "CLOSED" (engine §15)**: α is the calibration input for R; the 0.5% match is a consistency check, not a prediction of α. (Top priority.)
+- **α "CLOSED" (engine §15)**: α is the calibration input for R; the 0.4% match is a consistency check, not a prediction of α. (Top priority.)
 - **Ω_m = 0.315 "derived/recovered independently"**: flatness identity 1 − Ω_Λ; a pure input echoed back.
 - **μ_Λ, Ω_Λ, R_Λ, H₀·t_P, H₀ = 67.4 "derived/exact/best-fit"**: inputs dressed as outputs.
 - **Λ_obs = (3/2)Λ_top "derived/exact"**: carries the open Gauss-vs-stabilizer 3/2 identity; "measured" cell is a σ-claim.
