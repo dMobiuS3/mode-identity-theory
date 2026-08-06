@@ -16,7 +16,7 @@ Check it yourself. Nothing below is a demonstration: each page runs the framewor
 
 ## 📚 Reference
 
-**[The Notebook](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)**: a NotebookLM grounded in the framework; ask it anything, or hear the audio overview.
+**[Gemini Notebook](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)**: a NotebookLM grounded in the framework; ask it anything, or hear the audio overview.
 
 **[The Toolbelt](files/toolbelt.md)**: the five tools in one flow, frame to output. The machinery, not the results: it shows how a question gets answered, and how numerology gets avoided.
 
