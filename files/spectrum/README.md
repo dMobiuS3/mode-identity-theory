@@ -54,27 +54,27 @@ Embed the surface in space and the curvature converts the sample to energy by 3/
 
 | Observable | Output | Observed | Agreement |
 |---|---|---|---|
-| [↗](files/the-waltz.md) Null dark matter | permanent | ongoing null results | ✓ |
-| [↗](files/yang-mills.md) Mass gap | $`> 0`$ | confinement observed | ✓ |
-| [↗](files/yang-mills.md) Fermion generations | 3 (mass gaps) | 3 | exact |
-| [↗](files/fine-structure.md) Force count | 3 (grid-ladder conjecture) | 3 | consistent (conjecture) |
-| [↗](files/fine-structure.md) Null SUSY | no realized gaugino-mediated force (open conjecture) | ongoing null results | consistent (conjecture) |
-| [↗](files/the-mirror.md) Spectral inaccessibility | no $`\mathcal{F}`$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |
-| [↗](files/mass-spectrum.md) Color from $`Z_3`$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
-| [↗](files/mass-spectrum.md) Domain from $`Z_4`$ | $`D = 60`$ (int) vs 120 (half-int) | integer/half-integer split | exact |
-| [↗](files/mass-spectrum.md) Weak isospin $`T_3`$ | $`j_\text{first}`$ parity + Coxeter-Galois gate | eleven featured (5 assigned + 2 neutrino-proxy + 4 structural) | exact |
-| [↗](files/mass-spectrum.md) Eta sign gate | $`\eta > 0 \implies Q \leq 0`$ | all SM-assigned entries | exact |
-| [↗](files/mass-spectrum.md) Fermion masses | 24 entries | 5 compatible / 4 adjudicated within ×3 ($`m_e`$ benchmark; d assigned but outside ×3 at 3.2, u and c unassigned, b compatible but out-of-sector, μ/s share rank 15, τ at 2.75) | comparison |
-| [↗](files/mass-spectrum.md) $`m_\mu`$ (muon) | $`1.03 \times 10^{-1}`$ GeV | $`1.057 \times 10^{-1}`$ GeV | ~3% |
-| [↗](files/mass-spectrum.md) $`m_t`$ (top quark) | $`1.613 \times 10^{2}`$ GeV | $`1.727 \times 10^{2}`$ GeV | 7% |
-| [↗](files/mass-spectrum.md) $`m_e`$ (electron) | mass benchmark | 0.511 MeV | normalization |
-| [↗](files/mass-spectrum.md) Rank 16 entry | $`R_5`$ gal, ~418 MeV | no known fermion | open |
-| [↗](files/mass-spectrum.md) Dead zone | 6 states, eV to keV | no SM fermions in range | open |
-| [↗](files/mass-spectrum.md) $`\nu`$ floor | $`\mu_\Lambda \approx 2.25`$ meV | < 800 meV (KATRIN) | awaiting measurement |
-| [↗](files/fine-structure.md) $`\alpha_s`$ | 0.1162 | 0.1180 | 1.5% |
-| [↗](files/fine-structure.md) $`\alpha_W`$ | 0.0339 | 0.0338 | 0.3% |
-| [↗](files/fine-structure.md) $`\alpha`$ | 0.00733 | 0.00730 | 0.4% |
-| [↗](files/fine-structure.md) $`\alpha_s / \alpha_W`$ | 3.426 (pure geometry) | 3.490 | 1.8% |
+| [↗](files/the-waltz.md#iv-dark-matter-and-dark-energy-as-geometry) Null dark matter | permanent | ongoing null results | ✓ |
+| [↗](files/yang-mills.md#i-the-geometry) Mass gap | $`> 0`$ | confinement observed | ✓ |
+| [↗](files/yang-mills.md#ii-three-vacua) Fermion generations | 3 (mass gaps) | 3 | exact |
+| [↗](files/fine-structure.md#the-prediction) Force count | 3 (grid-ladder conjecture) | 3 | consistent (conjecture) |
+| [↗](files/fine-structure.md#the-prediction) Null SUSY | no realized gaugino-mediated force (open conjecture) | ongoing null results | consistent (conjecture) |
+| [↗](files/the-mirror.md#ii-main-theorem) Spectral inaccessibility | no $`\mathcal{F}`$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |
+| [↗](files/mass-spectrum.md#1-color-from-faces) Color from $`Z_3`$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
+| [↗](files/mass-spectrum.md#2-domain-from-edges) Domain from $`Z_4`$ | $`D = 60`$ (int) vs 120 (half-int) | integer/half-integer split | exact |
+| [↗](files/mass-spectrum.md#4-weak-isospin-from-the-coxeter-galois-gate) Weak isospin $`T_3`$ | $`j_\text{first}`$ parity + Coxeter-Galois gate | eleven featured (5 assigned + 2 neutrino-proxy + 4 structural) | exact |
+| [↗](files/mass-spectrum.md#3-the-eta-sign-gate) Eta sign gate | $`\eta > 0 \implies Q \leq 0`$ | all SM-assigned entries | exact |
+| [↗](files/mass-spectrum.md#iii-the-24-entries) Fermion masses | 24 entries | 5 compatible / 4 adjudicated within ×3 ($`m_e`$ benchmark; d assigned but outside ×3 at 3.2, u and c unassigned, b compatible but out-of-sector, μ/s share rank 15, τ at 2.75) | comparison |
+| [↗](files/mass-spectrum.md#iii-the-24-entries) $`m_\mu`$ (muon) | $`1.03 \times 10^{-1}`$ GeV | $`1.057 \times 10^{-1}`$ GeV | ~3% |
+| [↗](files/mass-spectrum.md#iii-the-24-entries) $`m_t`$ (top quark) | $`1.613 \times 10^{2}`$ GeV | $`1.727 \times 10^{2}`$ GeV | 7% |
+| [↗](files/mass-spectrum.md#iii-the-24-entries) $`m_e`$ (electron) | mass benchmark | 0.511 MeV | normalization |
+| [↗](files/mass-spectrum.md#v-dead-zone-targets-and-exclusions) Rank 16 entry | $`R_5`$ gal, ~418 MeV | no known fermion | open |
+| [↗](files/mass-spectrum.md#v-dead-zone-targets-and-exclusions) Dead zone | 6 states, eV to keV | no SM fermions in range | open |
+| [↗](files/mass-spectrum.md#1-neutrino-floor--mu_lambda) $`\nu`$ floor | $`\mu_\Lambda \approx 2.25`$ meV | < 800 meV (KATRIN) | awaiting measurement |
+| [↗](files/fine-structure.md#alpha_s-the-strong-coupling) $`\alpha_s`$ | 0.1162 | 0.1180 | 1.5% |
+| [↗](files/fine-structure.md#alpha_w-the-weak-coupling-and-the-plato-twist) $`\alpha_W`$ | 0.0339 | 0.0338 | 0.3% |
+| [↗](files/fine-structure.md#iii-the-formula) $`\alpha`$ | 0.00733 | 0.00730 | 0.4% |
+| [↗](files/fine-structure.md#alpha_s--alpha_w-pure-geometry) $`\alpha_s / \alpha_W`$ | 3.426 (pure geometry) | 3.490 | 1.8% |
 
 ---
 
