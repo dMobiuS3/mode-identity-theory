@@ -141,7 +141,7 @@ The wells, masses, charges, and gaps are structure stamped onto a smooth space t
 
 Gravity is not a fourth force hunting for its rung on the grid. It is what crosses between the smooth space below and the structure built above, coupling to both. The toll it pays at the vacuum seam is the factor $`3/2`$; everywhere else, Einstein's field equations stay unchanged.
 
-The two sides differ in kind: one smooth, one discrete. So gravity should not be expected to quantize as another force inside the grid. That is not the missing piece. It is the seam doing its job.
+The two sides differ in kind: one smooth, one discrete. So gravity should not be expected to quantize as another force inside the grid.
 
 ---
 
