@@ -4,7 +4,7 @@
 
 # The sampler's first test: does the readout resolve sixty labels?
 
-**Status (2026-08-19):** Run, closed negative. The first test of the [sampler reading](postulate-bridge.md) is resolved: the sampler does not realize the $`120 \to 60`$ halving geometrically, and the obstruction is elementary. No embedded compact surface in $`S^3`$ with a single boundary circle is invariant under the antipodal map (§7), so the deck element $`-1`$ never stabilizes an admissible band, $`\lvert S\rvert`$ is forced odd, and the target $`\lvert S\rvert = 2`$ is unreachable for every boundary. On a generic boundary circle $`S`$ is trivial outright and all $`120`$ lifts stay distinct. The obstruction does not depend on the boundary being a great circle, so no change of boundary curve rescues it. What survives untouched is the structural result: the natural Möbius sampler is transverse, not restrictive (§§1-2), since the pullback $`f^*E_\tau`$ is canonically trivial and only the one-sided normal direction carries the twist. Also recorded: the naive form of the intensity question is unfalsifiable, passing even for the zero operator (§3). Group facts verified exactly in [sampler-first-test.test.py](sampler-first-test.test.py). Step 3, operator separation under the sixty-lift hypothesis, is not run, its necessary geometric condition having failed.
+**Status (2026-08-19):** Run, closed negative, doubly. The first test of the [sampler reading](postulate-bridge.md) is resolved: the sampler does not realize the $`120 \to 60`$ halving geometrically, and it fails for two independent reasons. The geometric one is elementary. No embedded compact surface in $`S^3`$ with a single boundary circle is invariant under the antipodal map (§7), so the deck element $`-1`$ never stabilizes an admissible band, $`\lvert S\rvert`$ is forced odd, and the target $`\lvert S\rvert = 2`$ is unreachable for every boundary. On a generic boundary circle $`S`$ is trivial outright and all $`120`$ lifts stay distinct. The obstruction does not depend on the boundary being a great circle, so no change of boundary curve rescues it. The second reason is independent and would have applied even had the geometry cooperated: equivariance makes the transverse sampler's scalar intensity profile identical on all $`120`$ deck translates (§8), so no invariant scalar readout distinguishes lifts at any stabilizer size, which also corrects the proxy used in §4. What survives untouched is the structural result: the natural Möbius sampler is transverse, not restrictive (§§1-2), since the pullback $`f^*E_\tau`$ is canonically trivial and only the one-sided normal direction carries the twist. Also recorded: the naive form of the intensity question is unfalsifiable, passing even for the zero operator (§3). Group facts verified exactly in [sampler-first-test.test.py](sampler-first-test.test.py). Step 3, operator separation under the sixty-lift hypothesis, is not run, its necessary geometric condition having failed.
 
 **Related:** [Postulate bridge](postulate-bridge.md), [First eigenvalue](../../bedrock/files/first-eigenvalue.md), [Galois pair](../../bedrock/files/galois-pair.md), [engine](../../../README.md).
 
@@ -91,7 +91,7 @@ The sharp statement is therefore not a three-way split but
 \boxed{\ \lvert S\rvert = 2 \iff \text{exactly sixty lifts}\ }
 ```
 
-with every other order a distinct failure mode of the proposed geometric realization. The odd cases are worth separating from $`\lvert S\rvert = 1`$: they collapse the lift family without the centre doing the work, which would produce a label count the framework does not read and would not be a halving at all. Note also that antipodal invariance alone gives only $`\{\pm 1\} \subseteq S`$, not equality, so it is necessary and not sufficient. The predicate can fail in several distinguishable ways, which is what the naive form lacked.
+with every other order a distinct failure mode of the proposed geometric realization. The odd cases are worth separating from $`\lvert S\rvert = 1`$: they collapse the lift family without the centre doing the work, which would produce a label count the framework does not read and would not be a halving at all. Note also that antipodal invariance alone gives only $`\{\pm 1\} \subseteq S`$, not equality, so it is necessary and not sufficient. The predicate can fail in several distinguishable ways, which is what the naive form lacked. One caveat, established in §8 and stated here so this section is not read at face value: the lift count is a fact about the geometry, but it is not by itself a count of distinguishable *readings*, because equivariance makes the scalar intensity profile agree across all deck translates whatever $`\lvert S\rvert`$ is.
 
 ## 5. Group facts, verified
 
@@ -172,7 +172,27 @@ The target $`\lvert S\rvert = 2`$ is unreachable for every boundary. On a generi
 
 A caution carried from the corpus: if step 2 succeeds, the resulting band is antipodally symmetric in $`S^3`$ under the deck element $`-1 \in 2I`$. The first-eigenvalue pillar also has an antipodal quotient in its construction, the double lune on the covering $`S^2(R)`$ whose antipodal quotient is the band. These are antipodal maps on different spheres serving different purposes, and they must not be merged. The pillar's is intrinsic to the band's own covering geometry; the one here is the deck action on the ambient $`S^3`$. Any statement that slides between them is the failure mode already recorded on this program, a number computed on a valid object and narrated on an invalid one.
 
-## 8. What the negative does and does not say
+## 8. The second obstruction: equivariance
+
+The geometric obstruction is not the only one, and the other is independent of it. Write $`L_g(x) = gx`$ for the deck action. Equivariance $`\widetilde\Psi \circ L_g = \tau(g)\widetilde\Psi`$ differentiates to
+
+```math
+d\widetilde\Psi_{gx}\bigl(dL_g\, v\bigr) = \tau(g)\, d\widetilde\Psi_x(v),
+```
+
+since $`\tau(g)`$ is a constant linear map. If $`v = \nu_x`$ is normal to $`M`$ at $`x`$ then $`dL_g\nu_x`$ is normal to $`gM`$ at $`gx`$, and because $`L_g`$ is an isometry of the round $`S^3`$ it carries unit normals to unit normals, which is what makes the following exact rather than true up to scale:
+
+```math
+\boxed{\ \mathcal O^{(1)}_{gM}(\Psi)(gx) \;=\; \tau(g)\,\mathcal O^{(1)}_M(\Psi)(x)\ }
+```
+
+Since $`\tau`$ is unitary, $`\bigl\lvert\mathcal O^{(1)}_{gM}(\Psi)(gx)\bigr\rvert^2 = \bigl\lvert\mathcal O^{(1)}_M(\Psi)(x)\bigr\rvert^2`$ pointwise, and since $`L_g`$ preserves volume, $`\int_{gM}\lvert\mathcal O^{(1)}_{gM}\Psi\rvert^2 = \int_M \lvert\mathcal O^{(1)}_M\Psi\rvert^2`$. The scalar intensity profile is therefore the same on every deck translate, transported.
+
+**This corrects §4 as well as reinforcing §7.** Section 4 used the number of distinct lifts, $`120/\lvert S\rvert`$, as the proxy for the number of distinguishable readings. The lemma says the readings coincide across translates whatever $`\lvert S\rvert`$ is, so even had $`S = \{\pm 1\}`$ been achievable, the sixty lifts would have carried identical intensity profiles and nothing would have been resolved at sixty either. The lift count is a real fact about the geometry, but it was never observable through the scalar readout that the test named. So the first test was obstructed twice over, and independently: the geometry cannot produce $`S = \{\pm 1\}`$, and an invariant scalar readout cannot distinguish deck translates in any case.
+
+Recording this matters more than the redundancy suggests. Without it, a successor program can quietly rebuild the same unfalsifiable test in another form, asking again which deck copy is being observed. The $`120`$ translated bands are symmetry-related presentations of the same quotient data, and no invariant scalar observable will ever tell them apart.
+
+## 9. What the negative does and does not say
 
 **What is closed.** The central $`2I`$ halving cannot be implemented as setwise antipodal symmetry of a one-boundary sampler. That is a route-specific theorem in the same spirit as the restriction-route negative of Steps 1 to 4 on the [bridge](postulate-bridge.md): a definite mechanism is excluded by a definite argument, with the scope stated. The proposal that the geometry of the lift family explains $`120 \to 60`$ is dead, and it should not be rescued by modifying the band, since the obstruction is insensitive to the boundary curve.
 
@@ -182,15 +202,32 @@ A caution carried from the corpus: if step 2 succeeds, the resulting band is ant
 
 **What the negative sharpens.** Route 1 already showed the two $`\mathbb Z_2`$'s cannot be identified algebraically, since $`2I`$ is perfect and has no order-two character. This adds that they cannot be identified through setwise antipodal symmetry of the sampler either. The central $`2I`$ sign and the Möbius normal sign are independent structures, and the architecture is better for saying so plainly than it would be with a coincidence to defend.
 
-**The successor question.** The live question is no longer whether the band can turn $`120`$ lifts into $`60`$. It is what nontrivial information the transverse operator extracts while the lift family stays $`120`$-labelled. That separates sampling from label-count combinatorics, which is plausibly what this negative is pointing at, and it is not set up here.
+**The pattern, named carefully.** Two obstructions of the same conceptual shape now sit on this reading, and neither is a universal independence claim, which the corpus rightly refuses. The safer name is non-identification by obstruction:
 
-## 9. Scope and non-claims
+| | statement |
+|---|---|
+| Algebraic non-identification | $`\mathcal L`$'s $`\mathbb Z_2`$ cannot be a $`2I`$ character (Route 1: $`2I`$ is perfect) |
+| Geometric non-identification | $`\mathcal L`$'s sign cannot be realized by antipodal setwise symmetry of a one-boundary sampler (§7) |
+
+Both say $`\mathbb Z_2^{\text{Möbius}} \neq \mathbb Z_2^{\text{centre}}`$ as *identified* structures, while leaving open that both may participate in one eventual observation mechanism. That distinction is the whole content, and it should not be compressed into a claim of independence.
+
+**The successor question.** Not whether the band turns $`120`$ lifts into $`60`$: §8 shows no invariant scalar readout can address that at all. The question is what spectral information the sampler transfers:
+
+```math
+\boxed{\ \text{what does } \mathcal O^{(1)}_M \text{ transfer from the ambient mode space into the twisted Möbius channel?}\ }
+```
+
+Concretely, for an ambient eigenspace $`E^\tau_\lambda`$ and a twisted Möbius eigenspace $`F_\mu`$ with projector $`P_\mu`$, study the transfer operator $`T^{(\tau)}_{\mu\lambda} = P_\mu \circ \mathcal O^{(1)}_M\big\vert_{E^\tau_\lambda}`$ through $`\mathrm{rank}\,T^{(\tau)}_{\mu\lambda}`$ or $`\lVert T^{(\tau)}_{\mu\lambda}\rVert^2_{\mathrm{HS}}`$. The failure modes are real ones: $`T = 0`$ means the channel does not couple those modes; $`T \neq 0`$ but representation-blind means the sampler works mathematically and explains none of the discrete structure; nontrivial selection rules would mean it filters latent modes; and a distinguished dependence on the existing $`2I`$ and $`E_8`$ representation data would connect the sectors without identifying their $`\mathbb Z_2`$'s. The canonical trivialization of §1 keeps the bookkeeping clean, since $`f^*E_\tau \otimes \mathcal L \cong (M \times V_\tau) \otimes \mathcal L`$ splits the target into $`\Gamma(M,\mathcal L) \otimes V_\tau`$.
+
+Two guards belong on that question before it is opened. First, it must not resurrect the dead $`2/R^2`$ arch: projecting onto a known twisted Möbius mode measures a coupling matrix element $`\langle \phi_{\text{Möb}}, \mathcal O^{(1)}_M\Psi\rangle`$, which asserts nothing about equality of the surface and ambient spectra. Second, and this is where the corpus has been burned before, the eigenspaces $`F_\mu`$ must be those of a named operator on the *embedded* band's induced metric. The [first-eigenvalue pillar](../../bedrock/files/first-eigenvalue.md) solves an intrinsic conic geometry with no embedding in $`S^3`$ asserted, so its eigenvalues may not be imported here without a derivation. Importing them silently would be the recorded failure of computing on a valid object and narrating on an invalid one. None of this is set up here.
+
+## 10. Scope and non-claims
 
 The negative is route-specific and is not a universal independence claim: it excludes setwise antipodal symmetry of a one-boundary sampler as the mechanism, not every conceivable relation between the two $`\mathbb Z_2`$'s. Nothing here asserts that $`\mathcal O^{(1)}_M`$ is the right operator, only that it is canonical and has the correct target type; the negative concerns the geometry of the lift family and does not evaluate the operator, which was Step 3 and is not reached. Nothing here couples to the $`2I`$-decorated gauge sector: this is the sampling half of the postulate, and the Galois side is untouched, exactly as the Tier 2 ground floor is the surface half only. Nothing here is dynamical; which admissible band is realized is Tier 2's question, and this worksheet takes the band as given. The surface pillar is not in play: its twisted spectrum and its $`2/R^2`$ first positive level are an independent result about the band's own intrinsic geometry, and no eigenvalue of that problem enters any statement above. The bar of the [postulate bridge](postulate-bridge.md) is unchanged and unmet.
 
 ---
 
-*The sampler is transverse, not restrictive. The lift family is not what halves the labels, and an elementary homology argument says it never could be.*
+*The sampler is transverse, not restrictive. The lift family is not what halves the labels: the geometry cannot arrange it, and equivariance would have hidden it anyway. What a Möbius readout does is transfer modes, not name copies.*
 
 ---
 
