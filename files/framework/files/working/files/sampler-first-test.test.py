@@ -162,5 +162,31 @@ print(f"FACT 5  occupied axes: C4 on {h_orders[4]}, C6 on {h_orders[6]}, "
       f"C10 on {h_orders[10]}; {sum(h_orders.values())} special axes total,")
 print("        every other axis gives H = {+-1}, so a generic boundary excludes over-collapse")
 
+# ---- fact 6: what survives the antipodal obstruction ----
+# The obstruction (section 7 of the worksheet, a homology argument, not computed here)
+# proves -1 is never in S. With fact 2 (-1 in S iff |S| even) that forces |S| odd, so S
+# is an odd-order subgroup of H. Below: the surviving possibilities and their lift counts.
+def divisors(n):
+    return [d for d in range(1, n + 1) if n % d == 0]
+
+
+print()
+print("FACT 6  surviving stabilizers once -1 is excluded (|S| must be odd, S <= H):")
+print(f"        {'H':>12}  {'odd |S| possible':>18}  {'lifts = 120/|S|':>18}")
+surviving = {}
+for h_order, label in [(2, "{+-1} generic"), (4, "C4 edge"), (6, "C6 face"), (10, "C10 vertex")]:
+    odd_s = [d for d in divisors(h_order) if d % 2 == 1]
+    surviving[h_order] = odd_s
+    lifts = ", ".join(str(120 // d) for d in odd_s)
+    print(f"        {label:>12}  {str(odd_s):>18}  {lifts:>18}")
+
+assert surviving[2] == [1] and surviving[4] == [1]
+assert surviving[6] == [1, 3] and surviving[10] == [1, 5]
+# the target |S| = 2 is unreachable everywhere
+assert all(2 not in v for v in surviving.values())
+# on a generic axis the stabilizer is forced trivial, so all 120 lifts stay distinct
+assert surviving[2] == [1] and 120 // 1 == 120
+print("        target |S| = 2 is unreachable for every H: the sixty-lift outcome is closed")
+
 print()
 print("ALL CHECKS PASSED")

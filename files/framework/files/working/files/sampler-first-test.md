@@ -4,13 +4,13 @@
 
 # The sampler's first test: does the readout resolve sixty labels?
 
-**Status (2026-08-19):** Set up, not run. This worksheet turns the first test of the [sampler reading](postulate-bridge.md) into a computation with a definite pass and fail. Three things are settled here and are not the test: the pullback $`f^*E_\tau`$ is canonically trivial, so the $`\mathcal L`$-twist cannot come from section data; the transverse derivative along the one-sided realization supplies that twist canonically, giving a first candidate operator that needs no arbitrary choice; and the naive form of the intensity question is unfalsifiable, passing for every candidate including operators that sample nothing. The falsifiable content is the separation half, and it reduces to one geometric quantity, the setwise stabilizer $`S = \mathrm{Stab}_{2I}(i(M))`$, whose order determines the number of distinguishable lifts, with $`\lvert S\rvert = 2`$ the unique target giving sixty. The boundary-stabilizer step is now computed: for a subgroup great circle, $`\mathrm{Stab}_{2I}(\gamma)`$ is $`C_4`$, $`C_6`$, or $`C_{10}`$ on the thirty-one icosahedral axes and $`\{\pm 1\}`$ on every other axis, so a generic boundary excludes over-collapse a priori and the whole test reduces to a single existence question. The supporting group facts about $`2I`$ are verified exactly; the worksheet is [sampler-first-test.test.py](sampler-first-test.test.py). That existence question, whether an admissible band with $`S = \{\pm 1\}`$ exists, is open and is the computation to run.
+**Status (2026-08-19):** Run, closed negative. The first test of the [sampler reading](postulate-bridge.md) is resolved: the sampler does not realize the $`120 \to 60`$ halving geometrically, and the obstruction is elementary. No embedded compact surface in $`S^3`$ with a single boundary circle is invariant under the antipodal map (§7), so the deck element $`-1`$ never stabilizes an admissible band, $`\lvert S\rvert`$ is forced odd, and the target $`\lvert S\rvert = 2`$ is unreachable for every boundary. On a generic boundary circle $`S`$ is trivial outright and all $`120`$ lifts stay distinct. The obstruction does not depend on the boundary being a great circle, so no change of boundary curve rescues it. What survives untouched is the structural result: the natural Möbius sampler is transverse, not restrictive (§§1-2), since the pullback $`f^*E_\tau`$ is canonically trivial and only the one-sided normal direction carries the twist. Also recorded: the naive form of the intensity question is unfalsifiable, passing even for the zero operator (§3). Group facts verified exactly in [sampler-first-test.test.py](sampler-first-test.test.py). Step 3, operator separation under the sixty-lift hypothesis, is not run, its necessary geometric condition having failed.
 
 **Related:** [Postulate bridge](postulate-bridge.md), [First eigenvalue](../../bedrock/files/first-eigenvalue.md), [Galois pair](../../bedrock/files/galois-pair.md), [engine](../../../README.md).
 
 ---
 
-**Goal.** The sampler reading asks whether an admissible sampling operator $`\mathcal O_M`$ intertwines the central $`-1 \in 2I`$ with the Möbius sign ambiguity, so that an intensity observable factors through $`2I/\{\pm 1\} \cong I`$. Stated that way the question is not yet a computation: no $`\mathcal O_M`$ is constructed, and the property as worded is satisfied trivially. This worksheet fixes both problems. It exhibits a canonical candidate operator, isolates the half of the question that can fail, and reduces that half to a single stabilizer computation on an already-specified admissible class.
+**Goal.** The sampler reading asks whether an admissible sampling operator $`\mathcal O_M`$ intertwines the central $`-1 \in 2I`$ with the Möbius sign ambiguity, so that an intensity observable factors through $`2I/\{\pm 1\} \cong I`$. Stated that way the question is not yet a computation: no $`\mathcal O_M`$ is constructed, and the property as worded is satisfied trivially. This worksheet fixes both problems, then answers the repaired question. It exhibits a canonical candidate operator, isolates the half that can fail, reduces that half to a single stabilizer condition, and proves the condition cannot be met.
 
 **Conventions.** $`X = S^3/2I`$ with $`\pi : S^3 \to X`$ the quotient by the left action of $`2I \subset \mathrm{SU}(2) \cong S^3`$, so $`\pi_1(X) = 2I`$ and the deck group is $`2I`$. A flat bundle $`E_\tau = S^3 \times_{2I} V_\tau`$ is associated to a unitary representation $`\tau`$ of $`2I`$, and a section $`\Psi \in \Gamma(X, E_\tau)`$ is the same thing as an equivariant map $`\widetilde\Psi : S^3 \to V_\tau`$ with $`\widetilde\Psi(\gamma x) = \tau(\gamma)\widetilde\Psi(x)`$. $`M`$ is the Möbius band, $`i : M \to S^3`$ a smooth embedding from the admissible class $`\mathcal A_\gamma`$ of the [Tier 2 ground floor](postulate-bridge.md) (boundary held on a fixed round great circle $`\gamma \subset S^3(R)`$), $`f = \pi \circ i`$, and $`\mathcal L \to M`$ the orientation local system. Throughout, $`\lvert\cdot\rvert`$ on $`V_\tau`$ is a $`2I`$-invariant Hermitian metric.
 
@@ -112,7 +112,7 @@ The last row is the boundary computation of §6, done here because it is pure gr
 
 The first two rows are recorded because they are easy to over-read. Negation acts on $`\mathrm{SU}(2)`$ conjugacy classes by $`\varphi \mapsto \pi - \varphi`$ on the rotation angle, so the order-four class ($`\varphi = \pi/2`$, trace $`0`$) is the unique fixed one. This says something about conjugacy, not about the stabilizer question of §4, and it does not by itself select $`\mathbb Z_4`$ as the band's stabilizer. It is listed because the framework separately names a $`\mathbb Z_4`$ edge stabilizer in the mass sector, and the coincidence of the symbol $`\mathbb Z_4`$ across two different questions is exactly the kind of thing that invites a false identification. The mass-sector $`\mathbb Z_4`$ is about representation content restricted to a cyclic subgroup; the $`S`$ of §4 is a setwise stabilizer of an embedded band. Whether they meet is a question, not a given.
 
-## 6. The computation, in order
+## 6. The computation, in order (as run)
 
 **Step 1, the stabilizer of the boundary: done, and it governs the rest.** For a one-parameter-subgroup circle $`C = \{\exp(tZ)\}`$, left translation gives $`\gamma C = C`$ exactly when $`\gamma \in C`$, because $`1 \in C`$ forces $`\gamma \in \gamma C`$. So $`H = \mathrm{Stab}_{2I}(C) = 2I \cap C`$, a finite subgroup of a circle group and therefore cyclic, which is what makes $`S`$ cyclic in §4. Every such circle contains $`-1`$, since $`\exp(\pi Z) = -1`$ for unit $`Z \in \mathfrak{su}(2)`$, so $`\lvert H\rvert`$ is always even. By §5, $`H`$ is $`C_4`$, $`C_6`$, or $`C_{10}`$ when the axis is one of the $`31`$ icosahedral axes and $`\{\pm 1\}`$ otherwise. The admissible possibilities for $`S`$ follow at once.
 
@@ -131,27 +131,66 @@ A generic boundary circle is therefore the clean case: $`S \subseteq \{\pm 1\}`$
 \exists\, i(M) \in \mathcal A_\gamma \ \ \text{with} \ \ \mathrm{Stab}_{2I}\bigl(i(M)\bigr) = \{\pm 1\}\ ?
 ```
 
-This one equality carries both halves: $`-1 \in S`$ is antipodal invariance of the whole band, not merely of its boundary curve, and $`S \subseteq \{\pm 1\}`$ is the exclusion of extra symmetry. On a generic boundary the second half is automatic, so the question collapses further to whether an antipodally invariant admissible band exists at all. If one does, exhibit it; if the constraint is obstructed, the obstruction is the result.
+This one equality carries both halves: $`-1 \in S`$ is antipodal invariance of the whole band, not merely of its boundary curve, and $`S \subseteq \{\pm 1\}`$ is the exclusion of extra symmetry. On a generic boundary the second half is automatic, so the question collapses further to whether an antipodally invariant admissible band exists at all. Section 7 shows it does not.
 
-**Step 3, only then, the operator.** With the geometry settled, evaluate whether $`\mathcal O^{(1)}_M`$ separates the sixty lifts, that is whether the sampled intensities on inequivalent lifts are actually distinct for some $`\Psi`$. Steps 1 and 2 are necessary conditions and are cheaper; a failure there stops the program without any analysis of the operator.
+**Step 3, the operator, not run.** Under the sixty-lift hypothesis one would ask whether $`\mathcal O^{(1)}_M`$ separates the sixty lifts. Step 2 is a necessary condition for that hypothesis and it fails, so this step is not reached.
+
+## 7. The obstruction
+
+> **Proposition.** Let $`\Sigma \subset S^3`$ be a compact embedded surface with exactly one boundary circle. Then $`\Sigma`$ is not invariant under the antipodal map $`a(x) = -x`$.
+
+*Proof.* Suppose $`a(\Sigma) = \Sigma`$. The antipodal map is free on $`S^3`$, hence free on $`\Sigma`$, so the quotient $`N = \Sigma/\langle a\rangle`$ is a compact surface embedded in $`S^3/\langle a\rangle = \mathbb{RP}^3`$, with $`\partial N = (\partial\Sigma)/\langle a\rangle`$.
+
+Since $`a`$ preserves $`\Sigma`$ it preserves $`\partial\Sigma`$, which by hypothesis is a single circle. So $`\partial\Sigma \to \partial N`$ is a connected double cover of a circle by a circle, and a lift of the loop $`\partial N`$ to $`S^3`$ is a path from a point to its antipode rather than a closed loop. Hence $`\partial N`$ represents the nontrivial element of $`\pi_1(\mathbb{RP}^3) = \mathbb Z/2`$, and
+
+```math
+[\partial N] \neq 0 \quad \text{in } H_1(\mathbb{RP}^3; \mathbb F_2) \cong \mathbb F_2 .
+```
+
+On the other hand $`N`$ is a compact surface, so it carries a mod-$`2`$ fundamental class $`[N, \partial N] \in H_2(N, \partial N; \mathbb F_2)`$ whether or not it is orientable, which is why $`\mathbb F_2`$ is the right coefficient ring here. Exactness of the pair sequence
+
+```math
+H_2(N, \partial N; \mathbb F_2) \xrightarrow{\ \partial\ } H_1(\partial N; \mathbb F_2) \xrightarrow{\ \iota_*\ } H_1(N; \mathbb F_2)
+```
+
+gives $`\iota_*[\partial N] = 0`$, and pushing forward along $`N \hookrightarrow \mathbb{RP}^3`$ gives $`[\partial N] = 0`$ in $`H_1(\mathbb{RP}^3; \mathbb F_2)`$. That contradicts the previous display. $`\square`$
+
+The homology used is the standard cellular computation: $`\mathbb{RP}^3`$ has one cell in each dimension with vanishing mod-$`2`$ boundary maps, so $`H_1(\mathbb{RP}^3; \mathbb F_2) \cong \mathbb F_2`$ generated by the projective line $`\mathbb{RP}^1`$. When $`\gamma`$ is a great circle, $`\gamma`$ is the intersection of $`S^3`$ with a $`2`$-plane through the origin, that plane is preserved by $`a`$, and $`\gamma/\langle a\rangle`$ is exactly that $`\mathbb{RP}^1`$.
+
+**Scope, and why no boundary curve rescues it.** The proof uses only that $`\partial\Sigma`$ is a single connected circle, which the Möbius band forces, and never that it is a great circle. Changing the boundary curve therefore cannot help. What the argument does not cover, correctly, is surfaces with two or more boundary circles: there $`a`$ may swap components, $`\partial N`$ can carry the trivial class, and no contradiction arises. Closed invariant surfaces are likewise untouched, as they must be, since the great $`2`$-sphere is antipodally invariant with quotient $`\mathbb{RP}^2 \subset \mathbb{RP}^3`$.
+
+**Consequence for the stabilizer.** No admissible band is antipodally invariant, so $`-1 \notin S`$ always. By the verified equivalence of §4 ($`-1 \in S`$ if and only if $`\lvert S\rvert`$ is even), $`\lvert S\rvert`$ is odd, so $`S`$ is an odd-order subgroup of $`H`$. The taxonomy collapses to:
+
+| $`H`$ | surviving $`S`$ | lifts |
+|---|---|---|
+| $`\{\pm 1\}`$ (generic axis) | $`1`$ | $`120`$ |
+| $`C_4`$ (15 edge axes) | $`1`$ | $`120`$ |
+| $`C_6`$ (10 face axes) | $`1`$ or $`C_3`$ | $`120`$ or $`40`$ |
+| $`C_{10}`$ (6 vertex axes) | $`1`$ or $`C_5`$ | $`120`$ or $`24`$ |
+
+The target $`\lvert S\rvert = 2`$ is unreachable for every boundary. On a generic axis, the case §6 called clean because it excluded over-collapse, $`S`$ is forced trivial and all $`120`$ lifts remain distinct. The only surviving collapses are the odd ones, $`40`$ or $`24`$ lifts on special axes, and those are precisely the failure mode in which the centre does no work at all: a collapse driven by a symmetry unrelated to the $`\mathbb Z_2`$ the reading is about.
 
 A caution carried from the corpus: if step 2 succeeds, the resulting band is antipodally symmetric in $`S^3`$ under the deck element $`-1 \in 2I`$. The first-eigenvalue pillar also has an antipodal quotient in its construction, the double lune on the covering $`S^2(R)`$ whose antipodal quotient is the band. These are antipodal maps on different spheres serving different purposes, and they must not be merged. The pillar's is intrinsic to the band's own covering geometry; the one here is the deck action on the ambient $`S^3`$. Any statement that slides between them is the failure mode already recorded on this program, a number computed on a valid object and narrated on an invalid one.
 
-## 7. What each outcome would mean
+## 8. What the negative does and does not say
 
-A result at $`\lvert S\rvert = 2`$ would be the first structure the sampler reading produces rather than explains: the halving from $`120`$ to $`60`$ would hold geometrically, as a property of the sampler family, in addition to holding automatically at the level of intensities. That is the case in which the reading earns promotion from interpretation toward mechanism, and it is the point at which reconsidering the engine's master narrative becomes reasonable rather than premature.
+**What is closed.** The central $`2I`$ halving cannot be implemented as setwise antipodal symmetry of a one-boundary sampler. That is a route-specific theorem in the same spirit as the restriction-route negative of Steps 1 to 4 on the [bridge](postulate-bridge.md): a definite mechanism is excluded by a definite argument, with the scope stated. The proposal that the geometry of the lift family explains $`120 \to 60`$ is dead, and it should not be rescued by modifying the band, since the obstruction is insensitive to the boundary curve.
 
-A result at $`\lvert S\rvert = 1`$ for every admissible band closes this route. The halving would remain exactly what the engine already says it is, and the sampler reading would have produced no new structure here. Stated for a specified admissible class, that is a real negative and belongs on the record, in the same way the restriction-route negative of Steps 1 to 4 does.
+**What is untouched.** The engine's projection stands exactly as it stood. It never rested on the sampler: the $`120`$ labels pass to the $`60`$ under $`\lvert\psi\rvert^2`$ because the anti-periodic sign is erased, an argument in the representation theory alone (§3). This worksheet asked whether the sampler *additionally* realizes that halving geometrically, and the answer is no. Nothing about the label count itself is disturbed.
 
-A result at $`\lvert S\rvert > 2`$ would be the most interesting outcome and the least anticipated: a sampler resolving thirty, twenty, or twelve labels where the framework reads sixty. It would not refute the engine's projection, which stands on its own argument, but it would say the sampler and the label count come apart, and that discrepancy would need an account. The odd cases $`\lvert S\rvert = 3, 5`$ are stranger still and would be the clearest negative of all: the lift family collapses while the centre does nothing, so whatever the sampler is doing there is not the halving the reading was built to explain. All of these are reachable only from a special-axis boundary, which is why fixing the boundary circle is the first thing to settle.
+**What survives as the result.** The structural observation of §§1-2 does not depend on the test at all. The pullback $`f^*E_\tau`$ is canonically trivial, so the field cannot supply the twist, while $`\nu \cong \mathcal L`$ makes the transverse direction supply it for free. The sampler is transverse, not restrictive. That is the durable output of this worksheet, and it is a sharper statement of what a Möbius readout is than the reading began with.
 
-## 8. Scope and non-claims
+**What the negative sharpens.** Route 1 already showed the two $`\mathbb Z_2`$'s cannot be identified algebraically, since $`2I`$ is perfect and has no order-two character. This adds that they cannot be identified through setwise antipodal symmetry of the sampler either. The central $`2I`$ sign and the Möbius normal sign are independent structures, and the architecture is better for saying so plainly than it would be with a coincidence to defend.
 
-Nothing here asserts that $`\mathcal O^{(1)}_M`$ is the right operator, only that it is canonical and has the correct target type. Nothing here couples to the $`2I`$-decorated gauge sector: this is the sampling half of the postulate, and the Galois side is untouched, exactly as the Tier 2 ground floor is the surface half only. Nothing here is dynamical; which admissible band is realized is Tier 2's question, and this worksheet takes the band as given. The surface pillar is not in play: its twisted spectrum and its $`2/R^2`$ first positive level are an independent result about the band's own intrinsic geometry, and no eigenvalue of that problem enters any statement above. The bar of the [postulate bridge](postulate-bridge.md) is unchanged, and this worksheet does not meet it; it only makes the first test a thing that can be run and can fail.
+**The successor question.** The live question is no longer whether the band can turn $`120`$ lifts into $`60`$. It is what nontrivial information the transverse operator extracts while the lift family stays $`120`$-labelled. That separates sampling from label-count combinatorics, which is plausibly what this negative is pointing at, and it is not set up here.
+
+## 9. Scope and non-claims
+
+The negative is route-specific and is not a universal independence claim: it excludes setwise antipodal symmetry of a one-boundary sampler as the mechanism, not every conceivable relation between the two $`\mathbb Z_2`$'s. Nothing here asserts that $`\mathcal O^{(1)}_M`$ is the right operator, only that it is canonical and has the correct target type; the negative concerns the geometry of the lift family and does not evaluate the operator, which was Step 3 and is not reached. Nothing here couples to the $`2I`$-decorated gauge sector: this is the sampling half of the postulate, and the Galois side is untouched, exactly as the Tier 2 ground floor is the surface half only. Nothing here is dynamical; which admissible band is realized is Tier 2's question, and this worksheet takes the band as given. The surface pillar is not in play: its twisted spectrum and its $`2/R^2`$ first positive level are an independent result about the band's own intrinsic geometry, and no eigenvalue of that problem enters any statement above. The bar of the [postulate bridge](postulate-bridge.md) is unchanged and unmet.
 
 ---
 
-*The operator has a canonical candidate and the question has a definite failure mode. What remains is one geometric existence problem.*
+*The sampler is transverse, not restrictive. The lift family is not what halves the labels, and an elementary homology argument says it never could be.*
 
 ---
 
