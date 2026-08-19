@@ -129,5 +129,38 @@ print(f"FACT 3  element orders {orders}; odd cyclic subgroup orders {odd}")
 assert all(key(mul(g, g)) == MINUS_ONE for g in G if order(g) == 4)
 print("FACT 4  every order-4 element squares to -1, so every Z4 < 2I contains the centre")
 
+# ---- fact 5: subgroup-circle stabilizers H = 2I cap C ----
+# For a one-parameter-subgroup circle C = {exp(tZ)}, left translation gives
+# gamma.C = C iff gamma in C, so H = 2I cap C. Each non-central element lies on
+# the unique such circle through its rotation axis (taken up to sign).
+from collections import defaultdict
+
+
+def axis(q):
+    v = q[1:]
+    n = sum(x*x for x in v) ** 0.5
+    u = tuple(x/n for x in v)
+    if u < tuple(-x for x in u):       # canonical representative of +-u
+        u = tuple(-x for x in u)
+    return tuple(round(x, 6) + 0.0 for x in u)
+
+
+by_axis = defaultdict(list)
+for g in G:
+    if g not in (ONE, MINUS_ONE):
+        by_axis[axis(g)].append(g)
+
+# circle through an occupied axis holds its elements plus +-1
+h_orders = defaultdict(int)
+for els in by_axis.values():
+    h_orders[len(els) + 2] += 1
+
+assert dict(h_orders) == {4: 15, 6: 10, 10: 6}, dict(h_orders)
+assert sum(h_orders.values()) == 31
+assert sum((k - 2) * v for k, v in h_orders.items()) + 2 == 120
+print(f"FACT 5  occupied axes: C4 on {h_orders[4]}, C6 on {h_orders[6]}, "
+      f"C10 on {h_orders[10]}; {sum(h_orders.values())} special axes total,")
+print("        every other axis gives H = {+-1}, so a generic boundary excludes over-collapse")
+
 print()
 print("ALL CHECKS PASSED")
