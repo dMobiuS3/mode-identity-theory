@@ -4,7 +4,7 @@
 
 # The Postulate Bridge
 
-**Status (2026-07-01):** Resolved along the staged route, as a split. The two bedrock results sit on the two pieces of the postulate $`S^1 = \partial(\text{Möbius}) \hookrightarrow S^3`$, $`\partial S^3 = \emptyset`$. The gauge dictionary is proved: the $`E_8`$ filling carries the boundary's Galois asymmetry exactly, on $`\partial W = +\Sigma`$ ($`\Delta\rho = -8/5 = 4\,\Delta D`$, and $`k \equiv cs \bmod 1`$ in all four sectors). The Möbius coupling is refuted route-specifically: on the characteristic slot, every coefficient built on $`W`$ restricts rank-trivially, so the surface term cancels from the Galois difference in every restriction-route identity with the canonical pullback coefficient bundle. No universal independence claim is made. The naive bridge through the shared value $`2/R^2`$ remains dead (a forced curvature-scale coincidence, not a spectral link). Steps 1-4 complete ([Step 4, part two](step4-coupling.md)); the split verdict is paper-ized as the third bedrock pillar, [Galois pair](../../bedrock/files/galois-pair.md); this note is the record of the route. A dynamical direction, separating the holonomy tail, the selection reading, and a possible gravitational realization, is recorded open below and has not been run. Tier 2's totally geodesic candidate has been removed: it is topologically unavailable to a smooth Möbius band. The replacement equilibrium remains a variational problem to be defined and solved.
+**Status (2026-07-01):** Resolved along the staged route, as a split. The two bedrock results sit on the two pieces of the postulate $`S^1 = \partial(\text{Möbius}) \hookrightarrow S^3`$, $`\partial S^3 = \emptyset`$. The gauge dictionary is proved: the $`E_8`$ filling carries the boundary's Galois asymmetry exactly, on $`\partial W = +\Sigma`$ ($`\Delta\rho = -8/5 = 4\,\Delta D`$, and $`k \equiv cs \bmod 1`$ in all four sectors). The Möbius coupling is refuted route-specifically: on the characteristic slot, every coefficient built on $`W`$ restricts rank-trivially, so the surface term cancels from the Galois difference in every restriction-route identity with the canonical pullback coefficient bundle. No universal independence claim is made. The naive bridge through the shared value $`2/R^2`$ remains dead (a forced curvature-scale coincidence, not a spectral link). Steps 1-4 complete ([Step 4, part two](step4-coupling.md)); the split verdict is paper-ized as the third bedrock pillar, [Galois pair](../../bedrock/files/galois-pair.md); this note is the record of the route. A dynamical direction, separating the holonomy tail, the selection reading, and a possible gravitational realization, is recorded open below and has not been run. Tier 2's totally geodesic candidate has been removed: it is topologically unavailable to a smooth Möbius band. The replacement equilibrium remains a variational problem to be defined and solved. A sampler reading of the split, naming the observation map $`f = \pi \circ i`$ that needs no descent and the sampling operator $`\mathcal O_M`$ as the open object, is recorded below (2026-08-19).
 
 **Related:** [First eigenvalue](../../bedrock/files/first-eigenvalue.md), [Coexact gap](../../bedrock/files/coexact-gap.md), [Galois pair](../../bedrock/files/galois-pair.md), [bedrock README](../../bedrock/README.md).
 
@@ -80,6 +80,51 @@ The framework's claim is "one shape, two consequences." The shared $`S^3`$ of ra
 If the index computation yields a genuine connection, the result relates the gauge eta to the band's topological embedding. If it yields a negative result, that is also a result, but state it route-specifically: the interior term is topological, and any $`2/R^2`$ in it reduces to the curvature-scale coincidence (provably, since the band's eigenvalue equals its curvature by Obata) rather than a spectral link to the surface paper. That route-specific negative is provable; a universal claim that the two spectra are independent is not.
 
 This became the bedrock pillar [Galois pair](../../bedrock/files/galois-pair.md), written to that standard: no physics vocabulary, the mathematics leading, the two pillars cited by content, and the surface eigenvalue kept out of every index ingredient. The route it reports is the negative-and-positive split, not the $`\Lambda \leftrightarrow`$ mass-gap link, which the pillar does not claim.
+
+---
+
+## A sampler reading (candidate, not run)
+
+**Recorded 2026-08-19.** The split verdict above closes the topological coupling on its route. This section records an interpretation under which that closure is what the architecture predicts, together with the one new mathematical object the interpretation names. Nothing in it modifies the verdict, the pillars, or the tiers below; it organizes them.
+
+Let $`X = S^3/2I`$, let $`\pi : S^3 \to X`$ be the quotient map, and let $`i : M \to S^3`$ be a smooth Möbius realization (any member of the admissible classes of Tier 2). The deeper obstruction above rules out descent of the band to $`X`$ as a $`2I`$-stable submanifold. It does not rule out a map into the quotient: the composite
+
+```math
+f = \pi \circ i : M \to X
+```
+
+exists with no descent hypothesis at all, and every flat bundle $`E_\tau \to X`$ therefore has a canonical pullback $`f^* E_\tau \to M`$. The distinction deserves prominence:
+
+```math
+\boxed{\ \text{no descent as a submanifold} \;\neq\; \text{no sampling map}\ }
+```
+
+This opens a reading of the postulate in which the two pieces hold different jobs: the quotient carries the native spectrum ($`2I`$, $`E_8`$, the coexact gap and its Galois exception), while the Möbius geometry supplies a phase-sensitive sampling structure on that spectrum. On this reading the recorded negatives are structural, not accidents to be survived: a sampler and a substrate are different mathematical objects, so the orientation $`\mathbb{Z}_2`$ is not a $`2I`$-equivariant datum (Route 1), the band does not descend (the deeper obstruction), and the surface data cancels from the interior index route (Step 4). The failures land exactly where a readout geometry, wrongly treated as a co-resonator, would fail.
+
+**Guardrail: the surface pillar is not demoted.** The sampler reading does not make the Möbius band spectrally passive. Its own twisted Laplacian, the extension-dependent bottom, and the stable first positive level $`2/R^2`$ remain the independent surface result ([first eigenvalue](../../bedrock/files/first-eigenvalue.md)), and the framework's cosmological anchor continues to stand on it. The claim under consideration is only that the surface does not determine the native spectrum of $`X`$.
+
+**The open object.** The interpretation names one missing object, the sampling operator
+
+```math
+\mathcal O_M : \Gamma(X, E_\tau) \longrightarrow \Gamma(M,\ f^* E_\tau \otimes \mathcal L),
+```
+
+with $`\mathcal L`$ the orientation local system of $`M`$. Only the target type is defined here; the construction is the open problem.
+
+**Guardrail: no canonical $`\mathcal O_M`$ exists yet.** In particular the $`\mathcal L`$-twist cannot be produced by choosing a global nowhere-zero section of $`\mathcal L`$: no such section exists, and its nonexistence is the topology being retained, not an inconvenience to be normalized away. Any local construction carries a sign ambiguity valued in exactly the $`\mathbb{Z}_2`$ that intensity forgets, which is why the intensity level is the first place a well-defined observable can live.
+
+**The first test (bounded, not run).** Route 1 proves the Möbius orientation holonomy cannot be identified with any $`2I`$-datum: $`2I`$ is perfect and has no order-two character. The bounded question is therefore not identification but intertwining after sign-forgetting, in exactly the quotient where the distinction disappears:
+
+```math
+\boxed{\begin{array}{c}
+\text{Does an admissible } \mathcal O_M \text{ intertwine the central } -1 \in 2I \text{ with the Möbius sign ambiguity,} \\
+\text{so that an intensity observable factors through } 2I/\{\pm 1\} \cong I\ ?
+\end{array}}
+```
+
+The [engine](../../../README.md) records the intensity projection (the 120 labels passing to the 60 under $`\lvert\psi\rvert^2`$) as the mechanism of the 60R grid; a positive answer here would derive it within a specified operator framework, the first structure the sampler reading produces rather than explains. A negative answer, stated for a specified admissible class, would close this reading's first route the same way Steps 1-4 closed the topological one.
+
+**Relation to the tiers.** This reading is an organizing interpretation over the existing programs, not a fourth tier. Tier 1 asks what such sampling detects in holonomy; Tier 2 asks whether the sampler configuration is dynamically selected ($`\delta S/\delta i`$ choosing $`i`$ among admissible realizations); Tier 3 asks whether the ambient metric responds to the realized sampled state ($`\delta S/\delta g`$). None of these is established by the reading, and the bar below is unchanged: the reading becomes structure only when a specified $`\mathcal O_M`$ clears it.
 
 ---
 
