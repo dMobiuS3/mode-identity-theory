@@ -124,6 +124,8 @@ with $`\mathcal L`$ the orientation local system of $`M`$. Only the target type 
 
 The [engine](../../../README.md) records the intensity projection (the 120 labels passing to the 60 under $`\lvert\psi\rvert^2`$) as the mechanism of the 60R grid; a positive answer here would derive it within a specified operator framework, the first structure the sampler reading produces rather than explains. A negative answer, stated for a specified admissible class, would close this reading's first route the same way Steps 1-4 closed the topological one.
 
+The test is set up in [sampler first test](sampler-first-test.md), which supplies a canonical candidate operator (the transverse derivative along the one-sided realization, whose $`\mathcal L`$-twist comes from $`\nu \cong \mathcal L`$), shows that the naive form of the question is unfalsifiable, and reduces the falsifiable half to one geometric quantity: the setwise stabilizer $`S = \mathrm{Stab}_{2I}(i(M))`$, with $`\lvert S\rvert = 1, 2, 4`$ giving 120, 60, or 30 distinct lifts. The supporting $`2I`$ facts are verified; the geometric existence question is open and unrun.
+
 **Relation to the tiers.** This reading is an organizing interpretation over the existing programs, not a fourth tier. Tier 1 asks what such sampling detects in holonomy; Tier 2 asks whether the sampler configuration is dynamically selected ($`\delta S/\delta i`$ choosing $`i`$ among admissible realizations); Tier 3 asks whether the ambient metric responds to the realized sampled state ($`\delta S/\delta g`$). None of these is established by the reading, and the bar below is unchanged: the reading becomes structure only when a specified $`\mathcal O_M`$ clears it.
 
 ---
