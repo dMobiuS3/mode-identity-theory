@@ -54,7 +54,7 @@ Every value is elementary algebraic in $`\mathbb{Q}(\varphi)`$, uniformly across
 | One exact target, $`T^2(R_7) = 9/4`$, fixes the overall sign convention; the remaining integer-spin closed forms validate the resulting pipeline; the Galois ratios and sector products are consistency identities | CERTIFIED at those grades |
 | The pre-correction half-integer values equal the coexact-only truncation | CERTIFIED (4/4 at page precision; the diagnosis gate) |
 | The tensor multiplicities and the 24-product propagation | derived in-script from the reconstructed character table and gated (known decompositions, dimension sums, revised-mass transcription, 12 unchanged products at ratio 1) |
-| The corrected half-integer closed forms | computed by ONE implementation (this artifact); an independent-method reproduction has not yet been performed and is queued on the OpenWave M8 track |
+| The corrected half-integer closed forms | REPRODUCED by a context-isolated independent-method run (OpenWave M8.8, adjudicated 2026-08-22): § 8 category `convention difference`, global inverse at $`R_7`$, 8/8 rows exact in $`\mathbb{Q}(\varphi)`$, 4/4 identities equal; see §6 |
 | The corrected scorecard's statistical weight | NOT claimed; `mass-null-v1.1` against the corrected table is queued, and no corrected count is quoted as null-tested until it runs |
 
 ## 5. Reproduce
@@ -66,6 +66,23 @@ python3 torsion-correction.test.py --precise         # dps 50, jmax 80, derivati
 ```
 
 Environment: python3 + numpy + mpmath. Every gate id must be attacked by at least one mutation (set equality enforced) and every mutation must turn its gate red, else the suite exits nonzero; the registry includes the original defect itself (running coexact-only breaks the corrected closed forms) and harness tests (perturbed transcription targets must fail their gates).
+
+## 6. Independent-method reproduction (OpenWave M8.8, 2026-08-22)
+
+**Result.** The nine closed forms above were reproduced by a context-isolated independent-method run, from a based chain complex of $`S^3/2I`$ over $`\mathbb{Z}[2I]`$ in exact $`\mathbb{Q}(\varphi)`$ arithmetic, rather than from the spectral-zeta definition this artifact uses. The protocol's § 8 category is `convention difference`: the run's native orientation is $`T^2 \leftrightarrow (T^2)^{-1}`$ relative to this page, the one convention bridge the protocol admitted, resolved at $`R_7`$ before any other row was compared; under that global inversion, 8 of 8 nontrivial rows agree exactly, 4 of 4 identities (two Galois ratios, two sector products) agree, sector coverage 8 of 8. The category is a success under the protocol, carrying the same claim as `reproduced` with the orientation recorded. The supplied topological model was verified by the run, not independently derived.
+
+**Frozen label**, verbatim from the protocol: the M8.3 torsion closed forms were reproduced by a context-isolated independent-method run, from a based chain complex rather than the spectral-zeta definition. The word "blind" is not used: for an AI implementer the training corpus is opaque, so blindness cannot be certified even under perfect task-time isolation.
+
+**Adjudication provenance**, fixed before the official run: the successful adjudication was obtained on a separately recorded rerun after the initially committed comparator refused pre-comparison on an exact packet-domain spelling mismatch; the post-reveal repair changed that frozen-builder literal only and altered neither the committed reproduction output nor the comparison semantics. Attempt 1 stands on record as `structural failure` at the step-7 packet-domain gate, beside attempt 2; both records are published.
+
+| Object | Where |
+|---|---|
+| Protocol, with Addendum 1 (the Phase A / Phase B split) | [m8_8_reproduction_protocol.md](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/research/findings/m8_8_reproduction_protocol.md) |
+| Adjudication record, both attempts, the byte-identity control, the governance note | [m8_8_adjudication_record.md](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/research/findings/m8_8_adjudication_record.md) |
+| The answer packet this artifact issued, published at step 9 against its frozen hash | `data/m8_8_answer_packet.json` on the same tree, SHA-256 `744c7f25…` |
+| The packet builder, with pinned inputs and a recipe that regenerates that hash | `m8_8_answer_builder/` on the same tree |
+
+**What this does and does not change here.** Row 4 of §4 moves from one implementation to two independent methods in exact agreement. Nothing else in this note moves: the single-target orientation fix, the coexact-only diagnosis, the 24-product propagation and the null-test status are as stated, and the reproduction does not bear on whether the torsion values fit the measured masses, which `mass-null-v1.1` already answered.
 
 ---
 
