@@ -12,7 +12,7 @@
 
 ## The goal
 
-Λ = 3/R² is derived from the postulate (eigenvalue + Gauss equation), and the coefficient 3 is the real content. But it produces a number only with an independent R. Any route that reads R off Λ, or off a CMB scale that itself needs R, is circular or excluded. An R fixed from somewhere else turns Λ from a tautology into a forward prediction. That is the R problem.
+Λ = 3/R² starts from the postulate's spectral seed 2/R², lifted by the Gauss equation and normalized by the imported de Sitter vacuum relation. The seed is the content, not the coefficient, and whether that reference coefficient is the physical Λ of a static domain is open ([cosmological constant](../../../../cosmos/files/cosmological-constant.md) §IV). But it produces a number only with an independent R. Any route that reads R off Λ, or off a CMB scale that itself needs R, is circular or excluded. An R fixed from somewhere else turns Λ from a tautology into a forward prediction. That is the R problem.
 
 ## The routes
 
