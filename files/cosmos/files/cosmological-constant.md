@@ -67,10 +67,10 @@ Which metric Stage 2 belongs to. The time-symmetric slice it uses is the throat 
 For a static closed domain carrying a homogeneous isotropic perfect fluid, the unchanged Einstein equations give instead
 
 ```math
-\Lambda R^2 = \frac{\rho + 3p}{\rho + p} = 3 - \frac{2}{1 + w}, \qquad p = w\rho,
+\Lambda R^2 = \frac{\rho + 3p}{\rho + p} = 1 + \frac{2p}{\rho + p} = 3 - \frac{2}{1 + w}, \qquad p = w\rho,
 ```
 
-on the branch $`\rho + p > 0`$, which is what a closed static domain requires since $`1/R^2 = 4\pi G(\rho + p)`$. There it returns 1 for dust and 3/2 for radiation and approaches 3 only as $`w \to \infty`$, so 3 is the supremum on that branch and is not attained inside it. Whether $`\Lambda = 3/R^2`$ is the physical constant of the static domain therefore depends on the stress tensor its mode content actually carries, which the framework has not determined. The chain is spectrally seeded, geometrically lifted, GR-normalized, and then observationally identified; the last step is the one still open.
+A closed static radius requires $`\rho + p > 0`$, since $`1/R^2 = 4\pi G(\rho + p)`$. The middle form above makes the rest exact: given that condition, $`\Lambda R^2 < 3`$ if and only if $`\rho > 0`$, with $`\rho = 0`$ attaining 3 and $`\rho < 0`$ exceeding it. For a positive-density fluid it returns 1 for dust and 3/2 for radiation and approaches 3 only as $`w \to \infty`$, never reaching it. Whether $`\Lambda = 3/R^2`$ is the physical constant of the static domain therefore depends on the stress tensor its mode content actually carries, which the framework has not determined. The chain is spectrally seeded, geometrically lifted, GR-normalized, and then observationally identified; the last step is the one still open.
 
 | Step | Status |
 |---|---|

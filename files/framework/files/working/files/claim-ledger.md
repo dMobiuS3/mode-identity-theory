@@ -69,7 +69,8 @@ R_Λ          ← Λ_obs                  (R = √(3/Λ), back-read)
 μ_Λ          ← Λ_obs, G               (= ρ_Λ^(1/4) ≈ 2.25 meV)
 Λ_top        ← R_Λ                    (= 2/R²)
 Λ (3/R²)     ← Λ_top                  (× 3/2: 3 = Ricci trace derived, ½ imported GR, VACUUM normalization)
-Λ_physical   ← Λ (3/R²) only if T_μν = 0  (static perfect fluid: ΛR² = 3 − 2/(1+w) < 3)  ← GATE
+Λ_physical   ← Λ (3/R²): T_μν = 0 is SUFFICIENT, not shown necessary   ← GATE
+             (static fluid, ρ+p>0: ΛR² < 3 iff ρ > 0; ρ = 0 attains 3)
 H₀ [obs, = Planck 67.4]
 a₀ [obs, MOND 1.2e-10]
 a₀/(cH₀)     ← a₀, H₀ ; reproduced by C(13/120)/C(34/120) = 0.184
@@ -144,7 +145,7 @@ Proved, often architecturally load-bearing, empirically inert. ~150+ leaf lemmas
 | Reidemeister torsion φ⁻⁴ ratios, 79-digit closed forms (~50 toolbelt rows) | exact | **φ is baked into Q(√5) then recovered as φ⁻⁴**: circular as "evidence." log-torsions = logs of the same values. |
 | Molien series: N=12 first invariant, N=2–10 empty | rigid algebraic fact | restated 4+ times across pages as independent evidence (one fact) |
 | C(Θ) = 2sin²(πΘ) trig identities; budget identities Ψ²+S²=1 | tautological | trig of the chosen functional form |
-| Gauss factor 3 (Ricci trace) × ½ → 3/2 | 3 derived, ½ imported GR | identity with stabilizer-3/2 is OPEN. The ½ is the VACUUM de Sitter normalization on a time-symmetric slice, which is the throat of an expanding solution, not a static state; the round closed vacuum cosmology used there is not static. For a static closed domain with a homogeneous isotropic perfect fluid the unchanged Einstein equations give `ΛR² = 3 − 2/(1+w)` on the branch `ρ + p > 0` that a closed static domain requires: 1 for dust, 3/2 for radiation, and 3 only as `w → ∞`, never attained there. So 3 is a reference value, gated on the stress tensor of the mode content |
+| Gauss factor 3 (Ricci trace) × ½ → 3/2 | 3 derived, ½ imported GR | identity with stabilizer-3/2 is OPEN. The ½ is the VACUUM de Sitter normalization on a time-symmetric slice, which is the throat of an expanding solution, not a static state; the round closed vacuum cosmology used there is not static. For a static closed domain with a homogeneous isotropic perfect fluid the unchanged Einstein equations give `ΛR² = (ρ+3p)/(ρ+p) = 1 + 2p/(ρ+p)`. A closed static radius needs `ρ + p > 0`; given that, `ΛR² < 3` iff `ρ > 0` (1 for dust, 3/2 for radiation, approaching 3 as `w → ∞`), while `ρ = 0` attains 3 and `ρ < 0` exceeds it. So vacuum is SUFFICIENT for the reference coefficient, not shown necessary for it. So 3 is a reference value, gated on the stress tensor of the mode content |
 
 ### Loose comparisons (retrodiction with freedom, the headline physics)
 
