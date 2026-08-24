@@ -4,7 +4,7 @@
 
 <img src="https://pbs.twimg.com/media/HLlsyI3W8AAYqUP?format=jpg&name=4096x4096" width="100%" alt="Cosmological Constant">
 
-This page reads the cosmological constant as geometry. Its coefficient is set by the first positive curvature level carried on a Möbius surface embedded in the closed spatial domain, which fixes the dimensionless relation $`\Lambda R^2 = 3`$. The value of $`\Lambda`$ additionally needs the curvature radius $`R`$, which remains open, so this is a coefficient, not a number.
+This page reads the cosmological constant as geometry. Its coefficient is set by the curvature of the closed spatial domain, with an embedded Möbius surface acting as the selection rule rather than as the source of the scale: the holonomy picks out the twisted sector, and the curvature of the covering great-$`S^2`$ band fixes the level's value. That seed converts through the standard Gauss and de Sitter relations to the dimensionless relation $`\Lambda R^2 = 3`$. The value of $`\Lambda`$ additionally needs the curvature radius $`R`$, which remains open, so this is a coefficient, not a number.
 
 ## I. The relationship
 
