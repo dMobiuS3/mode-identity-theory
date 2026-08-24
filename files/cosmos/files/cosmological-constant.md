@@ -62,7 +62,7 @@ Stage 2, spatial to Λ. On the round time-symmetric $`S^3`$ slice of four-dimens
 
 The 3 is the isotropic spatial Ricci trace under $`A_{ij} = 0`$ on the great-$`S^2`$ band (derived); the 2 is the de Sitter / vacuum-constraint normalization on the time-symmetric slice (imported from general relativity); their ratio $`3/2`$ is the Gauss-equation interface. The coefficient $`\Lambda R^2 = 3`$ is the standard de Sitter value once a round time-symmetric $`S^3(R)`$ vacuum is assumed; the content here is the spectral origin of the upstream seed, not the coefficient.
 
-Which metric Stage 2 belongs to. The time-symmetric slice it uses is the throat of four-dimensional de Sitter, $`a(t) = \sqrt{3/\Lambda}\cosh(t\sqrt{\Lambda/3})`$: a moment at which $`\dot a = 0`$, not a static state, since $`\ddot a > 0`$ there and the vacuum solution grows away from it. Vacuum general relativity admits no static closed solution at all. The framework's spatial domain is static with a fixed radius, so Stage 2 is a vacuum reference normalization of the spectral geometry, the constant general relativity assigns to that curvature in its de Sitter dictionary, rather than the field equation governing the physical domain.
+Which metric Stage 2 belongs to. The time-symmetric slice it uses is the throat of four-dimensional de Sitter, $`a(t) = \sqrt{3/\Lambda}\cosh(t\sqrt{\Lambda/3})`$: a moment at which $`\dot a = 0`$, not a static state, since $`\ddot a > 0`$ there and the vacuum solution grows away from it. The round closed vacuum cosmology used in that step is not static: with $`\rho = p = 0`$ and $`k = +1`$ the Friedmann equations admit no solution with $`\dot a = \ddot a = 0`$. The framework's spatial domain is static with a fixed radius, so Stage 2 is a vacuum reference normalization of the spectral geometry, the constant general relativity assigns to that curvature in its de Sitter dictionary, rather than the field equation governing the physical domain.
 
 For a static closed domain carrying a homogeneous isotropic perfect fluid, the unchanged Einstein equations give instead
 
@@ -70,7 +70,7 @@ For a static closed domain carrying a homogeneous isotropic perfect fluid, the u
 \Lambda R^2 = \frac{\rho + 3p}{\rho + p} = 3 - \frac{2}{1 + w}, \qquad p = w\rho,
 ```
 
-which returns 1 for dust and 3/2 for radiation, and approaches 3 only as $`w \to \infty`$. The coefficient 3 is the supremum of that family and is not attained inside it. Whether $`\Lambda = 3/R^2`$ is the physical constant of the static domain therefore depends on the stress tensor its mode content actually carries, which the framework has not determined. The chain is spectrally seeded, geometrically lifted, GR-normalized, and then observationally identified; the last step is the one still open.
+on the branch $`\rho + p > 0`$, which is what a closed static domain requires since $`1/R^2 = 4\pi G(\rho + p)`$. There it returns 1 for dust and 3/2 for radiation and approaches 3 only as $`w \to \infty`$, so 3 is the supremum on that branch and is not attained inside it. Whether $`\Lambda = 3/R^2`$ is the physical constant of the static domain therefore depends on the stress tensor its mode content actually carries, which the framework has not determined. The chain is spectrally seeded, geometrically lifted, GR-normalized, and then observationally identified; the last step is the one still open.
 
 | Step | Status |
 |---|---|
