@@ -4,7 +4,7 @@
 
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/The%20watlz%20banner.png?raw=true" width="100%" alt="The Waltz">
 
-The cosmological constant Λ is the first positive eigenvalue of the Möbius surface. Observation infers it from three-dimensional dynamics in $`S^3`$. The Gauss equation supplies the interface between the two: a 3/2 conversion factor carrying 2D surface curvature into 3D spatial geometry. The same bridge determines Newton's constant $`G`$ as an exchange rate between the curvature scale and the vacuum energy floor.
+The spectral seed of the cosmological constant Λ is the first positive eigenvalue of the Möbius surface, $`\lambda_+ = 2/R^2`$; Λ itself is $`3/R^2`$. Observation infers Λ from three-dimensional dynamics in $`S^3`$. The Gauss equation supplies the interface between the two: a 3/2 conversion factor carrying 2D surface curvature into 3D spatial geometry. The same bridge determines Newton's constant $`G`$ as an exchange rate between the curvature scale and the vacuum energy floor.
 
 ## I. The Two Partners
 
@@ -43,7 +43,7 @@ Substituting into the de Sitter relation $`R_{\text{space}} = 2\,\Lambda_{\text{
 3\,\Lambda_{\text{top}} = 2\,\Lambda_{\text{obs}} \quad \Rightarrow \quad \Lambda_{\text{obs}} = \frac{3}{2}\,\Lambda_{\text{top}}
 ```
 
-This recovers the vacuum Einstein equation as an output. The direction of logic is: the topology determines $`R_{\text{space}} = 6/R^2`$ through the Gauss equation; the Einstein equation then defines Λ as the name general relativity gives to $`R_{\text{space}}/2`$. The de Sitter relation is how GR translates spatial curvature into the parameter Λ; the topology supplies the specific value $`\Lambda_{\text{obs}} = 3/R^2`$. The dynamical consequence $`H^2 = \Lambda/3`$ then follows from standard cosmology.
+The direction of logic is: the topology determines $`R_{\text{space}} = 6/R^2`$ through the Gauss equation; the de Sitter relation, assumed in the table above rather than derived here, is then how general relativity names $`R_{\text{space}}/2`$ as Λ. The topology supplies the specific value $`\Lambda_{\text{obs}} = 3/R^2`$ once that naming is accepted. The dynamical consequence $`H^2 = \Lambda/3`$ then follows from standard cosmology, with $`H`$ the effective rate carried by the phase clock rather than $`\dot R/R`$ of the fixed $`S^3`$.
 
 The Codazzi equation (momentum conservation) is satisfied to leading order in any infinitesimal normal deformation of the totally geodesic covering great-$`S^2`$ band. For a totally geodesic starting point in a constant-curvature ambient space, the surface curvature contribution and the ambient curvature contribution have equal magnitude and opposite sign. Standing-wave modes carry zero net momentum by parity on the symmetric covering band. The bridge is geometry.
 

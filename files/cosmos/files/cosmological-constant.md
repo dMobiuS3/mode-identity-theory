@@ -4,7 +4,7 @@
 
 <img src="https://pbs.twimg.com/media/HLlsyI3W8AAYqUP?format=jpg&name=4096x4096" width="100%" alt="Cosmological Constant">
 
-This page reads the cosmological constant as geometry. Its coefficient is set by the curvature of the closed spatial domain, with an embedded Möbius surface acting as the selection rule rather than as the source of the scale: the holonomy picks out the twisted sector, and the curvature of the covering great-$`S^2`$ band fixes the level's value. That seed converts through the standard Gauss and de Sitter relations to the dimensionless relation $`\Lambda R^2 = 3`$. The value of $`\Lambda`$ additionally needs the curvature radius $`R`$, which remains open, so this is a coefficient, not a number.
+This page reads the cosmological constant as geometry. Its coefficient is set by the curvature of the closed spatial domain, with an embedded Möbius surface acting as the selection rule rather than as the source of the scale: the holonomy picks out the twisted sector, and the curvature of the covering great-$`S^2`$ band fixes the level's value. That seed converts through the standard Gauss and de Sitter relations to the dimensionless relation $`\Lambda R^2 = 3`$. The value of $`\Lambda`$ additionally needs the curvature radius $`R`$, which remains open, so this is a coefficient, not a number, and §IV records what identifying that coefficient with the physical constant still assumes.
 
 ## I. The relationship
 
@@ -62,11 +62,22 @@ Stage 2, spatial to Λ. On the round time-symmetric $`S^3`$ slice of four-dimens
 
 The 3 is the isotropic spatial Ricci trace under $`A_{ij} = 0`$ on the great-$`S^2`$ band (derived); the 2 is the de Sitter / vacuum-constraint normalization on the time-symmetric slice (imported from general relativity); their ratio $`3/2`$ is the Gauss-equation interface. The coefficient $`\Lambda R^2 = 3`$ is the standard de Sitter value once a round time-symmetric $`S^3(R)`$ vacuum is assumed; the content here is the spectral origin of the upstream seed, not the coefficient.
 
+Which metric Stage 2 belongs to. The time-symmetric slice it uses is the throat of four-dimensional de Sitter, $`a(t) = \sqrt{3/\Lambda}\cosh(t\sqrt{\Lambda/3})`$: a moment at which $`\dot a = 0`$, not a static state, since $`\ddot a > 0`$ there and the vacuum solution grows away from it. Vacuum general relativity admits no static closed solution at all. The framework's spatial domain is static with a fixed radius, so Stage 2 is a vacuum reference normalization of the spectral geometry, the constant general relativity assigns to that curvature in its de Sitter dictionary, rather than the field equation governing the physical domain.
+
+For a static closed domain carrying a homogeneous isotropic perfect fluid, the unchanged Einstein equations give instead
+
+```math
+\Lambda R^2 = \frac{\rho + 3p}{\rho + p} = 3 - \frac{2}{1 + w}, \qquad p = w\rho,
+```
+
+which returns 1 for dust and 3/2 for radiation, and approaches 3 only as $`w \to \infty`$. The coefficient 3 is the supremum of that family and is not attained inside it. Whether $`\Lambda = 3/R^2`$ is the physical constant of the static domain therefore depends on the stress tensor its mode content actually carries, which the framework has not determined. The chain is spectrally seeded, geometrically lifted, GR-normalized, and then observationally identified; the last step is the one still open.
+
 | Step | Status |
 |---|---|
 | Möbius first positive level $`2/R^2`$ | Companion spectral result |
 | Surface-to-spatial factor 3 | Standard Gauss geometry (isotropic covering great-$`S^2`$ band, $`A_{ij} = 0`$) |
-| Time-symmetric vacuum relation $`{}^{(3)}R = 2\Lambda`$ | Standard GR input ($`K_{ij} = 0`$, vacuum) |
+| Time-symmetric vacuum relation $`{}^{(3)}R = 2\Lambda`$ | Standard GR input ($`K_{ij} = 0`$, vacuum); a reference normalization, not the static domain's field equation |
+| Stress tensor of the static mode content | Open, and gating: it selects the coefficient |
 | $`\Lambda R^2 = 3`$ | Standard de Sitter coefficient, with a proposed spectral seed |
 | Scale $`R`$ | Open |
 
@@ -86,7 +97,9 @@ Einstein's field equations are unchanged; Λ stays on the geometric side. The di
 
 with $`R_\text{ind}`$ obtained without the Λ-radius relation, stated in advance of the European Space Agency's Euclid Data Release 1. The cosmology-relevant tests read against the spectroscopic BAO and weak-lensing analyses that arrive with the full DR1 in mid 2027; the DR1-Foundation release of November 2026 carries data but no cosmology-derived products, and ESA notes its release dates are tentative. A departure from 3 at $`> 5\sigma`$, with $`R`$ obtained independently, would falsify the coefficient relation. Robust evidence that the dark-energy density evolves with redshift would instead falsify the broader identification of the observed component with a true cosmological constant.
 
-This construction treats Λ as global geometric data rather than deriving it from a zero-point mode sum. That reframes the role assigned to Λ, but it does not by itself establish radiative stability: quantum vacuum stress still contributes to the effective gravitational equations, and whether it can renormalize or disturb the proposed spectral relation remains open. The compulsoriness of the Möbius carrier and the dynamical stability of the cosmology are likewise open.
+This construction treats Λ as global geometric data rather than deriving it from a zero-point mode sum. That reframes the role assigned to Λ, but it does not by itself establish radiative stability: quantum vacuum stress still contributes to the effective gravitational equations, and whether it can renormalize or disturb the proposed spectral relation remains open.
+
+The gating open problem for the coefficient itself is the stress tensor carried by the static mode content, discussed in §IV. Until that is determined, general relativity does not select among the available coefficients, and the identification of the vacuum reference value $`3/R^2`$ with the physical constant is an assumption rather than a result. The compulsoriness of the Möbius carrier and the dynamical stability of the cosmology are likewise open.
 
 ---
 
