@@ -94,7 +94,7 @@ The selection is decisive. Only $`n = -1/2`$ is viable.
 
 ## III. Model D+Λ and Pantheon+
 
-The Hubble parameter derived from the budget identity with the Waltz clock and topology-fixed Λ:
+The Hubble parameter derived from the budget identity with the Waltz clock and the fixed vacuum-reference Λ (the physical identification is open, see [cosmological constant](../../../../cosmos/files/cosmological-constant.md) §IV):
 
 ```math
 H^2(z) = H_0^2\left[\frac{1-\Omega_\Lambda}{1-s_0^2}(1+z)^3 - \frac{(1-\Omega_\Lambda) s_0^2}{1-s_0^2}(1+z) + \Omega_\Lambda\right]

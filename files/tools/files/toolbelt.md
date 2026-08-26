@@ -33,7 +33,7 @@ This is the machinery, not the results. For the scored predictions it produces, 
 | 120 structure | 2I (binary icosahedral, largest exceptional discrete subgroup of SU(2) ≅ S³) acts freely; \|2I\| = 120 | DERIVED |
 | Gauss + de Sitter | 3/2 curvature interface: R_spatial = 3R_Σ (the 3, Gauss/Ricci lift, derived) then = 2Λ (the 1/2, de Sitter vacuum normalization, imported from GR) → Λ_obs = (3/2)Λ_top. First positive eigenvalue λ₁ = 2/R² = R_Σ. | 3 derived, ½ imported |
 | Antinode selection + first-order stationarity of Λ | Λ_top sits at the topologically selected antinode (Θ = 60/120) where d ln C/dΘ = 0, so it is stationary to first order; a finite phase displacement still moves the value (−0.27% for one step). | DERIVED |
-| G as exchange rate | Topology sources both the curvature (Λ_obs = 3/R²) and the energy floor (μ_Λ). G is the exchange rate: G = 3c⁴/(8πR²μ_Λ⁴), with all G-dependence collecting into m ∝ G^{-(15+d)/60}: closed-form given c, ℏ, R, and one measured mass. | ESTABLISHED |
+| G as exchange rate | Topology sources both the curvature seed (Λ_top = 2/R², de-Sitter-normalized to the reference Λ_obs = 3/R²; physical identification open) and the energy floor (μ_Λ). G is the exchange rate: G = 3c⁴/(8πR²μ_Λ⁴), with all G-dependence collecting into m ∝ G^{-(15+d)/60}: closed-form given c, ℏ, R, and one measured mass. | ESTABLISHED |
 
 **What this tool settles:**
 
