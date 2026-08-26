@@ -84,6 +84,14 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
+### [The Stress-Tensor Bridge](files/stress-tensor-bridge.md)
+
+**Tracker:** Program page for the framework's one missing map, the ledger's $`E(S)`$: from the realized budget state to a stress tensor with a declared placement (which metric's Einstein equations it sources). The same object gates four opens at once: the Λ coefficient's physical identification ([cosmological constant](../../../cosmos/files/cosmological-constant.md) §IV), the Ψ²→S² counterparty, the cooling-energy accounting, and the matter-scaling import in $`H(z)`$. The page assembles the constraint set (static source, the perfect-fluid coefficient gate, the Friedmann mechanism fence, the Killing ledger, the fitted dictionary, the coincidence fences), states the three-way placement fork (physical-static, effective-metric, shifted coefficient), and freezes two non-evidentiary pilots before running them.
+
+**Dependencies:** [cosmological constant](../../../cosmos/files/cosmological-constant.md) §IV, [The Budget Map](files/budget-map.md), [Friedmann as Output](files/friedmann-as-output.md), [Temporal Budget](files/temporal-budget.md), [Redshift and Cooling](files/redshift-and-cooling.md).
+
+---
+
 ### [Calibration Structure](files/calibration-structure.md)
 
 **Summary:** Reframes the engine as a calibration scheme: one measured anchor per sector ($`H_0`$ edge, $`\Lambda`$ surface, $`m_e`$ mass-sector normalization), with the topology supplying the exponents, well assignments, and ratios. Localizes the R problem to a single demotion: $`\Lambda`$ moves from absolute prediction to measured calibration input, and nothing downstream collapses. Draft for a new engine section.
