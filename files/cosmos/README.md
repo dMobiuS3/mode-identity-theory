@@ -79,7 +79,7 @@ Hubble measured the tension in 1929 from the same structure. The framework reads
 | [↗](files/cosmological-constant.md#v-the-open-radius) $`\Lambda`$ (coupling $`\alpha`$ route) | $`\Lambda_\text{obs}\,\ell_P^2 \approx 2.9 \times 10^{-122}`$ | $`2.90 \times 10^{-122}`$ | ~23% |
 | [↗](files/cosmological-constant.md#v-the-open-radius) $`\Lambda`$ (mass-spectrum cross-check) | $`\Lambda \approx 8 \times 10^{-54}`$ m⁻² | $`1.11 \times 10^{-52}`$ m⁻² | order of magnitude |
 | [↗](../spectrum/files/the-waltz.md#ii-gravity-as-the-cost-to-dance) $`\Lambda_\text{obs}/\Lambda_\text{top}`$ | 3/2 (gravitational cost) | 3 Gauss/Ricci lift × 1/2 de Sitter vacuum | exact |
-| [↗](files/cosmological-constant.md#iii-the-spectral-seed) $`\Lambda`$ eigenvalue | topological ($`2/R_\Lambda^2`$) constant | topological protection holds | ✓ |
+| [↗](files/cosmological-constant.md#iii-the-spectral-seed) $`\Lambda`$ eigenvalue | topological ($`2/R_\Lambda^2`$) seed | antinode topologically selected; stationary to first order | ✓ |
 | [↗](files/dark-energy.md#iii-w_texteffz---1-at-all-redshifts-fiducial-split) $`w_\text{eff}(z) > -1`$ | no phantom crossing | DESI DR2 compatible | ✓ |
 | [↗](files/dark-energy.md#primary-fit-snbao) $`\Delta\chi^2`$ vs ΛCDM | +0.11 (same $`k`$) | Pantheon+ & DESI DR2 BAO | passed |
 | [↗](files/dark-energy.md#the-1z1-term) $`(1+z)^1`$ term | negative, tied to $`s_0`$ | awaiting next-gen BAO | open |
