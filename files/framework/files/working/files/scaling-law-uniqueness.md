@@ -131,10 +131,10 @@ Step 5 reads n as the observable's length-dimension; the engine's selection rule
 | Λ | −2 | 2 (surface) | yes | units = manifold |
 | null dark-matter detection | −3 (number density) | 3 (space) | yes, if the observable is a 1/length³ density | units = manifold; observable to be pinned |
 | G | nonzero (defines ℓ_P) | 0 (Planck floor) | NO | Planck anchor: A/A_P = 1 by construction, not by length-dimension |
-| Λ_obs/Λ_top = 3/2 | 0 (ratio) | 3/2 (Gauss) | NO | Gauss-Codazzi conversion, not a dilution exponent |
+| Λ_obs/Λ_top = 3/2 | 0 (ratio) | 3/2 (3 Gauss/Ricci × 1/2 de Sitter) | NO | 3/2 vacuum-reference conversion (3 Gauss/Ricci lift, 1/2 de Sitter vacuum), not a dilution exponent |
 | α, α_s, α_W | 0 | fractional (1/60, 1/120) | NO | grid ladder, not units |
 
-**Verdict.** n_(length-dim) = n_(manifold) on the dimensionful dilution observables (edge + surface + space), and only there. Three rows sit outside the identity: G is the Planck-defining anchor (ratio 1, n = 0 by construction, not because its length-dimension is 0); the 3/2 row is a Gauss-Codazzi conversion factor, not a dilution; the couplings carry length-dimension 0 yet pick up fractional exponents from the ladder. The Step 5 argument, units for the dimensional form plus exact homothety for the power, therefore legitimately closes the dilution sector and only the dilution sector; the manifold and ladder rules carry the rest. This is consistent with the note's own split between Step 5 (integer depth) and the coupling exponents; the table adds G and the 3/2 conversion as the two further exceptions.
+**Verdict.** n_(length-dim) = n_(manifold) on the dimensionful dilution observables (edge + surface + space), and only there. Three rows sit outside the identity: G is the Planck-defining anchor (ratio 1, n = 0 by construction, not because its length-dimension is 0); the 3/2 row is a vacuum-reference conversion factor (3 from the Gauss/Ricci lift, 1/2 imported from the de Sitter vacuum normalization), not a dilution; the couplings carry length-dimension 0 yet pick up fractional exponents from the ladder. The Step 5 argument, units for the dimensional form plus exact homothety for the power, therefore legitimately closes the dilution sector and only the dilution sector; the manifold and ladder rules carry the rest. This is consistent with the note's own split between Step 5 (integer depth) and the coupling exponents; the table adds G and the 3/2 conversion as the two further exceptions.
 
 ---
 

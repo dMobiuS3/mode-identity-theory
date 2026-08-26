@@ -12,7 +12,7 @@ The Millennium Prize asks whether pure Yang-Mills on flat $`\mathbb{R}^4`$ has a
 | Object | nonperturbative quantum mass gap | linearized coexact gap |
 | Status | open and hard | classical, forced by the geometry |
 
-The surprise is the bottom-right cell: a mass gap appears for free from a shape, and its exact value is read off the McKay structure. Positive Ricci curvature forces a gap to exist; the finite group $`2I`$ gives exactly three isolated vacua (trivial, standard, Galois conjugate); and the McKay graph, the affine $`E_8`$ diagram, fixes the value at each, $`4/R^2`$ at two and $`36/R^2`$ at the third, a ninefold enhancement at the Galois sector. The same curvature that forces this gap also enters the Gauss conversion that sets $`\Lambda`$: one geometry, two consequences.
+The surprise is the bottom-right cell: a mass gap appears for free from a shape, and its exact value is read off the McKay structure. Positive Ricci curvature forces a gap to exist; the finite group $`2I`$ gives exactly three isolated vacua (trivial, standard, Galois conjugate); and the McKay graph, the affine $`E_8`$ diagram, fixes the value at each, $`4/R^2`$ at two and $`36/R^2`$ at the third, a ninefold enhancement at the Galois sector. The same curvature that forces this gap also enters the conversion that sets $`\Lambda`$: one geometry, two consequences.
 
 (Throughout, $`R`$ is the curvature radius of the round metric, the framework's $`R_\Lambda`$; for $`S^3/2I`$, $`\Lambda = 3/R_\Lambda^2`$.)
 
@@ -124,7 +124,7 @@ The existence of the gap, the discreteness of vacua, the vanishing $`H^1`$, and 
 
 ### Connection to MIT
 
-Within Mode Identity Theory, $`R`$ is the curvature radius of the spatial $`S^3`$, the same length scale that sets $`\Lambda`$, so $`\Delta^2 = 4/R^2`$ is tied to that one geometric input rather than a free dial. Its numerical value is currently known only to order of magnitude: the coupling and the fermion mass spectrum give two independent readings that agree on the scale but sit about a factor of four apart in $`R`$, an open tension carried explicitly. The same positive curvature $`\mathrm{Ric}(S^3) = 2/R^2`$ that guarantees confinement here enters the Gauss conversion that produces Λ. One geometry, two consequences: the cosmological constant and the spectral gap share a common origin in the curvature of $`S^3`$.
+Within Mode Identity Theory, $`R`$ is the curvature radius of the spatial $`S^3`$, the same length scale that sets $`\Lambda`$, so $`\Delta^2 = 4/R^2`$ is tied to that one geometric input rather than a free dial. Its numerical value is currently known only to order of magnitude: the coupling and the fermion mass spectrum give two independent readings that agree on the scale but sit about a factor of four apart in $`R`$, an open tension carried explicitly. The same positive curvature $`\mathrm{Ric}(S^3) = 2/R^2`$ that guarantees confinement here enters the conversion that produces Λ. One geometry, two consequences: the cosmological constant and the spectral gap share a common origin in the curvature of $`S^3`$.
 
 The $`2I`$ structure performs three roles: it partitions phase space into the 120-domain (the scaling law), it filters gauge fluctuations into three isolated vacua with computed spectral gaps (this result), and it provides the spectral geometry whose McKay multiplicities are the $`E_8`$ root system.
 

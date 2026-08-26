@@ -172,7 +172,7 @@ Technical gaps with specific paths forward.
 
 **Problem:** Does MIT's structure project into every gravitationally coherent scale, or only the cosmological one? If the 120-grid and 3/2 conversion nest, the Oort Cloud (~144,000 AU) is the solar-system-scale coherence boundary. Central open question: generalizing $`L_f = v_c^2/a_0`$ from galactic to stellar and planetary scales. Downstream predictions include CMB-ecliptic alignment as a local sampling fingerprint.
 
-**Dependencies:** Sector $`\mathcal{A}`$ eigenvalue, phase field coherence scale $`L_f`$, 120-grid scale-free projection, 3/2 Gauss-Codazzi conversion.
+**Dependencies:** Sector $`\mathcal{A}`$ eigenvalue, phase field coherence scale $`L_f`$, 120-grid scale-free projection, 3/2 conversion (Gauss lift + de Sitter vacuum).
 
 ---
 

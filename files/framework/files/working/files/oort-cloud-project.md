@@ -8,7 +8,7 @@
 
 **Status:** Working bench. Locked parts (Section II) are derived. Joints (Section III) are under load. Pieces (Section IV) are motivated but not yet joined. Gaps (Section V) are genuinely open.
 
-**Dependencies:** Sector $`\mathcal{A}`$ eigenvalue, phase field coherence scale $`L_f`$ (tested, falsified by SPARC; the unknown galactic coherence scale is $`L_g`$), 120-grid scale-free projection, 3/2 Gauss-Codazzi conversion.
+**Dependencies:** Sector $`\mathcal{A}`$ eigenvalue, phase field coherence scale $`L_f`$ (tested, falsified by SPARC; the unknown galactic coherence scale is $`L_g`$), 120-grid scale-free projection, 3/2 conversion (Gauss lift + de Sitter vacuum).
 
 **Related:** [Cone point coherence notes](cone-point-coherence.md) (geometric mechanism behind $`L_f`$), [SPARC phase field notes](sparc-phase-field.md) (empirical test of $`L_f`$ across 175 galaxies), [Black Double Zero's](../../../../cosmos/files/black-hole.md) §VIII.1 (the killed absolute-$`\Phi`$ bridge to the horizon, Joint 4).
 
@@ -18,7 +18,7 @@
 
 Does MIT's structure project into every gravitationally coherent scale, or only the cosmological one?
 
-If it projects, the Oort Cloud (~144,000 AU) is the solar-system-scale coherence boundary: the domain within which the observer's 3/2 Gauss-Codazzi reconstruction is anchored to the solar mode. If it doesn't, the Oort Cloud is just where gravity hands off, and the 144,000 is a coincidence.
+If it projects, the Oort Cloud (~144,000 AU) is the solar-system-scale coherence boundary: the domain within which the observer's 3/2 reconstruction (Gauss lift + de Sitter vacuum) is anchored to the solar mode. If it doesn't, the Oort Cloud is just where gravity hands off, and the 144,000 is a coincidence.
 
 Everything on this bench serves that question.
 
@@ -35,7 +35,7 @@ Derived, tested, load-bearing. Pick up and use.
 | 120-grid | Phase resolution native to $`S^3`$ | Binary icosahedral group ($`\|2I\| = 120`$) | MIT II.D |
 | $`\sqrt{\Omega} = 10^{61}`$ | Observer midpoint | UV-IR fixed point on bounded domain | MIT II.C |
 | $`(\sqrt{\Omega})^{-n}`$ | Hierarchy factor | Volume dilution in $`n`$-manifold | MIT II.C |
-| 3/2 conversion | Perception geometry: surface-to-venue | Gauss-Codazzi, minimal embedding, isotropy | [The Waltz](../../../../spectrum/files/the-waltz.md) |
+| 3/2 conversion | Perception geometry: surface-to-venue | Gauss/Ricci lift (the 3), de Sitter vacuum normalization (the 1/2), minimal embedding, isotropy | [The Waltz](../../../../spectrum/files/the-waltz.md) |
 | $`\Lambda_{\text{obs}} \approx 2.9 \times 10^{-122}`$ | Cosmological constant prediction | Scaling law + 3/2 conversion (~2% agreement) | [The Waltz](../../../../spectrum/files/the-waltz.md) |
 | $`\tau = T/120`$ | Chronon at any scale | 120-grid applied to mode period $`T`$ | Chronon note |
 | $`\tau_c/\tau_P = \sqrt{\Omega}`$ | Chronon ratio spans $`10^{61}`$ | Same midpoint, temporal channel | Chronon note |

@@ -341,7 +341,7 @@ $`R_7`$ occupies a special position in this structure. $`R_7 \otimes R_1 = R_7 \
 | Face ($`Z_3`$) | Order 3 | Color: singlet vs triplet | Locked |
 | Edge ($`Z_4`$) | Order 4 | Domain: $`D = 60`$ vs 120 | Locked |
 | Vertex ($`Z_5`$) | Order 5 | Electroweak: $`T_3`$ via Coxeter-Galois gate | Established |
-| Face/Edge ratio | 3/2 | Gravity: Gauss-Codazzi | Motivated |
+| Face/Edge ratio | 3/2 | Gravity: 3/2 vacuum-reference conversion (3 Gauss/Ricci, 1/2 de Sitter) | Motivated |
 | Vertex through twist | $`\cos(\pi/10)`$ | Weak coupling correction | Motivated |
 
 The three stabilizer orders 2, 3, 5 are the primes dividing $`|2I| = 120`$ and the conductors of the four surviving Dirichlet characters in the torsion L-basis. They generate color, domain, and (through their interfaces) gravity and the weak force. The stabilizer structure says what each entry is; the formula says where it sits, both from the topology. Which entry lands on which measured fermion is the comparison, read against the data.

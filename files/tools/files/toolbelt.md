@@ -31,7 +31,7 @@ This is the machinery, not the results. For the scored predictions it produces, 
 | Hierarchy | S³ (venue, n=3) contains Möbius (surface, n=2) whose boundary is S¹ (edge, n=1) | DERIVED |
 | Uniqueness | Poincaré conjecture + classification theorems fix all three manifolds | DERIVED |
 | 120 structure | 2I (binary icosahedral, largest exceptional discrete subgroup of SU(2) ≅ S³) acts freely; \|2I\| = 120 | DERIVED |
-| Gauss-Codazzi | 3/2 curvature interface: R_spatial = 3R_Σ = 2Λ → Λ_obs = (3/2)Λ_top. First positive eigenvalue λ₁ = 2/R² = R_Σ. | DERIVED |
+| Gauss + de Sitter | 3/2 curvature interface: R_spatial = 3R_Σ (the 3, Gauss/Ricci lift, derived) then = 2Λ (the 1/2, de Sitter vacuum normalization, imported from GR) → Λ_obs = (3/2)Λ_top. First positive eigenvalue λ₁ = 2/R² = R_Σ. | 3 derived, ½ imported |
 | Topological protection of Λ | Λ_top sits at the antinode (Θ = 60/120) where d ln C/dΘ = 0; no perturbation can shift it. | DERIVED |
 | G as exchange rate | Topology sources both the curvature (Λ_obs = 3/R²) and the energy floor (μ_Λ). G is the exchange rate: G = 3c⁴/(8πR²μ_Λ⁴), with all G-dependence collecting into m ∝ G^{-(15+d)/60}: closed-form given c, ℏ, R, and one measured mass. | ESTABLISHED |
 
@@ -43,7 +43,7 @@ The 120-grid IS S³ structure, not a filter applied to it. S¹ is partitioned in
 
 | Structure | What it determines | Mechanism |
 |-----------|-------------------|-----------|
-| Möbius surface (2D) | Vacuum energy Λ | First positive eigenvalue, Gauss-Codazzi |
+| Möbius surface (2D) | Vacuum energy Λ | First positive eigenvalue, Gauss/Ricci lift, de Sitter vacuum normalization |
 | Binary icosahedral group 2I | Particle spectrum, mass gap, generations | McKay decomposition, Reidemeister torsion |
 | Stabilizer triple (2, 3, 5) | Color, domain, forces, gravity ratio | Face/edge/vertex decompositions and interfaces |
 | Observer at √Ω | Coupling constants, hierarchy | Scaling law at Fibonacci wells |
@@ -121,7 +121,7 @@ The binary icosahedral group 2I inherits three stabilizer subgroups from the ico
 | Face (Z₃) | Order 3 | Color: singlet vs triplet | LOCKED |
 | Edge (Z₄) | Order 4 | Domain: D = 60 vs 120; spin-statistics | LOCKED |
 | Vertex (Z₅) | Order 5 | Electroweak interface; T₃ via Coxeter-Galois gate | ESTABLISHED |
-| Face/Edge ratio | 3/2 | Gravity: Gauss-Codazzi conversion (derived); the Face/Edge identification is conjectural | MOTIVATED |
+| Face/Edge ratio | 3/2 | Gravity: 3/2 conversion (3 = Gauss/Ricci lift, derived; 1/2 = de Sitter vacuum, imported); the Face/Edge identification is conjectural | MOTIVATED |
 | Vertex through twist | cos(π/10) | Weak coupling correction; parity violation | MOTIVATED |
 
 - **Color (faces, Z₃):** restricting an irrep to Z₃ splits it into color singlets (leptons) and triplets (quarks); generation-independent (the face geometry is vacuum-invariant).
@@ -252,7 +252,7 @@ Four factors, four sources:
 
 | Factor | Role | Value/Source |
 |--------|------|-------------|
-| μ_Λ | Vacuum energy floor; fourth root of the cosmological-constant energy density (Tool 1: first positive eigenvalue → Gauss-Codazzi → Λ_obs → ρ_Λ^(1/4)) | ρ_Λ^(1/4) ≈ 2.25 meV |
+| μ_Λ | Vacuum energy floor; fourth root of the cosmological-constant energy density (Tool 1: first positive eigenvalue → Gauss/Ricci lift → de Sitter vacuum → Λ_obs → ρ_Λ^(1/4)) | ρ_Λ^(1/4) ≈ 2.25 meV |
 | C_geom(ρ) | Phase factor; geometric mean of C(e/D) over Kostant exponents (Tool 2) | D = 60 / 120 |
 | (√Ω_Λ)^(dist/30) | Hierarchy; McKay graph distance sets orders of magnitude (Tool 2) | denominator h(E₈) = 30 |
 | T²(ρ⊗σ) | Reidemeister torsion, vacuum-twisted; fine structure / generation mechanism (Tools 3-4) | 24 values, 8 irreps × 3 vacua |
@@ -276,7 +276,7 @@ Applied to the 8 nontrivial irreps across 3 vacua, the formula produces 24 entri
 |--------|-------|--------|
 | \|2I\| | 120 | Largest exceptional discrete subgroup of SU(2) |
 | Period | 4π | Anti-periodic BC |
-| Gauss-Codazzi | 3/2 | Surface to space conversion |
+| Gauss + de Sitter | 3/2 | 3 = Gauss/Ricci lift, 1/2 = de Sitter vacuum |
 | Chronon | π/30 | 4π/120 |
 | Bosonic step | 2/120 | Spinor to scalar projection |
 | Active wells | {13, 21, 34, 55, 60}/120 | Hurwitz stability + threshold |

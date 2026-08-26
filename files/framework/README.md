@@ -217,13 +217,13 @@ Mode intensity dilutes as $`(\sqrt{\Omega})^{-n}`$. The manifold index $`n`$ spe
 |---|---|---|---|---|
 | 0 | Planck floor | 1 | 1 | $`G`$ |
 | 1 | Temporal edge $`S^1`$ | $`\Omega_H`$ | $`10^{-61}`$ | $`H_0`$, $`a_0`$ |
-| 3/2 | Gauss equation | — | — | $`\Lambda_\text{obs}/\Lambda_\text{top} = 3/2`$ (geometric conversion; the vacuum seam, see One Interface) |
+| 3/2 | Gauss lift + de Sitter | — | — | $`\Lambda_\text{obs}/\Lambda_\text{top} = 3/2`$ (3 the Gauss/Ricci lift, 1/2 the de Sitter vacuum; the vacuum seam, see One Interface) |
 | 2 | Möbius surface | $`\Omega_\Lambda`$ | $`10^{-122}`$ | $`\Lambda`$ |
 | 3 | Space $`S^3`$ | $`\Omega_\Lambda`$ | $`10^{-183}`$ | Null dark matter detection |
 
 **The scale selection rule.** The index $`n`$ is read from where the quantity lives and whether it evolves with epoch: edge rates take $`n = 1`$ on the evolving $`\Omega_H`$, surface and space quantities take $`n = 2`$ and $`n = 3`$ on the fixed $`\Omega_\Lambda`$, and dimensionless couplings bypass manifold dilution at fractional $`n`$.
 
-The index $`n`$ has two compatible readings in the dilution sector: the length-dimension of the observable, and the geometric layer on which the mode lives. They agree for the edge, surface, and space rows. The exceptions are explicit: $`G`$ is the Planck anchor, the $`3/2`$ row is a Gauss-Codazzi conversion rather than dilution, and the dimensionless couplings use fractional grid exponents.
+The index $`n`$ has two compatible readings in the dilution sector: the length-dimension of the observable, and the geometric layer on which the mode lives. They agree for the edge, surface, and space rows. The exceptions are explicit: $`G`$ is the Planck anchor, the $`3/2`$ row is a vacuum-reference conversion (3 Gauss/Ricci, 1/2 de Sitter) rather than dilution, and the dimensionless couplings use fractional grid exponents.
 
 ### Fibonacci Wells
 
@@ -368,7 +368,7 @@ Two further entries are not primes but corrections derived from the same stabili
 
 | Combination | Value | Role | Mechanism |
 |---|---|---|---|
-| Face / Edge | 3/2 | Gravity: Gauss equation conversion | Surface eigenvalue carried to a space observable |
+| Face / Edge | 3/2 | Gravity: 3/2 vacuum-reference conversion (3 Gauss/Ricci, 1/2 de Sitter) | Surface eigenvalue carried to a space observable |
 | Vertex $`\times`$ twist | $`\cos(\pi/10)`$ | Weak coupling correction | Dodecahedral defect $`\pi/5`$, halved by the Möbius $`Z_2`$ |
 
 The 3/2 gravity entry is the conjectural one: its derived content is the Gauss conversion (3 = isotropic Ricci trace, 2 = de Sitter normalization; see [cosmological constant](../cosmos/files/cosmological-constant.md)), and reading the same 3/2 as a face-to-edge stabilizer ratio is a suggested correspondence, not a derived identity.
@@ -385,7 +385,7 @@ Underneath everything is $`S^3`$: smooth, continuous, every point equivalent, wi
 
 | Seam | Operation | Produces | Carries |
 |---|---|---|---|
-| Möbius $`\hookrightarrow S^3`$ | totally geodesic great-$`S^2`$ band (Möbius as its quotient) | the vacuum, $`\Lambda`$ | the 3/2 Gauss factor |
+| Möbius $`\hookrightarrow S^3`$ | totally geodesic great-$`S^2`$ band (Möbius as its quotient) | the vacuum, $`\Lambda`$ | the 3/2 vacuum-reference factor (3 Gauss/Ricci, 1/2 de Sitter) |
 | $`S^3 \to S^3/2I`$ | quotient (point identification) | the 120-domain: wells, gauge ladder, mass gap | the grid |
 
 These are different operations doing different jobs. Embedding a 2-surface in the 3-space converts surface curvature into spatial curvature and fixes the vacuum; the quotient identifies points and produces the discrete grid. The [Waltz](../spectrum/files/the-waltz.md) reading draws the same line: the Möbius surface sets $`\Lambda`$, the binary icosahedral group sets matter. The wells and the three gauge forces come from the quotient, not the embedding.

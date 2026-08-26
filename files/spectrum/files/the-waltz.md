@@ -4,7 +4,7 @@
 
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/The%20watlz%20banner.png?raw=true" width="100%" alt="The Waltz">
 
-The spectral seed of the cosmological constant Λ is the first positive eigenvalue of the Möbius surface, $`\lambda_+ = 2/R^2`$; Λ itself is $`3/R^2`$. Observation infers Λ from three-dimensional dynamics in $`S^3`$. The Gauss equation supplies the interface between the two: a 3/2 conversion factor carrying 2D surface curvature into 3D spatial geometry. The same bridge determines Newton's constant $`G`$ as an exchange rate between the curvature scale and the vacuum energy floor.
+The spectral seed of the cosmological constant Λ is the first positive eigenvalue of the Möbius surface, $`\lambda_+ = 2/R^2`$; Λ itself is $`3/R^2`$. Observation infers Λ from three-dimensional dynamics in $`S^3`$. The 3/2 conversion factor supplies the interface between the two: the Gauss equation lifts the 2D surface curvature into 3D (the geometric 3), and the imported de Sitter vacuum relation normalizes it (the 1/2). The same bridge determines Newton's constant $`G`$ as an exchange rate between the curvature scale and the vacuum energy floor.
 
 ## I. The Two Partners
 
@@ -15,7 +15,7 @@ The spectral seed of the cosmological constant Λ is the first positive eigenval
 
 $`S^3`$ space carries curvature as a continuous field. The Möbius surface carries the topological eigenvalue that sets the boundary condition. The $`S^1`$ temporal edge is where observation resolves position. The Standard Model treats $`G`$ as a dictionary entry: a measured constant that translates between the surface's language (curvature) and the space's language (energy) at the Planck floor ($`n = 0`$). MIT derives it as an exchange rate, fixed by the ratio of two independently sourced quantities (§II).
 
-The topology independently sources both the curvature ($`\Lambda_{\text{obs}} = 3/R^2`$ from the Möbius eigenvalue through the Gauss equation) and the energy floor ($`\mu_\Lambda`$ from the mass spectrum). $`G`$ is the exchange rate between them (§II). $`\ell_P \equiv \sqrt{\hbar G/c^3}`$ is derived from $`c`$, $`\hbar`$, $`G`$. $`\Omega_\Lambda = (R/\ell_P)^2`$ is a geometric scale ratio: the squared number of Planck lengths in $`R`$.
+The topology independently sources both the curvature ($`\Lambda_{\text{obs}} = 3/R^2`$ from the Möbius eigenvalue through the Gauss lift and the imported de Sitter vacuum normalization) and the energy floor ($`\mu_\Lambda`$ from the mass spectrum). $`G`$ is the exchange rate between them (§II). $`\ell_P \equiv \sqrt{\hbar G/c^3}`$ is derived from $`c`$, $`\hbar`$, $`G`$. $`\Omega_\Lambda = (R/\ell_P)^2`$ is a geometric scale ratio: the squared number of Planck lengths in $`R`$.
 
 ## II. Gravity as the Cost to Dance
 
@@ -122,7 +122,7 @@ Space ($`n=3`$) couples only gravitationally. Detectors couple through surface a
 
 The silence follows from the scaling law's manifold hierarchy. The scaling law $`A/A_P = C(\Theta) \cdot (\sqrt{\Omega_\Lambda})^{-n}`$ assigns each manifold depth an exponential suppression: $`n = 1`$ (edge) gives $`\sim 10^{-61}`$ (matter), $`n = 2`$ (surface) gives $`\sim 10^{-122}`$ (vacuum energy), $`n = 3`$ (space) gives $`\sim 10^{-183}`$. Non-gravitational couplings require gauge-field propagation within a shared manifold. Detectors couple through the surface and gauge sectors ($`n \leq 2`$); space ($`n = 3`$) carries curvature but no gauge degrees of freedom. Gravity couples to stress-energy regardless of manifold depth; the gauge forces do not. The $`n = 3`$ sector is gravitationally present and gauge-invisible by construction.
 
-"Dark energy" constitutes ~68% of the universe's energy density. Standard cosmology treats it as a fluid filling space. MIT identifies it as the first positive mode of the Möbius surface ($`n = 2`$, $`m_h = 0`$), the eigenvalue of a bounded geometry, derived from surface curvature through the Gauss equation.
+"Dark energy" constitutes ~68% of the universe's energy density. Standard cosmology treats it as a fluid filling space. MIT identifies it as the first positive mode of the Möbius surface ($`n = 2`$, $`m_h = 0`$), the eigenvalue of a bounded geometry, lifted from surface curvature by the Gauss equation and normalized by the imported de Sitter vacuum relation.
 
 | Label | MIT identity | Manifold |
 |---|---|---|
@@ -146,7 +146,7 @@ The topological postulate $`S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, 
 
 | Structure | What it determines | Mechanism |
 |---|---|---|
-| Möbius surface (2D) | Vacuum energy Λ | First positive eigenvalue, Gauss equation |
+| Möbius surface (2D) | Vacuum energy Λ | First positive eigenvalue, Gauss lift, de Sitter vacuum normalization |
 | Binary icosahedral group 2I | Particle spectrum, mass gap, generations | McKay decomposition, Reidemeister torsion |
 | Stabilizer triple (2, 3, 5) | Color, domain, forces, gravity ratio | Face/edge/vertex decompositions and interfaces |
 | Observer at $`\sqrt{\Omega_\Lambda}`$ | Coupling constants, hierarchy | Scaling law at Fibonacci wells |

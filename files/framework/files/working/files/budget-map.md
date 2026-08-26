@@ -19,14 +19,14 @@ The budget, the things read off it, and the clock that times it are spread acros
 | Object | Identity or law | Kind | Conserved | What it fixes |
 |---|---|---|---|---|
 | Temporal budget | $`\Psi^2 + S^2 = 1`$ | budget | yes | the state $`S`$; the realization partition |
-| Spatial budget | $`u_0^2 + J^2 = 1`$ | budget (twin) | yes | $`\Lambda`$, through the 3/2 Gauss factor |
+| Spatial budget | $`u_0^2 + J^2 = 1`$ | budget (twin) | yes | $`\Lambda`$, through the 3/2 conversion (3 the Gauss/Ricci lift, 1/2 the de Sitter vacuum) |
 | Temperature | $`T \propto 1/S`$ | reading of $`S`$ | no | per-mode energy; cooling and the thermal redshift law |
 | Entropy | $`\Sigma = k_B \ln W_\text{micro}(S)`$ | reading of $`S`$ | no, grows | configurations over realized modes; the rising trend |
 | Waltz clock | $`dt/d\tau = S^{-1/2}`$ | map | not applicable | $`H(z)`$, distances, redshift kinematics |
 
 ## The one budget, and its twin
 
-$`\Psi^2 + S^2 = 1`$, with $`\Psi = \cos(t/2)`$ the unresolved standing wave and $`S = \sin(t/2)`$ the realized-mode content. It is conserved by construction and has one state variable, $`S`$. Everything thermodynamic on this page is a function of that one number. The spatial budget $`u_0^2 + J^2 = 1`$ is its structural twin on the Möbius wavefunction, fixing $`\Lambda`$ through the Gauss 3/2 that the clock's exponent numerically matches (a correspondence still open); it is the only other genuine budget in the framework.
+$`\Psi^2 + S^2 = 1`$, with $`\Psi = \cos(t/2)`$ the unresolved standing wave and $`S = \sin(t/2)`$ the realized-mode content. It is conserved by construction and has one state variable, $`S`$. Everything thermodynamic on this page is a function of that one number. The spatial budget $`u_0^2 + J^2 = 1`$ is its structural twin on the Möbius wavefunction, fixing $`\Lambda`$ through the 3/2 conversion (3 the Gauss/Ricci lift, 1/2 the de Sitter vacuum) that the clock's exponent numerically matches (a correspondence still open); it is the only other genuine budget in the framework.
 
 ## The two readings
 

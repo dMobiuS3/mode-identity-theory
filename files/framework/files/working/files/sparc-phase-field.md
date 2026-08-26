@@ -336,7 +336,7 @@ Key distinction: the RAR alone does not predict H₀ bimodality. MIT does. This 
 
 Milgrom (1983) identified $`a_0`$ as a fundamental acceleration scale. MIT derives $`a_0`$ from the scaling law: $`a_0/a_P = C(13/120) \times (\sqrt{\Omega_H})^{-1}`$. The value is not fitted. The coincidence $`a_0 \approx cH_0`$ is explained: both are edge modes on the standing wave, and their ratio $`C(13/120)/C(34/120) = 0.184`$ is fixed by the topology.
 
-The structural distinction: MOND modifies the force law. MIT keeps gravity inverse-square everywhere. The "missing mass" inside galaxies is a curvature conversion from the embedded Möbius surface through the Gauss equation 3/2 factor. Inside the coherence scale $`L_f`$, the shifted sampling position on the bosonic grid ($`\Theta = 34/120 \to 36/120`$) mimics additional mass while leaving the force law intact.
+The structural distinction: MOND modifies the force law. MIT keeps gravity inverse-square everywhere. The "missing mass" inside galaxies is a curvature conversion from the embedded Möbius surface through the 3/2 conversion factor (3 the Gauss/Ricci lift, 1/2 the de Sitter vacuum). Inside the coherence scale $`L_f`$, the shifted sampling position on the bosonic grid ($`\Theta = 34/120 \to 36/120`$) mimics additional mass while leaving the force law intact.
 
 This distinction has an observational discriminant on cosmological scales. MOND requires deviations from inverse-square gravity at low accelerations; MIT predicts inverse-square is exact at all scales. Gallardo et al. (2026), using Atacama Cosmology Telescope CMB maps and an SDSS galaxy catalog, measured the gravitational force-law exponent from pairwise kinematic Sunyaev-Zel'dovich velocities over 30–230 Mpc halo-pair separations and found $`n = 2.1 \pm 0.3`$, consistent with inverse-square gravity and a poor fit for MOND (PRL 136, 151002).
 
@@ -344,7 +344,7 @@ This is external context, not evidence for MIT. It provides independent motivati
 
 ### ΛCDM + Dark Matter Particles
 
-ΛCDM fits rotation curves by adding a dark matter halo. MIT fits them through the Gauss equation 3/2 curvature conversion from the embedded Möbius surface. Both reproduce the data. The discriminant is direct detection: MIT predicts permanent null. Every null result from LUX, XENON, PandaX, SuperCDMS, and future experiments is consistent with MIT and increasingly difficult for particle dark matter.
+ΛCDM fits rotation curves by adding a dark matter halo. MIT fits them through the 3/2 curvature conversion from the embedded Möbius surface (3 the Gauss/Ricci lift, 1/2 the de Sitter vacuum). Both reproduce the data. The discriminant is direct detection: MIT predicts permanent null. Every null result from LUX, XENON, PandaX, SuperCDMS, and future experiments is consistent with MIT and increasingly difficult for particle dark matter.
 
 ---
 
