@@ -16,7 +16,7 @@ In 300 BC, Euclid proved Plato's observation that only five solids close perfect
 
 ---
 
-[![Interactive NotebookLM](/files/assets/notebooklm-banner.svg)](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)
+[![Interactive NotebookLM](/files/assets/notebooklm-banner-aligned.svg)](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)
 
 [![OpenWave](/files/assets/openwave-banner-graphite.svg)](https://github.com/openwave-labs/openwave)
 
