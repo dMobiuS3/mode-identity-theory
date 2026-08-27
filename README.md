@@ -16,8 +16,6 @@ In 300 BC, Euclid proved Plato's observation that only five solids close perfect
 
 ---
 
-[![OpenWave](/files/assets/openwave-banner-graphite.svg)](https://github.com/openwave-labs/openwave)
-
 [![Interactive NotebookLM](/files/assets/notebooklm-banner-aligned.svg)](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)
 
 ---
@@ -247,6 +245,10 @@ All predictions below were locked before Data Release 1 and deposited on Zenodo.
 *What you hold in your hand is not matter. It is where the wave resolved when you sampled it.*
 
 *The thing is the sample. The identity is the wave Ψ*
+
+---
+
+[![OpenWave](/files/assets/openwave-banner-graphite.svg)](https://github.com/openwave-labs/openwave)
 
 ---
 
