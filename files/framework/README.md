@@ -439,7 +439,8 @@ In a ratio of two observables at the same depth, $`\Omega_\Lambda`$ cancels: no 
 | Force count | 3 | exact |
 | Generation count | 3 | exact |
 | $`T_3`$ gate evaluations | 11 featured (5 assigned + 2 neutrino-proxy + 4 structural) | exact (Coxeter-Galois gate) |
-| $`T^2(R_3)/T^2(R_4)`$ | $`\varphi^{-4}`$ | exact (torsion ratio) |
+| Galois torsion ratios | $`\varphi^{-4}`$, $`\varphi^{-8}`$ | exact ($`T^2(R_3)/T^2(R_4)`$, $`T^2(R_1)/T^2(R_2)`$) |
+| torsion sector products | $`4`$, $`1/4`$ | exact inverses |
 | $`\alpha_s/\alpha_W`$ | 3.43 | prediction (1.8%), $`\Omega`$ cancels |
 | $`a_0/(cH_0)`$ | 0.184 | prediction (<1%), normalization cancels |
 
