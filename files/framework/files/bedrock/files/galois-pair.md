@@ -389,4 +389,18 @@ Beyond $`2I`$, the same defect machinery computes the conversion identity's two 
 
 ---
 
+## Independent numerical certification
+
+[![OpenWave](/files/assets/openwave-banner-graphite.svg)](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/research/findings/m8_1_1_method_note.md)
+
+The arithmetic of this paper has been reproduced on the OpenWave M8 track by an independent, blind computation in exact cyclotomic arithmetic, with an adversarial audit that recomputed everything by a disjoint route: groups from presentations, characters induced from cyclic subgroups, and a purely rational path that never enters the number field. Across 37 groups and thousands of twists the audit confirmed the values and refuted none.
+
+The substantive verifications are the exact numbers of Theorem 1.2 and its consequences, reproduced twice. The four rho invariants came out $`-59/30`$, $`-131/30`$, $`-73/15`$, $`-97/15`$, their Galois difference $`-8/5`$ supported exactly on the four conjugacy classes of element order five and ten, matching the golden-class localization of Corollary 4.2. The tautological charges $`119/120`$, $`191/120`$, $`59/30`$, $`71/30`$ reproduced; the affine solve returned $`H = (0,0,-1,-2,-3,-4,-3,-2,-2)`$ with augmentation $`-72`$ and charge difference $`-3/5`$, exactly the assignment §5 specifies; and the mod-2 package of §6 came out as $`240`$ root vectors reducing two-to-one onto $`120`$ classes, alternating and nondegenerate, with the $`\mathfrak{P}=2`$ set identical to the root classes and swept by a single reflection orbit. The kernel identity held in the field on every class of every group, at a numeric residual of $`3.7 \times 10^{-60}`$ over sixty digits. These are contingent facts about a specific group, independently reproduced.
+
+The conversion identity of Theorem 1.1 carries an honest qualification the audit supplied. The solver was not told that an affine relation between the two currencies was expected, and it recovered the exact coefficients $`(1, 4, -4)`$ at zero residual, with Corollary 3.2's additive offset appearing as the trivial multiplicity in every case. The audit then derived that the relation is algebraically forced for every finite $`\Gamma \subset \mathrm{SU}(2)`$, in agreement with this paper's own reading that the identity follows in three lines from two classical formulas. The blind run therefore confirms the group construction, the character values, and the arithmetic that carry the identity, not the truth of a relation that could have come out otherwise.
+
+The run is scoped to the paper's computable content. Theorem 1.3(ii) and the whole of §7, structural topology with no finite object to evaluate, are read only; and the classical geometric inputs the currencies rest on, the Atiyah-Patodi-Singer defect formula, Degeratu's twisted-Dirac eta identity, and the Kronheimer-Nakajima index integral, are handed to the solver as definitions rather than tested. The [method note](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/research/findings/m8_1_1_method_note.md) carries the full record, including the audit's split of which claims are forced and which are contingent.
+
+---
+
 / **[`main`](/README.md)** / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
