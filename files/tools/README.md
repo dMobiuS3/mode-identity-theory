@@ -14,7 +14,11 @@ Check it yourself. Nothing below is a demonstration: each page runs the framewor
 
 **[Euclid DR1 Countdown](https://dmobius3.github.io/mode-identity-theory/files/tools/files/euclid-dr1.html)**: the blind test. Every prediction and falsification threshold pre-registered on Zenodo before the data: DR1-Foundation in November 2026, then the cosmology products with the full DR1 in mid 2027.
 
-## 📚 Reference
+## 📚 Publication
+
+**[Publication Registry](files/DOIs.md)**: DOIs for every deposited paper, core theory from cosmology through the spectrum.
+
+## 🔬 Reference
 
 >[![Interactive NotebookLM](/files/assets/notebooklm-banner-aligned.svg)](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)
 >
@@ -26,9 +30,7 @@ Check it yourself. Nothing below is a demonstration: each page runs the framewor
 
 >[![TOE-Share](/files/assets/toe-share-banner-navy.svg)](https://theoryofeverything.ai/author/b-shatto)
 >
->**[TOE-Share](https://theoryofeverything.ai/author/b-shatto)**: independent AI review. Each deposited paper is read and scored on its own terms; the assessments are gathered on the author profile and carried into the Publication Registry below.
-
-**[Publication Registry](files/DOIs.md)**: DOIs for every deposited paper, core theory from cosmology through the spectrum.
+>**[TOE-Share](https://theoryofeverything.ai/author/b-shatto)**: independent AI review. Each deposited paper is read and scored on its own terms; the assessments are gathered on the author profile and carried into the Publication Registry.
 
 ---
 
