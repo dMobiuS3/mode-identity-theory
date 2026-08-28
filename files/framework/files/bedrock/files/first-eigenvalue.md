@@ -641,4 +641,16 @@ The transition is a crossing between two competing low modes (Figure 3). The zon
 
 ---
 
+## Independent numerical certification
+
+[![OpenWave](/files/assets/openwave-banner-graphite.svg)](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/research/findings/m8_1_method_note.md)
+
+Theorems 1.1 and 1.2 have been reproduced numerically on the OpenWave M8 track by two mutually independent implementations, both blind: each solver was written from a transcription of the operator alone, with no access to the eigenvalues claimed here or to the text of this paper. One resolves the reduced Sturm-Liouville problem sector by sector with a weighted finite-element scheme on a mesh graded at the cone; a second discretizes the full band in two dimensions; and an adversarial audit re-runs the problem in a disjoint method family, two-half Chebyshev spectral collocation in $`\sin(y/R)`$ together with Frobenius-connection and Riccati shooting.
+
+The two structural constants of the spectrum were recovered to roughly ten digits by solvers that had never seen them. The first positive level returns $`\lambda_1 = 2/R^2`$ across the narrow band $`0 < W \le \pi R/2`$ and the branch $`\alpha_0(\alpha_0+1)/R^2`$ beyond it, doubly degenerate at $`W = \pi R/2`$; a blind evaluation at $`W = 2R`$ gives $`\lambda_1 R^2 = 1.4022484374`$ against the closed form's $`1.4022484385`$. The extension-stability threshold was fixed by blind bisection at $`\delta_0^\ast/R = 0.7357588823`$, matching $`2/e`$ to twelve digits. The Friedrichs realization returns bottom $`0`$ with the discontinuous zero mode and no negative eigenvalue, while each bridging realization carries exactly one, whose small-$`\delta_0`$ coefficient $`\delta_0^2\lambda_b`$ extrapolates to $`-1.2609470067`$ against $`-4e^{-2\gamma} = -1.2609470067`$. All five pre-registered claims were confirmed and adversarially audited; the [method note](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/research/findings/m8_1_method_note.md) carries the full record.
+
+This is a numerical certification of the theorems as stated, not a second proof. It covers the sector-regular class treated here; the non-sector-regular extensions and the full eigenfunction data lie outside its scope.
+
+---
+
 / **[`main`](/README.md)** / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
