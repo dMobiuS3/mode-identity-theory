@@ -161,7 +161,7 @@ The two diagonal products contain the trivial representation, $`R_1 \otimes \tex
 
 ### 5. Independent Reproduction
 
-[![OpenWave](/files/assets/openwave-banner-graphite.svg)](https://github.com/openwave-labs/openwave)
+[![OpenWave M8.8](/files/assets/openwave-banner-graphite.svg)](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/research/findings/m8_8_adjudication_record.md)
 
 The torsion closed forms are reproduced by an independent method on the OpenWave M8 track. This page computes $`T^2`$ analytically, from the Ray-Singer spectral-zeta combination $`\log T^2 = \zeta'_{\text{coexact}}(0) - 2\,\zeta'_{\text{scalar}}(0)`$. The OpenWave run computes it combinatorially, as the Reidemeister torsion of a based chain complex of $`S^3/2I`$, with no spectral, zeta, or heat-kernel input anywhere in its path.
 
