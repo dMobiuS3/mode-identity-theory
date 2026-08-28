@@ -16,13 +16,17 @@ Check it yourself. Nothing below is a demonstration: each page runs the framewor
 
 ## 📚 Reference
 
-[![Interactive NotebookLM](/files/assets/notebooklm-banner-aligned.svg)](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)
-
+>[![Interactive NotebookLM](/files/assets/notebooklm-banner-aligned.svg)](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)
+>
 >**[Gemini Notebook](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)**: a NotebookLM grounded in the framework; ask it anything, or hear the audio overview.
 
-[![OpenWave](/files/assets/openwave-banner-graphite.svg)](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/__M8_model_briefing.md)
-
+>[![OpenWave](/files/assets/openwave-banner-graphite.svg)](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/__M8_model_briefing.md)
+>
 >**[OpenWave](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/__M8_model_briefing.md)**: an open-source subatomic physics simulator.
+
+>[![TOE-Share](/files/assets/toe-share-banner-navy.svg)](https://theoryofeverything.ai/author/b-shatto)
+>
+>**[TOE-Share](https://theoryofeverything.ai/author/b-shatto)**: an independent AI review.
 
 **[Publication Registry](files/DOIs.md)**: DOIs for every deposited paper, core theory through cosmology.
 
