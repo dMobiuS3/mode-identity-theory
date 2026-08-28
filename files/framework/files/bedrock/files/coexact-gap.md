@@ -305,4 +305,18 @@ The spectral gap computed here is a static quantity, the bottom of a Laplacian a
 
 ---
 
+## Independent numerical certification
+
+[![OpenWave](/files/assets/openwave-banner-graphite.svg)](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/research/findings/m8_1_1_method_note.md)
+
+Theorem 1.1 has been reproduced on the OpenWave M8 track by an independent, blind computation. The solver was built from explicit $`2 \times 2`$ matrix generators alone, each group by closure, its irreducible characters by the class-algebra method, the symmetric powers $`V_a = \mathrm{Sym}^a \mathbb{C}^2`$ as monomial-basis matrices, with no classification, no Dynkin label, and no imported character table entering, which is what makes the result independent of this paper's own route. An adversarial audit recomputed everything in a disjoint method, exact $`\mathrm{GF}(p)`$ arithmetic with characters by isotypic splitting and exact projector ranks, and refuted nothing.
+
+Across the finite subgroups of $`\mathrm{SU}(2)`$ the run covered, it confirmed the gap and its single exception: of the fourteen irreducible flat $`\mathrm{SU}(2)`$ connections in range, thirteen return bottom $`4/R^2`$ and exactly one returns $`36/R^2`$, the Galois connection $`Q^\prime`$ on $`S^3/2I`$, with the exact-summand bottoms $`8/R^2`$ and $`48/R^2`$ confirming that the coexact gap is the full adjoint $`1`$-form gap in each case. The first-occurrence rule of Theorem 4.2, the first coexact level equal to the McKay distance, held on all 114 irreducibles without exception, and the parity restriction requiring $`-I \in \Gamma`$ did real work: it held wherever $`-I`$ is present and failed in the five groups without it. The branching through level six came out $`\mathbf{1}, Q, \mathrm{Sym}^2 Q, \mathbf{4}, \mathbf{5}, \mathbf{6}, \mathbf{4}^\prime \oplus \mathrm{Sym}^2 Q^\prime`$, placing $`\mathrm{Sym}^2 Q^\prime`$ first at level six. The audit widened the search to 34 groups and 344 irreducibles and reached the same verdicts.
+
+The affine $`E_8`$ diagram itself was a blind output rather than an input: the order-120 group's distance vector came out $`[0, 7, 1, 2, 6, 3, 6, 4, 5]`$ over the dimensions $`[1, 2, 2, 3, 3, 4, 4, 5, 6]`$, reconstructed from the matrix generators by an agent never told which diagram to expect. The [method note](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/research/findings/m8_1_1_method_note.md) carries the full record.
+
+This is a numerical certification across the finite family the run covers, not a second proof. The classical spectral inputs it rests on, the round-sphere coexact spectrum of Ikeda and Taniguchi among them, are handed to the solver as definitions rather than tested; the run verifies every step built on them.
+
+---
+
 / **[`main`](/README.md)** / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
