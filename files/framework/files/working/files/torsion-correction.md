@@ -69,6 +69,8 @@ Environment: python3 + numpy + mpmath. Every gate id must be attacked by at leas
 
 ## 6. Independent-method reproduction (OpenWave M8.8, 2026-08-22)
 
+[![OpenWave M8.8](/files/assets/openwave-banner-graphite.svg)](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/research/findings/m8_8_adjudication_record.md)
+
 **Result.** The nine closed forms above were reproduced by a context-isolated independent-method run, from a based chain complex of $`S^3/2I`$ over $`\mathbb{Z}[2I]`$ in exact $`\mathbb{Q}(\varphi)`$ arithmetic, rather than from the spectral-zeta definition this artifact uses. The protocol's § 8 category is `convention difference`: the run's native orientation is $`T^2 \leftrightarrow (T^2)^{-1}`$ relative to this page, the one convention bridge the protocol admitted, resolved at $`R_7`$ before any other row was compared; under that global inversion, 8 of 8 nontrivial rows agree exactly, 4 of 4 identities (two Galois ratios, two sector products) agree, sector coverage 8 of 8. The category is a success under the protocol, carrying the same claim as `reproduced` with the orientation recorded. The supplied topological model was verified by the run, not independently derived.
 
 **Frozen label**, verbatim from the protocol: the M8.3 torsion closed forms were reproduced by a context-isolated independent-method run, from a based chain complex rather than the spectral-zeta definition. The word "blind" is not used: for an AI implementer the training corpus is opaque, so blindness cannot be certified even under perfect task-time isolation.
