@@ -16,9 +16,13 @@ Check it yourself. Nothing below is a demonstration: each page runs the framewor
 
 ## 📚 Reference
 
-**[Gemini Notebook](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)**: a NotebookLM grounded in the framework; ask it anything, or hear the audio overview.
+[![Interactive NotebookLM](/files/assets/notebooklm-banner-aligned.svg)](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)
 
-**[The Toolbelt](files/toolbelt.md)**: the five tools in one flow, frame to output. The machinery, not the results: it shows how a question gets answered, and how numerology gets avoided.
+>**[Gemini Notebook](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)**: a NotebookLM grounded in the framework; ask it anything, or hear the audio overview.
+
+[![OpenWave](/files/assets/openwave-banner-graphite.svg)](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/__M8_model_briefing.md)
+
+>**[OpenWave](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/__M8_model_briefing.md)**: an open-source subatomic physics simulator.
 
 **[Publication Registry](files/DOIs.md)**: DOIs for every deposited paper, core theory through cosmology.
 
