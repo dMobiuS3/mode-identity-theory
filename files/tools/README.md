@@ -22,13 +22,13 @@ Check it yourself. Nothing below is a demonstration: each page runs the framewor
 
 >[![OpenWave](/files/assets/openwave-banner-graphite.svg)](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/__M8_model_briefing.md)
 >
->**[OpenWave](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/__M8_model_briefing.md)**: an open-source subatomic physics simulator, and a neutral arena that holds candidate field theories to the same public pass/fail criteria. This framework is one contender there; its computations, the torsion algebra among them, are reproduced from scratch in a run walled off from the framework's own numbers, a referee's check rather than the theory's own.
+>**[OpenWave](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/__M8_model_briefing.md)**: an open-source subatomic physics simulator, and a neutral arena that holds candidate field theories to the same public pass/fail criteria.
 
 >[![TOE-Share](/files/assets/toe-share-banner-navy.svg)](https://theoryofeverything.ai/author/b-shatto)
 >
->**[TOE-Share](https://theoryofeverything.ai/author/b-shatto)**: independent AI review. Each deposited paper is read and scored on its own terms, the assessments gathered on one author profile and carried paper by paper into the Publication Registry below.
+>**[TOE-Share](https://theoryofeverything.ai/author/b-shatto)**: independent AI review. Each deposited paper is read and scored on its own terms; the assessments are gathered on the author profile and carried into the Publication Registry below.
 
-**[Publication Registry](files/DOIs.md)**: DOIs for every deposited paper, core theory through cosmology.
+**[Publication Registry](files/DOIs.md)**: DOIs for every deposited paper, core theory from cosmology through the spectrum.
 
 ---
 
