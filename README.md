@@ -28,16 +28,16 @@ In 300 BC, Euclid proved Plato's observation that only five solids close perfect
 mode-identity-theory/
 ├── main/                           # this page
 └── files/
-    ├── framework/                  # the postulate: the topology, scaling law, derivations
+    ├── framework/                  # the postulate and derivations
     │   ├── bedrock/                 # standalone mathematics papers
     │   │   ├── first-eigenvalue       # twisted Möbius Laplacian: first-positive 2/R²
     │   │   ├── coexact-gap            # coexact gap on S³/Γ: McKay distance, the 2I exception
     │   │   └── galois-pair            # E8 filling of S³/2I: Galois pair as tautological charge
     │   └── working/                 # research in progress: orienting maps and open problems
     ├── cosmos/                     # the static three-sphere seen whole
-    │   ├── cosmological-constant      # Λ as the surface first-positive eigenvalue
-    │   ├── dark-energy                # the acceleration scale a₀ on the phase clock
-    │   ├── hubble-tension             # H₀ as an edge mode, the 8.4% lattice step
+    │   ├── cosmological-constant      # Λ as the first-positive surface eigenvalue
+    │   ├── dark-energy                # what evolves is not Λ but perception
+    │   ├── hubble-tension             # H₀ as an edge mode and the 8.4% lattice step
     │   ├── cmb-anomalies              # low-ℓ suppression as the Molien gap
     │   ├── early-galaxies             # early massive galaxies in a static geometry
     │   ├── black-holes                # black holes as topological nodes of the wave
@@ -45,10 +45,10 @@ mode-identity-theory/
     ├── spectrum/                   # the near boundary: matter and gauge on S³/2I
     │   ├── yang-mills                 # confinement and the mass gap, the 2I exception
     │   ├── mass-spectrum              # fermion masses as positions on the McKay lattice
-    │   ├── fine-structure             # α = 1/137 in the first Fibonacci well, one step of Λ
-    │   ├── the-mirror                 # the edge interference that samples the wave
-    │   └── the-waltz                  # the Waltz clock: phase to time on the temporal edge
-    └── tools/                      # interactive: topology viewer, calculator
+    │   ├── fine-structure             # α = 1/137 is the first realized step of Λ
+    │   ├── the-waltz                  # the gravity between surface and space
+    │   └── the-mirror                 # curvature duality of primes and matter
+    └── tools/                      # interactive, publications, and references
 ```
 
 / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
