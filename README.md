@@ -30,10 +30,10 @@ mode-identity-theory/
 └── files/
     ├── framework/                  # the postulate and derivations
     │   ├── bedrock/                 # standalone mathematics papers
-    │   │   ├── first-eigenvalue       # twisted Möbius Laplacian: first-positive 2/R²
-    │   │   ├── coexact-gap            # coexact gap on S³/Γ: McKay distance, the 2I exception
-    │   │   └── galois-pair            # E8 filling of S³/2I: Galois pair as tautological charge
-    │   └── working/                 # research in progress: orienting maps and open problems
+    │   │   ├── first-eigenvalue       # twisted Möbius Laplacian operator
+    │   │   ├── coexact-gap            # coexact gap on S³/Γ and the 2I exception
+    │   │   └── galois-pair            # E8 filling and the tautological charge
+    │   └── working/                 # research in progress: maps and open problems
     ├── cosmos/                     # the static three-sphere seen whole
     │   ├── cosmological-constant      # Λ as the first-positive surface eigenvalue
     │   ├── cmb-anomalies              # low-ℓ suppression as the Molien gap
@@ -44,7 +44,7 @@ mode-identity-theory/
     │   └── euclid-dr1                 # the falsification gate
     ├── spectrum/                   # the near boundary: matter and gauge on S³/2I
     │   ├── yang-mills                 # confinement and the mass gap, the 2I exception
-    │   ├── mass-spectrum              # fermion masses as positions on the McKay lattice
+    │   ├── mass-spectrum              # fermion mass as positions on the McKay lattice
     │   ├── fine-structure             # α = 1/137 is the first realized step of Λ
     │   ├── the-waltz                  # the gravity between surface and space
     │   └── the-mirror                 # curvature duality of primes and matter
