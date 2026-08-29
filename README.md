@@ -26,29 +26,29 @@ In 300 BC, Euclid proved Plato's observation that only five solids close perfect
 
 ```
 mode-identity-theory/
-├── main/                           # this page
+├── main/                          # this page
 └── files/
-    ├── framework/                  # the postulate and derivations
-    │   ├── bedrock/                 # standalone mathematics papers
-    │   │   ├── first-eigenvalue       # twisted Möbius Laplacian operator
-    │   │   ├── coexact-gap            # coexact gap on S³/Γ and the 2I exception
-    │   │   └── galois-pair            # E8 filling and the tautological charge
-    │   └── working/                 # research in progress: maps and open problems
-    ├── cosmos/                     # the static three-sphere seen whole
-    │   ├── cosmological-constant      # Λ as the first-positive surface eigenvalue
-    │   ├── cmb-anomalies              # low-ℓ suppression as the Molien gap
-    │   ├── dark-energy                # what evolves is not Λ but perception
-    │   ├── early-galaxies             # early massive galaxies in a static geometry
-    │   ├── hubble-tension             # H₀ as an edge mode and the 8.4% lattice step
-    │   ├── black-holes                # black holes as topological nodes of the wave
-    │   └── euclid-dr1                 # the falsification gate
-    ├── spectrum/                   # the near boundary: matter and gauge on S³/2I
-    │   ├── yang-mills                 # confinement and the mass gap, the 2I exception
-    │   ├── mass-spectrum              # fermion mass as positions on the McKay lattice
-    │   ├── fine-structure             # α = 1/137 is the first realized step of Λ
-    │   ├── the-waltz                  # the gravity between surface and space
-    │   └── the-mirror                 # curvature duality of primes and matter
-    └── tools/                      # interactive, publications, and references
+    ├── framework/                 # the postulate and derivations
+    │   ├── bedrock/                # standalone mathematics papers
+    │   │   ├── first-eigenvalue      # twisted Möbius Laplacian operator
+    │   │   ├── coexact-gap           # coexact gap on S³/Γ and the 2I exception
+    │   │   └── galois-pair           # E8 filling and the tautological charge
+    │   └── working/                # research in progress: maps and open problems
+    ├── cosmos/                    # the static three-sphere seen whole
+    │   ├── cosmological-constant     # Λ as the first-positive surface eigenvalue
+    │   ├── cmb-anomalies             # low-ℓ suppression as the Molien gap
+    │   ├── dark-energy               # what evolves is not Λ but perception
+    │   ├── early-galaxies            # early massive galaxies in a static geometry
+    │   ├── hubble-tension            # H₀ as an edge mode and the 8.4% lattice step
+    │   ├── black-holes               # black holes as topological nodes of the wave
+    │   └── euclid-dr1                # the falsification gate
+    ├── spectrum/                  # the near boundary: matter and gauge on S³/2I
+    │   ├── yang-mills                # confinement and the mass gap, the 2I exception
+    │   ├── mass-spectrum             # fermion mass as positions on the McKay lattice
+    │   ├── fine-structure            # α = 1/137 is the first realized step of Λ
+    │   ├── the-waltz                 # the gravity between surface and space
+    │   └── the-mirror                # curvature duality of primes and matter
+    └── tools/                     # interactive, publications, and references
 ```
 
 / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
