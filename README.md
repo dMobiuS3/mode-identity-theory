@@ -36,10 +36,10 @@ mode-identity-theory/
     │   └── working/                 # research in progress: orienting maps and open problems
     ├── cosmos/                     # the static three-sphere seen whole
     │   ├── cosmological-constant      # Λ as the first-positive surface eigenvalue
-    │   ├── dark-energy                # what evolves is not Λ but perception
-    │   ├── hubble-tension             # H₀ as an edge mode and the 8.4% lattice step
     │   ├── cmb-anomalies              # low-ℓ suppression as the Molien gap
+    │   ├── dark-energy                # what evolves is not Λ but perception
     │   ├── early-galaxies             # early massive galaxies in a static geometry
+    │   ├── hubble-tension             # H₀ as an edge mode and the 8.4% lattice step
     │   ├── black-holes                # black holes as topological nodes of the wave
     │   └── euclid-dr1                 # the falsification gate
     ├── spectrum/                   # the near boundary: matter and gauge on S³/2I
