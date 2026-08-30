@@ -16,9 +16,9 @@ In 300 BC, Euclid proved Plato's observation that only five solids close perfect
 
 ---
 
-[![Interactive NotebookLM](/files/assets/notebooklm-banner-aligned.svg)](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)
-
-**[Gemini Notebook](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)**: a NotebookLM grounded in the framework; ask it anything, or hear the audio overview.
+>[![Interactive NotebookLM](/files/assets/notebooklm-banner-aligned.svg)](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)
+>
+>**[Gemini Notebook](https://notebooklm.google.com/notebook/e9419c7d-3c1a-4a44-88fd-47d453556749)**: a NotebookLM grounded in the framework; ask it anything, or hear the audio overview.
 
 ---
 
@@ -85,21 +85,21 @@ Most wave patterns cancel while certain modes survive. The ones that come back a
 
 Two questions determine any constant in the universe: where are you on the wave, and how deep in the domain are you sampling?
 
-**$`C(\Theta) = 2\sin^2(\pi\Theta)`$** is your position on the 120-grid.
+>**$`C(\Theta) = 2\sin^2(\pi\Theta)`$** is your position on the 120-grid.
 
 Not all 120 positions on the grid are equal. Some are more stable than others, places where the wave can settle long enough to matter. The golden ratio $`\varphi`$ charts the course: the hardest number to approximate creates the most stable positions on the grid. Fibonacci appears in sunflowers and seashells as the universe finds its most stable wells to sample.
 
-**$`(\sqrt{\Omega})^{-n}`$** is how far the geometry has diluted the signal by the time it reaches you.
+>**$`(\sqrt{\Omega})^{-n}`$** is how far the geometry has diluted the signal by the time it reaches you.
 
 The universe has two boundaries: the cosmic horizon at the ceiling and the Planck length at the floor. Together they span 122 orders of magnitude, no longer a coincidence, it's the area of our domain. The observer stands at the geometric midpoint between the largest and smallest scale, the structural position where infinity over zero yields a defined result.
 
 Three layers host different physics:
 
-*(n = 1)* 1D Möbius edge: experienced as time when sampling $`a_0`$ and $`H_0`$.
-
-*(n = 2)* 2D Möbius surface: vibrating like a drum head and humming ambiently at $`\Lambda`$.
-
-*(n = 3)* 3D space: no dimensional access to this volume, so we will never measure anything dark.
+>(n = 1) 1D Möbius edge: experienced as time when sampling $`a_0`$ and $`H_0`$.
+>
+>(n = 2) 2D Möbius surface: vibrating like a drum head and humming ambiently at $`\Lambda`$.
+>
+>(n = 3) 3D space: no dimensional access to this volume, so we will never measure anything dark.
 
 :atom_symbol: **One Formula:**
 
@@ -109,13 +109,13 @@ Three layers host different physics:
 
 Four factors compose to rank 24 fermion masses. Each factor does exactly one thing.
 
-**The Neutrino Floor.** $`\mu_\Lambda`$ sets the stage: the lightest neutrino is not a small fermion mass but the *floor* of the spectrum, the hum every other mass is built on.
+>**The Neutrino Floor.** $`\mu_\Lambda`$ sets the stage: the lightest neutrino is not a small fermion mass but the *floor* of the spectrum, the hum every other mass is built on.
 
-**The Kostant Sunflower.** $`C_{\text{geom}}(\rho)`$ selects the position: each irreducible representation carries a geometric weight, nine seats on a discrete sunflower.
+>**The Kostant Sunflower.** $`C_{\text{geom}}(\rho)`$ selects the position: each irreducible representation carries a geometric weight, nine seats on a discrete sunflower.
 
-**The McKay Elevator.** $`(\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30}`$ raises the energy: each step up the McKay graph lifts the mass by a fixed factor; the denominator 30 is the Coxeter number of $`E_8`$.
+>**The McKay Elevator.** $`(\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30}`$ raises the energy: each step up the McKay graph lifts the mass by a fixed factor; the denominator 30 is the Coxeter number of $`E_8`$.
 
-**The Reidemeister Torsion.** $`T^2(\rho \otimes \sigma)`$ dials in the vacuum: the same particle lives in three vacua (trivial, standard, Galois), the three flat connections that generate three generations.
+>**The Reidemeister Torsion.** $`T^2(\rho \otimes \sigma)`$ dials in the vacuum: the same particle lives in three vacua (trivial, standard, Galois), the three flat connections that generate three generations.
 
 :small_red_triangle: **One Identity:**
 
@@ -125,11 +125,11 @@ Four factors compose to rank 24 fermion masses. Each factor does exactly one thi
 
 The binary icosahedral group $`2I`$ is the largest exceptional discrete subgroup of $`SU(2)`$. Its order factors into exactly three primes.
 
-**Faces.** $`Z_3`$ sorts color: the three-fold rotational stabilizers become the three color charges of QCD. Singlet or triplet per irrep; six of six fermion assignments match.
+>**Faces.** $`Z_3`$ sorts color: the three-fold rotational stabilizers become the three color charges of QCD. Singlet or triplet per irrep; six of six fermion assignments match.
 
-**Edges.** $`Z_4`$ sorts spin: the edge stabilizers split the spectrum into integer-spin (domain $`D = 60`$) and half-integer-spin (domain $`D = 120`$), bosons and fermions cleanly separated.
+>**Edges.** $`Z_4`$ sorts spin: the edge stabilizers split the spectrum into integer-spin (domain $`D = 60`$) and half-integer-spin (domain $`D = 120`$), bosons and fermions cleanly separated.
 
-**Vertices.** $`Z_5`$ sets the electroweak address: the five-fold vertex stabilizers carry weak isospin $`T_3`$ through the Coxeter-Galois gate. The eta sign gates charge; the vacuum selects the generation.
+>**Vertices.** $`Z_5`$ sets the electroweak address: the five-fold vertex stabilizers carry weak isospin $`T_3`$ through the Coxeter-Galois gate. The eta sign gates charge; the vacuum selects the generation.
 
 Three primes. Three stabilizers. Every force, every particle, every quantum number.
 
@@ -141,7 +141,7 @@ Three primes. Three stabilizers. Every force, every particle, every quantum numb
 
 The wells, masses, charges, and gaps are structure stamped onto a smooth space that knows none of them by itself. Two seams pin that structure there: the Möbius surface embeds to set the vacuum $`\Lambda`$, and the quotient stamps the 120-grid to set matter.
 
-Gravity is not a fourth force hunting for its rung on the grid. It is what crosses between the smooth space below and the structure built above, coupling to both. The toll it pays at the vacuum seam is the factor $`3/2`$; everywhere else, Einstein's field equations stay unchanged.
+>Gravity is not a fourth force hunting for its rung on the grid. It is what crosses between the smooth space below and the structure built above, coupling to both. The toll it pays at the vacuum seam is the factor $`3/2`$; everywhere else, Einstein's field equations stay unchanged.
 
 The two sides differ in kind: one smooth, one discrete. So gravity should not be expected to quantize as another force inside the grid.
 
@@ -242,9 +242,9 @@ All predictions below were locked before Data Release 1 and deposited on Zenodo.
 
 ---
 
-[![OpenWave](/files/assets/openwave-banner-graphite.svg)](https://github.com/openwave-labs/openwave)
-
-**[OpenWave](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/__M8_model_briefing.md)**: an open-source subatomic physics simulator, and a neutral arena that holds candidate field theories to the same public pass/fail criteria.
+>[![OpenWave](/files/assets/openwave-banner-graphite.svg)](https://github.com/openwave-labs/openwave)
+>
+>**[OpenWave](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/__M8_model_briefing.md)**: an open-source subatomic physics simulator, and a neutral arena that holds candidate field theories to the same public pass/fail criteria.
 
 ---
 
