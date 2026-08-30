@@ -12,7 +12,7 @@ The cosmos is the same finite space seen whole: a static three-sphere. Redshift 
 
 Einstein introduced $`\Lambda`$ in 1917, together with the equations capable of sustaining it. The constant endured a century of reinterpretation because it required none; the Gauss-equation embedding carries it from the surface into the curvature of space.
 
-***[Cosmological Constant](files/cosmological-constant.md)***
+>***[Cosmological Constant](files/cosmological-constant.md)***
 
 [![Cosmological Constant](https://img.youtube.com/vi/eFzqU8KPfJ4/mqdefault.jpg)](https://www.youtube.com/watch?v=eFzqU8KPfJ4)
 
@@ -20,7 +20,7 @@ Einstein introduced $`\Lambda`$ in 1917, together with the equations capable of 
 
 **Topology and the CMB.** The CMB is the resonant pattern of the bounded domain. Three features have persisted across COBE, WMAP, and Planck: suppressed power at low $`\ell`$, odd-over-even parity, and an aligned quadrupole and octupole. The low-ℓ suppression is the one this geometry supplies: the Molien gap in the cavity's eigenvalues, which survives under the flat-FLRW cosmology. The parity asymmetry and the alignment stay open to this topology: grading even and odd $`\ell`$ would take an orientation-reversing identification, which a chiral space like $`S^3/2I`$ does not carry, but the anisotropic covariance of its eigenmodes can still carry parity-odd and aligned structure, an open calculation, neither predicted nor ruled out.
 
-***[CMB Anomalies](files/cmb-anomalies.md)***
+>***[CMB Anomalies](files/cmb-anomalies.md)***
 
 [![CMB Anomalies](https://img.youtube.com/vi/2CCODLAmshw/mqdefault.jpg)](https://www.youtube.com/watch?v=2CCODLAmshw)
 
@@ -30,7 +30,7 @@ Einstein introduced $`\Lambda`$ in 1917, together with the equations capable of 
 
 $`\Lambda`$ is fixed by geometry. What appears to evolve is the observer's phase position on the standing wave, misinterpreted as dark energy dynamics.
 
-***[Dark Energy](files/dark-energy.md)***
+>***[Dark Energy](files/dark-energy.md)***
 
 [![Dark Energy](https://img.youtube.com/vi/7l8AbmXyz-0/mqdefault.jpg)](https://www.youtube.com/watch?v=7l8AbmXyz-0)
 
@@ -40,7 +40,7 @@ $`\Lambda`$ is fixed by geometry. What appears to evolve is the observer's phase
 
 In 1983, Milgrom identified $`a_0`$ as a fundamental acceleration scale. Four decades the coincidence $`a_0 \approx cH_0`$ had no explanation. Both are edge modes; the ratio is fixed by where they sit on the standing wave. $`a_0`$ evolves with $`H(z)`$; the galaxies JWST found too early were formed under a stronger tide.
 
-***[Early Galaxies](files/early-galaxies.md)***
+>***[Early Galaxies](files/early-galaxies.md)***
 
 [![Early Galaxies](https://img.youtube.com/vi/BuxnEmMGMFE/mqdefault.jpg)](https://www.youtube.com/watch?v=BuxnEmMGMFE)
 
@@ -50,7 +50,7 @@ In 1983, Milgrom identified $`a_0`$ as a fundamental acceleration scale. Four de
 
 Hubble measured the tension in 1929 from the same structure. The framework reads the two camps as one well sampled at two positions: distance ladders calibrated within galaxies like ours would sample a shifted well, while the cosmic microwave background measures where it is unphased. Both observations are correct. The lattice fixes the size of the step between them at 8.4%, and the galactic mechanism proposed to produce it has since been tested and falsified, so what stands is the correspondence rather than the cause.
 
-***[Hubble Tension](files/hubble-tension.md)***
+>***[Hubble Tension](files/hubble-tension.md)***
 
 [![Hubble Tension](https://img.youtube.com/vi/ZICE7beEQh8/mqdefault.jpg)](https://www.youtube.com/watch?v=ZICE7beEQh8)
 
@@ -58,7 +58,7 @@ Hubble measured the tension in 1929 from the same structure. The framework reads
 
 **Black Double Zeros.** The wave $`\Psi`$ still flows. The surface still hums at $`\Lambda`$. The topology holds and information is not lost. The observer is still in space but unable to speak.
 
-***[Black Hole](files/black-hole.md)***
+>***[Black Hole](files/black-hole.md)***
 
 [![Black Double Zeros](https://img.youtube.com/vi/iByR_Bv5Vng/mqdefault.jpg)](https://www.youtube.com/watch?v=iByR_Bv5Vng)
 
@@ -66,7 +66,7 @@ Hubble measured the tension in 1929 from the same structure. The framework reads
 
 **Judgment in two gates.** A theory is honest only insofar as it states, before the data arrive, what would falsify it. Five cosmological predictions are locked here against four named contenders, with falsification thresholds set in advance. Euclid arrives in two stages: DR1-Foundation, expected November 2026, brings the calibrated images, catalogues and spectra over about 1900 deg² but no cosmology-derived products, so the stellar mass function is the only row it reaches; the full DR1, expected mid 2027, adds the galaxy clustering and weak lensing products the other four rows read. ESA states that both dates are tentative. The card adjudicates by row. Silence in a contender column counts as data.
 
-***[Euclid DR1: A Pre-Registered Contender Showdown](files/euclid-dr1.md)***
+>***[Euclid DR1: A Pre-Registered Contender Showdown](files/euclid-dr1.md)***
 
 [![Euclid DR1](https://img.youtube.com/vi/R4d3SBHalw4/mqdefault.jpg)](https://www.youtube.com/watch?v=R4d3SBHalw4)
 
