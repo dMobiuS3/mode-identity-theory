@@ -39,7 +39,21 @@ Each layer follows from the one before.
 
 ---
 
-## :stadium: [One Shape](https://dmobius3.github.io/mode-identity-theory/files/tools/files/topology.html)
+### Contents
+
+The page moves in one line, each section following from the one before. Open with **[The Firing Order](#the-firing-order)** (the six-step order of operations); close with **[Inputs and Calibration](#inputs-and-calibration)** (the ledger of what is measured and what is derived). Between them, the six movements:
+
+| | |
+|---|---|
+| **[One Shape](#one-shape)** · the postulate, and the manifold triad it forces | **[One Wave](#one-wave)** · the static standing wave, and the phase clock on its edge |
+| **[One Equation](#one-equation)** · the scaling law, its phase operator and Fibonacci wells | **[One Formula](#one-formula)** · confinement, three generations, and the mass ladder |
+| **[One Identity](#one-identity)** · 120 = 2³·3·5, sorting charge, spin, and isospin | **[One Interface](#one-interface)** · the two seams, and what gravity is across them |
+
+---
+
+<a id="one-shape"></a>
+
+## :stadium: One Shape
 
 ```math
 \Large {S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}
@@ -107,7 +121,11 @@ The group order is the source; the arithmetic keeps returning to the same factor
 
 **The minimum action** $`\Delta\mathcal{S}_{\min} = \hbar\pi/30`$: frame-independent by construction ($`\hbar`$ is invariant; $`\pi/30`$ is a pure number set by the topology, not by a coordinate choice).
 
-## Ψ [One Wave](../cosmos/files/dark-energy.md)
+<p align="right"><a href="#contents">↑ Contents</a></p>
+
+<a id="one-wave"></a>
+
+## Ψ One Wave
 
 The universe is static, a standing wave, and what we read as cosmic time is the observer's phase along it. The wave sits on the Möbius temporal edge, so the same sign flip that gives matter its spinorial character acts on it: one lap of the strip flips the wave, and the edge closes only after a second, bringing it home, which is why its fundamental period is $`4\pi`$ rather than $`2\pi`$, the wave-level face of the spin-1/2 double cover. It opens at full amplitude, holds its lowest mode, and where the observer samples it, matter appears.
 
@@ -139,7 +157,11 @@ The observed distances need the topological $`\Lambda`$, not the wave budget alo
 
 Two phase parameterizations meet at the present epoch. The engine phase $`\Phi = 4\pi\, T/T_\text{cycle}`$ is linear in the Hubble-clock age $`T`$, with $`\Phi_\text{now}`$ under re-derivation (the $`\approx 5.22`$ rad reading folds in a borrowed reference age and moves once inverted on the Hubble clock); the budget phase $`t`$, the argument of $`\Psi = \cos(t/2)`$, is nonlinear in it through that same clock, and distance data pin $`s_0 = \sin(t_\text{now}/2) < 0.19`$ (95% CL). The mapping $`t(\Phi)`$ between them is still open, though both give the same distance-redshift relation, and the $`4\pi`$ period and 120-step chronon are topology-native, independent of the choice.
 
-## :balance_scale: [One Equation](https://dmobius3.github.io/mode-identity-theory/files/tools/files/calculator.html)
+<p align="right"><a href="#contents">↑ Contents</a></p>
+
+<a id="one-equation"></a>
+
+## :balance_scale: One Equation
 
 ```math
 \Large {\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}
@@ -306,7 +328,11 @@ The Coxeter pair $`(13, 17)`$ under $`h(E_8) = 30`$ is forced: all alternative c
 
 **The fourth rung is supersymmetry's, and it is empty.** The one missing pairing would turn a fermion into a boson, exactly the move a superpartner symmetry asks for. Every real gauge rung acts within a statistics class: EM, strong, and weak change phase, charge, or representation but leave the fermion or boson character of what they act on intact. A superpartner rung would instead identify the fermionic 120-grid (the section $`\psi`$) with the bosonic 60R-grid (the intensity $`\lvert\psi\rvert^2`$), the split that the central element $`-I`$ and the Möbius sign flip carry, and no gauge rung crosses it. The obstruction is the ladder's own rule, not a spin-statistics prohibition (ordinary quantum field theory permits fermionic mediators between fermions and bosons), not an attempted inverse of $`\psi \to \lvert\psi\rvert^2`$: that projection is well-defined but non-invertible, which is the measurement-level reason the two grids stay distinct. So the missing superpartner force is not an unreached energy scale but the closed fourth chair at a table set for exactly four.
 
-## :atom_symbol: [One Formula](../spectrum/files/mass-spectrum.md)
+<p align="right"><a href="#contents">↑ Contents</a></p>
+
+<a id="one-formula"></a>
+
+## :atom_symbol: One Formula
 
 The mass spectrum assembles in three moves, each set by the same topology: the curvature gap that confines, the three flat vacua that become the generations, and the four-factor formula that ranks the fermion masses.
 
@@ -350,7 +376,11 @@ Whether the specific torsion values add fit beyond that quantum-number-constrain
 
 The Yang-Mills gap above (geometry, $`\sim 1/R_\Lambda^2`$ from the form spectrum) and this mass ladder ($`(\sqrt{\Omega_\Lambda})^{\,\text{dist}/30}`$) share the McKay structure but are different objects: the gap is proved, the ladder is the comparison, and the one does not lend its standing to the other.
 
-## :small_red_triangle: [One Identity](../spectrum/files/mass-spectrum.md)
+<p align="right"><a href="#contents">↑ Contents</a></p>
+
+<a id="one-identity"></a>
+
+## :small_red_triangle: One Identity
 
 ```math
 \Large {\lvert 2I\rvert = 120 = 2^3 \cdot 3 \cdot 5}
@@ -374,6 +404,10 @@ Two further entries are not primes but corrections derived from the same stabili
 The 3/2 gravity entry is the conjectural one: its derived content is the Gauss conversion (3 = isotropic Ricci trace, 2 = de Sitter normalization; see [cosmological constant](../cosmos/files/cosmological-constant.md)), and reading the same 3/2 as a face-to-edge stabilizer ratio is a suggested correspondence, not a derived identity.
 
 The stabilizer structure says what each entry is; the formula says where each entry sits; both come from the topology. The comparison is the last step: which entry lands on which measured fermion, read against the data rather than fixed ahead of it.
+
+<p align="right"><a href="#contents">↑ Contents</a></p>
+
+<a id="one-interface"></a>
 
 ## 🪡 One Interface
 
@@ -402,7 +436,11 @@ On the grid seam it pays nothing special, only the ordinary stress-energy coupli
 
 It also reframes why gravity resists quantization. In this reading, gravity is not one more object inside a single sector; it is the interface between two different kinds of structure, continuous geometry and discrete sampling. Quantizing it in the usual way would mean pushing one side into the form of the other: discretizing $`S^3`$, which removes the smooth source of $`\Lambda`$, or continualizing the 120-domain, which dissolves the spectrum, the mass gap, and the three generations. The resistance is therefore not just a missing technique; it is the signature of an interface no single-sector quantization can cross.
 
+<p align="right"><a href="#contents">↑ Contents</a></p>
+
 ---
+
+<a id="inputs-and-calibration"></a>
 
 ## :control_knobs: Inputs and Calibration
 
@@ -483,6 +521,8 @@ Edge observables reference the evolving $`\Omega_H(z)`$; surface and space obser
 | fermion mass ratios | structural predictions (McKay / torsion) |
 | absolute fermion masses | set by the $`m_e`$ benchmark |
 | three generations, Yang-Mills gap | structural results on $`S^3/2I`$ |
+
+<p align="right"><a href="#contents">↑ Contents</a></p>
 
 ---
 
