@@ -18,7 +18,7 @@ The observable domain is not that smooth covering space itself but its quotient 
 
 ---
 
-### Contents
+### Table of Contents
 
 The page moves in one line, each section following from the one before:
 
@@ -45,6 +45,8 @@ Each layer follows from the one before.
 6. Meaning arises only after realization.
 
 [![One Shape](https://img.youtube.com/vi/U3VtY8GZox8/mqdefault.jpg)](https://www.youtube.com/watch?v=U3VtY8GZox8)
+
+[↑ Table of Contents](#table-of-contents)
 
 ---
 
@@ -118,7 +120,7 @@ The group order is the source; the arithmetic keeps returning to the same factor
 
 **The minimum action** $`\Delta\mathcal{S}_{\min} = \hbar\pi/30`$: frame-independent by construction ($`\hbar`$ is invariant; $`\pi/30`$ is a pure number set by the topology, not by a coordinate choice).
 
-[↑ Contents](#contents)
+[↑ Table of Contents](#table-of-contents)
 
 <a id="one-wave"></a>
 
@@ -154,7 +156,7 @@ The observed distances need the topological $`\Lambda`$, not the wave budget alo
 
 Two phase parameterizations meet at the present epoch. The engine phase $`\Phi = 4\pi\, T/T_\text{cycle}`$ is linear in the Hubble-clock age $`T`$, with $`\Phi_\text{now}`$ under re-derivation (the $`\approx 5.22`$ rad reading folds in a borrowed reference age and moves once inverted on the Hubble clock); the budget phase $`t`$, the argument of $`\Psi = \cos(t/2)`$, is nonlinear in it through that same clock, and distance data pin $`s_0 = \sin(t_\text{now}/2) < 0.19`$ (95% CL). The mapping $`t(\Phi)`$ between them is still open, though both give the same distance-redshift relation, and the $`4\pi`$ period and 120-step chronon are topology-native, independent of the choice.
 
-[↑ Contents](#contents)
+[↑ Table of Contents](#table-of-contents)
 
 <a id="one-equation"></a>
 
@@ -325,7 +327,7 @@ The Coxeter pair $`(13, 17)`$ under $`h(E_8) = 30`$ is forced: all alternative c
 
 **The fourth rung is supersymmetry's, and it is empty.** The one missing pairing would turn a fermion into a boson, exactly the move a superpartner symmetry asks for. Every real gauge rung acts within a statistics class: EM, strong, and weak change phase, charge, or representation but leave the fermion or boson character of what they act on intact. A superpartner rung would instead identify the fermionic 120-grid (the section $`\psi`$) with the bosonic 60R-grid (the intensity $`\lvert\psi\rvert^2`$), the split that the central element $`-I`$ and the Möbius sign flip carry, and no gauge rung crosses it. The obstruction is the ladder's own rule, not a spin-statistics prohibition (ordinary quantum field theory permits fermionic mediators between fermions and bosons), not an attempted inverse of $`\psi \to \lvert\psi\rvert^2`$: that projection is well-defined but non-invertible, which is the measurement-level reason the two grids stay distinct. So the missing superpartner force is not an unreached energy scale but the closed fourth chair at a table set for exactly four.
 
-[↑ Contents](#contents)
+[↑ Table of Contents](#table-of-contents)
 
 <a id="one-formula"></a>
 
@@ -373,7 +375,7 @@ Whether the specific torsion values add fit beyond that quantum-number-constrain
 
 The Yang-Mills gap above (geometry, $`\sim 1/R_\Lambda^2`$ from the form spectrum) and this mass ladder ($`(\sqrt{\Omega_\Lambda})^{\,\text{dist}/30}`$) share the McKay structure but are different objects: the gap is proved, the ladder is the comparison, and the one does not lend its standing to the other.
 
-[↑ Contents](#contents)
+[↑ Table of Contents](#table-of-contents)
 
 <a id="one-identity"></a>
 
@@ -402,7 +404,7 @@ The 3/2 gravity entry is the conjectural one: its derived content is the Gauss c
 
 The stabilizer structure says what each entry is; the formula says where each entry sits; both come from the topology. The comparison is the last step: which entry lands on which measured fermion, read against the data rather than fixed ahead of it.
 
-[↑ Contents](#contents)
+[↑ Table of Contents](#table-of-contents)
 
 <a id="one-interface"></a>
 
@@ -433,7 +435,7 @@ On the grid seam it pays nothing special, only the ordinary stress-energy coupli
 
 It also reframes why gravity resists quantization. In this reading, gravity is not one more object inside a single sector; it is the interface between two different kinds of structure, continuous geometry and discrete sampling. Quantizing it in the usual way would mean pushing one side into the form of the other: discretizing $`S^3`$, which removes the smooth source of $`\Lambda`$, or continualizing the 120-domain, which dissolves the spectrum, the mass gap, and the three generations. The resistance is therefore not just a missing technique; it is the signature of an interface no single-sector quantization can cross.
 
-[↑ Contents](#contents)
+[↑ Table of Contents](#table-of-contents)
 
 ---
 
@@ -519,7 +521,7 @@ Edge observables reference the evolving $`\Omega_H(z)`$; surface and space obser
 | absolute fermion masses | set by the $`m_e`$ benchmark |
 | three generations, Yang-Mills gap | structural results on $`S^3/2I`$ |
 
-[↑ Contents](#contents)
+[↑ Table of Contents](#table-of-contents)
 
 ---
 
