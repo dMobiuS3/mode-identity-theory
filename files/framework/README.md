@@ -6,11 +6,15 @@
 
 Mode Identity Theory is a boundary-condition framework. It leaves Einstein's field equations governing local gravitational dynamics and the Standard Model particle content unchanged, and supplies one new thing: a global topological domain for them to live on.
 
-Picture it before the formal names arrive: twist a strip into a Möbius band, scale its single edge up to the size of the universe, and set the whole thing inside the three-sphere, the one closed three-dimensional space with no boundary and no holes. That single edge is time, the three-sphere is space, and the space closes on itself with no edge of its own, so there is no outside to ask about. That shape is the entire theory. The particles, the forces, and the constants all arise from the shape itself, read off as values at positions on it.
+Picture it before the formal names arrive: twist a strip into a Möbius band, scale its single edge up to the size of the universe, and set the whole thing inside the three-sphere, the one closed three-dimensional space that is simply connected, finite, with no boundary and no holes. That single edge is the theory's temporal edge, where time is carried as phase. The space it sits in closes on itself, so there is no outside to ask about.
 
-The shape has two layers: the smooth three-sphere underneath, and the structure built on it where the physics is read off. The topology, the twists and the identifications that glue points together, lives in that built structure; the space underneath stays smooth and hole-free.
+That geometric setup is where the whole theory starts. The particles, the forces, and the constants are not added to it as separate ingredients; they are read from the structure itself, as modes, positions, and relations on the domain.
 
-The postulate itself is one sentence: time is the boundary of a non-orientable surface embedded in a closed three-space. The observable domain is not the bare three-sphere but that space divided by a symmetry group of order 120, the binary icosahedral group, and the result is the Poincaré homology sphere. From that shape the topology fixes the mode domain, the boundary condition, the stabilizers, and the McKay graph, and the relations that follow from them: well positions, hierarchy exponents, grid assignments, dimensionless ratios, and spectral filters. Measured anchors set only the absolute scales.
+The shape has two layers: the smooth three-sphere underneath, and the structure built on it where the physics is resolved. The twists and identifications live in that built structure; the covering space underneath stays smooth and simply connected.
+
+The postulate itself is one sentence: **time is the boundary of a non-orientable surface embedded in a closed three-space.**
+
+The observable domain is not that smooth covering space itself but its quotient by the binary icosahedral group, a symmetry group of order 120: fold the space down by that symmetry, and the result is the Poincaré homology sphere. From that shape the topology fixes the mode domain, the boundary condition, the stabilizers, and the McKay graph, and from those follow the well positions, hierarchy exponents, grid assignments, dimensionless ratios, and spectral filters. Measured anchors set only the absolute scales.
 
 ---
 
