@@ -41,13 +41,16 @@ Each layer follows from the one before.
 
 ### Contents
 
-The page moves in one line, each section following from the one before. Open with **[The Firing Order](#the-firing-order)** (the six-step order of operations); close with **[Inputs and Calibration](#inputs-and-calibration)** (the ledger of what is measured and what is derived). Between them, the six movements:
+The page moves in one line, each section following from the one before:
 
-| | |
-|---|---|
-| **[One Shape](#one-shape)** · the postulate, and the manifold triad it forces | **[One Wave](#one-wave)** · the static standing wave, and the phase clock on its edge |
-| **[One Equation](#one-equation)** · the scaling law, its phase operator and Fibonacci wells | **[One Formula](#one-formula)** · confinement, three generations, and the mass ladder |
-| **[One Identity](#one-identity)** · 120 = 2³·3·5, sorting charge, spin, and isospin | **[One Interface](#one-interface)** · the two seams, and what gravity is across them |
+- **[The Firing Order](#the-firing-order)** · the six-step order of operations
+- **[One Shape](#one-shape)** · the postulate, and the manifold triad it forces
+- **[One Wave](#one-wave)** · the static standing wave, and the phase clock on its edge
+- **[One Equation](#one-equation)** · the scaling law, its phase operator and Fibonacci wells
+- **[One Formula](#one-formula)** · confinement, three generations, and the mass ladder
+- **[One Identity](#one-identity)** · 120 = 2³·3·5, sorting charge, spin, and isospin
+- **[One Interface](#one-interface)** · the two seams, and what gravity is across them
+- **[Inputs and Calibration](#inputs-and-calibration)** · the ledger of what is measured and what is derived
 
 ---
 
@@ -121,7 +124,7 @@ The group order is the source; the arithmetic keeps returning to the same factor
 
 **The minimum action** $`\Delta\mathcal{S}_{\min} = \hbar\pi/30`$: frame-independent by construction ($`\hbar`$ is invariant; $`\pi/30`$ is a pure number set by the topology, not by a coordinate choice).
 
-<p align="right"><a href="#contents">↑ Contents</a></p>
+[↑ Contents](#contents)
 
 <a id="one-wave"></a>
 
@@ -157,7 +160,7 @@ The observed distances need the topological $`\Lambda`$, not the wave budget alo
 
 Two phase parameterizations meet at the present epoch. The engine phase $`\Phi = 4\pi\, T/T_\text{cycle}`$ is linear in the Hubble-clock age $`T`$, with $`\Phi_\text{now}`$ under re-derivation (the $`\approx 5.22`$ rad reading folds in a borrowed reference age and moves once inverted on the Hubble clock); the budget phase $`t`$, the argument of $`\Psi = \cos(t/2)`$, is nonlinear in it through that same clock, and distance data pin $`s_0 = \sin(t_\text{now}/2) < 0.19`$ (95% CL). The mapping $`t(\Phi)`$ between them is still open, though both give the same distance-redshift relation, and the $`4\pi`$ period and 120-step chronon are topology-native, independent of the choice.
 
-<p align="right"><a href="#contents">↑ Contents</a></p>
+[↑ Contents](#contents)
 
 <a id="one-equation"></a>
 
@@ -278,7 +281,7 @@ $`\alpha`$ and $`a_0`$ share the Fibonacci index 13 but live on different grids 
 
 The $`a_0/(cH_0)`$ ratio is locked by well positions: $`C(13/120)/C(34/120) = 0.184`$. Because both are edge modes sharing the same calibrated normalization $`N`$, the ratio holds at every epoch: $`a_0(z) \propto H(z)`$.
 
-### [The Phase Field](../cosmos/files/hubble-tension.md)
+### The Phase Field
 
 The phase position decomposes as $`\Theta = \Theta_0 + \Theta_f`$, where $`\Theta_0`$ is the Fibonacci well (fixed) and $`\Theta_f`$ is the local environmental shift.
 
@@ -292,7 +295,7 @@ The slope at each well determines its character. $`\Lambda`$ sits at the antinod
 
 $`a_0`$ at slope 17.74 marks a steep, sensitive well, but the phase field does not shift it. The acceleration scale where MOND behavior turns on is the well position $`C(13/120) \cdot (\sqrt{\Omega_H})^{-1} \cdot a_P`$. The derivative alone says nothing about the character of the MOND transition: a large derivative produces a sensitive continuous response, not a threshold, and the binary mechanism that would have discretized it is the one the SPARC test falsified.
 
-### [The Gauge Ladder](../spectrum/files/fine-structure.md)
+### The Gauge Ladder
 
 Everything in this sector lives at two phase slots, the Fibonacci well 13 and its $`E_8`$ Coxeter conjugate 17, the residue $`30 - 13`$ rather than a Fibonacci well of its own. The Coxeter pair $`(13, 17)`$ sums to the Coxeter number of $`E_8`$: $`13 + 17 = 30 = h(E_8)`$. That is not a coincidence. The McKay correspondence ties $`2I`$ directly to $`E_8`$, so the domain's natural arithmetic runs modulo 30, and 13 and 17 are the conjugate exponents that pair across it.
 
@@ -328,7 +331,7 @@ The Coxeter pair $`(13, 17)`$ under $`h(E_8) = 30`$ is forced: all alternative c
 
 **The fourth rung is supersymmetry's, and it is empty.** The one missing pairing would turn a fermion into a boson, exactly the move a superpartner symmetry asks for. Every real gauge rung acts within a statistics class: EM, strong, and weak change phase, charge, or representation but leave the fermion or boson character of what they act on intact. A superpartner rung would instead identify the fermionic 120-grid (the section $`\psi`$) with the bosonic 60R-grid (the intensity $`\lvert\psi\rvert^2`$), the split that the central element $`-I`$ and the Möbius sign flip carry, and no gauge rung crosses it. The obstruction is the ladder's own rule, not a spin-statistics prohibition (ordinary quantum field theory permits fermionic mediators between fermions and bosons), not an attempted inverse of $`\psi \to \lvert\psi\rvert^2`$: that projection is well-defined but non-invertible, which is the measurement-level reason the two grids stay distinct. So the missing superpartner force is not an unreached energy scale but the closed fourth chair at a table set for exactly four.
 
-<p align="right"><a href="#contents">↑ Contents</a></p>
+[↑ Contents](#contents)
 
 <a id="one-formula"></a>
 
@@ -336,7 +339,7 @@ The Coxeter pair $`(13, 17)`$ under $`h(E_8) = 30`$ is forced: all alternative c
 
 The mass spectrum assembles in three moves, each set by the same topology: the curvature gap that confines, the three flat vacua that become the generations, and the four-factor formula that ranks the fermion masses.
 
-### [Confinement](../spectrum/files/yang-mills.md)
+### Confinement
 
 Confinement is usually told as a story about energy: pull two quarks apart and the cost keeps rising until the field snaps. On $`S^3`$ it is a story about curvature instead. Positive Ricci curvature forces a positive gap on the coexact gauge fluctuations around a flat connection; the twisted harmonic 1-forms vanish ($`H^1 = 0`$), so every mode is lifted off zero. The exact value is the coexact form spectrum read through the McKay distance: the adjoint-valued gap is $`4/R_\Lambda^2`$ at the trivial and standard vacua, with the Galois vacuum the one exception (below). The gap is geometric, the bottom eigenvalue of the linearized coexact $`1`$-form operator on the compact space, fixed by curvature rather than tuned into the dynamics. It is a spectral gap on that compact curved background, not the physical flat-space confinement scale $`\Lambda_{\text{QCD}}`$, which stays a separate, open problem. The fermion mass ladder is a distinct McKay-structured object, neither setting this gauge gap nor set by it.
 
@@ -354,7 +357,7 @@ Three topological vacua give three particle generations; the count is forced. Tr
 
 The [coexact gap paper](files/bedrock/files/coexact-gap.md) establishes the spectral side: across the entire ADE classification of finite subgroups of SU(2) the adjoint coexact gap is uniformly $`4/R_\Lambda^2`$, with a single break, the Galois connection on $`S^3/2I`$ at $`36/R_\Lambda^2`$, and that break is forced by perfectness, the property that distinguishes $`2I`$ alone among the finite subgroups of SU(2). The framework reads this exception as selection evidence, converging with the input-minimization argument that independently terminates on $`2I`$, so $`S^3/2I`$ is taken as the physical quotient on two grounds rather than one. The [galois-pair paper](files/bedrock/files/galois-pair.md) ("The Filling") adds the boundary side: the adjoint $`\rho`$-invariant asymmetry between the standard and Galois connections, supported on the Galois-sensitive conjugacy classes and carried through the tautological bundles on the $`E_8`$ ALE filling of $`S^3/2I`$. It establishes that filling structure; it does not identify the gauge decoration with the standing-wave sector, so the Möbius-to-ALE bridge stays open.
 
-### [The Mass Formula](https://dmobius3.github.io/mode-identity-theory/files/tools/files/calculator.html)
+### The Mass Formula
 
 The formula reads left to right as one motion: start at the floor, choose a seat, ride the elevator, then turn the dial. Four factors, each traced independently to the postulate, each doing exactly one thing:
 
@@ -376,7 +379,7 @@ Whether the specific torsion values add fit beyond that quantum-number-constrain
 
 The Yang-Mills gap above (geometry, $`\sim 1/R_\Lambda^2`$ from the form spectrum) and this mass ladder ($`(\sqrt{\Omega_\Lambda})^{\,\text{dist}/30}`$) share the McKay structure but are different objects: the gap is proved, the ladder is the comparison, and the one does not lend its standing to the other.
 
-<p align="right"><a href="#contents">↑ Contents</a></p>
+[↑ Contents](#contents)
 
 <a id="one-identity"></a>
 
@@ -405,7 +408,7 @@ The 3/2 gravity entry is the conjectural one: its derived content is the Gauss c
 
 The stabilizer structure says what each entry is; the formula says where each entry sits; both come from the topology. The comparison is the last step: which entry lands on which measured fermion, read against the data rather than fixed ahead of it.
 
-<p align="right"><a href="#contents">↑ Contents</a></p>
+[↑ Contents](#contents)
 
 <a id="one-interface"></a>
 
@@ -436,7 +439,7 @@ On the grid seam it pays nothing special, only the ordinary stress-energy coupli
 
 It also reframes why gravity resists quantization. In this reading, gravity is not one more object inside a single sector; it is the interface between two different kinds of structure, continuous geometry and discrete sampling. Quantizing it in the usual way would mean pushing one side into the form of the other: discretizing $`S^3`$, which removes the smooth source of $`\Lambda`$, or continualizing the 120-domain, which dissolves the spectrum, the mass gap, and the three generations. The resistance is therefore not just a missing technique; it is the signature of an interface no single-sector quantization can cross.
 
-<p align="right"><a href="#contents">↑ Contents</a></p>
+[↑ Contents](#contents)
 
 ---
 
@@ -522,7 +525,7 @@ Edge observables reference the evolving $`\Omega_H(z)`$; surface and space obser
 | absolute fermion masses | set by the $`m_e`$ benchmark |
 | three generations, Yang-Mills gap | structural results on $`S^3/2I`$ |
 
-<p align="right"><a href="#contents">↑ Contents</a></p>
+[↑ Contents](#contents)
 
 ---
 
