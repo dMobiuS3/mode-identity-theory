@@ -4,38 +4,13 @@
 
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/geometric%20code%20banner.png?raw=true" width="100%" alt="The Geometric Code: Mode Identity Theory">
 
-Mode Identity Theory is a boundary-condition framework. It keeps Einstein's field equations governing local gravitational dynamics and the Standard Model particle content unchanged, but supplies a global topological domain:
+Mode Identity Theory is a boundary-condition framework. It leaves Einstein's field equations governing local gravitational dynamics and the Standard Model particle content unchanged, and supplies one new thing: a global topological domain for them to live on.
 
-```math
-S^1 = \partial(\text{Möbius}) \hookrightarrow S^3,
-\qquad
-\partial S^3 = \emptyset .
-```
+Picture it before the formal names arrive: twist a strip into a Möbius band, scale its single edge up to the size of the universe, and set the whole thing inside the three-sphere, the one closed three-dimensional space with no boundary and no holes. That single edge is time, the three-sphere is space, and the space closes on itself with no edge of its own, so there is no outside to ask about. That shape is the entire theory. The particles, the forces, and the constants all arise from the shape itself, read off as values at positions on it.
 
-In plain terms, before the formal names arrive: twist a strip into a Möbius band, scale its single edge up to the size of the universe, and set the whole thing inside $`S^3`$, the one closed three-dimensional space with no boundary and no holes. That shape is the entire theory. The particles, the forces, and the constants arise from the shape itself, read off as values at positions.
+The shape has two layers: the smooth three-sphere underneath, and the structure built on it where the physics is read off. The topology, the twists and the identifications that glue points together, lives in that built structure; the space underneath stays smooth and hole-free.
 
-That shape has two layers: the smooth space $`S^3`$ underneath, and the structure built on it where the physics is read off. The topology lives in that built structure; $`S^3`$ itself is smooth and hole-free.
-
-The postulate says that time is the boundary of a non-orientable surface embedded in a closed three-space. The observable domain is the Poincaré homology sphere,
-
-```math
-M = S^3/2I,
-```
-
-where $`2I`$ is the binary icosahedral group of order 120. From that shape the topology fixes the mode domain, boundary condition, stabilizers, and McKay graph, and the relations that follow: well positions, hierarchy exponents, grid assignments, dimensionless ratios, and spectral filters. Measured anchors set only the absolute scales.
-
-## The Firing Order
-
-Each layer follows from the one before.
-
-1. Topology sets what is possible.
-2. Embedding defines the structure.
-3. The Cosmic Wave expresses the boundary.
-4. Time is phase of the wave.
-5. Sampling resolves position in the domain.
-6. Meaning arises only after realization.
-
-[![One Shape](https://img.youtube.com/vi/U3VtY8GZox8/mqdefault.jpg)](https://www.youtube.com/watch?v=U3VtY8GZox8)
+The postulate itself is one sentence: time is the boundary of a non-orientable surface embedded in a closed three-space. The observable domain is not the bare three-sphere but that space divided by a symmetry group of order 120, the binary icosahedral group, and the result is the Poincaré homology sphere. From that shape the topology fixes the mode domain, the boundary condition, the stabilizers, and the McKay graph, and the relations that follow from them: well positions, hierarchy exponents, grid assignments, dimensionless ratios, and spectral filters. Measured anchors set only the absolute scales.
 
 ---
 
@@ -51,6 +26,21 @@ The page moves in one line, each section following from the one before:
 - **[One Identity](#one-identity)** · 120 = 2³·3·5, sorting charge, spin, and isospin
 - **[One Interface](#one-interface)** · the two seams, and what gravity is across them
 - **[Inputs and Calibration](#inputs-and-calibration)** · the ledger of what is measured and what is derived
+
+---
+
+## The Firing Order
+
+Each layer follows from the one before.
+
+1. Topology sets what is possible.
+2. Embedding defines the structure.
+3. The Cosmic Wave expresses the boundary.
+4. Time is phase of the wave.
+5. Sampling resolves position in the domain.
+6. Meaning arises only after realization.
+
+[![One Shape](https://img.youtube.com/vi/U3VtY8GZox8/mqdefault.jpg)](https://www.youtube.com/watch?v=U3VtY8GZox8)
 
 ---
 
