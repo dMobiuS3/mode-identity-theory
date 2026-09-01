@@ -55,7 +55,7 @@ Most of the calibration loops below are benign (definitions, or self-flagged con
 
 **Cycle 2: α is both input and output.** The α route calibrates R from the measured fine-structure constant (α fixes Ω_Λ, hence R), and then the scaling law "predicts" α from that same R. So **α at 0.4% is a consistency check, not a prediction of α.** The genuinely non-circular content of that chain is downstream: α → R → Λ = 3/R² is a real ~23% prediction of the cosmological constant. State it that way. The engine's §15 "α CLOSED" tag is the top source-page fix: it should say α is the calibration input for R, making the 0.4% match a closure test, with the Λ-at-23% as the actual forward-ish content.
 
-**Cycle 7: the two independent routes to R disagree by ~3.2×.** R from the coupling route (α inverted) is ≈6.1 Gpc; R from the mass-spectrum route is ≈20 Gpc, and the corresponding Λ_ref values differ by ~10.5× (>1 order of magnitude). Read against the measured value instead (R_Λ ≈ 5.4 Gpc, the circular back-read of Λ), the mass route is ~3.7× high in R and ~14× low in Λ_ref: that is the route-versus-observed miss the Inputs table records, and it is a different comparison from the route-versus-route one. The engine honestly labels the mass route "order of magnitude," but a 3.2× disagreement between the framework's two independent determinations of its master length scale is a real problem, not a footnote. Until one route is shown to be the correct determination of R, every "prediction" that flows through R inherits this ambiguity.
+**Cycle 7: the two independent routes to R disagree by ~3.2×.** R from the coupling route (α inverted) is ≈6.1 Gpc; R from the mass-spectrum route is ≈20 Gpc, and the corresponding Λ_ref values differ by ~10.5× (>1 order of magnitude). Read against the measured value instead (R_Λ ≈ 5.4 Gpc, the circular back-read of Λ), the mass route is ~3.7× high in R and ~13.4× low in Λ_ref: that is the route-versus-observed miss the Inputs table records, and it is a different comparison from the route-versus-route one. The engine honestly labels the mass route "order of magnitude," but a 3.2× disagreement between the framework's two independent determinations of its master length scale is a real problem, not a footnote. Until one route is shown to be the correct determination of R, every "prediction" that flows through R inherits this ambiguity.
 
 ## Calibration web
 
@@ -83,7 +83,7 @@ m_e [obs, BENCHMARK]
 fermion masses ← μ_Λ, C_geom(ρ), Ω_Λ^(dist/30), T²(ρ⊗σ)   (all relative to m_e)
 R_Λ (Λ back-read) ≈ 5.4 Gpc  ← measured Λ                  [circular default]
 R (coupling) ≈ 6.13 Gpc ← α
-R (mass)     ≈ 20 Gpc   ← m_e, m_μ, McKay distances        ← CYCLE 7 (~3.2× / ~10.5× in Λ_ref vs coupling; ~3.7× / ~14× vs the Λ back-read)
+R (mass)     ≈ 20 Gpc   ← m_e, m_μ, McKay distances        ← CYCLE 7 (~3.2× / ~10.5× in Λ_ref vs coupling; ~3.7× / ~13.4× vs the Λ back-read)
 Ω_m          ← Ω_Λ                    (= 1 − Ω_Λ = 0.315, flatness identity)
 s₀           ← SN+BAO data [obs]      (fitted phase parameter, the model's only DoF)
 w_eff, (1+z)¹β, Ω_m(z), H(z), a₀(z), d_L(z)  ← s₀, Ω_Λ, one phase clock
@@ -158,7 +158,7 @@ Proved, often architecturally load-bearing, empirically inert. ~150+ leaf lemmas
 | Weak coupling α_W | 0.0339 → 0.0338 | 0.3% | + cos(π/10) "Plato twist" applied only here | Ω_Λ, cos(π/10) |
 | α_s/α_W | 3.43 → 3.49 | 2% | quotient of two already-counted fits | Z₃/Z₅ |
 | Λ via α route | 2.9e-122 → 2.90e-122 | within 23% window | 60-fold lever; route choice; Cycle 2 | α, Ω_Λ, R |
-| Λ via mass route | 8e-54 → 1.11e-52 | **~14× off (demote: a miss)** | bar relaxed %→OoM; Cycle 7 | m_e, Ω_Λ |
+| Λ via mass route | 8.1e-54 → 1.089e-52 | **~13.4× off (demote: a miss)** | bar relaxed %→OoM; Cycle 7 | m_e, Ω_Λ |
 | Λ_obs/Λ_top = 3/2 | 3/2 | exact (claim) vs a σ-statement | Gauss-vs-stabilizer 3/2 identity OPEN; and the 3/2 is a vacuum normalization, so the identification with the physical Λ is gated on the static stress tensor | Λ_top |
 | a₀/(cH₀) | 0.184 → 0.183 | <1% | well pair (13,34) selected; known 1983 MOND coincidence; both inputs | a₀, H₀ (web) |
 | Fermion masses (24 entries) | **4 of 8 within ×3** (5 compatible; descriptive; p_A = 0.690) | comparison | null test `mass-null-v1.1`: random torsions reproduce the hit rate, so ×3 is not evidence for the specific torsions; ×3 window wide; assignment + 3-vacuum freedom; m_e anchor | m_e, Ω_Λ (web) |
@@ -175,7 +175,7 @@ Proved, often architecturally load-bearing, empirically inert. ~150+ leaf lemmas
 
 | Input | Value | Framed as | Reality |
 |---|---|---|---|
-| Λ_obs | 1.11e-52 m⁻² | observed | the hub anchor |
+| Λ_obs | 1.089e-52 m⁻² | observed | the hub anchor (Planck 2018 TT,TE,EE+lowE+lensing; named in framework Inputs) |
 | R_Λ | 5.4 Gpc | derived | back-read of Λ (self-flagged circular); the α route gives 6.1 Gpc, the mass route ≈20 |
 | Ω_Λ = (R/ℓ_P)² | ~10¹²² | derived/exact | definition on calibrated R (overclaim) |
 | m_e | 0.511 MeV | benchmark | whole-spectrum lever; m_e↔Λ ~11% loop |

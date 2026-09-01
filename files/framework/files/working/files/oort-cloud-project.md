@@ -37,7 +37,7 @@ Derived, tested, load-bearing. Pick up and use.
 | $`\sqrt{\Omega} = 10^{61}`$ | Observer midpoint | UV-IR fixed point on bounded domain | MIT II.C |
 | $`(\sqrt{\Omega})^{-n}`$ | Hierarchy factor | Volume dilution in $`n`$-manifold | MIT II.C |
 | 3/2 conversion | Perception geometry: surface-to-venue | Gauss/Ricci lift (the 3), de Sitter vacuum normalization (the 1/2), minimal embedding, isotropy | [The Waltz](../../../../spectrum/files/the-waltz.md) |
-| $`\Lambda_{\text{obs}} \approx 2.9 \times 10^{-122}`$ | Cosmological constant prediction | Scaling law + 3/2 conversion (~2% agreement) | [The Waltz](../../../../spectrum/files/the-waltz.md) |
+| $`\Lambda_{\text{obs}} \approx 2.845 \times 10^{-122}`$ | Cosmological constant prediction | Scaling law + 3/2 conversion (~2% agreement) | [The Waltz](../../../../spectrum/files/the-waltz.md) |
 | $`\tau = T/120`$ | Chronon at any scale | 120-grid applied to mode period $`T`$ | Chronon note |
 | $`\tau_c/\tau_P = \sqrt{\Omega}`$ | Chronon ratio spans $`10^{61}`$ | Same midpoint, temporal channel | Chronon note |
 | $`L_f = v_c^2/a_0`$ | Coherence scale (galactic, ~13 kpc). SPARC-falsified as single coherence radius; retained as the tested candidate | Phase field mechanics | MIT II.G |

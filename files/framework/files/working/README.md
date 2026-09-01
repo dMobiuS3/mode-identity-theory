@@ -200,7 +200,7 @@ Closed: executed computations and derivations with verdicts in hand.
 
 ### [R from the Particle Mass Spectrum](files/r-from-mass-spectrum.md)
 
-**Result (2026-06-15):** Determines the spatial curvature radius $`R`$ from the fermion mass formula's dependence on the hierarchy factor $`\Omega_\Lambda`$, independently of $`\Lambda`$, the CMB, and the de Sitter relation, breaking the R-problem circularity. Electron + muon give $`R \sim 20`$ Gpc and $`\Lambda \sim 8 \times 10^{-54}\,\text{m}^{-2}`$, about 14× (one order of magnitude) below the observed value. Precision is capped at order of magnitude by the McKay-lever amplification (60× for $`\delta d = 1`$) acting on the mass formula's irreducible few-percent residual scatter; a pair scan shows no fermion pair beats electron-muon. The third and only non-excluded route to $`R`$.
+**Result (2026-06-15):** Determines the spatial curvature radius $`R`$ from the fermion mass formula's dependence on the hierarchy factor $`\Omega_\Lambda`$, independently of $`\Lambda`$, the CMB, and the de Sitter relation, breaking the R-problem circularity. Electron + muon give $`R \sim 20`$ Gpc and $`\Lambda \sim 8.1 \times 10^{-54}\,\text{m}^{-2}`$, about 13.4× (one order of magnitude) below the observed value. Precision is capped at order of magnitude by the McKay-lever amplification (60× for $`\delta d = 1`$) acting on the mass formula's irreducible few-percent residual scatter; a pair scan shows no fermion pair beats electron-muon. The third and only non-excluded route to $`R`$.
 
 **Dependencies:** Fermion mass formula and torsion table, McKay residual scatter (sets the precision floor), $`\Omega_\Lambda`$ hierarchy, $`\Lambda = 3/R^2`$ eigenvalue relation.
 
