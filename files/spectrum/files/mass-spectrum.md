@@ -39,7 +39,7 @@ Four factors. Four sources. Each traces independently to the topological postula
 
 ## II. The Factors
 
-### 1. Neutrino Floor  $`\mu_\Lambda`$ 
+### 1. Mass-Sector Floor  $`\mu_\Lambda`$ 
 
 The vacuum energy density of the cosmological constant defines the overall mass scale:
 
@@ -47,7 +47,7 @@ The vacuum energy density of the cosmological constant defines the overall mass 
 \mu_\Lambda \equiv \rho_\Lambda^{1/4} \approx 2.25 \text{ meV}
 ```
 
-This is the fourth root of Λ, set by the first positive mode ($`m_h = 0`$) of the Möbius surface. All particle masses trace back to this vacuum energy floor, scaled by the hierarchical factors that place each irrep at its position on the spectrum. The Λ entering here is the measured cosmological constant taken as the surface-sector calibration input, so $`\mu_\Lambda`$ is the mass sector's anchor into that calibration, the scale every ratio multiplies, rather than a quantity the framework predicts (see [Three readings of one hierarchy](../../framework/README.md#three-readings-of-one-hierarchy)).
+This is the fourth root of Λ, set by the first positive mode ($`m_h = 0`$) of the Möbius surface. All particle masses trace back to this vacuum energy floor, scaled by the hierarchical factors that place each irrep at its position on the spectrum. The Λ entering here is the measured cosmological constant taken as the surface-sector calibration input, so $`\mu_\Lambda`$ is the mass sector's anchor into that calibration, the scale every ratio multiplies, rather than a quantity the framework predicts (see [Three readings of one hierarchy](../../framework/README.md#three-readings-of-one-hierarchy)). Running the mass ratios backwards as an alternative determination of $`R_\Lambda`$ is a separate inverse use of this formula, tracked in the working [R from the mass spectrum](../../framework/files/working/files/r-from-mass-spectrum.md) analysis.
 
 The neutrino mass sector provides direct access to this scale:
 
@@ -235,7 +235,7 @@ The three counts answer progressively stricter questions: raw mass density cover
 
 The mass formula assigns each Standard Model fermion to a pair $`(\rho, \sigma)`$. The mass-formula factor is the torsion; the identity comes from the stabilizer structure of the icosahedron.
 
-The binary icosahedral group $`2I`$ inherits three stabilizer subgroups from the icosahedron: face ($`Z_3`$, order 3), edge ($`Z_2`$, lifting to $`Z_4`$ in the double cover), and vertex ($`Z_5`$, order 5). Each irrep of $`2I`$ restricts to these subgroups, producing three independent decompositions. Two encode known Standard Model structure. The third connects to the electroweak sector through the Möbius twist.
+The binary icosahedral group $`2I`$ inherits three stabilizer subgroups from the icosahedron: face ($`Z_3`$, order 3), edge ($`Z_2`$, lifting to $`Z_4`$ in the double cover), and vertex ($`Z_5`$, order 5). Each irrep of $`2I`$ restricts to these subgroups, producing three independent decompositions. MIT reads the face and edge decompositions as color and domain/spin structure; the vertex decomposition supplies the Galois distinction the Coxeter-Galois gate uses. The Möbius twist enters separately, as the motivated weak-coupling correction in §IV.5.
 
 ### 1. Color from Faces
 
@@ -265,7 +265,7 @@ The domain size $`D = 60`$ vs 120 introduced in §II.2 traces to a deeper struct
 - Half-integer irreps $`\{R_1, R_6, R_8, R_2\}`$: all $`Z_4`$ content is complex pairs. Domain $`D = 120`$.
 - Integer-spin irreps $`\{R_0, R_3, R_7, R_5, R_4\}`$: all $`Z_4`$ content is real. Domain $`D = 60`$.
 
-This is the spin-statistics connection, built into the group. The mass formula encodes it through $`C_\text{geom}`$, which evaluates the Kostant exponents on the $`D = 60`$ or $`D = 120`$ grid.
+The real/complex $`Z_4`$ split is exact. MIT reads it as the domain and spin-statistics distinction the mass formula then uses through $`C_\text{geom}`$, which evaluates the Kostant exponents on the $`D = 60`$ or $`D = 120`$ grid.
 
 ### 3. The Eta Sign Gate
 
@@ -339,23 +339,23 @@ The vertex stabilizer $`Z_5 \subset 2I`$ produces a well-defined decomposition o
 | $`R_4`$ | 3 | 1 / 1 / 0 |
 | $`R_2`$ | 2 | 0 / 0 / 1 |
 
-$`R_1`$ (neutrinos) and $`R_2`$ (top/bottom structural sector) are pure and complementary under the Galois action. $`R_7`$ (electron) is maximally democratic. The two nontrivial vacua are $`R_1`$ and $`R_2`$ themselves, Galois conjugates that differ precisely in their $`Z_5`$ content: $`R_1`$ carries only $`n_1`$, $`R_2`$ carries only $`n_2`$. The electroweak distinction between vacua IS the vertex decomposition.
+$`R_1`$ (neutrinos) and $`R_2`$ (top/bottom structural sector) are pure and complementary under the Galois action. $`R_7`$ (electron) is maximally democratic. The two nontrivial vacua are $`R_1`$ and $`R_2`$ themselves, Galois conjugates that differ precisely in their $`Z_5`$ content: $`R_1`$ carries only $`n_1`$, $`R_2`$ carries only $`n_2`$. MIT reads this complementary $`Z_5`$/Galois distinction between the nontrivial vacua as their electroweak address; the $`T_3`$ assignment itself comes from the Coxeter-Galois gate of §IV.4.
 
-The dodecahedral angular defect $`\pi/5`$ at each vertex, halved by the Möbius $`Z_2`$ holonomy to $`\pi/10`$, enters the weak coupling constant as $`\cos(\pi/10) = \sqrt{(2+\varphi)}/2`$. In the companion gauge coupling analysis, this correction uniquely improves $`\alpha_W`$ (from 5.5% to 0.3% error) and uniquely degrades $`\alpha`$ and $`\alpha_s`$ if misapplied. The vertex geometry reaches the observer through the Möbius twist, and only the parity-violating force carries the projection.
+The gauge-ladder ansatz takes the dodecahedral angular defect $`\pi/5`$ at each vertex to be halved by the Möbius orientation $`Z_2`$, giving $`\pi/10`$ and the factor $`\cos(\pi/10) = \sqrt{(2+\varphi)}/2`$; the operator-level step from that holonomy to a multiplicative weak-coupling correction is not derived. That orientation $`Z_2`$ is the Möbius twist, distinct both from the base edge $`Z_2`$ above and from the central $`-I`$ inside the lifted $`Z_4`$. In the companion gauge coupling analysis, the correction uniquely improves $`\alpha_W`$ (from 5.5% to 0.3% error) and uniquely degrades $`\alpha`$ and $`\alpha_s`$ if misapplied. Within the ladder reading, the weak row is the only coupling assigned this twist correction.
 
 $`R_7`$ occupies a special position in this structure. $`R_7 \otimes R_1 = R_7 \otimes R_2 = R_6 + R_8`$: the two nontrivial vacua produce identical torsion at $`R_7`$. The Dirac eta invariant captures this through the antisymmetric vacuum combination $`(5/2)(\eta_\text{std} - \eta_\text{gal})`$, which equals an integer for every irrep and is uniquely zero at $`R_7`$. The irrep that carries the electron sees both vacua identically. It sits at the center of the vertex structure, where the Galois distinction vanishes.
 
 ### 6. Summary
 
-| Stabilizer | Subgroup | Physical content | Status |
+| Structure | Decomposition | MIT reading | Status |
 |---|---|---|---|
-| Face ($`Z_3`$) | Order 3 | Color: singlet vs triplet | Locked |
-| Edge ($`Z_4`$) | Order 4 | Domain: $`D = 60`$ vs 120 | Locked |
-| Vertex ($`Z_5`$) | Order 5 | Electroweak: $`T_3`$ via Coxeter-Galois gate | Established |
-| Face/Edge ratio | 3/2 | Gravity: 3/2 vacuum-reference conversion (3 Gauss/Ricci, 1/2 de Sitter) | Motivated |
-| Vertex through twist | $`\cos(\pi/10)`$ | Weak coupling correction | Motivated |
+| Face ($`Z_3`$, order 3) | trivial characters and conjugate nontrivial pairs | color singlet and triplet/anti-triplet channels | decomposition exact; the color identification is the reading |
+| Edge ($`Z_2`$, lifting to $`Z_4`$) | real versus complex $`Z_4`$ content | domain $`D = 60`$ vs 120, integer versus half-integer | decomposition exact; the spin-statistics identification is the reading |
+| Vertex ($`Z_5`$, order 5) | fifth-root sectors and the Galois distinction | electroweak address; with $`j_\text{first}`$ parity it feeds the two-stage Coxeter-Galois gate whose output is $`T_3`$ | decomposition and gate evaluation exact; the electroweak identification is the reading |
+| Face / base-edge ratio | $`3/2 = \lvert Z_3 \rvert / \lvert Z_{2,\text{base}} \rvert`$, the face order over the base edge order | gravity correspondence to the vacuum-reference 3/2 (3 Gauss/Ricci, 1/2 de Sitter) | conjectural correspondence |
+| Vertex through the twist | $`\cos(\pi/10)`$ | weak-coupling correction | motivated, not derived |
 
-The three stabilizer orders 2, 3, 5 are the primes dividing $`|2I| = 120`$ and the conductors of the four surviving Dirichlet characters in the torsion L-basis. They generate color, domain, and (through their interfaces) gravity and the weak force. The stabilizer structure says what each entry is; the formula says where it sits, both from the topology. Which entry lands on which measured fermion is the comparison, read against the data.
+The three stabilizer orders 2, 3, 5 are the primes dividing $`|2I| = 120`$ and the conductors of the four surviving Dirichlet characters in the torsion L-basis. The stabilizers determine the subgroup decompositions; MIT reads those as color, domain, and electroweak structure, while the 3/2 gravity correspondence and the vertex-twist weak correction are interface readings rather than quantities the stabilizer orders generate. The stabilizer structure fixes the available channels; the formula says where each entry sits. Which entry lands on which measured fermion is the comparison, read against the data.
 
 ---
 
@@ -390,7 +390,7 @@ The $`R_1`$ sector spans 0.87 meV (triv), 7.3 meV (std), 66.7 meV (gal) in ascen
 
 | Item | Status |
 |------|--------|
-| $`T_3`$ assignment rule | Established. Two-stage filter: $`j_\text{first}`$ parity + Coxeter-Galois gate. Eleven featured evaluations consistent: five carrying assigned charged fermions, two carrying neutrino-scale proxy rows, and four serving as structural checks. See §IV.4. |
+| $`T_3`$ assignment rule | Established as a gate rule, with the reading of its output as weak isospin carried per §IV.6. Two-stage filter: $`j_\text{first}`$ parity + Coxeter-Galois gate. Eleven featured evaluations consistent: five carrying assigned charged fermions, two carrying neutrino-scale proxy rows, and four serving as structural checks. See §IV.4. |
 | $`\mu`$/$`s`$ single-entry count | Rank 15 supplies both the muon and the strange via the $`R_8`$ singlet/triplet color split, so two fermions are credited to one $`(\rho,\sigma)`$ address; rank 17 repeats the pattern with $`\tau`$ counted and $`b`$ recorded. Whether a shared address is one hit or two is a standing convention question (a strict one-entry-one-hit reading would give 3 of 8). |
 | Up quark assignment | Open. $`(R_8,\text{triv})`$ sits at 31.6 MeV, 14.6× the up mass, and no up-type entry sits near 2.16 MeV. |
 | Charm quark assignment | Open. No compatible entry within ×3 anywhere: the nearest entry (rank 16, 418 MeV) is 3.04 away and carries $`T_3 = -1/2`$. All $`R_4`$ entries have integer $`j_\text{first}`$ ($`T_3 = -1/2`$), so charm cannot live on $`R_4`$. |
