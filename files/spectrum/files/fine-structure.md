@@ -103,7 +103,7 @@ Accuracy alone cannot distinguish the formula from numerology. A scan of all com
 | Broad (all positions, all denominators) | 7,200 | 9 | ~7.6 |
 | Restricted (MIT constraints only) | 24 | 1 | — |
 
-In the broad scan, the hit count does not exceed the baseline: the local-density estimate gives about 7.6 hits and 9 are found. Accuracy alone selects nothing. In the restricted scan (MIT structural constraints only), the formula is uniquely selected: of 24 candidates, exactly one lands within 0.5% of $`\alpha`$, the matter well at the minimum realized step. That is identifiability within the framework's own rule set: the constraints, taken together, pick the formula out uniquely.
+In the broad scan, the hit count is consistent with the baseline: the local-density estimate gives about 7.6 hits and 9 are found, about half a standard deviation out. Accuracy alone selects nothing. In the restricted scan (MIT structural constraints only), the formula is uniquely selected: of 24 candidates, exactly one lands within 0.5% of $`\alpha`$, the matter well at the minimum realized step. That is identifiability within the framework's own rule set: the constraints, taken together, pick the formula out uniquely.
 
 ### The best competitor
 
