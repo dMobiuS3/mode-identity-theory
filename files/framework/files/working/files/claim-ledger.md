@@ -55,7 +55,7 @@ Most of the calibration loops below are benign (definitions, or self-flagged con
 
 **Cycle 2: α is both input and output.** The α route calibrates R from the measured fine-structure constant (α fixes Ω_Λ, hence R), and then the scaling law "predicts" α from that same R. So **α at 0.4% is a consistency check, not a prediction of α.** The genuinely non-circular content of that chain is downstream: α → R → Λ = 3/R² is a real ~23% prediction of the cosmological constant. State it that way. The engine's §15 "α CLOSED" tag is the top source-page fix: it should say α is the calibration input for R, making the 0.4% match a closure test, with the Λ-at-23% as the actual forward-ish content.
 
-**Cycle 7: the two routes to R disagree by ~4×.** R from the coupling route is ≈5.3 Gpc; R from the mass-spectrum route is ≈20 Gpc, and the corresponding Λ values differ by ~14× (>1 order of magnitude). The engine honestly labels the mass route "order of magnitude," but a 4× disagreement between the framework's two independent determinations of its master length scale is a real problem, not a footnote. Until one route is shown to be the correct determination of R, every "prediction" that flows through R inherits this ambiguity.
+**Cycle 7: the two independent routes to R disagree by ~3.2×.** R from the coupling route (α inverted) is ≈6.1 Gpc; R from the mass-spectrum route is ≈20 Gpc, and the corresponding Λ_ref values differ by ~10.5× (>1 order of magnitude). Read against the measured value instead (R_Λ ≈ 5.4 Gpc, the circular back-read of Λ), the mass route is ~3.7× high in R and ~14× low in Λ_ref: that is the route-versus-observed miss the Inputs table records, and it is a different comparison from the route-versus-route one. The engine honestly labels the mass route "order of magnitude," but a 3.2× disagreement between the framework's two independent determinations of its master length scale is a real problem, not a footnote. Until one route is shown to be the correct determination of R, every "prediction" that flows through R inherits this ambiguity.
 
 ## Calibration web
 
@@ -81,8 +81,9 @@ a₀/(cH₀)     ← a₀, H₀ ; reproduced by C(13/120)/C(34/120) = 0.184
 α_s, α_W     ← C(17/..), Ω_Λ, cos(π/10)
 m_e [obs, BENCHMARK]
 fermion masses ← μ_Λ, C_geom(ρ), Ω_Λ^(dist/30), T²(ρ⊗σ)   (all relative to m_e)
-R (coupling) ≈ 5.3 Gpc  ← α
-R (mass)     ≈ 20 Gpc   ← m_e, m_μ, McKay distances        ← CYCLE 7 (~4× / ~14× in Λ)
+R_Λ (Λ back-read) ≈ 5.4 Gpc  ← measured Λ                  [circular default]
+R (coupling) ≈ 6.13 Gpc ← α
+R (mass)     ≈ 20 Gpc   ← m_e, m_μ, McKay distances        ← CYCLE 7 (~3.2× / ~10.5× in Λ_ref vs coupling; ~3.7× / ~14× vs the Λ back-read)
 Ω_m          ← Ω_Λ                    (= 1 − Ω_Λ = 0.315, flatness identity)
 s₀           ← SN+BAO data [obs]      (fitted phase parameter, the model's only DoF)
 w_eff, (1+z)¹β, Ω_m(z), H(z), a₀(z), d_L(z)  ← s₀, Ω_Λ, one phase clock
@@ -117,7 +118,7 @@ The phase-clock channels are grouped under one parent: they are independent *tes
 | Λ epoch-independence / Ω_DE(z) flat across DR1 bins | awaiting full DR1 (mid 2027) | flatness not tunable | Λ = 3/R² (web) | Ω_DE varies ≥2σ across bins |
 | SMF z≳10 / JWST massive galaxies persist (a₀(z=10)≈20.5×; 4.5× g-boost; 2.1× t_ff speedup → ε_SF ~0.5) | awaiting wide-area | ε_SF, dust, selection knobs; "deferred/uncounted" escape | a₀(z=10), Ω_Λ, s₀ | abundance within Boylan-Kolchin ΛCDM ≥2σ |
 | ν R1 ladder 0.87 / 7.3 / 66.7 meV (triv/std/gal) | awaiting JUNO/DUNE; ordered proxy resemblance to lightest / solar / atmospheric scales, not hits | proxy only, no generation assignment; splitting ratios 0.72, 1.8 | mass formula (R1) | ladder ordering inconsistent with the measured mass scales |
-| Neutrino floor μ_Λ ~2.25 meV | <800 meV (KATRIN); forward | μ_Λ rides web; near oscillation scale | m_e, Ω_Λ (web) | lightest ν > 2.25 meV >1σ |
+| Neutrino floor μ_Λ ~2.25 meV | <0.45 eV (KATRIN, 90% CL); forward | μ_Λ rides web; near oscillation scale | m_e, Ω_Λ (web) | lightest ν > 2.25 meV >1σ |
 | No CMB spectral distortion, T(z) = (1+z)^(1−β) (redshift-cooling) | FIRAS-consistent; two-sided test | β=0 limit | phase clock | measured distortion / T(z) departure |
 | Rank-16 / dead-zone states (~418 MeV; 6 states eV–keV) | no SM fermion (open) | "unassigned" escape hatch | mass formula | sterile/WDM searches exclude windows |
 
@@ -175,7 +176,7 @@ Proved, often architecturally load-bearing, empirically inert. ~150+ leaf lemmas
 | Input | Value | Framed as | Reality |
 |---|---|---|---|
 | Λ_obs | 1.11e-52 m⁻² | observed | the hub anchor |
-| R_Λ | 5.3 Gpc | derived | back-read of Λ (self-flagged circular) |
+| R_Λ | 5.4 Gpc | derived | back-read of Λ (self-flagged circular); the α route gives 6.1 Gpc, the mass route ≈20 |
 | Ω_Λ = (R/ℓ_P)² | ~10¹²² | derived/exact | definition on calibrated R (overclaim) |
 | m_e | 0.511 MeV | benchmark | whole-spectrum lever; m_e↔Λ ~11% loop |
 | μ_Λ = ρ_Λ^(1/4) | 2.25 meV | derived | quartic root of measured Λ (overclaim) |
