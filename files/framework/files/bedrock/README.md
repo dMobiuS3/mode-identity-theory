@@ -5,8 +5,6 @@
 
 # ⛰️ Bedrock Papers
 
----
-
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/the%20bridge%20banner.png?raw=true" width="100%" alt="Bedrock">
 
 The postulate is one line, $`S^1 = \partial(\text{Möbius}) \hookrightarrow S^3`$ with $`\partial S^3 = \emptyset`$, and it nests three objects: the temporal seam $`S^1`$, the Möbius surface it bounds, and the space $`S^3`$ in which the seam is anchored. The standalone mathematics papers below put operators on two of those objects, the surface and the space, and a third reads the arithmetic of the four-dimensional filling that the space-quotient $`S^3/2I`$ bounds. The seam $`S^1`$ is the boundary datum produced by the embedding, not a separate spectrum.
