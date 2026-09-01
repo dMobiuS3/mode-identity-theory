@@ -97,7 +97,7 @@ The eight cycles, each named by kind:
 4. **Ω_Λ ↔ R ↔ ℓ_P**: definition. The 10⁶¹ / 10⁻¹²² / 10⁻¹⁸³ suppressions are one fact re-expressed.
 5. **a₀ ↔ H₀ ↔ a₀/(cH₀)**: presentation double-count: one derived ratio (0.184) listed across multiple pages and re-used as a₀/a_P.
 6. **n = −½ ↔ Ω_m**: one fit counted twice: the clock exponent is fitted to recover the (1+z)³ scaling, then the Ω_m recovery is cited as its validation.
-7. **R(coupling) ↔ R(mass)**: **the most important tension**, ~4× disagreement (see above).
+7. **R(coupling) ↔ R(mass)**: **the most important tension**, ~3.2× disagreement in R (~10.5× in Λ_ref); see above.
 8. **8.4% H₀**: output = input by construction; mechanism withdrawn on SPARC.
 
 ## Master ledger
@@ -202,7 +202,7 @@ Proved, often architecturally load-bearing, empirically inert. ~150+ leaf lemmas
 |---|---|---|
 | Selection rule for wells/exponents/grid (n=1,2,3; 1/60, 1/120; dist/30) | load-bearing | the master look-elsewhere surface; every coupling/mass cites it, audited by rule in [Shared rule-level freedom behind the scaling-law comparisons](#shared-rule-level-freedom-behind-the-scaling-law-comparisons) |
 | Commutant theorem A_obs = A_Θ ⊗ A_spec (factored scaling law) | load-bearing | keystone gap; whole factored measurement form is conditional |
-| R determination (coupling vs mass routes, ~4× apart) | load-bearing | Cycle 7; framework's own R off by 3.7× internally |
+| R determination (coupling vs mass routes, ~3.2× apart) | load-bearing | Cycle 7; the mass route also sits ~3.7× off the Λ back-read |
 | Friedmann as output, not input | load-bearing | 0% progress; Ω_m recovery currently borrows GR dynamics |
 | Waltz clock map t(Φ); entropy S↦N_max (the lone unwalked map [entropy-as-realization-budget](entropy-as-realization-budget.md) rests on, §VIII.1 / §IX); energy E(S) (the amplitude-to-$`T_{\mu\nu}`$ dictionary; one object with the cooling-energy accounting per the [Budget Map](budget-map.md), redshift-and-cooling §VI + entropy §VIII.2). **This same object now gates the Λ coefficient** ([cosmological-constant](../../../../cosmos/files/cosmological-constant.md) §IV): the de Sitter step is a vacuum normalization, vacuum GR has no static closed solution, and a static perfect fluid gives `ΛR² = 3 − 2/(1+w) < 3`. Whether `3/R²` is the physical constant of the static domain is decided by the same missing dictionary, so this is not only an energy-accounting open. Counted once, here. Program page: [stress-tensor-bridge](stress-tensor-bridge.md) | load-bearing | see self-inconsistencies below |
 | Charm assignment; ν₂ gap; dead-zone coverage | soft | known fermions the scheme cannot place |
@@ -263,7 +263,7 @@ The clear hits, each a candidate source-page fix:
 
 - **Waltz clock age**: the clock inverted from the joint SN+BAO s₀ bound gives a present age **≤ 0.79 Gyr**, ~17× below 13.8 Gyr, which stellar/globular ages (~12–13 Gyr) already exclude. The t(Φ) map is the named open problem, so this is an *unsolved mapping*, not a logical contradiction, but a 17× age gap on naive inversion deserves ledger-level visibility. **Action**: every age statement in the public pages must say the clock map remains open and must not imply the current map already recovers 13.8 Gyr (the 13.8 Gyr in the epoch table is ΛCDM-borrowed pending t(Φ)).
 - **Engine phase Φ_now ≈ 5.22 vs ≲ 0.3** from clock integration: the two phase parameterizations (engine Φ, budget t) are stated as distinct with the mapping open; the discrepancy is the same unsolved map, worth visibility.
-- **Two routes to R disagree ~4×** (Cycle 7): the framework's most significant internal tension.
+- **Two routes to R disagree ~3.2×** (Cycle 7, ~10.5× in Λ_ref): the framework's most significant internal tension.
 
 ## What this changes (source-page triage queue)
 
