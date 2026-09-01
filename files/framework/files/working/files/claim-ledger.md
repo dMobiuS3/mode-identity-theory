@@ -33,7 +33,7 @@ What the framework actually lives or dies on is a thin set of forward bets, near
 
 When any of this can be scored is set by ESA's release split. DR1-Foundation (November 2026) carries raw data, calibrated images, catalogues and spectra over about 1900 deg², with no cosmology-derived products; the full DR1 (mid 2027) adds the higher-level galaxy-clustering and weak-lensing products. Λ flatness, a₀(z), and the sign-fixed (1+z)¹ term all read spectroscopic BAO or weak lensing, so they gate on the full release, not the Foundation one; the stellar mass function at z ≳ 10 is the single forward row reachable from the Foundation catalogues and spectra. ESA notes these dates are tentative and still to be confirmed. The predictions were registered before either release, and that priority is unaffected by the schedule moving.
 
-The framework's strongest feature is recorded falsification. It pre-registered and lost the SPARC coherence-scale test (0.38 L_f, not 1.0), the H₀ bimodality test (unimodal), the McKay mass-residual correction (no parameter-free fix), and the signed well-functional sweep (wells never extremal), and the torsion null test (random torsions reproduce the mass hit rate at p_A = 0.690, so the ×3 count is not evidence for the specific torsions), and it logs the down mass miss (outside ×3 at 3.2), with up and charm unassigned, and the m_e↔Λ ~11% closure rather than hiding them. That is the opposite of a protected theory.
+The framework's strongest feature is recorded falsification. It pre-registered and lost the SPARC coherence-scale test (0.38 L_f, not 1.0), the H₀ bimodality test (unimodal), the original McKay mass-residual correction on the pre-correction table (no parameter-free fix, a negative the torsion correction has since reopened rather than confirmed), and the signed well-functional sweep (wells never extremal), and the torsion null test (random torsions reproduce the mass hit rate at p_A = 0.690, so the ×3 count is not evidence for the specific torsions), and it logs the down mass miss (outside ×3 at 3.2), with up and charm unassigned, and the m_e↔Λ ~11% closure rather than hiding them. That is the opposite of a protected theory.
 
 ## Reconciliation (verified 2026-06-26)
 
@@ -191,7 +191,7 @@ Proved, often architecturally load-bearing, empirically inert. ~150+ leaf lemmas
 |---|---|---|
 | SPARC L_f coherence test | **FALSIFIED**: 0.38 L_f not 1.0; tracks M_b; slope 0.23 vs [0.7,1.3] | pre-registered ([sparc-phase-field](sparc-phase-field.md)), 27-cell stable, no rescue |
 | H₀ bimodality | **NOT SUPPORTED**: unimodal; TRGB 69.8 in the predicted gap; GMM 68.4/73.5 ≠ 67/73 | all 4 configs agree |
-| McKay propagator correction | **NULL**: no parameter-free fix; down/tau residual signs oppose (+0.51 vs −0.38) | route closed/archived |
+| McKay propagator correction | **HISTORICAL NULL on the pre-correction mass table**: no parameter-free fix, the then-current down/tau residual signs opposing (+0.51 vs −0.38) | the corrected torsions changed the residual landscape (d +0.51, τ +0.44, both overshoots at Galois vacua), so the opposite-directions argument does not transfer; route **reopened** on the corrected table |
 | Signed well-functional sweep (fibonacci-wells) | **NEGATIVE**: wells never extremal across 8 functionals | variational route to DERIVED closed |
 | Dark matter / SUSY nulls | holding | weak (absence of evidence); n=3 layer 10⁻¹⁸³ unfalsifiable |
 | DESI wCDM favours w≠−1, MIT cannot reach | **disconfirmation recorded** | candid |

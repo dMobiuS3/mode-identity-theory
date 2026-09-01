@@ -7,7 +7,7 @@
 
 **Status:** APPLIED (2026-07-28). The four half-integer torsion singles on [mass-spectrum](../../../../spectrum/files/mass-spectrum.md) were the coexact-only quantity; the full Ray-Singer values carry exact closed forms. 12 of the 24 table entries revised; headline 5-of-8 recomputed to 5 compatible / 4 adjudicated. Verification artifact: [`torsion-correction.test.py`](torsion-correction.test.py): 12 gates with stable ids, a mutation registry whose meta-guard enforces that the set of mutation targets equals the set of gate ids AND that every declared defect turns its gate red (13 mutations, all red; a gate added without a mutation fails the suite by construction).
 
-**Dependencies:** mass-spectrum §4 torsion tables and §III ledger; the [mckay-propagator-correction](mckay-propagator-correction.md) record (its 2026-07-28 banner); the queued `mass-null-v1.1` re-registration.
+**Dependencies:** mass-spectrum §4 torsion tables and §III ledger; the [mckay-propagator-correction](mckay-propagator-correction.md) record (its 2026-07-28 banner); the registered `mass-null-v1.1` rerun, executed 2026-07-28 against the corrected torsion table.
 
 ---
 
@@ -56,7 +56,7 @@ Every value is elementary algebraic in $`\mathbb{Q}(\varphi)`$, uniformly across
 | The pre-correction half-integer values equal the coexact-only truncation | CERTIFIED (4/4 at page precision; the diagnosis gate) |
 | The tensor multiplicities and the 24-product propagation | derived in-script from the reconstructed character table and gated (known decompositions, dimension sums, revised-mass transcription, 12 unchanged products at ratio 1) |
 | The corrected half-integer closed forms | REPRODUCED by a context-isolated independent-method run (OpenWave M8.8, adjudicated 2026-08-22): § 8 category `convention difference`, global inverse at $`R_7`$, 8/8 rows exact in $`\mathbb{Q}(\varphi)`$, 4/4 identities equal; see §6 |
-| The corrected scorecard's statistical weight | NOT claimed; `mass-null-v1.1` against the corrected table is queued, and no corrected count is quoted as null-tested until it runs |
+| The corrected scorecard's statistical weight | `mass-null-v1.1` was executed 2026-07-28 against the corrected table and returned $`p_A = 0.690`$, in the uninformative band. The corrected $`\times 3`$ proximity count is therefore tested and null **as evidence for the specific torsion assignment**; the torsion algebra and the structural construction are not what this null tests |
 
 ## 5. Reproduce
 

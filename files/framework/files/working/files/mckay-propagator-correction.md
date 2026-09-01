@@ -19,6 +19,8 @@
 
 ## Result: hypothesis eliminated (negative)
 
+*Everything from here down is the 2026-06 pre-correction record, preserved unedited; its verdicts are scoped to the table analysed then. The route is formally REOPENED against the corrected residuals per the 2026-07-28 banner above.*
+
 The protocol (§6, §11) was run against the full §II data. The formula places the 10 SM-assigned masses within ×3.3 (most within ×1.5; the down quark, the worst, at ×3.2), then the signed residual $`r = \log_{10}(m_\text{pred}/m_\text{obs})`$ was computed and correlated against every parameter-free candidate. Reproducible script: [`mckay-propagator-correction.test.py`](mckay-propagator-correction.test.py).
 
 **1. The residual is not a systematic overshoot.** The two worst assigned fermions miss in opposite directions, so no single multiplicative factor can fix both.

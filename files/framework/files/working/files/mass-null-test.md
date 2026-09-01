@@ -13,7 +13,7 @@
 
 **Dependencies:** mass formula and 24-entry table (mass-spectrum.md §II-III), torsion tables (§II.4), Coxeter-Galois gate and stabilizer decompositions (§IV), PDG masses as frozen below.
 
-**Related:** [Claim Ledger](claim-ledger.md), [McKay Propagator Correction](mckay-propagator-correction.md) (the closed correction route; its residual scatter is context for this test), [R from the Mass Spectrum](r-from-mass-spectrum.md).
+**Related:** [Claim Ledger](claim-ledger.md), [McKay Propagator Correction](mckay-propagator-correction.md) (negative on the pre-correction table, reopened on the corrected one; its residual scatter is context for this test), [R from the Mass Spectrum](r-from-mass-spectrum.md).
 
 ---
 
