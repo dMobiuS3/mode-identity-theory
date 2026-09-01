@@ -25,7 +25,7 @@ Orienting notes that index other work.
 
 ### [The R Problem](files/r-problem.md)
 
-**Tracker:** Maps every route to an independent spatial curvature radius $`R`$ and where each stands. $`\Lambda = 3/R^2`$ becomes a forward prediction only with an $`R`$ not read off $`\Lambda`$: de Sitter is circular, the Molien gap is not independent, the CMB L-ratio factor of 8 is dead (no topological derivation), and the particle mass spectrum is the one live route (executed, order of magnitude). Includes the shared E₈ / $`h = 30`$ engine tying the L ratio to the mass formula, and flags the Molien sparse-zone CMB result as the independent survivor of the L work.
+**Tracker:** Maps every route to an independent spatial curvature radius $`R`$ and where each stands. $`\Lambda_\text{ref} = 3/R^2`$ becomes a conditional output only with an $`R`$ not read off $`\Lambda`$, and identifying that reference value with the physical $`\Lambda`$ stays gated by the Interface: de Sitter is circular, the Molien gap is not independent, the CMB L-ratio factor of 8 is dead (no topological derivation), and the particle mass spectrum is the one live route (executed, order of magnitude). Includes the shared E₈ / $`h = 30`$ engine tying the L ratio to the mass formula, and flags the Molien sparse-zone CMB result as the independent survivor of the L work.
 
 **Dependencies:** [R from the mass spectrum](files/r-from-mass-spectrum.md), fermion mass formula, $`\Lambda = 3/R^2`$ eigenvalue relation.
 

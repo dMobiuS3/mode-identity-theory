@@ -62,7 +62,7 @@ Embed the surface in space and the curvature converts the sample to energy by 3/
 | [↗](files/fine-structure.md#the-prediction) Null SUSY | no realized gaugino-mediated force (open conjecture) | ongoing null results | consistent (conjecture) |
 | [↗](files/the-mirror.md#ii-main-theorem) Spectral inaccessibility | no $`\mathcal{F}`$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |
 | [↗](files/mass-spectrum.md#1-color-from-faces) Color from $`Z_3`$ | singlet and triplet/anti-triplet channels | every assigned fermion has its required color channel | exact |
-| [↗](files/mass-spectrum.md#2-domain-from-edges) Domain from $`Z_4`$ | $`D = 60`$ (int) vs 120 (half-int) | integer/half-integer split | exact |
+| [↗](files/mass-spectrum.md#2-domain-from-edges) Domain from $`Z_4`$ | $`D = 60`$ (int) vs $`120`$ (half-int) | integer/half-integer split | exact |
 | [↗](files/mass-spectrum.md#4-weak-isospin-from-the-coxeter-galois-gate) Weak isospin $`T_3`$ | $`j_\text{first}`$ parity + Coxeter-Galois gate | eleven featured (5 assigned + 2 neutrino-proxy + 4 structural) | exact |
 | [↗](files/mass-spectrum.md#3-the-eta-sign-gate) Eta sign gate | $`\eta > 0 \implies Q \leq 0`$ | all SM-assigned entries | exact |
 | [↗](files/mass-spectrum.md#iii-the-24-entries) Fermion masses | 24 entries | 5 compatible / 4 adjudicated within ×3 ($`m_e`$ benchmark; d assigned but outside ×3 at 3.2, u and c unassigned, b compatible but out-of-sector, μ/s share rank 15, τ at 2.75) | comparison |
