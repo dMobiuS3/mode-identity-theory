@@ -210,7 +210,7 @@ Outputs of a fixed structure, checked against observation:
 | [↗](/files/spectrum/files/mass-spectrum.md#iii-the-24-entries) $`m_e`$ (electron) | mass benchmark | 0.511 MeV | normalization |
 | [↗](/files/spectrum/files/mass-spectrum.md#v-dead-zone-targets-and-exclusions) Rank 16 entry | $`R_5`$ gal, ~418 MeV | no known fermion | open |
 | [↗](/files/spectrum/files/mass-spectrum.md#v-dead-zone-targets-and-exclusions) Dead zone | 6 states, eV to keV | no SM fermions in range | open |
-| [↗](/files/spectrum/files/mass-spectrum.md#1-neutrino-floor--mu_lambda) Mass-sector floor | $`\mu_\Lambda \approx 2.25`$ meV | absolute neutrino masses unmeasured; KATRIN $`m_{\nu_e}^\text{eff} < 0.45`$ eV | awaiting measurement |
+| [↗](/files/spectrum/files/mass-spectrum.md#1-neutrino-floor--mu_lambda) $`\mu_\Lambda`$ mass-sector floor | $`\mu_\Lambda \approx 2.25`$ meV | absolute neutrino masses unmeasured; KATRIN $`m_{\nu_e}^\text{eff} < 0.45`$ eV (90% CL) | awaiting measurement |
 | [↗](/files/spectrum/files/fine-structure.md#alpha_s-the-strong-coupling) $`\alpha_s`$ | 0.1162 | 0.1180 | 1.5% |
 | [↗](/files/spectrum/files/fine-structure.md#alpha_w-the-weak-coupling-and-the-plato-twist) $`\alpha_W`$ | 0.0339 | 0.0338 | 0.3% |
 | [↗](/files/spectrum/files/fine-structure.md#iii-the-formula) $`\alpha`$ | 0.00733 | 0.00730 | 0.4% |
