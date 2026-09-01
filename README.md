@@ -13,7 +13,7 @@ What began as an inadvertent search query turned philosophy, turned topology, tu
 
 Topology is structure, and de Broglie’s wave becomes fundamental; matter appears when the wave is sampled. The observer is part of that realization, not external to it; while time ticks in phase, not in the background.
 
-In 300 BC, Euclid proved Plato's observation that only five solids close perfectly in space. In 2027, ESA's Euclid telescope will ask; what geometry gives the universe its shape? MIT is betting on one shape and one wave. The rest; is accounting.
+In 300 BC, Euclid proved Plato's observation that only five solids close perfectly in space. Today, ESA's Euclid telescope asks: what geometry gives the universe its shape? MIT is betting on one shape and one wave. The rest is accounting.
 
 ---
 
@@ -64,7 +64,7 @@ mode-identity-theory/
 
 Your belt has two surfaces and two edges that never meet. Twist it once and buckle it again. Suddenly you have a single surface and a single edge: the Möbius strip. Now scale that surface to universal size and embed it in the only simply connected closed 3-manifold that exists.
 
-The 3‑sphere itself wasn't just empty. It comes with a native grid of 120 equally spaced positions, the maximum symmetry the space can permit.
+The 3‑sphere itself wasn't just empty. Fold it by the binary icosahedral symmetry, and the observable domain resolves into 120 positions.
 
 Ψ **One Wave:**
 
@@ -84,15 +84,15 @@ Most wave patterns cancel while certain modes survive. The ones that come back a
 \Large \boxed{\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}
 ```
 
-Two questions determine any constant in the universe: where are you on the wave, and how deep in the domain are you sampling?
+Two questions determine any constant the scaling law reaches: where are you on the wave, and how deep in the domain are you sampling?
 
 >**$`C(\Theta) = 2\sin^2(\pi\Theta)`$** is your position on the 120-grid.
 
-Not all 120 positions on the grid are equal. Some are more stable than others, places where the wave can settle long enough to matter. The golden ratio $`\varphi`$ charts the course: the hardest number to approximate creates the most stable positions on the grid. Fibonacci appears in sunflowers and seashells as the universe finds its most stable wells to sample.
+Not all 120 positions are used. The realized wells continue a Fibonacci sequence already native to the icosahedral arithmetic: 13, 21, 34, 55. The same golden field behind $`\varphi`$ runs through $`2I`$, the pattern that surfaces in sunflowers and seashells.
 
 >**$`(\sqrt{\Omega})^{-n}`$** is how far the geometry has diluted the signal by the time it reaches you.
 
-The universe has two boundaries: the cosmic horizon at the ceiling and the Planck length at the floor. Together they span 122 orders of magnitude, no longer a coincidence, it's the area of our domain. The observer stands at the geometric midpoint between the largest and smallest scale, the structural position where infinity over zero yields a defined result.
+The hierarchy runs between two reference limits, the Planck floor and the cosmic ceiling; in $`\Omega`$ they span 122 orders of magnitude, no longer a coincidence but the area of our domain. The observer sits at the geometric midpoint, the self-dual point where the climb to the ceiling equals the drop to the floor.
 
 Three layers host different physics:
 
@@ -100,7 +100,7 @@ Three layers host different physics:
 >
 >(n = 2) 2D Möbius surface: vibrating like a drum head and humming ambiently at $`\Lambda`$.
 >
->(n = 3) 3D space: no dimensional access to this volume, so we will never measure anything dark.
+>(n = 3) 3D space: the dark sector, this mode's geometry rather than any particle to detect.
 
 :atom_symbol: **One Formula:**
 
@@ -108,9 +108,9 @@ Three layers host different physics:
 \Large \boxed{m(\rho,\sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30} \cdot T^2(\rho \otimes \sigma)}
 ```
 
-Four factors compose to rank 24 fermion masses. Each factor does exactly one thing.
+Four factors compose to rank 24 entries on the fermion mass ladder. Each factor does exactly one thing.
 
->**The Neutrino Floor.** $`\mu_\Lambda`$ sets the stage: the lightest neutrino is not a small fermion mass but the *floor* of the spectrum, the hum every other mass is built on.
+>**The Neutrino Floor.** $`\mu_\Lambda`$ sets the stage: the vacuum-energy floor of the whole spectrum, the hum every other mass is built on.
 
 >**The Kostant Sunflower.** $`C_{\text{geom}}(\rho)`$ selects the position: each irreducible representation carries a geometric weight, nine seats on a discrete sunflower.
 
@@ -126,7 +126,7 @@ Four factors compose to rank 24 fermion masses. Each factor does exactly one thi
 
 The binary icosahedral group $`2I`$ is the largest exceptional discrete subgroup of $`SU(2)`$. Its order factors into exactly three primes.
 
->**Faces.** $`Z_3`$ sorts color: the three-fold rotational stabilizers become the three color charges of QCD. Singlet or triplet per irrep; six of six fermion assignments match.
+>**Faces.** $`Z_3`$ sorts color: the three-fold rotational stabilizers become the three color charges of QCD. The restriction exposes singlet and triplet/anti-triplet channels; every assigned fermion has the channel it needs.
 
 >**Edges.** $`Z_4`$ sorts spin: the edge stabilizers split the spectrum into integer-spin (domain $`D = 60`$) and half-integer-spin (domain $`D = 120`$), bosons and fermions cleanly separated.
 
@@ -150,7 +150,7 @@ The two sides differ in kind: one smooth, one discrete. So gravity should not be
 
 ## :control_knobs: Inputs
 
-Two constants fix the units. The absolute scale is a calibration choice, not a privileged input: the hierarchy $`\Omega_\Lambda`$ is over-determined, fixed to within residuals by Λ (through $`R_\Lambda`$), by $`\alpha`$, or by the mass ratio, and every dimensionless result holds under each choice. The $`\alpha`$ reading is the best-conditioned, fixing $`\Lambda`$ to ~23% with no $`R_\Lambda`$. The default entry below is $`R_\Lambda`$ for the cosmological scale and $`m_e`$ as the mass benchmark, with $`s_0`$ for the phase.
+Three constants fix the Planck units. The absolute scale is a calibration choice, not a privileged input. The hierarchy $`\Omega_\Lambda`$ is over-determined: Λ (through $`R_\Lambda`$), $`\alpha`$, and the mass ratio each read it, and the anchor-free dimensionless ratios hold under each choice. The $`\alpha`$ reading is the best-conditioned, fixing $`\Lambda`$ to ~23% with no $`R_\Lambda`$ input. The default entry below is $`R_\Lambda`$ for the cosmological scale and $`m_e`$ as the mass benchmark, with $`s_0`$ for the phase.
 
 **Primitives**
 
@@ -158,19 +158,20 @@ Two constants fix the units. The absolute scale is a calibration choice, not a p
 |---|---|---|
 | $`c`$ | 299,792,458 m/s | Propagation rate on the temporal edge |
 | $`\hbar`$ | $`1.055 \times 10^{-34}`$ J s | Action quantum; converts mode number to energy |
+| $`G`$ | $`6.67430 \times 10^{-11}`$ m³ kg⁻¹ s⁻² | Gravitational coupling; with $`c`$ and $`\hbar`$, sets the Planck units |
 
 **Measured scales**
 
 | Scale | Value | Origin |
 |---|---|---|
 | $`R_\Lambda`$ | $`\approx 5.3`$ Gpc | de Sitter scale $`\sqrt{3/\Lambda}`$; the circular default. $`\Omega_\Lambda`$ reads independently from $`\alpha`$ (best-conditioned) and the mass spectrum. |
-| $`m_e`$ | $`0.511`$ MeV | Mass benchmark; the fermion ratios are structural, so this fixes only the normalization |
+| $`m_e`$ | $`0.511`$ MeV | Mass benchmark; fixes the overall mass normalization |
 
 **Phase parameter**
 
 | Parameter | Value | Origin |
 |---|---|---|
-| $`s_0`$ | $`< 0.19`$ (95% CL) | Observer's current phase on the standing wave. $`\Omega_m = 0.315`$ is output of the temporal budget. |
+| $`s_0`$ | $`< 0.19`$ (95% CL) | Observer's current phase on the standing wave. $`\Omega_m = 0.315`$ is the flat-universe complement of the dark-energy fraction. |
 
 ---
 
@@ -180,7 +181,7 @@ Outputs of a fixed structure, checked against observation:
 
 | Observable | Output | Observed | Agreement |
 |---|---|---|---|
-| [↗](/files/cosmos/files/cosmological-constant.md#v-the-open-radius) $`\Lambda`$ (coupling $`\alpha`$ route) | $`\Lambda_\text{obs}\,\ell_P^2 \approx 2.9 \times 10^{-122}`$ | $`2.90 \times 10^{-122}`$ | ~23% |
+| [↗](/files/cosmos/files/cosmological-constant.md#v-the-open-radius) $`\Lambda`$ (coupling $`\alpha`$ route) | $`\Lambda\,\ell_P^2 \approx 2.2 \times 10^{-122}`$ | $`2.90 \times 10^{-122}`$ | ~23% |
 | [↗](/files/cosmos/files/cosmological-constant.md#v-the-open-radius) $`\Lambda`$ (mass-spectrum cross-check) | $`\Lambda \approx 8 \times 10^{-54}`$ m⁻² | $`1.11 \times 10^{-52}`$ m⁻² | order of magnitude |
 | [↗](/files/spectrum/files/the-waltz.md#ii-gravity-as-the-cost-to-dance) $`\Lambda_\text{obs}/\Lambda_\text{top}`$ | 3/2 (gravitational cost) | 3 Gauss/Ricci lift × 1/2 de Sitter vacuum | exact |
 | [↗](/files/cosmos/files/cosmological-constant.md#iii-the-spectral-seed) $`\Lambda`$ eigenvalue | topological ($`2/R_\Lambda^2`$) seed | antinode topologically selected; stationary to first order | ✓ |
@@ -199,7 +200,7 @@ Outputs of a fixed structure, checked against observation:
 | [↗](/files/spectrum/files/fine-structure.md#the-prediction) Force count | 3 (grid-ladder conjecture) | 3 | consistent (conjecture) |
 | [↗](/files/spectrum/files/fine-structure.md#the-prediction) Null SUSY | no realized gaugino-mediated force (open conjecture) | ongoing null results | consistent (conjecture) |
 | [↗](/files/spectrum/files/the-mirror.md#ii-main-theorem) Spectral inaccessibility | no $`\mathcal{F}`$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |
-| [↗](/files/spectrum/files/mass-spectrum.md#1-color-from-faces) Color from $`Z_3`$ | singlet/triplet per irrep | 6/6 fermion assignments | exact |
+| [↗](/files/spectrum/files/mass-spectrum.md#1-color-from-faces) Color from $`Z_3`$ | singlet and triplet/anti-triplet channels | every assigned fermion has its required color channel | exact |
 | [↗](/files/spectrum/files/mass-spectrum.md#2-domain-from-edges) Domain from $`Z_4`$ | $`D = 60`$ (int) vs $`120`$ (half-int) | integer/half-integer split | exact |
 | [↗](/files/spectrum/files/mass-spectrum.md#4-weak-isospin-from-the-coxeter-galois-gate) Weak isospin $`T_3`$ | $`j_\text{first}`$ parity + Coxeter-Galois gate | eleven featured (5 assigned + 2 neutrino-proxy + 4 structural) | exact |
 | [↗](/files/spectrum/files/mass-spectrum.md#3-the-eta-sign-gate) Eta sign gate | $`\eta > 0 \implies Q \leq 0`$ | all SM-assigned entries | exact |
@@ -209,13 +210,13 @@ Outputs of a fixed structure, checked against observation:
 | [↗](/files/spectrum/files/mass-spectrum.md#iii-the-24-entries) $`m_e`$ (electron) | mass benchmark | 0.511 MeV | normalization |
 | [↗](/files/spectrum/files/mass-spectrum.md#v-dead-zone-targets-and-exclusions) Rank 16 entry | $`R_5`$ gal, ~418 MeV | no known fermion | open |
 | [↗](/files/spectrum/files/mass-spectrum.md#v-dead-zone-targets-and-exclusions) Dead zone | 6 states, eV to keV | no SM fermions in range | open |
-| [↗](/files/spectrum/files/mass-spectrum.md#1-neutrino-floor--mu_lambda) $`\nu`$ floor | $`\mu_\Lambda \approx 2.25`$ meV | < 800 meV (KATRIN) | awaiting measurement |
+| [↗](/files/spectrum/files/mass-spectrum.md#1-neutrino-floor--mu_lambda) Mass-sector floor | $`\mu_\Lambda \approx 2.25`$ meV | absolute neutrino masses unmeasured; KATRIN $`m_{\nu_e}^\text{eff} < 0.45`$ eV | awaiting measurement |
 | [↗](/files/spectrum/files/fine-structure.md#alpha_s-the-strong-coupling) $`\alpha_s`$ | 0.1162 | 0.1180 | 1.5% |
 | [↗](/files/spectrum/files/fine-structure.md#alpha_w-the-weak-coupling-and-the-plato-twist) $`\alpha_W`$ | 0.0339 | 0.0338 | 0.3% |
 | [↗](/files/spectrum/files/fine-structure.md#iii-the-formula) $`\alpha`$ | 0.00733 | 0.00730 | 0.4% |
 | [↗](/files/spectrum/files/fine-structure.md#alpha_s--alpha_w-pure-geometry) $`\alpha_s / \alpha_W`$ | 3.426 (pure geometry) | 3.490 | 1.8% |
 
->The absolute mass scale and Λ are two ends of one loop: fix $`m_e`$ and the topology gives Λ; fix Λ and it gives $`m_e`$ to ~2%. Inverting the closure, a 2% shift in $`m_e`$ moves Λ by ~11% under the default calibration, where $`R`$ (hence $`\Omega_\Lambda`$) is set by Λ, so $`m_e \propto \Lambda^{11/60}`$ once the $`\mu_\Lambda`$ scale and the $`\Omega_\Lambda`$ feedback are collected. Neither end is privileged: the closure is the mass-spectrum reading of the hierarchy, and the mass ratios are free of the absolute scale.
+>The absolute mass scale and Λ are two ends of one loop: fix $`m_e`$ and the topology gives Λ; fix Λ and it gives $`m_e`$ to ~2%. Inverting the closure, a 2% shift in $`m_e`$ moves Λ by ~11% under the default calibration, where $`R`$ (hence $`\Omega_\Lambda`$) is set by Λ, so $`m_e \propto \Lambda^{11/60}`$ once the $`\mu_\Lambda`$ scale and the $`\Omega_\Lambda`$ feedback are collected. Neither end is privileged: the closure is the mass-spectrum reading of the hierarchy, and the mass ratios are free of the overall mass normalization.
 
 ---
 
