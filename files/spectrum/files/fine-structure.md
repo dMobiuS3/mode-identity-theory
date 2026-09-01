@@ -175,7 +175,7 @@ The quantity here is the $`SU(2)_L`$ gauge coupling, $`\alpha_W \equiv \hat{g}^2
 
 Observed: 0.0338. Agreement: 0.3%.
 
-**The Plato twist.** The correction $`\cos(\pi/10) \approx 0.951`$ is motivated by the dodecahedral geometry of $`S^3/2I`$. The dodecahedron (dual to the icosahedron) has angular defect $`\pi/5`$ at each vertex. The Möbius $`Z_2`$ holonomy is taken to halve the defect to $`\pi/10`$. The weak force is the only Standard Model interaction that violates parity; it is the only coupling that traverses the twist. The geometry is real; the halving step is not yet derived: no operator restriction, holonomy transport, or projection computation currently produces $`\cos(\pi/10)`$, and the factor is selected from the geometry's discrete menu rather than fitted continuously.
+**The Plato twist.** The correction $`\cos(\pi/10) \approx 0.951`$ is motivated by the dodecahedral geometry of $`S^3/2I`$. The dodecahedron (dual to the icosahedron) has angular defect $`\pi/5`$ at each vertex. The Möbius $`Z_2`$ holonomy is taken to halve the defect to $`\pi/10`$. The weak force is the only Standard Model interaction that violates parity, and within the ladder reading it is the only coupling assigned this twist correction. The geometry is real; the halving step is not yet derived: no operator restriction, holonomy transport, or projection computation currently produces $`\cos(\pi/10)`$, and the factor is selected from the geometry's discrete menu rather than fitted continuously.
 
 Within the stabilizer reading, the candidate correction associates the vertex geometry ($`Z_5`$) with the Möbius twist ($`Z_2`$), while color ($`Z_3`$) transmits cleanly through the surface, which is the reading's account of why the strong and electromagnetic forces carry no twist correction. The algebraic factor $`\cos(\pi/10) = \sqrt{(2+\varphi)}/2`$ combines structures already native to the domain, the golden ratio $`\varphi`$ from $`Z_5`$ (icosahedral vertex symmetry) and the factor 2 from $`Z_2`$ (edge/Möbius holonomy). No operator-level transport currently derives that projection, and that missing bridge is why the factor remains an ansatz rather than a vertex-edge stabilizer mechanism.
 
@@ -189,7 +189,7 @@ The ratio of the strong to weak coupling cancels all $`\Omega_\Lambda`$ dependen
 \frac{\alpha_s}{\alpha_W} = \frac{C(17/60)}{C(17/120) \times \cos(\pi/10)} = 3.426
 ```
 
-Observed: 3.490. Agreement: 1.8%. Same Kostant exponent, different grids, one twist correction. The ratio between the strong and weak force is the geometry of the domain.
+Observed: 3.490. Agreement: 1.8%. Same Kostant exponent, different grids, one twist correction. The ladder reads the strong-to-weak ratio as geometry of the domain.
 
 ### The scorecard
 
@@ -218,7 +218,7 @@ Both the cosmological constant and the fine structure constant reference the sam
 \alpha = \Omega_\Lambda^{-1/60} \cdot C(13/60)
 ```
 
-Λ sits at the antinode: $`C(60/120) = C(30/60) = 2`$. This is the bare surface eigenvalue $`\Lambda_\text{top}`$; the Gauss/de Sitter conversion $`3/2`$ carries it to the vacuum-reference value $`\Lambda_\text{ref} \cdot \ell_P^2 = 3\,\Omega_\Lambda^{-1}`$ (see the [cosmological constant](../../cosmos/files/cosmological-constant.md)). Grid choice is invisible at the antinode. $`\alpha`$ sits away from the antinode, where the grid matters: $`C(13/60) = 0.79`$ on the bosonic grid vs $`C(13/120) = 0.22`$ on the spinor grid.
+$`\Lambda_\text{top}`$ sits at the antinode: $`C(60/120) = C(30/60) = 2`$. This is the bare surface eigenvalue; the Gauss/de Sitter conversion $`3/2`$ carries it to the vacuum-reference value $`\Lambda_\text{ref} \cdot \ell_P^2 = 3\,\Omega_\Lambda^{-1}`$ (see the [cosmological constant](../../cosmos/files/cosmological-constant.md)). Grid choice is invisible at the antinode. $`\alpha`$ sits away from the antinode, where the grid matters: $`C(13/60) = 0.79`$ on the bosonic grid vs $`C(13/120) = 0.22`$ on the spinor grid.
 
 $`\Lambda_\text{top}`$ uses the full hierarchy (exponent 1). $`\alpha`$ uses 1/60-th: one grid step. The ratio of log-scalings confirms the relationship:
 
@@ -294,7 +294,7 @@ Within the grid-action reading, the three observed gauge forces exhaust the thre
 
 Supersymmetric partners, in their standard formulation as gaugino-mediated interactions between scalar matter, are the natural occupant of that ungenerated rung. The prediction is not that superpartners are heavy. It is that the gaugino-mediated SUSY force sector does not appear as a realized fundamental interaction, as intrinsic to the framework's picture as the Möbius strip having a single edge.
 
-The grid ladder was constructed to derive coupling constants. It was not designed to count forces. That it produces exactly three occupied rungs matching exactly three observed gauge interactions, with the vacancy mapping onto exactly the sector that decades of collider searches have failed to populate, is a conditional structural output of the framework rather than an input to it.
+The grid ladder was constructed to derive coupling constants. It was not designed to count forces. That it produces exactly three occupied rungs matching exactly three observed gauge interactions, with the vacancy mapping onto exactly the sector that decades of collider searches have failed to populate, is a conditional structural output of the selected ladder rather than an input to it.
 
 ## VIII. Falsification
 
