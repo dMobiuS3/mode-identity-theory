@@ -67,6 +67,8 @@ N(t)=S(t)^{1/2}.
 
 That exponent is not unclaimed ground. It is labelled FORCED on the [budget page](temporal-budget.md) §VII, forced by $`S^3`$ dimensionality plus GR, and [The Half-Power Clock](friedmann-as-output.md) has already landed it natively along its route R-HALF, conditionally on that route's premise ledger. This program is a second route to the same number.
 
+Two prerequisites are inherited with the symbol, and neither is discharged here. First, §7 varies $`N`$, which gives it the role of a metric lapse against the phase metric, $`g_{tt} = -N^2`$; that is the Half-Power Clock's gate (iii) perturbation-sector candidate, which stands named but uncommitted until its EFE-unchanged constraint is unpacked. Second, the [placement seam](friedmann-as-output.md) recorded 2026-09-01 leaves the semantic identification open: whether $`d\tau_H`$ is observer proper time in the effective metric, and whether the native pair $`(d\mu_\text{tick}, d\tau_H)`$ maps onto GR's proper/conformal pair at all. So the variational lapse and the fitted Hubble clock share a name and a law before they are shown to share an object. The first bounded computation must keep them distinguishable rather than assume the identification.
+
 The descriptive chain is
 
 ```math
@@ -133,7 +135,7 @@ The phase condition
 
 selects the physical phase convention.
 
-The program therefore extends an existing quadratic variational structure rather than beginning from zero.
+The program therefore starts from an existing quadratic variational structure rather than from nothing. The weaker verb is deliberate. The Rayleigh form is the wave sector alone: it contains no $`N`$ and no independent $`S`$, and its ground space is a fact about one eigenproblem on one lap. The first arm adds the lapse and the budget constraint to that sector and nothing else. Whether any coupling to $`i`$, $`\mathcal O_M`$ or $`A`$ survives is the open content of the later arms, and it is open against recorded negatives rather than against blank space: the postulate bridge's Steps 1 through 4 and the [sampler first test](sampler-first-test.md) both closed negative on those couplings. Continuity from this quadratic form to a functional over sampler, embedding and connection data is a claim the program owes, not a starting asset.
 
 ## 5. Two-level action architecture
 
@@ -216,7 +218,9 @@ The identity
 
 may appear as an on-shell constraint equation only. $`S`$ must remain a varied realized-mode share during the derivation, rather than being replaced at the start by $`\sin(t/2)`$.
 
-The gate is not this page's to score. The half-power exponent is owned by [The Half-Power Clock](friedmann-as-output.md), which carries the route menu, the success and failure bars, the three-gate argument for the landing route R-HALF, and the prior discipline that governs any new route: the half power is the lowest-complexity value outside the integer family, and any framework carrying both amplitudes and intensities has a square root sitting between the two levels, so a route landing on $`-1/2`$ is expected under the null. The landing is not the evidence; the operator gates are. This program enters that menu as R-VAR, inherits those terms, and its verdict is recorded there.
+The gate is not this page's to score. The half-power exponent is owned by [The Half-Power Clock](friedmann-as-output.md), which carries the route menu, the success and failure bars, the three-gate argument for the landing route R-HALF, and the prior discipline that governs any new route: the half power is the lowest-complexity value outside the integer family, and any framework carrying both amplitudes and intensities has a square root sitting between the two levels, so a route landing on $`-1/2`$ is expected under the null. The landing is not the evidence; the operator gates are. This program enters that menu as R-VAR, inherits those terms, and its verdict is recorded there. The owner page's failure bar already reserves this slot, listing "no tick functional returning $`N^2 = S`$" and "no geometric functional landing the half power" as separate exhaustion conditions.
+
+The candidate functional must therefore declare, before it is run, which of two things it is: an independent route, whose lapse equation reaches the exponent with no reference to the tick measure, or the operator-level realization of R-HALF, in which the tick lemma's overlap density falls out of a variation rather than being defined. The second is not a lesser outcome. By the owner page's own doctrine the landing is not the evidence and the operator gates are, so supplying R-HALF with an operator-level derivation would be a result in its own right. What is not admissible is leaving the relation undeclared until after the exponent appears.
 
 ### PASS
 
@@ -238,27 +242,17 @@ This applies in particular to any route using a stabilizer ratio to reach the cl
 
 A derivation of $`N=S^{1/2}`$ from a route independent of the unmerged $`3/2`$ structures stands on its own.
 
+**Scoring the dressed lapse, pre-registered.** "Another clock" is not by itself a failure, and the distinction is fixed here rather than after the run. [The stress-tensor bridge](stress-tensor-bridge.md) records that holding $`a_\text{eff} = a_\ast S`$ while the fitted rate carries its constant forces the clock to dress, $`(dt/d\tau)^2 = 4\alpha/S + 4\beta S^2/\Psi^2`$, whose first piece is the Waltz clock recovered exactly at $`\beta = 0`$. A functional returning that dressed lapse is therefore returning the object §9 relocates the open question to, not a wrong answer. The pre-registered target is the $`\beta \to 0`$ limit: a lapse whose budget piece reduces to $`S^{1/2}`$ passes the clock gate, and its $`\Lambda`$ piece is then a second consequence, feeding the bridge's two-part metric-definition problem. This is also what makes the second-consequence requirement preregisterable rather than an after-the-fact quality judgment: the consequence is named now, before any functional exists.
+
 ### FAIL
 
-The minimal functional leaves $`N`$ underdetermined, returns another clock, or requires $`S^{1/2}`$ to be inserted into the action or constraint by construction.
+The minimal functional leaves $`N`$ underdetermined, returns a clock outside the dressed family fixed above, or requires $`S^{1/2}`$ to be inserted into the action or constraint by construction.
 
 ## 8. Relation to the unmerged 3/2 triple
 
-The corpus currently keeps three numerically equal $`3/2`$ appearances separate:
+The corpus keeps three numerically equal $`3/2`$ appearances fenced apart, and that fence is owned elsewhere: the [framework page](../../../README.md)'s One Identity section states its three posts, and [Friedmann as Output](friedmann-as-output.md)'s R-STAB row carries the hazard gate. Neither is restated here.
 
-- the face / edge stabilizer ratio;
-- the vacuum lift;
-- the tick exponent $`S^{3/2}`$.
-
-The Hubble-clock exponent $`1/2`$ is presently related to the tick exponent only after the existing import through
-
-```math
-a_\text{eff}=a_\ast S.
-```
-
-Numerical equality is therefore insufficient for identification.
-
-Any derivation that uses one of these $`3/2`$ structures as the source of the clock must supply the operator-level bridge that the current framework leaves open. The fence and its hazard gate are kept on [Friedmann as Output](friedmann-as-output.md).
+The one hook specific to this program: the Hubble-clock exponent $`1/2`$ reaches the tick exponent $`3/2`$ only through the existing import $`a_\text{eff} = a_\ast S`$, so a functional that lands the clock by way of a $`3/2`$ structure has crossed the fence and owes the operator-level bridge. That requirement is scored in §7 under PASS by stabilizer route, not here.
 
 ## 9. Relation to the stress-tensor bridge
 
@@ -369,6 +363,17 @@ S=\sin(t/2)
 
 belong after the constraint equations are obtained.
 
+### Frozen before the run: the kinetic term and the potential
+
+The lapse equation is only a gate if what it varies is fixed in advance. In the one class where $`\delta\mathcal{S}/\delta N = 0`$ is a genuine Hamiltonian constraint, the parametrized form $`\mathcal{S} = \int (T/N - N\,V)\,dt`$ with $`T`$ quadratic in the velocities, the lapse equation returns $`N^2`$ as the ratio of the velocity-quadratic term to the potential term. The whole exponent then rests on the $`S`$-power of $`V`$, and the two natural kinetic choices already split it:
+
+| Kinetic term | Value on shell | $`V`$ required for $`N^2 = S`$ |
+|---|---|---|
+| the Rayleigh form $`\lvert\Psi'\rvert^2`$ of §4 | $`S^2/4`$ | $`V \propto S`$ |
+| the budget metric $`\lvert\Psi'\rvert^2 + \lvert S'\rvert^2`$ | $`1/4`$, constant | $`V \propto 1/S`$ |
+
+Both rows are arithmetic, not results. Their point is that a $`V`$ chosen after the target is known is exactly the inserted-by-construction FAIL, so the requirement is procedural: the kinetic term and the potential must each be read from a named corpus object (the Rayleigh form, the budget identity, the tick measure) and frozen in a commit before the run, with the $`S`$-power of $`V`$ recorded as the pre-registered prediction rather than reported as the output. This is the owner page's prior discipline made mechanical.
+
 ### Primary observable
 
 Read off the lapse law returned by the $`N`$ equation.
@@ -435,7 +440,7 @@ At that point the score-to-sample reframing becomes a derivational result rather
 
 ---
 
-*The exponent is already labelled and already landed once. This program is a second route to it, and it promotes only on the Half-Power Clock's terms.*
+*The exponent is already labelled FORCED, and landed once already, conditionally on another route's premise ledger. This program is a second route to it, and it promotes only on the Half-Power Clock's terms.*
 
 ---
 
