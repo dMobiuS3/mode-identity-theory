@@ -84,7 +84,7 @@ This became the bedrock pillar [Galois pair](../../bedrock/files/galois-pair.md)
 
 ---
 
-## A sampler reading (candidate, not run)
+## A sampler reading
 
 **Recorded 2026-08-19.** The split verdict above closes the topological coupling on its route. This section records an interpretation under which that closure is what the architecture predicts, together with the one new mathematical object the interpretation names. Nothing in it modifies the verdict, the pillars, or the tiers below; it organizes them.
 
@@ -112,9 +112,9 @@ This opens a reading of the postulate in which the two pieces hold different job
 
 with $`\mathcal L`$ the orientation local system of $`M`$. Only the target type is defined here; the construction is the open problem.
 
-**Guardrail: no canonical $`\mathcal O_M`$ exists yet.** In particular the $`\mathcal L`$-twist cannot be produced by choosing a global nowhere-zero section of $`\mathcal L`$: no such section exists, and its nonexistence is the topology being retained, not an inconvenience to be normalized away. Any local construction carries a sign ambiguity valued in exactly the $`\mathbb{Z}_2`$ that intensity forgets, which is why the intensity level is the first place a well-defined observable can live.
+**Guardrail: a canonical candidate $`\mathcal O^{(1)}_M`$ exists, but nothing selects it as the sampler operator.** The $`\mathcal L`$-twist cannot be produced by choosing a global nowhere-zero section of $`\mathcal L`$: no such section exists, and its nonexistence is the topology being retained, not an inconvenience to be normalized away. Any local construction carries a sign ambiguity valued in exactly the $`\mathbb{Z}_2`$ that intensity forgets, which is why the intensity level is the first place a well-defined observable can live.
 
-**The first test (bounded, not run).** Route 1 proves the Möbius orientation holonomy cannot be identified with any $`2I`$-datum: $`2I`$ is perfect and has no order-two character. The bounded question is therefore not identification but intertwining after sign-forgetting, in exactly the quotient where the distinction disappears:
+**The first bounded test.** Route 1 proves the Möbius orientation holonomy cannot be identified with any $`2I`$-datum: $`2I`$ is perfect and has no order-two character. The bounded question is therefore not identification but intertwining after sign-forgetting, in exactly the quotient where the distinction disappears:
 
 ```math
 \boxed{\begin{array}{c}
