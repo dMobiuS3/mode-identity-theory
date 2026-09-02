@@ -3,7 +3,7 @@
 
 ---
 
-# :ringed_planet: Κόσμος
+# 🪐 Κόσμος
 
 The cosmos is the same finite space seen whole: a static three-sphere. Redshift is the observer's phase advancing along a standing wave on the temporal edge of the Möbius surface embedded in it, so the curvature enters as a fixed boundary condition and the sky an observer measures is flat-FLRW. The surface's first positive eigenvalue is the vacuum seed. Gauss and de Sitter lift it by 3/2, and the lifted value is epoch-independent. Whether it is the constant we measure is the open seam. The acceleration scale $`a_0`$ is an edge mode riding the same phase clock, so $`a_0(z) \propto H(z)`$. One constant, one evolving, both read from the same standing wave.
 
@@ -73,7 +73,7 @@ Hubble measured the tension in 1929 from the same structure. The framework reads
 
 ---
 
-## :ringed_planet: Score
+## 🪐 Score
 
 | Observable | Output | Observed | Agreement |
 |---|---|---|---|
