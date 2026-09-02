@@ -3,6 +3,8 @@
 
 ---
 
+# ⚫️ Black Holes
+
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/black%20holes%20banner.png?raw=true" width="100%" alt="Black Holes">
 
 Where Θ hits the wall, and Ω may collapse with it. *A working supplement to Mode Identity Theory.*
