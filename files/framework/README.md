@@ -55,9 +55,7 @@ The chain begins in theorem: non-orientability fixes the anti-periodic boundary 
 [↑ Table of Contents](#table-of-contents)
 
 ---
-
 <a id="one-shape"></a>
-
 ## 🏟️ One Shape
 
 ```math
@@ -133,9 +131,7 @@ MIT associates that phase increment with the action step $`\Delta\mathcal{S}_{\m
 [↑ Table of Contents](#table-of-contents)
 
 ---
-
 <a id="one-wave"></a>
-
 ## Ψ One Wave
 
 The domain is static; its temporal edge carries a standing wave, and what is read as cosmic time is the observer's phase along it. On the one-lap lift of that edge the Möbius identification is anti-periodic, the same sign flip that gives matter its fermionic character: one traversal flips the wave, the closed edge restores it after the second, and the fundamental phase period is $`4\pi`$ rather than $`2\pi`$. It opens at full amplitude, holds its selected fundamental mode, and where the observer samples it, matter appears.
@@ -180,9 +176,7 @@ Two phase parameterizations meet at the present epoch. The engine phase $`\Phi =
 [↑ Table of Contents](#table-of-contents)
 
 ---
-
 <a id="one-equation"></a>
-
 ## ⚖️ One Equation
 
 ```math
@@ -356,9 +350,7 @@ The Coxeter pair $`(13, 17)`$ under $`h(E_8) = 30`$ is exceptional but not force
 [↑ Table of Contents](#table-of-contents)
 
 ---
-
 <a id="one-formula"></a>
-
 ## ⚛️ One Formula
 
 The mass spectrum assembles in three moves, each set by the same topology: the curvature gap that confines, the three flat vacua MIT reads as the generations, and the four-factor formula that ranks the fermions.
@@ -410,9 +402,7 @@ The gauge gap above and this mass ladder share the McKay structure and little el
 [↑ Table of Contents](#table-of-contents)
 
 ---
-
 <a id="one-identity"></a>
-
 ## 🔺 One Identity
 
 ```math
@@ -441,9 +431,7 @@ The stabilizers determine the decompositions, MIT's dictionary gives them their 
 [↑ Table of Contents](#table-of-contents)
 
 ---
-
 <a id="one-interface"></a>
-
 ## 🪡 One Interface
 
 All of it, the wells, the spectrum, the stabilizer sorting, lives on a smooth space that knows none of it. The last question is how that discrete structure sits on the $`S^3`$ underneath, and what gravity is across the seam. The answer is not one operation but two.
@@ -472,9 +460,7 @@ Within MIT, this interface structure is why gravity is not assigned another gaug
 [↑ Table of Contents](#table-of-contents)
 
 ---
-
 <a id="inputs-and-calibration"></a>
-
 ## 🎛️ Inputs and Calibration
 
 The scaling law uses one hierarchy ledger at a time: $`\Omega_H`$ on the temporal edge, $`\Omega_\Lambda`$ in the surface and space sectors. Each sector needs one absolute anchor, and the relations that survive between anchors are the physics. Invert one observable to fix that sector's $`\Omega`$ and the rest of the sector follows; which observable you invert is calibration. This section separates the two, ledger by ledger.
@@ -562,9 +548,7 @@ Edge observables reference the evolving $`\Omega_H(z)`$; surface and space obser
 [↑ Table of Contents](#table-of-contents)
 
 ---
-
 <a id="research-frontier"></a>
-
 ## 🌅 Research Frontier
 
 The body is the theory as it stands; this is the theory as a program. What is open is not scattered: it collects into three problems, and everything the framework has spent and everything it still bets rides on them. The full apparatus, the controls, and the dates live in the [claim ledger](files/working/files/claim-ledger.md) and the [working register](files/working/README.md); the Frontier names the three problems and points to where each already lives.
