@@ -9,7 +9,7 @@ Check it yourself. Nothing below is a demonstration: each page runs the framewor
 
 ## 👾 Interactive
 
->**[The Calculator](https://dmobius3.github.io/mode-identity-theory/files/tools/files/calculator.html)**: run the framework end to end. Four factors, four sources, one operation: the couplings, the 24-entry mass spectrum, and the cosmological readings, all computed from the postulate.
+>**[The Calculator](https://dmobius3.github.io/mode-identity-theory/files/tools/files/calculator.html)**: run the framework end to end. Four factors, four sources, one operation: the couplings, the 24-entry mass spectrum, and the cosmological readings, computed by the topology on top of one measured hierarchy anchor, and you choose which one.
 
 >**[The Topology](https://dmobius3.github.io/mode-identity-theory/files/tools/files/topology.html)**: turn the $`S^3/2I`$ domain in your hand, the Möbius edge and the icosahedral structure and the McKay graph the spectrum is read from.
 
