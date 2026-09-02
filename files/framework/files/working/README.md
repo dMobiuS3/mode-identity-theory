@@ -113,9 +113,9 @@ Closing any one of these upgrades everything downstream.
 
 ### [Cone Point Coherence](files/cone-point-coherence.md)
 
-**Problem:** Galactic coherence (all observers measuring the same $`\mathbb{R}^4`$) may be the $`W`$-independence of a nested eigenvalue problem, guaranteed by a cone point at galactic scale. The cone point analysis (Frobenius, Friedrichs, excision) that makes the cosmic eigenvalue well-defined must be re-established at galactic scale with equal rigor. Critical fork: GR tidal curvature in the flat-curve regime is Euler-type with power-law Jacobi solutions that structurally cannot zero; the needed curvature $`K_g = \pi^2 a_0^2/v_c^4`$ lives at the topology-gravity interface.
+**Problem:** Galactic coherence (all observers measuring the same $`\mathbb{R}^4`$) may be the $`W`$-independence of a nested eigenvalue problem, guaranteed by a cone point at galactic scale. The cone point analysis (Frobenius, Friedrichs, excision) that makes the cosmic eigenvalue well-defined must be re-established at galactic scale with equal rigor. Critical fork: GR tidal curvature in the flat-curve regime is Euler-type with power-law Jacobi solutions that structurally cannot zero, so the curvature has to come from the topology-gravity interface. SPARC has since falsified $`L_f = v_c^2/a_0`$ as the galactic coherence radius, which removes the empirical anchor for that reading and leaves the sourcing question open against an unknown $`L_g`$; Reading A and the Frobenius chain are untouched.
 
-**Dependencies:** Sector $`\mathcal{A}`$ eigenvalue, phase field coherence scale $`L_f`$, 120-grid scale-free projection.
+**Dependencies:** Sector $`\mathcal{A}`$ eigenvalue, phase field coherence scale $`L_f`$ (SPARC-falsified; the unknown galactic scale is $`L_g`$), 120-grid scale-free projection.
 
 ---
 
@@ -181,9 +181,9 @@ Technical gaps with specific paths forward.
 
 ### [Oort Cloud Project: Nested Coherence Domains](files/oort-cloud-project.md)
 
-**Problem:** Does MIT's structure project into every gravitationally coherent scale, or only the cosmological one? If the 120-grid and 3/2 conversion nest, the Oort Cloud (~144,000 AU) is the solar-system-scale coherence boundary. Central open question: generalizing $`L_f = v_c^2/a_0`$ from galactic to stellar and planetary scales. Downstream predictions include CMB-ecliptic alignment as a local sampling fingerprint.
+**Problem:** Does MIT's structure project into every gravitationally coherent scale, or only the cosmological one? If the 120-grid and 3/2 conversion nest, the Oort Cloud (~144,000 AU) is the solar-system-scale coherence boundary. Central open question: what sets the coherence scale at each level. $`L_f = v_c^2/a_0`$ was the candidate, and SPARC falsified it as the galactic radius, so the generalization now runs from an unknown $`L_g`$ rather than from $`L_f`$. Downstream predictions include CMB-ecliptic alignment as a local sampling fingerprint.
 
-**Dependencies:** Sector $`\mathcal{A}`$ eigenvalue, phase field coherence scale $`L_f`$, 120-grid scale-free projection, 3/2 conversion (Gauss lift + de Sitter vacuum).
+**Dependencies:** Sector $`\mathcal{A}`$ eigenvalue, phase field coherence scale $`L_f`$ (tested, falsified by SPARC; the unknown galactic coherence scale is $`L_g`$), 120-grid scale-free projection, 3/2 conversion (Gauss lift + de Sitter vacuum).
 
 ---
 
@@ -235,6 +235,8 @@ Registered and exploratory tests run against public datasets, with verdicts.
 **Test:** Do published H₀ measurements cluster into two discrete populations (~67 and ~73), as the Hubble-tension Section V fork predicts, or form a continuous spread? Hartigan dip test, Gaussian mixture, and gap test on 18 compiled measurements (13-row independent subset). Exploratory, not pre-registered.
 
 **Result (2026-05-19):** The discrete two-cluster prediction is not supported. The dip test fails to reject unimodality in every configuration (primary p = 0.217); the Gaussian mixture's 2-component preference is statistically negligible (ΔBIC < 1.2) and points to clusters at 68.4 / 73.2 rather than 67 / 73; the predicted 69-71 gap contains TRGB / CCHP at 69.8. The data sorts by calibration class but does not quantize.
+
+**Respecification (2026-09-02):** The original test compared against two clusters, but the [hubble-tension](../../../cosmos/files/hubble-tension.md) lattice has three values (67.40, 70.24, 73.04) and the middle one falls inside the 69-71 gap this test treated as empty. Re-running with the three centres fixed removes that specification defect and still returns no lattice-specific evidence: the fixed-centre model is the nominal BIC minimum in all eight cells, but its middle component carries weight exactly zero in every one, including on the current TRGB value sitting 0.15 from that centre.
 
 ---
 
