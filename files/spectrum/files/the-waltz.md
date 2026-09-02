@@ -83,6 +83,8 @@ Three of the four factors are dimensionless, though not all in the same way: $`C
 \mu_\Lambda = \rho_\Lambda^{1/4} = \left(\frac{\Lambda_{\text{ref}}\, c^4}{8\pi G}\right)^{1/4} \approx 2.25 \text{ meV}
 ```
 
+Numerically this page retains the mass sector's pinned value, $`\mu_\Lambda = 2.25`$ meV, evaluated on the Planck 2018 +BAO calibration; the framework's [named row](../../framework/README.md#inputs-and-calibration) would give $`2.24`$ meV at $`R_\Lambda = 5.379`$ Gpc against +BAO's $`5.338`$. The two travel together: $`R_\Lambda`$ and $`\mu_\Lambda`$ must be read off the same row, and crossing them costs about 1.5% in the closure below, or 1.9% pairing the printed $`2.25`$ with the named $`R_\Lambda`$. The split is documented in the [mass spectrum's calibration note](mass-spectrum.md).
+
 $`G`$ enters twice, through the Planck scale on both occasions: here, converting the curvature value ($`\Lambda_{\text{ref}} = 3/R^2`$) into an energy density ($`\rho_\Lambda`$), and again inside the hierarchy factor through $`\Omega_\Lambda`$. Collecting the two entries is what makes the inversion below closed-form rather than iterative.
 
 Solving for $`G`$:

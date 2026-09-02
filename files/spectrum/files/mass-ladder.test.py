@@ -30,7 +30,19 @@ and certifies:
   5. the m_e <-> Lambda loop: the forward comparison closes to 2% in mass, which
      inverts through the 11/60 exponent to ~11% in Lambda;
   6. the exact torsion algebra the table rests on (Galois ratios phi^-4 and
-     phi^-8, sector products 4 and 1/4, R7 Galois-blind at 4).
+     phi^-8, sector products 4 and 1/4, R7 Galois-blind at 4);
+  7. the second face of the same coupling, R_Lambda against mu_Lambda, through
+     the-waltz's G closure. Within one Planck row that closure is an identity
+     and not a measurement of G, since mu_Lambda is built from a relation
+     containing G; what it detects is a row crossing, and the offset it produces
+     is asserted against the analytic Lambda_A/Lambda_B ratio rather than a
+     threshold.
+
+Checks 2 and 7 assert one underlying fact twice, that everything absolute in the
+mass sector descends from a single Lambda. They are not redundant because they
+fail under different edits: check 2 catches freshening mu_Lambda or
+sqrt(Omega_Lambda) alone, check 7 catches taking R_Lambda and mu_Lambda from
+different Planck rows.
 
 Checks 2 through 5 are the ones that cannot be satisfied by transcribing the
 table: they constrain the anchor, not the entries.
@@ -63,6 +75,8 @@ G_NEWTON = 6.67430e-11        # m^3 kg^-1 s^-2
 EV_JOULE = 1.602176634e-19    # J
 HBAR_C = 1.973269804e-7       # eV m
 MPC = 3.0856775814913673e22   # m
+HBAR = 1.054571817e-34        # J s
+G_NEWTON_CODATA = 6.67430e-11 # m^3 kg^-1 s^-2, the closure's external target
 
 # The two Planck 2018 combinations at issue, as (H0 in km/s/Mpc, Omega_Lambda).
 # They differ by more than the printed precision of the anchor, so check 2 can
@@ -250,5 +264,52 @@ check("the two sector products are exact inverses",
       abs(int_product * half_product - 1) < 4e-3)
 check("R7 is Galois-blind at 4",
       T2["R7"][1] == T2["R7"][2] == 4.000)
+
+# ================================================ 7. the R / mu_Lambda pairing
+print("\nCHECK 7  R_Lambda and mu_Lambda are one coupled pair, not two dials")
+# the-waltz's closure, G = 3c^4 (hbar c)^3 / (8 pi R^2 mu_Lambda^4).
+#
+# Within a single Planck row this is an IDENTITY, not a measurement of G:
+# mu_Lambda is defined as rho_Lambda^(1/4) with rho_Lambda = Lambda c^4/8 pi G,
+# so solving back returns the G it started from. Nothing here predicts G, and
+# the-waltz says as much in its own words. What the closure does detect is the
+# prohibited edit, taking R_Lambda from one Planck row and mu_Lambda from
+# another, and the size of that failure is analytic rather than a chosen bar:
+# since R^2 = 3/Lambda and mu^4 is proportional to Lambda,
+#
+#     G_mixed(R_A, mu_B) = G * Lambda_A / Lambda_B
+#
+# so the mixed cells are asserted against that ratio. A threshold would have
+# been a number picked after seeing the answer; this one is predicted before.
+
+
+def radius_m(lambda_lp2_value):
+    """Curvature radius in metres from a dimensionless Lambda l_P^2."""
+    return (3.0 / (lambda_lp2_value / L_PLANCK ** 2)) ** 0.5
+
+
+def g_closure(r_m, mu_mev):
+    """the-waltz: G = 3 c^4 (hbar c)^3 / (8 pi R^2 mu_Lambda^4)."""
+    hc = HBAR * C_LIGHT
+    return (3 * C_LIGHT ** 4 * hc ** 3
+            / (8 * math.pi * r_m ** 2 * (mu_mev * 1e-3 * EV_JOULE) ** 4))
+
+
+ROWS = {"named": named_llp, "+BAO": bao_llp}
+for nm, llp in ROWS.items():
+    g = g_closure(radius_m(llp), mu_from_lambda(llp))
+    check(f"{nm} row closes on itself (identity, not a measurement of G)",
+          abs(g / G_NEWTON_CODATA - 1) < 1e-6, f"G = {g:.6e}")
+for a, b in (("named", "+BAO"), ("+BAO", "named")):
+    g = g_closure(radius_m(ROWS[a]), mu_from_lambda(ROWS[b]))
+    predicted = G_NEWTON_CODATA * ROWS[a] / ROWS[b]
+    check(f"R({a}) x mu({b}) lands on the analytic offset",
+          abs(g / predicted - 1) < 1e-9,
+          f"{(g / G_NEWTON_CODATA - 1) * 100:+.2f}% from G, "
+          f"predicted ratio {ROWS[a] / ROWS[b]:.5f}")
+check("crossing the rows is detectable at all",
+      abs(g_closure(radius_m(ROWS['named']), mu_from_lambda(ROWS['+BAO']))
+          / G_NEWTON_CODATA - 1) > 0.01,
+      "so this check cannot pass vacuously")
 
 print("\nALL CHECKS PASSED\n")
