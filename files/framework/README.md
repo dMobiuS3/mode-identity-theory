@@ -32,8 +32,8 @@ The observable domain is not that smooth covering space itself but its quotient 
 
 **[One Shape](#one-shape)**
   - Space, Surface, Temporal Edge
-  - The Sampling Grids
   - Why $`S^3/2I`$
+  - The Sampling Grids
   - The Chronon
 
 **[One Wave](#one-wave)**
