@@ -157,7 +157,7 @@ Proved, often architecturally load-bearing, empirically inert. ~150+ leaf lemmas
 | Strong coupling α_s | 0.1162 → 0.1180 | 1.5% | well/grid/exp; α_s runs with scale | Ω_Λ (web) |
 | Weak coupling α_W | 0.0339 → 0.0338 | 0.3% | + cos(π/10) "Plato twist" applied only here | Ω_Λ, cos(π/10) |
 | α_s/α_W | 3.43 → 3.49 | 2% | quotient of two already-counted fits | Z₃/Z₅ |
-| Λ via α route | 2.9e-122 → 2.90e-122 | within 23% window | 60-fold lever; route choice; Cycle 2 | α, Ω_Λ, R |
+| Λ_ref via α route | 2.19e-122 → 2.845e-122 | ~23% low | 60-fold lever; route choice; Cycle 2 | α, Ω_Λ, R |
 | Λ via mass route | 8.1e-54 → 1.089e-52 | **~13.4× off (demote: a miss)** | bar relaxed %→OoM; Cycle 7 | m_e, Ω_Λ |
 | Λ_obs/Λ_top = 3/2 | 3/2 | exact (claim) vs a σ-statement | Gauss-vs-stabilizer 3/2 identity OPEN; and the 3/2 is a vacuum normalization, so the identification with the physical Λ is gated on the static stress tensor | Λ_top |
 | a₀/(cH₀) | 0.184 → 0.183 | <1% | well pair (13,34) selected; known 1983 MOND coincidence; both inputs | a₀, H₀ (web) |
