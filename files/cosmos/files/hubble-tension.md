@@ -23,7 +23,7 @@ Measurements of the Hubble constant have split into two persistent camps: the co
 | $`\Delta C/C`$ at $`\Lambda`$ under the same step | $`-0.27\%`$, stationary to first order but not zero |
 | Displacement direction | not fixed by the lattice; an imported choice |
 | Proposed trigger | $`L_f = v_c^2/a_0`$, falsified by SPARC |
-| Predicted discrete clustering | not detected |
+| Predicted two-cluster structure ($`2/120`$) | not detected |
 
 ## I. The Tension
 
@@ -156,12 +156,12 @@ The original prediction was that $`H_0`$ should cluster at two quantized values 
 |---|---|
 | Continuous or intermediate spread rather than clean clusters | dip test cannot reject unimodality ($`p = 0.217`$ unweighted); intermediate values present |
 | Two clusters at wrong values | GMM gives 68.4 / 73.5 where it picks two components; BIC margins are a statistical tie |
-| TRGB or JAGB land near 70 | TRGB/CCHP at 69.8, inside the predicted gap |
+| TRGB or JAGB land near 70 | TRGB/CCHP at 69.8, inside the gap the $`2/120`$ picture predicts |
 | Local methods near 73, early-universe near 67 | holds: class stratification is real |
 
-The first three rows register against the discrete picture. The fourth holds, but method-class stratification is the Hubble tension restated, not evidence of a quantized step.
+The first three rows register against the original $`2/120`$ two-cluster picture. The fourth holds, but method-class stratification is the Hubble tension restated, not evidence of a quantized step.
 
-This test is exploratory rather than pre-registered, so it carries less weight than the SPARC result. It is a compilation by method class rather than the environment-binned histogram originally nominated, making it a close relative of the registered falsifier rather than that falsifier exactly. With 18 determinations the dip test has limited power, so failing to reject unimodality is not positive evidence for a single population. The subset is de-duplicated, not statistically independent: three retained rows share Carnegie-Chicago lineage and calibration targets. Several rows carry disclosed provenance defects, documented in the working note, which further reduce the weight the result can bear.
+This test is exploratory rather than pre-registered, so it carries less weight than the SPARC result. It is a compilation by method class rather than the environment-binned histogram originally nominated, making it a close relative of the registered falsifier rather than that falsifier exactly. With 18 determinations the dip test has limited power, so failing to reject unimodality is not positive evidence for a single population. The subset is de-duplicated, not statistically independent: three retained rows share Carnegie-Chicago lineage and calibration targets. Several rows carry disclosed provenance defects, documented in the working note, which further reduce the weight the result can bear. It also tested one step only: the companion note names the $`2/120`$ bosonic shift as its dependency, so the $`1/120`$ alternative of §II, which displaces $`67.4`$ to $`70.24`$, was never among the hypotheses under test. Whether a three-valued lattice fares better needs a new specification and a rerun, not a rereading of this one.
 
 ### What the tests leave standing
 
