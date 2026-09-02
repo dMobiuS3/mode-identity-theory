@@ -45,7 +45,7 @@ The fixed quantity is the spectral radius $`R_\Lambda`$, which sets $`\Lambda_\t
 
 ## III. The observable side: distances
 
-The phase ratio gives $`1 + z`$; turning it into observed distances and $`H(z)`$ needs the clock. The Waltz clock $`dt/d\tau = S^{-1/2}`$ converts budget phase to conformal time, the distance-redshift relation is worked out in [dark-energy §II](../../../../cosmos/files/dark-energy.md), and the joint fit to Pantheon+ and DESI DR2 BAO sits in [temporal budget §II-III](temporal-budget.md). The mechanism here supplies $`1 + z`$; the clock supplies the map from $`1 + z`$ to distance.
+The phase ratio gives $`1 + z`$; turning it into observed distances and $`H(z)`$ needs the clock. The Waltz clock $`dt/d\tau = S^{-1/2}`$ converts budget phase to the Hubble clock, the distance-redshift relation is worked out in [dark-energy §II](../../../../cosmos/files/dark-energy.md), and the joint fit to Pantheon+ and DESI DR2 BAO sits in [temporal budget §II-III](temporal-budget.md). The mechanism here supplies $`1 + z`$; the clock supplies the map from $`1 + z`$ to distance.
 
 ## IV. What this is not
 
