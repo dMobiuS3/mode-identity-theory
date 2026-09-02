@@ -93,7 +93,7 @@ Status: The principle (coherence required for sampling) is DERIVED and general. 
 
 The [cone point coherence notes](cone-point-coherence.md) explore the geometric mechanism: whether the $`W`$-independence of the Sector $`\mathcal{A}`$ eigenvalue (guaranteed by the Frobenius/Friedrichs/excision analysis at the cone point) is the structural reason coherence holds within $`L_g`$. Key findings from that analysis: GR tidal curvature in the flat-curve regime is Euler-type with power-law Jacobi solutions that structurally cannot zero, so the needed curvature lives at the topology-gravity interface; and SPARC falsified $`L_f = v_c^2/a_0`$ as the coherence radius, shifting the cone-point target from $`L_f`$ to whatever $`L_g`$ turns out to be.
 
-### Joint 4: Black hole collapse and coherence-domain boundaries are NOT the same response law — DEAD
+### Joint 4: Black hole collapse and coherence-domain boundaries are NOT the same response law
 
 Tempting unification: both are gravitationally-driven boundaries on the same phase operator $`C(\Theta)`$, so is a coherence-domain boundary (Oort Cloud, $`L_g`$, $`R_\Lambda`$) just a small instance of the same mechanism that drives $`\Theta \to 0`$ at a horizon?
 
@@ -208,7 +208,7 @@ Standard cosmology calls it the "axis of evil": the CMB quadrupole and octopole 
 
 MIT reading: if the observer's coherence domain is anchored to the ecliptic (Piece C), then the CMB is resolved through the ecliptic sampling frame. The alignment is not contamination; it is the sampling theorem operating through the local coherence domain.
 
-Prediction (if the chain holds): an observer in another stellar system would resolve CMB features through THEIR local symmetry plane. Not a different CMB — the same signal, sampled through a different coherence domain.
+Prediction (if the chain holds): an observer in another stellar system would resolve CMB features through THEIR local symmetry plane. Not a different CMB: the same signal, sampled through a different coherence domain.
 
 Status: DOWNSTREAM, with one route now closed. The topological avenue for this alignment, even/odd-ℓ grading on $`S^3/2I`$, is dead: the quotient is chiral, carrying no orientation-reversing identification (see [CMB Anomalies](../../../../cosmos/files/cmb-anomalies.md), [R problem](r-problem.md)). The locality reading above is what remains, it competes with the mundane ecliptic-systematics explanation, and it still requires Pieces A, B, and C. If they lock, this follows; if any fail, no foundation.
 

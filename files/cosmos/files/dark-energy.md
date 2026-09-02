@@ -226,7 +226,7 @@ $`\Delta\chi^2 = +0.11`$ at equal parameter count: no preference for either mode
 
 **Prior sensitivity.** The 95% upper limit ranges from 0.12 (log-flat prior) to 0.21 (flat in $`s_0^2`$). The constraint is prior-sensitive in detail but data-driven in character: all priors yield $`s_0 \ll 1`$.
 
-**$`\Omega_\Lambda`$ sensitivity.** The qualitative fit conclusion — no preference over ΛCDM — is stable across $`\Omega_\Lambda = 0.68`$–0.715, with the best $`\Delta\chi^2`$ near $`\Omega_\Lambda = 0.69`$. The inferred $`s_0`$, however, is materially correlated with the fixed vacuum anchor: at the CMB-preferred $`\Omega_\Lambda = 0.715`$ the preferred deformation shifts to $`s_0 \simeq 0.288`$ and the model is mildly disfavored ($`\Delta\chi^2 = +2.38`$). The scan shows smooth dependence on $`\Omega_\Lambda`$, not independence.
+**$`\Omega_\Lambda`$ sensitivity.** The qualitative fit conclusion, no preference over ΛCDM, is stable across $`\Omega_\Lambda = 0.68`$–0.715, with the best $`\Delta\chi^2`$ near $`\Omega_\Lambda = 0.69`$. The inferred $`s_0`$, however, is materially correlated with the fixed vacuum anchor: at the CMB-preferred $`\Omega_\Lambda = 0.715`$ the preferred deformation shifts to $`s_0 \simeq 0.288`$ and the model is mildly disfavored ($`\Delta\chi^2 = +2.38`$). The scan shows smooth dependence on $`\Omega_\Lambda`$, not independence.
 
 **CMB distance priors.** Adding compressed Planck 2018 distance priors (summary constraints on the distance to the CMB, not the full Planck likelihood) and freeing $`\Omega_\Lambda`$ gives a four-parameter fit indistinguishable from non-flat ΛCDM ($`\Delta\chi^2 = +0.28`$ at equal parameter count).
 

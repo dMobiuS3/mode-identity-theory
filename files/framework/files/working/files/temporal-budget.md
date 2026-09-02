@@ -29,7 +29,7 @@ The temporal budget identity sits in structural parallel to the spatial budget $
 \Psi^2 + S^2 = 1, \quad \Psi = \cos(t/2), \quad S = \sin(t/2)
 ```
 
-$`\Psi`$ is the cosmic standing wave. $`S`$ is the **modal realization amplitude** — the bounded fraction of the wave expressed as resolvable modes at phase $`t`$. The sum closes by construction ($`\sin^2 + \cos^2 = 1`$), but its content is physical: the realized-mode content and the standing-wave content exhaust the total at every phase.
+$`\Psi`$ is the cosmic standing wave. $`S`$ is the **modal realization amplitude**, the bounded fraction of the wave expressed as resolvable modes at phase $`t`$. The sum closes by construction ($`\sin^2 + \cos^2 = 1`$), but its content is physical: the realized-mode content and the standing-wave content exhaust the total at every phase.
 
 **Complex phase form.** The budget admits a single complex exponential:
 
@@ -78,7 +78,7 @@ The exponent is not a free parameter in the baseline fit. Its target value is fi
 
 Their ratio is 3/2, appearing as the exponent on $`H`$ and as -1/2 on the clock ($`1 - 3/2 = -1/2`$). It is numerically the same 3/2 that relates $`\Lambda_\text{ref} = (3/2)\Lambda_\text{top}`$, but not yet shown to be the same object: that conversion's 3/2 is (isotropic Ricci trace)/(de Sitter normalization), derived-times-imported ([cosmological constant](../../../../cosmos/files/cosmological-constant.md) §IV), while this one is (matter dilution)/(Friedmann square root). Tying both 3's to the $`Z_3`$ face stabilizer and both 2's to the edge stabilizer is a MOTIVATED correspondence, not a derived identity.
 
-Alternative integer-power clocks ($`S^0`$, $`S^{-1}`$, $`S^{+1}`$ — Models A, B, C) give $`H \propto (1+z)^1`$, $`(1+z)^2`$, $`(1+z)^0`$ respectively; only $`n = -1/2`$ gives $`H \propto (1+z)^{3/2}`$, i.e. $`H^2 \propto (1+z)^3`$, the matter-era scaling. Data selects it within the tested clock family; the postulate-level mechanism remains open.
+Alternative integer-power clocks ($`S^0`$, $`S^{-1}`$, $`S^{+1}`$: Models A, B, C) give $`H \propto (1+z)^1`$, $`(1+z)^2`$, $`(1+z)^0`$ respectively; only $`n = -1/2`$ gives $`H \propto (1+z)^{3/2}`$, i.e. $`H^2 \propto (1+z)^3`$, the matter-era scaling. Data selects it within the tested clock family; the postulate-level mechanism remains open.
 
 **Empirical validation (Λcos paper, 2026).** All three integer alternatives were fitted to the joint Pantheon+ + DESI DR2 BAO dataset. Results:
 
@@ -287,11 +287,11 @@ At $`s_0 = 0.19`$: $`\quad H^2/H_0^2 = 0.327(1+z)^3 - 0.012(1+z) + 0.685`$
 | 1.5 | 2.519 | 2.400 | 2.368 | +6.4% | +1.4% |
 | 2.0 | 3.246 | 3.078 | 3.032 | +7.1% | +1.5% |
 
-**Signed direction.** $`H_\text{MIT}(z) > H_\text{ΛCDM}(z)`$ at all $`z > 0`$ for any $`s_0 > 0`$, with the gap growing monotonically with redshift. The prediction is not "different from ΛCDM" — it is **larger than ΛCDM's $`H(z)`$ by a specific, computable amount**. The $`(1+z)^1`$ coefficient is forced negative by the budget identity, not a free sign; the leading driver of the larger-<i>H(z)</i> prediction is the budget-dressed $`(1+z)^3`$ coefficient, with the negative $`(1+z)^1`$ a subleading partial compensation.
+**Signed direction.** $`H_\text{MIT}(z) > H_\text{ΛCDM}(z)`$ at all $`z > 0`$ for any $`s_0 > 0`$, with the gap growing monotonically with redshift. The prediction is not "different from ΛCDM": it is **larger than ΛCDM's $`H(z)`$ by a specific, computable amount**. The $`(1+z)^1`$ coefficient is forced negative by the budget identity, not a free sign; the leading driver of the larger-<i>H(z)</i> prediction is the budget-dressed $`(1+z)^3`$ coefficient, with the negative $`(1+z)^1`$ a subleading partial compensation.
 
-**Discriminating bins.** At $`s_0 = 0.389`$, the MIT gap exceeds 5% at $`z > 1`$ — comfortably above the per-bin sensitivity expected of the full DR1 clustering products ($`\sim 1-2\%`$). At $`s_0 = 0.19`$, the gap is $`\sim 1-1.5\%`$ at $`z > 1`$ — marginal at that precision, requiring correlated multi-bin analysis. The $`z > 1`$ bins carry the most discriminating power in both cases.
+**Discriminating bins.** At $`s_0 = 0.389`$, the MIT gap exceeds 5% at $`z > 1`$, comfortably above the per-bin sensitivity expected of the full DR1 clustering products ($`\sim 1-2\%`$). At $`s_0 = 0.19`$, the gap is $`\sim 1-1.5\%`$ at $`z > 1`$, marginal at that precision, requiring correlated multi-bin analysis. The $`z > 1`$ bins carry the most discriminating power in both cases.
 
-**Context.** Pantheon+ constrains $`\int dz/H(z)`$, not $`H(z)`$ directly — so MIT and ΛCDM agree on distance modulus while diverging on the differential Hubble rate. Euclid BAO reads the differential rate. This is where the Pantheon+ degeneracy breaks. The joint SN+BAO fit in the Λcos paper already demonstrates this: BAO data are what pull $`s_0`$ toward zero.
+**Context.** Pantheon+ constrains $`\int dz/H(z)`$, not $`H(z)`$ directly, so MIT and ΛCDM agree on distance modulus while diverging on the differential Hubble rate. Euclid BAO reads the differential rate. This is where the Pantheon+ degeneracy breaks. The joint SN+BAO fit in the Λcos paper already demonstrates this: BAO data are what pull $`s_0`$ toward zero.
 
 ### B. The $`(1+z)^1`$ signature
 
@@ -337,7 +337,7 @@ Direct $`a_0(z)`$ rotation-curve tests require external kinematic follow-up beyo
 | Apparent $`w_a`$ from CPL fit at $`s_0 = 0.19`$ | $`\approx +0.29`$ | 0 |
 | $`\Delta\chi^2`$ vs ΛCDM (SN+BAO) | +0.11 | 0 |
 
-The apparent phantom crossing is demonstrated for CPL, BA, and JBP fitted to the non-phantom $`H(z)`$; the three-parameter polynomial does not produce it (Λcos paper Table II). At data-allowed $`s_0`$, the induced distortion is modest and of opposite sign to the DESI best-fit ($`w_0 \approx -0.75`$, $`w_a \approx -0.86`$) — the opposite $`w_a`$ sign is the principal negative result. The mechanism is shown for these three templates; it is not shown that DESI's crossing is explained by it, and the amplitude gap remains.
+The apparent phantom crossing is demonstrated for CPL, BA, and JBP fitted to the non-phantom $`H(z)`$; the three-parameter polynomial does not produce it (Λcos paper Table II). At data-allowed $`s_0`$, the induced distortion is modest and of opposite sign to the DESI best-fit ($`w_0 \approx -0.75`$, $`w_a \approx -0.86`$): the opposite $`w_a`$ sign is the principal negative result. The mechanism is shown for these three templates; it is not shown that DESI's crossing is explained by it, and the amplitude gap remains.
 
 ### F. Null channels (topology-fixed)
 
