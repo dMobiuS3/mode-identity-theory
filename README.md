@@ -36,7 +36,7 @@ mode-identity-theory/
     │   │   └── galois-pair           # E8 filling and the tautological charge
     │   └── working/                # research in progress: maps and open problems
     ├── cosmos/                    # the static three-sphere seen whole
-    │   ├── cosmological-constant     # the surface eigenvalue that anchors Λ
+    │   ├── cosmological-constant     # the spectral seed behind Λ
     │   ├── cmb-anomalies             # low-ℓ suppression as the Molien gap
     │   ├── dark-energy               # what evolves is not Λ but perception
     │   ├── early-galaxies            # early massive galaxies in a static geometry
@@ -44,7 +44,7 @@ mode-identity-theory/
     │   ├── black-holes               # black holes as topological nodes of the wave
     │   └── euclid-dr1                # the falsification gate
     ├── spectrum/                  # the near boundary: matter and gauge on S³/2I
-    │   ├── yang-mills                # confinement and three generations
+    │   ├── yang-mills                # the linearized gauge gap and three vacua
     │   ├── mass-spectrum             # fermion mass as positions on the McKay lattice
     │   ├── fine-structure            # α = 1/137 is the first realized grid step of the hierarchy
     │   ├── the-waltz                 # the gravity between surface and space
