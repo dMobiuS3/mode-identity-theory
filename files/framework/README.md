@@ -30,7 +30,7 @@ The page moves in one line, each section following from the one before:
 <td valign="top">
 
 **[The Firing Order](#the-firing-order)**
-  - The six-step chain, and where it stops being theorem
+  - The ontological order
 
 **[One Shape](#one-shape)**
   - Space, Surface, Temporal Edge
@@ -65,7 +65,7 @@ The page moves in one line, each section following from the one before:
 **[One Identity](#one-identity)**
   - Faces sort color
   - Edges sort spin
-  - Vertices set the electroweak address
+  - Vertices set electroweak address
 
 **[One Interface](#one-interface)**
   - The two seams
