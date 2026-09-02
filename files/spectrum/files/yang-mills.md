@@ -3,6 +3,8 @@
 
 ---
 
+# 🤑 Yang-Mills
+
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/yang%20mills%20banner.png?raw=true" width="100%" alt="Yang Mills">
 
 The Millennium Prize asks whether pure Yang-Mills on flat $`\mathbb{R}^4`$ has a positive mass gap in the full quantum theory. That is open and hard. This page takes its easier cousin: the same gap question on the compact, curved Poincaré Homology Sphere $`M = S^3/2I`$, at the linearized level, where the answer falls out of the shape.
