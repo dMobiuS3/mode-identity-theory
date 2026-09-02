@@ -3,6 +3,8 @@
 
 ---
 
+# 💃 The Waltz
+
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/The%20watlz%20banner.png?raw=true" width="100%" alt="The Waltz">
 
 The spectral seed of the cosmological constant is the first positive eigenvalue of the Möbius surface, $`\lambda_+ = \Lambda_{\text{top}} = 2/R^2`$. The vacuum-reference value carries a lift on top of it, $`\Lambda_{\text{ref}} = \tfrac{3}{2}\,\Lambda_{\text{top}} = 3/R^2`$, and observation infers a cosmological constant from three-dimensional dynamics in $`S^3`$. The 3/2 supplies the interface between seed and reference: the Gauss equation lifts the 2D surface curvature into 3D (the geometric 3), and the imported de Sitter vacuum relation normalizes it (the 1/2). Whether that reference coefficient is the physical constant of a static domain is the open Interface question, not a result of this page. The same bridge reads Newton's constant $`G`$ as an exchange rate between the curvature scale and the mass-sector floor; $`G`$ itself stays measured, the Planck anchor the framework builds on.
