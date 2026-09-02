@@ -236,7 +236,7 @@ Outputs of a fixed structure, checked against observation:
 
 ><a href="https://www.esa.int/Science_Exploration/Space_Science/Euclid_overview"><img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Euclid_mission_poster_horizontal.png/:/rs=w:2560,h:1440" width="320" alt="Euclid Mission"></a>
 >
->*Link: [ESA Euclid Overview](https://www.esa.int/Science_Exploration/Space_Science/Euclid_overview)*
+>*[ESA Euclid Mission:](https://www.esa.int/Science_Exploration/Space_Science/Euclid_overview) Euclid is designed to explore the evolution of the dark Universe. It is creating a 3D-map of the Universe (with time as the third dimension) by observing billions of galaxies out to 10 billion light-years, across more than a third of the sky. This addresses two core themes of ESA’s Cosmic Vision programme: What are the fundamental physical laws of the Universe? and How did the Universe originate and what is it made of?*
 
 All predictions below were locked before Data Release 1 and deposited on Zenodo. They keep their deposited notation: the table writes $`\Lambda_\text{obs}`$ where the live pages now write $`\Lambda_\text{ref}`$, and the [pre-registration card](/files/cosmos/files/euclid-dr1.md) records why.
 
