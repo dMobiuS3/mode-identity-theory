@@ -11,7 +11,7 @@ The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretis
 
 ## [Yang-Mills](files/yang-mills.md)
 
-**Confinement.** Curve a space enough and nothing escapes. Positive curvature puts a floor under the coexact fluctuations; finiteness keeps the three vacua apart. $`S^3/2I`$ carries exactly three of them, which MIT reads as three families. The McKay correspondence filters the Galois sector through four empty levels; what survives carries a ninefold-enhanced gap, three times the mass.
+**A Gap Is Easy Money.** On flat space a mass gap has to emerge dynamically, and in the full quantum theory that question is open and hard. Take its easier cousin on a positively curved finite space and the linearized answer falls out of the shape: the Weitzenböck identity puts a floor under every coexact fluctuation, and the same curvature radius that enters $`\Lambda_\text{ref}`$ sets the gap. The finite group gives exactly three flat connections and $`H^1 = 0`$ leaves each one isolated, which MIT reads as three families. The McKay filter pushes the Galois sector past four empty levels, so what survives there carries $`36/R^2`$ against the $`4/R^2`$ baseline: nine times the eigenvalue gap, three times the mass.
 
 >[![Yang-Mills](https://img.youtube.com/vi/S60uQOs66Ys/mqdefault.jpg)](https://www.youtube.com/watch?v=S60uQOs66Ys)
 >
@@ -21,7 +21,7 @@ The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretis
 
 ## [Mass Spectrum](files/mass-spectrum.md)
 
-**Mass Spectrum.** A neutrino floor, a geometric weight from the irrep, a spectral distance walked on the McKay graph, and a torsion ratio locked to 70+ digits. Every mass is a position on the same lattice. The hierarchy across twelve orders is the geometry heard at different seats in the room.
+**Seats in the Same Room.** A vacuum-energy floor, a geometric weight from the irrep, a distance walked on the McKay graph, and a torsion ratio: four factors, one address per entry. The formula ranks 24 entries and their quantum numbers are fixed before any mass is compared, so which measured fermion lands where is a comparison rather than a prediction. The hierarchy across twelve orders is the same geometry heard from different seats.
 
 >[![Mass Spectrum](https://img.youtube.com/vi/HuqGPCuM-qc/mqdefault.jpg)](https://www.youtube.com/watch?v=HuqGPCuM-qc)
 >
@@ -31,7 +31,7 @@ The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretis
 
 ## [Fine Structure](files/fine-structure.md)
 
-**Fine Structure.** In 1985, Feynman described 1/137 as a number coming without explanation. It is found in the first Fibonacci well on the bosonic grid. One grid step of the hierarchy. At the Planck scale $`\alpha`$ approaches unity; the suppression to 1/137 is the hierarchy expressed across the domain. The number has an address.
+**The Number Has an Address.** In 1985, Feynman described 1/137 as a number that arrives without explanation. Within the selected ladder it lands at the matter Fibonacci seat on the bosonic grid, $`13/60`$, one grid step of the hierarchy. Take the formula to its Planck floor and the suppression drops out, leaving a coupling of order unity, a structural limit of the expression rather than a statement about the early universe. Under the $`\Lambda`$-anchored reading, the suppression to 1/137 is the hierarchy expressed across the domain.
 
 >[![Fine Structure](https://img.youtube.com/vi/vTbUXsrQKi8/mqdefault.jpg)](https://www.youtube.com/watch?v=vTbUXsrQKi8)
 >
@@ -41,9 +41,7 @@ The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretis
 
 ## [The Waltz](files/the-waltz.md)
 
-**Gravity.** For decades, the search for dark matter focused on particles and detectors aimed at the smallest scales. The absence of signal is the confirmation of light. What was sought was in the geometry of space itself. An interface long present in its formalism, only awaiting its topological interpretation.
-
-Embed the surface in space and the curvature converts the sample to energy by 3/2; that is gravity. Massless bosons remain on the edge while matter is realized on the surface.
+**The Cost to Dance.** Embed the surface in space and the vacuum seed is lifted by 3/2, from $`\Lambda_\text{top}`$ to $`\Lambda_\text{ref}`$. That factor belongs to the vacuum seam; gravity is the separate interface, and $`G`$ remains the measured exchange rate between curvature and energy. Decades of increasingly sensitive searches have found no non-gravitational dark matter signal, and MIT reads that silence as geometry rather than a missing particle: the space mode couples gravitationally and carries no gauge degrees of freedom to detect. That assignment is a reading, and it is open.
 
 >[![The Waltz](https://img.youtube.com/vi/aoLJwZDkNGk/mqdefault.jpg)](https://www.youtube.com/watch?v=aoLJwZDkNGk)
 >
@@ -53,7 +51,7 @@ Embed the surface in space and the curvature converts the sample to energy by 3/
 
 ## [The Mirror](files/the-mirror.md)
 
-**The Perfect Mirror.** The same manifold that organizes the mass ladder and predicts the couplings reads L-function structure with arbitrary precision, including the Riemann zeta function itself. However, it cannot constrain individual zeros. The reading capacity and writing incapacity are two faces of the same geometric fact: MIT reads one curvature as doing both jobs, gapping the gauge sector and shielding the primes.
+**One Curvature, Two Jobs.** The same manifold that organizes the mass ladder and predicts the couplings reads L-function structure with arbitrary precision, including the Riemann zeta function itself. However, it cannot constrain individual zeros. The reading capacity and writing incapacity are two faces of the same geometric fact: MIT reads one curvature as doing both jobs, gapping the gauge sector and shielding the primes.
 
 >[![The Mirror](https://img.youtube.com/vi/78nEAE8Se4o/mqdefault.jpg)](https://www.youtube.com/watch?v=78nEAE8Se4o)
 >
