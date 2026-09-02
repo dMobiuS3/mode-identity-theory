@@ -174,7 +174,7 @@ Three of four parameterizations produce phantom crossings from input that satisf
 
 The polynomial, with one additional free parameter, fits the phase-clock distances to $`\chi^2 \approx 0`$ and does not produce a phantom crossing. The apparent crossing in the two-parameter forms is purely a basis-restriction artifact: the effect arises from projecting the curvature of the MIT distance-redshift relation onto a restricted two-parameter basis, absorbing the residual into phantom-crossing parameter values.
 
-CPL carries the sharp form of the argument: it fits well ($`\chi^2 = 1.31`$) yet still produces a crossing, so a good-fitting template manufactures the artifact. BA and JBP fit an order of magnitude worse ($`\chi^2 = 11.5`$, $`7.2`$), so part of their crossing may instead reflect a form that does not capture the underlying shape at all, a weaker point.
+CPL carries the sharp form of the argument: it fits well ($`\chi^2 = 1.31`$) yet still produces a crossing, so a good-fitting template manufactures the artifact. BA and JBP have $`5.5\times`$ to $`8.8\times`$ larger $`\chi^2`$ ($`11.5`$ and $`7.2`$ against CPL's $`1.31`$), so part of their crossing may instead reflect a form that does not capture the underlying shape at all, a weaker point.
 
 ### Threshold Scan
 
@@ -208,7 +208,7 @@ MCMC sampling uses an affine-invariant ensemble sampler (32 walkers, 5000 steps,
 
 | | Flat ΛCDM | MIT |
 |---|---|---|
-| Primary parameter | $`\Omega_m = 0.312`$ [0.304, 0.321] | $`s_0 = 0.076`$ [0.023, 0.143] |
+| Primary parameter (posterior median) | $`\Omega_m = 0.312`$ [0.304, 0.321] | $`s_0 = 0.076`$ [0.023, 0.143] |
 | $`H_0 r_d`$ (km/s) | 10043 [9977, 10111] | 10008 [9972, 10040] |
 | $`M_B`$ | -19.355 [-19.360, -19.350] | -19.353 [-19.357, -19.350] |
 | $`\chi^2_\text{min}`$ | 1772.5 | 1772.6 |
@@ -267,7 +267,7 @@ The same $`H(z)`$ derived here determines the epoch-dependent acceleration scale
 
 ---
 
-The cosmological constant remains what the framework requires: a surface mode fixed by boundary conditions.
+The vacuum reference remains what the framework requires: a boundary condition seeded by the surface mode, not a field that evolves.
 
 *What "evolves" is not Λ, but perspective.*
 
