@@ -15,7 +15,7 @@ The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretis
 
 >[![Yang-Mills](https://img.youtube.com/vi/S60uQOs66Ys/mqdefault.jpg)](https://www.youtube.com/watch?v=S60uQOs66Ys)
 >
->*Video: [spectral gap](https://www.youtube.com/watch?v=S60uQOs66Ys)*
+>*Video: [A Gap Is Easy Money: Yang-Mills on a Finite Space](https://www.youtube.com/watch?v=S60uQOs66Ys)*
 
 ---
 
@@ -25,7 +25,7 @@ The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretis
 
 >[![Mass Spectrum](https://img.youtube.com/vi/HuqGPCuM-qc/mqdefault.jpg)](https://www.youtube.com/watch?v=HuqGPCuM-qc)
 >
->*Video: [mass formula](https://www.youtube.com/watch?v=HuqGPCuM-qc)*
+>*Video: [Twelve Orders, One Lattice: The Mass Ladder on the McKay Graph](https://www.youtube.com/watch?v=HuqGPCuM-qc)*
 
 ---
 
@@ -35,7 +35,7 @@ The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretis
 
 >[![Fine Structure](https://img.youtube.com/vi/vTbUXsrQKi8/mqdefault.jpg)](https://www.youtube.com/watch?v=vTbUXsrQKi8)
 >
->*Video: [a fine structure](https://www.youtube.com/watch?v=vTbUXsrQKi8)*
+>*Video: [1/137 Has an Address: Feynman's Number on a Finite Grid](https://www.youtube.com/watch?v=vTbUXsrQKi8)*
 
 ---
 

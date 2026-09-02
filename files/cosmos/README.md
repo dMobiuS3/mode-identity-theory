@@ -27,7 +27,7 @@ Einstein introduced $`\Lambda`$ in 1917, together with the equations capable of 
 
 >[![CMB Anomalies](https://img.youtube.com/vi/2CCODLAmshw/mqdefault.jpg)](https://www.youtube.com/watch?v=2CCODLAmshw)
 >
->*Video: [cmb anomalies](https://www.youtube.com/watch?v=2CCODLAmshw)*
+>*Video: [The Molien Gap: Cosmic Topology and the Low-ℓ Deficit](https://www.youtube.com/watch?v=2CCODLAmshw)*
 
 ---
 
