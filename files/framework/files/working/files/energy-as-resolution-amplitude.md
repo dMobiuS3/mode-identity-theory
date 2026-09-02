@@ -88,7 +88,7 @@ The reframe does not need new postulates. It uses elements already derived or ax
 | $`\mathbb{R}^4`$ as emergent from sampling | Waltz §VI | Removes the "moving through spacetime" framing that makes velocity primary |
 | Observer coordinates: depth, position, phase | Waltz §VI | The sampling operation has structure; trajectory is a pattern in that structure |
 
-The mass formula in particular is worth connecting. It specifies the spectrum of temporal-mode amplitudes that fixed-position sampling can resolve. The electron, muon, tau are three specific amplitudes the framework derives from group theory and torsion. In the reframe, those are the three specific temporal-mode resolutions that correspond to $`R_7`$ sampled in three different vacua. The mass formula is already in the right shape for this picture.
+The mass formula in particular is worth connecting. It specifies the spectrum of temporal-mode amplitudes that fixed-position sampling can resolve. The entries read against the electron, muon and tau sit at $`(R_7, \text{triv})`$, $`(R_8, \text{std})`$ and $`(R_4, \text{gal})`$. The entries and their quantum numbers come from the group-theoretic and torsion construction; which measured fermion occupies which entry is a comparison, not a prediction. In the reframe those are three temporal-mode resolutions at three different irreps and vacua. The mass formula is already in the right shape for this picture.
 
 ## VI. What Needs to Be Derived
 
