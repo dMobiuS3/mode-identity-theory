@@ -30,7 +30,7 @@ The page moves in one line, each section following from the one before:
 <td valign="top">
 
 **[The Firing Order](#the-firing-order)**
-  - (Brief description)
+  - The six-step chain, and where it stops being theorem
 
 **[One Shape](#one-shape)**
   - Space, Surface, Temporal Edge
