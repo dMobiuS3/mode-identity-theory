@@ -9,7 +9,7 @@ The cosmos is the same finite space seen whole: a static three-sphere. Redshift 
 
 ---
 
-**Surface origin.** The standard question begins at a singularity: all of space compressed to zero dimension. However, if time is the boundary of a 2D manifold, there is no point. Time is the edge of the Möbius surface; the edge exists because the surface has a boundary, and the standing wave lives on the edge.
+**Surface Origin.** The standard question begins at a singularity: all of space compressed to zero dimension. However, if time is the boundary of a 2D manifold, there is no point. Time is the edge of the Möbius surface; the edge exists because the surface has a boundary, and the standing wave lives on the edge.
 
 Einstein introduced $`\Lambda`$ in 1917, together with the equations capable of sustaining it. The constant endured a century of reinterpretation because it required none; the Gauss embedding carries it from the surface into the curvature of space, and the de Sitter relation sets the normalization.
 
@@ -27,7 +27,7 @@ Einstein introduced $`\Lambda`$ in 1917, together with the equations capable of 
 
 ---
 
-**Embedded sampling.** Imagine being an ant on a power line, able to move in two dimensions freely; but to the distant observer, you only have one direction to move. Nested topology dilutes a mode's intensity with scale, and where you are is determined by character, not preference. Epoch-dependent observables live on the edge, epoch-independent observables live on the surface, and gravity embeds them together. The ant can only measure what its dimension allows.
+**Embedded Sampling.** Imagine being an ant on a power line, able to move in two dimensions freely; but to the distant observer, you only have one direction to move. Nested topology dilutes a mode's intensity with scale, and where you are is determined by character, not preference. Epoch-dependent observables live on the edge, epoch-independent observables live on the surface, and gravity embeds them together. The ant can only measure what its dimension allows.
 
 The vacuum-reference value is fixed by geometry. What appears to evolve is the observer's phase position on the standing wave, misinterpreted as dark energy dynamics.
 
@@ -37,7 +37,7 @@ The vacuum-reference value is fixed by geometry. What appears to evolve is the o
 
 ---
 
-**Wave-matter identity.** Five symbols: $`\lambda = h/p`$. The equation does not say matter behaves like a wave; it says the wavelength of matter is $`h/p`$. Acceleration follows the same rule at the boundary.
+**Wave-Matter Identity.** Five symbols: $`\lambda = h/p`$. The equation does not say matter behaves like a wave; it says the wavelength of matter is $`h/p`$. Acceleration follows the same rule at the boundary.
 
 In 1983, Milgrom identified $`a_0`$ as a fundamental acceleration scale. Four decades the coincidence $`a_0 \approx cH_0`$ had no explanation. Both are edge modes; the ratio is fixed by where they sit on the standing wave. $`a_0`$ evolves with $`H(z)`$; the galaxies JWST found too early were formed under a stronger tide.
 
@@ -47,7 +47,7 @@ In 1983, Milgrom identified $`a_0`$ as a fundamental acceleration scale. Four de
 
 ---
 
-**Bounded evaluation.** Dirac recognized that the large numbers of cosmology were not arbitrary. What was missing in 1937 was the domain that bounded them. Infinity to zero spanning $`10^{122}`$; where the observer is square rooted. His large number was not a coincidental anomaly; it was the area of the floor where we stand.
+**Bounded Evaluation.** Dirac recognized that the large numbers of cosmology were not arbitrary. What was missing in 1937 was the domain that bounded them. Infinity to zero spanning $`10^{122}`$; where the observer is square rooted. His large number was not a coincidental anomaly; it was the area of the floor where we stand.
 
 Hubble measured the tension in 1929 from the same structure. The framework reads the two camps as one well sampled at two positions: distance ladders calibrated within galaxies like ours would sample a shifted well, while the cosmic microwave background measures where it is unphased. Both observations are correct. The lattice fixes the size of the step between them at 8.4%, and the galactic mechanism proposed to produce it has since been tested and falsified, so what stands is the correspondence rather than the cause.
 
@@ -59,13 +59,13 @@ Hubble measured the tension in 1929 from the same structure. The framework reads
 
 **Black Double Zeros.** The wave $`\Psi`$ still flows. The surface still hums at $`\Lambda_\text{top}`$. The topology holds and information is not lost. The observer is still in space but unable to speak.
 
->***[Black Hole](files/black-hole.md)***
+>***[Black Holes](files/black-hole.md)***
 
 [![Black Double Zeros](https://img.youtube.com/vi/iByR_Bv5Vng/mqdefault.jpg)](https://www.youtube.com/watch?v=iByR_Bv5Vng)
 
 ---
 
-**Judgment in two gates.** A theory is honest only insofar as it states, before the data arrive, what would falsify it. Five cosmological predictions are locked here against four named contenders, with falsification thresholds set in advance. Euclid arrives in two stages. DR1-Foundation, expected November 2026, brings calibrated images, catalogues and spectra over about 1900 deg², but no cosmology-derived products, so the stellar mass function is the only row it reaches. The full DR1, expected mid 2027, adds the galaxy clustering and weak lensing products the other four rows read. ESA states that both dates are tentative. The card adjudicates by row. Silence in a contender column counts as data.
+**Judgment Day.** A theory is honest only insofar as it states, before the data arrive, what would falsify it. Five cosmological predictions are locked here against four named contenders, with falsification thresholds set in advance. Euclid arrives in two stages. DR1-Foundation, expected November 2026, brings calibrated images, catalogues and spectra over about 1900 deg², but no cosmology-derived products, so the stellar mass function is the only row it reaches. The full DR1, expected mid 2027, adds the galaxy clustering and weak lensing products the other four rows read. ESA states that both dates are tentative. The card adjudicates by row. Silence in a contender column counts as data.
 
 >***[Euclid DR1: A Pre-Registered Contender Showdown](files/euclid-dr1.md)***
 
