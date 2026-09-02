@@ -83,7 +83,7 @@ which is the SH0ES scale. No galactic physics enters this calculation.
 
 Geometric observables are taken to access the 60-position bosonic sublattice, the even positions $`k/120 = j/60`$. That assignment is a framework selection rule, not a derivation, and it is the load-bearing assumption of this section. The stakes are direct: a displacement of $`1/120`$ would give $`C(35/120)/C(34/120) = 1.0421`$, a 4.2% shift rather than 8.4%.
 
-Both available steps have a published local determination close to them. Against the same 67.4 baseline, SH0ES implies $`+8.4\%`$ and matches the $`2/120`$ step, while the Carnegie-Chicago tip-of-the-red-giant-branch value of 70.39 implies $`+4.4\%`$, close to the 4.2% of the $`1/120`$ step. The uncertainties do separate SH0ES from the $`1/120`$ endpoint, at two to three standard deviations. They do not separate the two local determinations from each other. The same programme's JWST-only figures, 68.81 and 67.80, imply offsets near 2.1% and 0.6% and match no lattice step at all.
+Both available steps have a published local determination close to them. Against the same 67.4 baseline, SH0ES implies $`+8.4\%`$ and matches the $`2/120`$ step, while the Carnegie-Chicago tip-of-the-red-giant-branch value of 70.39 $`\pm`$ 1.22 (stat) $`\pm`$ 1.33 (sys) (Freedman et al. 2025, combined HST and JWST, 24 SN Ia calibrators) implies $`+4.4\%`$, close to the 4.2% of the $`1/120`$ step. The uncertainties do separate SH0ES from the $`1/120`$ endpoint, at two to three standard deviations. They do not separate the two local determinations from each other. The same programme's JWST-only figures, 68.81 and 67.80, imply offsets near 2.1% and 0.6% and match no lattice step at all.
 
 Which step the framework calls correct is therefore not independent of which local determination is treated as canonical.
 
@@ -169,7 +169,7 @@ The arithmetic of §II remains true, and neither test probes it. That is a weake
 
 ## VI. What Survives
 
-The correspondence: a one-step bosonic displacement from $`\Theta_0 = 34/120`$ to $`\Theta = 36/120`$ carries 67.4 km/s/Mpc to 73.04 through the phase-operator ratio, against 0.27% at $`\Lambda`$ under the same step.
+The correspondence: a one-step bosonic displacement from $`\Theta_0 = 34/120`$ to $`\Theta = 36/120`$ carries 67.4 km/s/Mpc to 73.04 through the phase-operator ratio, against $`-0.27\%`$ at $`\Lambda`$ under the same step.
 
 It is fixed once four choices are stipulated: the phase operator, the well assignment, the bosonic-sublattice assignment, and the displacement orientation. All four are imported rather than derived here, $`H_0`$ is itself the framework's calibration anchor, and a domain carrying 120 positions carries many neighbouring ratios. The match is a retrospective structural correspondence, not an out-of-sample prediction and not statistical evidence.
 
