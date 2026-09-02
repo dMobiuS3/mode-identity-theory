@@ -90,7 +90,7 @@ For half-integer irreps (R1, R2, R6, R8), the same spectral method gives exact c
 
 ### B. Dirac Factorization
 
-The Dirac operator on $`S^3/2I`$ has eigenvalues $`\pm(n+3/2)/R`$, linear in $`n`$ with no curvature shift. Its spectral zeta factors finitely at all $`s`$ into three L-function layers: $`L(s,\chi)`$, $`L(s-1,\chi)`$, $`L(s-2,\chi)`$ for Dirichlet characters mod 120. The 120-grid carries $`\phi(120)=32`$ characters; of these, 28–32 survive depending on the irrep.
+The Dirac operator on $`S^3/2I`$ has eigenvalues $`\pm(n+3/2)/R`$, linear in $`n`$ with no curvature shift. Its spectral zeta factors finitely at all $`s`$ into three L-function layers: $`L(s,\chi)`$, $`L(s-1,\chi)`$, $`L(s-2,\chi)`$ for Dirichlet characters mod 120. The 120-grid carries $`\phi(120)=32`$ characters; of these, 28–32 survive depending on the irrep. That count belongs to the Dirac zeta; it is not the retired coexact-only torsion reading of section III.A, which carried the same numbers for a different operator.
 
 Selectivity: minimum (28–32 of 32 characters). Domain: all $`s`$.
 
@@ -138,7 +138,7 @@ The 2-term count is a property of the closed-form structure. The number of Diric
 
 ### E. Vacuum Structure
 
-Per-irrep twisted etas computed via fusion matrices for all three flat connections (trivial, standard, Galois). Three distinct sign patterns: the Galois twist inverts the light/heavy assignment on the McKay graph. The antisymmetric combination $`\eta_\text{std}-\eta_\text{gal}=(2/5)\times\mathrm{integer}`$ for every irrep, with R7 in the kernel. Equivariant class selection is invariant under vacuum twist: $`\eta_\rho([g])=\chi_\rho(g)\cdot\eta([g])`$.
+Per-irrep twisted etas computed via fusion matrices for all three flat connections (trivial, standard, Galois). Three distinct sign patterns: the Galois twist changes the vacuum-dependent eta pattern across the McKay graph. The antisymmetric combination $`\eta_\text{std}-\eta_\text{gal}=(2/5)\times\mathrm{integer}`$ for every irrep, with R7 in the kernel. Equivariant class selection is invariant under vacuum twist: $`\eta_\rho([g])=\chi_\rho(g)\cdot\eta([g])`$.
 
 ### Computational Record
 
@@ -348,7 +348,7 @@ The wall is structural, not technical. A unifying geometric mechanism is capture
 
 The Ricci curvature of $`S^3`$ is $`\mathrm{Ric}=2/R^2>0`$. This positive number does two things simultaneously:
 
-**Physics (the mass gap):** Positive Ricci puts a Weitzenböck floor $`\lambda\geq2/R^2>0`$ under every gauge fluctuation on $`S^3/2I`$, lifting the spectrum off zero so the mass gap exists. The exact gap is sharper than the floor: the coexact spectrum read through the McKay structure gives $`4/R^2`$ at the trivial and standard vacua and $`36/R^2`$ at the Galois vacuum, a ninefold enhancement (the [coexact gap](../../framework/files/bedrock/files/coexact-gap.md) paper). Every mode is massive. Matter is realized.
+**Physics (the mass gap):** Positive Ricci puts a Weitzenböck floor $`\lambda\geq2/R^2>0`$ under every physical coexact gauge fluctuation around the analyzed flat vacua, lifting the spectrum off zero so the mass gap exists. The exact gap is sharper than the floor: the coexact spectrum read through the McKay structure gives $`4/R^2`$ at the trivial and standard vacua and $`36/R^2`$ at the Galois vacuum, a ninefold enhancement (the [coexact gap](../../framework/files/bedrock/files/coexact-gap.md) paper). The linearized gauge fluctuations are gapped.
 
 **Arithmetic (Pochhammer obstruction):** The scalar Laplacian eigenvalues shift from $`(l+1)^2`$ to $`l(l+2)=(l+1)^2-1`$. The "-1" generates the infinite Pochhammer tower that blocks general-<i>s</i> factorization. The torsion's maximum selectivity is locked to $`s=0`$. L-function zeros are shielded.
 
@@ -356,13 +356,13 @@ The Ricci curvature of $`S^3`$ is $`\mathrm{Ric}=2/R^2>0`$. This positive number
 |------|---------|-----------|
 | Positive Ricci | Weitzenböck floor $`\lambda\geq2/R^2`$ | Eigenvalue shift: $`l(l+2)\neq(l+1)^2`$ |
 | Consequence | Mass gap $`4/R^2`$ (McKay), $`36/R^2`$ Galois | Pochhammer tower at $`s\neq0`$ |
-| Result | Matter is realized | L-function zeros inaccessible |
+| Result | Linearized gauge fluctuations are gapped | L-function zeros inaccessible |
 
-To remove the obstruction, set $`\mathrm{Ric}=0`$. The eigenvalues become perfect squares. The Pochhammer tower vanishes. The spectral zeta factors at all $`s`$. But the mass gap also vanishes. Flat space. No particles. Nothing to observe.
+To remove the obstruction, formally drop the $`-1`$ curvature shift in this spectral model. The eigenvalues become perfect squares, the Pochhammer tower vanishes, and the spectral zeta factors at all $`s`$. The same step removes the positive-curvature lower bound on the gauge spectrum. It does not by itself establish that every Ricci-flat realization is gapless.
 
-Mass and spectral access to zeros are in structural opposition. The curvature that realizes one forbids the other.
+MIT reads this as a structural opposition: the same positive curvature puts the floor under the gauge spectrum and generates the Pochhammer shift that blocks the factorization.
 
-*This is the structural interpretation of Theorem 1, not an extension of its scope. The theorem proves inaccessibility within the admissible class $`\mathcal{F}`$ in the sense of Definition 4. The curvature duality is the geometric explanation for why all eight obstructions trace to the same source.*
+*This is the structural interpretation of Theorem 1, not an extension of its scope. The theorem proves inaccessibility within the admissible class $`\mathcal{F}`$ in the sense of Definition 4. The curvature duality is the geometric explanation for the coincidence-condition layer, Lemmas 1 through 3; the encoding-degeneracy, framework-mismatch and character-completeness layers rest on separate mechanisms, as the table in section V records.*
 
 ---
 
@@ -376,7 +376,7 @@ The Riemann zeros encode the distribution of primes. The primes build the intege
 
 Both $`\varphi`$ and the zeros are stability results: the most irrational number cannot be rationalized, which is what makes it useful for positioning matter; the zeros cannot be spectrally accessed from this manifold, which is consistent with their role as the foundation of arithmetic structure. Whether zero inaccessibility is itself a stability requirement — a theorem rather than an observation — is an open question not addressed by the proof above.
 
-Lemma 8 has a direct consequence for the MIT mass formula. The non-existence of a natural map between the phase position $`\Theta`$ and the spectral parameter $`s`$ means the fine structure of the mass formula cannot be completed by extending the spectral arithmetic. The bridge is not merely unbuilt — it is proved not to exist. The fine structure within each mass shell is therefore forced to come from representation-theoretic data directly: graph distance, Kostant polynomial, vacuum selection. This is not a limitation of the framework; it is a constraint the geometry itself imposes.
+Lemma 8 has a direct consequence for the MIT mass formula. The non-existence of a natural map between the phase position $`\Theta`$ and the spectral parameter $`s`$ means the fine structure of the mass formula cannot be completed by extending the spectral arithmetic. The bridge is not merely unbuilt — it is proved not to exist. The failed bridge therefore supplies no additional factor: the formula separates shells by the McKay distance and sets the fine structure within each shell by the torsion $`T^2(\rho \otimes \sigma)`$, each defined without reference to the spectral parameter. This is not a limitation of the framework; it is a constraint the geometry itself imposes.
 
 ### The Mirror
 
@@ -399,7 +399,7 @@ $`S^3/2I`$ is a perfect arithmetic mirror. It reflects:
 
 **Reminder on scope.** The impossibility claim is in the sense of Definition 4: a construction $`F`$ constrains zeros only if $`F(s_0)=0`$ implies $`L(s_0,\chi)=0`$. Shifted-equality relations and cross-function coincidences do not qualify. The theorem is narrower than a casual reading of "spectral inaccessibility" might suggest, and is not a claim about all possible approaches to L-function zeros.
 
-**Remark.** The curvature duality mechanism of § VI depends only on the positivity of the Ricci curvature and the resulting eigenvalue shift, not on the specific group $`2I`$. This suggests the inaccessibility result extends beyond $`S^3/2I`$.
+**Remark.** The curvature duality mechanism of § VI arises from the positive-curvature spectral shift realized by the round spherical geometry, and is not specific to the group $`2I`$. Whether an analogous obstruction follows from positive Ricci curvature more generally is the conjecture below.
 
 **Conjecture 1.** Positive Ricci curvature with finite $`\pi_1`$ imposes zero-inaccessibility in the sense of Definition 4 on any compact Riemannian manifold whose spectral zeta factors into Dirichlet L-functions. $`S^3/2I`$ is the extremal case: $`2I`$ is the largest exceptional discrete subgroup of $`\mathrm{SU}(2)`$, $`E_8`$ is the largest exceptional Lie algebra, and $`\lvert 2I\rvert=120`$ captures the maximum arithmetic structure through the McKay correspondence.
 
@@ -407,18 +407,18 @@ $`S^3/2I`$ is a perfect arithmetic mirror. It reflects:
 
 ## IX. Physics Application
 
-The spectral inaccessibility theorem is a negative result for the RH direction. It is a positive result for physics. The same L-function structure that cannot constrain zeros can and does predict physical observables.
+The spectral inaccessibility theorem is a negative result for the RH direction. It is a positive result for physics. The same L-function structure that cannot constrain zeros feeds the physical comparisons and structural readings of the MIT framework.
 
 | Spectral object | Role in § III | MIT physics role |
 |----------------|--------------|-----------------|
 | Reidemeister torsion | L-factorization at $`s=0`$ | Fermion mass comparison ($`m_e`$ anchors the scale; 5 of 8 charged compatible within $`\times3`$, 4 after sector adjudication) |
-| $`\varphi^{-4}`$ Galois pair | $`-2\sqrt{5}\cdot L(1,\chi_2)`$, exact to 79 digits | Mass ratio between generations |
+| $`\varphi^{-4}`$ Galois pair | $`-2\sqrt{5}\cdot L(1,\chi_2)`$, exact to 79 digits | Exact torsion ratio; contributes to mass-shell fine structure through $`T^2`$ |
 | $`h(E_8)=30`$ | McKay multiplicity period | Mass hierarchy exponent ($`\mathrm{dist}/30`$) |
-| Three flat connections | Three isolated vacua, $`H^1=0`$ | Three particle generations |
+| Three flat connections | Three isolated vacua, $`H^1=0`$ | MIT reads as three generations; vacuum-to-generation assignment open |
 | Curvature shift $`l(l+2)`$ | Pochhammer obstruction, Lemma 1 | Mass-gap floor $`2/R^2`$; gap $`4/R^2`$ (McKay), $`36/R^2`$ Galois |
 | 120/60 grid | Half-integer vs. integer char. domains | Fermionic vs. bosonic phase domain |
-| Eta sign crossover | McKay graph chirality | Light/heavy fermion sector boundary |
-| Vacuum sign inversion | Galois twist structure, § III.E | Mass shell assignment mechanism |
+| Eta sign crossover | McKay graph chirality | Eta charge gate: $`\eta > 0 \implies Q \leq 0`$ |
+| Vacuum sign inversion | Galois twist structure, § III.E | Vacuum-dependent eta structure; feeds the particle-identity and charge gates |
 | C8 involves $`\zeta(s)`$ | Reads $`\zeta`$ as component, not constraint | Order-3 face stabilizer encoding |
 
 ---
