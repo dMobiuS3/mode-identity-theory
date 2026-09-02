@@ -13,7 +13,9 @@ The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretis
 
 **Confinement.** Curve a space enough and nothing escapes. Positive curvature puts a floor under the coexact fluctuations; finiteness keeps the three vacua apart. $`S^3/2I`$ carries exactly three of them, which MIT reads as three families. The McKay correspondence filters the Galois sector through four empty levels; what survives carries a ninefold-enhanced gap, three times the mass.
 
-[![Yang-Mills](https://img.youtube.com/vi/S60uQOs66Ys/mqdefault.jpg)](https://www.youtube.com/watch?v=S60uQOs66Ys)
+>[![Yang-Mills](https://img.youtube.com/vi/S60uQOs66Ys/mqdefault.jpg)](https://www.youtube.com/watch?v=S60uQOs66Ys)
+>
+>*Video: [spectral gap](https://www.youtube.com/watch?v=S60uQOs66Ys)*
 
 ---
 
@@ -21,7 +23,9 @@ The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretis
 
 **Mass Spectrum.** A neutrino floor, a geometric weight from the irrep, a spectral distance walked on the McKay graph, and a torsion ratio locked to 70+ digits. Every mass is a position on the same lattice. The hierarchy across twelve orders is the geometry heard at different seats in the room.
 
-[![Mass Spectrum](https://img.youtube.com/vi/HuqGPCuM-qc/mqdefault.jpg)](https://www.youtube.com/watch?v=HuqGPCuM-qc)
+>[![Mass Spectrum](https://img.youtube.com/vi/HuqGPCuM-qc/mqdefault.jpg)](https://www.youtube.com/watch?v=HuqGPCuM-qc)
+>
+>*Video: [mass formula](https://www.youtube.com/watch?v=HuqGPCuM-qc)*
 
 ---
 
@@ -29,7 +33,9 @@ The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretis
 
 **Fine Structure.** In 1985, Feynman described 1/137 as a number coming without explanation. It is found in the first Fibonacci well on the bosonic grid. One grid step of the hierarchy. At the Planck scale $`\alpha`$ approaches unity; the suppression to 1/137 is the hierarchy expressed across the domain. The number has an address.
 
-[![Fine Structure](https://img.youtube.com/vi/vTbUXsrQKi8/mqdefault.jpg)](https://www.youtube.com/watch?v=vTbUXsrQKi8)
+>[![Fine Structure](https://img.youtube.com/vi/vTbUXsrQKi8/mqdefault.jpg)](https://www.youtube.com/watch?v=vTbUXsrQKi8)
+>
+>*Video: [a fine structure](https://www.youtube.com/watch?v=vTbUXsrQKi8)*
 
 ---
 
@@ -39,7 +45,9 @@ The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretis
 
 Embed the surface in space and the curvature converts the sample to energy by 3/2; that is gravity. Massless bosons remain on the edge while matter is realized on the surface.
 
-[![The Waltz](https://img.youtube.com/vi/aoLJwZDkNGk/mqdefault.jpg)](https://www.youtube.com/watch?v=aoLJwZDkNGk)
+>[![The Waltz](https://img.youtube.com/vi/aoLJwZDkNGk/mqdefault.jpg)](https://www.youtube.com/watch?v=aoLJwZDkNGk)
+>
+>*Video: [The Waltz: Λ Note to Einstein's Field Equations](https://www.youtube.com/watch?v=aoLJwZDkNGk)*
 
 ---
 
@@ -47,7 +55,9 @@ Embed the surface in space and the curvature converts the sample to energy by 3/
 
 **The Perfect Mirror.** The same manifold that organizes the mass ladder and predicts the couplings reads L-function structure with arbitrary precision, including the Riemann zeta function itself. However, it cannot constrain individual zeros. The reading capacity and writing incapacity are two faces of the same geometric fact: MIT reads one curvature as doing both jobs, gapping the gauge sector and shielding the primes.
 
-[![The Mirror](https://img.youtube.com/vi/78nEAE8Se4o/mqdefault.jpg)](https://www.youtube.com/watch?v=78nEAE8Se4o)
+>[![The Mirror](https://img.youtube.com/vi/78nEAE8Se4o/mqdefault.jpg)](https://www.youtube.com/watch?v=78nEAE8Se4o)
+>
+>*Video: [The Perfect Mirror](https://www.youtube.com/watch?v=78nEAE8Se4o)*
 
 ---
 
