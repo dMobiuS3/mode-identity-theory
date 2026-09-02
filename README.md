@@ -23,7 +23,7 @@ In 300 BC, Euclid proved Plato's observation that only five solids close perfect
 
 ---
 
-## 📁 Repo Structure
+## 📂 Repo Structure
 
 ```
 mode-identity-theory/
