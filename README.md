@@ -23,7 +23,7 @@ In 300 BC, Euclid proved Plato's observation that only five solids close perfect
 
 ---
 
-## :file_folder: Repo Structure
+## 📁 Repo Structure
 
 ```
 mode-identity-theory/
@@ -56,7 +56,7 @@ mode-identity-theory/
 
 ---
 
-:stadium: **One Shape:**
+🏟️ **One Shape:**
 
 ```math
 \Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}
@@ -78,7 +78,7 @@ The Möbius twist forces a sign‑flip: the fundamental mode is $`4\pi`$. The tw
 
 Most wave patterns cancel while certain modes survive. The ones that come back are fermionic, the wave patterns where matter is sampled.
 
-:balance_scale: **One Equation:**
+⚖️ **One Equation:**
 
 ```math
 \Large \boxed{\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}
@@ -102,7 +102,7 @@ Three layers host different physics:
 >
 >(n = 3) 3D space: the dark sector, this mode's geometry rather than any particle to detect.
 
-:atom_symbol: **One Formula:**
+⚛️ **One Formula:**
 
 ```math
 \Large \boxed{m(\rho,\sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30} \cdot T^2(\rho \otimes \sigma)}
@@ -118,7 +118,7 @@ Four factors compose to rank 24 entries on the fermion mass ladder. Each factor 
 
 >**The Reidemeister Torsion.** $`T^2(\rho \otimes \sigma)`$ dials in the vacuum: the same particle lives in three vacua (trivial, standard, Galois), the three flat connections that MIT reads as the three generations.
 
-:small_red_triangle: **One Identity:**
+🔺 **One Identity:**
 
 ```math
 \Large \boxed{|2I| = 120 = 2^3 \cdot 3 \cdot 5}
@@ -150,7 +150,7 @@ The two sides differ in kind: one smooth, one discrete. So gravity should not be
 
 ---
 
-## :control_knobs: Inputs
+## 🎛️ Inputs
 
 Three constants fix the Planck units. The absolute scale is a calibration choice, not a privileged input. The hierarchy $`\Omega_\Lambda`$ is over-determined: Λ (through $`R_\Lambda`$), $`\alpha`$, and the mass ratio each read it, and the anchor-free dimensionless ratios hold under each choice. The $`\alpha`$ reading is the best-conditioned, fixing $`\Lambda_\text{ref}`$ to ~23% with no $`R_\Lambda`$ input. The default entry below is $`R_\Lambda`$ for the cosmological scale and $`m_e`$ as the mass benchmark, with $`s_0`$ for the phase.
 
@@ -177,7 +177,7 @@ Three constants fix the Planck units. The absolute scale is a calibration choice
 
 ---
 
-## :musical_score: Score
+## 🎼 Score
 
 Outputs of a fixed structure, checked against observation:
 
@@ -222,7 +222,7 @@ Outputs of a fixed structure, checked against observation:
 
 ---
 
-## :crystal_ball: Pre-Registered Euclid Predictions / Falsification
+## 🔮 Pre-Registered Euclid Predictions / Falsification
 
 <a href="https://www.esa.int/Science_Exploration/Space_Science/Euclid_overview">
   <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Euclid_mission_poster_horizontal.png/:/rs=w:2560,h:1440" width="320" alt="Euclid Mission">
@@ -240,7 +240,7 @@ All predictions below were locked before Data Release 1 and deposited on Zenodo.
 
 ---
 
-## :hammer_and_wrench: Tools
+## 🛠️ Tools
 
 [↗](/files/tools/) Every link between topology and observable is live. The code is the math. There are no hidden knobs. These are the working tools behind the framework: the interactive pages let you turn the shape and run the numbers yourself, and the registry collects the deposits.
 
