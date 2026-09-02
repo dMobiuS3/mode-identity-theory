@@ -3,6 +3,8 @@
 
 ---
 
+# 🛰️ Hubble Tension
+
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/hubble%20tension%20banner.png?raw=true" width="100%" alt="Hubble Tension">
 
 Measurements of the Hubble constant have split into two persistent camps: the cosmic microwave background gives 67.4 km/s/Mpc, local distance ladders give 73.04. The discrepancy has survived a decade of systematic checks. Mode Identity Theory, referred to below as the framework, reads the pair as one Fibonacci well sampled at two positions on the 120-domain.
