@@ -13,9 +13,9 @@ The Millennium Prize asks whether pure Yang-Mills on flat $`\mathbb{R}^4`$ has a
 | Object | nonperturbative quantum mass gap | linearized coexact gap |
 | Status | open and hard | classical, forced by the geometry |
 
-The surprise is the bottom-right cell: a mass gap appears for free from a shape, and its exact value is read off the McKay structure. Positive Ricci curvature forces a gap to exist; the finite group $`2I`$ gives exactly three isolated vacua (trivial, standard, Galois conjugate); and the McKay graph, the affine $`E_8`$ diagram, fixes the value at each, $`4/R^2`$ at two and $`36/R^2`$ at the third, a ninefold enhancement at the Galois sector. The same curvature that forces this gap also enters the conversion that sets $`\Lambda`$: one geometry, two consequences.
+The surprise is the bottom-right cell: a mass gap appears for free from a shape, and its coefficient in units of $`1/R^2`$ is read off the McKay structure. Positive Ricci curvature forces a gap to exist; the finite group $`2I`$ gives exactly three isolated vacua (trivial, standard, Galois conjugate); and the McKay graph, the affine $`E_8`$ diagram, fixes the value at each, $`4/R^2`$ at two and $`36/R^2`$ at the third, a ninefold enhancement at the Galois sector. The same curvature that forces this gap also enters the conversion that sets the vacuum-reference $`\Lambda_\text{ref}`$: one geometry, two consequences.
 
-(Throughout, $`R`$ is the curvature radius of the round metric, the framework's $`R_\Lambda`$; for $`S^3/2I`$, $`\Lambda = 3/R_\Lambda^2`$.)
+(Throughout, $`R`$ is the curvature radius of the round metric, the framework's $`R_\Lambda`$; for $`S^3/2I`$, $`\Lambda_\text{ref} = 3/R_\Lambda^2`$.)
 
 | Property | Value |
 |---|---|
@@ -99,15 +99,15 @@ Each vacuum requires its adjoint representation to appear in the combined column
 
 ### Gap values
 
-The lowest coexact level on $`S^3`$ is $`m = 2`$, so every vacuum's gap is at least $`4/R^2`$: that floor is the baseline. Above it, an adjoint at McKay distance $`d`$ first appears at level $`m = \max(2, d)`$, and the gap is $`m^2/R^2`$:
+The lowest coexact level on $`S^3`$ is $`m = 2`$, so every vacuum's gap is at least $`4/R^2`$: that $`m = 2`$ level is the baseline. Above it, an adjoint at McKay distance $`d`$ first appears at level $`m = \max(2, d)`$, and the gap is $`m^2/R^2`$:
 
 | Vacuum | Adjoint | distance $`d`$ | first level $`m`$ | gap |
 |---|---|---|---|---|
-| $`\rho_{\mathrm{triv}}`$ | $`R_0`$ | 0 | 2 (floor) | $`4/R^2`$ |
+| $`\rho_{\mathrm{triv}}`$ | $`R_0`$ | 0 | 2 (baseline) | $`4/R^2`$ |
 | $`\rho_{\mathrm{std}}`$ | $`\mathrm{Sym}^2 Q = R_3`$ | 2 | 2 | $`4/R^2`$ |
 | $`\rho_{\mathrm{gal}}`$ | $`\mathrm{Sym}^2 Q' = R_4`$ | 6 | 6 | $`36/R^2`$ |
 
-Trivial and standard sit at the floor; the Galois adjoint clears it and is pushed to $`6^2 = 36`$. The ninefold enhancement is the Galois-over-floor ratio, $`(6/2)^2 = 9`$, and $`R_4`$ first enters the combined content at $`m = 6`$. These gaps are eigenvalues ($`\omega^2 = \lambda`$, §I), so the physical mode masses are $`\sqrt{\lambda} = 2/R`$ and $`6/R`$: the 9× in eigenvalue is 3× in mass. The level index is topological (the Galois adjoint sits at graph distance 6); the eigenvalue scale is metric-dependent (the round-metric formula $`\lambda_m = m^2/R^2`$). Vacuum-to-generation assignment is open; the topology fixes these three gauge-sector gap values, and any fermion mass ordering read from them is a separate, open question.
+Trivial and standard sit at the $`m = 2`$ baseline; the Galois adjoint clears it and is pushed to $`6^2 = 36`$. The ninefold enhancement is the Galois-over-baseline ratio, $`(6/2)^2 = 9`$, and $`R_4`$ first enters the combined content at $`m = 6`$. These gaps are eigenvalues ($`\omega^2 = \lambda`$, §I), so the physical mode masses are $`\sqrt{\lambda} = 2/R`$ and $`6/R`$: the 9× in eigenvalue is 3× in mass. The level index is topological (the Galois adjoint sits at graph distance 6); the eigenvalue scale is metric-dependent (the round-metric formula $`\lambda_m = m^2/R^2`$). Vacuum-to-generation assignment is open; the topology fixes these three gauge-sector gap values, and any fermion mass ordering read from them is a separate, open question.
 
 ## IV. Three Pillars
 
@@ -125,7 +125,7 @@ The existence of the gap, the discreteness of vacua, the vanishing $`H^1`$, and 
 
 ### Connection to MIT
 
-Within Mode Identity Theory, $`R`$ is the curvature radius of the spatial $`S^3`$, the same length scale that sets $`\Lambda`$, so $`\Delta^2 = 4/R^2`$ is tied to that one geometric input rather than a free dial. Its numerical value is currently known only to order of magnitude: the coupling and the fermion mass spectrum give two independent readings that agree on the scale but sit about $`3.2\times`$ apart in $`R`$, an open tension carried explicitly. The same positive curvature $`\mathrm{Ric}(S^3) = 2/R^2`$ that guarantees confinement here enters the conversion that produces Λ. One geometry, two consequences: the cosmological constant and the spectral gap share a common origin in the curvature of $`S^3`$.
+Within Mode Identity Theory, $`R`$ is the curvature radius of the spatial $`S^3`$, the same length scale that sets $`\Lambda_\text{ref}`$, so $`\Delta^2 = 4/R^2`$ is tied to that one geometric input rather than a free dial. Its numerical value is currently known only to order of magnitude: the coupling and the fermion mass spectrum give two independent readings that agree on the scale but not on the value, the canonical electron-muon pair sitting about $`3.2\times`$ above the coupling route while tighter assigned-pair reads narrow the gap, an open tension carried explicitly (see [the R problem](../../framework/files/working/files/r-problem.md)). The same positive curvature $`\mathrm{Ric}(S^3) = 2/R^2`$ that guarantees the linearized coexact gap here enters the conversion that produces $`\Lambda_\text{ref}`$. One geometry, two consequences: the vacuum-reference term and the spectral gap share a common geometric origin in the curvature of $`S^3`$.
 
 The $`2I`$ structure performs three roles: it partitions phase space into the 120-domain (the scaling law), it filters gauge fluctuations into three isolated vacua with computed spectral gaps (this result), and it provides the spectral geometry whose McKay multiplicities are the $`E_8`$ root system.
 
@@ -161,7 +161,7 @@ Every prediction is checkable by finite computation.
 
 SU(2) Yang-Mills on the Poincaré Homology Sphere has a positive spectral gap. Positive curvature forces it. Three isolated vacua emerge, which MIT reads as three generations. The McKay correspondence filters the Galois sector through four empty levels, yielding a ninefold enhancement at the distance-6 node of the $`E_8`$ graph. The level gap is topological; the eigenvalues are geometric. The computation reduces to finite group representation theory, standard gauge theory, and Riemannian geometry.
 
-*On curved ground, confinement is easy money.*
+*On curved ground, a gap is easy money.*
 
 ---
 
