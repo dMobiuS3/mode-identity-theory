@@ -65,6 +65,8 @@ The currently used clock is
 N(t)=S(t)^{1/2}.
 ```
 
+That exponent is not unclaimed ground. It is labelled FORCED on the [budget page](temporal-budget.md) §VII, forced by $`S^3`$ dimensionality plus GR, and [The Half-Power Clock](friedmann-as-output.md) has already landed it natively along its route R-HALF, conditionally on that route's premise ledger. This program is a second route to the same number.
+
 The descriptive chain is
 
 ```math
@@ -214,6 +216,8 @@ The identity
 
 may appear as an on-shell constraint equation only. $`S`$ must remain a varied realized-mode share during the derivation, rather than being replaced at the start by $`\sin(t/2)`$.
 
+The gate is not this page's to score. The half-power exponent is owned by [The Half-Power Clock](friedmann-as-output.md), which carries the route menu, the success and failure bars, the three-gate argument for the landing route R-HALF, and the prior discipline that governs any new route: the half power is the lowest-complexity value outside the integer family, and any framework carrying both amplitudes and intensities has a square root sitting between the two levels, so a route landing on $`-1/2`$ is expected under the null. The landing is not the evidence; the operator gates are. This program enters that menu as R-VAR, inherits those terms, and its verdict is recorded there.
+
 ### PASS
 
 A preregistered native functional and its constraint structure determine
@@ -222,7 +226,7 @@ A preregistered native functional and its constraint structure determine
 N=S^{1/2}
 ```
 
-without inserting the exponent as an input.
+without inserting the exponent as an input, with GR appearing only in the comparison to Friedmann form, and with the functional returning a second consequence beyond its design target.
 
 ### PASS by stabilizer route
 
@@ -410,6 +414,7 @@ Stop and retain MOTIVATED status if:
 - the preferred topological phase parameter is erased;
 - a stabilizer-based derivation merges the unbridged $`3/2`$ structures without the required operator map;
 - the on-shell trigonometric forms are substituted before the constraint variation and thereby make the clock gate tautological;
+- the route returns only $`N = S^{1/2}`$ and nothing else, which is decoration rather than derivation;
 - the desired clock appears only after observable-dependent tuning.
 
 A failed clock arm may motivate a new preregistered functional, but it does not repair the failed arm.
@@ -430,7 +435,7 @@ At that point the score-to-sample reframing becomes a derivational result rather
 
 ---
 
-*The clock in use is not the clock derived. Until the lapse equation returns its own exponent, this page is architecture.*
+*The exponent is already labelled and already landed once. This program is a second route to it, and it promotes only on the Half-Power Clock's terms.*
 
 ---
 
