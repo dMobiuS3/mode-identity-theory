@@ -23,8 +23,6 @@ The observable domain is not that smooth covering space itself but its quotient 
 
 ### Table of Contents
 
-The page moves in one line, each section following from the one before:
-
 <table>
 <tr>
 <td valign="top">
