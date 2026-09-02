@@ -253,7 +253,7 @@ The corpus currently keeps three numerically equal $`3/2`$ appearances separate:
 The Hubble-clock exponent $`1/2`$ is presently related to the tick exponent only after the existing import through
 
 ```math
-a_\text{eff}=a_0 S.
+a_\text{eff}=a_\ast S.
 ```
 
 Numerical equality is therefore insufficient for identification.
@@ -267,7 +267,7 @@ The existing stress-tensor result remains unchanged.
 With
 
 ```math
-a_\text{eff}=a_0 S
+a_\text{eff}=a_\ast S
 ```
 
 and

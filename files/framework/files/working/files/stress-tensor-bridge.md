@@ -98,16 +98,16 @@ Both pilots are NON-EVIDENTIARY. Definitions were frozen in the opening commit; 
 
 ## VI. First results: the pinned target
 
-First cycle, run 2026-08-26. Every computation below is exact and symbolic, scored against expectations registered before execution; every registered expectation landed, and the two follow-on diagnostics (P2b, P2c) had their definitions and expectations registered before their runs as well. Notation throughout: $`S = \sin(t/2)`$, $`\Psi = \cos(t/2)`$, effective scale factor $`a_\text{eff} = a_0 S`$, Waltz clock $`dt/d\tau = S^{-1/2}`$.
+First cycle, run 2026-08-26. Every computation below is exact and symbolic, scored against expectations registered before execution; every registered expectation landed, and the two follow-on diagnostics (P2b, P2c) had their definitions and expectations registered before their runs as well. Notation throughout: $`S = \sin(t/2)`$, $`\Psi = \cos(t/2)`$, effective scale factor $`a_\text{eff} = a_\ast S`$, Waltz clock $`dt/d\tau = S^{-1/2}`$.
 
 **P1: R1 is dead as a computed statement.** The minimal scalar reading fails C1 instantaneously: the pressure oscillates at full amplitude (staticity residual exactly 1), the time-averaged source is dust, and the static balance assigns the averaged source the Einstein-static coefficient $`\Lambda R^2 = 1`$, not 3. All five registered expectations landed. This kills R1, not branch (a).
 
-**P2: the closed-placement fingerprint, and the sharp absence.** Reading the required source off the closed FLRW form with $`a_\text{eff} = a_0 S`$ under the Waltz clock (self-checked against the corpus anchor $`H^2 = (1-S^2)/(4S^3)`$):
+**P2: the closed-placement fingerprint, and the sharp absence.** Reading the required source off the closed FLRW form with $`a_\text{eff} = a_\ast S`$ under the Waltz clock (self-checked against the corpus anchor $`H^2 = (1-S^2)/(4S^3)`$):
 
 ```math
-8\pi G\, a_0^2\, \rho \;=\; \frac{3a_0^2}{4}\, S^{-3} \;+\; 3\, S^{-2} \;-\; \frac{3a_0^2}{4}\, S^{-1},
+8\pi G\, a_\ast^2\, \rho \;=\; \frac{3a_\ast^2}{4}\, S^{-3} \;+\; 3\, S^{-2} \;-\; \frac{3a_\ast^2}{4}\, S^{-1},
 \qquad
-8\pi G\, a_0^2\, p \;=\; -\,S^{-2} \;+\; \frac{a_0^2}{2}\, S^{-1}.
+8\pi G\, a_\ast^2\, p \;=\; -\,S^{-2} \;+\; \frac{a_\ast^2}{2}\, S^{-1}.
 ```
 
 Three sectors with $`w = 0, -1/3, -2/3`$, each separately satisfying its own continuity equation (a non-interacting effective three-fluid), and **no constant term**: the effective-metric map alone does not generate a Λ-like piece. So even under branch (b), the constant must enter as its own object, which is exactly what the fitted dictionary does by anchoring $`\Omega_\Lambda`$.
@@ -116,7 +116,7 @@ Three sectors with $`w = 0, -1/3, -2/3`$, each separately satisfying its own con
 
 **The $`k_\text{eff}`$ question.** P2's frozen spec chose the closed form because the substrate is closed; the fitted dictionary is flat, with no $`(1+z)^2`$ term. Both cannot be the effective metric without a further statement, and a time-dependent scale factor changes the magnitude of spatial curvature, never its sign, so flatness cannot emerge from the closed form by rescaling. If the effective geometry is flat, the map $`g_\text{static} \to g_\text{eff}`$ must contain a genuine projection or coarse-graining that explains flat effective slices over a closed substrate; "the static $`S^3`$ looks like an expanding $`S^3`$" is not enough. The closed alternative is not excluded, but its curvature term being small against the matter term is necessary reasoning only, not acceptance: accepting a closed effective metric requires the SN+BAO comparison rerun with the nonflat distance relation.
 
-**The Λ-clock consistency question.** The two frozen imports already force the geometric rate: $`a_\text{eff} = a_0 S`$ and $`dt/d\tau = S^{-1/2}`$ give $`H^2 = \Psi^2/(4S^3)`$ exactly, with no freedom left to add a constant. The fitted form, written natively, is $`H^2 = \alpha\, \Psi^2/S^3 + \beta`$ with $`\alpha = H_0^2 (1-\Omega_\Lambda)\, s_0^3/(1-s_0^2)`$ and $`\beta = H_0^2\, \Omega_\Lambda`$. With $`\beta \neq 0`$ these are different functions: the fitted dictionary is a legitimate phenomenological $`H(z)`$, but it is **not** the geometric rate of that scale factor under that clock. The corpus carries this tension implicitly, split across two pages: [Temporal Budget](temporal-budget.md) derives the budget $`H^2`$ and then adds the anchored constant, while [Friedmann as Output](friedmann-as-output.md) states the one-exponent clock. The two statements need a bridge whenever the constant is real. If the fitted rate is to be geometric while $`a_\text{eff} = a_0 S`$ is held, the clock must dress:
+**The Λ-clock consistency question.** The two frozen imports already force the geometric rate: $`a_\text{eff} = a_\ast S`$ and $`dt/d\tau = S^{-1/2}`$ give $`H^2 = \Psi^2/(4S^3)`$ exactly, with no freedom left to add a constant. The fitted form, written natively, is $`H^2 = \alpha\, \Psi^2/S^3 + \beta`$ with $`\alpha = H_0^2 (1-\Omega_\Lambda)\, s_0^3/(1-s_0^2)`$ and $`\beta = H_0^2\, \Omega_\Lambda`$. With $`\beta \neq 0`$ these are different functions: the fitted dictionary is a legitimate phenomenological $`H(z)`$, but it is **not** the geometric rate of that scale factor under that clock. The corpus carries this tension implicitly, split across two pages: [Temporal Budget](temporal-budget.md) derives the budget $`H^2`$ and then adds the anchored constant, while [Friedmann as Output](friedmann-as-output.md) states the one-exponent clock. The two statements need a bridge whenever the constant is real. If the fitted rate is to be geometric while $`a_\text{eff} = a_\ast S`$ is held, the clock must dress:
 
 ```math
 \left(\frac{dt}{d\tau}\right)^2 \;=\; \frac{4\alpha}{S} \;+\; \frac{4\beta\, S^2}{\Psi^2}.
@@ -124,7 +124,7 @@ Three sectors with $`w = 0, -1/3, -2/3`$, each separately satisfying its own con
 
 The first piece is the Waltz clock, recovered exactly when $`\beta = 0`$ and dominant early. The Λ piece crosses over exactly at the budget-Λ equality epoch, $`\alpha\, \Psi^2 = \beta\, S^3`$ (recorded without interpretation), and grows without bound as $`S \to 1`$. The alternative resolution dresses the translation layer $`a_\text{eff}(S)`$ instead, or distributes the dressing between the two; nothing here chooses. Consequence: $`k_\text{eff}`$ is not to be adjudicated in isolation. The missing $`X \to g_\text{eff}`$ theorem is a **two-part metric-definition problem**: spatial curvature placement, and Λ-dressing of the effective clock. And this sharpens "Λ is separate" rather than undermining it: the native machinery and the constant are demonstrably not both realized by one fixed metric under the original clock.
 
-**P2b and P2c: the flat diagnostics.** P2b (flat slices, budget-only, original clock) reduces the source to exactly the fitted bracket, $`8\pi G a_0^2 \rho = \tfrac{3a_0^2}{4}(S^{-3} - S^{-1})`$ and $`8\pi G a_0^2 p = \tfrac{a_0^2}{2} S^{-1}`$, with the curvature rows gone and nothing else changed. It establishes the budget-only flat source target; it is not the full target, because its $`H^2`$ carries no Λ. P2c takes the full fitted $`H^2`$ on flat slices with $`a_\text{eff} = a_0 S`$ held, and pins the full flat D+Λ target under that fixed placement:
+**P2b and P2c: the flat diagnostics.** P2b (flat slices, budget-only, original clock) reduces the source to exactly the fitted bracket, $`8\pi G a_\ast^2 \rho = \tfrac{3a_\ast^2}{4}(S^{-3} - S^{-1})`$ and $`8\pi G a_\ast^2 p = \tfrac{a_\ast^2}{2} S^{-1}`$, with the curvature rows gone and nothing else changed. It establishes the budget-only flat source target; it is not the full target, because its $`H^2`$ carries no Λ. P2c takes the full fitted $`H^2`$ on flat slices with $`a_\text{eff} = a_\ast S`$ held, and pins the full flat D+Λ target under that fixed placement:
 
 ```math
 8\pi G\, \rho \;=\; 3\alpha\,(S^{-3} - S^{-1}) \;+\; 3\beta,
@@ -132,13 +132,13 @@ The first piece is the Waltz clock, recovered exactly when $`\beta = 0`$ and dom
 8\pi G\, p \;=\; 2\alpha\, S^{-1} \;-\; 3\beta,
 ```
 
-the tied pair with ratio exactly $`-1`$, plus a genuine $`w = -1`$ constant, no $`S^{-2}`$ sector, and the dressed lapse displayed above. This is one pinned member of the allowed family, not proved uniquely physical: if $`X \to g_\text{eff}`$ eventually derives $`a_\text{eff} = a_0 F(S)`$ instead, the observational $`H(z)`$ can survive while the phase-to-proper-time map and the pressure reconstruction change.
+the tied pair with ratio exactly $`-1`$, plus a genuine $`w = -1`$ constant, no $`S^{-2}`$ sector, and the dressed lapse displayed above. This is one pinned member of the allowed family, not proved uniquely physical: if $`X \to g_\text{eff}`$ eventually derives $`a_\text{eff} = a_\ast F(S)`$ instead, the observational $`H(z)`$ can survive while the phase-to-proper-time map and the pressure reconstruction change.
 
 **What the first cycle established, and nothing more:**
 
 1. R1, the minimal scalar reading, is dead as a computed statement.
-2. The original Waltz clock produces the budget sector but cannot accommodate an additive Λ while $`a_\text{eff} = a_0 S`$ stays fixed.
-3. For the flat D+Λ placement with $`a_\text{eff} = a_0 S`$ held, the required source and the Λ-dressed lapse are analytically pinned.
+2. The original Waltz clock produces the budget sector but cannot accommodate an additive Λ while $`a_\text{eff} = a_\ast S`$ stays fixed.
+3. For the flat D+Λ placement with $`a_\text{eff} = a_\ast S`$ held, the required source and the Λ-dressed lapse are analytically pinned.
 4. Any native derivation now faces gates registered in advance of any construction: produce the tied $`\Psi^2/S^3`$ object as one term, produce a separate $`w = -1`$ constant, introduce no independently normalized $`w = -2/3`$ component, and close the metric/source triangle with Einstein's equations as the cross-check only (C3).
 
 > **No $`X \to g_\text{eff}`$ has been derived. No $`X \to T_\text{eff}`$ has been derived. No action has been derived.** The route table says where construction stands; R6 is the preferred next direction, not an accomplishment.
