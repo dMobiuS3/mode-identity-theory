@@ -36,7 +36,7 @@ The page moves in one line, each section following from the one before:
 - **[Research Frontier](#research-frontier)** · the three problems that control the next stage
 
 ---
-
+<a id="the-firing-order"></a>
 ## 🔫 The Firing Order
 
 Each layer follows from the one before.
