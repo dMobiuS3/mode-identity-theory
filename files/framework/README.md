@@ -52,13 +52,13 @@ The observable domain is not that smooth covering space itself but its quotient 
   - The Gauge Ladder
   - SUSY
 
+</td>
+<td valign="top">
+
 **[One Formula](#one-formula)**
   - Confinement
   - Three Generations
   - The Mass Formula
-
-</td>
-<td valign="top">
 
 **[One Identity](#one-identity)**
   - Faces sort color
