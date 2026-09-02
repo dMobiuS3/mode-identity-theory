@@ -29,7 +29,7 @@ The page moves in one line, each section following from the one before:
 - **[One Shape](#one-shape)** · the postulate, and the manifold triad it selects
 - **[One Wave](#one-wave)** · the static standing wave, and the phase clock on its edge
 - **[One Equation](#one-equation)** · the scaling law, its phase operator and Fibonacci wells
-- **[One Formula](#one-formula)** · confinement, three vacua, and the mass ladder
+- **[One Formula](#one-formula)** · the gauge gap, three vacua, and the mass ladder
 - **[One Identity](#one-identity)** · 120 = 2³·3·5, sorting color, spin, and isospin
 - **[One Interface](#one-interface)** · the two seams, and what gravity is across them
 - **[Inputs and Calibration](#inputs-and-calibration)** · the ledger of what is measured and what is derived
@@ -353,7 +353,7 @@ The Coxeter pair $`(13, 17)`$ under $`h(E_8) = 30`$ is exceptional but not force
 <a id="one-formula"></a>
 ## ⚛️ One Formula
 
-The mass spectrum assembles in three moves, each set by the same topology: the curvature gap that confines, the three flat vacua MIT reads as the generations, and the four-factor formula that ranks the fermions.
+The mass spectrum assembles in three moves, each set by the same topology: the curvature gap on the coexact gauge modes, the three flat vacua MIT reads as the generations, and the four-factor formula that ranks the fermions.
 
 ### Confinement
 
