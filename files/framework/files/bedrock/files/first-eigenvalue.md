@@ -3,7 +3,7 @@
 
 ---
 
-# ⏈ First eigenvalue
+# ⏈ First Eigenvalue
 
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/cone%20point%20banner.png?raw=true" width="100%" alt="First Eigenvalue">
 
