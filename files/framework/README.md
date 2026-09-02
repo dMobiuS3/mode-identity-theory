@@ -26,13 +26,22 @@ The observable domain is not that smooth covering space itself but its quotient 
 The page moves in one line, each section following from the one before:
 
 - **[The Firing Order](#the-firing-order)** · the six-step order of operations
+  >Subsection
+  >Subsection2
 - **[One Shape](#one-shape)** · the postulate, and the manifold triad it selects
+  
 - **[One Wave](#one-wave)** · the static standing wave, and the phase clock on its edge
+  
 - **[One Equation](#one-equation)** · the scaling law, its phase operator and Fibonacci wells
+
 - **[One Formula](#one-formula)** · the gauge gap, three vacua, and the mass ladder
+
 - **[One Identity](#one-identity)** · 120 = 2³·3·5, sorting color, spin, and isospin
+
 - **[One Interface](#one-interface)** · the two seams, and what gravity is across them
+
 - **[Inputs and Calibration](#inputs-and-calibration)** · the ledger of what is measured and what is derived
+
 - **[Research Frontier](#research-frontier)** · the three problems that control the next stage
 
 ---
