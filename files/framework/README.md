@@ -25,64 +25,64 @@ The observable domain is not that smooth covering space itself but its quotient 
 
 The page moves in one line, each section following from the one before:
 
-- **[The Firing Order](#the-firing-order)**
-  >Topology sets what is possible
-  >Embedding defines the structure
-  >The Cosmic Wave expresses the boundary
-  >Time is phase of the wave
-  >Sampling resolves position in the domain
-  >Meaning arises only after realization
+**[The Firing Order](#the-firing-order)**
+  - Topology sets what is possible
+  - Embedding defines the structure
+  - The Cosmic Wave expresses the boundary
+  - Time is phase of the wave
+  - Sampling resolves position in the domain
+  - Meaning arises only after realization
 
-- **[One Shape](#one-shape)**
-  >Space
-  >Surface
-  >Temporal Edge
-  >The Observable Domain
-  >The 120 Domain
-  >The Chronon
+**[One Shape](#one-shape)**
+  - Space
+  - Surface
+  - Temporal Edge
+  - The Observable Domain
+  - The 120 Domain
+  - The Chronon
 
-- **[One Wave](#one-wave)**
-  >Redshift and Cooling
-  >The Waltz Clock
-  >The Present Epoch
+**[One Wave](#one-wave)**
+  - Redshift and Cooling
+  - The Waltz Clock
+  - The Present Epoch
 
-- **[One Equation](#one-equation)**
-  >What the ratio means
-  >The Phase Operator
-  >The Hierarchy and the Observer
-  >Manifold Index
-  >Fibonacci Wells
-  >The Assembled Engine
-  >The Phase Field
-  >The Gauge Ladder
-  >SUSY
+**[One Equation](#one-equation)**
+  - What the ratio means
+  - The Phase Operator
+  - The Hierarchy and the Observer
+  - Manifold Index
+  - Fibonacci Wells
+  - The Assembled Engine
+  - The Phase Field
+  - The Gauge Ladder
+  - SUSY
 
-- **[One Formula](#one-formula)**
-  >Confinement
-  >Three Generations
-  >The Mass Formula
+**[One Formula](#one-formula)**
+  - Confinement
+  - Three Generations
+  - The Mass Formula
 
-- **[One Identity](#one-identity)**
-  >Faces sort color
-  >Edges sort spin
-  >Vertices set the electroweak address
+**[One Identity](#one-identity)**
+  - Faces sort color
+  - Edges sort spin
+  - Vertices set the electroweak address
 
-- **[One Interface](#one-interface)**
-  >The two seams
-  >Gravity is what crosses
+**[One Interface](#one-interface)**
+  - The two seams
+  - Gravity is what crosses
 
-- **[Inputs and Calibration](#inputs-and-calibration)**
-  >The Ω ledger
-  >Unit constants
-  >The dimensionless core
-  >Three readings of one hierarchy
-  >Sector anchors
-  >Predicted and calibrated
+**[Inputs and Calibration](#inputs-and-calibration)**
+  - The Ω ledger
+  - Unit constants
+  - The dimensionless core
+  - Three readings of one hierarchy
+  - Sector anchors
+  - Predicted and calibrated
 
-- **[Research Frontier](#research-frontier)**
-  >The three problems
-  >Recorded nulls
-  >Forward tests
+**[Research Frontier](#research-frontier)**
+  - The three problems
+  - Recorded nulls
+  - Forward tests
 
 ---
 <a id="the-firing-order"></a>
