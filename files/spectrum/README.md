@@ -5,11 +5,11 @@
 
 # :rainbow: Στοιχεῖα
 
-The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretises the domain into 120 positions; three flat connections give three vacua, read as three generations; positive curvature confines gauge fields. The three prime stabilisers $`(2,3,5)`$ assign spin, color, and electroweak identity. Gauge couplings are the fine structure of $`\Lambda`$, diluted by the same hierarchy that sets the neutrino floor. The curvature that protects the zeros is the curvature that lets matter exist.
+The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretises the domain into 120 positions; its three isolated flat connections are the three vacua, which MIT reads as the generations; positive curvature gaps the coexact gauge modes. The three prime stabilisers $`(2,3,5)`$ assign spin, color, and electroweak identity. Gauge couplings are the fine structure of $`\Lambda`$, diluted by the same hierarchy that sets the neutrino floor. One curvature shields the primes and gaps the gauge sector.
 
 ---
 
-**Confinement.** Curve a space enough and nothing escapes. Gauge fields confine because the universal manifold is finite. Three isolated flat connections on $`S^3/2I`$ produce three isolated vacua, read as three families. The McKay correspondence filters the Galois sector through four empty levels; what survives carries a ninefold-enhanced gap, three times the mass.
+**Confinement.** Curve a space enough and nothing escapes. Positive curvature puts a floor under the coexact fluctuations; finiteness keeps the three vacua apart. $`S^3/2I`$ carries exactly three of them, which MIT reads as three families. The McKay correspondence filters the Galois sector through four empty levels; what survives carries a ninefold-enhanced gap, three times the mass.
 
 >***[Yang-Mills](files/yang-mills.md)***
 
@@ -25,7 +25,7 @@ The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretis
 
 ---
 
-**Fine structure.** In 1985, Feynman described 1/137 as a number coming without explanation. It is found in the first Fibonacci well on the bosonic grid. One step of $`\Lambda`$. At the Planck scale $`\alpha`$ approaches unity; the suppression to 1/137 is the hierarchy expressed across the domain. The number has an address.
+**Fine structure.** In 1985, Feynman described 1/137 as a number coming without explanation. It is found in the first Fibonacci well on the bosonic grid. One grid step of the hierarchy. At the Planck scale $`\alpha`$ approaches unity; the suppression to 1/137 is the hierarchy expressed across the domain. The number has an address.
 
 >***[Fine Structure](files/fine-structure.md)***
 
@@ -43,7 +43,7 @@ Embed the surface in space and the curvature converts the sample to energy by 3/
 
 ---
 
-**The perfect mirror.** The same manifold that predicts masses and couplings reads L-function structure with arbitrary precision, including the Riemann zeta function itself. However, it cannot constrain individual zeros. The reading capacity and writing incapacity are two faces of the same geometric fact: the curvature that realizes matter is the same curvature that shields the primes.
+**The perfect mirror.** The same manifold that organizes the mass ladder and predicts the couplings reads L-function structure with arbitrary precision, including the Riemann zeta function itself. However, it cannot constrain individual zeros. The reading capacity and writing incapacity are two faces of the same geometric fact: MIT reads one curvature as doing both jobs, gapping the gauge sector and shielding the primes.
 
 >***[The Mirror](files/the-mirror.md)***
 

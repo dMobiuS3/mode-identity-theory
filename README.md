@@ -137,8 +137,10 @@ Three primes. Three stabilizers. Every force, every particle, every quantum numb
 🪡 **One Interface:**
 
 ```math
-\Large \boxed{\Lambda_\text{obs} = \frac{3}{2}\ \cdot \Lambda_\text{top}}
+\Large \boxed{\Lambda_\text{ref} = \frac{3}{2}\ \cdot \Lambda_\text{top}}
 ```
+
+The default measured-$`\Lambda`$ calibration identifies $`\Lambda_\text{obs}`$ with this reference value; whether that identification is dynamically realized by the static domain is the open Interface question.
 
 The wells, masses, charges, and gaps are structure stamped onto a smooth space that knows none of them by itself. Two seams pin that structure there: the Möbius surface embeds to set the vacuum $`\Lambda`$, and the quotient stamps the 120-grid to set matter.
 
@@ -183,7 +185,7 @@ Outputs of a fixed structure, checked against observation:
 |---|---|---|---|
 | [↗](/files/cosmos/files/cosmological-constant.md#v-the-open-radius) $`\Lambda`$ (coupling $`\alpha`$ route) | $`\Lambda\,\ell_P^2 \approx 2.2 \times 10^{-122}`$ | $`2.845 \times 10^{-122}`$ | ~23% |
 | [↗](/files/cosmos/files/cosmological-constant.md#v-the-open-radius) $`\Lambda`$ (mass-spectrum cross-check) | $`\Lambda \approx 8.1 \times 10^{-54}`$ m⁻² | $`1.089 \times 10^{-52}`$ m⁻² | order of magnitude |
-| [↗](/files/spectrum/files/the-waltz.md#ii-gravity-as-the-cost-to-dance) $`\Lambda_\text{obs}/\Lambda_\text{top}`$ | 3/2 (gravitational cost) | 3 Gauss/Ricci lift × 1/2 de Sitter vacuum | exact |
+| [↗](/files/spectrum/files/the-waltz.md#ii-gravity-as-the-cost-to-dance) $`\Lambda_\text{ref}/\Lambda_\text{top}`$ | 3/2 (gravitational cost) | 3 Gauss/Ricci lift × 1/2 de Sitter vacuum | exact |
 | [↗](/files/cosmos/files/cosmological-constant.md#iii-the-spectral-seed) $`\Lambda`$ eigenvalue | topological ($`2/R_\Lambda^2`$) seed | antinode topologically selected; stationary to first order | ✓ |
 | [↗](/files/cosmos/files/dark-energy.md#iii-w_texteffz---1-at-all-redshifts-fiducial-split) $`w_\text{eff}(z) > -1`$ | no phantom crossing | DESI DR2 compatible | ✓ |
 | [↗](/files/cosmos/files/dark-energy.md#primary-fit-snbao) $`\Delta\chi^2`$ vs ΛCDM | $`+0.11`$ (same $`k`$) | Pantheon+ & DESI DR2 BAO | passed |
