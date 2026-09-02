@@ -5,11 +5,11 @@
 
 # Variational Score-to-Sample Program
 
-**Status (2026-09-02):** WORKING / MOTIVATED. Ledger effect: none. Engine effect: none. Nothing on this page is derived: no functional is written down, and no lapse equation is solved. The page fixes the corpus conventions any candidate must respect, states the two-level action architecture, names the one bounded computation, and pre-registers its PASS and FAIL conditions before it is run. This is the working program behind the variational reading recorded on the [postulate bridge](postulate-bridge.md).
+**Status (2026-09-02):** WORKING / MOTIVATED. Ledger effect: none. Engine effect: none. Nothing on this page is derived: no candidate MIT functional is fixed, and no lapse equation is solved. The page fixes the corpus conventions any candidate must respect, states the two-level action architecture, names the one bounded computation, and pre-registers its PASS and FAIL conditions before it is run. This is the working program behind the variational reading recorded on the [postulate bridge](postulate-bridge.md).
 
 **Primary promotion gate:** derive the observer lapse $`N = S^{1/2}`$ from the native global functional, without inserting the exponent by hand.
 
-**Dependencies:** [Postulate Bridge](postulate-bridge.md) (the variational reading this page expands, and the Tier 2 / Tier 3 arms it lies over), [Temporal Budget](temporal-budget.md) (the budget identity $`\Psi^2 + S^2 = 1`$ and the clock's home), [Friedmann as Output](friedmann-as-output.md) (the $`3/2`$ fence and the R-STAB hazard gate), [The Stress-Tensor Bridge](stress-tensor-bridge.md) (the descent target and the coefficient gate), [engine](../../../README.md) (the chronon $`\pi/30`$, the $`4\pi`$ anti-periodic period, and the Hubble clock).
+**Dependencies:** [Postulate Bridge](postulate-bridge.md) (the variational reading this page expands, and the Tier 2 / Tier 3 arms it lies over), [Temporal Budget](temporal-budget.md) (the budget identity $`\Psi^2 + S^2 = 1`$ and the clock's home), [Friedmann as Output](friedmann-as-output.md) (the $`3/2`$ fence and the R-STAB hazard gate), [The Stress-Tensor Bridge](stress-tensor-bridge.md) (the descent target and the coefficient gate), [engine](../../../README.md) (the chronon $`\pi/30`$, the $`2\pi`$ sign flip and $`4\pi`$ return, and the Hubble clock).
 
 **Related:** [The Waltz](../../../../spectrum/files/the-waltz.md) (the eight-functional well sweep, the recorded null this program must not repeat), [Sampler first test](sampler-first-test.md), [The Tick Lemma](tick-lemma.md), [The Level Exchange](half-power-involution.md).
 
@@ -135,7 +135,7 @@ The phase condition
 
 selects the physical phase convention.
 
-The program therefore starts from an existing quadratic variational structure rather than from nothing. The weaker verb is deliberate. The Rayleigh form is the wave sector alone: it contains no $`N`$ and no independent $`S`$, and its ground space is a fact about one eigenproblem on one lap. The first arm adds the lapse and the budget constraint to that sector and nothing else. Whether any coupling to $`i`$, $`\mathcal O_M`$ or $`A`$ survives is the open content of the later arms, and it is open against recorded negatives rather than against blank space: the postulate bridge's Steps 1 through 4 and the [sampler first test](sampler-first-test.md) both closed negative on those couplings. Continuity from this quadratic form to a functional over sampler, embedding and connection data is a claim the program owes, not a starting asset.
+The program therefore starts from an existing quadratic variational structure rather than from nothing. The Rayleigh form is the wave sector alone: it contains no $`N`$ and no independent $`S`$, and its ground space is a fact about one eigenproblem on one lap. The first arm adds the lapse and the budget constraint to that sector and nothing else. Whether any coupling to $`i`$, $`\mathcal O_M`$ or $`A`$ survives is the open content of the later arms, and it is open against recorded negatives rather than against blank space: the postulate bridge's Steps 1 through 4 and the [sampler first test](sampler-first-test.md) both closed negative on those couplings. Continuity from this quadratic form to a functional over sampler, embedding and connection data is a claim the program owes, not a starting asset.
 
 ## 5. Two-level action architecture
 
@@ -243,6 +243,8 @@ This applies in particular to any route using a stabilizer ratio to reach the cl
 A derivation of $`N=S^{1/2}`$ from a route independent of the unmerged $`3/2`$ structures stands on its own.
 
 **Scoring the dressed lapse, pre-registered.** "Another clock" is not by itself a failure, and the distinction is fixed here rather than after the run. [The stress-tensor bridge](stress-tensor-bridge.md) records that holding $`a_\text{eff} = a_\ast S`$ while the fitted rate carries its constant forces the clock to dress, $`(dt/d\tau)^2 = 4\alpha/S + 4\beta S^2/\Psi^2`$, whose first piece is the Waltz clock recovered exactly at $`\beta = 0`$. A functional returning that dressed lapse is therefore returning the object §9 relocates the open question to, not a wrong answer. The pre-registered target is the $`\beta \to 0`$ limit: a lapse whose budget piece reduces to $`S^{1/2}`$ passes the clock gate, and its $`\Lambda`$ piece is then a second consequence, feeding the bridge's two-part metric-definition problem. This is also what makes the second-consequence requirement preregisterable rather than an after-the-fact quality judgment: the consequence is named now, before any functional exists.
+
+The undressed outcome is named with it, so that neither case is scored after the run. If the functional returns $`N = S^{1/2}`$ exactly then $`\beta = 0`$, there is no $`\Lambda`$ piece, and the second consequence is instead the tick measure $`d\mu_\text{tick} = S^{3/2}\,dt`$ falling out of the same variation rather than being defined, which is the operator-realization outcome of the declaration above; or, failing that, gate (iii)'s realization-rate law $`dR \propto S^{3/2}\,dt`$ on the [entropy page](entropy-as-realization-budget.md). Which of the two is claimed is declared with the route type, before the run.
 
 ### FAIL
 
@@ -365,7 +367,7 @@ belong after the constraint equations are obtained.
 
 ### Frozen before the run: the kinetic term and the potential
 
-The lapse equation is only a gate if what it varies is fixed in advance. In the one class where $`\delta\mathcal{S}/\delta N = 0`$ is a genuine Hamiltonian constraint, the parametrized form $`\mathcal{S} = \int (T/N - N\,V)\,dt`$ with $`T`$ quadratic in the velocities, the lapse equation returns $`N^2`$ as the ratio of the velocity-quadratic term to the potential term. The whole exponent then rests on the $`S`$-power of $`V`$, and the two natural kinetic choices already split it:
+The lapse equation is only a gate if what it varies is fixed in advance. In the one class where $`\delta\mathcal{S}/\delta N = 0`$ is a genuine Hamiltonian constraint, the parametrized form $`\mathcal{S} = \int (T/N - N\,V)\,dt`$ with $`T`$ quadratic in the velocities, the lapse equation returns $`N^2`$ from the kinetic-to-potential ratio, with the overall sign fixed by the action convention. The whole exponent then rests on the $`S`$-power of $`V`$, which the sign does not touch, and the two natural kinetic choices already split it:
 
 | Kinetic term | Value on shell | $`V`$ required for $`N^2 = S`$ |
 |---|---|---|
@@ -440,7 +442,7 @@ At that point the score-to-sample reframing becomes a derivational result rather
 
 ---
 
-*The exponent is already labelled FORCED, and landed once already, conditionally on another route's premise ledger. This program is a second route to it, and it promotes only on the Half-Power Clock's terms.*
+*The exponent is labelled FORCED and has landed once, conditionally, on another route's premise ledger. This program is a second route to it, and it promotes only on the Half-Power Clock's terms.*
 
 ---
 
