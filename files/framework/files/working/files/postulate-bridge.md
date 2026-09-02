@@ -182,14 +182,14 @@ Time is phase advance; motion is change of resolved state under that advance.
 The intended two-level structure is
 
 ```math
-\mathcal{S}_{\mathrm{MIT}}
+\mathcal{S}_{\text{MIT}}
 \;\longrightarrow\;
 \text{descent / integration of sampled degrees of freedom}
 \;\longrightarrow\;
-\mathcal{S}_{\mathrm{eff}}.
+\mathcal{S}_{\text{eff}}.
 ```
 
-$`\mathcal{S}_{\mathrm{eff}}`$ descends from $`\mathcal{S}_{\mathrm{MIT}}`$. This is an organizing interpretation over the existing programs, not a fourth tier. Tier 2 remains the embedding variation problem, schematically $`\delta\mathcal{S}/\delta i`$; Tier 3 remains the metric-response problem, schematically $`\delta\mathcal{S}/\delta g`$.
+$`\mathcal{S}_{\text{eff}}`$ descends from $`\mathcal{S}_{\text{MIT}}`$. This is an organizing interpretation over the existing programs, not a fourth tier. Tier 2 remains the embedding variation problem, schematically $`\delta\mathcal{S}/\delta i`$; Tier 3 remains the metric-response problem, schematically $`\delta\mathcal{S}/\delta g`$.
 
 The Möbius phase convention is fixed as follows. One lap has phase length $`2\pi`$ and flips the sign,
 
@@ -204,7 +204,7 @@ That loss of sign is the Möbius orientation $`\mathbb{Z}_2`$. The $`120 \to 60`
 The promotion gate is the observer clock. The global functional should treat $`N(t)`$ as a variable and ask whether its own lapse equation,
 
 ```math
-\frac{\delta \mathcal{S}_{\mathrm{MIT}}}{\delta N}=0,
+\frac{\delta \mathcal{S}_{\text{MIT}}}{\delta N}=0,
 ```
 
 forces
@@ -227,7 +227,7 @@ A stabilizer-based route to the exponent earns promotion only if the operator-le
 
 Until this gate is passed, the variational reading remains program architecture.
 
-Full working program, to be added: `variational-score-to-sample.md`
+Full working program: [Variational Score-to-Sample](variational-score-to-sample.md).
 
 ---
 
