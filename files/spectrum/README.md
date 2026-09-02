@@ -82,8 +82,8 @@ The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretis
 | [↗](files/mass-spectrum.md#1-mass-sector-floor--mu_lambda) $`\mu_\Lambda`$ mass-sector floor | $`\mu_\Lambda \approx 2.25`$ meV | absolute neutrino masses unmeasured; KATRIN $`m_{\nu_e}^\text{eff} < 0.45`$ eV (90% CL) | awaiting measurement |
 | [↗](files/fine-structure.md#alpha_s-the-strong-coupling) $`\alpha_s`$ | 0.1162 | 0.1180 | 1.5% |
 | [↗](files/fine-structure.md#alpha_w-the-weak-coupling-and-the-plato-twist) $`\alpha_W`$ | 0.0339 | 0.0338 | 0.3% |
-| [↗](files/fine-structure.md#iii-the-formula) $`\alpha`$ | 0.00733 | 0.00730 | 0.4% |
 | [↗](files/fine-structure.md#alpha_s--alpha_w-pure-geometry) $`\alpha_s / \alpha_W`$ | 3.426 (pure geometry) | 3.490 | 1.8% |
+| [↗](files/fine-structure.md#iii-the-formula) $`\alpha`$ | 0.00733 | 0.00730 | 0.4% |
 
 ---
 

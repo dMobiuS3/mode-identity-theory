@@ -231,8 +231,8 @@ Outputs of a fixed structure, checked against observation:
 | [↗](/files/spectrum/files/mass-spectrum.md#1-mass-sector-floor--mu_lambda) $`\mu_\Lambda`$ mass-sector floor | $`\mu_\Lambda \approx 2.25`$ meV | absolute neutrino masses unmeasured; KATRIN $`m_{\nu_e}^\text{eff} < 0.45`$ eV (90% CL) | awaiting measurement |
 | [↗](/files/spectrum/files/fine-structure.md#alpha_s-the-strong-coupling) $`\alpha_s`$ | 0.1162 | 0.1180 | 1.5% |
 | [↗](/files/spectrum/files/fine-structure.md#alpha_w-the-weak-coupling-and-the-plato-twist) $`\alpha_W`$ | 0.0339 | 0.0338 | 0.3% |
-| [↗](/files/spectrum/files/fine-structure.md#iii-the-formula) $`\alpha`$ | 0.00733 | 0.00730 | 0.4% |
 | [↗](/files/spectrum/files/fine-structure.md#alpha_s--alpha_w-pure-geometry) $`\alpha_s / \alpha_W`$ | 3.426 (pure geometry) | 3.490 | 1.8% |
+| [↗](/files/spectrum/files/fine-structure.md#iii-the-formula) $`\alpha`$ | 0.00733 | 0.00730 | 0.4% |
 
 >The absolute mass scale and the vacuum-reference scale are two ends of one calibration loop. Fix $`m_e`$ and the mass formula reads back $`R_\Lambda`$, hence $`\Lambda_\text{ref}`$. Fix measured Λ under the default identification and the formula returns $`m_e`$ to ~2%. Inverting the closure, a 2% shift in $`m_e`$ moves Λ by ~11% under the default calibration, where $`R`$ (hence $`\Omega_\Lambda`$) is set by Λ, so $`m_e \propto \Lambda^{11/60}`$ once the $`\mu_\Lambda`$ scale and the $`\Omega_\Lambda`$ feedback are collected. Neither end is privileged: the closure is the mass-spectrum reading of the hierarchy, and the mass ratios are free of the overall mass normalization.
 
