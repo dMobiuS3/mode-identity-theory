@@ -17,7 +17,7 @@ The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretis
 
 ---
 
-**Mass spectrum.** A neutrino floor, a geometric weight from the irrep, a spectral distance walked on the McKay graph, and a torsion ratio locked to 70+ digits. Every mass is a position on the same lattice. The hierarchy across twelve orders is the geometry heard at different seats in the room.
+**Mass Spectrum.** A neutrino floor, a geometric weight from the irrep, a spectral distance walked on the McKay graph, and a torsion ratio locked to 70+ digits. Every mass is a position on the same lattice. The hierarchy across twelve orders is the geometry heard at different seats in the room.
 
 >***[Mass Spectrum](files/mass-spectrum.md)***
 
@@ -25,7 +25,7 @@ The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretis
 
 ---
 
-**Fine structure.** In 1985, Feynman described 1/137 as a number coming without explanation. It is found in the first Fibonacci well on the bosonic grid. One grid step of the hierarchy. At the Planck scale $`\alpha`$ approaches unity; the suppression to 1/137 is the hierarchy expressed across the domain. The number has an address.
+**Fine Structure.** In 1985, Feynman described 1/137 as a number coming without explanation. It is found in the first Fibonacci well on the bosonic grid. One grid step of the hierarchy. At the Planck scale $`\alpha`$ approaches unity; the suppression to 1/137 is the hierarchy expressed across the domain. The number has an address.
 
 >***[Fine Structure](files/fine-structure.md)***
 
@@ -43,7 +43,7 @@ Embed the surface in space and the curvature converts the sample to energy by 3/
 
 ---
 
-**The perfect mirror.** The same manifold that organizes the mass ladder and predicts the couplings reads L-function structure with arbitrary precision, including the Riemann zeta function itself. However, it cannot constrain individual zeros. The reading capacity and writing incapacity are two faces of the same geometric fact: MIT reads one curvature as doing both jobs, gapping the gauge sector and shielding the primes.
+**The Perfect Mirror.** The same manifold that organizes the mass ladder and predicts the couplings reads L-function structure with arbitrary precision, including the Riemann zeta function itself. However, it cannot constrain individual zeros. The reading capacity and writing incapacity are two faces of the same geometric fact: MIT reads one curvature as doing both jobs, gapping the gauge sector and shielding the primes.
 
 >***[The Mirror](files/the-mirror.md)***
 
