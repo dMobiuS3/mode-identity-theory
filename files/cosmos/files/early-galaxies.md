@@ -15,7 +15,7 @@ Mode Identity Theory resolves this. The MOND acceleration scale $`a_0`$ and the 
 
 Because the ratio holds at every epoch, $`a_0(z) = a_0(0) \times H(z)/H_0`$, where $`H(z)`$ is the phase-clock Hubble rate derived from the static $`S^3`$ baseline. At $`z = 10`$, this gives $`a_0 \approx 20.5 \times`$ the local value, enhancing effective gravitational acceleration and reducing the required star formation efficiency to $`\varepsilon_\text{SF} \sim 0.5`$, within the physically permitted range.
 
-MIT predicts $`a_0`$ evolves while $`\Lambda`$ remains constant: the inverse of standard assumptions. This is the companion to the dark energy cornerstone, where the same $`H(z)`$ proves that $`\Lambda`$ never crosses $`w = -1`$. One static universe, two signatures.
+MIT predicts $`a_0`$ evolves while $`\Lambda`$ is epoch-independent: the inverse of standard assumptions. This is the companion to the dark energy cornerstone, where the same $`H(z)`$ introduces no independent phantom fluid. One static universe, two signatures.
 
 **Edge mode scaling**
 
@@ -86,7 +86,7 @@ Using the phase-clock $`H(z)`$ from the static baseline, with $`\Omega_\Lambda =
 \frac{H^2(z)}{H_0^2} = \frac{1 - \Omega_\Lambda}{1 - s_0^2}(1+z)^3 - \frac{(1 - \Omega_\Lambda)\,s_0^2}{1 - s_0^2}(1+z) + \Omega_\Lambda
 ```
 
-At $`z = 10`$, $`(1+z)^3 = 1331`$. The matter term dominates: $`\frac{1-\Omega_\Lambda}{1-s_0^2}(1+z)^3`$ contributes ~421 while the $`(1+z)^1`$ correction subtracts less than 0.1. The result is effectively independent of $`s_0`$:
+At $`z = 10`$, $`(1+z)^3 = 1331`$. The matter term dominates: $`\frac{1-\Omega_\Lambda}{1-s_0^2}(1+z)^3`$ contributes ~421 while the $`(1+z)^1`$ correction subtracts about 0.1 even at the $`s_0`$ bound. The result is effectively independent of $`s_0`$:
 
 ```math
 \frac{H(z{=}10)}{H_0} \approx \sqrt{422} \approx 20.5
@@ -114,7 +114,7 @@ Since free-fall timescale scales as $`t_\text{ff} \propto 1/\sqrt{g}`$, structur
 
 ### Easing the Constraint
 
-For the Labbé et al. observations requiring $`\varepsilon_\text{SF} > 1`$ under standard assumptions, the 2.1× faster collapse brings the implied efficiency down to $`\varepsilon_\text{SF} \sim 0.5`$, inside the physically permitted range. That moves the "impossibly early galaxy" problem out of the impossible column without invoking exotic physics, new particles, or any modification to general relativity. Clearing any individual candidate is a separate question, set by halo-mass assumptions the framework leaves untouched.
+For the Labbé et al. observations requiring $`\varepsilon_\text{SF} > 1`$ under standard assumptions, the 2.1× faster collapse brings the implied efficiency down to $`\varepsilon_\text{SF} \sim 0.5`$, inside the physically permitted range. That ratio is taken against constant-$`a_0`$ MOND, which is the baseline the 2.1$`\times`$ is computed from, rather than against the ΛCDM halos the original efficiency was derived in. That moves the "impossibly early galaxy" problem out of the impossible column without invoking exotic physics, new particles, or any modification to general relativity. Clearing any individual candidate is a separate question, set by halo-mass assumptions the framework leaves untouched.
 
 *The acceleration scale was simply larger when those galaxies formed.*
 
@@ -125,11 +125,11 @@ MIT's dimensional hierarchy draws a sharp line between modes that live on the te
 | Observable | Manifold depth | Evolves? | Prediction |
 |---|---|---|---|
 | $`a_0`$ (acceleration) | $`n = 1`$ (edge) | Yes, tracks $`H(z)`$ | Evolves with epoch |
-| $`\Lambda`$ (cosmological constant) | $`n = 2`$ (surface) | No (antinode, slope zero) | Constant across epochs |
+| $`\Lambda`$ (cosmological constant) | $`n = 2`$ (surface) | No | Epoch-independent: fixed by the static radius |
 
-This is an inversion of standard assumptions, where $`\Lambda`$ is often treated as potentially evolving (the DESI phantom-crossing signal) while $`a_0`$ is assumed constant (standard MOND). MIT predicts the opposite: $`\Lambda`$ is topologically locked at the antinode, and $`a_0`$ rides the phase clock.
+This is an inversion of standard assumptions, where $`\Lambda`$ is often treated as potentially evolving (the DESI phantom-crossing signal) while $`a_0`$ is assumed constant (standard MOND). MIT predicts the opposite: $`\Lambda`$ is fixed by the static curvature radius, and $`a_0`$ rides the phase clock.
 
-The companion paper (*Phantom Dark Energy: Template Artifact in Static Space*) proves that $`\Lambda`$ never crosses $`w = -1`$ and that the apparent DESI signal is a template artifact. This paper shows that $`a_0`$ evolves with $`H(z)`$ and resolves the JWST early-galaxy tension. Together, the two cornerstones embody the static universe from opposite sides: one observable constant, one evolving, both measured from the same standing wave.
+The companion paper (*Phantom Dark Energy: Template Artifact in Static Space*) shows that the underlying $`H(z)`$ introduces no independent phantom fluid, and that restricted two-parameter templates can manufacture an apparent crossing from it. This paper shows that $`a_0`$ evolves with $`H(z)`$ and resolves the JWST early-galaxy tension. Together, the two cornerstones embody the static universe from opposite sides: one observable constant, one evolving, both measured from the same standing wave.
 
 Observations of both quantities at high redshift provide complementary tests. A universe where $`\Lambda`$ evolves and $`a_0`$ stays constant would falsify MIT. The converse does not confirm it: a rising $`a_0`$ also follows from other evolving-scale models and from ΛCDM simulations, so the discriminating content is the locked form and the exponent structure, not the direction of the climb.
 
