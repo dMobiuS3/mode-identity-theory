@@ -41,7 +41,7 @@ The $`2/R^2`$ scale is independently floored on $`S^3`$ by the Weitzenböck $`1`
 
 Connecting the surface scale ($`2/R^2 \to \Lambda`$) to the space gap ($`4/R^2 \to`$ mass gap) remains the open problem, and it is sharper than it first looks. The two spectra are different sequences and cannot be identified: the surface tower $`\ell(\ell+1)/R^2`$ and the space tower $`m^2/R^2`$ share only the curvature floor, and the surface eigenvalue is blind to the group $`\Gamma`$, so the shared $`2/R^2`$ is a coincidence of the common curvature scale, not a spectral bridge. Any genuine connection would run through the topology of the embedding, not the shared radius, and the Filling above bears that out along one route: the relation it proves runs through the filling's $`E_8`$ topology, not the shared value. But it ties the boundary's Galois arithmetic to the interior's tautological decoration and, by construction, never touches the surface eigenvalue, so it settles a neighboring question rather than this one. The embedding supplies the seam and the anchor; whether it also forces a theorem-level relation between the surface and space sectors is open.
 
->***[The staged route, resolved as a split](../working/files/postulate-bridge.md)***
+>***[The Postulate Bridge](../working/files/postulate-bridge.md)***
 
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/NorthExp_ImageOnly_4000px%20copy.png?raw=true" width="350" height="200" alt="North Exp Image">
 
