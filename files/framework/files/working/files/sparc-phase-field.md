@@ -24,7 +24,7 @@ Two SPARC-testable components, each separable from the other:
 1. Do the gravitational transition radius $`r_t`$ and the flat-onset radius $`R_\text{flat}`$ track $`L_f`$, and more tightly than they track generic size proxies?
 2. Does the phase-field trigger index, computed without kinematic pre-classification, predict which galaxies have flat versus rising rotation curves?
 
-A third prediction, H₀ bimodality, is not testable with SPARC alone and is registered separately as forward-looking (§VIII).
+A third prediction, H₀ bimodality, is not testable with SPARC alone and is registered separately as forward-looking (§VIII); an exploratory proxy test has since returned a negative result.
 
 The point of separating the tests is component-level falsification: failure isolates whether the binary threshold, the closure identity, or $`L_f`$ itself is the broken piece. The phase-field and Hubble-tension interpretation that motivates $`L_f`$ is given in §VI. It is the motivation for the coherence scale, not a result of this analysis. The SPARC test stands or falls on its own data.
 
@@ -77,7 +77,7 @@ At every plausible mass-to-light ratio, $`r_t`$ correlates with baryonic mass mo
 - **Coverage.** 97.6% of galaxies have $`L_f`$ inside the measured rotation curve (median $`R_\text{last}/L_f \approx 4.3`$): the closure failure is not an extrapolation artifact.
 - **Label stability.** Across the 9-cell (tolerance, persistence) grid, 27 of 123 galaxies flip flat/rising, but all 27 are flat at the primary cell and none is rising in every cell.
 
-Component-level (§V): $`L_f = v_c^2/a_0`$ does not behave as the galactic coherence radius the framework posited, and the closure identity does not hold. This is a pre-registered negative result: a locked pipeline, archived with a DOI, run once. The genuine forward test against unseen data remains Euclid DR1 (§VIII).
+Component-level (§V): $`L_f = v_c^2/a_0`$ does not behave as the galactic coherence radius the framework posited, and the closure identity does not hold. This is a pre-registered negative result: a locked pipeline, archived with a DOI, run once. The genuine forward test against unseen data remains Euclid DR1.
 
 ---
 
@@ -315,7 +315,7 @@ Two classes of H₀ measurement persistently disagree:
 | CMB (Planck) | 67.4 ± 0.5 | Global; unphased |
 | Local distance ladder (SH0ES) | 73.0 ± 1.0 | Inside disk galaxies; phased |
 
-MIT resolves this as a phase-field effect. The standing wave $`\Psi = \cos(t/2)`$ on the temporal edge is sampled at Fibonacci wells on the 120-domain of $`S^3/2I`$. The H₀ well sits at $`\Theta = 34/120`$ with $`C(34/120) = 1.208`$. Inside a disk galaxy, the local gravitational potential shifts the sampling position by one bosonic step (2/120) to $`\Theta = 36/120`$ with $`C(36/120) = 1.309`$. The ratio:
+The registered phase-field hypothesis read this as a phase-field effect. The standing wave $`\Psi = \cos(t/2)`$ on the temporal edge is sampled at Fibonacci wells on the 120-domain of $`S^3/2I`$. The H₀ well sits at $`\Theta = 34/120`$ with $`C(34/120) = 1.208`$. Under that hypothesis, the local gravitational potential inside a disk galaxy would shift the sampling position by one bosonic step (2/120) to $`\Theta = 36/120`$ with $`C(36/120) = 1.309`$. The ratio:
 
 ```math
 \frac{C(36/120)}{C(34/120)} = \frac{1.309}{1.208} = 1.084
@@ -337,7 +337,7 @@ Key distinction: the RAR alone does not predict H₀ bimodality. MIT does. This 
 
 Milgrom (1983) identified $`a_0`$ as a fundamental acceleration scale. MIT derives $`a_0`$ from the scaling law: $`a_0/a_P = C(13/120) \times (\sqrt{\Omega_H})^{-1}`$. The value is not fitted. The coincidence $`a_0 \approx cH_0`$ is explained: both are edge modes on the standing wave, and their ratio $`C(13/120)/C(34/120) = 0.184`$ is fixed by the topology.
 
-The structural distinction: MOND modifies the force law. MIT keeps gravity inverse-square everywhere. The "missing mass" inside galaxies is a curvature conversion from the embedded Möbius surface through the 3/2 conversion factor (3 the Gauss/Ricci lift, 1/2 the de Sitter vacuum). Inside the coherence scale $`L_f`$, the shifted sampling position on the bosonic grid ($`\Theta = 34/120 \to 36/120`$) mimics additional mass while leaving the force law intact.
+The structural distinction: MOND modifies the force law. MIT keeps gravity inverse-square everywhere. The "missing mass" inside galaxies is a curvature conversion from the embedded Möbius surface through the 3/2 conversion factor (3 the Gauss/Ricci lift, 1/2 the de Sitter vacuum). Under the registered hypothesis, a shifted sampling position inside $`L_f`$ on the bosonic grid ($`\Theta = 34/120 \to 36/120`$) would mimic additional mass while leaving the force law intact.
 
 This distinction has an observational discriminant on cosmological scales. MOND requires deviations from inverse-square gravity at low accelerations; MIT predicts inverse-square is exact at all scales. Gallardo et al. (2026), using Atacama Cosmology Telescope CMB maps and an SDSS galaxy catalog, measured the gravitational force-law exponent from pairwise kinematic Sunyaev-Zel'dovich velocities over 30–230 Mpc halo-pair separations and found $`n = 2.1 \pm 0.3`$, consistent with inverse-square gravity and a poor fit for MOND (PRL 136, 151002).
 
@@ -353,7 +353,9 @@ This is external context, not evidence for MIT. It provides independent motivati
 
 H₀ measurements at the per-galaxy level should cluster in two populations (CMB-like or SH0ES-like), not form a continuous distribution correlated with $`v_c`$ or $`L_f`$. MIT predicts binary: inside $`L_f`$ = shifted, outside = unshifted. No intermediate values.
 
-SPARC does not provide per-galaxy H₀ measurements. SH0ES gives one aggregate H₀ across multiple Cepheid hosts, not a per-galaxy distribution. Verifying this prediction requires per-host H₀ estimates from forthcoming JWST Cepheid programs, TRGB calibrators, or megamaser distances. Registered here as a prediction; verification awaits future data.
+SPARC does not provide per-galaxy H₀ measurements. SH0ES gives one aggregate H₀ across multiple Cepheid hosts, not a per-galaxy distribution. Verifying this prediction requires per-host H₀ estimates from forthcoming JWST Cepheid programs, TRGB calibrators, or megamaser distances. Registered here as a prediction; the exact verification awaits future data.
+
+*Post-registration status note added 2026-09-02.* **An exploratory test of this prediction has since been run and did not support it.** The [H0 bimodality compilation](h0-bimodality-test.md) assembled published determinations by method class and found no statistical signal of two clusters. Three caveats belong with that result and are the reason it does not close this row. It is exploratory and not pre-registered, so it carries less weight than the SPARC run above. It is a compilation by method class rather than the per-host, per-galaxy measurement registered here, so it is a close relative of this forward test and not this test. And its two-cluster specification is itself under review, because the lattice admits a 1/120 step whose displaced value falls inside the gap that test treats as empty. The exact forward test registered in this section remains unrun.
 
 ---
 
