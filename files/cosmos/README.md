@@ -21,55 +21,55 @@ Einstein introduced $`\Lambda`$ in 1917, together with the equations capable of 
 
 ---
 
-**Topology and the CMB.** The CMB is the resonant pattern of the bounded domain. Four features have persisted across COBE, WMAP, and Planck: suppressed power at low $`\ell`$, an anomalously low quadrupole, odd-over-even parity, and an aligned quadrupole and octupole. The low-ℓ suppression is the one this geometry supplies: the Molien gap in the cavity's eigenvalues, which survives under the flat-FLRW cosmology. The parity asymmetry and the alignment stay open. Grading even $`\ell`$ against odd would need an orientation-reversing identification, and a chiral space like $`S^3/2I`$ carries none. Its eigenmodes still have anisotropic covariance, which can carry parity-odd and aligned structure. Nobody has run that calculation: neither predicted nor ruled out.
+## [CMB Anomalies](files/cmb-anomalies.md)
 
->***[CMB Anomalies](files/cmb-anomalies.md)***
+**Topology and the CMB.** The CMB is the resonant pattern of the bounded domain. Four features have persisted across COBE, WMAP, and Planck: suppressed power at low $`\ell`$, an anomalously low quadrupole, odd-over-even parity, and an aligned quadrupole and octupole. The low-ℓ suppression is the one this geometry supplies: the Molien gap in the cavity's eigenvalues, which survives under the flat-FLRW cosmology. The parity asymmetry and the alignment stay open. Grading even $`\ell`$ against odd would need an orientation-reversing identification, and a chiral space like $`S^3/2I`$ carries none. Its eigenmodes still have anisotropic covariance, which can carry parity-odd and aligned structure. Nobody has run that calculation: neither predicted nor ruled out.
 
 [![CMB Anomalies](https://img.youtube.com/vi/2CCODLAmshw/mqdefault.jpg)](https://www.youtube.com/watch?v=2CCODLAmshw)
 
 ---
 
+## [Dark Energy](files/dark-energy.md)
+
 **Embedded Sampling.** Imagine being an ant on a power line, able to move in two dimensions freely; but to the distant observer, you only have one direction to move. Nested topology dilutes a mode's intensity with scale, and where you are is determined by character, not preference. Epoch-dependent observables live on the edge, epoch-independent observables live on the surface, and gravity embeds them together. The ant can only measure what its dimension allows.
 
 The vacuum-reference value is fixed by geometry. What appears to evolve is the observer's phase position on the standing wave, misinterpreted as dark energy dynamics.
-
->***[Dark Energy](files/dark-energy.md)***
 
 [![Dark Energy](https://img.youtube.com/vi/7l8AbmXyz-0/mqdefault.jpg)](https://www.youtube.com/watch?v=7l8AbmXyz-0)
 
 ---
 
+## [Early Galaxies](files/early-galaxies.md)
+
 **Wave-Matter Identity.** Five symbols: $`\lambda = h/p`$. The equation does not say matter behaves like a wave; it says the wavelength of matter is $`h/p`$. Acceleration follows the same rule at the boundary.
 
 In 1983, Milgrom identified $`a_0`$ as a fundamental acceleration scale. Four decades the coincidence $`a_0 \approx cH_0`$ had no explanation. Both are edge modes; the ratio is fixed by where they sit on the standing wave. $`a_0`$ evolves with $`H(z)`$; the galaxies JWST found too early were formed under a stronger tide.
-
->***[Early Galaxies](files/early-galaxies.md)***
 
 [![Early Galaxies](https://img.youtube.com/vi/BuxnEmMGMFE/mqdefault.jpg)](https://www.youtube.com/watch?v=BuxnEmMGMFE)
 
 ---
 
+## [Hubble Tension](files/hubble-tension.md)
+
 **Bounded Evaluation.** Dirac recognized that the large numbers of cosmology were not arbitrary. What was missing in 1937 was the domain that bounded them. Infinity to zero spanning $`10^{122}`$; where the observer is square rooted. His large number was not a coincidental anomaly; it was the area of the floor where we stand.
 
 Hubble measured the tension in 1929 from the same structure. The framework reads the two camps as one well sampled at two positions: distance ladders calibrated within galaxies like ours would sample a shifted well, while the cosmic microwave background measures where it is unphased. Both observations are correct. The lattice fixes the size of the step between them at 8.4%, and the galactic mechanism proposed to produce it has since been tested and falsified, so what stands is the correspondence rather than the cause.
-
->***[Hubble Tension](files/hubble-tension.md)***
 
 [![Hubble Tension](https://img.youtube.com/vi/ZICE7beEQh8/mqdefault.jpg)](https://www.youtube.com/watch?v=ZICE7beEQh8)
 
 ---
 
-**Black Double Zeros.** The wave $`\Psi`$ still flows. The surface still hums at $`\Lambda_\text{top}`$. The topology holds and information is not lost. The observer is still in space but unable to speak.
+## [Black Holes](files/black-hole.md)
 
->***[Black Holes](files/black-hole.md)***
+**Black Double Zeros.** The wave $`\Psi`$ still flows. The surface still hums at $`\Lambda_\text{top}`$. The topology holds and information is not lost. The observer is still in space but unable to speak.
 
 [![Black Double Zeros](https://img.youtube.com/vi/iByR_Bv5Vng/mqdefault.jpg)](https://www.youtube.com/watch?v=iByR_Bv5Vng)
 
 ---
 
-**Judgment Day.** A theory is honest only insofar as it states, before the data arrive, what would falsify it. Five cosmological predictions are locked here against four named contenders, with falsification thresholds set in advance. Euclid arrives in two stages. DR1-Foundation, expected November 2026, brings calibrated images, catalogues and spectra over about 1900 deg², but no cosmology-derived products, so the stellar mass function is the only row it reaches. The full DR1, expected mid 2027, adds the galaxy clustering and weak lensing products the other four rows read. ESA states that both dates are tentative. The card adjudicates by row. Silence in a contender column counts as data.
+## [Euclid DR1: A Pre-Registered Contender Showdown](files/euclid-dr1.md)
 
->***[Euclid DR1: A Pre-Registered Contender Showdown](files/euclid-dr1.md)***
+**Judgment Day.** A theory is honest only insofar as it states, before the data arrive, what would falsify it. Five cosmological predictions are locked here against four named contenders, with falsification thresholds set in advance. Euclid arrives in two stages. DR1-Foundation, expected November 2026, brings calibrated images, catalogues and spectra over about 1900 deg², but no cosmology-derived products, so the stellar mass function is the only row it reaches. The full DR1, expected mid 2027, adds the galaxy clustering and weak lensing products the other four rows read. ESA states that both dates are tentative. The card adjudicates by row. Silence in a contender column counts as data.
 
 [![Euclid DR1](https://img.youtube.com/vi/R4d3SBHalw4/mqdefault.jpg)](https://www.youtube.com/watch?v=R4d3SBHalw4)
 
