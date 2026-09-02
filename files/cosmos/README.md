@@ -9,13 +9,15 @@ The cosmos is the same finite space seen whole: a static three-sphere. Redshift 
 
 ---
 
+## [Cosmological Constant](files/cosmological-constant.md)
+
 **Surface Origin.** The standard question begins at a singularity: all of space compressed to zero dimension. However, if time is the boundary of a 2D manifold, there is no point. Time is the edge of the Möbius surface; the edge exists because the surface has a boundary, and the standing wave lives on the edge.
 
 Einstein introduced $`\Lambda`$ in 1917, together with the equations capable of sustaining it. The constant endured a century of reinterpretation because it required none; the Gauss embedding carries it from the surface into the curvature of space, and the de Sitter relation sets the normalization.
 
->***[Cosmological Constant](files/cosmological-constant.md)***
-
-[![Cosmological Constant](https://img.youtube.com/vi/eFzqU8KPfJ4/mqdefault.jpg)](https://www.youtube.com/watch?v=eFzqU8KPfJ4)
+>[![Cosmological Constant](https://img.youtube.com/vi/eFzqU8KPfJ4/mqdefault.jpg)](https://www.youtube.com/watch?v=eFzqU8KPfJ4)
+>
+>*Video: [Einstein's Constant, Resolved](https://www.youtube.com/watch?v=eFzqU8KPfJ4)*
 
 ---
 
