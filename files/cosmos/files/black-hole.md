@@ -159,7 +159,7 @@ Equivalently: $`C/2 + J^2 = 1`$. Observation amplitude and transverse geometry a
 |---|---|---|---|---|---|
 | Central circle | 0 or $`\pi R`$ (identified) | 1 (full width) | 0 (zero) | 0 | Surface at maximum extent. Observation silent. |
 | Antinode (cone point) | $`\pi R/2`$ | 0 (collapsed to a point) | 1 (maximum) | 2 | Surface collapsed. Observation peaks. |
-| Fibonacci wells | intermediate | intermediate | intermediate | 0.2 to 1.2 | Where sampling reads finite observables. |
+| Fibonacci wells | intermediate | intermediate | intermediate | 0.22 to 1.97 | Where sampling reads finite observables. |
 
 $`J(y) = \cos(y/R)`$ is signed: $`J(0) = 1`$ but $`J(\pi R) = -1`$. The table above lists $`\lvert J\rvert`$, the transverse extent, which is what "surface width" means physically; the budget identity itself is stated in $`J^2`$ ($`u_0^2 + J^2 = 1`$), so the sign is immaterial there. Retain the signed $`J`$ when discussing the Jacobi field as such.
 
@@ -372,7 +372,7 @@ $`\Lambda`$ sits at the maximum, the horizon at the minimum, opposite critical p
 
 diverges as $`\Theta \to 0`$ and vanishes at $`\Theta = 1/2`$: this says $`C`$ is extremely sensitive to $`\Theta`$ near the node and insensitive to it near the antinode (the first-order-insensitivity argument used for $`\Lambda`$ elsewhere in the framework), not that $`\Theta`$ moves faster near the node. That the black hole horizon has $`\Theta \to 0`$, and that infall past it is one-way, is inherited from GR, not derived from the log-slope of $`C`$.
 
-**A numerical check worth recording.** $`\Theta_0 = 34/120`$, the Hubble-tension well, is not near the antinode plateau: $`C'(34/120) \approx 6.15`$, within 2% of the arch's maximum possible slope $`2\pi \approx 6.28`$, and 26 grid steps from $`60/120`$. It sits near the steepest part of the arch, not a flat region. Whatever protects $`\Lambda`$ (whose own well sits exactly at the true zero-slope antinode) does not extend to 34/120.
+**A numerical check worth recording.** $`\Theta_0 = 34/120`$, the Hubble-tension well, is not near the antinode plateau: $`C'(34/120) \approx 6.15`$, within 2.2% of the arch's maximum possible slope $`2\pi \approx 6.28`$, and 26 grid steps from $`60/120`$. It sits near the steepest part of the arch, not a flat region. Whatever protects $`\Lambda`$ (whose own well sits exactly at the true zero-slope antinode) does not extend to 34/120.
 
 **Connection to the complementarity.** The two critical points of $`C`$ are the two poles of $`u_0^2 + J^2 = 1`$ (§IV.A): antinode ($`u_0 = 1`$, $`J = 0`$, cone point, curvature dominates) and node ($`u_0 = 0`$, $`J = 1`$, central circle, geometry dominates).
 
