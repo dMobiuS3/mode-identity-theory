@@ -19,7 +19,7 @@ Einstein introduced $`\Lambda`$ in 1917, together with the equations capable of 
 
 ---
 
-**Topology and the CMB.** The CMB is the resonant pattern of the bounded domain. Three features have persisted across COBE, WMAP, and Planck: suppressed power at low $`\ell`$, odd-over-even parity, and an aligned quadrupole and octupole. The low-ℓ suppression is the one this geometry supplies: the Molien gap in the cavity's eigenvalues, which survives under the flat-FLRW cosmology. The parity asymmetry and the alignment stay open. Grading even $`\ell`$ against odd would need an orientation-reversing identification, and a chiral space like $`S^3/2I`$ carries none. Its eigenmodes still have anisotropic covariance, which can carry parity-odd and aligned structure. Nobody has run that calculation: neither predicted nor ruled out.
+**Topology and the CMB.** The CMB is the resonant pattern of the bounded domain. Four features have persisted across COBE, WMAP, and Planck: suppressed power at low $`\ell`$, an anomalously low quadrupole, odd-over-even parity, and an aligned quadrupole and octupole. The low-ℓ suppression is the one this geometry supplies: the Molien gap in the cavity's eigenvalues, which survives under the flat-FLRW cosmology. The parity asymmetry and the alignment stay open. Grading even $`\ell`$ against odd would need an orientation-reversing identification, and a chiral space like $`S^3/2I`$ carries none. Its eigenmodes still have anisotropic covariance, which can carry parity-odd and aligned structure. Nobody has run that calculation: neither predicted nor ruled out.
 
 >***[CMB Anomalies](files/cmb-anomalies.md)***
 
