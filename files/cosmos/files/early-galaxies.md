@@ -3,6 +3,8 @@
 
 ---
 
+# 🌌 Early Galaxies
+
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/early%20galaxy%20banner.png?raw=true" width="100%" alt="Early Galaxies">
 
 JWST has found galaxies too massive, too early. Stellar masses of $`\sim 10^{10}\,M_\odot`$ at $`z \approx 10`$ require star formation efficiencies exceeding unity under ΛCDM with a constant MOND acceleration scale, a physical impossibility.
