@@ -3,6 +3,8 @@
 
 ---
 
+# 👻 Dark Energy
+
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/The_Phantom_in_the_Machine.jpg?raw=true" width="100%" alt="The Phantom in the Machine: decoding dark energy's apparent evolution as observer phase-shift on a static three-sphere">
 
 DESI DR2 reports a 2.8–4.2σ preference for dynamical dark energy, with CPL fits favoring an apparent crossing of $`w = -1`$. We show that a non-phantom distance-redshift relation can produce such crossings when analyzed with two-parameter templates (CPL, BA, JBP), and that Mode Identity Theory provides that relation from a static geometric foundation.
