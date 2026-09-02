@@ -36,7 +36,7 @@ mode-identity-theory/
     │   │   └── galois-pair           # E8 filling and the tautological charge
     │   └── working/                # research in progress: maps and open problems
     ├── cosmos/                    # the static three-sphere seen whole
-    │   ├── cosmological-constant     # Λ as the first-positive surface eigenvalue
+    │   ├── cosmological-constant     # the surface eigenvalue that anchors Λ
     │   ├── cmb-anomalies             # low-ℓ suppression as the Molien gap
     │   ├── dark-energy               # what evolves is not Λ but perception
     │   ├── early-galaxies            # early massive galaxies in a static geometry
@@ -46,7 +46,7 @@ mode-identity-theory/
     ├── spectrum/                  # the near boundary: matter and gauge on S³/2I
     │   ├── yang-mills                # confinement and three generations
     │   ├── mass-spectrum             # fermion mass as positions on the McKay lattice
-    │   ├── fine-structure            # α = 1/137 is the first realized step of Λ
+    │   ├── fine-structure            # α = 1/137 is the first realized grid step of the hierarchy
     │   ├── the-waltz                 # the gravity between surface and space
     │   └── the-mirror                # curvature duality of primes and matter
     └── tools/                     # interactive, publications, and references
@@ -98,7 +98,7 @@ Three layers host different physics:
 
 >(n = 1) 1D Möbius edge: experienced as time when sampling $`a_0`$ and $`H_0`$.
 >
->(n = 2) 2D Möbius surface: vibrating like a drum head and humming ambiently at $`\Lambda`$.
+>(n = 2) 2D Möbius surface: vibrating like a drum head and humming ambiently at $`\Lambda_\text{top}`$.
 >
 >(n = 3) 3D space: the dark sector, this mode's geometry rather than any particle to detect.
 
@@ -142,7 +142,7 @@ Three primes. Three stabilizers. Every force, every particle, every quantum numb
 
 The default measured-$`\Lambda`$ calibration identifies $`\Lambda_\text{obs}`$ with this reference value; whether that identification is dynamically realized by the static domain is the open Interface question.
 
-The wells, masses, charges, and gaps are structure stamped onto a smooth space that knows none of them by itself. Two seams pin that structure there: the Möbius surface embeds to set the vacuum $`\Lambda`$, and the quotient stamps the 120-grid to set matter.
+The wells, masses, charges, and gaps are structure stamped onto a smooth space that knows none of them by itself. Two seams pin that structure there: the Möbius surface embeds to set the vacuum seed, and the quotient stamps the 120-grid to set matter.
 
 >Gravity is not a fourth force hunting for its rung on the grid. It is what crosses between the smooth space below and the structure built above, coupling to both. The toll it pays at the vacuum seam is the factor $`3/2`$; everywhere else, Einstein's field equations stay unchanged.
 
@@ -152,7 +152,7 @@ The two sides differ in kind: one smooth, one discrete. So gravity should not be
 
 ## :control_knobs: Inputs
 
-Three constants fix the Planck units. The absolute scale is a calibration choice, not a privileged input. The hierarchy $`\Omega_\Lambda`$ is over-determined: Λ (through $`R_\Lambda`$), $`\alpha`$, and the mass ratio each read it, and the anchor-free dimensionless ratios hold under each choice. The $`\alpha`$ reading is the best-conditioned, fixing $`\Lambda`$ to ~23% with no $`R_\Lambda`$ input. The default entry below is $`R_\Lambda`$ for the cosmological scale and $`m_e`$ as the mass benchmark, with $`s_0`$ for the phase.
+Three constants fix the Planck units. The absolute scale is a calibration choice, not a privileged input. The hierarchy $`\Omega_\Lambda`$ is over-determined: Λ (through $`R_\Lambda`$), $`\alpha`$, and the mass ratio each read it, and the anchor-free dimensionless ratios hold under each choice. The $`\alpha`$ reading is the best-conditioned, fixing $`\Lambda_\text{ref}`$ to ~23% with no $`R_\Lambda`$ input. The default entry below is $`R_\Lambda`$ for the cosmological scale and $`m_e`$ as the mass benchmark, with $`s_0`$ for the phase.
 
 **Primitives**
 
@@ -183,10 +183,10 @@ Outputs of a fixed structure, checked against observation:
 
 | Observable | Output | Observed | Agreement |
 |---|---|---|---|
-| [↗](/files/cosmos/files/cosmological-constant.md#v-the-open-radius) $`\Lambda`$ (coupling $`\alpha`$ route) | $`\Lambda\,\ell_P^2 \approx 2.2 \times 10^{-122}`$ | $`2.845 \times 10^{-122}`$ | ~23% |
-| [↗](/files/cosmos/files/cosmological-constant.md#v-the-open-radius) $`\Lambda`$ (mass-spectrum cross-check) | $`\Lambda \approx 8.1 \times 10^{-54}`$ m⁻² | $`1.089 \times 10^{-52}`$ m⁻² | order of magnitude |
+| [↗](/files/cosmos/files/cosmological-constant.md#v-the-open-radius) $`\Lambda_\text{ref}`$ (coupling $`\alpha`$ route) | $`\Lambda_\text{ref}\,\ell_P^2 \approx 2.2 \times 10^{-122}`$ | $`2.845 \times 10^{-122}`$ | ~23% |
+| [↗](/files/cosmos/files/cosmological-constant.md#v-the-open-radius) $`\Lambda_\text{ref}`$ (mass-spectrum cross-check) | $`\Lambda_\text{ref} \approx 8.1 \times 10^{-54}`$ m⁻² | $`1.089 \times 10^{-52}`$ m⁻² | order of magnitude |
 | [↗](/files/spectrum/files/the-waltz.md#ii-gravity-as-the-cost-to-dance) $`\Lambda_\text{ref}/\Lambda_\text{top}`$ | 3/2 (gravitational cost) | 3 Gauss/Ricci lift × 1/2 de Sitter vacuum | exact |
-| [↗](/files/cosmos/files/cosmological-constant.md#iii-the-spectral-seed) $`\Lambda`$ eigenvalue | topological ($`2/R_\Lambda^2`$) seed | antinode topologically selected; stationary to first order | ✓ |
+| [↗](/files/cosmos/files/cosmological-constant.md#iii-the-spectral-seed) $`\Lambda_\text{top}`$ eigenvalue | topological ($`2/R_\Lambda^2`$) seed | antinode topologically selected; stationary to first order | ✓ |
 | [↗](/files/cosmos/files/dark-energy.md#iii-w_texteffz---1-at-all-redshifts-fiducial-split) $`w_\text{eff}(z) > -1`$ | no phantom crossing | DESI DR2 compatible | ✓ |
 | [↗](/files/cosmos/files/dark-energy.md#primary-fit-snbao) $`\Delta\chi^2`$ vs ΛCDM | $`+0.11`$ (same $`k`$) | Pantheon+ & DESI DR2 BAO | passed |
 | [↗](/files/cosmos/files/dark-energy.md#the-1z1-term) $`(1+z)^1`$ term | negative, tied to $`s_0`$ | awaiting next-gen BAO | open |
@@ -218,7 +218,7 @@ Outputs of a fixed structure, checked against observation:
 | [↗](/files/spectrum/files/fine-structure.md#iii-the-formula) $`\alpha`$ | 0.00733 | 0.00730 | 0.4% |
 | [↗](/files/spectrum/files/fine-structure.md#alpha_s--alpha_w-pure-geometry) $`\alpha_s / \alpha_W`$ | 3.426 (pure geometry) | 3.490 | 1.8% |
 
->The absolute mass scale and Λ are two ends of one loop: fix $`m_e`$ and the topology gives Λ; fix Λ and it gives $`m_e`$ to ~2%. Inverting the closure, a 2% shift in $`m_e`$ moves Λ by ~11% under the default calibration, where $`R`$ (hence $`\Omega_\Lambda`$) is set by Λ, so $`m_e \propto \Lambda^{11/60}`$ once the $`\mu_\Lambda`$ scale and the $`\Omega_\Lambda`$ feedback are collected. Neither end is privileged: the closure is the mass-spectrum reading of the hierarchy, and the mass ratios are free of the overall mass normalization.
+>The absolute mass scale and the vacuum-reference scale are two ends of one calibration loop. Fix $`m_e`$ and the mass formula reads back $`R_\Lambda`$, hence $`\Lambda_\text{ref}`$. Fix measured Λ under the default identification and the formula returns $`m_e`$ to ~2%. Inverting the closure, a 2% shift in $`m_e`$ moves Λ by ~11% under the default calibration, where $`R`$ (hence $`\Omega_\Lambda`$) is set by Λ, so $`m_e \propto \Lambda^{11/60}`$ once the $`\mu_\Lambda`$ scale and the $`\Omega_\Lambda`$ feedback are collected. Neither end is privileged: the closure is the mass-spectrum reading of the hierarchy, and the mass ratios are free of the overall mass normalization.
 
 ---
 
