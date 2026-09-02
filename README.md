@@ -62,7 +62,6 @@ mode-identity-theory/
 \Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}
 ```
 
-<br>
 Your belt has two surfaces and two edges that never meet. Twist it once and buckle it again. Suddenly you have a single surface and a single edge: the Möbius strip. Now scale that surface to universal size and embed it in the only simply connected closed 3-manifold that exists.
 
 The 3‑sphere itself wasn't just empty. Fold it by the binary icosahedral symmetry, and the observable domain resolves into 120 positions.
@@ -75,7 +74,6 @@ The 3‑sphere itself wasn't just empty. Fold it by the binary icosahedral symme
 \Large \boxed{\Psi = \cos(t/2), \quad \text{period } 4\pi}
 ```
 
-<br>
 The universe samples a standing wave. The mathematics requires it. It began as cosine, full amplitude, and we advanced from there.
 
 The Möbius twist forces a sign‑flip: the fundamental mode is $`4\pi`$. The twist also has a consequence: traveling once around is flipped, so twice is needed to bring you home.
@@ -90,7 +88,6 @@ Most wave patterns cancel while certain modes survive. The ones that come back a
 \Large \boxed{\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}
 ```
 
-<br>
 Two questions determine any constant the scaling law reaches: where are you on the wave, and how deep in the domain are you sampling?
 
 >**$`C(\Theta) = 2\sin^2(\pi\Theta)`$** is your position on the 120-grid.
@@ -117,7 +114,6 @@ Three layers host different physics:
 \Large \boxed{m(\rho,\sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30} \cdot T^2(\rho \otimes \sigma)}
 ```
 
-<br>
 Four factors compose to rank 24 entries on the fermion mass ladder. Each factor does exactly one thing.
 
 >**The Neutrino Floor.** $`\mu_\Lambda`$ sets the stage: the vacuum-energy floor of the whole spectrum, the hum every other mass is built on.
@@ -136,7 +132,6 @@ Four factors compose to rank 24 entries on the fermion mass ladder. Each factor 
 \Large \boxed{|2I| = 120 = 2^3 \cdot 3 \cdot 5}
 ```
 
-<br>
 The binary icosahedral group $`2I`$ is the largest exceptional discrete subgroup of $`SU(2)`$. Its order factors into exactly three primes.
 
 >**Faces.** $`Z_3`$ sorts color: the three-fold rotational stabilizers become the three color charges of QCD. The restriction exposes singlet and triplet/anti-triplet channels; every assigned fermion has the channel it needs.
@@ -155,7 +150,6 @@ Three primes. Three stabilizers. Every force, every particle, every quantum numb
 \Large \boxed{\Lambda_\text{ref} = \frac{3}{2}\ \cdot \Lambda_\text{top}}
 ```
 
-<br>
 The default measured-$`\Lambda`$ calibration identifies $`\Lambda_\text{obs}`$ with this reference value; whether that identification is dynamically realized by the static domain is the open Interface question.
 
 The wells, masses, charges, and gaps are structure stamped onto a smooth space that knows none of them by itself. Two seams pin that structure there: the Möbius surface embeds to set the vacuum seed, and the quotient stamps the 120-grid to set matter.
