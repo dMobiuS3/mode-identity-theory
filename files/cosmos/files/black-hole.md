@@ -3,7 +3,7 @@
 
 ---
 
-# ⚫️ Black Holes
+# 🎸 Black Holes
 
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/black%20holes%20banner.png?raw=true" width="100%" alt="Black Holes">
 
