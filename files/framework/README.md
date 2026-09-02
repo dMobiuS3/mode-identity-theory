@@ -58,7 +58,7 @@ The chain begins in theorem: non-orientability fixes the anti-periodic boundary 
 
 <a id="one-shape"></a>
 
-## :stadium: One Shape
+## 🏟️ One Shape
 
 ```math
 \Large {S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}
@@ -182,7 +182,7 @@ Two phase parameterizations meet at the present epoch. The engine phase $`\Phi =
 
 <a id="one-equation"></a>
 
-## :balance_scale: One Equation
+## ⚖️ One Equation
 
 ```math
 \Large {\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}
@@ -358,7 +358,7 @@ The Coxeter pair $`(13, 17)`$ under $`h(E_8) = 30`$ is exceptional but not force
 
 <a id="one-formula"></a>
 
-## :atom_symbol: One Formula
+## ⚛️ One Formula
 
 The mass spectrum assembles in three moves, each set by the same topology: the curvature gap that confines, the three flat vacua MIT reads as the generations, and the four-factor formula that ranks the fermions.
 
@@ -412,7 +412,7 @@ The gauge gap above and this mass ladder share the McKay structure and little el
 
 <a id="one-identity"></a>
 
-## :small_red_triangle: One Identity
+## 🔺 One Identity
 
 ```math
 \Large {\lvert 2I\rvert = 120 = 2^3 \cdot 3 \cdot 5}
@@ -474,7 +474,7 @@ Within MIT, this interface structure is why gravity is not assigned another gaug
 
 <a id="inputs-and-calibration"></a>
 
-## :control_knobs: Inputs and Calibration
+## 🎛️ Inputs and Calibration
 
 The scaling law uses one hierarchy ledger at a time: $`\Omega_H`$ on the temporal edge, $`\Omega_\Lambda`$ in the surface and space sectors. Each sector needs one absolute anchor, and the relations that survive between anchors are the physics. Invert one observable to fix that sector's $`\Omega`$ and the rest of the sector follows; which observable you invert is calibration. This section separates the two, ledger by ledger.
 
@@ -564,7 +564,7 @@ Edge observables reference the evolving $`\Omega_H(z)`$; surface and space obser
 
 <a id="research-frontier"></a>
 
-## :telescope: Research Frontier
+## 🌅 Research Frontier
 
 The body is the theory as it stands; this is the theory as a program. What is open is not scattered: it collects into three problems, and everything the framework has spent and everything it still bets rides on them. The full apparatus, the controls, and the dates live in the [claim ledger](files/working/files/claim-ledger.md) and the [working register](files/working/README.md); the Frontier names the three problems and points to where each already lives.
 
