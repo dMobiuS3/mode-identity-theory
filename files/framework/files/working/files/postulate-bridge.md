@@ -5,7 +5,7 @@
 
 # The Postulate Bridge
 
-**Status (2026-07-01):** Resolved along the staged route, as a split. The two bedrock results sit on the two pieces of the postulate $`S^1 = \partial(\text{Möbius}) \hookrightarrow S^3`$, $`\partial S^3 = \emptyset`$. The gauge dictionary is proved: the $`E_8`$ filling carries the boundary's Galois asymmetry exactly, on $`\partial W = +\Sigma`$ ($`\Delta\rho = -8/5 = 4\,\Delta D`$, and $`k \equiv cs \bmod 1`$ in all four sectors). The Möbius coupling is refuted route-specifically: on the characteristic slot, every coefficient built on $`W`$ restricts rank-trivially, so the surface term cancels from the Galois difference in every restriction-route identity with the canonical pullback coefficient bundle. No universal independence claim is made. The naive bridge through the shared value $`2/R^2`$ remains dead (a forced curvature-scale coincidence, not a spectral link). Steps 1-4 complete ([Step 4, part two](step4-coupling.md)); the split verdict is paper-ized as the third bedrock pillar, [Galois pair](../../bedrock/files/galois-pair.md); this note is the record of the route. A dynamical direction, separating the holonomy tail, the selection reading, and a possible gravitational realization, is recorded open below and has not been run. Tier 2's totally geodesic candidate has been removed: it is topologically unavailable to a smooth Möbius band. The replacement equilibrium remains a variational problem to be defined and solved. A sampler reading of the split, naming the observation map $`f = \pi \circ i`$ that needs no descent and the sampling operator $`\mathcal O_M`$ as the open object, is recorded below (2026-08-19); its first test is closed negative, leaving the transverse-not-restrictive result as the residue.
+**Status (2026-07-01):** Resolved along the staged route, as a split. The two bedrock results sit on the two pieces of the postulate $`S^1 = \partial(\text{Möbius}) \hookrightarrow S^3`$, $`\partial S^3 = \emptyset`$. The gauge dictionary is proved: the $`E_8`$ filling carries the boundary's Galois asymmetry exactly, on $`\partial W = +\Sigma`$ ($`\Delta\rho = -8/5 = 4\,\Delta D`$, and $`k \equiv cs \bmod 1`$ in all four sectors). The Möbius coupling is refuted route-specifically: on the characteristic slot, every coefficient built on $`W`$ restricts rank-trivially, so the surface term cancels from the Galois difference in every restriction-route identity with the canonical pullback coefficient bundle. No universal independence claim is made. The naive bridge through the shared value $`2/R^2`$ remains dead (a forced curvature-scale coincidence, not a spectral link). Steps 1-4 complete ([Step 4, part two](step4-coupling.md)); the split verdict is paper-ized as the third bedrock pillar, [Galois pair](../../bedrock/files/galois-pair.md); this note is the record of the route. A dynamical direction, separating the holonomy tail, the selection reading, and a possible gravitational realization, is recorded open below and has not been run. Tier 2's totally geodesic candidate has been removed: it is topologically unavailable to a smooth Möbius band. The replacement equilibrium remains a variational problem to be defined and solved. A sampler reading of the split, naming the observation map $`f = \pi \circ i`$ that needs no descent and the sampling operator $`\mathcal O_M`$ as the open object, is recorded below (2026-08-19); its first test is closed negative, leaving the transverse-not-restrictive result as the residue. A variational reading is now recorded as program architecture over the existing Tier 2 and Tier 3 programs (2026-09-02). It consolidates the embedding, sampler, and clock-selection questions into one candidate global functional, with no ledger or engine change.
 
 **Related:** [First eigenvalue](../../bedrock/files/first-eigenvalue.md), [Coexact gap](../../bedrock/files/coexact-gap.md), [Galois pair](../../bedrock/files/galois-pair.md), [bedrock README](../../bedrock/README.md).
 
@@ -139,7 +139,7 @@ A second obstruction, independent of the geometric one, is recorded with it: equ
 
 The successor question is accordingly not what distinguishes the lifts but what the sampler transfers: the operator $`T^{(\tau)}_{\mu\lambda} = P_\mu \circ \mathcal O^{(1)}_M\vert_{E^\tau_\lambda}`$ from ambient eigenspaces into twisted Möbius ones, studied through its rank or Hilbert-Schmidt norm, with selection rules or a dependence on $`2I`$ and $`E_8`$ representation data as the informative outcomes. It is not set up, and it carries two guards: it must not re-assert the dead $`2/R^2`$ arch (a coupling matrix element is not an equality of spectra), and its Möbius eigenspaces must belong to a named operator on the embedded band's induced metric rather than being imported from the intrinsic conic pillar.
 
-**Relation to the tiers.** This reading is an organizing interpretation over the existing programs, not a fourth tier. Tier 1 asks what such sampling detects in holonomy; Tier 2 asks whether the sampler configuration is dynamically selected ($`\delta S/\delta i`$ choosing $`i`$ among admissible realizations); Tier 3 asks whether the ambient metric responds to the realized sampled state ($`\delta S/\delta g`$). None of these is established by the reading, and the bar below is unchanged: the reading becomes structure only when a specified $`\mathcal O_M`$ clears it.
+**Relation to the tiers.** This reading is an organizing interpretation over the existing programs, not a fourth tier. Tier 1 asks what such sampling detects in holonomy; Tier 2 asks whether the sampler configuration is dynamically selected ($`\delta\mathcal{S}/\delta i`$ choosing $`i`$ among admissible realizations); Tier 3 asks whether the ambient metric responds to the realized sampled state ($`\delta\mathcal{S}/\delta g`$). None of these is established by the reading, and the bar below is unchanged: the reading becomes structure only when a specified $`\mathcal O_M`$ clears it.
 
 ---
 
@@ -149,13 +149,85 @@ The three routes above are index-theoretic and therefore topological on the inte
 
 **Tier 1, the holonomy tail (bounded, open, already flagged).** Definition 7.3 of [Galois pair](../../bedrock/files/galois-pair.md) closes its negative to the restriction route and explicitly excludes "the holonomy of the restricted connection." Holonomy is finer than the Chern character: two connections sharing all characteristic classes can still differ in holonomy. The paper already shows the tautological restriction can be nontrivial on the root class of the distance-six (Galois) node in $`H_2(W;\mathbb{Z}_2)`$, so a surface representing that class couples to the decoration, while the Guillou-Marin enhancement that might convert such a coupling into an eta contribution is unavailable away from the characteristic class. The open question is whether the holonomy of the tautological connection, evaluated on a surface representing that decorated homology class, detects the same Galois distinction whose boundary character-sum difference is supported on the four golden conjugacy classes of $`2I`$. This is a computation on objects that already exist: the fixed ALE metric and the fixed tautological connection; [Galois pair]'s Directions name the broader opening, pointing to the equivariant refinements of instanton theory. A positive result would show that a finer invariant of an *already-fixed* configuration carries the asymmetry. It is not the dynamical claim and is kept separate from it: nothing about this computation requires or supports energy as a constituent of the seam.
 
-**Tier 2, the selection reading (a direction, currently a mood).** The postulate specifies an *admissible* configuration: a circle as the edge of a Möbius band embedded in $`S^3`$. The stronger reading is that the realized embedding is a critical point of a coupled action, $`\delta S[g, i, \text{fields}] = 0`$, so the seam solves an Euler-Lagrange matching equation in intrinsic and extrinsic curvature, surface and edge tension, and ambient geometry, rather than being assumed as an inclusion by hand. In that reading $`G`$ appears first as a coefficient in the equation that makes surface and space fit, and only afterward as the exchange rate the [Waltz](../../../../spectrum/files/the-waltz.md) reads off. The zero-excitation equilibrium cannot be the totally geodesic embedding: for a totally geodesic surface the normal line is parallel in $`\mathbb R^4`$, so a connected such surface lies in a great $`S^2`$, and any surface immersed in an orientable surface is orientable, so no Möbius band in $`S^3`$ has $`A_{ij}\equiv 0`$. The topology excludes the zero-bending configuration: every smooth immersed realization in $`S^3`$ carries extrinsic curvature somewhere. Whether a specified area or bending functional has a uniform positive lower bound over an admissible class, and whether a least-energy representative exists to serve as the equilibrium, are the first variational questions of this tier, still open. This is the interesting version of the "gravity upstream" idea, but it remains a mood until there is a functional whose critical point realizes the postulate embedding and produces content beyond the $`G`$ ratio already in hand. Words that already carry technical jobs in the papers, instanton, action, Ricci-flat, do not transfer to this reading for free. A cautionary precedent sits in the corpus. The signed well-functional sweep tested a structurally similar hope, whether a distinguished structure is secretly the extremum of a natural functional, and found none across an eight-functional menu (a recorded null). The searches differ in kind and size: the wells sweep ranges over a handful of arithmetic positions, where eight functionals cover real ground, whereas a functional over embeddings ranges over an entire function space, the kind of search that has landed before (minimal surfaces, Willmore surfaces, brane actions). So the null lowers the prior on an obvious low-complexity extremization discovered after the answer is known, but it is not a data point about the embedding case itself: it is the methodological instance of the built-backward caveat, not a forecast that Tier 2 fails.
+**Tier 2, the selection reading (a direction, currently a mood).** The postulate specifies an *admissible* configuration: a circle as the edge of a Möbius band embedded in $`S^3`$. The stronger reading is that the realized embedding is a critical point of a coupled action, $`\delta\mathcal{S}[g, i, \text{fields}] = 0`$, so the seam solves an Euler-Lagrange matching equation in intrinsic and extrinsic curvature, surface and edge tension, and ambient geometry, rather than being assumed as an inclusion by hand. In that reading $`G`$ appears first as a coefficient in the equation that makes surface and space fit, and only afterward as the exchange rate the [Waltz](../../../../spectrum/files/the-waltz.md) reads off. The zero-excitation equilibrium cannot be the totally geodesic embedding: for a totally geodesic surface the normal line is parallel in $`\mathbb R^4`$, so a connected such surface lies in a great $`S^2`$, and any surface immersed in an orientable surface is orientable, so no Möbius band in $`S^3`$ has $`A_{ij}\equiv 0`$. The topology excludes the zero-bending configuration: every smooth immersed realization in $`S^3`$ carries extrinsic curvature somewhere. Whether a specified area or bending functional has a uniform positive lower bound over an admissible class, and whether a least-energy representative exists to serve as the equilibrium, are the first variational questions of this tier, still open. This is the interesting version of the "gravity upstream" idea, but it remains a mood until there is a functional whose critical point realizes the postulate embedding and produces content beyond the $`G`$ ratio already in hand. Words that already carry technical jobs in the papers, instanton, action, Ricci-flat, do not transfer to this reading for free. A cautionary precedent sits in the corpus. The signed well-functional sweep tested a structurally similar hope, whether a distinguished structure is secretly the extremum of a natural functional, and found none across an eight-functional menu (a recorded null). The searches differ in kind and size: the wells sweep ranges over a handful of arithmetic positions, where eight functionals cover real ground, whereas a functional over embeddings ranges over an entire function space, the kind of search that has landed before (minimal surfaces, Willmore surfaces, brane actions). So the null lowers the prior on an obvious low-complexity extremization discovered after the answer is known, but it is not a data point about the embedding case itself: it is the methodological instance of the built-backward caveat, not a forecast that Tier 2 fails.
 
 **Tier 2 ground floor (recorded 2026-07-13; facts only, computation not run).** Two standard facts give this tier a concrete starting point. First, the obstruction above: no immersed Möbius band in $`S^3`$ is totally geodesic, so every smooth immersed realization has $`A\not\equiv 0`$; a uniform positive energy floor over an admissible class, and a least-energy equilibrium, are open variational questions, not consequences. Second, the normal bundle of a one-sided surface in an orientable 3-manifold, with its induced normal connection, is isomorphic as a flat real line bundle to the orientation local system ($`w_1(\nu\Sigma)=w_1(T\Sigma)`$, locally constant $`\pm1`$ transitions), so normal fluctuations are sections of $`\mathcal L`$ with its $`\mathbb Z_2`$ holonomy; at an area-critical (minimal) immersion the interior second-variation operator is the twisted connection Laplacian with curvature potential, $`-\Delta_{\mathcal L}-(|A|^2+\mathrm{Ric}(\nu,\nu))`$, and the full Hessian adds the boundary contribution fixed by the boundary regime. The [first-eigenvalue pillar](../../bedrock/files/first-eigenvalue.md) solves the bare $`-\Delta_{\mathcal L}`$, the kinetic term alone, exactly, over its own intrinsic conic geometry. What the two settings share is that the usual scalar positivity theorem is unavailable, the eigensections living in a nontrivial line bundle; this shared obstruction identifies neither the operators nor the spectra, and the pillar's extension-dependent bottom requires its conic defect analysis, which nothing here reproduces. The first bounded computation is the fixed-boundary area branch on an explicit class of embeddings: fix a round great circle $`\gamma\subset S^3(R)`$ and the admissible class $`\mathcal A_\gamma`$ of smooth Möbius-band embeddings $`f`$ with $`f|_{\partial M}=\gamma`$; extremize area, derive the minimal-surface equation, and compute the second variation on $`\Gamma(\mathcal L)`$ with Dirichlet condition $`\psi|_{\partial M}=0`$ (dependence on the representative within the unknot class is later work). The resulting Dirichlet problem versus the pillar's Neumann condition is an informative contrast, not a defect: it makes precise that the pillar is the intrinsic model of the bundle and holonomy, not the Hessian of the embedded problem. Supported-boundary and line-tension regimes are the successor problems: in closed $`S^3`$ an unconstrained boundary is not a well-posed regime for pure area (the boundary term cannot vanish for arbitrary displacement without a support constraint or an edge functional, and the unconstrained infimum is zero), and a pure line-tension term is inert under a pointwise-fixed boundary, becoming live only in the movable-boundary regimes. Willmore and Canham-Helfrich are independently established fourth-order alternatives; the postulate does not yet select among these frameworks or fix their coefficients and boundary conditions. Honesty limits: the pillar's surface is intrinsic, with no embedding in $`S^3`$ asserted in that paper, and the embedded surface will carry whatever metric its variational problem produces; nothing here couples to the $`2I`$/Galois side, so this is the surface half of the postulate only. The tier's bar stands unchanged below.
 
 **Tier 3, the gravitational realization (untried program).** The Route 3 filling is an ALE gravitational instanton: hyperkähler and Ricci-flat, with finite $`L^2`$-curvature. The proved Galois asymmetry, however, lives in the tautological gauge decoration on that background, not demonstrably in the pure gravitational metric. Making gravity load-bearing would require showing that varying or constraining the gravitational geometry couples nontrivially to that decoration, for example through an effective action obtained by integrating out the twisted field, whose metric variation produces a stress tensor and whose embedding variation produces a force on the surface or seam. The proposed escape, that topology fixes the seam energy, is only partly available: for a gravitational instanton the relevant action depends on the chosen functional, boundary terms, and normalization, and ALE spaces carry geometric moduli, so at most a dimensionless charge is topologically fixed while the physical scale still awaits metric normalization. The defensible target is therefore a BPS-like coupled gravitational-gauge extremum with a topologically fixed dimensionless charge, not a fully quantized seam energy.
 
 **The bar.** This direction earns promotion from mood to claim only by meeting the standard used throughout this note: an actual functional over embeddings, explicitly varied, with the postulate embedding emerging as a solution whose vacuum critical point is the least-area (least-bending) equilibrium, coupling to the $`2I`$-decorated ALE/gauge sector without an arbitrary new scale, producing content beyond the existing exchange rate, and motivated independently of the target, since a functional can always be built backward to make any chosen configuration its critical point. Until then, "$`G`$ is upstream" changes how the sentence reads, not what has been shown.
+
+---
+
+## A variational reading (candidate, not run)
+
+**Recorded 2026-09-02. Status: MOTIVATED. Ledger effect: none. Engine effect: none.**
+
+The current dynamics problem is better framed as a variational principle for the global score-to-sample relation than as a search for a conventional $`L(q,\dot q,t)`$ that makes the framework move.
+
+The corpus phase $`t`$ remains fundamental. Observer time is reconstructed from it through a lapse,
+
+```math
+d\tau_H = N(t)\,dt,
+```
+
+so the descriptive chain is
+
+```math
+t \longrightarrow \tau_H(t) \longrightarrow q(\tau_H).
+```
+
+Time is phase advance; motion is change of resolved state under that advance.
+
+The intended two-level structure is
+
+```math
+\mathcal{S}_{\mathrm{MIT}}
+\;\longrightarrow\;
+\text{descent / integration of sampled degrees of freedom}
+\;\longrightarrow\;
+\mathcal{S}_{\mathrm{eff}}.
+```
+
+$`\mathcal{S}_{\mathrm{eff}}`$ descends from $`\mathcal{S}_{\mathrm{MIT}}`$. This is an organizing interpretation over the existing programs, not a fourth tier. Tier 2 remains the embedding variation problem, schematically $`\delta\mathcal{S}/\delta i`$; Tier 3 remains the metric-response problem, schematically $`\delta\mathcal{S}/\delta g`$.
+
+The Möbius phase convention is fixed as follows. One lap has phase length $`2\pi`$ and flips the sign,
+
+```math
+\Psi(t+2\pi)=-\Psi(t).
+```
+
+The closed edge traverses two laps, has phase length $`4\pi`$, and returns $`\Psi`$ to itself. Quadratic quantities such as $`\lvert\Psi\rvert^2`$ have period $`2\pi`$, so a quadratic functional on the closed edge descends to the single lap and forgets the Möbius orientation sign.
+
+That loss of sign is the Möbius orientation $`\mathbb{Z}_2`$. The $`120 \to 60`$ projection belongs instead to the central $`-I`$ of $`2I`$. Squaring performs the same algebraic operation in both cases, but the two $`\mathbb{Z}_2`$ structures remain distinct.
+
+The promotion gate is the observer clock. The global functional should treat $`N(t)`$ as a variable and ask whether its own lapse equation,
+
+```math
+\frac{\delta \mathcal{S}_{\mathrm{MIT}}}{\delta N}=0,
+```
+
+forces
+
+```math
+N(t)=S(t)^{1/2}
+```
+
+without inserting the exponent by hand.
+
+The identity
+
+```math
+\Psi^2+S^2=1
+```
+
+may enter only as an on-shell constraint relation, with $`S`$ varied as the realized-mode share rather than substituted as $`\sin(t/2)`$ at the start.
+
+A stabilizer-based route to the exponent earns promotion only if the operator-level bridge among the currently unmerged $`3/2`$ structures is supplied with it. A non-stabilizer derivation of the lapse stands on its own.
+
+Until this gate is passed, the variational reading remains program architecture.
+
+Full working program, to be added: `variational-score-to-sample.md`
 
 ---
 
