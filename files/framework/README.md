@@ -25,6 +25,10 @@ The observable domain is not that smooth covering space itself but its quotient 
 
 The page moves in one line, each section following from the one before:
 
+<table>
+<tr>
+<td valign="top">
+
 **[The Firing Order](#the-firing-order)**
   - (Brief description)
 
@@ -55,6 +59,9 @@ The page moves in one line, each section following from the one before:
   - Three Generations
   - The Mass Formula
 
+</td>
+<td valign="top">
+
 **[One Identity](#one-identity)**
   - Faces sort color
   - Edges sort spin
@@ -76,6 +83,10 @@ The page moves in one line, each section following from the one before:
   - The three problems
   - Recorded nulls
   - Forward tests
+
+</td>
+</tr>
+</table>
 
 ---
 <a id="the-firing-order"></a>
