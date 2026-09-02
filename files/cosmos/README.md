@@ -11,9 +11,7 @@ The cosmos is the same finite space seen whole: a static three-sphere. Redshift 
 
 ## [Cosmological Constant](files/cosmological-constant.md)
 
-**Surface Origin.** The standard question begins at a singularity: all of space compressed to zero dimension. However, if time is the boundary of a 2D manifold, there is no point. Time is the edge of the Möbius surface; the edge exists because the surface has a boundary, and the standing wave lives on the edge.
-
-Einstein introduced $`\Lambda`$ in 1917, together with the equations capable of sustaining it. The constant endured a century of reinterpretation because it required none; the Gauss embedding carries it from the surface into the curvature of space, and the de Sitter relation sets the normalization.
+**Geometry, Not Substance.** Einstein put $`\Lambda`$ on the geometric side of his equations in 1917. Here it stays there and acquires an origin. The closed domain carries a distinguished first positive level; the Gauss equation lifts that curvature into space and the de Sitter relation fixes the vacuum-reference normalization, giving $`\Lambda_\text{ref} R^2 = 3`$. The Möbius holonomy selects which sector the level lives in, but the scale is set by the curvature of the band it covers, not by the topology of the surface itself. What the chain yields is a coefficient rather than a number: the radius is open, and whether that vacuum reference is the constant we measure waits on the stress tensor the static domain carries.
 
 >[![Cosmological Constant](https://img.youtube.com/vi/eFzqU8KPfJ4/mqdefault.jpg)](https://www.youtube.com/watch?v=eFzqU8KPfJ4)
 >
@@ -33,9 +31,7 @@ Einstein introduced $`\Lambda`$ in 1917, together with the equations capable of 
 
 ## [Dark Energy](files/dark-energy.md)
 
-**Embedded Sampling.** Imagine being an ant on a power line, able to move in two dimensions freely; but to the distant observer, you only have one direction to move. Nested topology dilutes a mode's intensity with scale, and where you are is determined by character, not preference. Epoch-dependent observables live on the edge, epoch-independent observables live on the surface, and gravity embeds them together. The ant can only measure what its dimension allows.
-
-The vacuum-reference value is fixed by geometry. What appears to evolve is the observer's phase position on the standing wave, misinterpreted as dark energy dynamics.
+**A Template Artifact.** The vacuum-reference term is fixed by geometry; what moves is the observer's phase position on the standing wave. Fit that motion with a template built for an evolving fluid and the template can report a phantom crossing the underlying $`H(z)`$ does not contain. That establishes the mechanism, not that DESI's signal is primarily template bias. Against Pantheon+ and DESI DR2 the static reading costs essentially nothing at the same parameter count, and under the fiducial-matter split $`w_\text{eff}(z) > -1`$ at every redshift.
 
 >[![Dark Energy](https://img.youtube.com/vi/7l8AbmXyz-0/mqdefault.jpg)](https://www.youtube.com/watch?v=7l8AbmXyz-0)
 >
@@ -45,9 +41,7 @@ The vacuum-reference value is fixed by geometry. What appears to evolve is the o
 
 ## [Early Galaxies](files/early-galaxies.md)
 
-**Wave-Matter Identity.** Five symbols: $`\lambda = h/p`$. The equation does not say matter behaves like a wave; it says the wavelength of matter is $`h/p`$. Acceleration follows the same rule at the boundary.
-
-In 1983, Milgrom identified $`a_0`$ as a fundamental acceleration scale. Four decades the coincidence $`a_0 \approx cH_0`$ had no explanation. Both are edge modes; the ratio is fixed by where they sit on the standing wave. $`a_0`$ evolves with $`H(z)`$; the galaxies JWST found too early were formed under a stronger tide.
+**A Stronger Tide.** In 1983, Milgrom identified $`a_0`$ as a fundamental acceleration scale. For four decades the coincidence $`a_0 \approx cH_0`$ had no explanation. Both are edge modes, and the ratio is fixed by where they sit on the standing wave. So $`a_0`$ evolves with $`H(z)`$, and the galaxies JWST found too early were formed under a stronger tide.
 
 >[![Early Galaxies](https://img.youtube.com/vi/BuxnEmMGMFE/mqdefault.jpg)](https://www.youtube.com/watch?v=BuxnEmMGMFE)
 >
@@ -57,9 +51,7 @@ In 1983, Milgrom identified $`a_0`$ as a fundamental acceleration scale. Four de
 
 ## [Hubble Tension](files/hubble-tension.md)
 
-**Bounded Evaluation.** Dirac recognized that the large numbers of cosmology were not arbitrary. What was missing in 1937 was the domain that bounded them. Infinity to zero spanning $`10^{122}`$; where the observer is square rooted. His large number was not a coincidental anomaly; it was the area of the floor where we stand.
-
-Hubble measured the tension in 1929 from the same structure. The framework reads the two camps as one well sampled at two positions: distance ladders calibrated within galaxies like ours would sample a shifted well, while the cosmic microwave background measures where it is unphased. Both observations are correct. The lattice fixes the size of the step between them at 8.4%, and the galactic mechanism proposed to produce it has since been tested and falsified, so what stands is the correspondence rather than the cause.
+**One Well, Two Seats.** Hubble fixed the velocity-distance relation in 1929, and the two principal determinations of its constant now disagree. The framework reads their central values as neighboring samples of one well: the microwave-background anchor at the bare position, the local-ladder anchor one bosonic step away. The lattice fixes the separation at 8.4%. A galactic mechanism proposed to produce that displacement was tested and falsified, so what stands is the correspondence rather than the cause.
 
 >[![Hubble Tension](https://img.youtube.com/vi/ZICE7beEQh8/mqdefault.jpg)](https://www.youtube.com/watch?v=ZICE7beEQh8)
 >
