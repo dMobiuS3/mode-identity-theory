@@ -3,6 +3,8 @@
 
 ---
 
+# ❸ Coexact Gap
+
 <img src="https://img1.wsimg.com/isteam/ip/21cc2ac0-6dc4-4b19-93ef-6a7079ac9d3c/Coeaxact%20Gap.png" width="100%" alt="Coexact Gap">
 
 On the round three-sphere and its quotients by finite groups of rotations, the Hodge Laplacian on twisted coexact $`1`$-forms has a lowest nonzero eigenvalue, the spectral gap $`q_\tau^2/R^2`$, where $`q_\tau \ge 2`$ is the lowest coexact level carrying a constituent of the twisting representation $`\tau`$. A constituent at McKay distance $`d`$ enters at level $`d`$ for $`d \ge 2`$ and at level $`2`$ for $`d = 0`$, for any finite $`\Gamma`$; when $`-I \in \Gamma`$, equivalently when the McKay graph is bipartite, a distance-one constituent enters at level $`3`$. Here $`q_\tau`$ is the minimum of these entry levels over the constituents of $`\tau`$, so in particular the gap is $`d_\tau^2/R^2`$ whenever $`d_\tau \ge 2`$.
