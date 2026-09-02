@@ -50,7 +50,9 @@ Each layer follows from the one before.
 
 The chain begins in theorem: non-orientability fixes the anti-periodic boundary condition, and the resulting eigenproblems fix the first positive levels. How the wave sources geometry, and what selects the positions the sampling lands on, are the theory's own open work, gathered in the [Research Frontier](#research-frontier).
 
-[![One Shape](https://img.youtube.com/vi/U3VtY8GZox8/mqdefault.jpg)](https://www.youtube.com/watch?v=U3VtY8GZox8)
+>[![One Shape](https://img.youtube.com/vi/U3VtY8GZox8/mqdefault.jpg)](https://www.youtube.com/watch?v=U3VtY8GZox8)
+>
+>*Video: [The Perfect Shape](https://www.youtube.com/watch?v=U3VtY8GZox8)*
 
 [↑ Table of Contents](#table-of-contents)
 
@@ -175,7 +177,9 @@ Together these are one **two-part metric-definition problem**, spatial-curvature
 
 The observed distances need that vacuum term, not the wave budget alone: the budget by itself matches a matter-only history, and the vacuum term carries the rest. Its spectral seed is $`\Lambda_\text{top} = 2/R_\Lambda^2`$, and the $`3/R_\Lambda^2`$ normalization is the GR vacuum reference carried into One Interface. Read as an expansion history in the ΛCDM way, the difference is the familiar shift from the matter-only $`q_0 = +0.5`$ to the observed $`q_0 \approx -0.55`$, a translation of the static domain's distance relation rather than a motion of the domain itself. The [budget map](files/working/files/budget-map.md) keeps the full accounting.
 
-[![Time](https://img.youtube.com/vi/9N6g-kDgUDc/mqdefault.jpg)](https://www.youtube.com/watch?v=9N6g-kDgUDc)
+>[![Time](https://img.youtube.com/vi/9N6g-kDgUDc/mqdefault.jpg)](https://www.youtube.com/watch?v=9N6g-kDgUDc)
+>
+>*Video: [The Machinery of Time](https://www.youtube.com/watch?v=9N6g-kDgUDc)*
 
 ### The Present Epoch
 
@@ -583,7 +587,9 @@ The exams are thin by design. The phase-clock relation is read through correlate
 
 ---
 
-[![Resonant Universe](https://img.youtube.com/vi/I3AOKh-RRTA/mqdefault.jpg)](https://www.youtube.com/watch?v=I3AOKh-RRTA)
+>[![Resonant Universe](https://img.youtube.com/vi/I3AOKh-RRTA/mqdefault.jpg)](https://www.youtube.com/watch?v=I3AOKh-RRTA)
+>
+>*Video: [Resonant Universe](https://www.youtube.com/watch?v=I3AOKh-RRTA)*
 
 *Topology holds. Wave is. Particle samples.*
 
