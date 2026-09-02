@@ -145,6 +145,7 @@ Anti-periodicity, the initial-maximum condition ($`\Psi(0) = +1`$), and selectio
 ```math
 \Large {\Psi = \cos(t/2)}
 ```
+<br>
 
 | Condition | Selects | Why |
 |---|---|---|
