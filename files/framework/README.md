@@ -25,24 +25,64 @@ The observable domain is not that smooth covering space itself but its quotient 
 
 The page moves in one line, each section following from the one before:
 
-- **[The Firing Order](#the-firing-order)** · the six-step order of operations
-  >Subsection
-  >Subsection2
-- **[One Shape](#one-shape)** · the postulate, and the manifold triad it selects
-  
-- **[One Wave](#one-wave)** · the static standing wave, and the phase clock on its edge
-  
-- **[One Equation](#one-equation)** · the scaling law, its phase operator and Fibonacci wells
+- **[The Firing Order](#the-firing-order)**
+  >Topology sets what is possible
+  >Embedding defines the structure
+  >The Cosmic Wave expresses the boundary
+  >Time is phase of the wave
+  >Sampling resolves position in the domain
+  >Meaning arises only after realization
 
-- **[One Formula](#one-formula)** · the gauge gap, three vacua, and the mass ladder
+- **[One Shape](#one-shape)**
+  >Space
+  >Surface
+  >Temporal Edge
+  >The Observable Domain
+  >The 120 Domain
+  >The Chronon
 
-- **[One Identity](#one-identity)** · 120 = 2³·3·5, sorting color, spin, and isospin
+- **[One Wave](#one-wave)**
+  >Redshift and Cooling
+  >The Waltz Clock
+  >The Present Epoch
 
-- **[One Interface](#one-interface)** · the two seams, and what gravity is across them
+- **[One Equation](#one-equation)**
+  >What the ratio means
+  >The Phase Operator
+  >The Hierarchy and the Observer
+  >Manifold Index
+  >Fibonacci Wells
+  >The Assembled Engine
+  >The Phase Field
+  >The Gauge Ladder
+  >SUSY
 
-- **[Inputs and Calibration](#inputs-and-calibration)** · the ledger of what is measured and what is derived
+- **[One Formula](#one-formula)**
+  >Confinement
+  >Three Generations
+  >The Mass Formula
 
-- **[Research Frontier](#research-frontier)** · the three problems that control the next stage
+- **[One Identity](#one-identity)**
+  >Faces sort color
+  >Edges sort spin
+  >Vertices set the electroweak address
+
+- **[One Interface](#one-interface)**
+  >The two seams
+  >Gravity is what crosses
+
+- **[Inputs and Calibration](#inputs-and-calibration)**
+  >The Ω ledger
+  >Unit constants
+  >The dimensionless core
+  >Three readings of one hierarchy
+  >Sector anchors
+  >Predicted and calibrated
+
+- **[Research Frontier](#research-frontier)**
+  >The three problems
+  >Recorded nulls
+  >Forward tests
 
 ---
 <a id="the-firing-order"></a>
