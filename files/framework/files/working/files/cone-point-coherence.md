@@ -68,7 +68,7 @@ In this reading, galactic coherence is a consequence of:
 
 The galactic gravitational field enters through the $`\Phi \to \Theta`$ mapping, which shifts the observer's phase position by $`\alpha_f \approx 2/120`$. This is a perturbation of the phase coordinate, not the transverse coordinate. The cone point structure is unaffected because the perturbation is in $`y`$ (meridional), not in $`w`$ (transverse).
 
-**What needs to be checked:** does the $`\alpha_f`$ perturbation spoil the cone point analysis? Specifically: does the perturbed eigenfunction still belong to the bridging domain (regular branch, finite Dirichlet integral, regularized-value continuity across the apex) at the cone point? For $`\alpha_f \sim 10^{-6}`$ (the galactic potential in units of $`c^2`$), the perturbation is small. But "small" is not "zero," and the cone point is a singular endpoint where small perturbations could change the qualitative character.
+**What needs to be checked:** does the $`\alpha_f`$ perturbation spoil the cone point analysis? Specifically: does the perturbed eigenfunction still belong to the bridging domain (regular branch, finite Dirichlet integral, regularized-value continuity across the apex) at the cone point? The input is the galactic potential, $`\Phi/c^2 \sim 10^{-6}`$; the environmental grid rule floors the response at the minimum bosonic step, so the displacement actually applied to the phase coordinate is $`\alpha_f \approx 2/120`$. That is small in absolute terms, and the check is owed there rather than at the potential that feeds it. But "small" is not "zero," and the cone point is a singular endpoint where small perturbations could change the qualitative character.
 
 ### Reading B: Nested Galactic Cone Point
 
@@ -149,7 +149,7 @@ The candidate scale $`L_f = v_c^2/a_0`$ sits at the interface between gravity ($
 
 | Scale | Curvature | Source | Character |
 |-------|-----------|--------|-----------|
-| Cosmic | $`K = 1/R^2 \approx 5 \times 10^{-53}\;\text{m}^{-2}`$ | Totally geodesic $`S^2 \subset S^3`$ | Constant; oscillatory Jacobi field |
+| Cosmic | $`K = 1/R_\Lambda^2 = \Lambda_\text{ref}/3 \approx 4 \times 10^{-53}\;\text{m}^{-2}`$ | Totally geodesic $`S^2 \subset S^3`$ | Constant; oscillatory Jacobi field |
 | Galactic (needed) | $`K_g \approx 6 \times 10^{-41}\;\text{m}^{-2}`$ | Topology-gravity interface ($`a_0`$, $`v_c`$) | Must be constant or oscillatory |
 | Sgr A* core ($`r < 0.7`$ pc) | $`K \sim 4 \times 10^{-40}\;\text{m}^{-2}`$ at 1 pc | Keplerian tidal ($`2GM/r^3c^2`$) | Oscillatory (tidal focusing) |
 | Flat-curve ($`r > 0.7`$ pc) | $`K = v_c^2/(r^2c^2) \sim 10^{-47}`$ at 8 kpc | Galactic mass distribution | **Euler-type; power-law Jacobi field; no zeros** |
@@ -172,7 +172,7 @@ The SPARC test ([sparc-phase-field.md](sparc-phase-field.md)) falsified $`L_f = 
 
 The transition radius lands at $`r_t \approx 0.38\,L_f`$ and correlates more tightly with baryonic mass than with $`L_f`$, stable across the $`\Upsilon_\text{disk}`$ sweep. This is a directional mismatch with §V's curvature sourcing argument, which derives $`K_g`$ from $`a_0`$ and $`v_c`$. The data points toward mass distribution instead.
 
-The mean-square velocity suppression ($`\langle v^2 \rangle_{L_f} / v_c^2 \approx 0.41`$) falls below the trigger threshold ($`\xi \approx 0.46`$). Real rotation curves are not flat over $`[0, L_f]`$, so the closure identity that guaranteed universal triggering does not hold.
+The mean-square velocity suppression ($`\langle v^2 \rangle_{L_f} / v_c^2 \approx 0.41`$) falls below the trigger threshold ($`\xi \approx 0.46`$). Real rotation curves are not flat over $`[0, L_f]`$, so the closure identity that guaranteed universal triggering does not hold. The numerical proximity is indicative only: the two quantities are evaluated on different radial geometries, and the mismatch biases the comparison toward the failure it illustrates. The registered SPARC verdicts do not depend on it.
 
 Reading B (nested galactic cone point at $`L_f`$) loses its empirical anchor. Reading A (shared cosmic cone point) and the Frobenius chain (§VII) are untouched. The fork in §V sharpens: GR tidal curvature was already shown to fail; $`L_f`$ itself now fails empirically. If a galactic cone point exists, its radius must come from somewhere other than $`v_c^2/a_0`$, and whatever sets it must account for the observed $`M_b`$ dependence.
 
@@ -288,7 +288,7 @@ To derive the Oort Cloud radius, one would need: the stellar analog of $`L_g`$, 
 | 3 | Reading A or B? One cone point or many? | Questions 1 and 2 | HIGH |
 | 4 | Variable-curvature budget identity: what replaces $`u^2 + J^2 = 1`$ when $`K`$ is not constant? | Frobenius program, Step 7 | MEDIUM |
 | 5 | What sets $`W_g`$? The meridional length is $`L_g`$ (originally identified with $`L_f = v_c^2/a_0`$, now falsified). What sets the transverse width? | Reading B | MEDIUM |
-| 6 | Perturbative stability of the cosmic cone point: does $`\alpha_f \sim 10^{-6}`$ spoil any step in the chain? | Reading A | LOW (almost certainly stable, but unproven) |
+| 6 | Perturbative stability of the cosmic cone point: does the $`\alpha_f \approx 2/120`$ phase displacement spoil any step in the chain? | Reading A | Unsettled. The earlier LOW was assessed against the $`\Phi/c^2 \sim 10^{-6}`$ potential rather than the displacement the grid rule produces from it, and has not been re-derived |
 | 7 | Width regime constraint: nested galactic bands (Reading B) require $`W_g \leq \pi R_g/2`$ for the zonal mode to be the first positive level. If $`W_g > \pi R_g/2`$, the first positive level is azimuthal and $`W_g`$-dependent, breaking the coherence mechanism. What constrains $`W_g`$ at galactic scale? | Width transition (first-eigenvalue paper), Reading B | HIGH |
 
 ---
