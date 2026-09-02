@@ -32,8 +32,8 @@ The observable domain is not that smooth covering space itself but its quotient 
 
 **[One Shape](#one-shape)**
   - Space, Surface, Temporal Edge
-  - The 120 Domain
-  - The Observable Domain
+  - The Sampling Grids
+  - Why $`S^3/2I`$
   - The Chronon
 
 **[One Wave](#one-wave)**
@@ -149,7 +149,7 @@ $`S^1`$ is the boundary of the Möbius surface. The strip has longitudinal perio
 
 The chronon and the standing-wave period operate in the phase parameter $`t \in [0, 4\pi]`$, not in geometric length. The factor $`4\pi`$ is the anti-periodic wave period, two sign-flip laps of the strip, dimensionless.
 
-### The Observable Domain
+### Why $`S^3/2I`$
 
 The observable domain is $`S^3/2I`$: the hypersphere modulo the binary icosahedral group $`2I`$, with $`\lvert 2I\rvert = 120`$. The discrete subgroups of SU(2) $`\cong S^3`$ are classified into open families (cyclic $`Z_n`$ and binary dihedral $`2D_n`$, parameterized by $`n`$) and three closed exceptional groups (binary tetrahedral $`\lvert 2T\rvert = 24`$, binary octahedral $`\lvert 2O\rvert = 48`$, binary icosahedral $`\lvert 2I\rvert = 120`$).
 
@@ -157,15 +157,15 @@ Open families require an external choice of $`n`$ and fall to the framework's in
 
 $`2I`$ is the unique nontrivial perfect finite subgroup of SU(2), equal to its own commutator subgroup, so its only one-dimensional character is the trivial one. With no nontrivial character to twist by, the standard connection $`Q`$ and its Galois conjugate $`Q'`$ stay distinct under every twist, two genuinely different flat vacua rather than one dressed up as another. The magnitude of the split is a McKay-distance fact: the Galois adjoint $`\text{Sym}^2 Q'`$ sits at distance six on affine $`E_8`$ where the standard adjoint sits at distance two, so its coexact gap runs $`(6/2)^2 = 9`$ times larger, the unique $`36/R_\Lambda^2`$ exception the [coexact-gap](files/bedrock/files/coexact-gap.md) paper proves holds for no other finite subgroup of SU(2). Terminality and perfectness are two independent grounds converging on one domain; the single theorem that would fold them into one proof, framework requirement $`\Rightarrow 2I`$, is the framework's own open problem.
 
-### The 120 Domain
+### The Sampling Grids
 
-The 120 domain is the mode spectrum's representation resolution. Fermions access the full 120-label domain, while the framework's intensity readout squares the wavefunction: $`\lvert\psi(\Theta+1)\rvert^2 = \lvert\psi(\Theta)\rvert^2`$ erases the central sign, passing from the $`2I`$ labels to the $`I`$ labels ($`\lvert I\rvert = 60`$) and halving the observable resolution. That halving is the squaring itself, a fact about the representation rather than a geometric move: the Möbius sign flip and the central $`-I`$ of $`2I`$ are two distinct $`Z_2`$'s, and the natural sampler built from the Möbius geometry does not carry one onto the other.
+The full $`2I`$ sampling resolution carries 120 sign-sensitive labels. Fermions access all 120, while the framework's intensity readout squares the wavefunction: $`\lvert\psi(\Theta+1)\rvert^2 = \lvert\psi(\Theta)\rvert^2`$ erases the central sign, passing from the $`2I`$ labels to the $`I`$ labels ($`\lvert I\rvert = 60`$) and reducing the bosonic readout to the 60R projection. The 60R grid is the central-sign quotient $`2I \to I`$, what survives that projection, so it is what freely-propagating, photon-mediated quantities see, while the full 120 grid retains the sign-sensitive representation data. That halving is the squaring itself, a fact about the representation rather than a geometric move: the Möbius sign flip and the central $`-I`$ of $`2I`$ are two distinct $`Z_2`$'s, and the natural sampler built from the Möbius geometry does not carry one onto the other.
 
 The sampling dictionary uses those two resolutions as follows:
 
 | Grid | Labels | Minimum step | Observables |
 |---|---|---|---|
-| Full domain | 120 | 1/120 | $`a_0`$ (dynamical) |
+| Full $`2I`$ resolution | 120 | 1/120 | $`a_0`$ (dynamical) |
 | Bosonic projection | 60 | 2/120 | $`H_0`$, $`\Lambda`$, $`\alpha`$ (photon-mediated) |
 
 The 120 is the order of $`2I`$, not a feature of the smooth $`S^3`$ beneath it, and the same factorization $`120 = 2^3 \cdot 3 \cdot 5`$ surfaces across several domains:
@@ -389,7 +389,7 @@ Everything in this sector lives at two phase slots, the Fibonacci well 13 and it
 
 **17 is where the short-range forces anchor.** Strong and weak both take 17 as their phase slot; the grid difference between them, identity-preserving versus fermion-changing action, is what separates confinement from flavor-changing transitions. Here the 120 grid labels the action on the full orientation-sensitive fermion domain, not the spin of the mediator: the $`W`$ and $`Z`$ remain spin-1 bosons, their 120 assignment coming from that action, a motivated selection rule rather than a derived one.
 
-**Why the two resolutions are available.** The 60R-grid is the central-sign quotient $`2I \to I`$, what survives the bosonic projection, so it is what freely-propagating, photon-mediated quantities see. The full 120-grid retains the sign-sensitive representation data. The gauge ladder reuses those two resolutions as a carrier/target dictionary: intensity-like roles take 60R, full wavefunction-like roles take 120. The Möbius orientation $`Z_2`$ is a separate structure, and the framework does not identify the two signs geometrically. So 13 connects to what propagates freely through the domain, and 17 to what binds or transforms within it.
+**Why the two resolutions are available.** The gauge ladder reuses the two grids defined in [The Sampling Grids](#the-sampling-grids) as a carrier/target dictionary: intensity-like roles take 60R, full wavefunction-like roles take 120. The Möbius orientation $`Z_2`$ is a separate structure, and the framework does not identify the two signs geometrically. So 13 connects to what propagates freely through the domain, and 17 to what binds or transforms within it.
 
 The couplings then follow one assignment rule: the phase slot inherits the grid of the carrier, the exponent slot the grid of the confinement target.
 
