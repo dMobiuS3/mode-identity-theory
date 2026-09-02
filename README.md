@@ -116,7 +116,7 @@ Four factors compose to rank 24 entries on the fermion mass ladder. Each factor 
 
 >**The McKay Elevator.** $`(\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30}`$ raises the energy: each step up the McKay graph lifts the mass by a fixed factor; the denominator 30 is the Coxeter number of $`E_8`$.
 
->**The Reidemeister Torsion.** $`T^2(\rho \otimes \sigma)`$ dials in the vacuum: the same particle lives in three vacua (trivial, standard, Galois), the three flat connections that generate three generations.
+>**The Reidemeister Torsion.** $`T^2(\rho \otimes \sigma)`$ dials in the vacuum: the same particle lives in three vacua (trivial, standard, Galois), the three flat connections that MIT reads as the three generations.
 
 :small_red_triangle: **One Identity:**
 
@@ -130,7 +130,7 @@ The binary icosahedral group $`2I`$ is the largest exceptional discrete subgroup
 
 >**Edges.** $`Z_4`$ sorts spin: the edge stabilizers split the spectrum into integer-spin (domain $`D = 60`$) and half-integer-spin (domain $`D = 120`$), bosons and fermions cleanly separated.
 
->**Vertices.** $`Z_5`$ sets the electroweak address: the five-fold vertex stabilizers carry weak isospin $`T_3`$ through the Coxeter-Galois gate. The eta sign gates charge; the vacuum selects the generation.
+>**Vertices.** $`Z_5`$ sets the electroweak address: the five-fold vertex stabilizers carry weak isospin $`T_3`$ through the Coxeter-Galois gate. The eta sign gates charge; the vacuum label is read as the generation.
 
 Three primes. Three stabilizers. Every force, every particle, every quantum number.
 
@@ -164,7 +164,7 @@ Three constants fix the Planck units. The absolute scale is a calibration choice
 
 | Scale | Value | Origin |
 |---|---|---|
-| $`R_\Lambda`$ | $`\approx 5.3`$ Gpc | de Sitter scale $`\sqrt{3/\Lambda}`$; the circular default. $`\Omega_\Lambda`$ reads independently from $`\alpha`$ (best-conditioned) and the mass spectrum. |
+| $`R_\Lambda`$ | $`\approx 5.38`$ Gpc | de Sitter scale $`\sqrt{3/\Lambda}`$; the circular default. $`\Omega_\Lambda`$ reads independently from $`\alpha`$ (best-conditioned) and the mass spectrum. |
 | $`m_e`$ | $`0.511`$ MeV | Mass benchmark; fixes the overall mass normalization |
 
 **Phase parameter**
@@ -196,7 +196,7 @@ Outputs of a fixed structure, checked against observation:
 | [↗](/files/cosmos/files/early-galaxies.md#the-evolutionary-law) $`a_0(z) \propto H(z)`$ | $`a_0(z{=}2) \approx 3\times`$ local | awaiting high-z rotation curves | open |
 | [↗](/files/spectrum/files/the-waltz.md#iv-dark-matter-and-dark-energy-as-geometry) Null dark matter | permanent | ongoing null results | ✓ |
 | [↗](/files/spectrum/files/yang-mills.md#i-the-geometry) Mass gap | $`> 0`$ | confinement observed | ✓ |
-| [↗](/files/spectrum/files/yang-mills.md#ii-three-vacua) Fermion generations | 3 (mass gaps) | 3 | exact |
+| [↗](/files/spectrum/files/yang-mills.md#ii-three-vacua) Three flat vacua → generations | 3 flat vacua (mass gaps) | 3 generations | exact count; identification is the reading |
 | [↗](/files/spectrum/files/fine-structure.md#the-prediction) Force count | 3 (grid-ladder conjecture) | 3 | consistent (conjecture) |
 | [↗](/files/spectrum/files/fine-structure.md#the-prediction) Null SUSY | no realized gaugino-mediated force (open conjecture) | ongoing null results | consistent (conjecture) |
 | [↗](/files/spectrum/files/the-mirror.md#ii-main-theorem) Spectral inaccessibility | no $`\mathcal{F}`$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |

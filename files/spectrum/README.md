@@ -5,11 +5,11 @@
 
 # :rainbow: Στοιχεῖα
 
-The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretises the domain into 120 positions; three flat connections give three generations; positive curvature confines gauge fields. The three prime stabilisers $`(2,3,5)`$ assign spin, color, and electroweak identity. Gauge couplings are the fine structure of $`\Lambda`$, diluted by the same hierarchy that sets the neutrino floor. The curvature that protects the zeros is the curvature that lets matter exist.
+The spectrum is the near boundary of the same finite space. $`S^3/2I`$ discretises the domain into 120 positions; three flat connections give three vacua, read as three generations; positive curvature confines gauge fields. The three prime stabilisers $`(2,3,5)`$ assign spin, color, and electroweak identity. Gauge couplings are the fine structure of $`\Lambda`$, diluted by the same hierarchy that sets the neutrino floor. The curvature that protects the zeros is the curvature that lets matter exist.
 
 ---
 
-**Confinement.** Curve a space enough and nothing escapes. Gauge fields confine because the universal manifold is finite. Three isolated flat connections on $`S^3/2I`$ produce three families. The McKay correspondence filters the Galois sector through four empty levels; what survives carries a ninefold-enhanced gap, three times the mass.
+**Confinement.** Curve a space enough and nothing escapes. Gauge fields confine because the universal manifold is finite. Three isolated flat connections on $`S^3/2I`$ produce three isolated vacua, read as three families. The McKay correspondence filters the Galois sector through four empty levels; what survives carries a ninefold-enhanced gap, three times the mass.
 
 >***[Yang-Mills](files/yang-mills.md)***
 
@@ -57,7 +57,7 @@ Embed the surface in space and the curvature converts the sample to energy by 3/
 |---|---|---|---|
 | [↗](files/the-waltz.md#iv-dark-matter-and-dark-energy-as-geometry) Null dark matter | permanent | ongoing null results | ✓ |
 | [↗](files/yang-mills.md#i-the-geometry) Mass gap | $`> 0`$ | confinement observed | ✓ |
-| [↗](files/yang-mills.md#ii-three-vacua) Fermion generations | 3 (mass gaps) | 3 | exact |
+| [↗](files/yang-mills.md#ii-three-vacua) Three flat vacua → generations | 3 flat vacua (mass gaps) | 3 generations | exact count; identification is the reading |
 | [↗](files/fine-structure.md#the-prediction) Force count | 3 (grid-ladder conjecture) | 3 | consistent (conjecture) |
 | [↗](files/fine-structure.md#the-prediction) Null SUSY | no realized gaugino-mediated force (open conjecture) | ongoing null results | consistent (conjecture) |
 | [↗](files/the-mirror.md#ii-main-theorem) Spectral inaccessibility | no $`\mathcal{F}`$-construction constrains L-function zeros | proved (Theorem 1, 8 lemmas) | exact |

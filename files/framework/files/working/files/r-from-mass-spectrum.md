@@ -20,7 +20,7 @@ Run with the framework's own published data (`mass-spectrum.md`): electron = (R7
 The formula reproduces both masses (m_e = 5.22 × 10⁻⁴ GeV, m_μ = 0.103 GeV) and predicts the ratio m_μ/m_e = 198 against the measured 206.8, a 4.5% miss. Inverting that ratio for the scale gives:
 
 - Ω_Λ = 1.42 × 10¹²³ (framework value 1.04 × 10¹²²)
-- R ≈ 20 Gpc (framework 5.37 Gpc), a factor 3.7 too large
+- R ≈ 20 Gpc (framework 5.38 Gpc), a factor 3.7 too large
 - Λ ≈ 8.1 × 10⁻⁵⁴ m⁻², about 13.4× below the observed 1.089 × 10⁻⁵² (1.13 orders of magnitude); R too large, so Λ too small
 
 The 4.5% ratio miss becomes a factor of 13.4 in Λ because the McKay lever is weak: with Δd = 1 the ratio depends on Ω_Λ only through (√Ω_Λ)^(1/30), so inverting amplifies any input error by 60/Δd = 60×.
@@ -115,12 +115,12 @@ If d_μ ≠ d_e, the ratio depends on Ω_Λ, which depends on R. The topological
 | Muon assignment (ρ, σ, dist) | ASSIGNED (R8, std, dist = 5; Δd = 1 vs electron) | mass-spectrum.md §III |
 | C_geom for electron and muon | COMPUTED | Kostant exponents |
 | T² for electron and muon | COMPUTED | Reidemeister torsion, T²(R₃)/T²(R₄) = φ⁻⁴ |
-| (ρ,σ) → (T₃,Y) assignment rule | ESTABLISHED (10/10 verified) | mass-spectrum.md §IV.4 |
+| (ρ,σ) → (T₃,Y) assignment rule | ESTABLISHED AS A GATE RULE (eleven featured: 5 assigned + 2 neutrino-proxy + 4 structural) | mass-spectrum.md §IV.4 |
 | Electron mass (measured) | 0.511 MeV | Input |
 | Muon mass (measured) | 105.66 MeV | Input |
 | Muon/electron ratio | 206.768 | Known to 9 significant figures |
 
-The assignment rule is resolved (mass-spectrum.md §IV.4, 10/10 verified) and the computation has been executed; see the Result section. The remaining limitation is precision, not the assignments: the McKay-lever amplification (Sections VI and VIII) caps the route at order of magnitude.
+The assignment rule is resolved (mass-spectrum.md §IV.4, eleven featured addresses) and the computation has been executed; see the Result section. The remaining limitation is precision, not the assignments: the McKay-lever amplification (Sections VI and VIII) caps the route at order of magnitude.
 
 ---
 
