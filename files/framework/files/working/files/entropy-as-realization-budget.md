@@ -82,7 +82,7 @@ d\Sigma/dt > 0 \text{ on } 0 < t < \pi & \quad \text{[THEOREM if } W_\text{modes
 \end{aligned}
 ```
 
-**Cross-constraint from the half-power clock (posted 2026-07-05, before the map is drawn).** The [half-power clock program](friedmann-as-output.md) fixes the counting face of the observer's tick ([The Level Exchange](half-power-involution.md), gate iii): each tick is one realized conversion, and the proper tick measure is $`S^{3/2}\,dt`$. The cumulative realized count must therefore obey
+**Cross-constraint from the half-power clock (posted 2026-07-05, before the map is drawn).** The [half-power clock program](friedmann-as-output.md) fixes the counting face of the observer's tick ([The Level Exchange](half-power-involution.md), gate iii): each tick is one realized conversion, and the registered interface tick measure is $`S^{3/2}\,dt`$. The cumulative realized count must therefore obey
 
 ```math
 dR \propto S^{3/2}\,dt, \qquad R(S) \propto \int_0^S \frac{u^{3/2}}{\sqrt{1-u^2}}\,du,
