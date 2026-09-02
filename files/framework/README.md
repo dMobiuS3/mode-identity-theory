@@ -37,7 +37,7 @@ The page moves in one line, each section following from the one before:
 
 ---
 
-## The Firing Order
+## 🔫 The Firing Order
 
 Each layer follows from the one before.
 
