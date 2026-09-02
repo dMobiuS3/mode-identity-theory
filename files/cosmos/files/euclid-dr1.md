@@ -3,6 +3,8 @@
 
 ---
 
+# 🔮 Euclid DR1 Showdown
+
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/dr1%20banner.png?raw=true" width="100%" alt="Euclid DR1">
 
 The Euclid Data Release 1 arrives in two stages. DR1-Foundation, in November 2026, carries the raw data and calibrated images, catalogues and spectra over about 1900 deg², with no cosmology-derived products. The full DR1, in mid 2027, adds the higher-level science products for galaxy clustering and weak lensing. ESA states that these dates are tentative and will have to be confirmed. Five Mode Identity Theory predictions are locked here, before the data, against four named contenders: flat ΛCDM, w<sub>0</sub>w<sub>a</sub>CDM (CPL), early dark energy (EDE), and MOND / relativistic MOND. Each row is a head-to-head with a stated falsification threshold for MIT. Only Row IV, the high-<i>z</i> stellar mass function, is reachable at the Foundation stage; the other four read cosmology-derived products and wait for the full release. Results will be added in later commits as each stage lands.
