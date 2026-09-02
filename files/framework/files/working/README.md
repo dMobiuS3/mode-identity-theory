@@ -27,7 +27,7 @@ Orienting notes that index other work.
 
 **Tracker:** Maps every route to an independent spatial curvature radius $`R`$ and where each stands. $`\Lambda_\text{ref} = 3/R^2`$ becomes a conditional output only with an $`R`$ not read off $`\Lambda`$, and identifying that reference value with the physical $`\Lambda`$ stays gated by the Interface: de Sitter is circular, the Molien gap is not independent, the CMB L-ratio factor of 8 is dead (no topological derivation), and the particle mass spectrum is the one live route (executed, order of magnitude). Includes the shared E₈ / $`h = 30`$ engine tying the L ratio to the mass formula, and flags the Molien sparse-zone CMB result as the independent survivor of the L work.
 
-**Dependencies:** [R from the mass spectrum](files/r-from-mass-spectrum.md), fermion mass formula, $`\Lambda = 3/R^2`$ eigenvalue relation.
+**Dependencies:** [R from the mass spectrum](files/r-from-mass-spectrum.md), fermion mass formula, $`\Lambda_\text{ref} = 3/R^2`$ reference relation.
 
 ---
 
@@ -202,7 +202,7 @@ Closed: executed computations and derivations with verdicts in hand.
 
 **Result (2026-06-15):** Determines the spatial curvature radius $`R`$ from the fermion mass formula's dependence on the hierarchy factor $`\Omega_\Lambda`$, independently of $`\Lambda`$, the CMB, and the de Sitter relation, breaking the R-problem circularity. Electron + muon give $`R \sim 20`$ Gpc and $`\Lambda \sim 8.1 \times 10^{-54}\,\text{m}^{-2}`$, about 13.4× (one order of magnitude) below the observed value. Precision is capped at order of magnitude by the McKay-lever amplification (60× for $`\delta d = 1`$) acting on the mass formula's irreducible few-percent residual scatter; a pair scan shows no fermion pair beats electron-muon. The third and only non-excluded route to $`R`$.
 
-**Dependencies:** Fermion mass formula and torsion table, McKay residual scatter (sets the precision floor), $`\Omega_\Lambda`$ hierarchy, $`\Lambda = 3/R^2`$ eigenvalue relation.
+**Dependencies:** Fermion mass formula and torsion table, McKay residual scatter (sets the precision floor), $`\Omega_\Lambda`$ hierarchy, $`\Lambda_\text{ref} = 3/R^2`$ reference relation.
 
 ---
 

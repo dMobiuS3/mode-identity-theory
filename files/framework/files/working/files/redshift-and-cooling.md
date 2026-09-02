@@ -39,7 +39,7 @@ The thermal reading rides on the effective metric, where the scale factor $`a_\t
 T \propto \frac{1}{S} \propto (1 + z).
 ```
 
-The fixed quantity is the spectral radius $`R_\Lambda`$, which sets $`\Lambda = 3/R_\Lambda^2`$, not the effective thermodynamic volume. The cooling is internal redistribution within a closed budget, carried by the transfer $`\Psi^2 \to S^2`$, and the energy accounting for that transfer stays open (§VI).
+The fixed quantity is the spectral radius $`R_\Lambda`$, which sets $`\Lambda_\text{ref} = 3/R_\Lambda^2`$, not the effective thermodynamic volume. The cooling is internal redistribution within a closed budget, carried by the transfer $`\Psi^2 \to S^2`$, and the energy accounting for that transfer stays open (§VI).
 
 **Status.** ESTABLISHED as a kinematic equivalence with the FLRW thermal redshift law, where $`T \propto 1/a_\text{eff}`$ and the effective scale factor $`a_\text{eff} \propto S`$. At the kinematic level the equivalence is exact: if one variable governs both photon redshift and temperature, a blackbody stays a blackbody with $`T \propto 1/S`$. First-principles derivation from the postulate, including the photon phase-space density, remains OPEN. The entropy that accompanies the cooling is a separate reading of $`S`$, handled in [Entropy as Realization Budget](entropy-as-realization-budget.md).
 
