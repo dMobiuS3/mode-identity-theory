@@ -161,6 +161,57 @@ The first three rows all register against the discrete picture. The fourth holds
 
 ---
 
+## V-A. Respecification against the three-valued lattice (2026-09-02)
+
+*Added after the 2026-05-19 analysis. Nothing above is edited: the frozen table, the tests, the kill-table reading and the caveats all stand as run.*
+
+**Why this exists, and when the motivation was found.** The analysis above tests a two-cluster prediction, and its Dependencies line names the bosonic step $`2/120`$. The hubble-tension page's §II, however, treats two steps as available and finds a local determination near each: $`2/120`$ gives $`67.4 \to 73.04`$, and $`1/120`$ gives $`67.4 \to 70.24`$. So the lattice that page describes has three values, and the middle one falls inside the 69 to 71 band this test treats as a predicted gap. The original test was therefore under-fitted to the framework's own prediction. **That was noticed on 2026-09-02, after the two-cluster version had returned its null.** Respecifying a test after it returns null is what pre-registration exists to prevent; it is admissible here only because this analysis states in its own Status line that it is exploratory and not pre-registered, and the ordering is recorded rather than presented as though the three-valued form had been the plan.
+
+**Design, fixed before any fit was run.** Three models compared by BIC on identical rows, with each point entering as a Gaussian of its own $`\sigma_i`$ so that measurement error is carried rather than fitted:
+
+| | model | free parameters |
+|---|---|---|
+| A | one Gaussian, free mean and width (the continuous alternative) | 2 |
+| B | two Gaussians, **free** means, common intrinsic scatter | 4 |
+| C | three Gaussians, centres **fixed** at 67.40 / 70.24 / 73.04, common intrinsic scatter | 3 |
+
+C is the lattice hypothesis: its centres are predicted rather than fitted, which is why it can carry fewer parameters than B. The expectation recorded before running was that a second null was the likely outcome and would be the better one, since it would test the proposition the framework actually makes.
+
+**Data.** This is a new analysis and runs on current values, so the CCHP TRGB row is entered at $`70.39 \pm 1.80`$ (Freedman et al. 2025, stat and sys in quadrature per this table's own convention) rather than the frozen $`69.80 \pm 1.71`$. That row is the one the respecification is about: it sits 0.15 from the middle lattice centre where the frozen value sat 0.44 from it. Both TDCOSMO configurations are carried, as the frozen analysis carried them. Both the 13-row de-duplicated subset and the full 18 rows are reported.
+
+**The two TRGB values are both correct and neither should be reconciled to the other.** The table in section I keeps $`69.80 \pm 1.71`$ because that is the value the 2026-05-19 analysis ran on, and every statistic above it, the dip test, the mixture fits, the BIC margins, the gap test and the class means, is reproducible only against that row. This addendum runs on $`70.39 \pm 1.80`$ because it is a new analysis and current values are the right input for one. **Updating the frozen row to match this one would silently destroy the reproducibility of the original run**, which is the only thing that row is for. The difference between the two figures is the subject of this section, not an inconsistency in it.
+
+**Result, all eight cells.** $`\Delta`$BIC is measured from the best model in each cell.
+
+| TRGB | TDCOSMO | rows | $`\Delta`$BIC A | $`\Delta`$BIC B | $`\Delta`$BIC C | middle weight | $`\ln L`$ (B) $`-`$ $`\ln L`$ (C) |
+|---|---|---|---|---|---|---|---|
+| 69.80 | Shajib | 13 | 3.62 | 0.84 | 0.00 | 0.000 | +0.864 |
+| 69.80 | Shajib | 18 | 2.70 | 1.19 | 0.00 | 0.000 | +0.852 |
+| 69.80 | Birrer | 13 | 2.50 | 0.94 | 0.00 | 0.000 | +0.811 |
+| 69.80 | Birrer | 18 | 1.09 | 0.64 | 0.00 | 0.000 | +1.128 |
+| **70.39** | Shajib | 13 | 3.72 | 1.10 | 0.00 | **0.000** | +0.730 |
+| **70.39** | Shajib | 18 | 3.08 | 1.29 | 0.00 | **0.000** | +0.800 |
+| **70.39** | Birrer | 13 | 2.49 | 1.11 | 0.00 | **0.000** | +0.726 |
+| **70.39** | Birrer | 18 | 1.41 | 0.70 | 0.00 | **0.000** | +1.097 |
+
+**Three readings, and the first is the weakest.** C has the lowest nominal BIC in every cell. It is called nominal because a fitted mixture weight of exactly zero is a boundary solution, and ordinary BIC asymptotics are not clean for finite mixtures at a boundary.
+
+Its margin over B is 0.64 to 1.29, which on the Kass-Raftery scale is not worth more than a bare mention, and the decomposition is worse than the margin suggests: the final column shows B fitting **better** in every cell, by 0.73 to 1.13 log units. C wins only because it spends one fewer parameter. Fixing the centres to the lattice does not describe these data better than fitting the centres freely; it describes them slightly worse and costs less. C's only real margin is over A, at 1.09 to 3.72, and A was never the framework's competitor: two populations separated by method class is the Hubble tension restated, which section III already says.
+
+**The middle component carries zero weight in all eight cells**, including on the current TRGB value that sits 0.15 from that centre. The lattice state whose existence motivated this entire respecification draws no support from the data.
+
+**Zero is the maximum-likelihood point, not an exclusion.** Forcing weight onto the 70.24 component, on the current compilation and the de-duplicated subset, costs
+
+| forced middle weight | 0.05 | 0.10 | 0.20 | 1/3 |
+|---|---|---|---|---|
+| cost in $`\ln L`$ | 0.170 | 0.365 | 0.824 | 1.576 |
+
+No conversion to $`\sigma`$ is quoted: a weight sitting at zero is on a boundary, where standard likelihood-ratio asymptotics do not apply cleanly. The plain statement is that the maximum-likelihood fit assigns the middle component nothing, and that this compilation does not strongly exclude a middle population of up to roughly a third.
+
+**Verdict.** The three-valued respecification removes the specification defect in the original two-cluster test but does not produce lattice-specific evidence. The fixed-centre three-component model has the lowest nominal BIC on every configuration, yet its maximum-likelihood middle-component weight is zero and its advantage over a free two-component mixture is negligible and comes entirely from the parameter penalty. The data continue to support method-class structure without providing evidence that the lattice centres, or specifically the $`1/120`$ state at 70.24, organize that structure. A middle population is not excluded by a compilation this small. **The specification question raised on 2026-09-01 is closed; the answer did not change.**
+
+---
+
 ## VI. Relation to the SPARC result
 
 The two registered tests separate cleanly. SPARC ([sparc-phase-field.md](sparc-phase-field.md)) falsified the coherence-scale trigger $`L_f = v_c^2/a_0`$: the mechanism that would force ordinary disk galaxies to realize the phase shift. This test addresses the downstream observable: whether the shift, however triggered, leaves a discrete two-population fingerprint in H₀ data. It does not.
