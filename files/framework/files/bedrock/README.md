@@ -13,7 +13,7 @@ The postulate is one line, $`S^1 = \partial(\text{Möbius}) \hookrightarrow S^3`
 
 **The Surface:** The twisted Laplacian on a cone-singular constant-curvature Möbius band, where the orientation twist and collapsed-fiber cone make the ground state extension-dependent while selecting a stable first-positive branch at $`2/R^2`$ in the narrow regime. The framework reads this $`2/R^2`$ scale as the cosmological-constant anchor. Its fundamental mode acts like the temporal edge, but the operator lives on the surface.
 
->***[First eigenvalue](files/first-eigenvalue.md)***
+>***[First Eigenvalue](files/first-eigenvalue.md)***
 
 [![First Eigenvalue](https://img.youtube.com/vi/n0-Slt8gxKw/mqdefault.jpg)](https://www.youtube.com/watch?v=n0-Slt8gxKw)
 
@@ -21,7 +21,7 @@ The postulate is one line, $`S^1 = \partial(\text{Möbius}) \hookrightarrow S^3`
 
 **The Space:** Flat bundles on the spherical space forms $`S^3/\Gamma`$, where the coexact spectral gap is the first McKay-occurrence level: $`4/R^2`$ for every irreducible flat connection across the ADE classification, with one exception, the Galois connection on $`S^3/2I`$ at $`36/R^2`$. The framework reads that gap as the Yang-Mills mass gap.
 
->***[Coexact gap](files/coexact-gap.md)***
+>***[Coexact Gap](files/coexact-gap.md)***
 
 [![The Mass Gap](https://img.youtube.com/vi/dWKXrTIquT8/mqdefault.jpg)](https://www.youtube.com/watch?v=dWKXrTIquT8)
 
@@ -29,7 +29,7 @@ The postulate is one line, $`S^1 = \partial(\text{Möbius}) \hookrightarrow S^3`
 
 **The Filling:** The Poincaré homology sphere $`S^3/2I`$ carries a Galois pair of flat $`\mathrm{SU}(2)`$ connections, exchanged by $`\sqrt5 \mapsto -\sqrt5`$, and it bounds the $`E_8`$ plumbing. A single conversion identity ties the boundary's odd-signature rho invariant to the character sums of that filling, for every $`S^3/\Gamma`$; on $`S^3/2I`$ the filling's tautological bundles carry the Galois asymmetry exactly as charge, while its bare mod-2 homology cannot see it at all. The framework reads the filling as the interior the embedding produces, and the decoration-versus-homology split as the gatekeeper: the boundary's arithmetic reaches the interior through the tautological decoration, not the bare topology.
 
->***[Galois pair](files/galois-pair.md)***
+>***[Galois Pair](files/galois-pair.md)***
 
 [![Galois Pair](https://img.youtube.com/vi/Jb1nDkJevxs/mqdefault.jpg)](https://www.youtube.com/watch?v=Jb1nDkJevxs)
 
