@@ -26,19 +26,12 @@ The observable domain is not that smooth covering space itself but its quotient 
 The page moves in one line, each section following from the one before:
 
 **[The Firing Order](#the-firing-order)**
-  - Topology sets what is possible
-  - Embedding defines the structure
-  - The Cosmic Wave expresses the boundary
-  - Time is phase of the wave
-  - Sampling resolves position in the domain
-  - Meaning arises only after realization
+  - (Brief description)
 
 **[One Shape](#one-shape)**
-  - Space
-  - Surface
-  - Temporal Edge
-  - The Observable Domain
+  - Space, Surface, Temporal Edge
   - The 120 Domain
+  - The Observable Domain
   - The Chronon
 
 **[One Wave](#one-wave)**
@@ -47,7 +40,7 @@ The page moves in one line, each section following from the one before:
   - The Present Epoch
 
 **[One Equation](#one-equation)**
-  - What the ratio means
+  - The Scaling Law
   - The Phase Operator
   - The Hierarchy and the Observer
   - Manifold Index
