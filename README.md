@@ -66,6 +66,8 @@ Your belt has two surfaces and two edges that never meet. Twist it once and buck
 
 The 3‑sphere itself wasn't just empty. Fold it by the binary icosahedral symmetry, and the observable domain resolves into 120 positions.
 
+---
+
 Ψ **One Wave:**
 
 ```math
@@ -77,6 +79,8 @@ The universe samples a standing wave. The mathematics requires it. It began as c
 The Möbius twist forces a sign‑flip: the fundamental mode is $`4\pi`$. The twist also has a consequence: traveling once around is flipped, so twice is needed to bring you home.
 
 Most wave patterns cancel while certain modes survive. The ones that come back are fermionic, the wave patterns where matter is sampled.
+
+---
 
 ⚖️ **One Equation:**
 
@@ -102,6 +106,8 @@ Three layers host different physics:
 >
 >(n = 3) 3D space: the dark sector, this mode's geometry rather than any particle to detect.
 
+---
+
 ⚛️ **One Formula:**
 
 ```math
@@ -118,6 +124,8 @@ Four factors compose to rank 24 entries on the fermion mass ladder. Each factor 
 
 >**The Reidemeister Torsion.** $`T^2(\rho \otimes \sigma)`$ dials in the vacuum: the same particle lives in three vacua (trivial, standard, Galois), the three flat connections that MIT reads as the three generations.
 
+---
+
 🔺 **One Identity:**
 
 ```math
@@ -133,6 +141,8 @@ The binary icosahedral group $`2I`$ is the largest exceptional discrete subgroup
 >**Vertices.** $`Z_5`$ sets the electroweak address: the five-fold vertex stabilizers carry weak isospin $`T_3`$ through the Coxeter-Galois gate. The eta sign gates charge; the vacuum label is read as the generation.
 
 Three primes. Three stabilizers. Every force, every particle, every quantum number.
+
+---
 
 🪡 **One Interface:**
 
