@@ -640,7 +640,7 @@ The exams are thin by design. The phase-clock relation is read through correlate
 
 >[![Resonant Universe](https://img.youtube.com/vi/I3AOKh-RRTA/mqdefault.jpg)](https://www.youtube.com/watch?v=I3AOKh-RRTA)
 >
->*Video: [Resonant Universe](https://www.youtube.com/watch?v=I3AOKh-RRTA)*
+>*Audio Podcast: [Resonant Universe](https://www.youtube.com/watch?v=I3AOKh-RRTA)*
 
 *Topology holds. Wave is. Particle samples.*
 
