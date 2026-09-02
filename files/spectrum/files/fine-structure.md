@@ -3,6 +3,8 @@
 
 ---
 
+# 🪜 Fine Structure
+
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/alpha%20banner.png?raw=true" width="100%" alt="Fine Structure">
 
 The fine structure constant $`\alpha \approx 1/137`$ governs the strength of electromagnetic interaction. It is dimensionless: a pure number carrying no Planck units. The Standard Model takes its value as an input. Within Mode Identity Theory, the topological hierarchy behind Λ, $`H_0`$, and $`a_0`$ also governs dimensionless couplings. The result is $`\alpha = C(13/60) \cdot \Omega_\Lambda^{-1/60} = 0.00733`$, within 0.4% of the measured value, once the boundary hierarchy $`\Omega_\Lambda`$ is anchored. When $`\alpha`$ is instead what anchors $`\Omega_\Lambda`$, that 0.4% becomes a closure check and the downstream output is $`\Lambda_\text{ref}`$ (§V). The same structure extends to the strong and weak couplings.
