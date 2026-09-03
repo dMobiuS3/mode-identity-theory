@@ -5,7 +5,14 @@
 
 # The Sampling Kernel's Symmetry
 
-**Status (2026-07-05):** The P2 theorem track, and only that. Question and verdict table frozen in commit `e84fef7`; the chase run in the following commit; the git history is the audit trail. Verdict: SUPPORTED, upgraded by reduction (§IV): the adjoint-identity shape is realized concretely on the budget's own complex line, no intrinsic arrow exists anywhere in the structural inventory, and P2 reduces to R1 (magnitude-only registration, prior doctrine) plus R2 (state-free rate rule, a structural premise); DERIVED is withheld at two named blocks. This note is deliberately narrow: it does not cite, anticipate, or lean on the $`\epsilon`$ fit (the P2 measurement track, registered on the [tick lemma](tick-lemma.md) and independent of everything here), it does not touch the entropy channel, and it does not move the budget page's FORCED label, which waits on both tracks plus review per the [tracker](friedmann-as-output.md).
+**Type:** Result
+**State:** Closed
+**Status (2026-07-05):** The P2 theorem track: kernel exchange symmetry is SUPPORTED by reduction to R1 and R2, with no intrinsic arrow anywhere in the structural inventory; DERIVED is withheld at two named premise blocks.
+**Summary:** The theorem track for the half-power clock's P2 premise, reducing kernel exchange symmetry to the registration doctrine R1 and the state-free rate rule R2.
+**Parent:** `tick-lemma.md`
+**Frozen:** 2026-07-05 the question and verdict table (frozen before the chase)
+
+The P2 theorem track, and only that. Question and verdict table frozen in commit `e84fef7`; the chase run in the following commit; the git history is the audit trail. Verdict: SUPPORTED, upgraded by reduction (§IV): the adjoint-identity shape is realized concretely on the budget's own complex line, no intrinsic arrow exists anywhere in the structural inventory, and P2 reduces to R1 (magnitude-only registration, prior doctrine) plus R2 (state-free rate rule, a structural premise); DERIVED is withheld at two named blocks. This note is deliberately narrow: it does not cite, anticipate, or lean on the $`\epsilon`$ fit (the P2 measurement track, registered on the [tick lemma](tick-lemma.md) and independent of everything here), it does not touch the entropy channel, and it does not move the budget page's FORCED label, which waits on both tracks plus review per the [tracker](friedmann-as-output.md).
 
 **Related:** [The Tick Lemma](tick-lemma.md) (where P2 lives), [The Half-Power Clock](friedmann-as-output.md), [Temporal Budget](temporal-budget.md) (the complex phase form used below), [first-eigenvalue](../../bedrock/files/first-eigenvalue.md) (the model of self-adjoint discipline; see the fence in §I).
 

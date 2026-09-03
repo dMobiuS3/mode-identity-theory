@@ -5,7 +5,12 @@
 
 # The Budget Map
 
-**Status (2026-06-21):** One conserved budget in this sector, the temporal $`\Psi^2 + S^2 = 1`$, with the spatial $`u_0^2 + J^2 = 1`$ as its twin. Temperature and entropy are two readings of the budget's single state variable $`S`$, not budgets of their own; the Waltz clock is a map from phase to time, not a budget. This note is the inventory the detail pages point back to.
+**Type:** Map
+**State:** Active
+**Status (2026-08-26):** The one-budget-two-readings taxonomy is settled; the inventory's highest-leverage open row is E(S), the realized-sector energy, routed to the stress-tensor-bridge program.
+**Summary:** The inventory of what is a budget and what is read off one: a single conserved temporal budget, with temperature and entropy as readings of its state S and the Waltz clock as a phase-to-time map, not budgets of their own.
+
+One conserved budget in this sector, the temporal $`\Psi^2 + S^2 = 1`$, with the spatial $`u_0^2 + J^2 = 1`$ as its twin. Temperature and entropy are two readings of the budget's single state variable $`S`$, not budgets of their own; the Waltz clock is a map from phase to time, not a budget. This note is the inventory the detail pages point back to.
 
 **Related:** [The Temporal Budget Identity](temporal-budget.md), [Redshift and Cooling](redshift-and-cooling.md), [Energy as Resolution Amplitude](energy-as-resolution-amplitude.md), [Entropy as Realization Budget](entropy-as-realization-budget.md), [The Waltz](../../../../spectrum/files/the-waltz.md), [Cosmological Constant](../../../../cosmos/files/cosmological-constant.md) (spatial budget).
 
