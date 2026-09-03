@@ -9,6 +9,37 @@ Research-in-progress across the framework. Organized by status: an orienting map
 
 ---
 
+## :clipboard: Metadata Header
+
+Every working page carries a small research-status header. The README is a *view* of these values; the pages own them. Checked by [`scripts/metadata-lint.py`](files/scripts/metadata-lint.py).
+
+```markdown
+**Type:** Map | Program | Test | Result | Note
+**State:** Open | Active | Blocked | Waiting | Closed | Reopened | Superseded
+**Verdict:** Positive | Negative | Mixed | Inconclusive | Uninformative
+**Status (YYYY-MM-DD):** ...
+**Summary:** ...
+**Gated by:** `gate:...`
+**Inputs:** `page.md`, ...
+**Parent:** `page.md`
+**Frozen:** DATE surface; DATE surface
+**Superseded by:** `page.md`
+```
+
+Field semantics, load-bearing:
+
+- **Type** is the page's stable purpose. *Map* indexes work owned elsewhere; *Program* owns a research question; *Test* scores a claim against a pre-committed criterion; *Result* records a computation or derivation with no pre-committed pass condition; *Note* is a research sketch. Execution does not change Type: a Test stays a Test after it runs.
+- **State** describes the page's current live research object, not the states of its internal branches; historical or branch-local states belong in Status. *Open* = unresolved, no concrete next action named. *Active* = unresolved, a concrete next research action is named. *Closed* = the investigation reached its endpoint. *Reopened* = a page that had reached closure and later became live again. *Superseded* requires a named **Superseded by:** successor; without one, use Closed. *Waiting* means the page itself cannot advance until an external condition arrives, not merely that future work exists elsewhere.
+- **Verdict** appears only on `Type: Test`. A Result's outcome lives in State + Status; framework grades (MOTIVATED / SUPPORTED / DERIVED / CERTIFIED / FALSIFIED) are claim-strength, not a Verdict, and are never crosswalked. A Reopened test carries no current Verdict; its prior verdict is a Status fact.
+- **Status** is mutable and dated: it changes when research advances, and its date is the date that research state was established (recovered from the last body-touching commit, never the cleanup-commit date). **Summary** is stable: it changes only if what the page is about changes. *If a sentence changes when a computation or derivation lands, it is Status; if only when the subject changes, it is Summary.*
+- **Gated by** names a hard prerequisite result this page must *receive* from elsewhere. **Inputs** names material the page uses that does not block it. A page that *works* a gate is listed under the gate's **Worked by:**, and is never also **Gated by** that same gate.
+- **Parent** is the *immediate* owning research record, not the highest-level program. A child sits directly under the record it is a subordinate execution or analysis of. A Map indexing a detail page is *not* its parent; that is what Related and Inputs are for.
+- **Frozen** describes historical material *physically present in this page* that must not be repaired. A page that merely references frozen work owned by a child page does not carry the field.
+
+`Related:` is retained untouched and is out of this schema's scope for now.
+
+---
+
 ## :closed_lock_with_key: Research Gates
 
 A gate is a *result, not a date*: a hard mathematical or physical prerequisite, shared across at least two distinct research programs, that must resolve before downstream work can advance. A page names a gate it is waiting on with `**Gated by:**`; a page trying to resolve one is listed here under `**Worked by:**`. A page may work a gate or be gated by it, never both for the same gate. Registry state changes are propagation events: closing a gate stales every page that named it.
