@@ -5,9 +5,14 @@
 
 # Phase Field Coherence Scale Predictions Across the SPARC Galaxy Sample
 
-**Status:** Analysis complete (2026-05-19). The registered predictions are not borne out by SPARC; see the Result section. Pre-registration and pipeline: github.com/dmobius3/phase-field, tag `v1.0-preregistration`, DOI 10.5281/zenodo.20271702.
+**Type:** Test
+**State:** Closed
+**Verdict:** Negative
+**Status (2026-05-19):** The registered predictions are not borne out by SPARC: the transition tracks baryonic mass, not L_f, and the closure identity does not hold. L_f is not the galactic coherence radius. The lattice arithmetic is untouched.
+**Summary:** A pre-registered test of whether L_f = v_c²/a₀ behaves as a galactic coherence radius across the quality-filtered SPARC sample.
+**Frozen:** 2026-05-19 the pre-registered predictions, acceptance criteria, and null models (tag v1.0-preregistration, DOI 10.5281/zenodo.20271702)
 
-**Dependencies:** Hubble tension mechanism (Θ = 34/120 → 36/120 shift), MOND scale a₀ from scaling law C(13/120), closure identity T_c = 2ξ v_c²/c².
+Analysis complete (2026-05-19). The registered predictions are not borne out by SPARC; see the Result section. Pre-registration and pipeline: github.com/dmobius3/phase-field, tag `v1.0-preregistration`, DOI 10.5281/zenodo.20271702.
 
 **Related:** [cone-point-coherence.md](cone-point-coherence.md), [h0-bimodality-test.md](h0-bimodality-test.md).
 

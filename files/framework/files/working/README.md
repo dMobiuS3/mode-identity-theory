@@ -54,11 +54,6 @@ The no-cross-term / observable-commutant result $`\mathcal{A}_\text{obs} = \math
 Why the realized wells, grids, and exponents are selected from the topology, rather than adopted as a postulate.
 **Worked by:** `fibonacci-wells.md`, `scaling-law-uniqueness.md`
 
-### `gate:r-determination`
-**State:** Open · **Frontier:** Calibration
-Which independent route fixes the curvature radius $`R`$; the coupling and mass-spectrum routes stand ~3.2x apart.
-**Worked by:** `r-from-mass-spectrum.md`
-
 ### `gate:amplitude-stress-tensor-dictionary`
 **State:** Open · **Frontier:** Dynamics
 The amplitude-to-$`T_{\mu\nu}`$ / $`E(S)`$ dictionary that would make the $`\Psi^2 \to S^2`$ transfer a stress-energy counterparty. Closing it is downstream of the physical-$`\Lambda`$ interface question.

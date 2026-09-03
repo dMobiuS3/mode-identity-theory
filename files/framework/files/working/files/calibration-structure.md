@@ -5,7 +5,11 @@
 
 # Calibration Structure (draft for the framework engine)
 
-**Dependencies:** a0 paper Appendix A.2 (selection rule), first positive eigenvalue $`2/R^2`$, scaling law.
+**Type:** Map
+**State:** Active
+**Status (2026-09-02):** The calibration architecture and the η / √Ω notation register are current; the effective scale factor is normalized to a_* (settled 2026-09-02). Route reconciliation for R stays open, tracked in the R problem.
+**Summary:** The map of the framework's calibration scheme, one measured anchor per sector with the topology supplying exponents and ratios, plus the notation register; a draft for the engine.
+**Inputs:** the a0 paper Appendix A.2 (selection rule), the first-positive eigenvalue 2/R², the scaling law
 
 **Notation.** Use $`\sqrt{\Omega}`$ where a quantity dilutes from the observer, since the observer sits at $`\sqrt{\Omega} = R/\ell_P`$: the master law and the mass elevator. Use bare $`\Omega`$ when stating the hierarchy as a quantity (its definition, its value) and for the coupling grid step $`\Omega^{-1/|\mathrm{grid}|}`$, which quantizes the full $`\Omega`$ rather than diluting from the observer. In these framework pages $`\Omega_\Lambda = (R_\Lambda/\ell_P)^2 \approx 10^{122}`$ is the surface hierarchy, the native ledger variable. The cosmological vacuum density fraction $`\rho_\Lambda/\rho_c \approx 0.685`$ is a different quantity, about 122 orders away, and is written $`f_\Lambda`$ when disambiguation is needed. The distance-fit pages state the FLRW background in conventional ΛCDM notation, where that fraction is $`\Omega_\Lambda`$; each says so and identifies its $`\Omega_\Lambda`$ with $`f_\Lambda`$. Where a redshift-dependent dark-energy fraction is written $`\Omega_\text{DE}(z)`$, its $`z = 0`$ value under the fiducial constant-$`\Lambda`$ split is $`f_\Lambda`$; that relation is recorded here and not propagated, since $`\Omega_\text{DE}(z)`$ also carries the pre-registered Euclid flatness prediction.
 
