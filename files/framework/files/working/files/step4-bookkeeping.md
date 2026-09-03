@@ -5,7 +5,7 @@
 
 # Step 4 of the postulate bridge, part one: the bookkeeping
 
-**Status (2026-07-01):** Closed (part one of Step 4). The four items carried from Steps 2-3 are closed by exact computation, and the three ingredients of the revised Step 4 now compute in one currency, character sums on $`2I`$: the odd-signature rho is an affine function of the KN Dirac-type sums (the conversion identity, gate value $`-8/5=4\,\Delta D`$); the KN tautological K-class is pinned, its charges reproducing the Step-2 Chern-Simons web mod 1 in all four sectors; the boundary sign convention is pinned ($`\eta_{\mathrm{Dir}}=1079/720`$ on $`+\Sigma`$), triply locked; and $`\bar\mu=-1`$, verified exactly through Ruberman-Saveliev. Part two is resolved in [Step 4, part two](step4-coupling.md): route-specific decoupling, with the gauge dictionary as the positive residue. Numerical claims are exact; the worksheet is [step4-bookkeeping.test.py](step4-bookkeeping.test.py).
+**Status (2026-07-01):** Closed (part one of Step 4). The four items carried from Steps 2-3 are closed by exact computation, and the three ingredients of the revised Step 4 now compute in one currency, character sums on $`2I`$: the odd-signature rho is an affine function of the KN Dirac-type sums (the conversion identity, gate value $`-8/5=4\,\Delta D`$); the KN tautological K-class is pinned, its charges reproducing the Step-2 Chern-Simons web mod 1 in all four sectors; the boundary sign convention is pinned ($`\eta_{\mathrm{Dir}}=1079/720`$ on $`+\Sigma`$), triply locked; and $`\bar\mu=-1`$, verified exactly through Ruberman-Saveliev. Part two is resolved in [Step 4, part two](step4-coupling.md): route-specific decoupling, with the gauge dictionary as the positive residue. Numerical claims are exact; the worksheet is [step4-bookkeeping.test.py](scripts/step4-bookkeeping.test.py).
 
 **Related:** [Step 3](step3-interior-classes.md), [Step 2](step2-analytic-setup.md), [η-gatekeeper (Step 1)](eta-gatekeeper.md), [Postulate bridge](postulate-bridge.md).
 
@@ -15,7 +15,7 @@
 ```math
 D_W \;=\; \frac{1}{120}\sum_{1\neq g\in 2I}\frac{\chi_W(g)}{2-\chi_Q(g)},
 ```
-so the three ingredients of the revised Step 4 now share one exact-arithmetic language. Every number below is an exact rational verified by the worksheet ([step4-bookkeeping.test.py](step4-bookkeeping.test.py)); nothing is floating-point.
+so the three ingredients of the revised Step 4 now share one exact-arithmetic language. Every number below is an exact rational verified by the worksheet ([step4-bookkeeping.test.py](scripts/step4-bookkeeping.test.py)); nothing is floating-point.
 
 **Conventions.** Orientation $`+\Sigma`$ (link = quotient = resolution boundary; Step 2's dictionary). $`2-\chi_Q(g)=4\sin^2(\phi_g/2)`$ with $`\phi_g`$ the defining-representation angle, so every $`D_W`$ is a positive-denominator character sum; the values used below are
 ```math
@@ -116,7 +116,7 @@ All four carried items are closed. Item 1 closes as a theorem-grade identity: th
 - W. Neumann; L. Siebenmann ($`\bar\mu`$ and its plumbing definition); Y. Fukumoto, M. Furuta, M. Ue (the $`b_2\le-8\bar\mu`$ bound for spin fillings).
 - Atiyah, Patodi, Singer I-II (the index form with $`(h+\eta)/2`$; the $`G`$-signature defect).
 - A. Degeratu, *Eta-invariants from Molien series*, Q. J. Math. 60 (2009) (Cor. 2.4, Cor. 3.3: the direct group-sum eta formula; at $`n=2`$ it reads $`\eta_{\mathrm{Dir},\chi}=+2D_\chi`$ on the same orientation as §3).
-- Worksheet: [step4-bookkeeping.test.py](step4-bookkeeping.test.py) (all sums exact in $`\mathbb{Q}(\sqrt5)`$, surds cancelling).
+- Worksheet: [step4-bookkeeping.test.py](scripts/step4-bookkeeping.test.py) (all sums exact in $`\mathbb{Q}(\sqrt5)`$, surds cancelling).
 
 ---
 

@@ -5,7 +5,7 @@
 
 # The Half-Integer Torsion Correction
 
-**Status:** APPLIED (2026-07-28). The four half-integer torsion singles on [mass-spectrum](../../../../spectrum/files/mass-spectrum.md) were the coexact-only quantity; the full Ray-Singer values carry exact closed forms. 12 of the 24 table entries revised; headline 5-of-8 recomputed to 5 compatible / 4 adjudicated. Verification artifact: [`torsion-correction.test.py`](torsion-correction.test.py): 12 gates with stable ids, a mutation registry whose meta-guard enforces that the set of mutation targets equals the set of gate ids AND that every declared defect turns its gate red (13 mutations, all red; a gate added without a mutation fails the suite by construction).
+**Status:** APPLIED (2026-07-28). The four half-integer torsion singles on [mass-spectrum](../../../../spectrum/files/mass-spectrum.md) were the coexact-only quantity; the full Ray-Singer values carry exact closed forms. 12 of the 24 table entries revised; headline 5-of-8 recomputed to 5 compatible / 4 adjudicated. Verification artifact: [`torsion-correction.test.py`](scripts/torsion-correction.test.py): 12 gates with stable ids, a mutation registry whose meta-guard enforces that the set of mutation targets equals the set of gate ids AND that every declared defect turns its gate red (13 mutations, all red; a gate added without a mutation fails the suite by construction).
 
 **Dependencies:** mass-spectrum §4 torsion tables and §III ledger; the [mckay-propagator-correction](mckay-propagator-correction.md) record (its 2026-07-28 banner); the registered `mass-null-v1.1` rerun, executed 2026-07-28 against the corrected torsion table.
 

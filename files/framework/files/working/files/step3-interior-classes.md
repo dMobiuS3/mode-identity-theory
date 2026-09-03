@@ -5,7 +5,7 @@
 
 # Step 3 of the postulate bridge: the interior classes mod 2
 
-**Status (2026-07-01):** Closed. The three staged items are computed: $`H_2(W;\mathbb{Z}_2)=\mathbb{Z}_2^8`$ carries the $`E_8`$ adjacency form ($`W`$ spin, unique characteristic class $`0`$); every class carries non-orientable embedded surfaces with the mod-4 invariant menu; the Galois node is the short-arm curve, mod 2 one of the $`120`$ root classes. The structural finding: the interior mod-2/mod-4 homology is Galois-blind, the Möbius and Galois channels occupy disjoint slots, and Step 4 is revised to a three-ingredient identity. Scope: no surface insertion and no index formula; those are Step 4. Numerical claims are exact; the worksheet is [step3-interior-classes.test.py](step3-interior-classes.test.py).
+**Status (2026-07-01):** Closed. The three staged items are computed: $`H_2(W;\mathbb{Z}_2)=\mathbb{Z}_2^8`$ carries the $`E_8`$ adjacency form ($`W`$ spin, unique characteristic class $`0`$); every class carries non-orientable embedded surfaces with the mod-4 invariant menu; the Galois node is the short-arm curve, mod 2 one of the $`120`$ root classes. The structural finding: the interior mod-2/mod-4 homology is Galois-blind, the Möbius and Galois channels occupy disjoint slots, and Step 4 is revised to a three-ingredient identity. Scope: no surface insertion and no index formula; those are Step 4. Numerical claims are exact; the worksheet is [step3-interior-classes.test.py](scripts/step3-interior-classes.test.py).
 
 **Related:** [Step 2](step2-analytic-setup.md), [η-gatekeeper (Step 1)](eta-gatekeeper.md), [Postulate bridge](postulate-bridge.md), [Coexact gap](../../bedrock/files/coexact-gap.md).
 
@@ -86,7 +86,7 @@ The three staged-plan items are computed and closed: $`H_2(W;\mathbb{Z}_2)=\math
 - A. Levine, D. Ruberman, S. Strle, *Nonorientable surfaces in homology cobordisms*, Geom. Topol. 19 (2015), arXiv:1310.8516 (Prop. 2.5 congruence; §8 $`\rho`$-invariant obstructions; the with-boundary toolkit for Step 4).
 - P. B. Kronheimer, H. Nakajima, Math. Ann. 288 (1990), Appendix (tautological bundles and the McKay pairing; Step 2's framework).
 - F. van der Blij, *An invariant of quadratic forms mod 8* (the Gauss-sum/signature consistency used in §2).
-- Root-system and quadric counts: standard; verified here by reflection closure and exhaustive enumeration ([step3-interior-classes.test.py](step3-interior-classes.test.py)).
+- Root-system and quadric counts: standard; verified here by reflection closure and exhaustive enumeration ([step3-interior-classes.test.py](scripts/step3-interior-classes.test.py)).
 
 ---
 

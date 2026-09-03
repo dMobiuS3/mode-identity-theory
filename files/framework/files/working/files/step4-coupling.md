@@ -5,7 +5,7 @@
 
 # Step 4 of the postulate bridge, part two: the coupling identity
 
-**Status (2026-07-01):** Closed; the terminal document of the staged route. The three-ingredient identity degenerates, and the degeneration is proved, not estimated: along every restriction-route formula with the canonical pullback coefficient bundle, the Möbius ingredient couples to the Galois sector with coefficient exactly zero (the triviality lemma: every coefficient built on $`W`$ restricts rank-trivially to the characteristic slot). The negative is route-specific, per the program's standing standard; the positive residue, the boundary-interior gauge dictionary, survives as theorems. Worksheet: [step4-coupling.test.py](step4-coupling.test.py) (sanity check on the evaluations, not a substitute for the route scoping).
+**Status (2026-07-01):** Closed; the terminal document of the staged route. The three-ingredient identity degenerates, and the degeneration is proved, not estimated: along every restriction-route formula with the canonical pullback coefficient bundle, the Möbius ingredient couples to the Galois sector with coefficient exactly zero (the triviality lemma: every coefficient built on $`W`$ restricts rank-trivially to the characteristic slot). The negative is route-specific, per the program's standing standard; the positive residue, the boundary-interior gauge dictionary, survives as theorems. Worksheet: [step4-coupling.test.py](scripts/step4-coupling.test.py) (sanity check on the evaluations, not a substitute for the route scoping).
 
 **Related:** [Step 4, part one](step4-bookkeeping.md), [Step 3](step3-interior-classes.md), [Step 2](step2-analytic-setup.md), [η-gatekeeper (Step 1)](eta-gatekeeper.md), [Postulate bridge](postulate-bridge.md).
 
@@ -69,7 +69,7 @@ Step 4 part two is closed, negative route-specifically and positive where it mat
 - L. Guillou, A. Marin (the congruence and its branched-cover/pin proof mechanism); N. Saveliev, *Invariants for Homology 3-Spheres* (the with-boundary form with the Rokhlin correction).
 - P. B. Kronheimer, H. Nakajima, Math. Ann. 288 (1990) (tautological bundles, $`c_1`$ dual basis, the index identities of part one).
 - Steps 1-3 and part one of this program (the eta-gatekeeper; the analytic setup and sign; the interior classes; the bookkeeping identities), this working folder.
-- Worksheet: [step4-coupling.test.py](step4-coupling.test.py) (the restriction evaluations and the Galois-difference cancellation, exact; a sanity check on the lemma's evaluations, not a substitute for the route scoping of §§1-3).
+- Worksheet: [step4-coupling.test.py](scripts/step4-coupling.test.py) (the restriction evaluations and the Galois-difference cancellation, exact; a sanity check on the lemma's evaluations, not a substitute for the route scoping of §§1-3).
 
 ---
 
