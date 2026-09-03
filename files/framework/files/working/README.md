@@ -75,8 +75,7 @@ The $`S \mapsto N_\text{max}(S)`$ Molien shell-unlock map that sets the accessib
 
 ### `gate:three-halves-identity`
 **State:** Open · **Frontier:** Dynamics
-Whether the clock $`3/2`$ and the Gauss-Codazzi $`3/2`$, numerically equal, are the same object.
-**Worked by:** none currently — `temporal-budget.md` and `friedmann-as-output.md` are both blocked by it.
+Whether the clock $`3/2`$ and the Gauss-Codazzi $`3/2`$, numerically equal, are the same object. No page currently works this gate; two Dynamics programs are blocked by it and none is resolving it.
 
 ### `gate:variational-independence-bar`
 **State:** Open · **Frontier:** Dynamics
