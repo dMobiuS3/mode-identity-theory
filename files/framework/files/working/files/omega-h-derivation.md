@@ -5,11 +5,15 @@
 
 # Ω_H(Θ): Frozen Derivation Question
 
+**Type:** Program
+**State:** Blocked
+**Status (2026-07-16):** OPEN, frozen before any attempt: derive Ω_H(Θ) for a specified observer congruence. Blocked on the congruence choice — the static channel gives p=2, a freely-falling one p=4 or a nonzero constant, so the black-hole compound limit is underdetermined until the clock field is specified.
+**Summary:** The frozen question of deriving Ω_H(Θ) near a horizon, whose value gates whether the black-hole double-zero limit is determinate.
+**Inputs:** `../../../../cosmos/files/black-hole.md` §II (where the question originates), §VIII.1 (the Φ→Θ mapping)
+
 > Do not assume that the compound scaling-law limit vanishes.
 
-**Status:** OPEN. This is a research question, not a derivation in progress. It is frozen here, before any attempt, specifically so a later attempt cannot be shaped by wanting to recover [Black Double Zero's](../../../../cosmos/files/black-hole.md)'s title mechanism. A negative or inconclusive result is as valid an outcome as a positive one and does not require another retreat from that page; the page has already been corrected independent of how this resolves. §V records a partial result: the exterior static channel gives $`p=2`$ for any stationary clock field with a fixed Killing frequency; the free-fall channel is underdetermined, since the framework has no field equation fixing the clock's extension into the geometry. This does not select a preferred $`\Omega_H`$ and is not written back to that page (per §IV below).
-
-**Dependencies:** [Black Double Zero's](../../../../cosmos/files/black-hole.md) §II (where this question originates), §VIII.1 (the derived $`\Phi \to \Theta`$ mapping for $`C(\Theta)`$, which this question does not revisit).
+OPEN. This is a research question, not a derivation in progress. It is frozen here, before any attempt, specifically so a later attempt cannot be shaped by wanting to recover [Black Double Zero's](../../../../cosmos/files/black-hole.md)'s title mechanism. A negative or inconclusive result is as valid an outcome as a positive one and does not require another retreat from that page; the page has already been corrected independent of how this resolves. §V records a partial result: the exterior static channel gives $`p=2`$ for any stationary clock field with a fixed Killing frequency; the free-fall channel is underdetermined, since the framework has no field equation fixing the clock's extension into the geometry. This does not select a preferred $`\Omega_H`$ and is not written back to that page (per §IV below).
 
 ---
 

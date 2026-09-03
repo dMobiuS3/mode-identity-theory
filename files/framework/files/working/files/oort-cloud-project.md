@@ -5,11 +5,15 @@
 
 # Oort Cloud Project: Nested Coherence Domains and the Realization Boundary
 
+**Type:** Program
+**State:** Active
+**Status (2026-07-15):** Working bench: Section II derived, Section III joints under load, Section IV pieces motivated, Section V gaps. The central question is whether the 120-grid nests at every gravitationally coherent scale.
+**Summary:** Asks whether MIT's structure projects into every gravitationally coherent scale, making the Oort Cloud the solar-scale coherence boundary.
+**Inputs:** the Sector A eigenvalue, the phase-field coherence scale (L_f SPARC-falsified, L_g open), the 120-grid scale-free projection, the 3/2 conversion
+
 > The grid doesn't set a size; it sets a structure.
 
-**Status:** Working bench. Locked parts (Section II) are derived. Joints (Section III) are under load. Pieces (Section IV) are motivated but not yet joined. Gaps (Section V) are genuinely open.
-
-**Dependencies:** Sector $`\mathcal{A}`$ eigenvalue, phase field coherence scale $`L_f`$ (tested, falsified by SPARC; the unknown galactic coherence scale is $`L_g`$), 120-grid scale-free projection, 3/2 conversion (Gauss lift + de Sitter vacuum).
+Working bench. Locked parts (Section II) are derived. Joints (Section III) are under load. Pieces (Section IV) are motivated but not yet joined. Gaps (Section V) are genuinely open.
 
 **Related:** [Cone point coherence notes](cone-point-coherence.md) (geometric mechanism behind $`L_f`$), [SPARC phase field notes](sparc-phase-field.md) (empirical test of $`L_f`$ across 175 galaxies), [Black Double Zero's](../../../../cosmos/files/black-hole.md) §VIII.1 (the killed absolute-$`\Phi`$ bridge to the horizon, Joint 4).
 

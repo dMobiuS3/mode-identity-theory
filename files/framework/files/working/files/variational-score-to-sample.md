@@ -5,11 +5,15 @@
 
 # Variational Score-to-Sample Program
 
-**Status (2026-09-02):** WORKING / MOTIVATED. Ledger effect: none. Engine effect: none. Nothing on this page is derived: no candidate MIT functional is fixed, and no lapse equation is solved. The page fixes the corpus conventions any candidate must respect, states the two-level action architecture, names the one bounded computation, and pre-registers its PASS and FAIL conditions before it is run. This is the working program behind the variational reading recorded on the [postulate bridge](postulate-bridge.md).
+**Type:** Program
+**State:** Active
+**Status (2026-09-02):** WORKING / MOTIVATED. Nothing derived: no functional fixed, no lapse equation solved. The page fixes the conventions any candidate must respect and pre-registers its PASS/FAIL before running.
+**Summary:** Frames the dynamics problem as a variational principle for the global score-to-sample relation; the program page for the variational reading, which works the exponent derivation rather than waiting on it.
+**Inputs:** `postulate-bridge.md`, `temporal-budget.md`, `friedmann-as-output.md`, `stress-tensor-bridge.md`, the engine (chronon, sign flip, Hubble clock)
+
+WORKING / MOTIVATED. Ledger effect: none. Engine effect: none. Nothing on this page is derived: no candidate MIT functional is fixed, and no lapse equation is solved. The page fixes the corpus conventions any candidate must respect, states the two-level action architecture, names the one bounded computation, and pre-registers its PASS and FAIL conditions before it is run. This is the working program behind the variational reading recorded on the [postulate bridge](postulate-bridge.md).
 
 **Primary promotion gate:** derive the observer lapse $`N = S^{1/2}`$ from the native global functional, without inserting the exponent by hand.
-
-**Dependencies:** [Postulate Bridge](postulate-bridge.md) (the variational reading this page expands, and the Tier 2 / Tier 3 arms it lies over), [Temporal Budget](temporal-budget.md) (the budget identity $`\Psi^2 + S^2 = 1`$ and the clock's home), [Friedmann as Output](friedmann-as-output.md) (the $`3/2`$ fence and the R-STAB hazard gate), [The Stress-Tensor Bridge](stress-tensor-bridge.md) (the descent target and the coefficient gate), [engine](../../../README.md) (the chronon $`\pi/30`$, the $`2\pi`$ sign flip and $`4\pi`$ return, and the Hubble clock).
 
 **Related:** [The Waltz](../../../../spectrum/files/the-waltz.md) (the eight-functional well sweep, the recorded null this program must not repeat), [Sampler first test](sampler-first-test.md), [The Tick Lemma](tick-lemma.md), [The Level Exchange](half-power-involution.md).
 

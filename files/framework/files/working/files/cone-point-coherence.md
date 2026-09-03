@@ -5,11 +5,15 @@
 
 # Cone Point Coherence
 
+**Type:** Program
+**State:** Active
+**Status (2026-09-02):** The cosmic cone point is derived; the nested-coherence reading is motivated and the galactic-scale Frobenius program is open. SPARC removed L_f as the coherence radius, so the curvature-sourcing question now stands against an unknown L_g.
+**Summary:** Asks whether galactic coherence is the W-independence of a nested cone-point eigenvalue problem, and what sources the galactic-scale curvature.
+**Inputs:** the Sector A cone-point analysis (`../../bedrock/files/first-eigenvalue.md`), the 120-grid scale-free projection, the phase-field coherence scale (L_f SPARC-falsified, L_g open)
+
 Working notes on the cone point as the mechanism of galactic coherence.
 
-**Status:** The cosmic cone point analysis is DERIVED (Sector $`\mathcal{A}`$ paper). The proposal that cone point identification provides the mechanism of nested coherence is MOTIVATED. The Frobenius program at galactic scale is OPEN. The curvature sourcing question (Section V) is the critical open problem. The pre-registered SPARC test ([sparc-phase-field.md](sparc-phase-field.md), run 2026-05-19) found that $`L_f = v_c^2/a_0`$ does not behave like a single galactic coherence radius: the gravitational transition lands at $`\approx 0.38\,L_f`$ and the flat onset at $`\approx 1.26\,L_f`$, and the transition radius tracks baryonic mass more tightly than $`L_f`$. This removes the empirical anchor for Reading B (the nested galactic cone point at $`L_f`$); Reading A (the cosmic cone point) and the Frobenius chain (Section VII) are untouched.
-
-**Dependencies:** Sector $`\mathcal{A}`$ cone point analysis (Frobenius/bridging extension/excision; the [first-eigenvalue paper](../../bedrock/files/first-eigenvalue.md) shows Friedrichs carries a discontinuous zero mode at $`n=0`$), 120-grid scale-free projection, phase field coherence scale ($`L_f`$ SPARC-falsified; $`L_g`$ open).
+The cosmic cone point analysis is DERIVED (Sector $`\mathcal{A}`$ paper). The proposal that cone point identification provides the mechanism of nested coherence is MOTIVATED. The Frobenius program at galactic scale is OPEN. The curvature sourcing question (Section V) is the critical open problem. The pre-registered SPARC test ([sparc-phase-field.md](sparc-phase-field.md), run 2026-05-19) found that $`L_f = v_c^2/a_0`$ does not behave like a single galactic coherence radius: the gravitational transition lands at $`\approx 0.38\,L_f`$ and the flat onset at $`\approx 1.26\,L_f`$, and the transition radius tracks baryonic mass more tightly than $`L_f`$. This removes the empirical anchor for Reading B (the nested galactic cone point at $`L_f`$); Reading A (the cosmic cone point) and the Frobenius chain (Section VII) are untouched.
 
 **Related:** [First Eigenvalue](../../bedrock/files/first-eigenvalue.md), [Black Double Zero's](../../../../cosmos/files/black-hole.md), [Oort Cloud project](oort-cloud-project.md), [SPARC phase field notes](sparc-phase-field.md).
 
