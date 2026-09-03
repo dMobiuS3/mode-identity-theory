@@ -5,6 +5,11 @@
 
 # Claim Ledger: Skeptical Audit of Quantitative Claims
 
+**Type:** Map
+**State:** Active
+**Status (2026-09-01):** Framework-wide adversarial classification of every quantitative claim; the reconciliation and eight-cycle web are current, with Cycles 2 (α as both input and output) and 7 (the R routes ~3.2x apart) the live tensions.
+**Summary:** An audit lens over the whole framework, classifying each claim by epistemic type and role and drawing the calibration web's cycles. It indexes claims owned by other pages; it owns no research question.
+
 *Working note, 2026-06-26. This is an internal adversarial classification of every quantitative claim in the framework, not the framework's self-description. It was built by a deliberately skeptical audit (calibration anchors are not counted as successes, retrodictions are separated from forward predictions, claims sharing a calibration path are grouped rather than double-counted). Its purpose is to keep the public pages honest about what is proved, what is calibrated, what is compared, and what remains a forward bet. Read the verdicts as the prosecution's strongest case, not the final word: some flags are clean hits, a few are the lens being harsh on purpose.*
 
 ## How to read this

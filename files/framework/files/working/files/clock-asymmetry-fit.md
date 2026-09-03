@@ -5,7 +5,16 @@
 
 # The Clock-Asymmetry Fit
 
-**Status (2026-07-05):** REGISTRATION, frozen before any run; EXECUTED same day from lambda-cos tag `eps-family-v1.0`, results commit `6e95fed`. **Verdict: row 3 of the frozen table fired: zero excluded at 95% in both tiers ($`\hat\epsilon = -0.106`$); P2 challenged; see Results.** The registered expectation failed and is recorded as such. This is the P2 measurement track of the [half-power clock](friedmann-as-output.md): one premise, one parameter, nothing else. The specification below is complete enough to execute mechanically in the Λcos pipeline at its next session; results land in a single commit filling the Results section, with no re-runs, no post-hoc priors, and no added parameters. This note cannot flip any label, and it contains no entropy, Molien, or model-building content by design.
+**Type:** Test
+**State:** Closed
+**Verdict:** Inconclusive
+**Status (2026-07-05):** Registered and executed same day (tag eps-family-v1.0, results 6e95fed). Row 3 fired: ε=0 excluded at 95% in both tiers (ε̂=−0.106), but the dial is contaminated as a P2 probe on this data, so it neither confirms nor cleanly refutes; the flip gate (row 1) did not fire.
+**Summary:** The registered measurement track for P2: a continuous kernel-asymmetry fit scoring whether the observer clock exponent departs from the symmetric point.
+**Inputs:** `tick-lemma.md`, `sampling-kernel-symmetry.md`, `temporal-budget.md`, the Λcos Model D+Λ pipeline
+**Parent:** `tick-lemma.md`
+**Frozen:** 2026-07-05 the registration, the slice table, the priors, and the verdict table (frozen before any run)
+
+REGISTRATION, frozen before any run; EXECUTED same day from lambda-cos tag `eps-family-v1.0`, results commit `6e95fed`. **Verdict: row 3 of the frozen table fired: zero excluded at 95% in both tiers ($`\hat\epsilon = -0.106`$); P2 challenged; see Results.** The registered expectation failed and is recorded as such. This is the P2 measurement track of the [half-power clock](friedmann-as-output.md): one premise, one parameter, nothing else. The specification below is complete enough to execute mechanically in the Λcos pipeline at its next session; results land in a single commit filling the Results section, with no re-runs, no post-hoc priors, and no added parameters. This note cannot flip any label, and it contains no entropy, Molien, or model-building content by design.
 
 **Related:** [The Tick Lemma](tick-lemma.md) (where the family arises as the residual of L1-L3), [The Sampling Kernel's Symmetry](sampling-kernel-symmetry.md) (the theorem track; independent, and not evidence about $`\epsilon`$'s value), [Temporal Budget](temporal-budget.md) (the baseline model and data), [The Half-Power Clock](friedmann-as-output.md).
 

@@ -9,6 +9,56 @@ Research-in-progress across the framework. Organized by status: an orienting map
 
 ---
 
+## :closed_lock_with_key: Research Gates
+
+A gate is a *result, not a date*: a hard mathematical or physical prerequisite, shared across at least two distinct research programs, that must resolve before downstream work can advance. A page names a gate it is waiting on with `**Gated by:**`; a page trying to resolve one is listed here under `**Worked by:**`. A page may work a gate or be gated by it, never both for the same gate. Registry state changes are propagation events: closing a gate stales every page that named it.
+
+### `gate:commutant`
+**State:** Open · **Frontier:** Selection
+The no-cross-term / observable-commutant result $`\mathcal{A}_\text{obs} = \mathcal{A}_\Theta \otimes \mathcal{A}_\text{spec}`$ the scaling law's factored form requires.
+**Worked by:** `scaling-law-uniqueness.md`
+
+### `gate:selection-rule`
+**State:** Open · **Frontier:** Selection
+Why the realized wells, grids, and exponents are selected from the topology, rather than adopted as a postulate.
+**Worked by:** `fibonacci-wells.md`, `scaling-law-uniqueness.md`
+
+### `gate:r-determination`
+**State:** Open · **Frontier:** Calibration
+Which independent route fixes the curvature radius $`R`$; the coupling and mass-spectrum routes stand ~3.2x apart.
+**Worked by:** `r-from-mass-spectrum.md`
+
+### `gate:amplitude-stress-tensor-dictionary`
+**State:** Open · **Frontier:** Dynamics
+The amplitude-to-$`T_{\mu\nu}`$ / $`E(S)`$ dictionary that would make the $`\Psi^2 \to S^2`$ transfer a stress-energy counterparty. Closing it is downstream of the physical-$`\Lambda`$ interface question.
+**Worked by:** `stress-tensor-bridge.md`
+
+### `gate:clock-exponent-derivation`
+**State:** Open · **Frontier:** Dynamics
+Derive the Waltz clock exponent $`dt/d\tau = S^{-1/2}`$ from the postulate layer, without importing it from GR.
+**Worked by:** `friedmann-as-output.md`, `variational-score-to-sample.md`
+
+### `gate:shell-unlock-map`
+**State:** Open · **Frontier:** Dynamics
+The $`S \mapsto N_\text{max}(S)`$ Molien shell-unlock map that sets the accessible mode count $`W_\text{modes}(S)`$.
+**Worked by:** `entropy-as-realization-budget.md`
+
+### `gate:three-halves-identity`
+**State:** Open · **Frontier:** Dynamics
+Whether the clock $`3/2`$ and the Gauss-Codazzi $`3/2`$, numerically equal, are the same object.
+
+### `gate:variational-independence-bar`
+**State:** Open · **Frontier:** Dynamics
+Whether a global score-to-sample functional can be motivated independently of the target exponent, then varied to yield it.
+**Worked by:** `variational-score-to-sample.md`
+
+### `gate:galactic-curvature-sourcing`
+**State:** Open · **Frontier:** (galactic-scale thread, outside the Dynamics / Selection / Calibration triad)
+What sources the curvature $`K_g`$ at galactic scale; GR tidal curvature in the flat-curve regime is structurally non-oscillatory.
+**Worked by:** `cone-point-coherence.md`, `oort-cloud-project.md`
+
+---
+
 ## :world_map: Maps
 
 Orienting notes that index other work.
