@@ -38,11 +38,15 @@ Field semantics, load-bearing:
 
 `Related:` is retained untouched and is out of this schema's scope for now.
 
+The metadata records the current research state; it does not replace the research record. Page bodies remain authoritative for derivation history, branch outcomes, and detailed adjudication.
+
 ---
 
 ## :closed_lock_with_key: Research Gates
 
 A gate is a *result, not a date*: a hard mathematical or physical prerequisite, shared across at least two distinct research programs, that must resolve before downstream work can advance. A page names a gate it is waiting on with `**Gated by:**`; a page trying to resolve one is listed here under `**Worked by:**`. A page may work a gate or be gated by it, never both for the same gate. Registry state changes are propagation events: closing a gate stales every page that named it.
+
+Two facts this registry makes visible. `gate:three-halves-identity` has dependents but no worker: two Dynamics programs are blocked by it and no page is currently resolving it. And the Frontier's Calibration-closure problem has no registered gate: the R-determination question that would be one was demoted as a single program's open question, so Calibration closure is tracked by [The R Problem](files/r-problem.md) directly rather than through a gate.
 
 ### `gate:commutant`
 **State:** Open · **Frontier:** Selection
@@ -72,6 +76,7 @@ The $`S \mapsto N_\text{max}(S)`$ Molien shell-unlock map that sets the accessib
 ### `gate:three-halves-identity`
 **State:** Open · **Frontier:** Dynamics
 Whether the clock $`3/2`$ and the Gauss-Codazzi $`3/2`$, numerically equal, are the same object.
+**Worked by:** none currently — `temporal-budget.md` and `friedmann-as-output.md` are both blocked by it.
 
 ### `gate:variational-independence-bar`
 **State:** Open · **Frontier:** Dynamics
