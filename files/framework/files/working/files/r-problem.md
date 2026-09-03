@@ -5,7 +5,12 @@
 
 # The R Problem
 
-**Status (2026-09-01):** Two live routes, and they do not close on one value. The coupling (α) route pins Ω_Λ, hence R ≈ 6.1 Gpc, returning Λ_ref as a conditional output about 23% below the measured value; the mass-spectrum route is an independent cross-check at order of magnitude, spanning R ≈ 10.5 to 20 Gpc depending on the assigned pair read. Whether the reference coefficient is the physical Λ remains the Interface question. This note tracks every route to an independent curvature radius R and where each stands; it sits above the detail in [r-from-mass-spectrum.md](r-from-mass-spectrum.md).
+**Type:** Map
+**State:** Active
+**Status (2026-09-01):** Two live routes to R that do not close on one value: the coupling route pins Ω_Λ (R ≈ 6.1 Gpc, Λ_ref ~23% low) and the mass-spectrum route cross-checks at order of magnitude (R ≈ 10.5-20 Gpc). Whether Λ_ref is the physical Λ is the Interface question.
+**Summary:** The map of every route to an independent curvature radius R and where each stands; it surveys the routes and delegates the mass-route detail without owning it.
+
+Two live routes, and they do not close on one value. The coupling (α) route pins Ω_Λ, hence R ≈ 6.1 Gpc, returning Λ_ref as a conditional output about 23% below the measured value; the mass-spectrum route is an independent cross-check at order of magnitude, spanning R ≈ 10.5 to 20 Gpc depending on the assigned pair read. Whether the reference coefficient is the physical Λ remains the Interface question. This note tracks every route to an independent curvature radius R and where each stands; it sits above the detail in [r-from-mass-spectrum.md](r-from-mass-spectrum.md).
 
 **Related:** [R from the mass spectrum](r-from-mass-spectrum.md), [Calibration Structure](calibration-structure.md), [Scaling Law Uniqueness](scaling-law-uniqueness.md).
 

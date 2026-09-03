@@ -5,6 +5,12 @@
 
 # R from the Particle Mass Spectrum
 
+**Type:** Program
+**State:** Closed
+**Status (2026-07-28):** Executed 2026-06-15, the assigned-pair scan tightened 2026-07-28: the mass route determines R independently of Λ, the CMB, and de Sitter, breaking the circularity at order-of-magnitude precision (R ~ 20 Gpc). The third and only non-excluded route.
+**Summary:** Determines the curvature radius R from the fermion mass formula's dependence on the hierarchy factor, the mass-sector route to R.
+**Inputs:** the fermion mass formula and torsion table, the McKay residual scatter (precision floor), the Ω_Λ hierarchy
+
 Working notes on determining the curvature radius R independently of Λ, the CMB, and the de Sitter relation, using the mass formula's dependence on the hierarchy factor Ω_Λ.
 
 **Status:** EXECUTED (2026-06-15). Order-of-magnitude result. The route runs and genuinely breaks the circularity, but the precision ceiling is about 1 order of magnitude, not the few percent originally targeted. Electron and muon give R ≈ 20 Gpc, Λ ≈ 8.1 × 10⁻⁵⁴ m⁻², about 13.4× below the observed 1.089 × 10⁻⁵². The 2026-07-28 torsion correction improves this: with the top now well-fit at (R2, triv), the muon-top pair infers Λ within 3.8× (about half an order of magnitude), the best of any assigned pair, and electron-muon remains the lepton-only cross-check. See the Result section.

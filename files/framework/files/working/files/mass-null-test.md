@@ -5,13 +5,19 @@
 
 # The Torsion Null Test
 
-**Status:** v1.0 EXECUTED (2026-07-11, Results below); **v1.1 EXECUTED (2026-07-28: registered §IX, run §X, $`p_A = 0.690`$, uninformative band)** against the corrected torsion table. The v1.0 record (§I-§VIII and its Results) is the frozen history of the pre-correction run and is not edited; v1.1 changes the inputs only and retains the statistic, the four nulls, the scoring rule, the seed, and the decision bands verbatim.
+**Type:** Test
+**State:** Closed
+**Verdict:** Uninformative
+**Status (2026-07-28):** v1.1 executed (p_A = 0.690): randomly reassigning the 24 torsion factors across the fixed quantum-number slots reproduces or exceeds the observed ×3 coverage in 69% of draws, so the proximity count is uninformative about the specific torsion values. The structural outputs and outliers carry the weight.
+**Summary:** A pre-registered null test asking whether the mass scorecard's within-×3 hit rate carries information about the specific torsion values, or is density.
+**Inputs:** the mass formula and 24-entry table (mass-spectrum §II-III), the torsion tables, the Coxeter-Galois gate and stabilizer decompositions
+**Frozen:** 2026-07-11 the v1.0 design and 2026-07-28 the v1.1 registration, each frozen before its run
+
+v1.0 EXECUTED (2026-07-11, Results below); **v1.1 EXECUTED (2026-07-28: registered §IX, run §X, $`p_A = 0.690`$, uninformative band)** against the corrected torsion table. The v1.0 record (§I-§VIII and its Results) is the frozen history of the pre-correction run and is not edited; v1.1 changes the inputs only and retains the statistic, the four nulls, the scoring rule, the seed, and the decision bands verbatim.
 
 > **Re-baselined to the canonical torsion table (2026-07-11).** The torsion inputs are the canonical values from [mass-spectrum](../../../../spectrum/files/mass-spectrum.md) §4, including $`T^2(R_0) = 1`$: the canonical topological value of the non-acyclic trivial local system, not a constant chosen for convenience. This re-baseline updated only the *inputs the test reads*. The statistic, the four nulls, the scoring rule, the RNG seed (120), and the §VII decision bands are unchanged from the pre-correction design. Input error is correctable; the statistic and verdict bands are retained unchanged and are proposed for freeze, the same line drawn for the mass table. The null statistic is $`S_1 = 6`$ (a compatible-coverage count) while the public headline is 5-of-8 (an assignment count); §I explains why the two differ by exactly one fermion.
 
 **The claim under audit** ([mass-spectrum.md](../../../../spectrum/files/mass-spectrum.md), §III): the ×3 proximity comparison. Under the compatible-coverage reading (§I), $`S_1 = 6`$ of the 8 scored charged fermions have a quantum-number-compatible entry within a factor of 3 (down outside at 3.22, charm without a compatible entry). The page's assignment headline is 5 of 8; §I explains the one-fermion difference. The page states the caveat this test quantifies: "at this entry density a measured mass sits near some entry largely by counting."
-
-**Dependencies:** mass formula and 24-entry table (mass-spectrum.md §II-III), torsion tables (§II.4), Coxeter-Galois gate and stabilizer decompositions (§IV), PDG masses as frozen below.
 
 **Related:** [Claim Ledger](claim-ledger.md), [McKay Propagator Correction](mckay-propagator-correction.md) (negative on the pre-correction table, reopened on the corrected one; its residual scatter is context for this test), [R from the Mass Spectrum](r-from-mass-spectrum.md).
 

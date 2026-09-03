@@ -9,8 +9,7 @@
 **State:** Reopened
 **Status (2026-07-28):** Resolved as a negative result on the pre-correction mass table (2026-06-06): no parameter-free propagator or branch-point correction tracked the high-distance residuals. Reopened 2026-07-28 by the half-integer torsion correction, which revised twelve of the twenty-four products; the propagator question is open again against the corrected residuals. Charm remains unplaced.
 **Summary:** Tests whether a parameter-free McKay-propagator or branch-point correction accounts for the high-McKay-distance mass residuals.
-**Inputs:** the fermion mass formula, C_geom and torsion tables, the Coxeter-Galois gate, the McKay graph for 2I
-**Parent:** `../../../../spectrum/files/mass-spectrum.md`
+**Inputs:** the fermion mass formula, C_geom and torsion tables, the Coxeter-Galois gate, the McKay graph for 2I, the maintained scorecard (`../../../../spectrum/files/mass-spectrum.md`)
 **Frozen:** 2026-06-06 the original negative result and its residual/correlation tables
 
 RESOLVED as a negative result on the pre-correction mass table (2026-06-06); **REOPENED 2026-07-28** by the half-integer torsion correction (see the update below). The 2026-06 finding was that the propagator/branch-point correction is eliminated by the signed-residual test, the high-distance residual being scatter rather than a correctable distance trend, with down and tau as two separate standing anomalies missing in opposite directions. That residual landscape no longer obtains: on the corrected table both are overshoots. Everything from the Result section down is preserved unedited as the 2026-06 record.

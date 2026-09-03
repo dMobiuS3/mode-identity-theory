@@ -10,8 +10,7 @@
 **Verdict:** Negative
 **Status (2026-09-02):** The discrete two-cluster prediction is not supported (dip test fails to reject unimodality; GMM ΔBIC < 1.2). The V-A respecification against the three-valued lattice removed the specification defect and still returns no lattice-specific evidence: the middle component carries weight zero in all eight cells.
 **Summary:** Tests whether published H₀ determinations cluster into the discrete states the hubble-tension §V fork predicts, or form a continuous spread.
-**Inputs:** `hubble-tension.md` (§V fork, §II lattice), the 18-determination compilation, `sparc-phase-field.md`
-**Parent:** `../../../../cosmos/files/hubble-tension.md`
+**Inputs:** `../../../../cosmos/files/hubble-tension.md` (§V fork, §II lattice), the 18-determination compilation, `sparc-phase-field.md`
 **Frozen:** 2026-05-19 the original 18-row data table and adjudication (the TRGB/CCHP row kept so the original run stays reproducible)
 
 Analysis complete (2026-05-19). Exploratory, not pre-registered. The discrete two-cluster prediction is not supported; the Section V fork leans continuous.
