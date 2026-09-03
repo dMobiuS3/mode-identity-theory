@@ -5,7 +5,13 @@
 
 # Step 3 of the postulate bridge: the interior classes mod 2
 
-**Status (2026-07-01):** Closed. The three staged items are computed: $`H_2(W;\mathbb{Z}_2)=\mathbb{Z}_2^8`$ carries the $`E_8`$ adjacency form ($`W`$ spin, unique characteristic class $`0`$); every class carries non-orientable embedded surfaces with the mod-4 invariant menu; the Galois node is the short-arm curve, mod 2 one of the $`120`$ root classes. The structural finding: the interior mod-2/mod-4 homology is Galois-blind, the Möbius and Galois channels occupy disjoint slots, and Step 4 is revised to a three-ingredient identity. Scope: no surface insertion and no index formula; those are Step 4. Numerical claims are exact; the worksheet is [step3-interior-classes.test.py](scripts/step3-interior-classes.test.py).
+**Type:** Result
+**State:** Closed
+**Status (2026-07-01):** The interior mod-2 classes are computed and are Galois-blind, so the boundary's Galois asymmetry cannot reach the interior through bare homology; it must run through the tautological decoration.
+**Summary:** Computes the interior mod-2 homology classes of the E8 filling and shows they are Galois-blind, the Step-3 result of the bridge's staged route.
+**Parent:** `postulate-bridge.md`
+
+Closed. The three staged items are computed: $`H_2(W;\mathbb{Z}_2)=\mathbb{Z}_2^8`$ carries the $`E_8`$ adjacency form ($`W`$ spin, unique characteristic class $`0`$); every class carries non-orientable embedded surfaces with the mod-4 invariant menu; the Galois node is the short-arm curve, mod 2 one of the $`120`$ root classes. The structural finding: the interior mod-2/mod-4 homology is Galois-blind, the Möbius and Galois channels occupy disjoint slots, and Step 4 is revised to a three-ingredient identity. Scope: no surface insertion and no index formula; those are Step 4. Numerical claims are exact; the worksheet is [step3-interior-classes.test.py](scripts/step3-interior-classes.test.py).
 
 **Related:** [Step 2](step2-analytic-setup.md), [η-gatekeeper (Step 1)](eta-gatekeeper.md), [Postulate bridge](postulate-bridge.md), [Coexact gap](../../bedrock/files/coexact-gap.md).
 

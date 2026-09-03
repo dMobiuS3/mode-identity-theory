@@ -5,7 +5,13 @@
 
 # Step 4 of the postulate bridge, part one: the bookkeeping
 
-**Status (2026-07-01):** Closed (part one of Step 4). The four items carried from Steps 2-3 are closed by exact computation, and the three ingredients of the revised Step 4 now compute in one currency, character sums on $`2I`$: the odd-signature rho is an affine function of the KN Dirac-type sums (the conversion identity, gate value $`-8/5=4\,\Delta D`$); the KN tautological K-class is pinned, its charges reproducing the Step-2 Chern-Simons web mod 1 in all four sectors; the boundary sign convention is pinned ($`\eta_{\mathrm{Dir}}=1079/720`$ on $`+\Sigma`$), triply locked; and $`\bar\mu=-1`$, verified exactly through Ruberman-Saveliev. Part two is resolved in [Step 4, part two](step4-coupling.md): route-specific decoupling, with the gauge dictionary as the positive residue. Numerical claims are exact; the worksheet is [step4-bookkeeping.test.py](scripts/step4-bookkeeping.test.py).
+**Type:** Result
+**State:** Closed
+**Status (2026-07-04):** Part one closed: the four bookkeeping items are assembled, with the Degeratu sign caveat applied.
+**Summary:** Assembles the index-theoretic bookkeeping for the bridge coupling calculation, part one of Step 4.
+**Parent:** `postulate-bridge.md`
+
+Closed (part one of Step 4). The four items carried from Steps 2-3 are closed by exact computation, and the three ingredients of the revised Step 4 now compute in one currency, character sums on $`2I`$: the odd-signature rho is an affine function of the KN Dirac-type sums (the conversion identity, gate value $`-8/5=4\,\Delta D`$); the KN tautological K-class is pinned, its charges reproducing the Step-2 Chern-Simons web mod 1 in all four sectors; the boundary sign convention is pinned ($`\eta_{\mathrm{Dir}}=1079/720`$ on $`+\Sigma`$), triply locked; and $`\bar\mu=-1`$, verified exactly through Ruberman-Saveliev. Part two is resolved in [Step 4, part two](step4-coupling.md): route-specific decoupling, with the gauge dictionary as the positive residue. Numerical claims are exact; the worksheet is [step4-bookkeeping.test.py](scripts/step4-bookkeeping.test.py).
 
 **Related:** [Step 3](step3-interior-classes.md), [Step 2](step2-analytic-setup.md), [η-gatekeeper (Step 1)](eta-gatekeeper.md), [Postulate bridge](postulate-bridge.md).
 

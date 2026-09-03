@@ -5,7 +5,13 @@
 
 # Step 4 of the postulate bridge, part two: the coupling identity
 
-**Status (2026-07-01):** Closed; the terminal document of the staged route. The three-ingredient identity degenerates, and the degeneration is proved, not estimated: along every restriction-route formula with the canonical pullback coefficient bundle, the Möbius ingredient couples to the Galois sector with coefficient exactly zero (the triviality lemma: every coefficient built on $`W`$ restricts rank-trivially to the characteristic slot). The negative is route-specific, per the program's standing standard; the positive residue, the boundary-interior gauge dictionary, survives as theorems. Worksheet: [step4-coupling.test.py](scripts/step4-coupling.test.py) (sanity check on the evaluations, not a substitute for the route scoping).
+**Type:** Result
+**State:** Closed
+**Status (2026-07-01):** Part two closed, terminal: the coupling identity holds and the Möbius channel decouples route-specifically, so the staged route closes as a split.
+**Summary:** Proves the coupling identity and the Möbius-channel decoupling, the terminal document of the bridge's staged route, part two of Step 4.
+**Parent:** `postulate-bridge.md`
+
+Closed; the terminal document of the staged route. The three-ingredient identity degenerates, and the degeneration is proved, not estimated: along every restriction-route formula with the canonical pullback coefficient bundle, the Möbius ingredient couples to the Galois sector with coefficient exactly zero (the triviality lemma: every coefficient built on $`W`$ restricts rank-trivially to the characteristic slot). The negative is route-specific, per the program's standing standard; the positive residue, the boundary-interior gauge dictionary, survives as theorems. Worksheet: [step4-coupling.test.py](scripts/step4-coupling.test.py) (sanity check on the evaluations, not a substitute for the route scoping).
 
 **Related:** [Step 4, part one](step4-bookkeeping.md), [Step 3](step3-interior-classes.md), [Step 2](step2-analytic-setup.md), [η-gatekeeper (Step 1)](eta-gatekeeper.md), [Postulate bridge](postulate-bridge.md).
 
