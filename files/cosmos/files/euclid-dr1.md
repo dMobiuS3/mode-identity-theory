@@ -163,6 +163,8 @@ This is the distinctive signature row. The phase-clock $`H^2(z)`$ form contains 
 
 > 🎯 *Outcome to be recorded after the full DR1 release, mid 2027. The coefficient is extracted from spectroscopic BAO precision, a higher-level product held for the full release.*
 
+*Cosmographic-translation note added 2026-09-03, post-freeze; no prediction cell, contender cell, or falsification threshold is edited.* **The same term has a standard cosmographic face.** For $`E^2(z) = A(1+z)^3 - \beta(1+z) + \Omega_\Lambda`$ the present jerk is $`j_0 = 1 + \beta`$, so this row's negative $`(1+z)^1`$ coefficient is the statement $`j_0 > 1`$, against $`j_0 = 1`$ exactly for ΛCDM. It is a translation for the cosmography literature, not a second test and not a second bet: the row's own bound $`\lvert\beta\rvert < 0.012`$ puts $`\lvert j_0 - 1\rvert`$ far inside the uncertainty of current $`j_0`$ determinations, which is of order unity. Nothing is scored on it.
+
 ---
 
 ## :musical_score: Scoreboard
