@@ -28,7 +28,7 @@ The observable domain is not that smooth covering space itself but its quotient 
 <td valign="top">
 
 **[The Firing Order](#the-firing-order)**
-  - The ontological order
+  - The ontological chain
 
 **[One Shape](#one-shape)**
   - Space, Surface, Temporal Edge
