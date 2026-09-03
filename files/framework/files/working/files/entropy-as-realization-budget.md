@@ -5,11 +5,13 @@
 
 # Entropy as Realization Budget
 
+**Type:** Program
+**State:** Active
+**Status (2026-07-07):** MOTIVATED, not derived. The cooling half is established; the entropy half rests on the one unwalked shell-unlock map S↦N_max(S).
+**Summary:** A candidate account of the thermodynamic arrow in a static universe: entropy as the spread of the resolution-amplitude budget over realized modes.
+**Inputs:** `temporal-budget.md`, `redshift-and-cooling.md`, the 2I Molien shell spectrum, the chronon and the 120-domain
+
 A candidate MIT account of the thermodynamic arrow in a static universe, scoped to the realization sector. The temporal budget already cools the universe without an exterior; this note asks where the entropy increase comes from, and answers it only where it can.
-
-**Status:** MOTIVATED. Not derived. Research note for a future paper. The cooling half is ESTABLISHED (see [Redshift and Cooling](redshift-and-cooling.md)); the entropy half rests on one unwalked map.
-
-**Dependencies:** Temporal budget identity $`\Psi^2 + S^2 = 1`$; [Redshift and Cooling](redshift-and-cooling.md) (the temperature reading); energy as resolution amplitude; the $`2I`$-invariant (Molien) shell spectrum of $`S^3/2I`$; the chronon and the 120-domain.
 
 **Related:** [The Budget Map](budget-map.md), [The Temporal Budget Identity](temporal-budget.md), [Energy as Resolution Amplitude](energy-as-resolution-amplitude.md), [The Half-Power Clock](friedmann-as-output.md) (posted cross-constraint on the mode-count map, §IV), [CMB Anomalies](../../../../cosmos/files/cmb-anomalies.md) (the same Molien shells), [The Waltz](../../../../spectrum/files/the-waltz.md).
 

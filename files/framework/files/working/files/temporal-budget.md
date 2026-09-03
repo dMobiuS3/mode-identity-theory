@@ -5,13 +5,18 @@
 
 # The Temporal Budget Identity
 
+**Type:** Program
+**State:** Active
+**Status (2026-08-26):** Established at model level: Model D+Λ fits joint Pantheon+ and DESI DR2 BAO at Δχ² = +0.11 vs flat ΛCDM at equal parameter count. Deriving the clock exponent from the postulate without GR is the open target.
+**Summary:** The temporal budget Ψ²+S²=1 and the Waltz clock as the distance model's engine; the identity whose §VII FORCED clock-exponent line the half-power program targets.
+**Gated by:** `gate:clock-exponent-derivation`, `gate:amplitude-stress-tensor-dictionary`, `gate:three-halves-identity`
+**Inputs:** the spatial budget $`u_0^2 + J^2 = 1`$, the postulate, Pantheon+ and DESI DR2 BAO (Λcos paper)
+
 [![The Phantom Mirage](https://img.youtube.com/vi/23IxzJDo3pM/mqdefault.jpg)](https://www.youtube.com/watch?v=23IxzJDo3pM)
 
 Working notes on the temporal budget $`\Psi^2 + S^2 = 1`$, the Waltz clock $`d\tau_H/dt = S^{1/2}`$, and the Pantheon+ distance fit. $`\Omega_m = 0.315`$ is the flat-closure complement $`1 - \Omega_\Lambda`$ of the fixed vacuum anchor, not read off the fit.
 
-**Status:** Established at model level. With $`S = \sin(t/2)`$ and the Waltz clock, Model D+Λ fits the joint Pantheon+ (1701 SNe Ia) + DESI DR2 BAO (13 data points) dataset at $`\Delta\chi^2 = +0.11`$ relative to flat ΛCDM at equal parameter count (three free parameters: $`s_0`$, $`H_0 r_d`$, $`M_B`$), with $`s_0 < 0.19`$ (95% CL). The earlier Pantheon+-only fit (two free parameters, $`s_0`$, $`H_0`$) gave $`\Delta\chi^2 = +0.6`$; the joint fit supersedes it as the current constraint (§III). $`\Omega_m = 0.315`$ is inherited from the fixed vacuum anchor through flat closure ($`1 - \Omega_\Lambda`$), not recovered from the fitted $`(1+z)^3`$ coefficient (which reads the budget-dressed 0.372 at $`s_0 = 0.389`$, the Pantheon+-only best fit; see §IV). First-principles derivation of the clock exponent from $`S^1 = \partial(\text{Möbius}) \hookrightarrow S^3`$ without invoking GR remains open.
-
-**Dependencies:** Sector $`\mathcal{A}`$ spatial budget $`u_0^2 + J^2 = 1`$; $`S^1 = \partial(\text{Möbius}) \hookrightarrow S^3`$; Pantheon+ and DESI DR2 BAO (Λcos paper).
+Established at model level. With $`S = \sin(t/2)`$ and the Waltz clock, Model D+Λ fits the joint Pantheon+ (1701 SNe Ia) + DESI DR2 BAO (13 data points) dataset at $`\Delta\chi^2 = +0.11`$ relative to flat ΛCDM at equal parameter count (three free parameters: $`s_0`$, $`H_0 r_d`$, $`M_B`$), with $`s_0 < 0.19`$ (95% CL). The earlier Pantheon+-only fit (two free parameters, $`s_0`$, $`H_0`$) gave $`\Delta\chi^2 = +0.6`$; the joint fit supersedes it as the current constraint (§III). $`\Omega_m = 0.315`$ is inherited from the fixed vacuum anchor through flat closure ($`1 - \Omega_\Lambda`$), not recovered from the fitted $`(1+z)^3`$ coefficient (which reads the budget-dressed 0.372 at $`s_0 = 0.389`$, the Pantheon+-only best fit; see §IV). First-principles derivation of the clock exponent from $`S^1 = \partial(\text{Möbius}) \hookrightarrow S^3`$ without invoking GR remains open.
 
 **Related:** [The Budget Map](budget-map.md), [Friedmann as Output](friedmann-as-output.md) (the attack tracker for the clock exponent), [The Waltz](../../../../spectrum/files/the-waltz.md).
 

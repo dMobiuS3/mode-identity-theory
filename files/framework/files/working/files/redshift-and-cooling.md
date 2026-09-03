@@ -5,11 +5,15 @@
 
 # Redshift and Cooling
 
+**Type:** Note
+**State:** Active
+**Status (2026-07-07):** Cooling is established as a kinematic equivalence with the FLRW thermal law; the redshift mechanism is in outline, and the distance side rides on the Waltz clock.
+**Summary:** How a static universe reddens light and cools a thermal bath, both readings of the temporal budget's state S.
+**Inputs:** `temporal-budget.md`, the standing wave $`\Psi = \cos(t/2)`$, the Waltz clock
+
 How a static universe reddens light and cools a thermal bath, both read off the temporal budget's state $`S`$. Redshift is the phase-ratio mechanism; cooling is that same ratio applied to a blackbody.
 
-**Status:** Redshift mechanism in outline (the phase ratio on the standing wave); the full derivation from the postulate to the observed $`H(z)`$ is partially walked. Cooling is ESTABLISHED as a kinematic equivalence with the FLRW thermal law. Both are readings of the temporal budget; the distance side rides on the Waltz clock.
-
-**Dependencies:** Temporal budget identity $`\Psi^2 + S^2 = 1`$; the standing wave $`\Psi = \cos(t/2)`$ on the temporal edge; the Waltz clock (distances).
+Redshift mechanism in outline (the phase ratio on the standing wave); the full derivation from the postulate to the observed $`H(z)`$ is partially walked. Cooling is ESTABLISHED as a kinematic equivalence with the FLRW thermal law. Both are readings of the temporal budget; the distance side rides on the Waltz clock.
 
 **Related:** [The Budget Map](budget-map.md), [The Temporal Budget Identity](temporal-budget.md), [Entropy as Realization Budget](entropy-as-realization-budget.md), [Dark Energy](../../../../cosmos/files/dark-energy.md) (the distance-redshift relation), [The Waltz](../../../../spectrum/files/the-waltz.md).
 

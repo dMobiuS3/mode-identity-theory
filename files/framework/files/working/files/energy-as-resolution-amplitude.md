@@ -5,11 +5,13 @@
 
 # Energy as Resolution Amplitude
 
+**Type:** Note
+**State:** Active
+**Status (2026-09-02):** MOTIVATED, not derived. The reading is permitted by the framework; five promotion steps are named and unwalked.
+**Summary:** A candidate reading of E²=(mc²)²+(pc)² as the Pythagorean theorem on the mode decomposition of the sampling operation.
+**Inputs:** the standing wave $`\Psi = \cos(t/2)`$, the fermion mass formula (engine §5), The Waltz §§V-VI
+
 A candidate MIT reading of $`E^2 = (mc^2)^2 + (pc)^2`$. The framework appears to permit it; the derivation steps are specific and unwalked.
-
-**Status:** MOTIVATED. Not derived. Research note for future paper.
-
-**Dependencies:** Standing wave $`\Psi(t) = \cos(t/2)`$; fermion mass formula (engine §5); The Waltz §§V-VI (masslessness, emergent $`\mathbb{R}^4`$, observer coordinates).
 
 **Related:** [The Budget Map](budget-map.md), [The Waltz](../../../../spectrum/files/the-waltz.md).
 
