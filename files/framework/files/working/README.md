@@ -111,6 +111,14 @@ Orienting notes that index other work.
 
 ---
 
+### [Calibration Structure](files/calibration-structure.md)
+
+**Summary:** Reframes the engine as a calibration scheme: one measured anchor per sector ($`H_0`$ edge, $`\Lambda`$ surface, $`m_e`$ mass-sector normalization), with the topology supplying the exponents, well assignments, and ratios. Localizes the R problem to a single demotion: $`\Lambda`$ moves from absolute prediction to measured calibration input, and nothing downstream collapses. Draft for a new engine section.
+
+**Dependencies:** a0 paper Appendix A.2, Λ eigenvalue, scaling law.
+
+---
+
 ### [The Budget Map](files/budget-map.md)
 
 **Tracker:** The inventory of what is a budget and what is read off one. There is a single conserved budget in this sector, the temporal $`\Psi^2 + S^2 = 1`$ (with the spatial $`u_0^2 + J^2 = 1`$ as its twin); temperature ($`T \propto 1/S`$) and entropy ($`\Sigma = k_B \ln W_\text{micro}`$) are two readings of its state $`S`$, not budgets, and the Waltz clock is a map from phase to time. Pins the distinction so the readings are not miscounted as parallel ledgers, the error the entropy note had to fix.
@@ -119,51 +127,9 @@ Orienting notes that index other work.
 
 ---
 
-## :mountain_snow: Math Foundation
-
-Closing any one of these upgrades everything downstream.
-
----
-
-### [The Postulate Bridge](files/postulate-bridge.md)
-
-**Tracker:** The two bedrock results sit on the two pieces of the postulate $`S^1 = \partial(\text{Möbius}) \hookrightarrow S^3`$, and whether a theorem connects them is open. The naive bridge through the shared $`2/R^2`$ is dead: the surface eigenvalue is $`\Gamma`$-blind and the Ricci floor is the only $`\Gamma`$-independent slot in the gap, so the match is a forced curvature-scale coincidence, not a spectral link, and $`2I`$'s perfectness ($`H^1 = 0`$) closes the orientation route as well. The one live route is index theory on the $`E_8`$ plumbing that $`S^3/2I`$ bounds, where the McKay correspondence identifies the intersection-form $`E_8`$ with the gauge $`E_8`$; the gatekeeper is whether the boundary spectral asymmetry distinguishes the Galois connection $`Q'`$ from $`Q`$ by the same distance-six anomaly that gives the $`36/R^2`$ gap. Steps 1 to 3 are done (the gate is open; the framework and sign are fixed; the interior classes are computed and Galois-blind: [η-gatekeeper](files/eta-gatekeeper.md), [Step 2](files/step2-analytic-setup.md), [Step 3](files/step3-interior-classes.md)); the staged route is now complete, as a split: the gauge dictionary is proved (the $`E_8`$ filling carries the boundary's Galois asymmetry exactly) and the Möbius channel decouples route-specifically ([part one](files/step4-bookkeeping.md), [part two](files/step4-coupling.md)); no universal independence claim is made, and the result is now published as the standalone bedrock pillar [Galois pair](../bedrock/files/galois-pair.md).
-
-A sampler reading of that split is recorded open: the quotient carries the native spectrum while the Möbius geometry supplies a phase-sensitive readout, under which the recorded negatives are what the architecture predicts. Its new object is the observation map $`f = \pi \circ i : M \to S^3/2I`$, which needs no descent of the band as a submanifold, and the sampling operator $`\mathcal O_M`$ it would carry. Its first test, whether an intensity observable factors through $`2I/\{\pm 1\} \cong I`$, is [run and closed negative twice over](files/sampler-first-test.md): no compact surface in $`S^3`$ with a single boundary circle is antipodally invariant, so the deck element $`-1`$ never stabilizes the band; and independently, equivariance makes the transverse sampler's intensity profile identical on all $`120`$ deck translates, so no invariant scalar readout distinguishes lifts at any stabilizer size. The engine's projection is untouched, resting on $`\lvert\psi\rvert^2`$ alone. The residue is structural: the natural Möbius sampler is transverse rather than restrictive, and its open question is mode transfer rather than label identification.
-
-A variational reading now sits over both, as program architecture rather than a fourth tier: the dynamics problem is a variational principle for the global score-to-sample relation, not a search for a conventional $`L(q,\dot q,t)`$. The corpus phase $`t`$ stays fundamental and observer time is reconstructed through a lapse $`d\tau_H = N(t)\,dt`$, with the two-level descent $`\mathcal{S}_\text{MIT} \to \mathcal{S}_\text{eff}`$ carrying the sampled degrees of freedom. Its promotion gate is the observer clock: whether $`\delta\mathcal{S}_\text{MIT}/\delta N = 0`$ forces $`N = S^{1/2}`$ without the exponent being inserted by hand, with $`\Psi^2 + S^2 = 1`$ entering only as an on-shell constraint. The gate, the fixed conventions, the one bounded computation and its pre-registered PASS and FAIL conditions are on the program page, [Variational Score-to-Sample](files/variational-score-to-sample.md). Nothing is derived there: no candidate functional is fixed, and no lapse equation is solved.
-
-**Dependencies:** [First eigenvalue](../bedrock/files/first-eigenvalue.md), [Coexact gap](../bedrock/files/coexact-gap.md).
-
----
-
 ## :house: Physics Foundation
 
 Closing any one of these upgrades everything downstream.
-
----
-
-### [Scaling Law Uniqueness](files/scaling-law-uniqueness.md)
-
-**Status (two rows forced, factorization argued):** $`A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}`$ began as a declared measurement postulate. Two rows are forced: the anti-periodic BC forces $`C(\Theta)`$'s sinusoidal family and background symmetry (isotropy + orthogonality) selects the first-positive member; units force the integer hierarchy $`(\sqrt{\Omega})^{-n}`$ on the dilution sector. The factored form *separates* on a Schur + homothety + Lemma 8 argument within the spectral-boundary observable class, but is not yet closed: independent coordinates do not forbid a cross-term, so the no-cross-term step needs the commutant theorem $`A_\text{obs} = A_\Theta \otimes A_\text{spec}`$ (the open target). Whether the class exhausts the physical observables is a further premise. Off the form: the $`\alpha_W`$ twist, the extension *selection* (ground state only), and the $`\Omega_H = \Omega_\Lambda`$ coincidence.
-
-**Dependencies:** Sector $`\mathcal{A}`$ eigenvalue, Lemma 8 (spectral inaccessibility), Möbius topology axioms.
-
----
-
-### [Fibonacci Wells](files/fibonacci-wells.md)
-
-**Status (structurally reduced):** Why the stable sampling positions land at the Fibonacci wells $`\{13, 21, 34, 55\}`$. The external golden-ratio/Hurwitz route is abandoned (a rounded golden rotation selects a parity class, not the wells). The wells are reframed as the additive continuation of the icosahedral branch orders $`(2,3,5)`$ on the locked 120-grid, bounded below by the lcm seam ($`13`$ is the first Fibonacci not dividing $`120 = \text{lcm}(1,2,3,5,8)`$; divisors tile, non-divisors sample) and above by the antinode reflection $`C(k)=C(120-k)`$. The residual: define the boundary-native anti-periodic interference functional whose minima are the recurrence positions; the mirror's Lemma 8 rules out any bulk functional (the spectral side is $`\Theta`$-blind), and $`\varphi`$ enters internally through the $`\mathbb{Q}(\sqrt5)`$ character field, not Hurwitz.
-
-**Dependencies:** Scaling law uniqueness (phase operator $`C(\Theta)`$), the-mirror.md (Lemma 8, $`\mathbb{Q}(\sqrt5)`$, character ceiling), 120-domain selection.
-
----
-
-### [Friedmann as Output](files/friedmann-as-output.md)
-
-**Tracker (the half-power clock, ε-scored):** The phase-clock $`H(z)`$ imports the Friedmann equation through exactly one line, the Waltz clock exponent $`-1/2`$, forced by $`S^3`$ dimensionality plus GR and empirically unique in its family ($`\Delta\chi^2 > 60`$ against integer alternatives). The tracker reduces the derivation to that exponent and enumerates the topologically native clock candidates; one, the self-dual clock under level exchange, lands $`-1/2`$ arithmetically through a three-gate argument ([the involution](files/half-power-involution.md), [the tick lemma](files/tick-lemma.md), a second consequence on the [entropy page](files/entropy-as-realization-budget.md)). The [registered measurement](files/clock-asymmetry-fit.md) meant to complete the case, the continuous $`\epsilon`$ fit, has run: zero excluded at 95% in both tiers, but diagnostics found the dial contaminated as a probe on this data, so the result neither confirms nor cleanly refutes. Adjudicated: P2 [supported by reduction](files/sampling-kernel-symmetry.md), empirically unscored; the FORCED label stays FORCED.
-
-**Dependencies:** [Temporal budget identity](files/temporal-budget.md), Waltz clock, spatial budget $`u_0^2 + J^2 = 1`$, Molien shell map (shared with [entropy](files/entropy-as-realization-budget.md)), Gauss-Codazzi embedding (assembly stage only).
 
 ---
 
@@ -175,11 +141,19 @@ Closing any one of these upgrades everything downstream.
 
 ---
 
-### [Calibration Structure](files/calibration-structure.md)
+### [Scaling Law Uniqueness](files/scaling-law-uniqueness.md)
 
-**Summary:** Reframes the engine as a calibration scheme: one measured anchor per sector ($`H_0`$ edge, $`\Lambda`$ surface, $`m_e`$ mass-sector normalization), with the topology supplying the exponents, well assignments, and ratios. Localizes the R problem to a single demotion: $`\Lambda`$ moves from absolute prediction to measured calibration input, and nothing downstream collapses. Draft for a new engine section.
+**Status (two rows forced, factorization argued):** $`A/A_P = C(\Theta) \cdot (\sqrt{\Omega})^{-n}`$ began as a declared measurement postulate. Two rows are forced: the anti-periodic BC forces $`C(\Theta)`$'s sinusoidal family and background symmetry (isotropy + orthogonality) selects the first-positive member; units force the integer hierarchy $`(\sqrt{\Omega})^{-n}`$ on the dilution sector. The factored form *separates* on a Schur + homothety + Lemma 8 argument within the spectral-boundary observable class, but is not yet closed: independent coordinates do not forbid a cross-term, so the no-cross-term step needs the commutant theorem $`A_\text{obs} = A_\Theta \otimes A_\text{spec}`$ (the open target). Whether the class exhausts the physical observables is a further premise. Off the form: the $`\alpha_W`$ twist, the extension *selection* (ground state only), and the $`\Omega_H = \Omega_\Lambda`$ coincidence.
 
-**Dependencies:** a0 paper Appendix A.2, Λ eigenvalue, scaling law.
+**Dependencies:** Sector $`\mathcal{A}`$ eigenvalue, Lemma 8 (spectral inaccessibility), Möbius topology axioms.
+
+---
+
+### [Friedmann as Output](files/friedmann-as-output.md)
+
+**Tracker (the half-power clock, ε-scored):** The phase-clock $`H(z)`$ imports the Friedmann equation through exactly one line, the Waltz clock exponent $`-1/2`$, forced by $`S^3`$ dimensionality plus GR and empirically unique in its family ($`\Delta\chi^2 > 60`$ against integer alternatives). The tracker reduces the derivation to that exponent and enumerates the topologically native clock candidates; one, the self-dual clock under level exchange, lands $`-1/2`$ arithmetically through a three-gate argument ([the involution](files/half-power-involution.md), [the tick lemma](files/tick-lemma.md), a second consequence on the [entropy page](files/entropy-as-realization-budget.md)). The [registered measurement](files/clock-asymmetry-fit.md) meant to complete the case, the continuous $`\epsilon`$ fit, has run: zero excluded at 95% in both tiers, but diagnostics found the dial contaminated as a probe on this data, so the result neither confirms nor cleanly refutes. Adjudicated: P2 [supported by reduction](files/sampling-kernel-symmetry.md), empirically unscored; the FORCED label stays FORCED.
+
+**Dependencies:** [Temporal budget identity](files/temporal-budget.md), Waltz clock, spatial budget $`u_0^2 + J^2 = 1`$, Molien shell map (shared with [entropy](files/entropy-as-realization-budget.md)), Gauss-Codazzi embedding (assembly stage only).
 
 ---
 
@@ -188,6 +162,14 @@ Closing any one of these upgrades everything downstream.
 **Problem:** The phase-clock derivation rests on $`\Psi^2 + S^2 = 1`$ and the Waltz clock $`d\tau/dt = S^{1/2}`$, which recovers $`\Omega_m = 0.315`$ at $`\Delta\chi^2 = +0.11`$ vs flat ΛCDM. The clock exponent $`n = -1/2`$ is empirically validated (integer alternatives ruled out at $`\Delta\chi^2 > 60`$) but not derived from the embedding. The two phase parameterizations ($`\Phi`$ engine phase and $`t`$ budget phase) are not yet reconciled.
 
 **Dependencies:** Möbius spatial budget $`u_0^2 + J^2 = 1`$, Sector $`\mathcal{A}`$ eigenvalue.
+
+---
+
+### [Fibonacci Wells](files/fibonacci-wells.md)
+
+**Status (structurally reduced):** Why the stable sampling positions land at the Fibonacci wells $`\{13, 21, 34, 55\}`$. The external golden-ratio/Hurwitz route is abandoned (a rounded golden rotation selects a parity class, not the wells). The wells are reframed as the additive continuation of the icosahedral branch orders $`(2,3,5)`$ on the locked 120-grid, bounded below by the lcm seam ($`13`$ is the first Fibonacci not dividing $`120 = \text{lcm}(1,2,3,5,8)`$; divisors tile, non-divisors sample) and above by the antinode reflection $`C(k)=C(120-k)`$. The residual: define the boundary-native anti-periodic interference functional whose minima are the recurrence positions; the mirror's Lemma 8 rules out any bulk functional (the spectral side is $`\Theta`$-blind), and $`\varphi`$ enters internally through the $`\mathbb{Q}(\sqrt5)`$ character field, not Hurwitz.
+
+**Dependencies:** Scaling law uniqueness (phase operator $`C(\Theta)`$), the-mirror.md (Lemma 8, $`\mathbb{Q}(\sqrt5)`$, character ceiling), 120-domain selection.
 
 ---
 
