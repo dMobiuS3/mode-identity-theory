@@ -391,11 +391,13 @@ Evaluating the scaling law at each well:
 | [α](../spectrum/files/fine-structure.md) | $`F_7`$ | 60R | 13/60 | 0.792 | 1/30 | 1 | $`7.33 \times 10^{-3}`$ | Λ-anchored comparison / α-route anchor |
 | [a₀](../cosmos/files/early-galaxies.md) | $`F_7`$ | 120 | 13/120 | 0.223 | 1 | $`a_P`$ | $`2.2 \times 10^{-62}`$ | edge-ratio comparison |
 | — | $`F_8`$ | 120 | 21/120 | 0.55 | — | — | — | unassigned |
-| [H₀](../cosmos/files/hubble-tension.md) | $`F_9`$ | 120 | 34/120 | 1.208 | 1 | $`t_P^{-1}`$ | $`1.2 \times 10^{-61}`$ | calibration anchor |
+| [H₀](../cosmos/files/hubble-tension.md) | $`F_9`$ | 60R | 34/120 | 1.208 | 1 | $`t_P^{-1}`$ | $`1.2 \times 10^{-61}`$ | calibration anchor |
 | — | $`F_{10}`$ | 120 | 55/120 | 1.97 | — | — | — | unassigned |
-| [Λ_top](../cosmos/files/cosmological-constant.md) | — | 120 | 60/120 | 2.00 | 2 | $`\ell_P^{-2}`$ | $`\approx 1.9 \times 10^{-122}`$ * | surface spectral seed |
+| [Λ_top](../cosmos/files/cosmological-constant.md) | — | 60R | 60/120 | 2.00 | 2 | $`\ell_P^{-2}`$ | $`\approx 1.9 \times 10^{-122}`$ * | surface spectral seed |
 
 > * The scaling law returns the surface spectral seed $`\Lambda_\text{top} = 2\,\Omega_\Lambda^{-1}\,\ell_P^{-2} = 2/R_\Lambda^2`$ ($`C = 2`$ at the antinode, $`n = 2`$), computed directly on the curved totally geodesic metric $`ds^2 = dy^2 + \cos^2(y/R_\Lambda)\,dw^2`$ and confirmed from below by the Bochner identity; equality is unique. The vacuum-reference value carries the lift $`\Lambda_\text{ref} = (3/2)\,\Lambda_\text{top} = 3/R_\Lambda^2 \approx 2.85 \times 10^{-122}\,\ell_P^{-2}`$, under three conditions: totally geodesic embedding of the underlying great-$`S^2`$ band ($`K_{ij} = 0`$), isotropy (CMB-verified to $`10^{-5}`$), and a de Sitter vacuum reference. That lift, and whether its coefficient is the physical constant of a static domain, is the stress-tensor question One Interface poses, so the number is a surface-sector calibration rather than an independent prediction. The [first-eigenvalue paper](files/bedrock/files/first-eigenvalue.md) establishes the geometric side, worked through on the [cosmological constant](../cosmos/files/cosmological-constant.md) page.
+
+The Grid column is the readout class, the $`\Theta`$ column the coordinate. They differ because the well sequence is generated on the 120-step parent grid while the even numerators over 120 are exactly the points surviving $`2I \to I`$: $`34/120 = 17/60`$ and $`60/120 = 30/60`$ are 60R positions written in the parent coordinate. The odd-numerator wells, $`a_0`$ at 13/120 among them, have no 60R image and stay on the full resolution.
 
 **Calibration structure.** $`H_0`$ is the measured edge anchor: it defines the edge normalization $`N = H_0 t_P / C(34/120)`$, so the $`H_0`$ row fixes the ruler rather than testing the law against it, which is the calibration-versus-prediction split [Inputs and Calibration](#inputs-and-calibration) separates ledger by ledger. The other edge observables follow from $`N`$; the falsifiable content is any ratio of two edge-mode $`C`$ factors, in which $`N`$ cancels, the sharpest being $`a_0/(cH_0) = C(13/120)/C(34/120)`$. The $`\approx`$ in the scaling law marks the sector calibration, one anchor per sector.
 
@@ -416,6 +418,8 @@ The same sampling engine resolves the coupling sector as a discrete ladder of ph
 ### The Gauge Ladder
 
 Everything in this sector lives at two phase slots, the Fibonacci well 13 and its $`E_8`$ Coxeter conjugate 17, the Coxeter complement $`30 - 13`$ rather than a Fibonacci well of its own. The Coxeter pair $`(13, 17)`$ sums to the Coxeter number of $`E_8`$: $`13 + 17 = 30 = h(E_8)`$. The McKay correspondence ties $`2I`$ directly to $`E_8`$, so the domain's natural arithmetic runs modulo 30, and 13 and 17 are the conjugate exponents that pair across it.
+
+One coincidence belongs on the record here rather than left for a reader to find. The strong seat $`17/60`$ and the Hubble well $`34/120`$ are the same phase position, both giving $`C = 1.208`$, reached by two different routes: $`H_0`$ by the Fibonacci sequence forcing well 34 and projecting it through $`2I \to I`$, the strong coupling by the Coxeter complement $`30 - 13`$ taken directly on 60R. They stay distinguishable by everything except position, sitting in different sectors on different ledgers at different depths, $`n = 1`$ on the evolving $`\Omega_H`$ against the dimensionless $`\Omega_\Lambda^{-1/120}`$. Whether that is two derivations meeting as a consistency check or an identification that would cost the Coxeter pair its independence from the well sequence is not settled here, and no identification between the two seats is claimed. The weak seat at $`17/120`$ is a different point and is unaffected.
 
 **The framework's assignments:**
 
