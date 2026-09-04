@@ -17,6 +17,20 @@ In 300 BC, Euclid proved Plato's observation that only five solids close perfect
 
 ---
 
+## 💬 Frequently Asked Questions
+
+***What is the universe?*** A finite, closed three-dimensional space with no edge and no outside. Its underlying size is fixed rather than expanding. What we experience as cosmic expansion comes from how a wave changes and is observed within that space, not from the space itself getting bigger.
+
+***Why a Möbius band?*** Because a Möbius band has a built-in twist. Go around it once and orientation flips; go around twice and you return to where you started. That simple flip naturally produces the kind of half-step wave behavior associated with fermions. The Möbius band is also the simplest one-sided surface with a single edge, so it gives the theory the needed twist with the least extra structure.
+
+***What was at the beginning of time?*** Not an explosion from a tiny point. The space was already there. The theory begins with the cosmic wave at full strength and almost nothing yet realized from it. As time advances, more of the wave becomes realized as the universe we observe. So the early universe was not smaller space; it was the same space at an earlier stage of realization.
+
+***What is matter, and what are we?*** Matter is what the wave becomes when it is realized and resolved into physical states. Particles are not separate ingredients added to the universe; they are different ways the underlying structure can be occupied and read. We are made of those same realized states. The observer is therefore not outside the system looking in, but part of the process happening inside it.
+
+***How does this complement the Standard Model?*** MIT does not replace the Standard Model or Einstein's gravity. It keeps their particles, forces, and local equations, then adds a global geometric structure underneath them. The goal is to explain why some of the numbers and patterns that the Standard Model takes as inputs might have the values they do. Some of those connections are exact mathematical results, some are promising comparisons, and some are still open problems.
+
+---
+
 >[![Interactive NotebookLM](/files/assets/notebooklm-banner-aligned.svg)](https://notebook.google.com/notebook/510d4424-8462-44fe-9c96-25a0aedd71d1)
 >
 >**[Gemini Notebook](https://notebook.google.com/notebook/510d4424-8462-44fe-9c96-25a0aedd71d1)**: a NotebookLM grounded in the framework; ask it anything, or hear the audio overview.
