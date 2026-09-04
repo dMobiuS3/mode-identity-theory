@@ -394,6 +394,7 @@ The $`R_1`$ sector spans 0.87 meV (triv), 7.3 meV (std), 66.7 meV (gal) in ascen
 
 | Item | Status |
 |------|--------|
+| Entry rule | Open, and unargued rather than tested. The fourth factor enters as $`T^2(\rho\otimes\sigma)`$ rather than $`T`$, on the tensor product rather than on $`\rho`$ alone, multiplying the Kostant seat. Each choice is used throughout and none is derived here. The reproduction (§II.5) certifies the values these choices are applied to, not the choices; the null test (§III) scores the placement of the results, not their construction. |
 | $`T_3`$ assignment rule | Established as a gate rule, with the reading of its output as weak isospin carried per §IV.6. Two-stage filter: $`j_\text{first}`$ parity + Coxeter-Galois gate. Eleven featured evaluations consistent: five carrying assigned charged fermions, two carrying neutrino-scale proxy rows, and four serving as structural checks. See §IV.4. |
 | $`\mu`$/$`s`$ single-entry count | Rank 15 supplies both the muon and the strange via the $`R_8`$ singlet/triplet color split, so two fermions are credited to one $`(\rho,\sigma)`$ address; rank 17 repeats the pattern with $`\tau`$ counted and $`b`$ recorded. Whether a shared address is one hit or two is a standing convention question (a strict one-entry-one-hit reading would give 3 of 8). |
 | Up quark assignment | Open. $`(R_8,\text{triv})`$ sits at 31.6 MeV, 14.6× the up mass, and no up-type entry sits near 2.16 MeV. |
