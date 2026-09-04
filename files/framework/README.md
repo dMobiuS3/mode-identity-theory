@@ -21,7 +21,7 @@ The observable domain is not that smooth covering space itself but its quotient 
 
 ---
 
-### Table of Contents
+### -Table of Contents-
 
 <table>
 <tr>
