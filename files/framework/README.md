@@ -336,10 +336,18 @@ $`\Omega_\Lambda`$ is epoch-independent, since $`R_\Lambda`$ is fixed. Its absol
 The phase-gradient scale changes with epoch:
 
 ```math
-\Omega_H(z) \equiv \left(\frac{\ell_\text{phase}(z)}{\ell_P}\right)^2, \quad \ell_\text{phase} = c/\lvert d\ln\Psi/d\tau\rvert
+\Omega_\Psi(u,x) \equiv \left(\frac{c}{\ell_P\,\kappa_\Psi}\right)^2, \qquad \kappa_\Psi = \lvert u^\mu\nabla_\mu\ln\lvert\Psi\rvert\rvert
 ```
 
-At the present epoch $`\Omega_H`$ and $`\Omega_\Lambda`$ are numerically close, both of order $`10^{122}`$. In the current calibration structure this coincidence is observed, not derived: $`\Omega_H`$ is anchored by the measured Hubble rate, $`\Omega_\Lambda`$ by measured $`\Lambda`$.
+$`\Omega_\Psi`$ is a second, local hierarchy and is **not** $`\Omega_H`$. It reads the gradient of the standing-wave share where $`\Omega_H`$ reads the rate of the realized one, and no choice of clock closes that gap: for any lapse $`d\tau = N\,dt`$ the factor $`N`$ cancels from the ratio of the two logarithmic gradients, leaving $`(S/\Psi)^2`$. Their ratio is closed-form and fixed by the phase alone,
+
+```math
+\frac{\Omega_\Psi}{\Omega_H} = \left(\frac{\Psi}{S}\right)^4 = \frac{(1-S^2)^2}{S^4},
+```
+
+which is $`1`$ exactly at budget equipartition $`\Psi^2 = S^2 = 1/2`$ and nowhere else, an identity of the two definitions rather than a result. The present epoch sits far on the $`\Psi`$-dominated side of that crossing, so the two run about $`3 \times 10^4`$ apart at the posterior median. What is open is not the relation but what the second scale is for: which observables read the $`\Psi`$ gradient rather than the $`S`$ rate, and whether the horizon branch needs a length running as $`(\Psi/S)^2`$ against the Hubble radius. It is also observer-dependent, so no observer-independent $`\Omega_\Psi`$ exists until a preferred clock field is supplied; that is the frozen question on [Ω_H(Θ)](files/working/files/omega-h-derivation.md), whose historical $`\Omega_H`$ denotes what this page now calls $`\Omega_\Psi`$.
+
+Everything downstream of this section uses $`\Omega_H`$, the rate ledger. At the present epoch it and $`\Omega_\Lambda`$ are numerically close, both of order $`10^{122}`$. In the current calibration structure this coincidence is observed, not derived: $`\Omega_H`$ is anchored by the measured Hubble rate, $`\Omega_\Lambda`$ by measured $`\Lambda`$.
 
 The domain runs from the Planck floor ($`\Omega = 1`$) up to the cosmic ceiling ($`\Omega \approx 10^{122}`$). Ask where the observer sits, and the geometry answers with its own midpoint: the self-dual point $`x = \Omega/x`$, where the climb to the ceiling equals the drop to the floor.
 
@@ -364,7 +372,7 @@ Mode intensity dilutes as $`(\sqrt{\Omega})^{-n}`$. The manifold index $`n`$ spe
 | $`n`$ | Manifold | $`\Omega`$ | $`(\sqrt{\Omega})^{-n}`$ | Observables |
 |---|---|---|---|---|
 | 0 | Planck floor | 1 | 1 | $`G`$ |
-| 1 | Temporal edge $`S^1`$ | $`\Omega_H`$ | $`10^{-61}`$ | $`H_0`$, $`a_0`$ |
+| 1 | Temporal edge $`S^1`$ | $`\Omega_H`$ (the rate ledger, not $`\Omega_\Psi`$) | $`10^{-61}`$ | $`H_0`$, $`a_0`$ |
 | 2 | Möbius surface | $`\Omega_\Lambda`$ | $`10^{-122}`$ | $`\Lambda_\text{top}`$ |
 | 3 | Space $`S^3`$ | $`\Omega_\Lambda`$ | $`10^{-183}`$ | space-sector density suppression; observable not yet assigned |
 
