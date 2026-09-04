@@ -53,9 +53,9 @@ The observable domain is not that smooth covering space itself but its quotient 
   - The Scaling Law
   - The Phase Operator
   - Fibonacci Wells
-  - The Phase Field
   - The Hierarchy and the Observer
   - Manifold Index
+  - The Phase Field
   - The Assembled Engine
 
 </td>
@@ -321,16 +321,6 @@ The first-positive wave shape is selected, but not every position on it is a pla
 
 That the realized positions continue the recurrence is where this level stops being a theorem. A variational origin was searched for with a signed anti-periodic sweep over eight boundary-mode functionals designed to make the observed set extremal; all eight returned uniform or clustered minimizers, never the wells. So $`\{13, 21, 34, 55\}`$ is a structural label the recurrence carries, not a derived extremum. The golden field is native to the domain either way: $`\varphi \in \mathbb{Q}(\sqrt5)`$ already runs through the $`2I`$ character theory and the torsion algebra, so the recurrence is the domain's own arithmetic, not a sampling dynamics imported from outside. Why the realized positions continue it, on the edge where the [mirror](../spectrum/files/the-mirror.md) locates the interference, is open.
 
-Three constraints then narrow the observable assignments, though not all to a single answer. The manifold index separates edge modes ($`n = 1`$, epoch-dependent: $`H_0`$, $`a_0`$) from surface modes ($`n = 2`$, epoch-independent: $`\Lambda_\text{top}`$); the bosonic projection sends photon-mediated observables to the 60R-grid (even numerators survive $`2I \to I`$) and dynamical ones to the full 120; and $`\Lambda_\text{top}`$ sits at the antinode $`60/120`$ by eigenvalue identity. Under these, $`H_0 \to 34`$ is structurally forced, the unique even-numerator edge well, and $`\Lambda_\text{top} \to 60`$ is the antinode. The matter index 13 is singled arithmetically, the unique coprime well, and $`\alpha`$ and $`a_0`$ take its 60R and full-120 images; but the step from "coprime well" to "the dynamical-acceleration seat" is a diagnostic the corpus carries, not a derived rule. Wells 21 and 55 carry no observable.
-
-### The Phase Field
-
-The phase position decomposes as $`\Theta = \Theta_0 + \Theta_f`$, where $`\Theta_0`$ is the Fibonacci well, fixed by the recurrence above, and $`\Theta_f`$ is a local environmental shift. The decomposition is what makes a well's slope meaningful: $`C'(\Theta_0)`$ sets how sharply an observable answers to displacement, and it differs across the three assigned wells. $`\Lambda_\text{top}`$ sits at the antinode where the derivative vanishes and is stationary to first order; $`H_0`$ sits on a moderate slope; $`a_0`$ sits on the steepest of the three.
-
-What the engine takes from this is the decomposition and those slopes. The rest is application and is owned where it is tested: the finite-step arithmetic at each well, the 8.4% displacement that would carry $`67.4`$ to $`73.04`$ km/s/Mpc, the sublattice and orientation conditions it rests on, and the two tests that closed it are all on the [Hubble tension](../cosmos/files/hubble-tension.md) page. The trigger that would have realized the shift is withdrawn: the pre-registered SPARC coherence test falsified the binary mechanism, and a separate exploratory check found the $`H_0`$ distribution unimodal rather than two-clustered. So the correspondence has no active mechanism, and a large derivative at $`a_0`$ produces a sensitive continuous response rather than a threshold.
-
-The forward content that survives the null is the epoch relation $`a_0(z) \propto H(z)`$ and the sign-fixed $`(1+z)^1`$ term it ties to, carried in the [Research Frontier](#research-frontier)'s forward tests and registered on the [Euclid card](../cosmos/files/euclid-dr1.md).
-
 ### The Hierarchy and the Observer
 
 $`\Omega_\Lambda`$ is fixed by $`\Lambda`$ and epoch-independent. The phase-gradient scale changes with epoch:
@@ -371,6 +361,16 @@ Mode intensity dilutes as $`(\sqrt{\Omega})^{-n}`$. The manifold index $`n`$ spe
 **The scale selection rule.** The index $`n`$ is read from where the quantity lives and whether it evolves with epoch: edge rates take $`n = 1`$ on the evolving $`\Omega_H`$, surface and space quantities take $`n = 2`$ and $`n = 3`$ on the fixed $`\Omega_\Lambda`$. Dimensionless couplings sit outside that index and use the separate grid-ladder exponents $`1/60`$ and $`1/120`$.
 
 The index $`n`$ has two compatible readings in the dilution sector: the length-dimension of the observable, and the geometric layer on which the mode lives. They agree for the edge, surface, and space rows. Two things sit outside the table on purpose. The $`3/2`$ vacuum factor is not a manifold index at all; it is the separate Gauss/Ricci × de Sitter reference conversion described in One Interface. And the dimensionless couplings dilute at fractional powers that are grid-ladder exponents, not fractional manifold dimension. $`G`$ is the Planck anchor at $`n = 0`$.
+
+Three constraints then narrow the observable assignments, though not all to a single answer. The manifold index separates edge modes ($`n = 1`$, epoch-dependent: $`H_0`$, $`a_0`$) from surface modes ($`n = 2`$, epoch-independent: $`\Lambda_\text{top}`$); the bosonic projection sends photon-mediated observables to the 60R-grid (even numerators survive $`2I \to I`$) and dynamical ones to the full 120; and $`\Lambda_\text{top}`$ sits at the antinode $`60/120`$ by eigenvalue identity. Under these, $`H_0 \to 34`$ is structurally forced, the unique even-numerator edge well, and $`\Lambda_\text{top} \to 60`$ is the antinode. The matter index 13 is singled arithmetically, the unique coprime well, and $`\alpha`$ and $`a_0`$ take its 60R and full-120 images; but the step from "coprime well" to "the dynamical-acceleration seat" is a diagnostic the corpus carries, not a derived rule. Wells 21 and 55 carry no observable.
+
+### The Phase Field
+
+The phase position decomposes as $`\Theta = \Theta_0 + \Theta_f`$, where $`\Theta_0`$ is the Fibonacci well, fixed by the recurrence above, and $`\Theta_f`$ is a local environmental shift. The decomposition is what makes a well's slope meaningful: $`C'(\Theta_0)`$ sets how sharply an observable answers to displacement, and it differs across the three assigned wells. $`\Lambda_\text{top}`$ sits at the antinode where the derivative vanishes and is stationary to first order; $`H_0`$ sits on a moderate slope; $`a_0`$ sits on the steepest of the three.
+
+What the engine takes from this is the decomposition and those slopes. The rest is application and is owned where it is tested: the finite-step arithmetic at each well, the 8.4% displacement that would carry $`67.4`$ to $`73.04`$ km/s/Mpc, the sublattice and orientation conditions it rests on, and the two tests that closed it are all on the [Hubble tension](../cosmos/files/hubble-tension.md) page. The trigger that would have realized the shift is withdrawn: the pre-registered SPARC coherence test falsified the binary mechanism, and a separate exploratory check found the $`H_0`$ distribution unimodal rather than two-clustered. So the correspondence has no active mechanism, and a large derivative at $`a_0`$ produces a sensitive continuous response rather than a threshold.
+
+The forward content that survives the null is the epoch relation $`a_0(z) \propto H(z)`$ and the sign-fixed $`(1+z)^1`$ term it ties to, carried in the [Research Frontier](#research-frontier)'s forward tests and registered on the [Euclid card](../cosmos/files/euclid-dr1.md).
 
 ### The Assembled Engine
 
