@@ -99,7 +99,7 @@ The observable domain is not that smooth covering space itself but its quotient 
 <a id="the-firing-order"></a>
 ## 🔫 The Firing Order
 
-Each layer follows from the one before.
+Each step below follows from the one before, and the six together are the framework's chain of derivation rather than the order of this page. The sections are arranged instead by what each one needs from the sections before it: One Shape fixes the domain, One Wave develops its temporal edge, One Identity develops its representation and sampling content, and One Equation reads the observable law off both branches. One Ladder, One Formula and One Interface apply that law to the couplings, the masses and gravity, and the two accounting sections state what it rests on and what stays open.
 
 1. Topology sets what is possible.
 2. Embedding defines the structure.
@@ -508,7 +508,7 @@ Whether the specific torsion values add fit beyond that quantum-number-constrain
 
 The correction also reopens one selection question the [Research Frontier](#research-frontier) carries: whether a parameter-free propagator correction tracks the residuals at high McKay distance, since the earlier elimination was computed on the pre-correction torsions and does not carry over.
 
-The gauge gap above and this mass spectrum share the McKay structure and little else: the gap is proved, the ladder is the comparison, and neither lends the other its standing.
+The gauge gap above and this mass spectrum share the McKay structure and little else: the gap is proved, the spectrum is the comparison, and neither lends the other its standing.
 
 [↑ Table of Contents](#table-of-contents)
 
