@@ -263,7 +263,7 @@ The same stabilizers give two further entries that are not primes but correction
 
 The 3/2 entry is the conjectural one and is not this section's to adjudicate: it is the raw stabilizer ratio, and the fence separating it from the vacuum conversion and the clock exponent is kept in [One Interface](#one-interface), which owns the geometric derivation. The $`\cos(\pi/10)`$ entry is motivated, not derived, and is stated where it is used, in the gauge ladder: the dodecahedral defect $`\pi/5`$ taken to be halved by the Möbius orientation $`Z_2`$, with the operator-level step from that holonomy to a multiplicative cosine still open. That Möbius $`Z_2`$ is the orientation twist, distinct again from the central $`-I`$ two rows above.
 
-The stabilizers determine the decompositions, MIT's dictionary gives them their physical reading, and the mass formula fixes where the resulting entries sit, all from the same topology. The comparison is the last step: which entry lands on which measured fermion the masses decide, not the topology.
+The stabilizers determine the decompositions and MIT's dictionary gives them their physical reading, all from the same topology. What leaves this section is what the rest of the page samples: the two grids, and the address $`(\rho, \sigma)`$ with its color, spin and electroweak content fixed. The observable law that reads them is next; which entry lands on which measured fermion is decided later, by the masses rather than the topology.
 
 [↑ Table of Contents](#table-of-contents)
 
