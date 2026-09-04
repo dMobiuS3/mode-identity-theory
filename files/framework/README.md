@@ -615,7 +615,7 @@ Edge observables reference the evolving $`\Omega_H(z)`$; surface and space obser
 
 | Quantity | Status |
 |---|---|
-| dimensionless ratios ($`a_0/cH_0`$, couplings) | anchor-independent once the well and grid assignments are granted |
+| dimensionless ratios ($`a_0/cH_0`$, $`\alpha_s/\alpha_W`$) | anchor-independent once the well and grid assignments are granted, and only where the two share an exponent grid: $`\alpha_s/\alpha`$ keeps $`\Omega_\Lambda^{1/120}`$ because 13 and 17 sit at different depths |
 | counts and $`T_3`$ evaluations | exact given the group structure and the Coxeter-Galois gate |
 | $`\Omega_\Lambda`$ | over-determined by three readings that do not yet agree |
 | $`\Lambda_\text{ref}`$ (absolute) | conditional output of the $`\alpha`$ reading (23%) or the mass reading (~13.4× off); circular from the $`\Lambda`$ reading; its identification with the physical $`\Lambda`$ is the Interface question |
@@ -631,7 +631,7 @@ Edge observables reference the evolving $`\Omega_H(z)`$; surface and space obser
 <a id="research-frontier"></a>
 ## 🌅 Research Frontier
 
-The body is the theory as it stands; this is the theory as a program. What is open is not scattered: it collects into three problems, and everything the framework has spent and everything it still bets rides on them. The full apparatus, the controls, and the dates live in the [claim ledger](files/working/files/claim-ledger.md) and the [working register](files/working/README.md); the Frontier names the three problems and points to where each already lives.
+The body is the theory as it stands; this is the theory as a program. The largest open items are not scattered: three problems carry what the framework has spent and most of what it still bets. They are not the whole debt. Smaller opens stay in their home sections and are named there, among them $`\Lambda_\text{QCD}`$, the running of the couplings, the Möbius-to-ALE bridge, and the operator step behind the $`\cos(\pi/10)`$ correction. The full apparatus, the controls, and the dates live in the [claim ledger](files/working/files/claim-ledger.md) and the [working register](files/working/README.md); the Frontier names the three problems and points to where each already lives.
 
 ### The three problems
 
@@ -643,7 +643,7 @@ The body is the theory as it stands; this is the theory as a program. What is op
 
 ### Recorded nulls
 
-The framework spent these to find where the three problems actually sit, and each is a result rather than a gap. A coherence trigger for the $`H_0`$ shift was pre-registered and falsified on SPARC rotation curves, and a separate check found the $`H_0`$ distribution unimodal where a discrete shift would have split it. A variational origin for the wells was searched across eight boundary-mode functionals and never returned them. The torsion null test ($`p_A = 0.690`$) removed the factor-of-three proximity count as evidence for the torsion dial. And the original McKay-propagator search returned no parameter-free correction on the pre-correction mass table, a negative the corrected torsions have since reopened rather than confirmed. Each is recorded once in its home section and consolidated, with the rest, in the [claim ledger](files/working/files/claim-ledger.md); together they are the credibility core, the places the theory has already told itself no.
+The framework spent these to find where the three problems actually sit, and each is a result rather than a gap. A coherence trigger for the $`H_0`$ shift was pre-registered and falsified on SPARC rotation curves, and a separate check found the $`H_0`$ distribution unimodal where a discrete shift would have split it. A variational origin for the wells was searched across eight boundary-mode functionals and never returned them. The torsion null test ($`p_A = 0.690`$) removed the factor-of-three proximity count as evidence for the torsion dial. The index-theoretic route from the Möbius sector to the $`2I`$ quotient was run and refuted on its own terms, the surface contribution cancelling from the Galois difference, which is the negative behind [One Interface](#one-interface)'s account of what the two seams do not share. And the original McKay-propagator search returned no parameter-free correction on the pre-correction mass table, a negative the corrected torsions have since reopened rather than confirmed. Each is recorded once in its home section and consolidated, with the rest, in the [claim ledger](files/working/files/claim-ledger.md); together they are the credibility core, the places the theory has already told itself no.
 
 ### Forward tests
 
