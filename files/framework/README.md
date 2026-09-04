@@ -426,7 +426,7 @@ Everything in this sector lives at two phase slots, the Fibonacci well 13 and it
 | 17/60 | 60R | strong coupling | bosonic carrier, confined fermions |
 | 17/120 | 120 | weak coupling | fermion-changing carrier, flavor transitions |
 
-**13 is where matter and electromagnetism anchor.** The fine-structure constant and the MOND acceleration scale both sit at index 13, on different grids: the 60R-grid version is what the photon sees, the 120-grid version is what matter dynamics sees.
+**13 is where matter and electromagnetism anchor.** Of the two rows above it, the 60R version is what the photon sees and the 120 version is what matter dynamics sees; why one index carries both is [The Assembled Engine](#the-assembled-engine)'s.
 
 **17 is where the short-range forces anchor.** Strong and weak both take 17 as their phase slot; the grid difference between them, identity-preserving versus fermion-changing action, is what separates confinement from flavor-changing transitions. Here the 120 grid labels the action on the full orientation-sensitive fermion domain, not the spin of the mediator: the $`W`$ and $`Z`$ remain spin-1 bosons, their 120 assignment coming from that action, a motivated selection rule rather than a derived one.
 
