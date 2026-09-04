@@ -20,7 +20,6 @@ The postulate itself is one sentence: **time is the boundary of a non-orientable
 The observable domain is not that smooth covering space itself but its quotient by the binary icosahedral group, a symmetry group of order 120: fold the space down by that symmetry, and the result is the Poincaré homology sphere. Together, the embedded Möbius band and the 2I quotient fix what is rigid: the boundary condition, the mode domain, the stabilizers, and the McKay graph. What is read off that structure ranges in firmness, from the dimensionless ratios that need no anchor at all to the well positions, grids, and exponents whose selection rule the theory is still working to state; measured anchors set only the absolute scales.
 
 ---
-
 <a id="table-of-contents"></a>
 ### -Table of Contents-
 
