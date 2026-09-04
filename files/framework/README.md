@@ -68,7 +68,7 @@ The observable domain is not that smooth covering space itself but its quotient 
   - SUSY
 
 **[One Formula](#one-formula)**
-  - Confinement
+  - The Gauge Gap
   - Three Generations
   - The Mass Formula
 
@@ -291,7 +291,7 @@ $`A_P`$ is the Planck reference: the natural scale for that *kind* of quantity, 
 
 So $`A/A_P`$ just asks how big the measured thing is in those units. For the Hubble rate the reference is $`t_P^{-1}`$, and $`H_0 / t_P^{-1} \approx 10^{-61}`$: the Hubble rate is about $`10^{61}`$ times slower than the Planck rate. For the cosmological constant the reference is $`\ell_P^{-2}`$ (a curvature), and $`\Lambda / \ell_P^{-2} \approx 10^{-122}`$: the vacuum curves space about $`10^{122}`$ times more weakly than the Planck scale would suggest.
 
-**The classical mystery is why these ratios are so absurdly small.** MIT reads that smallness as the hierarchy factor $`(\sqrt{\Omega})^{-n}`$, the price of living on the edge ($`n = 1`$) or the surface ($`n = 2`$) of the geometry instead of at the Planck floor. That factor sets the orders of magnitude; the position factor $`C(\Theta)`$ sets the leading digits. Once the single-ratio monomial form is granted, each sector supplies one hierarchy ratio; that the class carries a definite weight is an admissibility condition the [uniqueness argument](files/working/files/scaling-law-uniqueness.md) names, not a theorem the law proves. The exponent records which geometric layer the observable lives on.
+**The classical mystery is why these ratios are so absurdly small.** MIT reads that smallness as the hierarchy factor $`(\sqrt{\Omega})^{-n}`$, the price of living on the edge ($`n = 1`$) or the surface ($`n = 2`$) of the geometry instead of at the Planck floor. What the index accounts for is the *form* of the suppression, one power per geometric layer, and the fixed ratio between layers. It does not account for the hierarchy's own size: $`\Omega`$ is read from an anchor, not derived, as [Inputs and Calibration](#inputs-and-calibration) states. That factor sets the orders of magnitude; the position factor $`C(\Theta)`$ sets the leading digits. Once the single-ratio monomial form is granted, each sector supplies one hierarchy ratio; that the class carries a definite weight is an admissibility condition the [uniqueness argument](files/working/files/scaling-law-uniqueness.md) names, not a theorem the law proves. The exponent records which geometric layer the observable lives on.
 
 **The sample occurs at** $`(t, \Theta)`$: a moment in the wave's phase, at a position on the grid.
 
@@ -466,9 +466,9 @@ The vacant fourth rung has a SUSY reading. The one missing pairing would turn a 
 
 The mass spectrum assembles in three moves, each set by the same topology: the curvature gap on the coexact gauge modes, the three flat vacua MIT reads as the generations, and the four-factor formula that ranks the fermions.
 
-### Confinement
+### The Gauge Gap
 
-Confinement is usually told as a story about energy: pull two quarks apart and the cost keeps climbing until the field snaps. On $`S^3`$ it is a story about curvature. Positive Ricci curvature forces a positive gap on the coexact gauge fluctuations around a flat connection, and the twisted harmonic 1-forms vanish ($`H^1 = 0`$), so every mode is lifted off zero. The value is read from the coexact form spectrum through the McKay distance: the adjoint-valued gap is $`4/R_\Lambda^2`$ at the trivial and standard vacua, with the Galois vacuum the single exception below. It is a spectral gap on a compact curved background, fixed by curvature rather than tuned into the dynamics, and it is not the flat-space confinement scale $`\Lambda_\text{QCD}`$, which stays a separate open problem.
+Confinement is usually told as a story about energy: pull two quarks apart and the cost keeps climbing until the field snaps. What the topology supplies here is not that story but a curvature-induced gap on the coexact gauge modes, a structural ingredient on the confinement side of the mass construction rather than a derivation of the confinement scale. Positive Ricci curvature forces a positive gap on the coexact gauge fluctuations around a flat connection, and the twisted harmonic 1-forms vanish ($`H^1 = 0`$), so every mode is lifted off zero. The value is read from the coexact form spectrum through the McKay distance: the adjoint-valued gap is $`4/R_\Lambda^2`$ at the trivial and standard vacua, with the Galois vacuum the single exception below. It is a spectral gap on a compact curved background, fixed by curvature rather than tuned into the dynamics, and it is not the flat-space confinement scale $`\Lambda_\text{QCD}`$, which stays a separate open problem.
 
 ### Three Generations
 
