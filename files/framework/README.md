@@ -303,7 +303,7 @@ $`C(\Theta)`$ is fixed within the spectral-boundary class in two steps. The anti
 \Large C(\Theta) = 2\sin^2(\pi\Theta)
 ```
 
-The temporal anti-periodic tower and this positional profile are distinct eigenproblems sharing the sinusoidal form: the tower lives on the lifted phase lap of the temporal edge, while $`C(\Theta)`$ here is the first-positive intensity read across the sampling interval. One operator, read at every position: zero at the boundaries, maximal ($`C = 2`$) at the antinode, the same across all sectors (cosmology reads it at a single well, the mass sector across Kostant-exponent sets). The two factors of the scaling law then carry different, honest jobs. For the dimensional constants the powers of ten are units, and the hierarchy base is sector-specific: $`R_\Lambda/\ell_P`$ for the surface and space sectors, $`c/(H\ell_P)`$ for the temporal edge. Exact homothety fixes the power once the observable is admitted at definite weight, and the dimensionless physics is the value of $`C(\Theta)`$. For the dimensionless couplings the same hierarchy enters as a fractional power that is itself the content: $`\alpha`$ is one grid step of it.
+The temporal anti-periodic tower and this positional profile are distinct eigenproblems sharing the sinusoidal form: the tower lives on the lifted phase lap of the temporal edge, while $`C(\Theta)`$ here is the first-positive intensity read across the sampling interval. One operator, read at every position: zero at the boundaries, maximal ($`C = 2`$) at the antinode, the same across all sectors (cosmology reads it at a single well, the mass sector across Kostant-exponent sets). The two factors of the scaling law then carry different, honest jobs. For the dimensional constants the powers of ten are units, and the dimensionless physics is the value of $`C(\Theta)`$.
 
 | Position | $`C(\Theta)`$ | Slope $`d\ln C/d\Theta`$ | Significance |
 |---|---|---|---|
@@ -323,7 +323,17 @@ That the realized positions continue the recurrence is where this level stops be
 
 ### The Hierarchy and the Observer
 
-$`\Omega_\Lambda`$ is fixed by $`\Lambda`$ and epoch-independent. The phase-gradient scale changes with epoch:
+The hierarchy base is sector-specific, one ledger per sector:
+
+```math
+\Omega_\Lambda = \left(\frac{R_\Lambda}{\ell_P}\right)^2 \quad \text{(surface, space)},
+\qquad
+\Omega_H = \left(\frac{c}{H\ell_P}\right)^2 \quad \text{(temporal edge)}
+```
+
+$`\Omega_\Lambda`$ is epoch-independent, since $`R_\Lambda`$ is fixed. Its absolute value is not a further output of the law: it is read from one surface anchor, and three candidate anchors exist whose readings do not yet agree, which [Inputs and Calibration](#inputs-and-calibration) states in full. What the law needs here is the ledger and its epoch behaviour, not the choice among those anchors. For the dimensionless couplings the same hierarchy enters as a fractional power that is itself the content: $`\alpha`$ is one grid step of it.
+
+The phase-gradient scale changes with epoch:
 
 ```math
 \Omega_H(z) \equiv \left(\frac{\ell_\text{phase}(z)}{\ell_P}\right)^2, \quad \ell_\text{phase} = c/\lvert d\ln\Psi/d\tau\rvert
