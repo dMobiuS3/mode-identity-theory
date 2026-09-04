@@ -177,7 +177,7 @@ The sampling dictionary uses those two resolutions as follows:
 | Full $`2I`$ resolution | 120 | 1/120 | $`a_0`$ (dynamical) |
 | Bosonic projection | 60 | 2/120 | $`H_0`$, $`\Lambda`$, $`\alpha`$ (photon-mediated) |
 
-The 120 is the order of $`2I`$, not a feature of the smooth $`S^3`$ beneath it. Two questions about these grids are answered elsewhere and are not repeated here: what the order's prime factorization means, and why the central sign sorts the two representation classes, are [One Identity](#one-identity); which positions on the grids the framework actually samples is [One Equation](#one-equation).
+The 120 is the order of $`2I`$, not a feature of the smooth $`S^3`$ beneath it. Two questions about these grids are answered elsewhere and are not repeated here: what the order's prime factorization means, and why the central sign sorts the two representation classes, are [One Identity](#one-identity); which positions on the grids the framework samples is [One Equation](#one-equation).
 
 ### The Chronon 
 
