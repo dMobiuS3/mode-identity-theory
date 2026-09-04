@@ -30,7 +30,7 @@ The observable domain is not that smooth covering space itself but its quotient 
 **[The Firing Order](#the-firing-order)**
   - The ontological chain
 
-**MACHINERY**
+**-MACHINERY-**
 
 **[One Shape](#one-shape)**
   - Space, Surface, Temporal Edge
@@ -61,7 +61,7 @@ The observable domain is not that smooth covering space itself but its quotient 
 </td>
 <td valign="top">
 
-**SECTORS**
+**-SECTORS-**
 
 **[One Ladder](#one-ladder)**
   - The Gauge Ladder
@@ -76,7 +76,7 @@ The observable domain is not that smooth covering space itself but its quotient 
   - The two seams
   - Gravity is what crosses
 
-**ACCOUNTING**
+**-ACCOUNTING-**
 
 **[Inputs and Calibration](#inputs-and-calibration)**
   - The Ω ledger
