@@ -17,7 +17,7 @@ In 300 BC, Euclid proved Plato's observation that only five solids close perfect
 
 ---
 
-## 💬 Frequently Asked Questions
+**💬 Frequently Asked Questions**
 
 ***What is the universe?*** A finite, closed three-dimensional space with no edge and no outside. Its underlying size is fixed rather than expanding. What we experience as cosmic expansion comes from how a wave changes and is observed within that space, not from the space itself getting bigger.
 
