@@ -406,4 +406,10 @@ The run is scoped to the paper's computable content. Theorem 1.3(ii) and the who
 
 ---
 
+## Citation
+
+Shatto, B. (2026). *An Affine Rho–Index Conversion and the Galois Pair on the Poincaré Homology Sphere*. SSRN. https://ssrn.com/abstract=7129118
+
+---
+
 / **[`↑top`](#top)** / **[`main`](https://github.com/dmobius3/mode-identity-theory/tree/main/)** / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /

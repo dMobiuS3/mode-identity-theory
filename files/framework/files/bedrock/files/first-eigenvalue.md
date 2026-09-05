@@ -656,4 +656,10 @@ This is a numerical certification of the theorems as stated, not a second proof.
 
 ---
 
+## Citation
+
+Shatto, B. (2026). *Twisted Quantum Modes on a Conic Möbius Band: Bound States, Holonomy, and a Stable First Positive Level*. SSRN. https://ssrn.com/abstract=6968741
+
+---
+
 / **[`↑top`](#top)** / **[`main`](https://github.com/dmobius3/mode-identity-theory/tree/main/)** / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /

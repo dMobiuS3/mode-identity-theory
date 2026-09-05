@@ -322,4 +322,10 @@ This is a numerical certification across the finite family the run covers, not a
 
 ---
 
+## Citation
+
+Shatto, B. (2026). *Coexact Spectral Gaps from McKay Distance for Flat Bundles on Homogeneous Spherical Space Forms*. SSRN. https://ssrn.com/abstract=6968698
+
+---
+
 / **[`↑top`](#top)** / **[`main`](https://github.com/dmobius3/mode-identity-theory/tree/main/)** / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
