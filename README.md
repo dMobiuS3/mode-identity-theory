@@ -234,7 +234,7 @@ Outputs of a fixed structure, checked against observation:
 | [↗](/files/spectrum/files/mass-spectrum.md#iii-the-24-entries) $`m_\mu`$ (muon) | $`1.03 \times 10^{-1}`$ GeV | $`1.057 \times 10^{-1}`$ GeV | ~3% |
 | [↗](/files/spectrum/files/mass-spectrum.md#iii-the-24-entries) $`m_t`$ (top quark) | $`1.613 \times 10^{2}`$ GeV | $`1.727 \times 10^{2}`$ GeV | 7% |
 | [↗](/files/spectrum/files/mass-spectrum.md#iii-the-24-entries) $`m_e`$ (electron) | mass benchmark | 0.511 MeV | normalization |
-| [↗](/files/spectrum/files/mass-spectrum.md#v-dead-zone-targets-and-exclusions) Rank 16 entry | $`R_5`$ gal, ~418 MeV | no known fermion | open |
+| [↗](/files/spectrum/files/mass-spectrum.md#v-dead-zone-targets-and-exclusions) Rank 16 entry | $`R_5`$ gal, ~418 MeV | no known fermion | structural residual by default |
 | [↗](/files/spectrum/files/mass-spectrum.md#v-dead-zone-targets-and-exclusions) Dead zone | 6 states, eV to keV | no SM fermions in range | open |
 | [↗](/files/spectrum/files/mass-spectrum.md#1-mass-sector-floor--mu_lambda) $`\mu_\Lambda`$ mass-sector floor | $`\mu_\Lambda \approx 2.25`$ meV | absolute neutrino masses unmeasured; KATRIN $`m_{\nu_e}^\text{eff} < 0.45`$ eV (90% CL) | awaiting measurement |
 | [↗](/files/spectrum/files/fine-structure.md#alpha_s-the-strong-coupling) $`\alpha_s`$ | 0.1162 | 0.1180 | 1.5% |

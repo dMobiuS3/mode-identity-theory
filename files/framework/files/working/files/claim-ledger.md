@@ -192,7 +192,7 @@ Proved, often architecturally load-bearing, empirically inert. ~150+ leaf lemmas
 | Ω_Λ = (R/ℓ_P)² | ~10¹²² | derived/exact | definition on calibrated R (overclaim) |
 | m_e | 0.511 MeV | benchmark | whole-spectrum lever; m_e↔Λ ~11% loop |
 | μ_Λ = ρ_Λ^(1/4) | 2.25 meV | derived | quartic root of measured Λ (overclaim) |
-| H₀ = 67.4 | "phase-clock best-fit" | consistent | = Planck value, favourable side of tension (overclaim); the framing survives on one live page, early-galaxies §II ("consistent with the MIT phase-clock best-fit") |
+| H₀ = 67.4 | "phase-clock best-fit" | consistent | = Planck value, favourable side of tension (overclaim); the framing survived on one live page, early-galaxies §II ("consistent with the MIT phase-clock best-fit"), aligned to "the measured Planck anchor" 2026-09-05 |
 | a₀ = 1.2e-10 | MOND | calibration | the normalization the ratios then reproduce |
 | s₀ < 0.19 | data constraint | awaiting | the model's only fitted DoF; prior-sensitive 0.12–0.21 |
 | 122-orders span, H₀·t_P, Planck constants, GR-imported BH quantities, CMB anomaly targets | n/a | structural/derived | inputs fed in (overclaim where framed as outputs) |
@@ -265,7 +265,7 @@ The clear hits, each a candidate source-page fix:
 - **w_eff "no phantom crossing" (physical)**: a theorem about a chosen decomposition, not an observable.
 - **Hawking T_H "coefficient derived"**: only sin(πΘ₀) ≈ 0.777 is framework-side; thermal content inherited from QFT.
 - **tau "within ×3"**: on the corrected table tau sits at 2.75× (R4, gal), inside the window but the largest surviving lepton residual; list it at the real residual. The top is a 7% hit at (R2, triv) on the same table, so the pre-correction 2.4× / 1.5× pair is withdrawn.
-- **Rank 16 "open" (root and spectrum Score rows)**: the source page reads it as a structural residual by default since 2026-09-04, with the heavy down-type shell on the same terms; "open" now overstates it.
+- **Rank 16 "open" (root and spectrum Score rows)**: the source page reads it as a structural residual by default since 2026-09-04, with the heavy down-type shell on the same terms; "open" overstated it (both Score rows and the mass-spectrum page's own §III, §IV, §V, and §VI labels aligned to "structural residual by default", 2026-09-05).
 - **Fibonacci wells "derived/forced"**: selection rule is the framework's own open problem (already fixed in fibonacci-wells.md).
 - **Spectral inaccessibility / 120-LCM / "convergent paths" listed as "exact" wins**: self-referential no-go's and one-fact-many-witnesses.
 
