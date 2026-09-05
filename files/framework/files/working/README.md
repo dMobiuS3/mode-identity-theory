@@ -222,6 +222,22 @@ Technical gaps with specific paths forward.
 
 ---
 
+### [Ω_Ψ(Θ): Frozen Derivation Question](files/omega-h-derivation.md)
+
+**Problem:** [Black Double Zero's](../../../cosmos/files/black-hole.md) claims a "double zero" at the horizon, $`\Theta\to0`$ (derived) alongside $`\Omega_\Psi\to0`$ (conjectured). Even granting both, $`\Omega_\Psi`$ enters the scaling law inversely ($`\Omega_\Psi^{-n/2}`$), so the compound limit is $`0\times\infty`$, undetermined without the relation $`\Omega_\Psi(\Theta)`$. Frozen here, before any attempt, as: derive $`\Omega_\Psi(\Theta)`$ for a specified observer congruence (static, infalling, invariant norm, or a preferred MIT clock, these give physically different answers) and find the exponent $`p`$ in $`\Omega_\Psi\sim\Theta^p`$; the gate is $`C\cdot\Omega_\Psi^{-n/2}\sim\Theta^{2-pn/2}`$, vanishing/finite/divergent depending on $`p`$ versus $`4/n`$. A null result is a complete answer and requires no further correction to the now-hedged main page.
+
+**Inputs:** [Black Double Zero's](../../../cosmos/files/black-hole.md) §II, §VIII.1.
+
+---
+
+### [Oort Cloud Project: Nested Coherence Domains](files/oort-cloud-project.md)
+
+**Problem:** Does MIT's structure project into every gravitationally coherent scale, or only the cosmological one? If the 120-grid and 3/2 conversion nest, the Oort Cloud (~144,000 AU) is the solar-system-scale coherence boundary. Central open question: what sets the coherence scale at each level. $`L_f = v_c^2/a_0`$ was the candidate, and SPARC falsified it as the galactic radius, so the generalization now runs from an unknown $`L_g`$ rather than from $`L_f`$. Downstream predictions include CMB-ecliptic alignment as a local sampling fingerprint.
+
+**Inputs:** Sector $`\mathcal{A}`$ eigenvalue, phase field coherence scale $`L_f`$ (tested, falsified by SPARC; the unknown galactic coherence scale is $`L_g`$), 120-grid scale-free projection, 3/2 conversion (Gauss lift + de Sitter vacuum).
+
+---
+
 **Coupling and scaling exponents.** Each is a distinct single-principle-derivation gap on a gauge or scaling exponent; the load-bearing number stays in place.
 
 - **dist/30 Hierarchy Exponent:** Three convergent paths connect McKay graph distance to the Coxeter number of $`E_8`$ as the scaling exponent; single-principle derivation open. *Deps:* McKay correspondence, $`E_8`$ Coxeter number.
@@ -241,22 +257,6 @@ Technical gaps with specific paths forward.
 **Neutrino sector.**
 
 - **Neutrino Mass Ratios:** $`\mu_\Lambda`$ as the neutrino floor is motivated; the octave selection and multipliers (4, 22) are identified but not derived from the group theory. *Deps:* mass formula, $`\Lambda`$ eigenvalue.
-
----
-
-### [Ω_Ψ(Θ): Frozen Derivation Question](files/omega-h-derivation.md)
-
-**Problem:** [Black Double Zero's](../../../cosmos/files/black-hole.md) claims a "double zero" at the horizon, $`\Theta\to0`$ (derived) alongside $`\Omega_\Psi\to0`$ (conjectured). Even granting both, $`\Omega_\Psi`$ enters the scaling law inversely ($`\Omega_\Psi^{-n/2}`$), so the compound limit is $`0\times\infty`$, undetermined without the relation $`\Omega_\Psi(\Theta)`$. Frozen here, before any attempt, as: derive $`\Omega_\Psi(\Theta)`$ for a specified observer congruence (static, infalling, invariant norm, or a preferred MIT clock, these give physically different answers) and find the exponent $`p`$ in $`\Omega_\Psi\sim\Theta^p`$; the gate is $`C\cdot\Omega_\Psi^{-n/2}\sim\Theta^{2-pn/2}`$, vanishing/finite/divergent depending on $`p`$ versus $`4/n`$. A null result is a complete answer and requires no further correction to the now-hedged main page.
-
-**Inputs:** [Black Double Zero's](../../../cosmos/files/black-hole.md) §II, §VIII.1.
-
----
-
-### [Oort Cloud Project: Nested Coherence Domains](files/oort-cloud-project.md)
-
-**Problem:** Does MIT's structure project into every gravitationally coherent scale, or only the cosmological one? If the 120-grid and 3/2 conversion nest, the Oort Cloud (~144,000 AU) is the solar-system-scale coherence boundary. Central open question: what sets the coherence scale at each level. $`L_f = v_c^2/a_0`$ was the candidate, and SPARC falsified it as the galactic radius, so the generalization now runs from an unknown $`L_g`$ rather than from $`L_f`$. Downstream predictions include CMB-ecliptic alignment as a local sampling fingerprint.
-
-**Inputs:** Sector $`\mathcal{A}`$ eigenvalue, phase field coherence scale $`L_f`$ (tested, falsified by SPARC; the unknown galactic coherence scale is $`L_g`$), 120-grid scale-free projection, 3/2 conversion (Gauss lift + de Sitter vacuum).
 
 ---
 
