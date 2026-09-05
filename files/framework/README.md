@@ -99,14 +99,15 @@ The observable domain is not that smooth covering space itself but its quotient 
 <a id="the-firing-order"></a>
 ## 🔫 The Firing Order
 
-Each step follows from the one before, and the six together are the framework's chain of derivation rather than the order of this page.
+Mode Identity Theory is built upon a specific order of operation. Each step depends on the one before, and nothing later in the sequence exists independently from
+what came prior.
 
-1. Topology sets what is possible.
-2. Embedding defines the structure.
-3. The Cosmic Wave expresses the boundary.
-4. Time is phase of the wave.
-5. Sampling resolves position in the domain.
-6. Meaning arises only after realization.
+- Topology sets what is possible.
+- Embedding defines the structure.
+- The Cosmic Wave expresses the boundary.
+- Time is phase of the wave.
+- Sampling resolves position in the domain.
+- Meaning arises only after realization.
 
 The chain begins in theorem: non-orientability fixes the anti-periodic boundary condition, and the resulting eigenproblems fix the first positive levels. How the wave sources geometry, and what selects the positions the sampling lands on, are the theory's own open work, gathered in the [Research Frontier](#research-frontier).
 
