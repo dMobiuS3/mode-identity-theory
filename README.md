@@ -7,7 +7,7 @@
 
 ---
 
-Mode Identity Theory starts with a simple bet: fundamental physics is not missing more ingredients, it's missing better boundary conditions. Instead of changing Einstein's equations or calling numbers accidents, MIT asks: what follows when form comes before function?
+**Mode Identity Theory** starts with a simple bet: fundamental physics is not missing more ingredients, it's missing better boundary conditions. Instead of changing Einstein's equations or calling numbers accidents, MIT asks: what follows when form comes before function?
 
 What began as an inadvertent search query turned philosophy, turned topology, turned theory. What followed were the constants of the universe popping out like some sort of cosmic game genie. None of this was planned...
 
