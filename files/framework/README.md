@@ -320,7 +320,7 @@ The temporal anti-periodic tower and this positional profile are distinct eigenp
 
 $`\Lambda_\text{top}`$ sits at the antinode: slope exactly zero.
 
-The boundary zeros are physical: in the black-hole reading the exterior stationary horizon maps to this $`C \to 0`$ node, closing that sampling channel (the black-hole supplement).
+The boundary zeros are physical: in the black-hole reading the exterior stationary horizon maps to this $`C \to 0`$ node, closing that sampling channel.
 
 >**📕 [Black Holes](../cosmos/files/black-hole.md):** black holes as topological nodes of the wave, where the exterior horizon maps to the $`C \to 0`$ boundary node.
 
