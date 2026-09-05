@@ -43,12 +43,6 @@ The observable domain is not that smooth covering space itself but its quotient 
   - The Waltz Clock
   - The Present Epoch
 
-**[One Identity](#one-identity)**
-  - The particle address
-  - Faces sort color
-  - Edges sort spin
-  - Vertices set electroweak address
-
 **[One Equation](#one-equation)**
   - The Scaling Law
   - The Phase Operator
@@ -62,6 +56,12 @@ The observable domain is not that smooth covering space itself but its quotient 
 <td valign="top">
 
 **-SECTORS-**
+
+**[One Identity](#one-identity)**
+  - The particle address
+  - Faces sort color
+  - Edges sort spin
+  - Vertices set electroweak address
 
 **[One Ladder](#one-ladder)**
   - The Gauge Ladder
@@ -256,37 +256,6 @@ Two phase parameterizations meet at the present epoch. The engine phase $`\Phi =
 [↑ Table of Contents](#table-of-contents)
 
 ---
-<a id="one-identity"></a>
-## 🔺 One Identity
-
-```math
-\Large {\lvert 2I\rvert = 120 = 2^3 \cdot 3 \cdot 5}
-```
-
-The order of the binary icosahedral group factors into exactly three primes, and the factorization is not bookkeeping. The stabilizer orders 2, 3, 5 belong to the edges, faces, and vertices of the icosahedral rotation group beneath it; in the binary lift the edge $`Z_2`$ becomes $`Z_4 \subset 2I`$, containing the central element $`-I`$. Restricting an irrep to each stabilizer gives a clean representation-theoretic decomposition, and MIT reads each decomposition as one axis of physical identity. The arithmetic is forced; the physical assignment is the reading.
-
-A resolved particle address is the pair $`(\rho, \sigma)`$, with $`\rho`$ an irrep of $`2I`$, the representation seat, and $`\sigma`$ the flat-vacuum label [One Shape](#one-shape) closed at three. The propagating mode is read on $`\rho \otimes \sigma`$, and the three restrictions below are what give that address its physical content. [One Ladder](#one-ladder) and [One Formula](#one-formula) both consume it.
-
-**Faces sort color.** Restrict the propagating mode $`\rho \otimes \sigma`$ to the three-fold face stabilizer $`Z_3`$, and it decomposes into trivial characters and conjugate nontrivial character pairs. MIT reads the trivial channels as color singlets and the nontrivial pairs as color triplet and anti-triplet channels. The decomposition determines which color channels are available; the full $`(\rho, \sigma)`$ address determines which one a particle occupies. The face structure is vacuum-independent, so on this reading color is generation-independent.
-
-**Edges sort spin.** The four-fold edge stabilizer $`Z_4`$ contains the central element $`-I`$, which acts with opposite parity on integer- and half-integer-spin irreps. In the $`Z_4`$ restriction this becomes an exact binary: integer-spin irreps carry real $`Z_4`$ content and use the $`D = 60`$ grid, while half-integer irreps carry complex pairs and use $`D = 120`$. MIT reads that representation split as the boson-fermion, spin-statistics divide. This $`-I`$ is the central sign of $`2I`$, the same sign the scaling law's 60R and 120 grids are sorted by, and it is not the Möbius orientation sign of One Shape: two distinct $`Z_2`$'s, kept apart here as they are in the gauge ladder.
-
-**Vertices set the electroweak address.** The five-fold vertex decomposition makes the Galois distinction explicit: $`R_1`$ and $`R_2`$ occupy complementary fifth-root sectors exchanged by $`\sqrt5 \mapsto -\sqrt5`$, writing $`R_n`$ for the eight nontrivial irreps of $`2I`$ in their McKay ordering. MIT reads that distinction as the electroweak address, and it feeds the Coxeter-Galois gate: weak isospin $`T_3`$ is assigned by that gate, the Coxeter-Galois gate, from spectral parity, the sign the eta invariant carries on the irrep, together with the Galois structure, with a separate eta-sign gate constraining the electric-charge slot, so the isospin is the gate's output and not furnished by $`Z_5`$ alone. This is the same $`T_3`$ gate One Formula's mass table leans on, and it is the identification doing the most work in the section: representation theory distinguishes the pair, and the framework's dictionary gives the distinction its electroweak meaning.
-
-The same stabilizers give two further entries that are not primes but corrections, each tying back to a section of its own.
-
-| Combination | Value | Role | Mechanism |
-|---|---|---|---|
-| Face / base-edge stabilizer | 3/2 | gravity correspondence | ratio of the $`Z_3`$ face order to the base $`Z_2`$ edge order, matched to the vacuum-reference 3/2; the geometric conversion is derived separately in One Interface |
-| Vertex $`\times`$ twist | $`\cos(\pi/10)`$ | weak coupling correction | dodecahedral defect $`\pi/5`$, taken to be halved by the Möbius $`Z_2`$ |
-
-The 3/2 entry is the conjectural one and is not this section's to adjudicate: it is the raw stabilizer ratio, and the fence separating it from the vacuum conversion and the clock exponent is kept in [One Interface](#one-interface), which owns the geometric derivation. The $`\cos(\pi/10)`$ entry is motivated, not derived, and is stated where it is used, in the gauge ladder: the dodecahedral defect $`\pi/5`$ taken to be halved by the Möbius orientation $`Z_2`$, with the operator-level step from that holonomy to a multiplicative cosine still open. That Möbius $`Z_2`$ is the orientation twist, distinct again from the central $`-I`$ two rows above.
-
-The stabilizers determine the decompositions and MIT's dictionary gives them their physical reading, all from the same topology. What leaves this section is what the rest of the page samples: the two grids, and the address $`(\rho, \sigma)`$ with its color, spin and electroweak content fixed. The observable law that reads them is next; which entry lands on which measured fermion is decided later, by the masses rather than the topology.
-
-[↑ Table of Contents](#table-of-contents)
-
----
 <a id="one-equation"></a>
 ## ⚖️ One Equation
 
@@ -449,6 +418,37 @@ The $`a_0/(cH_0)`$ ratio is locked by well positions: $`C(13/120)/C(34/120) = 0.
 
 ---
 
+<a id="one-identity"></a>
+## 🔺 One Identity
+
+```math
+\Large {\lvert 2I\rvert = 120 = 2^3 \cdot 3 \cdot 5}
+```
+
+The order of the binary icosahedral group factors into exactly three primes, and the factorization is not bookkeeping. The stabilizer orders 2, 3, 5 belong to the edges, faces, and vertices of the icosahedral rotation group beneath it; in the binary lift the edge $`Z_2`$ becomes $`Z_4 \subset 2I`$, containing the central element $`-I`$. Restricting an irrep to each stabilizer gives a clean representation-theoretic decomposition, and MIT reads each decomposition as one axis of physical identity. The arithmetic is forced; the physical assignment is the reading.
+
+A resolved particle address is the pair $`(\rho, \sigma)`$, with $`\rho`$ an irrep of $`2I`$, the representation seat, and $`\sigma`$ the flat-vacuum label [One Shape](#one-shape) closed at three. The propagating mode is read on $`\rho \otimes \sigma`$, and the three restrictions below are what give that address its physical content. [One Ladder](#one-ladder) and [One Formula](#one-formula) both consume it.
+
+**Faces sort color.** Restrict the propagating mode $`\rho \otimes \sigma`$ to the three-fold face stabilizer $`Z_3`$, and it decomposes into trivial characters and conjugate nontrivial character pairs. MIT reads the trivial channels as color singlets and the nontrivial pairs as color triplet and anti-triplet channels. The decomposition determines which color channels are available; the full $`(\rho, \sigma)`$ address determines which one a particle occupies. The face structure is vacuum-independent, so on this reading color is generation-independent.
+
+**Edges sort spin.** The four-fold edge stabilizer $`Z_4`$ contains the central element $`-I`$, which acts with opposite parity on integer- and half-integer-spin irreps. In the $`Z_4`$ restriction this becomes an exact binary: integer-spin irreps carry real $`Z_4`$ content and use the $`D = 60`$ grid, while half-integer irreps carry complex pairs and use $`D = 120`$. MIT reads that representation split as the boson-fermion, spin-statistics divide. This $`-I`$ is the central sign of $`2I`$, the same sign the scaling law's 60R and 120 grids are sorted by, and it is not the Möbius orientation sign of One Shape: two distinct $`Z_2`$'s, kept apart here as they are in the gauge ladder.
+
+**Vertices set the electroweak address.** The five-fold vertex decomposition makes the Galois distinction explicit: $`R_1`$ and $`R_2`$ occupy complementary fifth-root sectors exchanged by $`\sqrt5 \mapsto -\sqrt5`$, writing $`R_n`$ for the eight nontrivial irreps of $`2I`$ in their McKay ordering. MIT reads that distinction as the electroweak address, and it feeds the Coxeter-Galois gate: weak isospin $`T_3`$ is assigned by that gate, the Coxeter-Galois gate, from spectral parity, the sign the eta invariant carries on the irrep, together with the Galois structure, with a separate eta-sign gate constraining the electric-charge slot, so the isospin is the gate's output and not furnished by $`Z_5`$ alone. This is the same $`T_3`$ gate One Formula's mass table leans on, and it is the identification doing the most work in the section: representation theory distinguishes the pair, and the framework's dictionary gives the distinction its electroweak meaning.
+
+The same stabilizers give two further entries that are not primes but corrections, each tying back to a section of its own.
+
+| Combination | Value | Role | Mechanism |
+|---|---|---|---|
+| Face / base-edge stabilizer | 3/2 | gravity correspondence | ratio of the $`Z_3`$ face order to the base $`Z_2`$ edge order, matched to the vacuum-reference 3/2; the geometric conversion is derived separately in One Interface |
+| Vertex $`\times`$ twist | $`\cos(\pi/10)`$ | weak coupling correction | dodecahedral defect $`\pi/5`$, taken to be halved by the Möbius $`Z_2`$ |
+
+The 3/2 entry is the conjectural one and is not this section's to adjudicate: it is the raw stabilizer ratio, and the fence separating it from the vacuum conversion and the clock exponent is kept in [One Interface](#one-interface), which owns the geometric derivation. The $`\cos(\pi/10)`$ entry is motivated, not derived, and is stated where it is used, in the gauge ladder: the dodecahedral defect $`\pi/5`$ taken to be halved by the Möbius orientation $`Z_2`$, with the operator-level step from that holonomy to a multiplicative cosine still open. That Möbius $`Z_2`$ is the orientation twist, distinct again from the central $`-I`$ two rows above.
+
+The stabilizers determine the decompositions and MIT's dictionary gives them their physical reading, all from the same topology. What leaves this section is what the rest of the page samples: the two grids, and the address $`(\rho, \sigma)`$ with its color, spin and electroweak content fixed. The observable law that reads them is next; which entry lands on which measured fermion is decided later, by the masses rather than the topology.
+
+[↑ Table of Contents](#table-of-contents)
+
+---
 <a id="one-ladder"></a>
 ## 🪜 One Ladder
 

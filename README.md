@@ -122,24 +122,6 @@ Three layers host different physics:
 
 ---
 
-⚛️ **One Formula:**
-
-```math
-\Large \boxed{m(\rho,\sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30} \cdot T^2(\rho \otimes \sigma)}
-```
-
-Four factors compose to rank 24 entries on the fermion mass ladder. Each factor does exactly one thing.
-
->**The Neutrino Floor.** $`\mu_\Lambda`$ sets the stage: the vacuum-energy floor of the whole spectrum, the hum every other mass is built on.
-
->**The Kostant Sunflower.** $`C_{\text{geom}}(\rho)`$ selects the position: each irreducible representation carries a geometric weight, nine seats on a discrete sunflower.
-
->**The McKay Elevator.** $`(\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30}`$ raises the energy: each step up the McKay graph lifts the mass by a fixed factor; the denominator 30 is the Coxeter number of $`E_8`$.
-
->**The Reidemeister Torsion.** $`T^2(\rho \otimes \sigma)`$ dials in the vacuum: the same particle lives in three vacua (trivial, standard, Galois), the three flat connections that MIT reads as the three generations.
-
----
-
 🔺 **One Identity:**
 
 ```math
@@ -155,6 +137,24 @@ The binary icosahedral group $`2I`$ is the largest exceptional discrete subgroup
 >**Vertices.** $`Z_5`$ sets the electroweak address: the five-fold vertex stabilizers carry weak isospin $`T_3`$ through the Coxeter-Galois gate. The eta sign gates charge; the vacuum label is read as the generation.
 
 Three primes. Three stabilizers. Every force, every particle, every quantum number.
+
+---
+
+⚛️ **One Formula:**
+
+```math
+\Large \boxed{m(\rho,\sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30} \cdot T^2(\rho \otimes \sigma)}
+```
+
+Four factors compose to rank 24 entries on the fermion mass ladder. Each factor does exactly one thing.
+
+>**The Neutrino Floor.** $`\mu_\Lambda`$ sets the stage: the vacuum-energy floor of the whole spectrum, the hum every other mass is built on.
+
+>**The Kostant Sunflower.** $`C_{\text{geom}}(\rho)`$ selects the position: each irreducible representation carries a geometric weight, nine seats on a discrete sunflower.
+
+>**The McKay Elevator.** $`(\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30}`$ raises the energy: each step up the McKay graph lifts the mass by a fixed factor; the denominator 30 is the Coxeter number of $`E_8`$.
+
+>**The Reidemeister Torsion.** $`T^2(\rho \otimes \sigma)`$ dials in the vacuum: the same particle lives in three vacua (trivial, standard, Galois), the three flat connections that MIT reads as the three generations.
 
 ---
 
