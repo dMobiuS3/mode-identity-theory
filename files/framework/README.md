@@ -95,7 +95,9 @@ The observable domain is not that smooth covering space itself but its quotient 
 </tr>
 </table>
 
->📕 marks a **canonical page**: the standalone treatment where the point at hand is worked out in full. Skim for the red book to find the rigorous backing behind any claim.
+>📕 marks a **canonical paper**: the standalone treatment where the point at hand is worked out in full.
+
+>📙 marks a **working paper**: 
 
 ---
 <a id="the-firing-order"></a>
@@ -110,8 +112,6 @@ what came prior.
 - Time is phase of the wave.
 - Sampling resolves position in the domain.
 - Meaning arises only after realization.
-
-The chain begins in theorem: non-orientability fixes the anti-periodic boundary condition, and the resulting eigenproblems fix the first positive levels. How the wave sources geometry, and what selects the positions the sampling lands on, are the theory's own open work, gathered in the [Research Frontier](#research-frontier).
 
 >[![One Shape](https://img.youtube.com/vi/U3VtY8GZox8/mqdefault.jpg)](https://www.youtube.com/watch?v=U3VtY8GZox8)
 >
