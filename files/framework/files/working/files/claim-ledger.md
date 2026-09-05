@@ -7,7 +7,7 @@
 
 **Type:** Map
 **State:** Active
-**Status (2026-09-01):** Framework-wide adversarial classification of every quantitative claim; the reconciliation and eight-cycle web are current, with Cycles 2 (α as both input and output) and 7 (the R routes ~3.2x apart) the live tensions.
+**Status (2026-09-05):** Framework-wide adversarial classification of every quantitative claim; the reconciliation and eight-cycle web are current. Cycles 2 (α as both input and output) and 7 (the R routes 3.2× apart in R on the canonical electron-muon pair, 1.7× on the best assigned pair) remain the live tensions; the other six are consistency loops, definitions, or presentation double-counts, Cycle 6 among them (Ω_m is the anchor echoed back, not a validation of the clock exponent). The mass-formula entry rule is carried as an open since 2026-09-04.
 **Summary:** An audit lens over the whole framework, classifying each claim by epistemic type and role and drawing the calibration web's cycles. It indexes claims owned by other pages; it owns no research question.
 
 *Working note, 2026-06-26. This is an internal adversarial classification of every quantitative claim in the framework, not the framework's self-description. It was built by a deliberately skeptical audit (calibration anchors are not counted as successes, retrodictions are separated from forward predictions, claims sharing a calibration path are grouped rather than double-counted). Its purpose is to keep the public pages honest about what is proved, what is calibrated, what is compared, and what remains a forward bet. Read the verdicts as the prosecution's strongest case, not the final word: some flags are clean hits, a few are the lens being harsh on purpose.*
@@ -19,7 +19,7 @@ Every claim carries two independent axes. **Type** is what kind of statement it 
 Type taxonomy, in descending order of empirical bite:
 
 - **Forward prediction**: a value for something not yet measured. The only category that can be falsified going forward. The real exams.
-- **Structural result, zero freedom**: a topological or spectral theorem that matches observation with no adjustable parameter (3 generations, 3 forces, the 4/R² mass gap). The bones. Retrodictive (the data predate the theory) but not tunable, and not circular.
+- **Structural result, zero freedom**: a topological or spectral theorem that matches observation with no adjustable parameter (3 flat vacua, with the generation identification cordoned off as a reading; chirality; the 4/R² mass gap). The bones. Retrodictive (the data predate the theory) but not tunable, and not circular.
 - **Structural theorem, no observational contact**: proved internal mathematics with no measurement target (torsion closed forms, Mirror no-go lemmas, character ceilings). True, often load-bearing for the architecture, but empirically inert.
 - **Loose comparison**: a retrodiction *with* freedom: it hits a known value but the hit was selected among Fibonacci wells, grids, exponents, or vacua, or sits inside a tolerance window. The bulk of the headline physics.
 - **Calibration anchor**: a measured value taken as an input (Λ, R, m_e, Ω_Λ, H₀, a₀, s₀). Cannot count as a success no matter how it is framed.
@@ -34,11 +34,11 @@ A large structural framework with genuine topological content, whose quantitativ
 
 The structural content is not circular. Three generations from three flat connections on S³/2I, the Yang-Mills mass gap at 4/R², chirality, the Molien deficit: these are retrodictions with zero adjustable freedom, theorems about the topology that happen to match the world. They are the bones. The quantitative comparisons (α to 0.4%, the couplings to ~1%, the masses to a factor of 3, a₀/cH₀ to <1%, Λ to 23%) are a different animal: each is a retrodiction inside the calibration web, hitting a number already known by choosing among wells, grids, exponents, and three vacua, with the selection rule that would remove that freedom an explicit open problem.
 
-What the framework actually lives or dies on is a thin set of forward bets, nearly all riding on Euclid DR1: epoch-independent Λ / flat Ω_DE(z), mass-independent a₀(z) ∝ H(z) (the single cleanest discriminator, immune to the stellar-M/L freedom that wrecks the rotation-curve tests), and the sign-fixed negative (1+z)¹ term in H²(z). These are thinner than the page count suggests: a₀(z), H(z), w_eff(z), and d_L(z) are one phase-clock relation read through four channels, not four independent predictions.
+What the framework actually lives or dies on is a thin set of forward bets, nearly all riding on Euclid DR1: epoch-independent Λ / flat Ω_DE(z), mass-independent a₀(z) ∝ H(z), whose M/L-independent lensing channel would be the cleanest discriminator but is conditional on a relativistic completion the framework has not supplied, so the dynamical channels carry the falsifiable weight for now, and the sign-fixed negative (1+z)¹ term in H²(z). These are thinner than the page count suggests: a₀(z), H(z), w_eff(z), and d_L(z) are one phase-clock relation read through four channels, not four independent predictions.
 
 When any of this can be scored is set by ESA's release split. DR1-Foundation (November 2026) carries raw data, calibrated images, catalogues and spectra over about 1900 deg², with no cosmology-derived products; the full DR1 (mid 2027) adds the higher-level galaxy-clustering and weak-lensing products. Λ flatness, a₀(z), and the sign-fixed (1+z)¹ term all read spectroscopic BAO or weak lensing, so they gate on the full release, not the Foundation one; the stellar mass function at z ≳ 10 is the single forward row reachable from the Foundation catalogues and spectra. ESA notes these dates are tentative and still to be confirmed. The predictions were registered before either release, and that priority is unaffected by the schedule moving.
 
-The framework's strongest feature is recorded falsification. It pre-registered and lost the SPARC coherence-scale test (0.38 L_f, not 1.0), the H₀ bimodality test (unimodal), the original McKay mass-residual correction on the pre-correction table (no parameter-free fix, a negative the torsion correction has since reopened rather than confirmed), and the signed well-functional sweep (wells never extremal), and the torsion null test (random torsions reproduce the mass hit rate at p_A = 0.690, so the ×3 count is not evidence for the specific torsions), and it logs the down mass miss (outside ×3 at 3.2), with up and charm unassigned, and the m_e↔Λ ~11% closure rather than hiding them. That is the opposite of a protected theory.
+The framework's strongest feature is recorded falsification. It pre-registered and lost the SPARC coherence-scale test (0.38 L_f, not 1.0), the H₀ bimodality test (unimodal, and still without lattice-specific evidence when respecified against the three-valued lattice), the original McKay mass-residual correction on the pre-correction table (no parameter-free fix, a negative the torsion correction has since reopened rather than confirmed), and the signed well-functional sweep (wells never extremal), and the torsion null test (random torsions reproduce the mass hit rate at p_A = 0.690, so the ×3 count is not evidence for the specific torsions), and it logs the down mass miss (outside ×3 at 3.2), with up and charm unassigned, and the m_e↔Λ ~11% closure rather than hiding them. That is the opposite of a protected theory.
 
 ## Reconciliation (verified 2026-06-26)
 
@@ -54,13 +54,17 @@ Methodological lesson: the audit judged each claim stripped of its in-page cavea
 
 Cycle 2 (α) and Cycle 7 (R routes) named below are real tensions, but already disclosed at every live site; the α §15 "CLOSED" framing now carries a calibration note in both the repo and the Desktop engine.
 
+## Currency pass (2026-09-05)
+
+A second verification read every dated row against its source page. Refreshed in place: the Friedmann open (three gates run, ε fit scored, R-VAR added), the rank-16 forward row (demoted to structural residual by its source), the CMB route attribution (ℓ≈28 is the back-read; the coupling route lands ℓ≈24), the tau/top flag (corrected-table residuals), the a₀(z) lensing channel (conditional since 2026-07-18), the clock-age numbers (deprecated by their source since 2026-07-13), Cycle 7 (electron-muon canonical by convention, muon-top as the best-pair check), the H₀ null (three-valued respecification), Cycle 6 (Ω_m inherited, not recovered), the force-count grade (moved out of the zero-freedom table to match the public Score), and row 7 (the rank withdrawn; its source retired rank positions on 2026-07-18). Added: the entry-rule open, and a rank-16 overclaim flag. The June reconciliation and its closed triage arc stand; new source-page candidates live in Flags, where overclaims are audited.
+
 ## The two cycles that matter
 
 Most of the calibration loops below are benign (definitions, or self-flagged consistency radii). Two are the framework's real internal tensions and deserve to be stated starkly:
 
 **Cycle 2: α is both input and output.** The α route calibrates R from the measured fine-structure constant (α fixes Ω_Λ, hence R), and then the scaling law "predicts" α from that same R. So **α at 0.4% is a consistency check, not a prediction of α.** The genuinely non-circular content of that chain is downstream: α → R → Λ = 3/R² is a real ~23% prediction of the cosmological constant. State it that way. The engine's §15 "α CLOSED" tag is the top source-page fix: it should say α is the calibration input for R, making the 0.4% match a closure test, with the Λ-at-23% as the actual forward-ish content.
 
-**Cycle 7: the two independent routes to R disagree by ~3.2×.** R from the coupling route (α inverted) is ≈6.1 Gpc; R from the mass-spectrum route is ≈20 Gpc, and the corresponding Λ_ref values differ by ~10.5× (>1 order of magnitude). Read against the measured value instead (R_Λ ≈ 5.4 Gpc, the circular back-read of Λ), the mass route is ~3.7× high in R and ~13.4× low in Λ_ref: that is the route-versus-observed miss the Inputs table records, and it is a different comparison from the route-versus-route one. The engine honestly labels the mass route "order of magnitude," but a 3.2× disagreement between the framework's two independent determinations of its master length scale is a real problem, not a footnote. Until one route is shown to be the correct determination of R, every "prediction" that flows through R inherits this ambiguity.
+**Cycle 7: the two independent routes to R disagree, by 3.2× on the canonical pair and 1.7× on the best assigned pair.** R from the coupling route (α inverted) is ≈6.1 Gpc. The mass route's canonical estimator is the electron-muon pair (Δd = 1, 60-fold lever): R ≈ 20 Gpc, 3.2× the coupling value and ~10.5× in Λ_ref. Canonical is a convention fixed for comparability, not a claim that it is the correct route: it is the reading the framework's Inputs table quotes, the one the corpus-wide 13.4× derives from, and the one with the cleanest structural claim, a single McKay step inside the lepton sector. The tightest assigned pair on the corrected table is muon-top (Δd = 2, 30-fold lever, 2026-07-28): R ≈ 10.5 Gpc, 1.7× in R and ~2.9× in Λ_ref; it is carried as the best-pair sensitivity check, and the range between the two is how much the tension depends on pair choice. Read against the measured value instead (R_Λ ≈ 5.4 Gpc, the circular back-read of Λ), the two pairs sit ~3.7× and ~2× high in R, ~13.4× and ~3.8× low in Λ_ref: that is the route-versus-observed miss the Inputs table records for electron-muon, a different comparison from the route-versus-route one. Either way the two independent determinations of the master length do not meet, and until one route is shown correct every "prediction" that flows through R inherits the ambiguity.
 
 ## Calibration web
 
@@ -74,8 +78,8 @@ R_Λ          ← Λ_obs                  (R = √(3/Λ), back-read)
 √Ω           ← Ω_Λ                    (10⁶¹ observer depth)
 μ_Λ          ← Λ_obs, G               (= ρ_Λ^(1/4) ≈ 2.25 meV)
 Λ_top        ← R_Λ                    (= 2/R²)
-Λ (3/R²)     ← Λ_top                  (× 3/2: 3 = Ricci trace derived, ½ imported GR, VACUUM normalization)
-Λ_physical   ← Λ (3/R²): T_μν = 0 is SUFFICIENT, not shown necessary   ← GATE
+Λ_ref (3/R²) ← Λ_top                  (× 3/2: 3 = Ricci trace derived, ½ imported GR, VACUUM normalization)
+Λ_physical   ← Λ_ref: T_μν = 0 is SUFFICIENT, not shown necessary   ← GATE
              (static fluid, ρ+p>0: ΛR² < 3 iff ρ > 0; ρ = 0 attains 3)
 H₀ [obs, = Planck 67.4]
 a₀ [obs, MOND 1.2e-10]
@@ -88,7 +92,8 @@ m_e [obs, BENCHMARK]
 fermion masses ← μ_Λ, C_geom(ρ), Ω_Λ^(dist/30), T²(ρ⊗σ)   (all relative to m_e)
 R_Λ (Λ back-read) ≈ 5.4 Gpc  ← measured Λ                  [circular default]
 R (coupling) ≈ 6.13 Gpc ← α
-R (mass)     ≈ 20 Gpc   ← m_e, m_μ, McKay distances        ← CYCLE 7 (~3.2× / ~10.5× in Λ_ref vs coupling; ~3.7× / ~13.4× vs the Λ back-read)
+R (mass, e-μ, canonical) ≈ 20 Gpc   ← m_e, m_μ, Δd = 1 (60-fold lever)   ← CYCLE 7 (~3.2× / ~10.5× in Λ_ref vs coupling; ~3.7× / ~13.4× vs the Λ back-read)
+R (mass, μ-t, best pair) ≈ 10.5 Gpc ← m_μ, m_t, Δd = 2 (30-fold lever)   (sensitivity check: ~1.7× / ~2.9× vs coupling; ~2× / ~3.8× vs the Λ back-read; 2026-07-28)
 Ω_m          ← Ω_Λ                    (= 1 − Ω_Λ = 0.315, flatness identity)
 s₀           ← SN+BAO data [obs]      (fitted phase parameter, the model's only DoF)
 w_eff, (1+z)¹β, Ω_m(z), H(z), a₀(z), d_L(z)  ← s₀, Ω_Λ, one phase clock
@@ -101,8 +106,8 @@ The eight cycles, each named by kind:
 3. **R ↔ Λ**: definition (R = √(3/Λ), Λ = 3/R²). Exact, self-flagged "circular: a consistency radius, not an input."
 4. **Ω_Λ ↔ R ↔ ℓ_P**: definition. The 10⁶¹ / 10⁻¹²² / 10⁻¹⁸³ suppressions are one fact re-expressed.
 5. **a₀ ↔ H₀ ↔ a₀/(cH₀)**: presentation double-count: one derived ratio (0.184) listed across multiple pages and re-used as a₀/a_P.
-6. **n = −½ ↔ Ω_m**: one fit counted twice: the clock exponent is fitted to recover the (1+z)³ scaling, then the Ω_m recovery is cited as its validation.
-7. **R(coupling) ↔ R(mass)**: **the most important tension**, ~3.2× disagreement in R (~10.5× in Λ_ref); see above.
+6. **n = −½ ↔ Ω_m**: benign once stated correctly. The exponent is fixed by S³ dimensionality plus GR and validated only against its own discrete family (integer alternatives at Δχ² > 60); Ω_m = 0.315 is inherited from the held vacuum anchor by flat closure (temporal-budget §IV), so any "recovers Ω_m" wording is the anchor echoed back, not a validation of the exponent.
+7. **R(coupling) ↔ R(mass)**: **the most important tension**, 3.2× disagreement in R on the canonical electron-muon pair (~10.5× in Λ_ref), 1.7× on the best assigned pair (muon-top, ~2.9× in Λ_ref); see above.
 8. **8.4% H₀**: output = input by construction; mechanism withdrawn on SPARC.
 
 ## Master ledger
@@ -116,16 +121,17 @@ The phase-clock channels are grouped under one parent: they are independent *tes
 | Claim | Predicted → status | Freedom (look-elsewhere) | Anchored on | Falsifier |
 |---|---|---|---|---|
 | **Phase-clock relation (parent)**: one standing wave on S¹ produces H(z), a₀(z), w_eff(z), d_L(z) | n/a | s₀ is the only DoF; functional form fixed | s₀, Ω_Λ | see channels |
-| ↳ a₀(z) mass/aperture-independent √E(z) = 1.74 at z=2 | awaiting Euclid lensing; dir corroborated ~30σ (non-discriminating) | a₀(0) input; lensing calib | H(z), a₀(0) | M_dyn/M_b mass-dependent (ΛCDM 0.76–1.13) ≥2σ. **Cleanest single discriminator.** |
+| ↳ a₀(z) mass/aperture-independent √E(z) = 1.74 at z=2 (lensing) | conditional forecast: the lensing channel needs a relativistic completion the framework has not supplied (euclid-dr1 row II note, 2026-07-18); direction corroborated ~30σ by MUSE-DARK III, non-discriminating | a₀(0) input; lensing calib; the completion itself | H(z), a₀(0) | M_dyn/M_b mass-dependent (ΛCDM 0.76–1.13) ≥2σ, scored only under that completion; near-term weight is a matched-systematics BTFR comparison at z ≈ 2.3 |
 | ↳ a₀(z=2) ≈ 3× local | awaiting hi-z rot curves | Ω_Λ/s₀ upstream | H(z) | a₀ ≈ a₀(0) at z≈2, ≥2σ |
 | ↳ negative (1+z)¹ coeff β, \|β\| < 0.012 | awaiting next-gen BAO; sign firm, magnitude sub-detectable | magnitude rides fitted s₀ | s₀ | β > 0 at ≥2σ, or magnitude ≠ fitted s₀ |
 | ↳ w_eff(z) > −1 (no phantom crossing) | **demote: convention-dependent, not an observable** | fiducial-vs-dressed split sets it | split choice | crossing persists across all reconstructions ≥2σ |
-| Λ epoch-independence / Ω_DE(z) flat across DR1 bins | awaiting full DR1 (mid 2027) | flatness not tunable | Λ = 3/R² (web) | Ω_DE varies ≥2σ across bins |
+| Λ epoch-independence / Ω_DE(z) flat across DR1 bins | awaiting full DR1 (mid 2027) | flatness not tunable | Λ_ref = 3/R² (web) | Ω_DE varies ≥2σ across bins |
 | SMF z≳10 / JWST massive galaxies persist (a₀(z=10)≈20.5×; 4.5× g-boost; 2.1× t_ff speedup → ε_SF ~0.5) | awaiting wide-area | ε_SF, dust, selection knobs; "deferred/uncounted" escape | a₀(z=10), Ω_Λ, s₀ | abundance within Boylan-Kolchin ΛCDM ≥2σ |
 | ν R1 ladder 0.87 / 7.3 / 66.7 meV (triv/std/gal) | awaiting JUNO/DUNE; ordered proxy resemblance to lightest / solar / atmospheric scales, not hits | proxy only, no generation assignment; splitting ratios 0.72, 1.8 | mass formula (R1) | ladder ordering inconsistent with the measured mass scales |
 | Neutrino floor μ_Λ ~2.25 meV | <0.45 eV (KATRIN, 90% CL); forward | μ_Λ rides web; near oscillation scale | m_e, Ω_Λ (web) | lightest ν > 2.25 meV >1σ |
 | No CMB spectral distortion, T(z) = (1+z)^(1−β) (redshift-cooling) | FIRAS-consistent; two-sided test | β=0 limit | phase clock | measured distortion / T(z) departure |
-| Rank-16 / dead-zone states (~418 MeV; 6 states eV–keV) | no SM fermion (open) | "unassigned" escape hatch | mass formula | sterile/WDM searches exclude windows |
+| Dead-zone states (6 states eV–keV) | no SM fermion (open) | "unassigned" escape hatch | mass formula | sterile/WDM searches exclude windows |
+| Rank 16 (~418 MeV) and heavy down-type shell (ranks 18-21, 5.97–19.6 GeV) | **demoted 2026-09-04, not a forward exam**: a colored state at those masses with ordinary couplings is already excluded, so the source reads them as structural residuals by default; the physical reading needs a coupling-suppression argument the page does not have | over-production charges the entry rule (Open problems) | mass formula | n/a |
 
 ### Structural results, zero freedom (the bones)
 
@@ -134,11 +140,11 @@ Retrodictions that match observation with no adjustable parameter. Not circular,
 | Claim | Value → measured | Freedom | Anchored on | Note |
 |---|---|---|---|---|
 | Fermion generations = 3 | 3 flat SU(2) connections, H¹=0 → 3 | "flat connection = generation" is an interpretation, cordoned off | 2I character theory | proved (Maschke + character theory) |
-| Force count = 3 | Z₃,Z₄,Z₅ / 2I = 2³·3·5 | prime→force map; spin/gravity bookkeeping | 2I structure | matches EM/weak/strong |
+| Stabilizer decomposition: faces Z₃, edges Z₄, vertices Z₅ from 2I = 2³·3·5 | three exact restriction decompositions of any irrep | none (representation theory) | 2I | the arithmetic is forced; reading the three axes as color, spin, and electroweak address is the dictionary, and the force count built on it is graded under Loose comparisons |
 | Yang-Mills mass gap > 0 at 4/R² | gap exists, ADE-uniform | none (spectral) | McKay graph, R | gap is a spectral necessity |
 | Chirality of S³/2I (no orientation-reversing isometry) | parity route shut | none | 2I, quaternions | clean theorem; parity-grading corollary double-counts it |
 | Boson/fermion split D = 60/120 | \|I\|/\|2I\| = int/half-int spin | spin-statistics mapping | 2I | structural identity |
-| Color Z₃ singlet/triplet; isospin gate; eta-sign gate | every assigned fermion has its required color channel; T₃ gate evaluated at eleven featured addresses (9 marked ✓, 2 unassigned) | binary/bespoke gate fits known set; charm unplaced | irrep assignment | matches but gate is bespoke; see flags |
+| Color Z₃ singlet/triplet; isospin gate; eta-sign gate | every assigned fermion has its required color channel; T₃ gate evaluated at eleven featured addresses (9 marked ✓, 2 unassigned) | binary/bespoke gate fits known set; charm unplaced | irrep assignment | matches but gate is bespoke; see flags; the source page now carries this caveat inline and cites this ledger for it (2026-09-04) |
 
 ### Structural theorems, no observational contact (internal math)
 
@@ -162,9 +168,10 @@ Proved, often architecturally load-bearing, empirically inert. ~150+ leaf lemmas
 | Strong coupling α_s | 0.1162 → 0.1180 | 1.5% | well/grid/exp; α_s runs with scale | Ω_Λ (web) |
 | Weak coupling α_W | 0.0339 → 0.0338 | 0.3% | + cos(π/10) "Plato twist" applied only here | Ω_Λ, cos(π/10) |
 | α_s/α_W | 3.43 → 3.49 | 2% | quotient of two already-counted fits | Z₃/Z₅ |
+| Force count | 3 (three filled rungs of a four-cell grid ladder; separately, three stabilizer primes in 2I = 2³·3·5) → 3 | exact count on the selected ladder; conditional | the carrier/target rule that builds the ladder is a motivated selection rule (row 4), the 13↔17 assignment is the ladder's hypothesis, and prime→force is a reading; the public Score grades it "grid-ladder conjecture" (since 2026-07-29) and the fine-structure page calls the empty rung a conditional structural prediction, not a theorem | 2I structure, grid ladder |
 | Λ_ref via α route | 2.19e-122 → 2.845e-122 | ~23% low | 60-fold lever; route choice; Cycle 2 | α, Ω_Λ, R |
-| Λ via mass route | 8.1e-54 → 1.089e-52 | **~13.4× off (demote: a miss)** | bar relaxed %→OoM; Cycle 7 | m_e, Ω_Λ |
-| Λ_obs/Λ_top = 3/2 | 3/2 | exact (claim) vs a σ-statement | Gauss-vs-stabilizer 3/2 identity OPEN; and the 3/2 is a vacuum normalization, so the identification with the physical Λ is gated on the static stress tensor | Λ_top |
+| Λ_ref via mass route | 8.1e-54 (e-μ, canonical) → 1.089e-52; 2.9e-53 (μ-t, best pair) | **~13.4× off (demote: a miss)**; 3.8× on the best-pair check | bar relaxed %→OoM; pair choice; Cycle 7 | m_e, Ω_Λ |
+| Λ_ref/Λ_top = 3/2 | 3/2 | exact (claim) vs a σ-statement | Gauss-vs-stabilizer 3/2 identity OPEN; and the 3/2 is a vacuum normalization, so the identification with the physical Λ is gated on the static stress tensor | Λ_top |
 | a₀/(cH₀) | 0.184 → 0.183 | <1% | well pair (13,34) selected; known 1983 MOND coincidence; both inputs | a₀, H₀ (web) |
 | Fermion masses (24 entries) | **4 of 8 within ×3** (5 compatible; descriptive; p_A = 0.690) | comparison | null test `mass-null-v1.1`: random torsions reproduce the hit rate, so ×3 is not evidence for the specific torsions; ×3 window wide; assignment + 3-vacuum freedom; m_e anchor | m_e, Ω_Λ (web) |
 | ↳ muon | 1.03e-1 → 1.057e-1 GeV | 3% | rank shared w/ strange; vacuum choice | m_e |
@@ -173,7 +180,7 @@ Proved, often architecturally load-bearing, empirically inert. ~150+ leaf lemmas
 | ↳ tau | 4.89 → 1.777 GeV | **2.75×** (within ×3, singlet channel rank 17) | moved (R4,std)→(R4,gal); the (R4,std) address now predicts 11.4 GeV; charm still unplaced | m_e |
 | ↳ top | 161.3 → 172.7 GeV | **0.93** (pred/obs; 7%) at (R2,triv) | single nearest address; the old 44.5 GeV entry was the artifact | m_e |
 | Δχ² vs ΛCDM | +0.11 (= ΛCDM, marginally worse) | tie | nested model (s₀→0 = ΛCDM); dataset choice | s₀, Ω_Λ |
-| CMB low-ℓ deficit | Molien gap ℓ≈28 (coupling R) | open; route-selected | R from internal route; 2 routes straddle band | R (web), Molien |
+| CMB low-ℓ deficit | Molien gap; last empty shell lands at ℓ≈28 on the measured-Λ back-read R (circular), ℓ≈24 on the coupling route, ℓ≈14 to 7 across the mass sector's 10.5 to 20 Gpc | open; rides on R | coupling route lands in band, mass route below it; the deficit must appear where the independently read R puts it | R (web), Molien |
 | Ω_m = 0.315 | = 1 − Ω_Λ = 0.685 complement | exact | **flatness identity; this is an input echoed back, reclassify as anchor** | Ω_Λ (web) |
 
 ### Calibration anchors (inputs, not successes)
@@ -181,11 +188,11 @@ Proved, often architecturally load-bearing, empirically inert. ~150+ leaf lemmas
 | Input | Value | Framed as | Reality |
 |---|---|---|---|
 | Λ_obs | 1.089e-52 m⁻² | observed | the hub anchor (Planck 2018 TT,TE,EE+lowE+lensing; named in framework Inputs) |
-| R_Λ | 5.4 Gpc | derived | back-read of Λ (self-flagged circular); the α route gives 6.1 Gpc, the mass route ≈20 |
+| R_Λ | 5.4 Gpc | derived | back-read of Λ (self-flagged circular); the α route gives 6.1 Gpc, the mass route 20 (electron-muon, canonical) with 10.5 as the best-pair sensitivity check (muon-top) |
 | Ω_Λ = (R/ℓ_P)² | ~10¹²² | derived/exact | definition on calibrated R (overclaim) |
 | m_e | 0.511 MeV | benchmark | whole-spectrum lever; m_e↔Λ ~11% loop |
 | μ_Λ = ρ_Λ^(1/4) | 2.25 meV | derived | quartic root of measured Λ (overclaim) |
-| H₀ = 67.4 | "phase-clock best-fit" | consistent | = Planck value, favourable side of tension (overclaim) |
+| H₀ = 67.4 | "phase-clock best-fit" | consistent | = Planck value, favourable side of tension (overclaim); the framing survives on one live page, early-galaxies §II ("consistent with the MIT phase-clock best-fit") |
 | a₀ = 1.2e-10 | MOND | calibration | the normalization the ratios then reproduce |
 | s₀ < 0.19 | data constraint | awaiting | the model's only fitted DoF; prior-sensitive 0.12–0.21 |
 | 122-orders span, H₀·t_P, Planck constants, GR-imported BH quantities, CMB anomaly targets | n/a | structural/derived | inputs fed in (overclaim where framed as outputs) |
@@ -195,7 +202,7 @@ Proved, often architecturally load-bearing, empirically inert. ~150+ leaf lemmas
 | Result | Outcome | Note |
 |---|---|---|
 | SPARC L_f coherence test | **FALSIFIED**: 0.38 L_f not 1.0; tracks M_b; slope 0.23 vs [0.7,1.3] | pre-registered ([sparc-phase-field](sparc-phase-field.md)), 27-cell stable, no rescue |
-| H₀ bimodality | **NOT SUPPORTED**: unimodal; TRGB 69.8 in the predicted gap; GMM 68.4/73.5 ≠ 67/73 | all 4 configs agree |
+| H₀ bimodality | **NOT SUPPORTED**: unimodal; TRGB 69.8 in the predicted gap; GMM 68.4/73.5 ≠ 67/73 (frozen 2026-05-19 run, all 4 configs agree). Respecified 2026-09-02 against the three-valued lattice (centres fixed at 67.40 / 70.24 / 73.04): the middle component carries zero weight in all eight cells, including on the current TRGB 70.39; conclusion unchanged | exploratory, not pre-registered; the respecification postdates the null and says so |
 | McKay propagator correction | **HISTORICAL NULL on the pre-correction mass table**: no parameter-free fix, the then-current down/tau residual signs opposing (+0.51 vs −0.38) | the corrected torsions changed the residual landscape (d +0.51, τ +0.44, both overshoots at Galois vacua), so the opposite-directions argument does not transfer; route **reopened** on the corrected table |
 | Signed well-functional sweep (fibonacci-wells) | **NEGATIVE**: wells never extremal across 8 functionals | variational route to DERIVED closed |
 | Dark matter / SUSY nulls | holding | weak (absence of evidence); n=3 layer 10⁻¹⁸³ unfalsifiable |
@@ -207,8 +214,9 @@ Proved, often architecturally load-bearing, empirically inert. ~150+ leaf lemmas
 |---|---|---|
 | Selection rule for wells/exponents/grid (n=1,2,3; 1/60, 1/120; dist/30) | load-bearing | the master look-elsewhere surface; every coupling/mass cites it, audited by rule in [Shared rule-level freedom behind the scaling-law comparisons](#shared-rule-level-freedom-behind-the-scaling-law-comparisons) |
 | Commutant theorem A_obs = A_Θ ⊗ A_spec (factored scaling law) | load-bearing | keystone gap; whole factored measurement form is conditional |
-| R determination (coupling vs mass routes, ~3.2× apart) | load-bearing | Cycle 7; the mass route also sits ~3.7× off the Λ back-read |
-| Friedmann as output, not input | load-bearing | 0% progress; Ω_m recovery currently borrows GR dynamics |
+| R determination (coupling vs mass routes, 3.2× apart on the canonical pair, 1.7× on the best assigned pair) | load-bearing | Cycle 7; the canonical electron-muon route also sits ~3.7× off the Λ back-read (muon-top ~2×) |
+| Friedmann as output, not input | load-bearing | Reduced to one number, the clock exponent −1/2, FORCED by S³ dimensionality plus GR. Since 2026-07-05: gate (i) closed (level exchange), gate (ii) closed conditionally on its premise ledger (tick lemma), and the registered ε fit fired row 3 (ε = 0 excluded at 95% in both tiers, ε̂ = −0.106) with the dial diagnosed contaminated, so P2 is supported by reduction and empirically unscored; FORCED stays FORCED. A variational route (R-VAR, 2026-09-02) is on the menu with PASS/FAIL pre-registered and nothing derived. Ω_m is inherited from the held anchor, not recovered |
+| Mass-formula entry rule: T² rather than T, on ρ⊗σ rather than ρ, multiplying the Kostant seat | load-bearing (mass sector) | Open and unargued rather than tested (mass-spectrum §VI, 2026-09-04). The independent reproduction certifies the torsion values the rule is applied to, not the rule; the null test scores the placement of the results, not their construction. The concrete charge is over-production in the normal range: rank 16 and the heavy down-type shell (ranks 18-21) are excluded as ordinary colored states, so they read as structural residuals rather than targets |
 | Waltz clock map t(Φ); entropy S↦N_max (the lone unwalked map [entropy-as-realization-budget](entropy-as-realization-budget.md) rests on, §VIII.1 / §IX); energy E(S) (the amplitude-to-$`T_{\mu\nu}`$ dictionary; one object with the cooling-energy accounting per the [Budget Map](budget-map.md), redshift-and-cooling §VI + entropy §VIII.2). **This same object now gates the Λ coefficient** ([cosmological-constant](../../../../cosmos/files/cosmological-constant.md) §IV): the de Sitter step is a vacuum normalization, vacuum GR has no static closed solution, and a static perfect fluid gives `ΛR² = 3 − 2/(1+w) < 3`. Whether `3/R²` is the physical constant of the static domain is decided by the same missing dictionary, so this is not only an energy-accounting open. Counted once, here. Program page: [stress-tensor-bridge](stress-tensor-bridge.md) | load-bearing | see self-inconsistencies below |
 | Charm assignment; ν₂ gap; dead-zone coverage | soft | known fermions the scheme cannot place |
 | energy-as-resolution | non-load-bearing | the one speculative file whose open is not already load-bearing: the Pythagorean mode-decomposition route to $`E^2 = (mc^2)^2 + (pc)^2`$. Redshift-and-cooling and entropy-as-realization-budget are not separate counts here: the first is established apart from its E(S) open (§VI), the second is MOTIVATED but rests on the single map S↦N_max; both opens sit in the load-bearing row above |
@@ -230,13 +238,15 @@ Status is three-way, because "forced" hides a distinction the rest of this ledge
 | 5a | Coxeter pair (13,17) | direct conjugate-pair comparison: three alternative pairs × three couplings | **chosen, audited (provisional)**: (13,17) is exceptional in this comparison, the alternatives missing by 15–156% across the nine comparisons (recomputed). It distinguishes the pair within the restricted conjugate set; it does not force the assignment | couplings |
 | 5b | α-formula rule conjunction: well / grid / exponent | 24-candidate restricted class; 7,200-combination broad control ([alpha-scan.test.py](scripts/alpha-scan.test.py)) | **chosen, audited (provisional)**: the broad control returns 9 hits against a ~7.6 local-density baseline, **consistent with that baseline**; the restricted class returns 1 hit, for which the source publishes no expected count, so it stands as a bare 1-of-24 rather than a measured significance. Positive content therefore lives in the restriction | α |
 | 6 | a₀/(cH₀) pair (13,34) | 7,021 phase-position pairs, ±1% of the observed ratio | **chosen, audited, pair substantially constrained**: of 7,021 pairs, 24 (0.34%) fall within 1% and (13,34) is 1 of the 6 Fibonacci pairs; on the provenance audit the pairing is partly forced within the recurrence-derived set: H₀→34 is structural (34 the unique even-numerator well, sole survivor of the bosonic 2I→I projection), a₀→13 is singled arithmetically (13 the unique coprime well) but the coprime-to-dynamical link is a diagnostic (fibonacci-wells §3), not a derivation, so that leg is motivated, not forced. Residual: the a₀-coprime rule, the 1% tolerance, the long-known target. a₀, H₀ inputs; ratio a retrodiction | a₀/(cH₀) |
-| 7 | Well set {13,21,34,55} | 249,900 four-subsets of {9..59}, ranked by 8 boundary-mode functionals | **unresolved, selection audit NULL**: wells best rank 30,420/249,900 = 12.2 pct (best across the 8), never extremal; the variational justification failed, the set stays a structural label, not derived | α, a₀, H₀ |
+| 7 | Well set {13,21,34,55} | 249,900 four-subsets of {9..59}, tested against 8 boundary-mode functionals | **unresolved, selection audit NULL**: wells are never extremal across the eight functionals; minimizers are uniform or clustered non-Fibonacci sets. Specific rank positions are not retained because independent implementations move them substantially under choices the functional descriptions do not pin down. The variational justification failed; the set remains a structural label, not derived | α, a₀, H₀ |
 | 8 | Torsion → mass slot | 100,000 permutations of the 24 torsions across fixed slots (mass-null-v1.1) | **one claim closed, NULL**: 69.0% of draws meet/exceed the observed ×3 coverage (p=0.690; null mean ≈ observed), so the ×3 hit rate is not evidence for the specific torsion assignment; the rest of the mass sector's freedom (rep/vacuum/geometry/McKay/calibration) is untested here | mass ×3 count |
 | 9 | Cross-ledger bridge $`\Omega_\Lambda/\Omega_H = C_{34}^2`$ | no new scan: adjudicated against the two existing controls (row 6's 7,021 phase-position pairs at ±1%; row 5b's 7,200-combination broad class) | **candidate rule, NOT selected (2026-09-03)**: the observation $`f_\Lambda = 1/C_{34}^2 = 0.685377`$ sits $`+0.09\sigma`$ from the named anchor row, and earns nothing. $`H_0 \to 34`$ is already structurally forced, but by mode typing plus bosonic parity under a manifold index that types $`H_0`$ epoch-dependent and $`\Lambda_\text{top}`$ epoch-independent, so citing that forcing to justify crossing the ledgers is circular; the square is definitional between two squared hierarchies, leaving one factor $`R_\Lambda/(c/H_0) = C_{34}`$ as the whole claim; and the relation holds at one epoch only, requiring an epoch selector the corpus does not have ($`t(\Phi)`$ open). Closes on the $`\Lambda`$ route alone, to which it is algebraically equivalent (coupling route ~13% off, mass route ~3.7x). **Reopen only if** an independently motivated map from the evolving edge hierarchy to the fixed surface hierarchy is derived, carrying its own epoch selector. Detail in the external note `deliverable-A-cross-ledger-non-selection.md` (not a repo page). | none: not adopted |
 
 *Rows 5a–8 also appear in Null results / Loose comparisons above; this is the same fact read next to its neighbors, not a second witness. Sourced at: [fine-structure.md](../../../../spectrum/files/fine-structure.md) §V (row 5a) and §IV (row 5b), the a₀(z) paper §2 / Fig 2.1 (row 6), [fibonacci-wells.md](fibonacci-wells.md) probe log (row 7), [mass-null-test.md](mass-null-test.md) tag `mass-null-v1.1` (row 8); rows 1–4 in [scaling-law-uniqueness.md](scaling-law-uniqueness.md).*
 
 *Audit-history note, rows 5a–5b (2026-09-01): an earlier single row conflated these two comparisons and carried a 47-candidate restricted class, a 3,527-combination broad control, and alternative-pair misses of 93–770%. The 93–770% range is **withdrawn**: it is not attainable under the source page's own formulas, where $`C(\Theta) \leq 2`$ caps the overshoot at +154% (α), +63% (α_s), +441% (α_W). That record was also not internally consistent, its stated ~0.08 expected count following from neither its own broad control (0.04 in 47) nor the source page's (0.06 in 47). The reconstruction has since been run ([alpha-scan.test.py](scripts/alpha-scan.test.py), 2026-09-01): it reproduces the source page's enumeration to every published figure, 7,200 broad combinations, 9 hits, the ~7.6 local-density baseline, 24 restricted candidates, 1 hit, and the named best competitor at 0.06%. It does not reproduce 47/3,527, and both of those counts are prime, so neither can be a positions × denominators product of the kind that generates the source page's space, nor a deduplication of it. The 47/3,527 enumeration is therefore **superseded for current scoring but not asserted never to have existed**: a differently-filtered candidate set may have been run, and its filter is unrecorded. It is not used in rows 5a–5b.*
+
+*Audit-history note, row 7 (2026-09-05): an earlier version of this row carried a best rank of 30,420/249,900 (12.2 pct). The source page retired rank positions on 2026-07-18: an independent reimplementation reproduced the null in full while the specific ranks moved substantially under implementation choices the functional descriptions do not pin down. The rank is withdrawn; the stable content is the null and the shape of the minimizers.*
 
 **What the four tests do and do not pay.** They quantify the freedom inside four named rule classes; they do not discharge the theory-level selection of the classes themselves. A test pays the look-elsewhere cost only to the extent its admissible set, statistic, and tolerance were fixed independently of the target. One test, the torsion null test, was explicitly pre-registered (mass-null-v1.0, frozen tag before the run; re-run as mass-null-v1.1 on the corrected table, still NULL). The wells sweep used a fully enumerated natural comparison space and returned null, but whether its eight functionals and ranking rule were frozen before the result was inspected is not recorded, so it stands as a strong exhaustive audit, not a pre-registered one. Both came back NULL. The other two are the positives, and their denominators (the α scan's restricted class, the six Fibonacci pairs) were developed alongside the framework, not demonstrably before the target. **Verdict: rows 5a and 5b stay provisional. Row 6 partly upgrades on the provenance audit (git was uninformative: bulk import, framework predates the repo). Given the recurrence-derived well set, the H₀ leg is structurally forced (34 the unique even-numerator well → bosonic 2I→I projection), while the a₀ leg is singled arithmetically (13 the unique coprime well) but pends a target-blind rule linking coprimality to the dynamical-acceleration seat, which the corpus carries only as a diagnostic. So (13,34) is substantially constrained, not a free 1-of-6 choice, but not fully forced.** The broad α scan (7,200 combinations, 9 hits against a ~7.6 local-density baseline) is consistent with that baseline, while the restricted 24-candidate class returns one hit. The positive selection content therefore lives in the restriction, which is exactly where the post-hoc exposure lives.
 
@@ -248,13 +258,14 @@ Status is three-way, because "forced" hides a distinction the rest of this ledge
 
 The clear hits, each a candidate source-page fix:
 
-- **α "CLOSED" (engine §15)**: α is the calibration input for R; the 0.4% match is a consistency check, not a prediction of α. (Top priority.)
+- **α "CLOSED" (Desktop engine §15; on the repo's framework page the note sits under One Ladder, Anchor discipline)**: α is the calibration input for R; the 0.4% match is a consistency check, not a prediction of α. (Top priority.)
 - **Ω_m = 0.315 "derived/recovered independently"**: flatness identity 1 − Ω_Λ; a pure input echoed back.
 - **μ_Λ, Ω_Λ, R_Λ, H₀·t_P, H₀ = 67.4 "derived/exact/best-fit"**: inputs dressed as outputs.
-- **Λ_obs = (3/2)Λ_top "derived/exact"**: carries the open Gauss-vs-stabilizer 3/2 identity; "measured" cell is a σ-claim; and the coefficient 3 is a vacuum de Sitter normalization rather than the field equation of a static domain, so identifying it with the physical Λ assumes a stress tensor the framework has not determined.
+- **Λ_ref = (3/2)Λ_top "derived/exact"**: carries the open Gauss-vs-stabilizer 3/2 identity; "measured" cell is a σ-claim; and the coefficient 3 is a vacuum de Sitter normalization rather than the field equation of a static domain, so identifying it with the physical Λ assumes a stress tensor the framework has not determined.
 - **w_eff "no phantom crossing" (physical)**: a theorem about a chosen decomposition, not an observable.
 - **Hawking T_H "coefficient derived"**: only sin(πΘ₀) ≈ 0.777 is framework-side; thermal content inherited from QFT.
-- **tau/top "soft match"**: 2.4× / 1.5× are misses; list at real residuals.
+- **tau "within ×3"**: on the corrected table tau sits at 2.75× (R4, gal), inside the window but the largest surviving lepton residual; list it at the real residual. The top is a 7% hit at (R2, triv) on the same table, so the pre-correction 2.4× / 1.5× pair is withdrawn.
+- **Rank 16 "open" (root and spectrum Score rows)**: the source page reads it as a structural residual by default since 2026-09-04, with the heavy down-type shell on the same terms; "open" now overstates it.
 - **Fibonacci wells "derived/forced"**: selection rule is the framework's own open problem (already fixed in fibonacci-wells.md).
 - **Spectral inaccessibility / 120-LCM / "convergent paths" listed as "exact" wins**: self-referential no-go's and one-fact-many-witnesses.
 
@@ -270,9 +281,9 @@ The clear hits, each a candidate source-page fix:
 
 ### Self-inconsistencies (surface these; do not bury)
 
-- **Waltz clock age**: the clock inverted from the joint SN+BAO s₀ bound gives a present age **≤ 0.79 Gyr**, ~17× below 13.8 Gyr, which stellar/globular ages (~12–13 Gyr) already exclude. The t(Φ) map is the named open problem, so this is an *unsolved mapping*, not a logical contradiction, but a 17× age gap on naive inversion deserves ledger-level visibility. **Action**: every age statement in the public pages must say the clock map remains open and must not imply the current map already recovers 13.8 Gyr (the 13.8 Gyr in the epoch table is ΛCDM-borrowed pending t(Φ)).
-- **Engine phase Φ_now ≈ 5.22 vs ≲ 0.3** from clock integration: the two phase parameterizations (engine Φ, budget t) are stated as distinct with the mapping open; the discrepancy is the same unsolved map, worth visibility.
-- **Two routes to R disagree ~3.2×** (Cycle 7, ~10.5× in Λ_ref): the framework's most significant internal tension.
+- **Waltz clock age**: inverting the clock from the joint SN+BAO s₀ bound gave a present age ≤ 0.79 Gyr, ~17× below 13.8 Gyr. Temporal-budget §VIII has since deprecated both numbers (2026-07-13): they were computed on the interface tick S^{3/2}dt rather than the Hubble clock S^{1/2}dt the distance model runs on, so only the direction (engine fraction below budget fraction) is robust and the magnitude waits on the clock normalization. The t(Φ) map is the named open problem, so this is an unsolved mapping, not a contradiction. **Standing rule**: no public page may imply the current map recovers 13.8 Gyr; the framework page now carries it as ΛCDM-borrowed pending t(Φ).
+- **Engine phase Φ_now ≈ 5.22 vs ≲ 0.3**: the same unsolved map. 5.22 folds in the ΛCDM age and is under re-derivation; the ≲ 0.3 was computed on the tick measure and is deprecated with the age above. Direction robust, size not.
+- **Two routes to R disagree, 3.2× on the canonical pair** (Cycle 7, ~10.5× in Λ_ref; 1.7× and ~2.9× on the muon-top check): the framework's most significant internal tension.
 
 ## What this changes (source-page triage queue)
 
