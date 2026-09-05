@@ -30,8 +30,6 @@ The observable domain is not that smooth covering space itself but its quotient 
 **[The Firing Order](#the-firing-order)**
   - The ontological chain
 
-**-MACHINERY-**
-
 **[One Shape](#one-shape)**
   - Space, Surface, Temporal Edge
   - Why $`S^3/2I`$
@@ -52,16 +50,14 @@ The observable domain is not that smooth covering space itself but its quotient 
   - The Phase Field
   - The Assembled Engine
 
-</td>
-<td valign="top">
-
-**-SECTORS-**
-
 **[One Identity](#one-identity)**
   - The particle address
   - Faces sort color
   - Edges sort spin
   - Vertices set electroweak address
+
+</td>
+<td valign="top">
 
 **[One Ladder](#one-ladder)**
   - The Gauge Ladder
@@ -75,8 +71,6 @@ The observable domain is not that smooth covering space itself but its quotient 
 **[One Interface](#one-interface)**
   - The two seams
   - Gravity is what crosses
-
-**-ACCOUNTING-**
 
 **[Inputs and Calibration](#inputs-and-calibration)**
   - The Ω ledger
@@ -245,13 +239,13 @@ Two things about the clock are not closed, and they are one problem rather than 
 
 >**📙 [Friedmann as Output](files/working/files/friedmann-as-output.md):** the half-power clock, deriving the $`S^{-1/2}`$ exponent and the Friedmann relation as an output rather than an import.
 
->[![Time](https://img.youtube.com/vi/9N6g-kDgUDc/mqdefault.jpg)](https://www.youtube.com/watch?v=9N6g-kDgUDc)
->
->*Video: [The Machinery of Time](https://www.youtube.com/watch?v=9N6g-kDgUDc)*
-
 ### The Present Epoch
 
 Two phase parameterizations meet at the present epoch. The engine phase $`\Phi = 4\pi\, T/T_\text{cycle}`$ is linear in the Hubble-clock age $`T`$, with $`\Phi_\text{now}`$ under re-derivation; the budget phase $`t`$, the argument of $`\Psi = \cos(t/2)`$, is nonlinear in it through that same clock, and distance data pin $`s_0 = \sin(t_\text{now}/2) < 0.19`$ (95% CL). The mapping $`t(\Phi)`$ between them is still open, and until it closes the present age is read only after the clock is calibrated, so the familiar 13.8 Gyr is carried over from ΛCDM rather than recovered here. The distance-redshift relation is written in the budget phase $`t`$; the engine phase $`\Phi`$ refers to the same cycle, but with $`t(\Phi)`$ still to be derived $`\Phi_\text{now}`$ is bookkeeping, not an independent cosmological clock. The $`4\pi`$ anti-periodic period is topology-native; the 120-step chronon is the framework's sampling resolution on that period, independent of which parameterization labels it.
+
+>[![Time](https://img.youtube.com/vi/9N6g-kDgUDc/mqdefault.jpg)](https://www.youtube.com/watch?v=9N6g-kDgUDc)
+>
+>*Video: [The Machinery of Time](https://www.youtube.com/watch?v=9N6g-kDgUDc)*
 
 [↑ Table of Contents](#table-of-contents)
 
