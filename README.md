@@ -19,15 +19,15 @@ In 300 BC, Euclid proved Plato's observation that only five solids close perfect
 
 **💬 Frequently Asked Questions**
 
-***What is the universe?*** A finite, closed three-dimensional space with no edge and no outside. Its underlying size is fixed rather than expanding. What we experience as cosmic expansion comes from how a wave changes and is observed within that space, not from the space itself getting bigger.
+***What shape is the universe?*** A three-sphere ($S^3$): a finite, closed, simply connected three-dimensional space. By the Poincaré theorem, any closed, simply connected 3-manifold is topologically $S^3$. Its underlying size is fixed. What we infer as cosmic expansion comes from sampling the cosmic wave in phase, not from space itself getting bigger.
 
-***Why a Möbius band?*** Because a Möbius band has a built-in twist. Go around it once and orientation flips; go around twice and you return to where you started. That simple flip naturally produces the kind of half-step wave behavior associated with fermions. The Möbius band is also the simplest one-sided surface with a single edge, so it gives the theory the needed twist with the least extra structure.
+***Why a Möbius band?*** $S^3$ gives the universe three-dimensional space; the Möbius band gives it a surface structure where information and wave states can be organized. Gravity already hints that information may scale with area rather than volume. The Möbius band is the simplest one-sided surface with a single edge and a twist, and that twist naturally produces the sign-flip and half-step behavior associated with fermions.
 
-***What was at the beginning of time?*** Not an explosion from a tiny point. The space was already there. The theory begins with the cosmic wave at full strength and almost nothing yet realized from it. As time advances, more of the wave becomes realized as the universe we observe. So the early universe was not smaller space; it was the same space at an earlier stage of realization.
+***What is matter, and what are we?*** Matter is what the cosmic wave becomes when it is realized and resolved into physical states. A hydrogen atom is an observer. Humans are complex observers of realized states, part of the cosmic wave and universe, not external to it.
 
-***What is matter, and what are we?*** Matter is what the wave becomes when it is realized and resolved into physical states. Particles are not separate ingredients added to the universe; they are different ways the underlying structure can be occupied and read. We are made of those same realized states. The observer is therefore not outside the system looking in, but part of the process happening inside it.
+***What was the Big Bang?*** Not an explosion from a point; the finite space was already here. Measured time began with the cosmic wave at full potential and almost nothing in space realized. As time advanced, more of the wave resolved into matter. The early universe was not smaller, but the same space at an earlier stage of realization, think of a three-dimensional cymatic pattern becoming energized.
 
-***How does this complement the Standard Model?*** MIT does not replace the Standard Model or Einstein's gravity. It keeps their particles, forces, and local equations, then adds a global geometric structure underneath them. The goal is to explain why some of the numbers and patterns that the Standard Model takes as inputs might have the values they do. Some of those connections are exact mathematical results, some are promising comparisons, and some are still open problems.
+***How does this complement the Standard Model?*** MIT does not replace the Standard Model or Einstein's gravity. It keeps their particles, forces, and local equations, then adds a global geometric structure underneath them. The goal is to explain why some of the numbers and patterns they take as inputs might have the values they do. Some connections are exact mathematical results, some are motivated comparisons, and some remain open.
 
 ---
 
