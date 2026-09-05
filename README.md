@@ -27,7 +27,7 @@ In 300 BC, Euclid proved Plato's observation that only five solids close perfect
 
 ***What was the Big Bang?*** Not an explosion and not a beginning of space. Finite space was already present. What began was measured time, defined by the cosmic wave starting at full potential with almost nothing realized. As time progresses, more of the wave resolves into matter. The early universe wasn’t smaller; it was the same space at an earlier stage of realization, like a three-dimensional cymatic pattern gradually energizing.
 
-***How does this complement the Standard Model?*** Mode Identity Theory does not replace the Standard Model or general relativity. It keeps their local physics (particles, forces, field equations) and adds a global geometric structure beneath them. The aim is to explain why certain constants, patterns, and symmetries have the values they do. Some connections are exact geometric identities, others are motivated correspondences, and others remain open for refinement.
+***How does this complement the Standard Model?*** MIT does not replace the Standard Model or general relativity. It keeps their local physics (particles, forces, field equations) and adds a global geometric structure beneath them. The aim is to explain why certain constants, patterns, and symmetries have the values they do. Some connections are exact geometric identities, others are motivated correspondences, and others remain open for refinement.
 
 ---
 
