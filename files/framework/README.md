@@ -19,6 +19,8 @@ The postulate itself is one sentence: **time is the boundary of a non-orientable
 
 The observable domain is not that smooth covering space itself but its quotient by the binary icosahedral group, a symmetry group of order 120: fold the space down by that symmetry, and the result is the Poincaré homology sphere. Together, the embedded Möbius band and the 2I quotient fix what is rigid: the boundary condition, the mode domain, the stabilizers, and the McKay graph. What is read off that structure ranges in firmness, from the dimensionless ratios that need no anchor at all to the well positions, grids, and exponents whose selection rule the theory is still working to state; measured anchors set only the absolute scales.
 
+>📕 marks a **canonical page**: the standalone treatment where the point at hand is worked out in full. Skim for the red book to find the rigorous backing behind any claim.
+
 ---
 <a id="table-of-contents"></a>
 ### -Table of Contents-
@@ -479,6 +481,8 @@ The mass spectrum assembles in three moves, each set by the same topology: the c
 
 Confinement is usually told as a story about energy: pull two quarks apart and the cost keeps climbing until the field snaps. What the topology supplies here is not that story but a curvature-induced gap on the coexact gauge modes, a structural ingredient on the confinement side of the mass construction rather than a derivation of the confinement scale. Positive Ricci curvature forces a positive gap on the coexact gauge fluctuations around a flat connection, and the twisted harmonic 1-forms vanish ($`H^1 = 0`$), so every mode is lifted off zero. The value is read from the coexact form spectrum through the [McKay distance](../spectrum/files/mass-spectrum.md#3-mckay-elevator--sqrtomega_lambdatextdist30), the number of steps from an irrep to the trivial node on the affine $`E_8`$ McKay graph: the adjoint-valued gap is $`4/R_\Lambda^2`$ at the trivial and standard vacua, with the Galois vacuum the single exception below. It is a spectral gap on a compact curved background, fixed by curvature rather than tuned into the dynamics, and it is not the flat-space confinement scale $`\Lambda_\text{QCD}`$, which stays a separate open problem.
 
+>**📕 [The Yang-Mills Gap](../spectrum/files/yang-mills.md):** the linearized gauge gap and the three flat vacua on $`S^3/2I`$, worked out in full.
+
 ### Three Generations
 
 Why three, and not two or seven? Because the space has exactly three ways to hold a flat field still, with no path from one to another. Flat $`\text{SU}(2)`$ connections on $`S^3/2I`$ are classified by conjugacy classes of homomorphisms $`2I \to \text{SU}(2)`$, and exactly three exist: the trivial map, the standard connection $`Q`$, and its Galois conjugate $`Q'`$. Each is isolated ($`H^1 = 0`$), with no continuous moduli and no Goldstone mode bridging the families.
@@ -665,6 +669,10 @@ The framework spent these to find where the three problems actually sit, and eac
 ### Forward tests
 
 The exams are thin by design. The phase-clock relation is read through correlated channels rather than counted as separate bets: the epoch relation $`a_0(z) \propto H(z)`$ and the sign-fixed $`(1+z)^1`$ term of the phase-clock $`H^2(z)`$ are two faces of it, the second an identity of the construction rather than a fitted amplitude. Alongside them sit a vacuum-sector test, a flat dark-energy history $`\Omega_\text{DE}(z)`$, and a high-redshift galaxy-abundance test riding on the $`a_0(z)`$ enhancement. Euclid DR1 is the next registered observational gate, with the channels, thresholds, and falsification conditions on the [pre-registration card](../cosmos/files/euclid-dr1.md); the release date lives there, not on this page. Because the clock channels are one relation, a single release can take them down together, which is the point of setting them that way.
+
+>**📕 [Dark Energy](../cosmos/files/dark-energy.md):** the flat $`\Omega_\text{DE}(z)`$ history in full, where what evolves is not $`\Lambda`$ but perception.
+
+>**📕 [CMB Anomalies](../cosmos/files/cmb-anomalies.md):** the low-ℓ suppression read as the Molien shell gap, a standing CMB signature with parity and alignment still open.
 
 [↑ Table of Contents](#table-of-contents)
 
