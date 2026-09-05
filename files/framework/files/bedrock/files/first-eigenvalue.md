@@ -644,6 +644,21 @@ The transition is a crossing between two competing low modes (Figure 3). The zon
 
 ---
 
+## Citation
+
+**A. Alert box**
+
+> [!NOTE]
+> Shatto, B. (2026). *Twisted Quantum Modes on a Conic Möbius Band: Bound States, Holonomy, and a Stable First Positive Level*. SSRN [6968741](https://ssrn.com/abstract=6968741).
+
+**B. Copy box**
+
+```
+Shatto, B. (2026). Twisted Quantum Modes on a Conic Möbius Band: Bound States, Holonomy, and a Stable First Positive Level. SSRN 6968741. https://ssrn.com/abstract=6968741
+```
+
+---
+
 ## Independent numerical certification
 
 [![OpenWave](/files/assets/openwave-banner-graphite.svg)](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/research/findings/m8_1_method_note.md)
@@ -653,12 +668,6 @@ Theorems 1.1 and 1.2 have been reproduced numerically on the OpenWave M8 track b
 The two structural constants of the spectrum were recovered to roughly ten digits by solvers that had never seen them. The first positive level returns $`\lambda_1 = 2/R^2`$ across the narrow band $`0 < W \le \pi R/2`$ and the branch $`\alpha_0(\alpha_0+1)/R^2`$ beyond it, doubly degenerate at $`W = \pi R/2`$; a blind evaluation at $`W = 2R`$ gives $`\lambda_1 R^2 = 1.4022484374`$ against the closed form's $`1.4022484385`$. The extension-stability threshold was fixed by blind bisection at $`\delta_0^\ast/R = 0.7357588823`$, matching $`2/e`$ to twelve digits. The Friedrichs realization returns bottom $`0`$ with the discontinuous zero mode and no negative eigenvalue, while each bridging realization carries exactly one, whose small-$`\delta_0`$ coefficient $`\delta_0^2\lambda_b`$ extrapolates to $`-1.2609470067`$ against $`-4e^{-2\gamma} = -1.2609470067`$. All five pre-registered claims were confirmed and adversarially audited; the [method note](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/research/findings/m8_1_method_note.md) carries the full record.
 
 This is a numerical certification of the theorems as stated, not a second proof. It covers the sector-regular class treated here; the non-sector-regular extensions and the full eigenfunction data lie outside its scope.
-
----
-
-## Citation
-
-Shatto, B. (2026). *Twisted Quantum Modes on a Conic Möbius Band: Bound States, Holonomy, and a Stable First Positive Level*. SSRN. https://ssrn.com/abstract=6968741
 
 ---
 

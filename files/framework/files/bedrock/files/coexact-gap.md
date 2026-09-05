@@ -308,6 +308,21 @@ The spectral gap computed here is a static quantity, the bottom of a Laplacian a
 
 ---
 
+## Citation
+
+**A. Alert box**
+
+> [!NOTE]
+> Shatto, B. (2026). *Coexact Spectral Gaps from McKay Distance for Flat Bundles on Homogeneous Spherical Space Forms*. SSRN [6968698](https://ssrn.com/abstract=6968698).
+
+**B. Copy box**
+
+```
+Shatto, B. (2026). Coexact Spectral Gaps from McKay Distance for Flat Bundles on Homogeneous Spherical Space Forms. SSRN 6968698. https://ssrn.com/abstract=6968698
+```
+
+---
+
 ## Independent numerical certification
 
 [![OpenWave](/files/assets/openwave-banner-graphite.svg)](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/research/findings/m8_1_1_method_note.md)
@@ -319,12 +334,6 @@ Across the finite subgroups of $`\mathrm{SU}(2)`$ the run covered, it confirmed 
 The affine $`E_8`$ diagram itself was a blind output rather than an input: the order-120 group's distance vector came out $`[0, 7, 1, 2, 6, 3, 6, 4, 5]`$ over the dimensions $`[1, 2, 2, 3, 3, 4, 4, 5, 6]`$, reconstructed from the matrix generators by an agent never told which diagram to expect. The [method note](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/research/findings/m8_1_1_method_note.md) carries the full record.
 
 This is a numerical certification across the finite family the run covers, not a second proof. The classical spectral inputs it rests on, the round-sphere coexact spectrum of Ikeda and Taniguchi among them, are handed to the solver as definitions rather than tested; the run verifies every step built on them.
-
----
-
-## Citation
-
-Shatto, B. (2026). *Coexact Spectral Gaps from McKay Distance for Flat Bundles on Homogeneous Spherical Space Forms*. SSRN. https://ssrn.com/abstract=6968698
 
 ---
 

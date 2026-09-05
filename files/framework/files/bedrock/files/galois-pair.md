@@ -392,6 +392,21 @@ Beyond $`2I`$, the same defect machinery computes the conversion identity's two 
 
 ---
 
+## Citation
+
+**A. Alert box**
+
+> [!NOTE]
+> Shatto, B. (2026). *An Affine Rho–Index Conversion and the Galois Pair on the Poincaré Homology Sphere*. SSRN [7129118](https://ssrn.com/abstract=7129118).
+
+**B. Copy box**
+
+```
+Shatto, B. (2026). An Affine Rho–Index Conversion and the Galois Pair on the Poincaré Homology Sphere. SSRN 7129118. https://ssrn.com/abstract=7129118
+```
+
+---
+
 ## Independent numerical certification
 
 [![OpenWave](/files/assets/openwave-banner-graphite.svg)](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/research/findings/m8_1_1_method_note.md)
@@ -403,12 +418,6 @@ The substantive verifications are the exact numbers of Theorem 1.2 and its conse
 The conversion identity of Theorem 1.1 carries an honest qualification the audit supplied. The solver was not told that an affine relation between the two currencies was expected, and it recovered the exact coefficients $`(1, 4, -4)`$ at zero residual, with Corollary 3.2's additive offset appearing as the trivial multiplicity in every case. The audit then derived that the relation is algebraically forced for every finite $`\Gamma \subset \mathrm{SU}(2)`$, in agreement with this paper's own reading that the identity follows in three lines from two classical formulas. The blind run therefore confirms the group construction, the character values, and the arithmetic that carry the identity, not the truth of a relation that could have come out otherwise.
 
 The run is scoped to the paper's computable content. Theorem 1.3(ii) and the whole of §7, structural topology with no finite object to evaluate, are read only; and the classical geometric inputs the currencies rest on, the Atiyah-Patodi-Singer defect formula, Degeratu's twisted-Dirac eta identity, and the Kronheimer-Nakajima index integral, are handed to the solver as definitions rather than tested. The [method note](https://github.com/openwave-labs/openwave/blob/main/openwave/xperiments/m8_mit/research/findings/m8_1_1_method_note.md) carries the full record, including the audit's split of which claims are forced and which are contingent.
-
----
-
-## Citation
-
-Shatto, B. (2026). *An Affine Rho–Index Conversion and the Galois Pair on the Poincaré Homology Sphere*. SSRN. https://ssrn.com/abstract=7129118
 
 ---
 
