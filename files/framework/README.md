@@ -99,7 +99,7 @@ The observable domain is not that smooth covering space itself but its quotient 
 <a id="the-firing-order"></a>
 ## 🔫 The Firing Order
 
-Each step below follows from the one before, and the six together are the framework's chain of derivation rather than the order of this page. The sections are arranged instead by what each one needs from the sections before it: One Shape fixes the domain, One Wave develops its temporal edge, One Identity develops its representation and sampling content, and One Equation reads the observable law off both branches. One Ladder, One Formula and One Interface apply that law to the couplings, the masses and gravity, and the two accounting sections state what it rests on and what stays open.
+Each step follows from the one before, and the six together are the framework's chain of derivation rather than the order of this page.
 
 1. Topology sets what is possible.
 2. Embedding defines the structure.
