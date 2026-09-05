@@ -646,15 +646,11 @@ The transition is a crossing between two competing low modes (Figure 3). The zon
 
 ## Citation
 
-**A. Alert box**
-
-> [!NOTE]
-> Shatto, B. (2026). *Twisted Quantum Modes on a Conic Möbius Band: Bound States, Holonomy, and a Stable First Positive Level*. SSRN [6968741](https://ssrn.com/abstract=6968741).
-
-**B. Copy box**
-
 ```
-Shatto, B. (2026). Twisted Quantum Modes on a Conic Möbius Band: Bound States, Holonomy, and a Stable First Positive Level. SSRN 6968741. https://ssrn.com/abstract=6968741
+Shatto, B. (2026).
+Twisted Quantum Modes on a Conic Möbius Band: Bound States, Holonomy, and a Stable First Positive Level.
+SSRN 6968741.
+https://ssrn.com/abstract=6968741
 ```
 
 ---

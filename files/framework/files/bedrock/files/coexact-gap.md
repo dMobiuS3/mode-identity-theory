@@ -310,15 +310,11 @@ The spectral gap computed here is a static quantity, the bottom of a Laplacian a
 
 ## Citation
 
-**A. Alert box**
-
-> [!NOTE]
-> Shatto, B. (2026). *Coexact Spectral Gaps from McKay Distance for Flat Bundles on Homogeneous Spherical Space Forms*. SSRN [6968698](https://ssrn.com/abstract=6968698).
-
-**B. Copy box**
-
 ```
-Shatto, B. (2026). Coexact Spectral Gaps from McKay Distance for Flat Bundles on Homogeneous Spherical Space Forms. SSRN 6968698. https://ssrn.com/abstract=6968698
+Shatto, B. (2026).
+Coexact Spectral Gaps from McKay Distance for Flat Bundles on Homogeneous Spherical Space Forms.
+SSRN 6968698.
+https://ssrn.com/abstract=6968698
 ```
 
 ---
