@@ -9,6 +9,42 @@ Research-in-progress across the framework. Organized by status: an orienting map
 
 ---
 
+## :clipboard: Metadata Header
+
+<details>
+<summary><b>Every working page carries a research-status header</b>: the schema (click to expand). The sections below are a <em>view</em> of these values; the pages own them. Live example: <a href="files/h0-bimodality-test.md"><code>h0-bimodality-test.md</code></a> (a Test with every field). Checked by <a href="files/scripts/metadata-lint.py"><code>scripts/metadata-lint.py</code></a>.</summary>
+
+```markdown
+**Type:** Map | Program | Test | Result | Note
+**State:** Open | Active | Blocked | Waiting | Closed | Reopened | Superseded
+**Verdict:** Positive | Negative | Mixed | Inconclusive | Uninformative
+**Status (YYYY-MM-DD):** ...
+**Summary:** ...
+**Gated by:** `gate:...`
+**Inputs:** `page.md`, ...
+**Parent:** `page.md`
+**Frozen:** DATE surface; DATE surface
+**Superseded by:** `page.md`
+```
+
+Field semantics, load-bearing:
+
+- **Type** is the page's stable purpose. *Map* indexes work owned elsewhere; *Program* owns a research question; *Test* scores a claim against a pre-committed criterion; *Result* records a computation or derivation with no pre-committed pass condition; *Note* is a research sketch. Execution does not change Type: a Test stays a Test after it runs.
+- **State** describes the page's current live research object, not the states of its internal branches; historical or branch-local states belong in Status. *Open* = unresolved, no concrete next action named. *Active* = unresolved, a concrete next research action is named. *Closed* = the investigation reached its endpoint. *Reopened* = a page that had reached closure and later became live again. *Superseded* requires a named **Superseded by:** successor; without one, use Closed. *Waiting* means the page itself cannot advance until an external condition arrives, not merely that future work exists elsewhere.
+- **Verdict** appears only on `Type: Test`. A Result's outcome lives in State + Status; framework grades (MOTIVATED / SUPPORTED / DERIVED / CERTIFIED / FALSIFIED) are claim-strength, not a Verdict, and are never crosswalked. A Reopened test carries no current Verdict; its prior verdict is a Status fact.
+- **Status** is mutable and dated: it changes when research advances, and its date is the date that research state was established (recovered from the last body-touching commit, never the cleanup-commit date). **Summary** is stable: it changes only if what the page is about changes. *If a sentence changes when a computation or derivation lands, it is Status; if only when the subject changes, it is Summary.*
+- **Gated by** names a hard prerequisite result this page must *receive* from elsewhere. **Inputs** names material the page uses that does not block it. A page that *works* a gate is listed under the gate's **Worked by:**, and is never also **Gated by** that same gate.
+- **Parent** is the *immediate* owning research record, not the highest-level program. A child sits directly under the record it is a subordinate execution or analysis of. A Map indexing a detail page is *not* its parent; that is what Related and Inputs are for.
+- **Frozen** describes historical material *physically present in this page* that must not be repaired. A page that merely references frozen work owned by a child page does not carry the field.
+
+`Related:` is retained untouched and is out of this schema's scope for now.
+
+The metadata records the current research state; it does not replace the research record. Page bodies remain authoritative for derivation history, branch outcomes, and detailed adjudication.
+
+</details>
+
+---
+
 ## :closed_lock_with_key: Research Gates
 
 A gate is a *result, not a date*: a hard mathematical or physical prerequisite, shared across at least two distinct research programs, that must resolve before downstream work can advance. A page names a gate it is waiting on with `**Gated by:**`; a page trying to resolve one is listed here under **Worked by**. A page may work a gate or be gated by it, never both for the same gate. All eight are currently **Open**; closing one is a propagation event that stales every page that named it.
@@ -292,42 +328,6 @@ Registered and exploratory tests run against public datasets, with verdicts.
 - **Dead Zone:** 8 of 24 mass formula entries are unassigned: 6 in the dead zone ($`10^{-9}`$ to $`10^{-6}`$ GeV), 1 target (rank 16, ~418 MeV), 1 unassigned up-type address (rank 14, ~31.6 MeV, the up quark's vacated slot); the dead zone is probed by sterile neutrino and warm dark matter searches. *Deps:* mass formula, full assignment table.
 - **Physical Observation Scale:** $`\sqrt{\ell_P \cdot R_\Lambda} \sim 50\,\mu\text{m}`$ places the observer at the cellular scale; the geometric midpoint is derived, but the dimensionless derivation connecting this to biological observation is pending. *Deps:* observer position at $`\sqrt{\Omega}`$, scale hierarchy.
 - **Next Cycle Initiation:** What happens at $`t = 4\pi`$ is outside the current framework; the standing wave completes its period, and whether the cycle repeats, terminates, or transforms is not addressed. *Deps:* none within the current framework.
-
----
-
-## :clipboard: Metadata Header
-
-<details>
-<summary><b>Every working page carries a research-status header</b>: the schema (click to expand). The sections above are a <em>view</em> of these values; the pages own them. Live example: <a href="files/h0-bimodality-test.md"><code>h0-bimodality-test.md</code></a> (a Test with every field). Checked by <a href="files/scripts/metadata-lint.py"><code>scripts/metadata-lint.py</code></a>.</summary>
-
-```markdown
-**Type:** Map | Program | Test | Result | Note
-**State:** Open | Active | Blocked | Waiting | Closed | Reopened | Superseded
-**Verdict:** Positive | Negative | Mixed | Inconclusive | Uninformative
-**Status (YYYY-MM-DD):** ...
-**Summary:** ...
-**Gated by:** `gate:...`
-**Inputs:** `page.md`, ...
-**Parent:** `page.md`
-**Frozen:** DATE surface; DATE surface
-**Superseded by:** `page.md`
-```
-
-Field semantics, load-bearing:
-
-- **Type** is the page's stable purpose. *Map* indexes work owned elsewhere; *Program* owns a research question; *Test* scores a claim against a pre-committed criterion; *Result* records a computation or derivation with no pre-committed pass condition; *Note* is a research sketch. Execution does not change Type: a Test stays a Test after it runs.
-- **State** describes the page's current live research object, not the states of its internal branches; historical or branch-local states belong in Status. *Open* = unresolved, no concrete next action named. *Active* = unresolved, a concrete next research action is named. *Closed* = the investigation reached its endpoint. *Reopened* = a page that had reached closure and later became live again. *Superseded* requires a named **Superseded by:** successor; without one, use Closed. *Waiting* means the page itself cannot advance until an external condition arrives, not merely that future work exists elsewhere.
-- **Verdict** appears only on `Type: Test`. A Result's outcome lives in State + Status; framework grades (MOTIVATED / SUPPORTED / DERIVED / CERTIFIED / FALSIFIED) are claim-strength, not a Verdict, and are never crosswalked. A Reopened test carries no current Verdict; its prior verdict is a Status fact.
-- **Status** is mutable and dated: it changes when research advances, and its date is the date that research state was established (recovered from the last body-touching commit, never the cleanup-commit date). **Summary** is stable: it changes only if what the page is about changes. *If a sentence changes when a computation or derivation lands, it is Status; if only when the subject changes, it is Summary.*
-- **Gated by** names a hard prerequisite result this page must *receive* from elsewhere. **Inputs** names material the page uses that does not block it. A page that *works* a gate is listed under the gate's **Worked by:**, and is never also **Gated by** that same gate.
-- **Parent** is the *immediate* owning research record, not the highest-level program. A child sits directly under the record it is a subordinate execution or analysis of. A Map indexing a detail page is *not* its parent; that is what Related and Inputs are for.
-- **Frozen** describes historical material *physically present in this page* that must not be repaired. A page that merely references frozen work owned by a child page does not carry the field.
-
-`Related:` is retained untouched and is out of this schema's scope for now.
-
-The metadata records the current research state; it does not replace the research record. Page bodies remain authoritative for derivation history, branch outcomes, and detailed adjudication.
-
-</details>
 
 ---
 
