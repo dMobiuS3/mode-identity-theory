@@ -89,17 +89,26 @@ def last_body_commit_date(path):
 
 
 def parse_registry(text):
-    """Return {gate_id: {state, frontier, worked_by:set, last_transition}}."""
+    """Return {gate_id: {state, frontier, worked_by:set, last_transition}}.
+    The registry is a Markdown table whose data rows are
+      | `gate:id` | Frontier | State | Worked by | What must resolve |
+    Worked-by filenames are the `*.md` code spans in the Worked-by column; a date
+    anywhere in the State cell is read as the gate's last transition."""
     gates = {}
-    for m in re.finditer(r'^### `(gate:[a-z0-9-]+)`\s*\n(.*?)(?=^### |^## |\Z)',
-                         text, re.S | re.M):
-        gid, body = m.group(1), m.group(2)
-        st = re.search(r'\*\*State:\*\*\s*(\w+)', body)
-        fr = re.search(r'\*\*Frontier:\*\*\s*([^\n·]+)', body)
-        lt = re.search(r'\*\*Last transition:\*\*\s*(\d{4}-\d{2}-\d{2})', body)
-        wb = set(re.findall(r'`([\w./-]+\.md)`', body))
+    for line in text.split('\n'):
+        m = re.match(r'\s*\|\s*`(gate:[a-z0-9-]+)`\s*\|(.*)$', line)
+        if not m:
+            continue
+        gid = m.group(1)
+        cols = [c.strip() for c in m.group(2).split('|')]
+        frontier = cols[0] if len(cols) > 0 else ''
+        state_cell = cols[1] if len(cols) > 1 else ''
+        worked_cell = cols[2] if len(cols) > 2 else ''
+        st = re.search(r'([A-Za-z]+)', state_cell)
+        lt = re.search(r'(\d{4}-\d{2}-\d{2})', state_cell)
+        wb = re.findall(r'`([\w./-]+\.md)`', worked_cell)
         gates[gid] = {'state': st.group(1) if st else None,
-                      'frontier': fr.group(1).strip() if fr else None,
+                      'frontier': frontier or None,
                       'worked_by': {os.path.basename(x) for x in wb},
                       'last_transition': lt.group(1) if lt else None}
     return gates
@@ -187,7 +196,7 @@ def main():
     reg_text = open(README, encoding='utf-8').read()
     registry = parse_registry(reg_text)
 
-    ids = re.findall(r'^### `(gate:[a-z0-9-]+)`', reg_text, re.M)
+    ids = re.findall(r'^\s*\|\s*`(gate:[a-z0-9-]+)`\s*\|', reg_text, re.M)
     for g in {x for x in ids if ids.count(x) > 1}:
         fails.append(f'registry: duplicate gate id {g}')
 
