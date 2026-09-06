@@ -20,6 +20,17 @@ The postulate itself is one sentence: **time is the boundary of a non-orientable
 The observable domain is not that smooth covering space itself but its quotient by the binary icosahedral group, a symmetry group of order 120: fold the space down by that symmetry, and the result is the Poincaré homology sphere. Together, the embedded Möbius band and the 2I quotient fix what is rigid: the boundary condition, the mode domain, the stabilizers, and the McKay graph. What is read off that structure ranges in firmness, from the dimensionless ratios that need no anchor at all to the well positions, grids, and exponents whose selection rule the theory is still working to state; measured anchors set only the absolute scales.
 
 ---
+### How to read this page
+
+Three things stay separate throughout what follows, and the text says which is which wherever it matters.
+
+| Structure | Reading | Status |
+|---|---|---|
+| what the topology and representation theory fix | what MIT identifies that structure with physically | derived, motivated, calibrated, or open |
+
+One Identity puts it in a line: the arithmetic is forced; the physical assignment is the reading.
+
+---
 <a id="table-of-contents"></a>
 ### -Table of Contents-
 
@@ -302,7 +313,7 @@ The boundary zeros are physical: in the black-hole reading the exterior stationa
 
 ### Fibonacci Wells
 
-The first-positive wave shape is selected, but not every position on it is a place the framework samples. The candidate sampling positions continue a sequence the domain already carries. The icosahedral branch orders $`(2,3,5)`$, which [One Identity](#one-identity) reads as the stabilizer primes, are already consecutive Fibonacci terms obeying $`2+3=5`$, and running that same recurrence forward on the fixed 120-grid gives the well sequence. The terms that resolve it are exactly the Fibonacci divisors of 120, namely $`\{1,2,3,5,8\}`$, whose least common multiple is 120; these tile the grid rather than mark new sampling positions. The first Fibonacci term that is not a divisor is $`F_7 = 13`$, the seam between the divisor block that closes at the domain order and the Fibonacci structure that lives on it. The upper end is the wave's own reflection symmetry, $`C(\Theta) = C(1 - \Theta)`$, about the antinode, so no new intensity well appears beyond $`\Theta = 1/2`$. The wells therefore fall between the seam and the antinode at $`13, 21, 34, 55`$, with spacings $`8, 13, 21`$, again consecutive Fibonacci. The golden ratio behind this recurrence is not imported from outside; it is already present in the binary icosahedral character field $`\mathbb{Q}(\sqrt5)`$, the same $`\sqrt5`$ that fixes the exact torsion ratio $`\varphi^{-4}`$ between the Galois-paired vacua.
+The first-positive wave shape is selected, but not every position on it is a place the framework samples. The candidate sampling positions continue a sequence the domain already carries. The icosahedral branch orders $`(2,3,5)`$, the stabilizer orders of the edges, faces, and vertices of the rotation group beneath $`2I`$ and what [One Identity](#one-identity) reads as the stabilizer primes, are already consecutive Fibonacci terms obeying $`2+3=5`$, and running that same recurrence forward on the fixed 120-grid gives the well sequence. The terms that resolve it are exactly the Fibonacci divisors of 120, namely $`\{1,2,3,5,8\}`$, whose least common multiple is 120; these tile the grid rather than mark new sampling positions. The first Fibonacci term that is not a divisor is $`F_7 = 13`$, the seam between the divisor block that closes at the domain order and the Fibonacci structure that lives on it. The upper end is the wave's own reflection symmetry, $`C(\Theta) = C(1 - \Theta)`$, about the antinode, so no new intensity well appears beyond $`\Theta = 1/2`$. The wells therefore fall between the seam and the antinode at $`13, 21, 34, 55`$, with spacings $`8, 13, 21`$, again consecutive Fibonacci. The golden ratio behind this recurrence is not imported from outside; it is already present in the binary icosahedral character field $`\mathbb{Q}(\sqrt5)`$, the same $`\sqrt5`$ that fixes the exact torsion ratio $`\varphi^{-4}`$ between the Galois-paired vacua.
 
 >**📒 [Fibonacci Wells](files/working/files/fibonacci-wells.md):** the forcing worksheet for why the sampling wells land at $`\{13, 21, 34, 55\}`$, with the variational route ruled out.
 
