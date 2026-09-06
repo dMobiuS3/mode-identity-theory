@@ -108,6 +108,8 @@ One Identity puts it in a line: the arithmetic is forced; the physical assignmen
 <a id="the-firing-order"></a>
 ## ⚙️ The Firing Order
 
+*In what order does the theory have to be built?*
+
 Mode Identity Theory is built upon a specific order of operation. Each step depends on the one before, and nothing later in the sequence exists independently from what came prior.
 
 - Topology sets what is possible.
@@ -126,6 +128,8 @@ Mode Identity Theory is built upon a specific order of operation. Each step depe
 ---
 <a id="one-shape"></a>
 ## 🏟️ One Shape
+
+*What space is this, and why must it be this one?*
 
 ```math
 \Large {S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}
@@ -206,6 +210,8 @@ MIT associates that phase increment with the action step $`\Delta\mathcal{S}_{\m
 <a id="one-wave"></a>
 ## Ψ One Wave
 
+*What is waving, and what makes it time?*
+
 The domain is static; its temporal edge carries a standing wave, and what is read as cosmic time is the observer's phase along it. On the one-lap lift of that edge the Möbius identification is anti-periodic, the same sign flip that gives matter its fermionic character: one traversal flips the wave, the closed edge restores it after the second, and the fundamental phase period is $`4\pi`$ rather than $`2\pi`$. It opens at full amplitude, holds its selected fundamental mode, and where the observer samples it, matter appears.
 
 Anti-periodicity, the initial-maximum condition ($`\Psi(0) = +1`$), and selection of the fundamental temporal mode ($`m = 0`$) together fix:
@@ -262,6 +268,8 @@ Two phase parameterizations meet at the present epoch. The engine phase $`\Phi =
 ---
 <a id="one-equation"></a>
 ## ⚖️ One Equation
+
+*Why does a constant have the size it has?*
 
 ```math
 \Large {\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}
@@ -425,6 +433,8 @@ The $`a_0/(cH_0)`$ ratio is locked by well positions: $`C(13/120)/C(34/120) = 0.
 <a id="one-identity"></a>
 ## 🔺 One Identity
 
+*What tells one particle from another?*
+
 ```math
 \Large {\lvert 2I\rvert = 120 = 2^3 \cdot 3 \cdot 5}
 ```
@@ -463,6 +473,8 @@ The stabilizers determine the decompositions and MIT's dictionary gives them the
 ---
 <a id="one-ladder"></a>
 ## 🪜 One Ladder
+
+*Where do the forces sit, and why is one rung empty?*
 
 The same sampling engine resolves the coupling sector as a discrete ladder of phase positions and representation channels. Every ingredient it uses is already in hand: the two grids from [One Shape](#one-shape) and [One Identity](#one-identity), and the phase weight, the wells and the hierarchy from [One Equation](#one-equation).
 
@@ -516,6 +528,8 @@ The vacant fourth rung has a SUSY reading. The one missing pairing would turn a 
 
 <a id="one-formula"></a>
 ## ⚛️ One Formula
+
+*What fixes the masses, and where do three generations come from?*
 
 The mass spectrum assembles in three moves, each set by the same topology: the curvature gap on the coexact gauge modes, the three flat vacua MIT reads as the generations, and the four-factor formula that ranks the fermions.
 
@@ -579,6 +593,8 @@ The gauge gap above and this mass spectrum share the McKay structure and little 
 <a id="one-interface"></a>
 ## 🪡 One Interface
 
+*What is gravity, and why does it not sit on the grid with the rest?*
+
 All of it, the wells, the spectrum, the stabilizer sorting, lives on a smooth space that knows none of it. The last question is how that discrete structure sits on the $`S^3`$ underneath, and what gravity is across the seam. The answer is not one operation but two.
 
 Underneath everything is $`S^3`$: smooth, continuous, every point equivalent, with uniform Ricci curvature. It knows nothing about 120. The discrete structure is built on top of it, in two distinct ways.
@@ -615,6 +631,8 @@ Within MIT, this interface structure is why gravity is not assigned another gaug
 ---
 <a id="inputs-and-calibration"></a>
 ## 🎛️ Inputs and Calibration
+
+*What is measured, and what follows from it?*
 
 The scaling law uses one hierarchy ledger at a time: $`\Omega_H`$ on the temporal edge, $`\Omega_\Lambda`$ in the surface and space sectors. Each sector needs one absolute anchor, and the relations that survive between anchors are the physics. Invert one observable to fix that sector's $`\Omega`$ and the rest of the sector follows; which observable you invert is calibration. This section separates the two, ledger by ledger.
 
@@ -707,6 +725,8 @@ Edge observables reference the evolving $`\Omega_H(z)`$; surface and space obser
 ---
 <a id="research-frontier"></a>
 ## 🌅 Research Frontier
+
+*What is still open, and what would settle it?*
 
 The body is the theory as it stands; this is the theory as a program. The largest open items are not scattered: three problems carry what the framework has spent and most of what it still bets. They are not the whole debt. Smaller opens stay in their home sections and are named there, among them $`\Lambda_\text{QCD}`$, the running of the couplings, the Möbius-to-ALE bridge, and the operator step behind the $`\cos(\pi/10)`$ correction. The full apparatus, the controls, and the dates live in the claim ledger and the [working register](files/working/README.md); the Frontier names the three problems and points to where each already lives.
 
