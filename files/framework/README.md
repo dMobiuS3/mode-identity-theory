@@ -42,7 +42,7 @@ The observable domain is not that smooth covering space itself but its quotient 
   - The Present Epoch
 
 **[One Equation](#one-equation)**
-  - The Scaling Law
+  - What the ratio means
   - The Phase Operator
   - Fibonacci Wells
   - The Hierarchy and the Observer
@@ -148,6 +148,8 @@ For an orientable surface the orientation bundle is trivial, so none of the thre
 The eigenvalue problem $`-\partial_y^2 \psi = \lambda \psi`$ under the anti-periodic condition requires $`e^{ik\pi R_\Lambda} = -1`$, so $`k = (2m+1)/R_\Lambda`$; with the mode number $`\nu = kR_\Lambda/2`$ the allowed values are the half-integers $`\nu = 1/2, 3/2, 5/2, \ldots`$, and the constant mode ($`k = 0`$) is forbidden. This is the lifted phase-lap spectrum, not the full surface Laplacian: on the constant-curvature Möbius model the ground state depends on the cone extension, the choice of self-adjoint boundary behaviour at the cone point, and no extension has a strictly positive bottom, while the first positive surface level is stable at $`2/R_\Lambda^2`$ in the first-eigenvalue paper's regime, the level MIT later reads as $`\Lambda_{\text{top}}`$.
 
 >**📘 [First Eigenvalue](files/bedrock/files/first-eigenvalue.md):** the twisted Möbius Laplacian in full, fixing the first positive surface level at $`2/R_\Lambda^2`$ that MIT reads as $`\Lambda_\text{top}`$.
+
+>**📕 [Cone Point Coherence](files/working/files/cone-point-coherence.md):** whether the cone-point coherence scale sources galactic curvature, the working program behind the galactic-curvature gate.
 
 ### Temporal Edge
 
@@ -419,13 +421,21 @@ The $`a_0/(cH_0)`$ ratio is locked by well positions: $`C(13/120)/C(34/120) = 0.
 
 The order of the binary icosahedral group factors into exactly three primes, and the factorization is not bookkeeping. The stabilizer orders 2, 3, 5 belong to the edges, faces, and vertices of the icosahedral rotation group beneath it; in the binary lift the edge $`Z_2`$ becomes $`Z_4 \subset 2I`$, containing the central element $`-I`$. Restricting an irrep to each stabilizer gives a clean representation-theoretic decomposition, and MIT reads each decomposition as one axis of physical identity. The arithmetic is forced; the physical assignment is the reading.
 
+### The particle address
+
 A resolved particle address is the pair $`(\rho, \sigma)`$, with $`\rho`$ an irrep of $`2I`$, the representation seat, and $`\sigma`$ the flat-vacuum label [One Shape](#one-shape) closed at three. The propagating mode is read on $`\rho \otimes \sigma`$, and the three restrictions below are what give that address its physical content. [One Ladder](#one-ladder) and [One Formula](#one-formula) both consume it.
 
-**Faces sort color.** Restrict the propagating mode $`\rho \otimes \sigma`$ to the three-fold face stabilizer $`Z_3`$, and it decomposes into trivial characters and conjugate nontrivial character pairs. MIT reads the trivial channels as color singlets and the nontrivial pairs as color triplet and anti-triplet channels. The decomposition determines which color channels are available; the full $`(\rho, \sigma)`$ address determines which one a particle occupies. The face structure is vacuum-independent, so on this reading color is generation-independent.
+### Faces sort color
 
-**Edges sort spin.** The four-fold edge stabilizer $`Z_4`$ contains the central element $`-I`$, which acts with opposite parity on integer- and half-integer-spin irreps. In the $`Z_4`$ restriction this becomes an exact binary: integer-spin irreps carry real $`Z_4`$ content and use the $`D = 60`$ grid, while half-integer irreps carry complex pairs and use $`D = 120`$. MIT reads that representation split as the boson-fermion, spin-statistics divide. This $`-I`$ is the central sign of $`2I`$, the same sign the scaling law's 60R and 120 grids are sorted by, and it is not the Möbius orientation sign of One Shape: two distinct $`Z_2`$'s, kept apart here as they are in the gauge ladder.
+Restrict the propagating mode $`\rho \otimes \sigma`$ to the three-fold face stabilizer $`Z_3`$, and it decomposes into trivial characters and conjugate nontrivial character pairs. MIT reads the trivial channels as color singlets and the nontrivial pairs as color triplet and anti-triplet channels. The decomposition determines which color channels are available; the full $`(\rho, \sigma)`$ address determines which one a particle occupies. The face structure is vacuum-independent, so on this reading color is generation-independent.
 
-**Vertices set the electroweak address.** The five-fold vertex decomposition makes the Galois distinction explicit: $`R_1`$ and $`R_2`$ occupy complementary fifth-root sectors exchanged by $`\sqrt5 \mapsto -\sqrt5`$, writing $`R_n`$ for the eight nontrivial irreps of $`2I`$ in their McKay ordering. MIT reads that distinction as the electroweak address, and it feeds the Coxeter-Galois gate: weak isospin $`T_3`$ is assigned by that gate, the Coxeter-Galois gate, from spectral parity, the sign the eta invariant carries on the irrep, together with the Galois structure, with a separate eta-sign gate constraining the electric-charge slot, so the isospin is the gate's output and not furnished by $`Z_5`$ alone. This is the same $`T_3`$ gate One Formula's mass table leans on, and it is the identification doing the most work in the section: representation theory distinguishes the pair, and the framework's dictionary gives the distinction its electroweak meaning.
+### Edges sort spin
+
+The four-fold edge stabilizer $`Z_4`$ contains the central element $`-I`$, which acts with opposite parity on integer- and half-integer-spin irreps. In the $`Z_4`$ restriction this becomes an exact binary: integer-spin irreps carry real $`Z_4`$ content and use the $`D = 60`$ grid, while half-integer irreps carry complex pairs and use $`D = 120`$. MIT reads that representation split as the boson-fermion, spin-statistics divide. This $`-I`$ is the central sign of $`2I`$, the same sign the scaling law's 60R and 120 grids are sorted by, and it is not the Möbius orientation sign of One Shape: two distinct $`Z_2`$'s, kept apart here as they are in the gauge ladder.
+
+### Vertices set the electroweak address
+
+The five-fold vertex decomposition makes the Galois distinction explicit: $`R_1`$ and $`R_2`$ occupy complementary fifth-root sectors exchanged by $`\sqrt5 \mapsto -\sqrt5`$, writing $`R_n`$ for the eight nontrivial irreps of $`2I`$ in their McKay ordering. MIT reads that distinction as the electroweak address, and it feeds the Coxeter-Galois gate: weak isospin $`T_3`$ is assigned by that gate from spectral parity, the sign the eta invariant carries on the irrep, together with the Galois structure, with a separate eta-sign gate constraining the electric-charge slot, so the isospin is the gate's output and not furnished by $`Z_5`$ alone. This is the same $`T_3`$ gate One Formula's mass table leans on, and it is the identification doing the most work in the section: representation theory distinguishes the pair, and the framework's dictionary gives the distinction its electroweak meaning.
 
 The same stabilizers give two further entries that are not primes but corrections, each tying back to a section of its own.
 
@@ -699,8 +709,6 @@ The body is the theory as it stands; this is the theory as a program. The larges
 **Selection: why these sectors and not others?** Topology fixes the family; Selection must fix the realized member. The scaling law's factored form still awaits the commutant theorem $`\mathcal{A}_\text{obs} = \mathcal{A}_\Theta \otimes \mathcal{A}_\text{spec}`$ that One Equation names as its keystone; the Fibonacci wells continue a recurrence with no derived sampling rule; the McKay elevator's $`\text{dist}/30`$ has no single-principle derivation, and the propagator route One Formula reopened is still to run; and the vacuum-to-generation assignment, the charm slot with no home, and the neutrino placements are the same question in the mass sector. The domain itself sits here too: terminality and perfectness both point at $`2I`$, but the single theorem folding them into one proof is One Shape's open problem.
 
 **Calibration closure: do the independent scale-fixings agree?** No, and this is the framework's largest internal tension. Three anchors fix the surface hierarchy and two of them are non-circular, so their disagreement is a real result rather than a bookkeeping check; until one is established as the correct determination of $`R_\Lambda`$, every absolute scale flowing through it inherits the ambiguity. [Inputs and Calibration](#inputs-and-calibration) carries the three readings, the numbers and the conditioning question.
-
->**📕 [Cone Point Coherence](files/working/files/cone-point-coherence.md):** whether the cone-point coherence scale sources galactic curvature, the working program behind the galactic-curvature gate.
 
 >**📕 [Energy as Resolution Amplitude](files/working/files/energy-as-resolution-amplitude.md):** energy read as the standing-wave resolution amplitude, a working note toward the stress-energy accounting.
 
