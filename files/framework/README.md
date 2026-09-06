@@ -95,10 +95,9 @@ The observable domain is not that smooth covering space itself but its quotient 
 
 ---
 <a id="the-firing-order"></a>
-## 🔫 The Firing Order
+## ⚙️ The Firing Order
 
-Mode Identity Theory is built upon a specific order of operation. Each step depends on the one before, and nothing later in the sequence exists independently from
-what came prior.
+Mode Identity Theory is built upon a specific order of operation. Each step depends on the one before, and nothing later in the sequence exists independently from what came prior.
 
 - Topology sets what is possible.
 - Embedding defines the structure.
@@ -180,7 +179,7 @@ The sampling dictionary uses those two resolutions as follows:
 
 The 120 is the order of $`2I`$, not a feature of the smooth $`S^3`$ beneath it. Two questions about these grids are answered elsewhere and are not repeated here: what the order's prime factorization means, and why the central sign sorts the two representation classes, are [One Identity](#one-identity); which positions on the grids the framework samples is [One Equation](#one-equation).
 
-### The Chronon 
+### The Chronon
 
 On the framework's 120-step phase resolution, the smallest registrable advance is:
 
