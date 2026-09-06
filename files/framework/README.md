@@ -20,17 +20,6 @@ The postulate itself is one sentence: **time is the boundary of a non-orientable
 The observable domain is not that smooth covering space itself but its quotient by the binary icosahedral group, a symmetry group of order 120: fold the space down by that symmetry, and the result is the Poincaré homology sphere. Together, the embedded Möbius band and the 2I quotient fix what is rigid: the boundary condition, the mode domain, the stabilizers, and the McKay graph. What is read off that structure ranges in firmness, from the dimensionless ratios that need no anchor at all to the well positions, grids, and exponents whose selection rule the theory is still working to state; measured anchors set only the absolute scales.
 
 ---
-### How to read this page
-
-Three things stay separate throughout what follows, and the text says which is which wherever it matters.
-
-| Structure | Reading | Status |
-|---|---|---|
-| what the topology and representation theory fix | what MIT identifies that structure with physically | derived, motivated, calibrated, or open |
-
-One Identity puts it in a line: the arithmetic is forced; the physical assignment is the reading.
-
----
 <a id="table-of-contents"></a>
 ### -Table of Contents-
 
@@ -72,7 +61,7 @@ One Identity puts it in a line: the arithmetic is forced; the physical assignmen
 
 **[One Ladder](#one-ladder)**
   - The Gauge Ladder
-  - SUSY
+  - Supersymmetry
 
 **[One Formula](#one-formula)**
   - The Gauge Gap
@@ -518,7 +507,7 @@ The $`\cos(\pi/10)`$ factor on the weak coupling is a motivated correction, the 
 
 >**📗 [Fine Structure](../spectrum/files/fine-structure.md):** $`\alpha`$ as the first realized grid step of the hierarchy, with the Coxeter-pair $`(13,17)`$ selection scan in full.
 
-### SUSY
+### Supersymmetry
 
 The vacant fourth rung has a SUSY reading. The one missing pairing would turn a fermion into a boson, exactly the move a superpartner symmetry asks for, and MIT reads the standard supersymmetric gaugino-scalar gauge sector as the natural occupant of that vacant pairing. Every real gauge rung acts within a statistics class: EM, strong, and weak change phase, charge, or representation but leave the fermion or boson character of what they act on intact. A superpartner rung would instead identify the fermionic 120-grid (the section $`\psi`$) with the bosonic 60R-grid (the intensity $`\lvert\psi\rvert^2`$), the split that the central element $`-I`$ carries, and no gauge rung crosses it. The obstruction is the ladder's own rule, not a spin-statistics prohibition (ordinary quantum field theory permits fermionic mediators), and not an attempted inverse of $`\psi \to \lvert\psi\rvert^2`$: that projection is well-defined but non-invertible, the measurement-level reason the two grids stay distinct. So within the grid-action reading the missing superpartner force is not an unreached energy scale but the empty fourth chair in a four-rung ladder: a conditional structural prediction of the ladder, not a spin-statistics theorem and not a claim that supersymmetry is impossible at every scale.
 
