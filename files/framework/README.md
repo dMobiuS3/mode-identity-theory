@@ -542,7 +542,7 @@ It reads as one line, but like the scaling law its four factors do not stand at 
 
 **The neutrino floor** $`\mu_\Lambda`$ is the mass sector's anchor, not an output of the formula: $`\mu_\Lambda = \rho_\Lambda^{1/4} \approx 2.25`$ meV, the fourth root of the vacuum energy density, the lowest energy the geometry can resolve and the scale every other mass is built up from.
 
-**The Kostant seat** $`C_\text{geom}(\rho)`$ is the same phase weight $`C(\Theta)`$ the scaling law uses, read now as the geometric mean of $`C(e/D)`$ over the Kostant exponents of the irrep $`\rho`$: derived once and reused, not reintroduced.
+**The Kostant sunflower** $`C_\text{geom}(\rho)`$ is the same phase weight $`C(\Theta)`$ the scaling law uses, read now as the geometric mean of $`C(e/D)`$ over the Kostant exponents of the irrep $`\rho`$: derived once and reused, not reintroduced. Each irrep takes its own seat on that discrete sunflower.
 
 **The McKay elevator** $`(\sqrt{\Omega_\Lambda})^{\,\text{dist}(\rho)/30}`$ raises the seat through orders of magnitude, one fixed factor per step along the McKay graph, with the denominator the Coxeter number $`h(E_8) = 30`$ of the same McKay geometry attached to $`2I`$. That exponent is reached by more than one convergent route but not yet from a single principle, so it is a structural rule the geometry carries rather than a closed derivation.
 
