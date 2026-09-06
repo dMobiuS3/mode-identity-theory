@@ -89,9 +89,9 @@ The observable domain is not that smooth covering space itself but its quotient 
 </tr>
 </table>
 
->📕 marks a **canonical paper**: the standalone treatment where the point at hand is worked out in full.
+>📘 marks a **canonical paper**: the standalone treatment where the point at hand is worked out in full.
 
->📙 marks a **working paper**: research in progress on the point at hand, not yet settled.
+>📕 marks a **working paper**: research in progress on the point at hand, not yet settled.
 
 ---
 <a id="the-firing-order"></a>
@@ -147,7 +147,7 @@ For an orientable surface the orientation bundle is trivial, so none of the thre
 
 The eigenvalue problem $`-\partial_y^2 \psi = \lambda \psi`$ under the anti-periodic condition requires $`e^{ik\pi R_\Lambda} = -1`$, so $`k = (2m+1)/R_\Lambda`$; with the mode number $`\nu = kR_\Lambda/2`$ the allowed values are the half-integers $`\nu = 1/2, 3/2, 5/2, \ldots`$, and the constant mode ($`k = 0`$) is forbidden. This is the lifted phase-lap spectrum, not the full surface Laplacian: on the constant-curvature Möbius model the ground state depends on the cone extension, the choice of self-adjoint boundary behaviour at the cone point, and no extension has a strictly positive bottom, while the first positive surface level is stable at $`2/R_\Lambda^2`$ in the first-eigenvalue paper's regime, the level MIT later reads as $`\Lambda_{\text{top}}`$.
 
->**📕 [First Eigenvalue](files/bedrock/files/first-eigenvalue.md):** the twisted Möbius Laplacian in full, fixing the first positive surface level at $`2/R_\Lambda^2`$ that MIT reads as $`\Lambda_\text{top}`$.
+>**📘 [First Eigenvalue](files/bedrock/files/first-eigenvalue.md):** the twisted Möbius Laplacian in full, fixing the first positive surface level at $`2/R_\Lambda^2`$ that MIT reads as $`\Lambda_\text{top}`$.
 
 ### Temporal Edge
 
@@ -163,7 +163,7 @@ Open families require an external choice of $`n`$ and fall to the framework's in
 
 $`2I`$ is the unique nontrivial perfect finite subgroup of SU(2), equal to its own commutator subgroup, so its only one-dimensional character is the trivial one. With no nontrivial character to twist by, the standard connection $`Q`$ and its Galois conjugate $`Q'`$ stay distinct under every twist, two genuinely different flat vacua rather than one dressed up as another. That split has a spectral consequence which selects the domain a second time: the Galois vacuum's gap is the unique exception across the whole ADE classification of finite subgroups of SU(2), proved in the coexact-gap paper and derived where it is used, in [One Formula](#one-formula). Counting the flat connections on the quotient closes the list at three: the trivial one, the standard $`Q`$, and the Galois conjugate $`Q'`$. That count is what later sections range a vacuum label over; its isolation and its reading as the three generations are [One Formula](#one-formula). Terminality and perfectness are two independent grounds converging on one domain; the theorem folding them into one proof, framework requirement $`\Rightarrow 2I`$, is open.
 
->**📙 [The Postulate Bridge](files/working/files/postulate-bridge.md):** the staged route from the postulate to the derivations, and the terminality-and-perfectness theorem the domain selection still needs.
+>**📕 [The Postulate Bridge](files/working/files/postulate-bridge.md):** the staged route from the postulate to the derivations, and the terminality-and-perfectness theorem the domain selection still needs.
 
 ### The Sampling Grids
 
@@ -213,7 +213,7 @@ The cosine has a complement. Write $`S = \sin(t/2)`$; then $`\Psi^2 + S^2 = 1`$ 
 
 **MIT does not posit expansion of the underlying $`S^3`$.** Its radius is fixed; cosmological expansion is represented through an effective, phase-based description, and completing that description dynamically is open. What that description reads is the single state variable $`S`$, through the dictionary and the clock below.
 
->**📕 [Dark Energy](../cosmos/files/dark-energy.md):** the effective, phase-based expansion history in full, where what evolves is not $`\Lambda`$ but perception.
+>**📘 [Dark Energy](../cosmos/files/dark-energy.md):** the effective, phase-based expansion history in full, where what evolves is not $`\Lambda`$ but perception.
 
 ### Redshift and Cooling
 
@@ -221,21 +221,21 @@ Redshift is a phase ratio, $`1 + z = S(t_\text{obs})/S(t_\text{emit})`$, the obs
 
 Cooling applies the same ratio to the bath: every wavelength rescales by $`S`$, photon number density by $`S^{-3}`$ at conserved photon count, radiation energy density by $`S^{-4}`$, and the Planck blackbody is preserved at $`T \propto 1/S`$. The fixed quantity is the spectral radius, not the effective volume; where the redshifted photon energy goes is left to the same stress-energy accounting still under construction.
 
->**📙 [Redshift and Cooling](files/working/files/redshift-and-cooling.md):** redshift as phase-sampling and cooling as the same ratio on the bath, worked from the standing wave.
+>**📕 [Redshift and Cooling](files/working/files/redshift-and-cooling.md):** redshift as phase-sampling and cooling as the same ratio on the bath, worked from the standing wave.
 
 ### The Waltz Clock
 
 The Waltz clock advances budget phase, the argument $`t`$ of $`\Psi = \cos(t/2)`$, in two steps set by $`a_\text{eff} \propto S`$. The registered interface tick, the measure that accumulates one unit per act of realization, accumulates as $`d\mu_{\text{tick}} = S^{3/2}\,dt`$, and dividing by the scale factor gives the Hubble clock $`d\tau_H = S^{1/2}\,dt`$ the distance model runs on, with $`dt/d\tau_H = S^{-1/2}`$. The fitted rate reads $`H = (1/S)\,dS/d\tau_H \propto \Psi/S^{3/2}`$. That $`-1/2`$ exponent enters through the GR correspondence: matter dilution supplies the three-dimensional factor $`S^{-3}`$, the Friedmann relation reads its square root, and the clock keeps the $`S^{-1/2}`$ power. With the vacuum-reference $`\Lambda`$ supplying the constant term, that clock fits Pantheon+ and DESI DR2 BAO at $`\Delta\chi^2 = +0.11`$ versus flat ΛCDM at the same parameter count, three fitted on each side ($`s_0`$, $`H_0 r_d`$, $`M_B`$) with the vacuum fraction held at the named anchor rather than fitted (temporal budget), while integer-power alternatives miss those distances by wide margins. Read as an expansion history in the ΛCDM way, that is the familiar shift from the matter-only $`q_0 = +0.5`$ to the observed $`q_0 \approx -0.55`$, a translation of the distance relation rather than a motion of the domain; the budget map keeps the full accounting.
 
->**📙 [The Budget Map](files/working/files/budget-map.md):** the inventory of what is a budget and what is read off one, pinning temperature and entropy as readings of the single state $`S`$.
+>**📕 [The Budget Map](files/working/files/budget-map.md):** the inventory of what is a budget and what is read off one, pinning temperature and entropy as readings of the single state $`S`$.
 
->**📙 [Temporal Budget Identity](files/working/files/temporal-budget.md):** the $`\Psi^2 + S^2 = 1`$ budget and the Λcos clock fit to Pantheon+ and DESI DR2 BAO.
+>**📕 [Temporal Budget Identity](files/working/files/temporal-budget.md):** the $`\Psi^2 + S^2 = 1`$ budget and the Λcos clock fit to Pantheon+ and DESI DR2 BAO.
 
 Two things about the clock are not closed, and they are one problem rather than two. The $`-1/2`$ exponent enters through the GR correspondence rather than from the postulate layer, and the map from the static geometry to the effective metric the distance model runs on has no derived source. The stress-tensor bridge carries the arithmetic, including why the native machinery and the anchored vacuum term are demonstrably not both carried by one fixed metric under the original clock, which is why $`\Lambda`$ enters as its own object rather than falling out of the budget. [One Interface](#one-interface) poses the same gap as gravity's open construction, and the [Research Frontier](#research-frontier) states it as the Dynamics problem.
 
->**📙 [Variational Score-to-Sample](files/working/files/variational-score-to-sample.md):** the variational route to the clock exponent, a global score-to-sample principle sought independently of the target power.
+>**📕 [Variational Score-to-Sample](files/working/files/variational-score-to-sample.md):** the variational route to the clock exponent, a global score-to-sample principle sought independently of the target power.
 
->**📙 [Friedmann as Output](files/working/files/friedmann-as-output.md):** the half-power clock, deriving the $`S^{-1/2}`$ exponent and the Friedmann relation as an output rather than an import.
+>**📕 [Friedmann as Output](files/working/files/friedmann-as-output.md):** the half-power clock, deriving the $`S^{-1/2}`$ exponent and the Friedmann relation as an output rather than an import.
 
 ### The Present Epoch
 
@@ -259,7 +259,7 @@ Each quantity the law addresses is one kind of thing, sampled at one position an
 
 The law reads as one line, but four claims sit inside it at different strengths. The phase profile $`C(\Theta)`$ is fixed within the spectral-boundary class, family forced and member selected. The integer-depth power is fixed by exact homothety at definite weight. Their separation into a pure position factor and a pure spectral factor still awaits the commutant theorem $`\mathcal{A}_\text{obs} = \mathcal{A}_\Theta \otimes \mathcal{A}_\text{spec}`$: independent coordinates do not by themselves forbid a mixed term, and closing that is the law's open keystone. The wells the law is sampled at, and the assignment of an observable to each, are the selection layer that follows. Run together the law looks more derived than it is; kept apart, each is exactly as strong as its own argument.
 
->**📙 [Scaling Law Uniqueness](files/working/files/scaling-law-uniqueness.md):** the scaling law read as a separated measurement form, and the admissibility conditions the separation still requires.
+>**📕 [Scaling Law Uniqueness](files/working/files/scaling-law-uniqueness.md):** the scaling law read as a separated measurement form, and the admissibility conditions the separation still requires.
 
 ### What the ratio means
 
@@ -297,17 +297,17 @@ $`\Lambda_\text{top}`$ sits at the antinode: slope exactly zero.
 
 The boundary zeros are physical: in the black-hole reading the exterior stationary horizon maps to this $`C \to 0`$ node, closing that sampling channel.
 
->**📕 [Black Holes](../cosmos/files/black-hole.md):** black holes as topological nodes of the wave, where the exterior horizon maps to the $`C \to 0`$ boundary node.
+>**📘 [Black Holes](../cosmos/files/black-hole.md):** black holes as topological nodes of the wave, where the exterior horizon maps to the $`C \to 0`$ boundary node.
 
 ### Fibonacci Wells
 
 The first-positive wave shape is selected, but not every position on it is a place the framework samples. The candidate sampling positions continue a sequence the domain already carries. The icosahedral branch orders $`(2,3,5)`$, which [One Identity](#one-identity) reads as the stabilizer primes, are already consecutive Fibonacci terms obeying $`2+3=5`$, and running that same recurrence forward on the fixed 120-grid gives the well sequence. The terms that resolve it are exactly the Fibonacci divisors of 120, namely $`\{1,2,3,5,8\}`$, whose least common multiple is 120; these tile the grid rather than mark new sampling positions. The first Fibonacci term that is not a divisor is $`F_7 = 13`$, the seam between the divisor block that closes at the domain order and the Fibonacci structure that lives on it. The upper end is the wave's own reflection symmetry, $`C(\Theta) = C(1 - \Theta)`$, about the antinode, so no new intensity well appears beyond $`\Theta = 1/2`$. The wells therefore fall between the seam and the antinode at $`13, 21, 34, 55`$, with spacings $`8, 13, 21`$, again consecutive Fibonacci. The golden ratio behind this recurrence is not imported from outside; it is already present in the binary icosahedral character field $`\mathbb{Q}(\sqrt5)`$, the same $`\sqrt5`$ that fixes the exact torsion ratio $`\varphi^{-4}`$ between the Galois-paired vacua.
 
->**📙 [Fibonacci Wells](files/working/files/fibonacci-wells.md):** the forcing worksheet for why the sampling wells land at $`\{13, 21, 34, 55\}`$, with the variational route ruled out.
+>**📕 [Fibonacci Wells](files/working/files/fibonacci-wells.md):** the forcing worksheet for why the sampling wells land at $`\{13, 21, 34, 55\}`$, with the variational route ruled out.
 
 That the realized positions continue the recurrence is where this level stops being a theorem. A variational origin was searched for with a signed anti-periodic sweep over eight boundary-mode functionals designed to make the observed set extremal; all eight returned uniform or clustered minimizers, never the wells. So $`\{13, 21, 34, 55\}`$ is a structural label the recurrence carries, not a derived extremum. The golden field is native either way, so the recurrence is the domain's own arithmetic rather than a sampling dynamics imported from outside. Why the realized positions continue it, on the edge where the mirror locates the interference, is open.
 
->**📕 [The Mirror](../spectrum/files/the-mirror.md):** the curvature duality of primes and matter, and where on the edge the well interference is located.
+>**📘 [The Mirror](../spectrum/files/the-mirror.md):** the curvature duality of primes and matter, and where on the edge the well interference is located.
 
 ### The Hierarchy and the Observer
 
@@ -376,7 +376,7 @@ The phase position decomposes as $`\Theta = \Theta_0 + \Theta_f`$, where $`\Thet
 
 What the engine takes from this is the decomposition and those slopes. The rest is application and is owned where it is tested: the finite-step arithmetic at each well, the 8.4% displacement that would carry $`67.4`$ to $`73.04`$ km/s/Mpc, the sublattice and orientation conditions it rests on, and the two tests that closed it are all on the Hubble tension page. The trigger that would have realized the shift is withdrawn: the pre-registered SPARC coherence test falsified the binary mechanism, and a separate exploratory check found the $`H_0`$ distribution unimodal rather than two-clustered. So the correspondence has no active mechanism, and a large derivative at $`a_0`$ produces a sensitive continuous response rather than a threshold.
 
->**📕 [Hubble Tension](../cosmos/files/hubble-tension.md):** $`H_0`$ as an edge mode and the 8.4% lattice step, with the sublattice conditions and the two tests that closed the mechanism.
+>**📘 [Hubble Tension](../cosmos/files/hubble-tension.md):** $`H_0`$ as an edge mode and the 8.4% lattice step, with the sublattice conditions and the two tests that closed the mechanism.
 
 The forward content that survives the null is the epoch relation $`a_0(z) \propto H(z)`$ and the sign-fixed $`(1+z)^1`$ term it ties to, carried in the [Research Frontier](#research-frontier)'s forward tests and registered on the Euclid card.
 
@@ -397,7 +397,7 @@ Evaluating the scaling law at each well:
 
 The Grid column is the readout class, the $`\Theta`$ column the coordinate. They differ because the well sequence is generated on the 120-step parent grid while the even numerators over 120 are exactly the points surviving $`2I \to I`$: $`34/120 = 17/60`$ and $`60/120 = 30/60`$ are 60R positions written in the parent coordinate. The odd-numerator wells, $`a_0`$ at 13/120 among them, have no 60R image and stay on the full resolution.
 
->**📕 [Cosmological Constant](../cosmos/files/cosmological-constant.md):** the surface spectral seed behind $`\Lambda`$, the full working of $`\Lambda_\text{top} = 2/R_\Lambda^2`$ and its $`3/2`$ lift.
+>**📘 [Cosmological Constant](../cosmos/files/cosmological-constant.md):** the surface spectral seed behind $`\Lambda`$, the full working of $`\Lambda_\text{top} = 2/R_\Lambda^2`$ and its $`3/2`$ lift.
 
 **Calibration structure.** $`H_0`$ is the measured edge anchor: it defines the edge normalization $`N = H_0 t_P / C(34/120)`$, so the $`H_0`$ row fixes the ruler rather than testing the law against it, which is the calibration-versus-prediction split [Inputs and Calibration](#inputs-and-calibration) separates ledger by ledger. The other edge observables follow from $`N`$; the falsifiable content is any ratio of two edge-mode $`C`$ factors, in which $`N`$ cancels, the sharpest being $`a_0/(cH_0) = C(13/120)/C(34/120)`$. The $`\approx`$ in the scaling law marks the sector calibration, one anchor per sector.
 
@@ -484,7 +484,7 @@ The $`\cos(\pi/10)`$ factor on the weak coupling is a motivated correction, the 
 
 **The Coxeter pair** $`(13, 17)`$ under $`h(E_8) = 30`$ is exceptional but not forced. Within the restricted conjugate-pair comparison, $`(13, 17)`$ stands alone: the three alternatives miss the coupling targets by 15% to 156% across the nine comparisons. The broad control is consistent with its local-density baseline, so it does not establish uniqueness. The restriction is therefore where the selection content lives. The three forces exhaust the grid ladder, monotone in fermionic content: there are only four ways to pair a carrier grid with a target grid, and the table shows three of them filled.
 
->**📕 [Fine Structure](../spectrum/files/fine-structure.md):** $`\alpha`$ as the first realized grid step of the hierarchy, with the Coxeter-pair $`(13,17)`$ selection scan in full.
+>**📘 [Fine Structure](../spectrum/files/fine-structure.md):** $`\alpha`$ as the first realized grid step of the hierarchy, with the Coxeter-pair $`(13,17)`$ selection scan in full.
 
 ### SUSY
 
@@ -503,7 +503,7 @@ The mass spectrum assembles in three moves, each set by the same topology: the c
 
 Confinement is usually told as a story about energy: the cost keeps climbing until the field snaps. What the topology supplies here is not that story but a curvature-induced gap on the coexact gauge modes, a structural ingredient on the confinement side of the mass construction rather than a derivation of the confinement scale. Positive Ricci curvature forces a positive gap on the coexact gauge fluctuations around a flat connection, and the twisted harmonic 1-forms vanish ($`H^1 = 0`$), so every mode is lifted off zero. The value is read from the coexact form spectrum through the McKay distance, the number of steps from an irrep to the trivial node on the affine $`E_8`$ McKay graph: the adjoint-valued gap is $`4/R_\Lambda^2`$ at the trivial and standard vacua, with the Galois vacuum the single exception below. It is a spectral gap on a compact curved background, fixed by curvature rather than tuned into the dynamics, and it is not the flat-space confinement scale $`\Lambda_\text{QCD}`$, which stays a separate open problem.
 
->**📕 [Yang-Mills](../spectrum/files/yang-mills.md):** the linearized gauge gap and the three flat vacua on $`S^3/2I`$, worked out in full.
+>**📘 [Yang-Mills](../spectrum/files/yang-mills.md):** the linearized gauge gap and the three flat vacua on $`S^3/2I`$, worked out in full.
 
 ### Three Generations
 
@@ -519,7 +519,7 @@ The count of three flat vacua is forced; their identification with the three par
 
 The coexact gap paper establishes the spectral side: across the whole ADE classification of finite subgroups of $`\text{SU}(2)`$ the adjoint coexact gap is uniformly $`4/R_\Lambda^2`$, with a single break, the Galois connection on $`S^3/2I`$ at $`36/R_\Lambda^2`$. MIT reads that exception as selection evidence, converging with the input-minimization argument that independently terminates on $`2I`$, so $`S^3/2I`$ is taken as the physical quotient on two grounds rather than one. The galois-pair paper supplies the boundary side, carrying the standard-versus-Galois asymmetry through the tautological bundles on the $`E_8`$ ALE filling of $`S^3/2I`$; it establishes that filling structure without yet identifying the gauge decoration with the standing-wave sector, so the Möbius-to-ALE bridge stays open.
 
->**📕 [Coexact Gap](files/bedrock/files/coexact-gap.md):** the adjoint coexact gap uniform at $`4/R_\Lambda^2`$ across the whole ADE classification, with the single Galois break to $`36/R_\Lambda^2`$ on $`S^3/2I`$.
+>**📘 [Coexact Gap](files/bedrock/files/coexact-gap.md):** the adjoint coexact gap uniform at $`4/R_\Lambda^2`$ across the whole ADE classification, with the single Galois break to $`36/R_\Lambda^2`$ on $`S^3/2I`$.
 
 ### The Mass Formula
 
@@ -551,7 +551,7 @@ The correction also reopens one selection question the [Research Frontier](#rese
 
 The gauge gap above and this mass spectrum share the McKay structure and little else: the gap is proved, the spectrum is the comparison, and neither lends the other its standing.
 
->**📕 [Mass Spectrum](../spectrum/files/mass-spectrum.md):** fermion mass as positions on the McKay lattice, the four-factor formula and the maintained scorecard in full.
+>**📘 [Mass Spectrum](../spectrum/files/mass-spectrum.md):** fermion mass as positions on the McKay lattice, the four-factor formula and the maintained scorecard in full.
 
 [↑ Table of Contents](#table-of-contents)
 
@@ -572,7 +572,7 @@ Underneath everything is $`S^3`$: smooth, continuous, every point equivalent, wi
 
 These are different operations doing different jobs. The same division runs through the Waltz construction: the Möbius sector supplies the vacuum-side geometry, the $`2I`$ quotient the matter-side representation structure. The two seams are separate, and the one attempt to couple them, to make the Möbius standing-wave sector drive the $`2I`$ spectrum through an index-theoretic identity, is refuted on that route: the surface term cancels from the Galois difference. That construction fails; it does not establish universal independence. The equivariant-lift and restricted-connection channels remain untried, and the galois-pair filling carries the boundary asymmetry any such coupling would have to move.
 
->**📕 [Galois Pair](files/bedrock/files/galois-pair.md):** the $`E_8`$ ALE filling and the tautological charge, carrying the standard-versus-Galois boundary asymmetry.
+>**📘 [Galois Pair](files/bedrock/files/galois-pair.md):** the $`E_8`$ ALE filling and the tautological charge, carrying the standard-versus-Galois boundary asymmetry.
 
 The 3/2 belongs to the vacuum seam. It is the cost of converting the Möbius surface's curvature into the spatial curvature of $`S^3`$: the numerator 3 is the Gauss factor, derived geometry from the totally geodesic great-$`S^2`$ band, in an isotropic $`S^3`$; the denominator 2 is the de Sitter normalization, imported from general relativity. The cosmological constant page keeps that derived-versus-imported split explicit. The grid carries no such factor.
 
@@ -584,11 +584,11 @@ Gravity belongs to the interface. The grid carries particle identity; the smooth
 
 The remaining problem is the source, and it is already sharply posed. No map from the realized wave variables to $`g_\text{eff}`$ or $`T_\text{eff}`$, and no action generating one, has yet been derived; the stress-tensor bridge is the program that would build it, and it meets there the same two-part metric-definition problem the cosmological side runs into, spatial-curvature placement and the vacuum dressing of the clock. The coefficient itself is at stake on the static-source branch: there a homogeneous perfect fluid gives $`\Lambda R_\Lambda^2 = 3`$ only in the pure-pressure limit $`\rho = 0`$, which violates the dominant energy condition, so either the domain's content lies outside that class or the coefficient moves off 3. The effective-metric placement remains the alternative. The 3/2 is thus a vacuum-reference reading whose physical realization waits on that source, not a settled field equation.
 
->**📙 [The Stress-Tensor Bridge](files/working/files/stress-tensor-bridge.md):** the program for the ledger's $`E(S)`$, the missing map from the realized budget to a stress tensor with a declared metric placement.
+>**📕 [The Stress-Tensor Bridge](files/working/files/stress-tensor-bridge.md):** the program for the ledger's $`E(S)`$, the missing map from the realized budget to a stress tensor with a declared metric placement.
 
 Within MIT, this interface structure is why gravity is not assigned another gauge quantum on the 120-domain. The two sides source different things: $`\Lambda_\text{top}`$ is the first positive eigenvalue of a smooth constant-curvature surface, so discretizing the substrate would remove what sources it, while the spectrum, the mass gap, and the three vacua come from the finite quotient, so continualizing the 120-domain would remove what sources them. A quantum completion of gravity has to keep both, and MIT does not yet supply one that does. The claim is about this construction, not a general no-go: it says what closing this interface requires, not that no quantization can.
 
->**📕 [The Waltz](../spectrum/files/the-waltz.md):** the gravity between surface and space, the Möbius vacuum sector and the $`2I`$ matter sector as one construction.
+>**📘 [The Waltz](../spectrum/files/the-waltz.md):** the gravity between surface and space, the Möbius vacuum sector and the $`2I`$ matter sector as one construction.
 
 [↑ Table of Contents](#table-of-contents)
 
@@ -647,13 +647,13 @@ To attach a scale you invert one observable for $`\Omega_\Lambda`$. Three are in
 
 **The named anchor.** For the $`\Lambda`$-anchored default this repository uses Planck 2018 base-ΛCDM, TT,TE,EE+lowE+lensing: $`H_0 = 67.36`$ km s⁻¹ Mpc⁻¹ and the vacuum density fraction $`f_\Lambda = 0.6847`$ (notation), giving $`\Lambda\,\ell_P^2 = 2.845 \times 10^{-122}`$, hence $`\Omega_\Lambda = 1.054 \times 10^{122}`$ and $`R_\Lambda = 5.38`$ Gpc. Working prose rounds that row to $`H_0 = 67.4`$ and $`0.685`$, which returns the same $`2.85 \times 10^{-122}`$ to three figures. That agreement is specific to $`\Lambda`$, which rounds to $`2.85`$ from either pair. $`R_\Lambda`$ does not: the two straddle a boundary at 5.375 Gpc (5.3787 named against 5.3740 working), so a radius derived from the rounded pair would print 5.37. Everything absolute in the corpus derives from this named row, $`R_\Lambda = 5.38`$ Gpc included; other Planck combinations, +BAO in particular, are comparison datasets and not silent replacements for the anchor. One documented exception is the published mass ladder: its pinned inputs, $`\mu_\Lambda = 2.25`$ meV and $`\sqrt{\Omega_\Lambda} = 1.019 \times 10^{61}`$, encode the Planck 2018 +BAO row rather than the named row, which would print about $`2.24`$ meV and $`1.027 \times 10^{61}`$. Those two are mutually derivable and pinned to the table they generated, so retargeting either alone corrupts that table rather than updating it; the split is recorded in the mass spectrum's calibration note and enforced by its regression guard.
 
->**📙 [Calibration Structure](files/working/files/calibration-structure.md):** the engine reframed as one measured anchor per sector, localizing the R problem to a single demotion.
+>**📕 [Calibration Structure](files/working/files/calibration-structure.md):** the engine reframed as one measured anchor per sector, localizing the R problem to a single demotion.
 
 The $`\alpha`$ route is the cleanest non-circular inversion. From one measured coupling, with no $`R_\Lambda`$ and no further calibration, the non-circular chain is $`\alpha \to R_\Lambda \to \Lambda_\text{ref} = 3/R_\Lambda^2`$, landing the observed cosmological value to about 23%; whether that reference coefficient is the static domain's physical $`\Lambda`$ is the Interface question, not a calibration result. The 0.4% match on $`\alpha`$ itself is a closure test, not a prediction, because $`\alpha`$ is also what calibrates $`R_\Lambda`$ on this route: input and output on one line, the reading the gauge ladder's note already states. The 122 orders of magnitude are not predicted here; they enter through $`\Omega_\Lambda`$, read from $`\alpha`$.
 
 The mass route misses, and the disagreement is the framework's largest internal tension. All three routes read $`\Omega_\Lambda`$ through the same steep 60-fold lever ($`\Lambda_\text{ref}\ell_P^2 \propto \alpha^{60}`$): against the measured $`R_\Lambda \approx 5.4`$ Gpc the mass-spectrum route puts the master length at $`\approx 20`$ Gpc, about a factor of 3.7, and the ~13.4× miss in $`\Lambda_\text{ref}`$ the table above records. Sharper still is the disagreement between the two non-circular readings themselves: the coupling route gives $`R_\Lambda \approx 6.1`$ Gpc against the mass route's $`\approx 20`$, a factor of 3.2 in $`R_\Lambda`$ and 10.5 in $`\Lambda_\text{ref}`$. The 60-fold inversion amplifies small input residuals, but that amplification does not by itself explain the disagreement; the present machinery does not distinguish conditioning from structural inconsistency. Until one route is established as the correct determination of $`R_\Lambda`$, every absolute prediction flowing through it inherits the ambiguity. Reconciling the two is open.
 
->**📙 [The R Problem](files/working/files/r-problem.md):** every route to an independent curvature radius $`R_\Lambda`$ and where each stands, the tracker behind the calibration tension.
+>**📕 [The R Problem](files/working/files/r-problem.md):** every route to an independent curvature radius $`R_\Lambda`$ and where each stands, the tracker behind the calibration tension.
 
 The mass route is an independent cross-check because the electron and muon sit at different McKay distances: a same-depth ratio would cancel $`R_\Lambda`$, but theirs keeps a net power of $`\sqrt{\Omega_\Lambda}`$ through the elevator and reads the scale rather than dividing it out.
 
@@ -690,7 +690,7 @@ Edge observables reference the evolving $`\Omega_H(z)`$; surface and space obser
 
 The body is the theory as it stands; this is the theory as a program. The largest open items are not scattered: three problems carry what the framework has spent and most of what it still bets. They are not the whole debt. Smaller opens stay in their home sections and are named there, among them $`\Lambda_\text{QCD}`$, the running of the couplings, the Möbius-to-ALE bridge, and the operator step behind the $`\cos(\pi/10)`$ correction. The full apparatus, the controls, and the dates live in the claim ledger and the [working register](files/working/README.md); the Frontier names the three problems and points to where each already lives.
 
->**📙 [Claim Ledger](files/working/files/claim-ledger.md):** the skeptical audit of every quantitative claim, the eight-cycle calibration web, and the two live internal tensions.
+>**📕 [Claim Ledger](files/working/files/claim-ledger.md):** the skeptical audit of every quantitative claim, the eight-cycle calibration web, and the two live internal tensions.
 
 ### The three problems
 
@@ -700,11 +700,11 @@ The body is the theory as it stands; this is the theory as a program. The larges
 
 **Calibration closure: do the independent scale-fixings agree?** No, and this is the framework's largest internal tension. Three anchors fix the surface hierarchy and two of them are non-circular, so their disagreement is a real result rather than a bookkeeping check; until one is established as the correct determination of $`R_\Lambda`$, every absolute scale flowing through it inherits the ambiguity. [Inputs and Calibration](#inputs-and-calibration) carries the three readings, the numbers and the conditioning question.
 
->**📙 [Cone Point Coherence](files/working/files/cone-point-coherence.md):** whether the cone-point coherence scale sources galactic curvature, the working program behind the galactic-curvature gate.
+>**📕 [Cone Point Coherence](files/working/files/cone-point-coherence.md):** whether the cone-point coherence scale sources galactic curvature, the working program behind the galactic-curvature gate.
 
->**📙 [Energy as Resolution Amplitude](files/working/files/energy-as-resolution-amplitude.md):** energy read as the standing-wave resolution amplitude, a working note toward the stress-energy accounting.
+>**📕 [Energy as Resolution Amplitude](files/working/files/energy-as-resolution-amplitude.md):** energy read as the standing-wave resolution amplitude, a working note toward the stress-energy accounting.
 
->**📙 [Entropy as Realization Budget](files/working/files/entropy-as-realization-budget.md):** entropy as the count of realized modes, tied to the Molien shell-unlock map that sets the accessible mode count.
+>**📕 [Entropy as Realization Budget](files/working/files/entropy-as-realization-budget.md):** entropy as the count of realized modes, tied to the Molien shell-unlock map that sets the accessible mode count.
 
 ### Recorded nulls
 
@@ -714,11 +714,11 @@ The framework spent these to find where the three problems actually sit, and eac
 
 The exams are thin by design. The phase-clock relation is read through correlated channels rather than counted as separate bets: the epoch relation $`a_0(z) \propto H(z)`$ and the sign-fixed $`(1+z)^1`$ term of the phase-clock $`H^2(z)`$ are two faces of it, the second an identity of the construction rather than a fitted amplitude. Alongside them sit a vacuum-sector test, a flat dark-energy history $`\Omega_\text{DE}(z)`$, and a high-redshift galaxy-abundance test riding on the $`a_0(z)`$ enhancement. Euclid DR1 is the next registered observational gate, with the channels, thresholds, and falsification conditions on the pre-registration card; the release date lives there, not on this page. Because the clock channels are one relation, a single release can take them down together, which is the point of setting them that way.
 
->**📕 [CMB Anomalies](../cosmos/files/cmb-anomalies.md):** the low-ℓ suppression read as the Molien shell gap, a standing CMB signature with parity and alignment still open.
+>**📘 [CMB Anomalies](../cosmos/files/cmb-anomalies.md):** the low-ℓ suppression read as the Molien shell gap, a standing CMB signature with parity and alignment still open.
 
->**📕 [Early Galaxies](../cosmos/files/early-galaxies.md):** early massive galaxies in a static geometry, the high-redshift abundance test riding on the $`a_0(z)`$ enhancement.
+>**📘 [Early Galaxies](../cosmos/files/early-galaxies.md):** early massive galaxies in a static geometry, the high-redshift abundance test riding on the $`a_0(z)`$ enhancement.
 
->**📕 [Euclid DR1 Showdown](../cosmos/files/euclid-dr1.md):** the pre-registration card, the next registered observational gate and the framework's falsification test.
+>**📘 [Euclid DR1 Showdown](../cosmos/files/euclid-dr1.md):** the pre-registration card, the next registered observational gate and the framework's falsification test.
 
 [↑ Table of Contents](#table-of-contents)
 
