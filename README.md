@@ -76,9 +76,9 @@ mode-identity-theory/
 \Large \boxed{S^1 = \partial(\text{Möbius}) \hookrightarrow S^3, \quad \partial S^3 = \emptyset}
 ```
 
-Your belt has two surfaces and two edges that never meet. Twist it once and buckle it again. Suddenly you have a single surface and a single edge: the Möbius strip. Now scale that surface to universal size and embed it in the only simply connected closed 3-manifold that exists.
+Start with the space itself: a finite three-sphere, closed on itself with no edge or outside. Inside it sits a Möbius surface. Its single edge carries the theory's temporal boundary, and its twist supplies the sign-flip that separates one trip around from two.
 
-The 3‑sphere itself wasn't just empty. Fold it by the binary icosahedral symmetry, and the observable domain resolves into 120 positions.
+Then fold the three-sphere by its binary icosahedral symmetry. The smooth space stays smooth underneath, but the observable structure resolves into 120 positions. The three-sphere gives the universe its space; the Möbius band gives it the twist; the 120-fold quotient gives the theory somewhere to read physics.
 
 ---
 
@@ -88,11 +88,11 @@ The 3‑sphere itself wasn't just empty. Fold it by the binary icosahedral symme
 \Large \boxed{\Psi = \cos(t/2), \quad \text{period } 4\pi}
 ```
 
-The universe samples a standing wave. The mathematics requires it. It began as cosine, full amplitude, and we advanced from there.
+The space stays put. What changes is the phase of a standing wave carried on its temporal edge.
 
-The Möbius twist forces a sign‑flip: the fundamental mode is $`4\pi`$. The twist also has a consequence: traveling once around is flipped, so twice is needed to bring you home.
+The Möbius twist makes that wave flip sign after one trip and return only after two, giving the fundamental mode its $`4\pi`$ period. It begins at full amplitude and advances in phase from there.
 
-Most wave patterns cancel while certain modes survive. The ones that come back are fermionic, the wave patterns where matter is sampled.
+Matter is what becomes resolved when the wave is sampled. Most possible modes cancel; the surviving patterns are the ones the framework reads as physical states.
 
 ---
 
@@ -102,23 +102,23 @@ Most wave patterns cancel while certain modes survive. The ones that come back a
 \Large \boxed{\frac{A}{A_P} \approx C(\Theta) \cdot (\sqrt{\Omega})^{-n}}
 ```
 
-Two questions determine any constant the scaling law reaches: where are you on the wave, and how deep in the domain are you sampling?
+The scaling law asks two questions about a physical quantity: **where are you on the wave, and how deep in the geometry are you reading it?**
 
->**$`C(\Theta) = 2\sin^2(\pi\Theta)`$** is your position on the 120-grid.
+> **$`C(\Theta) = 2\sin^2(\pi\Theta)`$** tells you the position.
 
-Not all 120 positions are used. The realized wells continue a Fibonacci sequence already native to the icosahedral arithmetic: 13, 21, 34, 55. The same golden field behind $`\varphi`$ runs through $`2I`$, the pattern that surfaces in sunflowers and seashells.
+The 120-position domain is not sampled everywhere. The framework carries four Fibonacci wells at 13, 21, 34, and 55, inherited from arithmetic already present in the icosahedral structure. Which wells are realized is a selection rule the theory is still working to derive.
 
->**$`(\sqrt{\Omega})^{-n}`$** is how far the geometry has diluted the signal by the time it reaches you.
+> **$`(\sqrt{\Omega})^{-n}`$** tells you the scale.
 
-The hierarchy runs between two reference limits, the Planck floor and the cosmic ceiling; in $`\Omega`$ they span 122 orders of magnitude, no longer a coincidence but the area of our domain. The observer sits at the geometric midpoint, the self-dual point where the climb to the ceiling equals the drop to the floor.
+$`\Omega`$ measures the enormous hierarchy between the Planck scale and the cosmic scale. The exponent $`n`$ says which geometric layer is being read:
 
-Three layers host different physics:
+> (n = 1) **Edge:** rates such as $`H_0`$ and $`a_0`$.
 
->(n = 1) 1D Möbius edge: experienced as time when sampling $`a_0`$ and $`H_0`$.
->
->(n = 2) 2D Möbius surface: vibrating like a drum head and humming ambiently at $`\Lambda_\text{top}`$.
->
->(n = 3) 3D space: the dark sector, this mode's geometry rather than any particle to detect.
+> (n = 2) **Surface:** the vacuum spectral scale $`\Lambda_\text{top}`$.
+
+> (n = 3) **Space:** the three-dimensional sector, whose observable assignment remains open.
+
+The hierarchy sets the order of magnitude. The position on the wave sets the leading number. The law puts the two together.
 
 ---
 
@@ -128,15 +128,17 @@ Three layers host different physics:
 \Large \boxed{|2I| = 120 = 2^3 \cdot 3 \cdot 5}
 ```
 
-The binary icosahedral group $`2I`$ is the largest exceptional discrete subgroup of $`SU(2)`$. Its order factors into exactly three primes.
+The 120-fold symmetry has three basic kinds of stabilizer: faces, edges, and vertices. Restrict a particle's representation to each one and a different part of its identity becomes visible.
 
->**Faces.** $`Z_3`$ sorts color: the three-fold rotational stabilizers become the three color charges of QCD. The restriction exposes singlet and triplet/anti-triplet channels; every assigned fermion has the channel it needs.
+> **Faces.** The three-fold structure separates singlet from triplet channels. MIT reads that decomposition as **color**.
 
->**Edges.** $`Z_4`$ sorts spin: the edge stabilizers split the spectrum into integer-spin (domain $`D = 60`$) and half-integer-spin (domain $`D = 120`$), bosons and fermions cleanly separated.
+> **Edges.** The four-fold structure separates integer-spin from half-integer-spin representations. MIT reads that split as the **boson/fermion and spin** distinction.
 
->**Vertices.** $`Z_5`$ sets the electroweak address: the five-fold vertex stabilizers carry weak isospin $`T_3`$ through the Coxeter-Galois gate. The eta sign gates charge; the vacuum label is read as the generation.
+> **Vertices.** The five-fold structure exposes the Galois sectors used by the Coxeter-Galois gate. MIT reads that structure as the **electroweak address**, with the eta sign constraining charge.
 
-Three primes. Three stabilizers. Every force, every particle, every quantum number.
+The representation theory supplies the decompositions. The identification of those decompositions with physical quantum numbers is the framework's reading.
+
+One geometry, three cuts through it, three pieces of a particle's address.
 
 ---
 
@@ -146,15 +148,19 @@ Three primes. Three stabilizers. Every force, every particle, every quantum numb
 \Large \boxed{m(\rho,\sigma) = \mu_\Lambda \cdot C_{\text{geom}}(\rho) \cdot (\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30} \cdot T^2(\rho \otimes \sigma)}
 ```
 
-Four factors compose to rank 24 entries on the fermion mass ladder. Each factor does exactly one thing.
+The mass formula builds a particle mass in four steps: **set the floor, choose the seat, ride the elevator, turn the dial.**
 
->**The Neutrino Floor.** $`\mu_\Lambda`$ sets the stage: the vacuum-energy floor of the whole spectrum, the hum every other mass is built on.
+> **The Floor.** $`\mu_\Lambda`$ sets the minimum energy scale from which the spectrum is built.
 
->**The Kostant Sunflower.** $`C_{\text{geom}}(\rho)`$ selects the position: each irreducible representation carries a geometric weight, nine seats on a discrete sunflower.
+> **The Seat.** $`C_{\text{geom}}(\rho)`$ gives each representation a position in the geometry.
 
->**The McKay Elevator.** $`(\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30}`$ raises the energy: each step up the McKay graph lifts the mass by a fixed factor; the denominator 30 is the Coxeter number of $`E_8`$.
+> **The Elevator.** $`(\sqrt{\Omega_\Lambda})^{\text{dist}(\rho)/30}`$ moves that seat through orders of magnitude according to its distance on the McKay graph.
 
->**The Reidemeister Torsion.** $`T^2(\rho \otimes \sigma)`$ dials in the vacuum: the same particle lives in three vacua (trivial, standard, Galois), the three flat connections that MIT reads as the three generations.
+> **The Dial.** $`T^2(\rho \otimes \sigma)`$ adjusts the mass according to which flat vacuum the state occupies.
+
+In the mathematics, those pieces are the vacuum-energy floor, the Kostant weight, the McKay distance, and Reidemeister torsion. Together they generate 24 entries across the fermion mass range.
+
+The topology gives exactly three flat vacua. MIT reads those three as the three generations; that identification, and the mapping of individual entries to measured particles, is a comparison rather than something the mass formula proves by itself.
 
 ---
 
@@ -164,13 +170,15 @@ Four factors compose to rank 24 entries on the fermion mass ladder. Each factor 
 \Large \boxed{\Lambda_\text{ref} = \frac{3}{2}\ \cdot \Lambda_\text{top}}
 ```
 
-The default measured-$`\Lambda`$ calibration identifies $`\Lambda_\text{obs}`$ with this reference value; whether that identification is dynamically realized by the static domain is the open Interface question.
+The theory has two kinds of structure. Underneath is smooth $`S^3`$. Built on it are the Möbius surface, the 120-position quotient, and the discrete patterns that carry particle identity.
 
-The wells, masses, charges, and gaps are structure stamped onto a smooth space that knows none of them by itself. Two seams pin that structure there: the Möbius surface embeds to set the vacuum seed, and the quotient stamps the 120-grid to set matter.
+Gravity is what has to connect the two.
 
->Gravity is not a fourth force hunting for its rung on the grid. It is what crosses between the smooth space below and the structure built above, coupling to both. The toll it pays at the vacuum seam is the factor $`3/2`$; everywhere else, Einstein's field equations stay unchanged.
+The Möbius surface sets the vacuum spectral seed, while the quotient sets the matter-side grid. Passing from the surface curvature to the three-dimensional vacuum reference introduces the factor $`3/2`$ above.
 
-The two sides differ in kind: one smooth, one discrete. So gravity should not be expected to quantize as another force inside the grid.
+> Gravity is not a fourth force waiting for an empty rung on the particle grid. MIT reads it as what crosses between the smooth geometry below and the discrete structure above. Einstein's field equations remain unchanged; what is still open is the dynamical bridge telling them exactly how the realized wave content sources the geometry.
+
+The $`3/2`$ relation is geometric. Whether that reference value is dynamically realized as the physical cosmological constant of the static domain is still an open Interface problem.
 
 ---
 
