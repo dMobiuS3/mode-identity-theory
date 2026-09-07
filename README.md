@@ -170,9 +170,7 @@ The topology gives exactly three flat vacua. MIT reads those three as the three 
 \Large \boxed{\Lambda_\text{ref} = \frac{3}{2}\ \cdot \Lambda_\text{top}}
 ```
 
-The theory has two kinds of structure. Underneath is smooth $`S^3`$. Built on it are the Möbius surface, the 120-position quotient, and the discrete patterns that carry particle identity.
-
-Gravity is what has to connect the two.
+The theory has two kinds of structure. Underneath is smooth $`S^3`$. Built on it are the Möbius surface, the 120-position quotient, and the discrete patterns that carry particle identity. Gravity is what has to connect the two.
 
 The Möbius surface sets the vacuum spectral seed, while the quotient sets the matter-side grid. Passing from the surface curvature to the three-dimensional vacuum reference introduces the factor $`3/2`$ above.
 
