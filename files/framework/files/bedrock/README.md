@@ -7,7 +7,7 @@
 
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/the%20bridge%20banner.png?raw=true" width="100%" alt="Bedrock">
 
-The postulate is one line, $`S^1 = \partial(\text{Möbius}) \hookrightarrow S^3`$ with $`\partial S^3 = \emptyset`$, and it nests three objects: the temporal seam $`S^1`$, the Möbius surface it bounds, and the space $`S^3`$ in which the seam is anchored. The standalone mathematics papers below put operators on two of those objects, the surface and the space, and a third reads the arithmetic of the four-dimensional filling that the space-quotient $`S^3/2I`$ bounds. The seam $`S^1`$ is the boundary datum produced by the embedding, not a separate spectrum.
+The postulate is one line, $`S^1 = \partial(\text{Möbius}) \hookrightarrow S^3`$ with $`\partial S^3 = \emptyset`$, and it nests three objects: the temporal seam $`S^1`$, the Möbius surface it bounds, and the space $`S^3`$ in which the seam is anchored. The standalone mathematics papers below put operators on two of those objects, the surface and the space, and a third reads the arithmetic of the four-dimensional filling that the space-quotient $`S^3/2I`$ bounds. The seam $`S^1`$ is the boundary datum produced by the embedding, not a separate spectrum. A fourth paper below asks a different question of the same quotient space: which self-interaction channels a mode of definite spin keeps under that finite symmetry. It shares the arena with the Space and the Filling but not the postulate's own argument, and is catalogued here rather than folded into the three objects above.
 
 ---
 
@@ -38,6 +38,17 @@ The postulate is one line, $`S^1 = \partial(\text{Möbius}) \hookrightarrow S^3`
 >[![Galois Pair](https://img.youtube.com/vi/Jb1nDkJevxs/mqdefault.jpg)](https://www.youtube.com/watch?v=Jb1nDkJevxs)
 >
 >*Video: [The Galois Pair on S³/2I: How E₈ Remembers Boundary Asymmetry](https://www.youtube.com/watch?v=Jb1nDkJevxs)*
+
+---
+
+## [The Surviving Ray](files/surviving-ray.md)
+
+**The Selection:** On the Poincaré homology sphere's spin-3 representation, binary-icosahedral
+symmetry restricts the four-channel family of scattering self-interactions down to two, one of
+them radial; modulo the radial part, the surviving self-interaction is forced onto a single
+projective ray. The result is representation-theoretic rather than postulate-facing: it asks a
+different question of the same quotient $`S^3/2I`$ that the Coexact Gap and the Galois Pair
+already use, and it does not feed the embedding argument above.
 
 ---
 
