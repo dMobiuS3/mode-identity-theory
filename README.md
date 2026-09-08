@@ -59,8 +59,8 @@ mode-identity-theory/
     │   └── euclid-dr1                # the falsification gate
     ├── spectrum/                  # the near boundary: matter and gauge on S³/2I
     │   ├── yang-mills                # the linearized gauge gap and three vacua
-    │   ├── mass-spectrum             # fermion mass as positions on the McKay lattice
-    │   ├── fine-structure            # α = 1/137 is the first realized grid step of the hierarchy
+    │   ├── mass-spectrum             # fermion mass as positions on the lattice
+    │   ├── fine-structure            # α is the first realized step of Λ
     │   ├── the-waltz                 # the gravity between surface and space
     │   └── the-mirror                # curvature duality of primes and matter
     └── tools/                     # interactive, publications, and references
