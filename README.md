@@ -180,33 +180,6 @@ The $`3/2`$ relation is geometric. Whether that reference value is dynamically r
 
 ---
 
-## 🎛️ Inputs
-
-Three constants fix the Planck units. The absolute scale is a calibration choice, not a privileged input. The hierarchy $`\Omega_\Lambda`$ is over-determined: Λ (through $`R_\Lambda`$), $`\alpha`$, and the mass ratio each read it, and the anchor-free dimensionless ratios hold under each choice. The $`\alpha`$ reading is the best-conditioned, fixing $`\Lambda_\text{ref}`$ to ~23% with no $`R_\Lambda`$ input. The default entry below is $`R_\Lambda`$ for the cosmological scale and $`m_e`$ as the mass benchmark, with $`s_0`$ for the phase.
-
-**Primitives**
-
-| Const. | Value | Origin |
-|---|---|---|
-| $`c`$ | 299,792,458 m/s | Propagation rate on the temporal edge |
-| $`\hbar`$ | $`1.055 \times 10^{-34}`$ J s | Action quantum; converts mode number to energy |
-| $`G`$ | $`6.67430 \times 10^{-11}`$ m³ kg⁻¹ s⁻² | Gravitational coupling; with $`c`$ and $`\hbar`$, sets the Planck units |
-
-**Measured scales**
-
-| Scale | Value | Origin |
-|---|---|---|
-| $`R_\Lambda`$ | $`\approx 5.38`$ Gpc | de Sitter scale $`\sqrt{3/\Lambda}`$; the circular default. $`\Omega_\Lambda`$ reads independently from $`\alpha`$ (best-conditioned) and the mass spectrum. |
-| $`m_e`$ | $`0.511`$ MeV | Mass benchmark; fixes the overall mass normalization |
-
-**Phase parameter**
-
-| Parameter | Value | Origin |
-|---|---|---|
-| $`s_0`$ | $`< 0.19`$ (95% CL) | Observer's current phase on the standing wave. $`\Omega_m = 0.315`$ is the flat-universe complement of the dark-energy fraction. |
-
----
-
 ## 🎼 Score
 
 Outputs of a fixed structure, checked against observation:
