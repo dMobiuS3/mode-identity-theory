@@ -397,7 +397,6 @@ Beyond $`2I`$, the same defect machinery computes the conversion identity's two 
 ```
 Shatto, B. (2026).
 An Affine Rho–Index Conversion and the Galois Pair on the Poincaré Homology Sphere.
-SSRN 7129118.
 https://ssrn.com/abstract=7129118
 ```
 
