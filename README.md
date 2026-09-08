@@ -41,29 +41,29 @@ In 300 BC, Euclid proved Plato's observation that only five solids close perfect
 
 ```
 mode-identity-theory/
-├── main/                          # this page
-└── files/
-    ├── framework/                 # the postulate and derivations
-    │   ├── bedrock/                # standalone mathematics papers
-    │   │   ├── first-eigenvalue      # twisted Möbius Laplacian operator
-    │   │   ├── coexact-gap           # coexact gap on S³/Γ and the 2I exception
-    │   │   └── galois-pair           # E8 filling and the tautological charge
-    │   └── working/                # research in progress: maps and open problems
-    ├── cosmos/                    # the static three-sphere seen whole
-    │   ├── cosmological-constant     # the spectral seed behind Λ
-    │   ├── cmb-anomalies             # low-ℓ suppression as the Molien gap
-    │   ├── dark-energy               # what evolves is not Λ but perception
-    │   ├── early-galaxies            # early massive galaxies in a static geometry
-    │   ├── hubble-tension            # H₀ as an edge mode and the 8.4% lattice step
-    │   ├── black-holes               # black holes as topological nodes of the wave
-    │   └── euclid-dr1                # the falsification gate
-    ├── spectrum/                  # the near boundary: matter and gauge on S³/2I
-    │   ├── yang-mills                # the linearized gauge gap and three vacua
-    │   ├── mass-spectrum             # fermion mass as positions on the lattice
-    │   ├── fine-structure            # α is the first realized step of Λ
-    │   ├── the-waltz                 # the gravity between surface and space
-    │   └── the-mirror                # curvature duality of primes and matter
-    └── tools/                     # interactive, publications, and references
+├─ main/                          # this page
+└─ files/
+    ├─ framework/                 # the postulate and derivations
+    │   ├─ bedrock/                # standalone mathematics papers
+    │   │   ├─ first-eigenvalue      # twisted Möbius Laplacian operator
+    │   │   ├─ coexact-gap           # coexact gap on S³/Γ and the 2I exception
+    │   │   └─ galois-pair           # E8 filling and the tautological charge
+    │   └─ working/                # research in progress: maps and open problems
+    ├─ cosmos/                    # the static three-sphere seen whole
+    │   ├─ cosmological-constant     # the spectral seed behind Λ
+    │   ├─ cmb-anomalies             # low-ℓ suppression as the Molien gap
+    │   ├─ dark-energy               # what evolves is not Λ but perception
+    │   ├─ early-galaxies            # early massive galaxies in a static geometry
+    │   ├─ hubble-tension            # H₀ as an edge mode and the 8.4% lattice step
+    │   ├─ black-holes               # black holes as topological nodes of the wave
+    │   └─ euclid-dr1                # the falsification gate
+    ├─ spectrum/                  # the near boundary: matter and gauge on S³/2I
+    │   ├─ yang-mills                # the linearized gauge gap and three vacua
+    │   ├─ mass-spectrum             # fermion mass as positions on the lattice
+    │   ├─ fine-structure            # α is the first realized step of Λ
+    │   ├─ the-waltz                 # the gravity between surface and space
+    │   └─ the-mirror                # curvature duality of primes and matter
+    └─ tools/                     # interactive, publications, and references
 ```
 
 / **[`framework`](/files/framework/)** / **[`bedrock`](/files/framework/files/bedrock/)** / **[`working`](/files/framework/files/working/)** / **[`cosmos`](/files/cosmos/)** / **[`spectrum`](/files/spectrum/)** / **[`tools`](/files/tools/)** /
@@ -220,8 +220,6 @@ Outputs of a fixed structure, checked against observation:
 | [↗](/files/spectrum/files/fine-structure.md#alpha_w-the-weak-coupling-and-the-plato-twist) $`\alpha_W`$ | 0.0339 | 0.0338 | 0.3% |
 | [↗](/files/spectrum/files/fine-structure.md#alpha_s--alpha_w-pure-geometry) $`\alpha_s / \alpha_W`$ | 3.426 (pure geometry) | 3.490 | 1.8% |
 | [↗](/files/spectrum/files/fine-structure.md#iii-the-formula) $`\alpha`$ | 0.00733 | 0.00730 | 0.4% |
-
->The absolute mass scale and the vacuum-reference scale are two ends of one calibration loop. Fix $`m_e`$ and the mass formula reads back $`R_\Lambda`$, hence $`\Lambda_\text{ref}`$. Fix measured Λ under the default identification and the formula returns $`m_e`$ to ~2%. Inverting the closure, a 2% shift in $`m_e`$ moves $`\Lambda_\text{ref}`$ by ~11% under the default calibration, where $`R`$ (hence $`\Omega_\Lambda`$) is set by Λ, so $`m_e \propto \Lambda^{11/60}`$ once the $`\mu_\Lambda`$ scale and the $`\Omega_\Lambda`$ feedback are collected. Neither end is more fundamental, and which one you fix is a calibration choice: the closure is the mass-spectrum reading of the hierarchy. The overall normalization $`\mu_\Lambda`$ cancels from every ratio, but only ratios within one $`\rho`$ are anchor-free; cross-$`\rho`$ ratios retain the factor $`\Omega_\Lambda^{\Delta d/60}`$.
 
 ---
 
