@@ -690,10 +690,12 @@ The mass route is an independent cross-check because the electron and muon sit a
 |---|---|---|
 | Edge | measured $`H_0`$ | fixes the present edge hierarchy $`\Omega_H = (c/H_0\ell_P)^2`$ |
 | Surface / space | any one of $`\Lambda`$, $`\alpha`$, or the mass ratio | fixes $`\Omega_\Lambda`$; the three do not yet agree, above |
-| Mass | normalization tied to $`m_e`$ | fixes the absolute mass scale once ratios are known |
+| Mass | normalization tied to $`m_e = 0.511`$ MeV | fixes the absolute mass scale once ratios are known |
 | Phase clock | $`s_0`$ from distance data | locates the current observer phase |
 
 Edge observables reference the evolving $`\Omega_H(z)`$; surface and space observables reference the fixed $`\Omega_\Lambda`$. The mass sector inherits $`\mu_\Lambda = \rho_\Lambda^{1/4}`$ from $`\Omega_\Lambda`$, with $`m_e`$ the benchmark rather than a second floor. Compute $`m_e`$ from $`\Lambda`$ instead, carrying both the $`\mu_\Lambda`$ scale and the hierarchy feedback ($`m_e \propto \Lambda^{11/60}`$), and it lands within 2%; inverting, that 2% is about 11% in $`\Lambda`$. The closure is one loop run from either end, the web holding whichever quantity you pick as the input.
+
+One number the distance fit uses is not an input at all: the matter fraction $`\Omega_m = 0.315`$, a density fraction rather than one of the hierarchy ledgers above, is the flat-closure complement $`1 - f_\Lambda`$ of the vacuum fraction and is not read off the fit.
 
 ### Predicted and calibrated
 
