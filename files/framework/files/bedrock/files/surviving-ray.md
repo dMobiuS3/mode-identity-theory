@@ -691,17 +691,22 @@ weight. Section 5 carries out that choice and computes the one coefficient that 
 
 ### 5.1 Statement
 
-> **Theorem 5.1.** Let $`\psi`$ be a block state at level 6 on $`X = S^3/2I`$, in the sector >
-$`\sigma`$, write $`d = \dim\sigma \in \{3,4\}`$, and take the self-interaction and the quartic > to
-be those of Section 2.5, namely the block projection of $`\lvert\psi\rvert^2\psi`$ and the > ratio
-built from $`\int\lvert\psi\rvert^4`$. Then: > > 1. the self-interaction lies in
-$`\mathrm{span}\{M_0, M_6\} \subset \mathscr{E}_3`$; > 2. $`M_0`$ is radial,
-$`M_0(u) = -\lVert u\rVert^2 u/\sqrt{7}`$; > 3. $`M_6`$ is not radial; > 4. modulo the radial
-direction the self-interaction spans the **single projective ray** > $`[M_6]`$, its coefficient
-being nonzero by the argument in Section 5.5; on the unit sphere the > tangential critical problem
-is then governed by $`M_6`$ alone; > 5. on the unit sphere the governing quartic is
-$`Q = w_0/7 + w_6 \lVert\rho_6\rVert^2`$, with > > ```math > \frac{w_6}{w_0} \;=\; \frac{7-d}{13\,d}
-\;>\; 0 . > ```
+> **Theorem 5.1.** Let $`\psi`$ be a block state at level 6 on $`X = S^3/2I`$, in the sector
+> $`\sigma`$, write $`d = \dim\sigma \in \{3,4\}`$, and take the self-interaction and the quartic
+> to be those of Section 2.5, namely the block projection of $`\lvert\psi\rvert^2\psi`$ and the
+> ratio built from $`\int\lvert\psi\rvert^4`$. Then:
+>
+> 1. the self-interaction lies in $`\mathrm{span}\{M_0, M_6\} \subset \mathscr{E}_3`$;
+> 2. $`M_0`$ is radial, $`M_0(u) = -\lVert u\rVert^2 u/\sqrt{7}`$;
+> 3. $`M_6`$ is not radial;
+> 4. modulo the radial direction the self-interaction spans the **single projective ray**
+>    $`[M_6]`$, its coefficient being nonzero by the argument in Section 5.5; on the unit sphere the
+>    tangential critical problem is then governed by $`M_6`$ alone;
+> 5. on the unit sphere the governing quartic is $`Q = w_0/7 + w_6 \lVert\rho_6\rVert^2`$, with
+>
+> ```math
+> \frac{w_6}{w_0} \;=\; \frac{7-d}{13\,d} \;>\; 0 .
+> ```
 
 Clause 1 needs one step beyond Lemma 4.1, which constrains the density and not the self-interaction.
 The level-$`2K`$ component of the density multiplies $`\psi`$; the left factor couples to give
@@ -1271,7 +1276,7 @@ function of $`\widehat{r}_6`$ up to the positive slope $`w_6(d)`$, and an increa
 reparameterisation moves neither the critical set nor the order of the values on it. Hence
 
 ```math
-\operatorname{Crit} Q_{\mathbf{3}'} \;=\; \operatorname{Crit} Q_{\mathbf{4}} .
+\mathrm{Crit}\, Q_{\mathbf{3}'} \;=\; \mathrm{Crit}\, Q_{\mathbf{4}} .
 ```
 
 So once the filter has selected rank 6, the shape problem stops being icosahedral and becomes a
