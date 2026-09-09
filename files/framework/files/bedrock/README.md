@@ -41,7 +41,7 @@ The postulate is one line, $`S^1 = \partial(\text{Möbius}) \hookrightarrow S^3`
 
 ---
 
-## [The Surviving Ray](files/surviving-ray.md)
+## [Surviving Ray](files/surviving-ray.md)
 
 **The Selection:** On the Poincaré homology sphere's spin-3 representation, binary-icosahedral
 symmetry restricts the four-channel family of scattering self-interactions down to two, one of
