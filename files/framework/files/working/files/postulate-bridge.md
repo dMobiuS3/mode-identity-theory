@@ -3,7 +3,7 @@
 
 ---
 
-# 🌁 The Postulate Bridge
+# 🌁 Postulate Bridge
 
 **Type:** Program
 **State:** Active
