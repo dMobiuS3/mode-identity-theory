@@ -285,11 +285,12 @@ $`\lvert\psi(gh)\rvert^2 = \lvert\psi(g)\rvert^2`$, so the density really is a f
 Section 2.1 and its right index over a multiplicity space that the branching below shows to be
 one-dimensional. **Level 6 is the scope of the selection theorem of Sections 4 through 5.5.** What
 fixes it is the choice of object: this paper is about spin-3 states, so the left index is $`V_3`$
-and the level is $`2 \cdot 3`$. Multiplicity one does not fail elsewhere: the table in Section 4.3
-shows it at levels 12 and 16 as well. What is special about level 6 is that fixing the left spin
-fixes the level, and at that level the branching happens to be multiplicity-free, which is what the
-Schur argument of Section 5.1 needs. Section 3 is ambient spin-3 mathematics and is not scoped by
-any of this.
+and the level is $`2 \cdot 3`$. Within the two sectors multiplicity stays at one wherever they
+occur, at levels 12 and 16 as well; the table in Section 4.3 shows both the repetition it does
+permit elsewhere, $`\mathbf{5}`$ twice at level 16, and the absence of $`\mathbf{3}'`$ at level 12.
+What is special about level 6 is that fixing the left spin fixes the level, and at that level the
+branching happens to be multiplicity-free, which is what the Schur argument of Section 5.1 needs.
+Section 3 is ambient spin-3 mathematics and is not scoped by any of this.
 
 Two facts about $`2I`$ drive the selection theorem, both classical and both recomputed here from the
 group rather than cited. They are the two inputs named in Section 5.1. First, the dimensions of the
@@ -943,13 +944,15 @@ c_K \;=\; (-1)^{K+1}\, 2\sqrt{\frac{\dim V_K}{\dim V_3}} ,
 
 so the quartic weight and the cubic weight differ by a fixed nonzero factor **per channel**, and it
 is not the case that the same coefficient appears in both. Every $`c_K`$ is nonzero, so no channel
-is lost this way, which is the same fact as the equivariant map from invariant quartics to
-$`\mathscr{E}_3`$ being injective (Section 7.5), written out on this $`K`$-indexed basis instead of
-argued by dimension count. This holds as an identity in $`u`$ and $`\bar u`$, carried as fourteen
-independent variables rather than checked at finitely many states. Nothing in Theorem 5.1 depends on
-it: clause 3 comes from $`\Lambda^2`$ and clause 4's bridge from the pairing argument above, neither
-of which needs a per-channel gradient. It is stated here because the per-channel factor is easy to
-assume away.
+is lost this way. Section 7.5 obtains the same relationship structurally, as an equivariant
+isomorphism from the invariant quartics onto $`\mathscr{E}_3`$; the identity here is that
+correspondence written out rank by rank. The two are not interchangeable as stated: the $`M_K`$ are
+seven vectors in a four-dimensional space and so are linearly dependent, and reading nonvanishing of
+every $`c_K`$ as injectivity would need the spanning fact of Section 4.2, which is not used here.
+This holds as an identity in $`u`$ and $`\bar u`$, carried as fourteen independent variables rather
+than checked at finitely many states. Nothing in Theorem 5.1 depends on it: clause 3 comes from
+$`\Lambda^2`$ and clause 4's bridge from the pairing argument above, neither of which needs a
+per-channel gradient. It is stated here because the per-channel factor is easy to assume away.
 
 One last calculation completes clause 4's second sentence, that on the unit sphere the tangential
 critical problem is governed by $`M_6`$ alone. Since $`Q = A/B^2`$,
@@ -1006,12 +1009,17 @@ This section's tool is the unequal-degree form of Lemma 3.1. Without equal degre
 genuinely fails, and a two-line witness shows what replaces it: $`f = X^2`$ and $`g = X^3`$ have
 $`J(f,g) = 0`$ and are not proportional, while $`f^{\deg g} = g^{\deg f} = X^6`$, which is the
 weaker conclusion available at unequal degrees. The same Euler computation with degrees
-$`m = \deg f`$ and $`n = \deg g`$ gives $`Y \cdot J(f,g) = n f_X g - m f g_X`$, so $`J(f,g) = 0`$
-makes $`f^{n}/g^{m}`$ a degree-zero homogeneous rational function and therefore constant. Since
-$`\mathbb{C}[X,Y]`$ is a unique factorisation domain, a proportionality $`f^{n} \propto g^{m}`$
-constrains the root multisets: if $`f`$ has a root of multiplicity $`\mu`$ then $`g`$ has the same
-root with multiplicity $`\mu n/m`$. The witness above checks it: $`f = X^2`$ has a double root and
-$`g = X^3`$ a triple one, and $`\mu n/m = 2\cdot 3/2 = 3`$.
+$`m = \deg f`$ and $`n = \deg g`$ gives $`Y \cdot J(f,g) = n f_X g - m f g_X`$. Homogeneity alone
+settles nothing here, since $`f^{n}`$ and $`g^{m}`$ both have degree $`mn`$ whatever $`J`$ does, and
+a degree-zero homogeneous rational function need not be constant, as $`X/Y`$ shows. The vanishing is
+used through the derivative instead:
+$`\partial_X(f^{n}/g^{m}) = f^{\,n-1}(n f_X g - m f g_X)/g^{\,m+1}`$, which is zero when
+$`J(f,g) = 0`$. So $`f^{n}/g^{m}`$ is independent of $`X`$, and being homogeneous of degree zero it
+is constant, exactly as at equal degree in Section 3.2. Since $`\mathbb{C}[X,Y]`$ is a unique
+factorisation domain, a proportionality $`f^{n} \propto g^{m}`$ constrains the root multisets: if
+$`f`$ has a root of multiplicity $`\mu`$ then $`g`$ has the same root with multiplicity $`\mu n/m`$.
+The witness above checks it: $`f = X^2`$ has a double root and $`g = X^3`$ a triple one, and
+$`\mu n/m = 2\cdot 3/2 = 3`$.
 
 The right-hand factor of the level-16 output is built from $`R_6(P)`$, which lies in $`(V_6)^{2I}`$.
 That space is one-dimensional by Section 2.4, and its generator has **twelve simple roots**, which
@@ -1034,11 +1042,14 @@ So $`v \mapsto (I_{12}, f_v)_1`$ is injective, and composing it with the nonzero
 $`\eta`$ leaves the right-hand factor nonzero in both sectors. One sector suffices for the norm:
 $`P_{\mathbf{3}'} + P_{\mathbf{4}} = I`$ and $`\mathcal{M}_6(I) = 0`$, so
 $`R_6(P_{\mathbf{3}'}) = -R_6(P_{\mathbf{4}})`$ and the two norms are equal for that reason rather
-than by separate computation. The left-hand factor is $`[\rho_6(u)\otimes u]_8`$, which is a nonzero
-multiple of $`\mathcal{C}(u)`$ because $`\dim\mathscr{E}_8 = 1`$ leaves no other equivariant map,
-and it is not identically zero, as $`\mathcal{C}(v_3) \neq 0`$ shows. The level-16 component of the
-nonlinearity therefore does not vanish identically, and Proposition 3.3 becomes a statement about
-$`X`$ rather than an ambient one:
+than by separate computation. The left-hand factor is $`[\rho_6(u)\otimes u]_8`$. Since
+$`\dim\mathscr{E}_8 = 1`$ leaves no other equivariant map, it is *some* multiple of
+$`\mathcal{C}(u)`$, say $`\alpha\,\mathcal{C}(u)`$; that $`\mathcal{C}`$ is itself nonzero does not
+yet make $`\alpha`$ nonzero, so the constant is evaluated rather than inferred. At $`u = v_3`$,
+$`\rho_6(v_3) = -\tfrac{\sqrt{231}}{462}\,v^{(6)}_0`$ and the stretched coupling gives
+$`[\rho_6(v_3)\otimes v_3]_{8,3} = \tfrac{\sqrt{273}}{1092} \neq 0`$. Hence $`\alpha \neq 0`$. The
+level-16 component of the nonlinearity therefore does not vanish identically, and Proposition 3.3
+becomes a statement about $`X`$ rather than an ambient one:
 
 > Among block states at level 6, those whose cubic nonlinearity has no level-16 component are
 > exactly the time-reversal-invariant ones.
@@ -1212,7 +1223,7 @@ $`(-1)^{n'}`$ inside $`\mathcal{M}_K`$ is real only at integer $`n'`$. Write ins
 ```math
 \mathcal{M}^{(j)}_K(P)_N \;=\; \sum_{n+n' = N}
 \langle j\,n;\, j\,n' \mid K\,N \rangle \;
-\varepsilon_j\,(-1)^{\,j-n'}\, P_{n,\,-n'} ,
+\varepsilon_j\,(-1)^{\,j+n'}\, P_{n,\,-n'} ,
 ```
 
 with $`\rho^{(j)}_K`$ and $`M^{(j)}_K`$ built from it as in Section 2.3, and write the time-reversal
@@ -1240,7 +1251,7 @@ That term is radial. The rank-zero map is equivariant and built from one state, 
 multiple of $`\lVert u\rVert^2 u`$, and carrying the Clebsch-Gordan evaluation through gives
 
 ```math
-M^{(j)}_0(u) \;=\; \varepsilon_j\,\frac{(-1)^{\,2j}}{\sqrt{2j+1}}\,
+M^{(j)}_0(u) \;=\; \frac{\varepsilon_j}{\sqrt{2j+1}}\,
 \lVert u\rVert^2 u .
 ```
 
