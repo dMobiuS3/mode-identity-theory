@@ -390,10 +390,11 @@ answer, since that contribution is the channel selection of Sections 4 and 5.
 
 The maps in this paper are not holomorphic cubics, and the distinction has to be made before any
 multiplicity is quoted. Holomorphic cubics $`V_3 \to V_J`$ are counted by
-$`\mathrm{Hom}_{\mathrm{SU}(2)}(\mathrm{Sym}^3 V_3,\, V_J)`$, and $`\mathrm{Sym}^3 V_3`$ carries the
-spins $`1, 3, 4, 5, 6, 7, 9`$ only: it contains no $`V_8`$, so no holomorphic cubic into the spin-8
-target exists at all. The maps here are of type $`(2,1)`$, quadratic in the state and antilinear in
-it through time reversal, so the space to count is
+$`\mathrm{Hom}_{\mathrm{SU}(2)}(\mathrm{Sym}^3 V_3,\, V_J)`$, and
+$`\mathrm{Sym}^3 V_3 = V_1 \oplus 2V_3 \oplus V_4 \oplus V_5 \oplus V_6 \oplus V_7 \oplus V_9`$, of
+dimension $`\binom{9}{3} = 84`$ with spin 3 occurring twice: it contains no $`V_8`$, so no
+holomorphic cubic into the spin-8 target exists at all. The maps here are of type $`(2,1)`$,
+quadratic in the state and antilinear in it through time reversal, so the space to count is
 
 ```math
 \mathscr{E}_J \;:=\; \mathrm{Hom}_{\mathrm{SU}(2)}\!\left(\mathrm{Sym}^2 V_3 \otimes \overline{V_3},\, V_J\right)
@@ -460,7 +461,7 @@ One classical fact is used. It is short enough to prove, which is done here rath
 that its hypotheses are visible in the argument that needs them.
 
 > **Lemma 3.1** (Jacobian criterion). Let $`f, g`$ be **nonzero** binary forms of the **same**
-> degree $`n`$ over a field of **characteristic zero**. If $`J(f,g) = 0`$ then $`f`$ and $`g`$ are
+> degree $`n > 0`$ over a field of **characteristic zero**. If $`J(f,g) = 0`$ then $`f`$ and $`g`$ are
 > proportional.
 
 Euler's relation gives $`Y f_Y = n f - X f_X`$, and likewise for $`g`$, so that
@@ -793,8 +794,12 @@ Q([u]) \;=\; \frac{A(u)}{B(u)^2} \;=\; \frac{1}{\lVert u\rVert^4}\sum_K w_K \lVe
 w_K \;=\; \frac{49}{d^2}\cdot\frac{\lVert R_K(P)\rVert^2}{2K+1} ,
 ```
 
-and $`\widetilde{Q}(u) = \sum_K w_K\lVert\rho_K(u)\rVert^2 = (49/d^2)A(u)`$. There is no free
-constant at any point, and in particular $`w_0 = (49/d^2)(d^2/7) = 7`$ is **derived**, not chosen.
+and $`\widetilde{Q}(u) = \sum_K w_K\lVert\rho_K(u)\rVert^2 = (49/d^2)A(u)`$. With the measure fixed
+that way there is no free constant left anywhere, and in particular $`w_0 = (49/d^2)(d^2/7) = 7`$ is
+**derived**, not chosen. The measure is the one choice being made, and it is worth saying what
+depends on it: $`Q = A/B^2`$ scales inversely with the measure, so the individual $`w_K`$ and the
+normalisation of Section 5.6 inherit that choice, while the ratio $`w_6/w_0`$, the selection theorem
+and the critical set do not.
 
 Lemma 4.1 in this language says $`R_K(P) = 0`$ for $`K = 1,\dots,5`$, which is a statement about
 $`P`$ and leaves $`\rho_K(u)`$ untouched.
@@ -1036,7 +1041,8 @@ degrees $`12`$ and $`6`$ giving order $`12 + 6 - 2 = 16`$. So the question is wh
 $`v \mapsto (I_{12}, f_v)_1`$ can kill a nonzero $`v`$. It cannot. If $`(I_{12}, f)_1 = 0`$ with
 $`f \neq 0`$, the unequal-degree form gives $`I_{12}^{\,6} \propto f^{\,12}`$, so each root of
 $`I_{12}`$ occurs on the left with multiplicity $`6\mu`$ and on the right with multiplicity
-$`12\nu`$, forcing $`\mu = 2\nu`$ and hence $`\mu \ge 2`$. That contradicts twelve simple roots.
+$`12\nu`$, forcing $`\mu = 2\nu`$. A root of $`I_{12}`$ has $`\mu \ge 1`$, so $`\nu = 0`$ would give
+$`\mu = 0`$, while $`\nu \ge 1`$ gives $`\mu \ge 2`$. Both contradict twelve simple roots.
 
 So $`v \mapsto (I_{12}, f_v)_1`$ is injective, and composing it with the nonzero intertwiner
 $`\eta`$ leaves the right-hand factor nonzero in both sectors. One sector suffices for the norm:
@@ -1046,7 +1052,7 @@ than by separate computation. The left-hand factor is $`[\rho_6(u)\otimes u]_8`$
 $`\dim\mathscr{E}_8 = 1`$ leaves no other equivariant map, it is *some* multiple of
 $`\mathcal{C}(u)`$, say $`\alpha\,\mathcal{C}(u)`$; that $`\mathcal{C}`$ is itself nonzero does not
 yet make $`\alpha`$ nonzero, so the constant is evaluated rather than inferred. At $`u = v_3`$,
-$`\rho_6(v_3) = -\tfrac{\sqrt{231}}{462}\,v^{(6)}_0`$ and the stretched coupling gives
+$`\rho_6(v_3) = -\tfrac{\sqrt{231}}{462}\,v^{(6)}_0`$ and coupling to spin 8 gives
 $`[\rho_6(v_3)\otimes v_3]_{8,3} = \tfrac{\sqrt{273}}{1092} \neq 0`$. Hence $`\alpha \neq 0`$. The
 level-16 component of the nonlinearity therefore does not vanish identically, and Proposition 3.3
 becomes a statement about $`X`$ rather than an ambient one:
@@ -1086,10 +1092,11 @@ tangent space, which is $`\mathrm{Hom}_H(\chi, V_3)`$ modulo $`\mathbb{C}u`$. Fo
 rays that quotient is zero, because the $`\chi`$-isotypic subspace of $`V_3`$ is one-dimensional and
 $`u`$ already spans it. Hence the tangential gradient vanishes. $`\square`$
 
-For the two weight states the cyclic group of rotations about the quantisation axis suffices, the
-projective tangent weights being $`\pm 1, \dots, \pm 6`$ and none of them zero. For the octahedral
-ray a subgroup of order 8 already isolates it, and for the hexagonal ray the dihedral group of order
-12 does. No orientation is assumed: in each case the stabiliser is computed rather than posited.
+For the two weight states the cyclic group of rotations about the quantisation axis suffices: the
+projective tangent weights are $`\pm 1, \pm 2, \pm 3`$ at $`[v_0]`$ and $`-1, \dots, -6`$ at
+$`[v_3]`$, and none of them is zero. For the octahedral ray a subgroup of order 8 already isolates
+it, and for the hexagonal ray the dihedral group of order 12 does. No orientation is assumed: in
+each case the stabiliser is computed rather than posited.
 
 Two further critical rays do not appear in that table. Each lies on a fixed locus of dimension one
 rather than at an isolated fixed point, so Lemma 5.3 does not cover them as stated and needs a
@@ -1166,18 +1173,23 @@ $`s = \sqrt{20}\,x`$ real, and the imaginary axis the staggered ones, where $`s`
 imaginary. No rotation relates the two: a rotation preserves shape, and these families are not
 congruent. What $`R_z(\pi/6)`$ does is carry this line to the other $`\chi`$-isotypic line
 $`\mathrm{span}\{v_3-v_{-3},\, v_0\}`$, which is the same fact as its conjugating the $`-1`$ family
-of axes onto the $`+1`$ family: applied to a prism it returns a prism, turned by $`90^\circ`$. The
-ray at $`x^2 = 23/10`$ is a **trigonal prism**: two aligned triangles at heights $`\pm 0.5585`$, the
-three smallest between-ring angles being the aligned pairs, which is what distinguishes a prism from
-an antiprism. The ray at $`y^2 = 5/2`$ is the **octahedron**, its full multipole row there being
-$`1/7, 0, 0, 0, 6/11, 0, 24/77`$, which identifies it more tightly than the value alone. Its
-reappearance is a check rather than a coincidence: an octahedron has a three-fold axis through
-opposite faces, so it has to occur in this locus. The tabulated state's identification is exact
-rather than numerical, with no root-finding: its sextic is a constant times $`z(z^4+1)`$, of degree
-5, so one root sits at the far pole, one at the origin and four at the fourth roots of $`-1`$,
-spaced $`90^\circ`$ apart on the equator. That ray is confirmed to have the same shape numerically
-rather than symbolically: to the precision computed, the pairwise angles among its six points are
-$`90^\circ`$ and $`180^\circ`$ alone.
+of axes onto the $`+1`$ family: applied to a prism it returns a prism, turned by $`90^\circ`$. Both
+rays are identified exactly, and the quadratic does it. In $`w = z^3`$ the Majorana polynomial is
+$`w^2 - sw + 1`$, whose two roots multiply to $`1`$, so the triangles sit at reciprocal radii; since
+$`\lvert z\rvert \mapsto 1/\lvert z\rvert`$ sends $`\theta`$ to $`\pi - \theta`$, they sit at
+heights $`\pm h`$ for a common $`h`$ whatever $`s`$ is. The argument of $`w`$ separates the two
+axes. At $`x^2 = 23/10`$, $`s = \sqrt{46}`$ and both roots are real and positive, so $`\arg w = 0`$
+and each triangle has vertices at azimuths $`0^\circ, 120^\circ, 240^\circ`$: the two are
+**aligned**, which makes the ray a **trigonal prism** and not an antiprism, at heights
+$`\pm 0.5585\ldots`$. At $`y^2 = 5/2`$, $`s = i\sqrt{50}`$ and both roots are purely imaginary, so
+$`\arg w = \pi/2`$ and the azimuths differ by $`60^\circ`$: the two are **staggered**, and there
+$`h = 1/\sqrt{3}`$ exactly. A staggered pair of equilateral triangles at heights $`\pm 1/\sqrt{3}`$
+is the **regular octahedron**, which is the same statement as its full multipole row there,
+$`1/7, 0, 0, 0, 6/11, 0, 24/77`$. Its reappearance is a check rather than a coincidence: an
+octahedron has a three-fold axis through opposite faces, so it has to occur in this locus. The
+tabulated state is exact by the same standard, with no root-finding: its sextic is a constant times
+$`z(z^4+1)`$, of degree 5, so one root sits at the far pole, one at the origin and four at the
+fourth roots of $`-1`$, spaced $`90^\circ`$ apart on the equator.
 
 The hexagonal value is the largest of the four, and it is not this paper's. Romero, Klimov,
 Goldberg, Leuchs and Sanchez-Soto give the closed form
