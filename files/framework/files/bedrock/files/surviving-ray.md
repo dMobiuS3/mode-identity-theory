@@ -3,7 +3,7 @@
 
 ---
 
-# 🎯 The Surviving Ray
+# 💫 Surviving Ray
 
 <!-- BANNER IMAGE PENDING: the other three pillars each carry a full-width <img> here,
      e.g. <img src=".../galois%20pair%20banner.png?raw=true" width="100%" alt="...">
