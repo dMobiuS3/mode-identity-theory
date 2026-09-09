@@ -3,7 +3,7 @@
 
 ---
 
-# 🏔️ Bedrock Papers
+# 🏔️ Bedrock Mathematics
 
 <img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/the%20bridge%20banner.png?raw=true" width="100%" alt="Bedrock">
 
