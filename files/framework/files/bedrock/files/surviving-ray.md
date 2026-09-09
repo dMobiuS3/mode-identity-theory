@@ -344,9 +344,11 @@ $`Q = \int\lvert\psi\rvert^4 / (\int\lvert\psi\rvert^2)^2`$.
 
 Nothing below determines $`g`$. For the channel-selection question a nonzero magnitude can be
 absorbed into the amplitude, since the problem is projective in $`\psi`$ and $`g`$ rescales the
-amplitude at which a given ray solves it, so $`g = 1`$ is taken throughout and is a normalisation
-rather than a result. Its sign and its physical scale are not derived here; the 1 is a
-normalisation, not a computed coupling.
+amplitude at which a given ray solves it. Absorbing $`\lvert g\rvert`$ leaves the sign, which no
+rescaling removes, and that sign is immaterial here because an overall nonzero real factor does not
+move the tangential critical equation. So $`g = 1`$ is taken throughout, a normalisation rather than
+a result: its sign and its physical scale are not derived here, and the 1 is not a computed
+coupling.
 
 The choice of interaction is not vacuous: a second local $`2I`$-invariant quartic genuinely exists.
 Both $`\sigma_3`$ and $`\sigma_4`$ are real representations: $`V_3`$ has integer spin, so
@@ -474,11 +476,12 @@ as a polynomial identity. Hence $`J(f,g) = 0`$ forces $`f_X g = f g_X`$, that is
 $`\partial_X(g/f) = 0`$ wherever $`f \neq 0`$. So $`g/f`$ does not depend on $`X`$, and being
 homogeneous of degree 0 it is constant. $`\square`$
 
-The hypotheses are used in order and each is visible: characteristic zero for Euler, $`n \neq 0`$ to
-cancel, $`f \neq 0`$ to divide, and equal degree for the last step, since $`g/f`$ is homogeneous of
-degree zero only when the degrees agree. The two forms in Section 3.3 are both sextics, so the
-degree hypothesis is automatic there; Section 5.7 needs a weaker unequal-degree form, developed
-where it is used. Nonvanishing is supplied by the next remark.
+The hypotheses are used in order and each is visible: characteristic zero so that the positive
+degree $`n`$ is nonzero in the field and can be cancelled after Euler, whose identity itself needs
+no such hypothesis, $`f \neq 0`$ to divide, and equal degree for the last step, since $`g/f`$ is
+homogeneous of degree zero only when the degrees agree. The two forms in Section 3.3 are both
+sextics, so the degree hypothesis is automatic there; Section 5.7 needs a weaker unequal-degree
+form, developed where it is used. Nonvanishing is supplied by the next remark.
 
 Because $`\Theta`$ is injective and the dictionary from states to sextics is linear, $`F \neq 0`$
 and $`\Theta F \neq 0`$ whenever $`u \neq 0`$. So Lemma 3.1 applies to the pair $`(F, \Theta F)`$ at
@@ -907,14 +910,17 @@ That is not yet clause 4, which also needs the self-interaction to *contain* $`M
 coefficient. Write the self-interaction as $`t_0 M_0 + t_6 M_6`$, which clause 1 permits. It is the
 block projection of $`\lvert\psi\rvert^2\psi`$, and the block projection is self-adjoint with
 $`\psi`$ in its range, so pairing it with $`\psi`$ returns $`\int\lvert\psi\rvert^4`$, that is
-$`\widetilde{Q}`$ up to the normalisation of Section 5.2. For a fixed sector $`\sigma`$, $`t_0`$ and
-$`t_6`$ are constants determined by the right contractions, and they are not assumed related. If
-$`t_6`$ vanished, the self-interaction would be $`t_0 M_0`$, so $`A(u)`$ would be proportional to
-$`\langle u, M_0(u)\rangle = -\lVert u\rVert^4/\sqrt{7}`$, hence constant on the unit sphere. It is
-not: by clause 5, $`\widetilde{Q} = (49/d^2)A`$ is $`w_0/7 + w_6\lVert\rho_6\rVert^2`$ with
-$`w_6 > 0`$, and a positive multiple of $`A`$ is constant only if $`A`$ is, and
-$`\lVert\rho_6\rVert^2`$ takes the values $`1/\binom{12}{6}`$ and $`400/\binom{12}{6}`$ at $`v_3`$
-and $`v_0`$. So $`t_6 \neq 0`$, and with clauses 1 and 2 that is clause 4. $`\square`$
+$`\widetilde{Q}`$ up to the normalisation of Section 5.2. Carrying that normalisation explicitly,
+the pairing is $`(d/7)\,\langle u, \mathcal{N}(u)\rangle = A(u)`$, the $`d/7`$ being the block inner
+product inherited from $`\int\lvert\psi\rvert^2 = (d/7)\lVert u\rVert^2`$. For a fixed sector
+$`\sigma`$, $`t_0`$ and $`t_6`$ are constants determined by the right contractions, and they are not
+assumed related. If $`t_6`$ vanished, the self-interaction would be $`t_0 M_0`$, so $`A(u)`$ would
+be proportional to $`\langle u, M_0(u)\rangle = -\lVert u\rVert^4/\sqrt{7}`$, hence constant on the
+unit sphere. It is not: by clause 5, $`\widetilde{Q} = (49/d^2)A`$ is
+$`w_0/7 + w_6\lVert\rho_6\rVert^2`$ with $`w_6 > 0`$, and a positive multiple of $`A`$ is constant
+only if $`A`$ is, and $`\lVert\rho_6\rVert^2`$ takes the values $`1/\binom{12}{6}`$ and
+$`400/\binom{12}{6}`$ at $`v_3`$ and $`v_0`$. So $`t_6 \neq 0`$, and with clauses 1 and 2 that is
+clause 4. $`\square`$
 
 The same non-constancy appears on the quartic side as an identity worth recording,
 
@@ -1173,20 +1179,22 @@ $`s = \sqrt{20}\,x`$ real, and the imaginary axis the staggered ones, where $`s`
 imaginary. No rotation relates the two: a rotation preserves shape, and these families are not
 congruent. What $`R_z(\pi/6)`$ does is carry this line to the other $`\chi`$-isotypic line
 $`\mathrm{span}\{v_3-v_{-3},\, v_0\}`$, which is the same fact as its conjugating the $`-1`$ family
-of axes onto the $`+1`$ family: applied to a prism it returns a prism, turned by $`90^\circ`$. Both
-rays are identified exactly, and the quadratic does it. In $`w = z^3`$ the Majorana polynomial is
-$`w^2 - sw + 1`$, whose two roots multiply to $`1`$, so the triangles sit at reciprocal radii; since
-$`\lvert z\rvert \mapsto 1/\lvert z\rvert`$ sends $`\theta`$ to $`\pi - \theta`$, they sit at
-heights $`\pm h`$ for a common $`h`$ whatever $`s`$ is. The argument of $`w`$ separates the two
-axes. At $`x^2 = 23/10`$, $`s = \sqrt{46}`$ and both roots are real and positive, so $`\arg w = 0`$
-and each triangle has vertices at azimuths $`0^\circ, 120^\circ, 240^\circ`$: the two are
-**aligned**, which makes the ray a **trigonal prism** and not an antiprism, at heights
-$`\pm 0.5585\ldots`$. At $`y^2 = 5/2`$, $`s = i\sqrt{50}`$ and both roots are purely imaginary, so
-$`\arg w = \pi/2`$ and the azimuths differ by $`60^\circ`$: the two are **staggered**, and there
-$`h = 1/\sqrt{3}`$ exactly. A staggered pair of equilateral triangles at heights $`\pm 1/\sqrt{3}`$
-is the **regular octahedron**, which is the same statement as its full multipole row there,
-$`1/7, 0, 0, 0, 6/11, 0, 24/77`$. Its reappearance is a check rather than a coincidence: an
-octahedron has a three-fold axis through opposite faces, so it has to occur in this locus. The
+of axes onto the $`+1`$ family: applied to a prism it returns a prism, turned by $`30^\circ`$, which
+on a configuration with a three-fold axis is indistinguishable from a turn of $`90^\circ`$ the other
+way. Both rays are identified exactly, and the quadratic does it. In $`w = z^3`$ the Majorana
+polynomial is $`w^2 - sw + 1`$, whose two roots multiply to $`1`$, so the triangles sit at
+reciprocal radii; since $`\lvert z\rvert \mapsto 1/\lvert z\rvert`$ sends $`\theta`$ to
+$`\pi - \theta`$, they sit at heights $`\pm h`$ for a common $`h`$ whatever $`s`$ is. The argument
+of $`w`$ separates the two axes. At $`x^2 = 23/10`$, $`s = \sqrt{46}`$ and both roots are real and
+positive, so $`\arg w = 0`$ and each triangle has vertices at azimuths
+$`0^\circ, 120^\circ, 240^\circ`$: the two are **aligned**, which makes the ray a **trigonal prism**
+and not an antiprism, at heights $`\pm 0.5585\ldots`$. At $`y^2 = 5/2`$, $`s = i\sqrt{50}`$ and the
+two roots are purely imaginary of opposite sign, with arguments $`+\pi/2`$ and $`-\pi/2`$; dividing
+the difference of $`\pi`$ by three, the azimuths differ by $`60^\circ`$: the two are **staggered**,
+and there $`h = 1/\sqrt{3}`$ exactly. A staggered pair of equilateral triangles at heights
+$`\pm 1/\sqrt{3}`$ is the **regular octahedron**, which is the same statement as its full multipole
+row there, $`1/7, 0, 0, 0, 6/11, 0, 24/77`$. Its reappearance is a check rather than a coincidence:
+an octahedron has a three-fold axis through opposite faces, so it has to occur in this locus. The
 tabulated state is exact by the same standard, with no root-finding: its sextic is a constant times
 $`z(z^4+1)`$, of degree 5, so one root sits at the far pole, one at the origin and four at the
 fourth roots of $`-1`$, spaced $`90^\circ`$ apart on the equator.
