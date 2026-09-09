@@ -42,7 +42,7 @@ In 300 BC, Euclid proved Plato's observation that only five solids close perfect
 ```
 mode-identity-theory/
 ├─ main/                          # this page
-    ├─ framework/                  # the postulate and derivations
+    ├─ framework                   # the postulate and derivations
     │   ├─ bedrock/                 # standalone mathematics papers
     │   │   ├─ first-eigenvalue       # twisted Möbius Laplacian operator
     │   │   ├─ coexact-gap            # coexact gap on S³/Γ and the 2I exception
