@@ -52,7 +52,7 @@ already use, and it does not feed the embedding argument above.
 
 ---
 
-## [The Postulate Bridge](../working/files/postulate-bridge.md)
+## [Postulate Bridge](../working/files/postulate-bridge.md)
 
 **The Embedding:** $`\partial(\text{Möbius}) \hookrightarrow S^3`$. The seam $`S^1 = \partial(\text{Möbius})`$ embeds in $`S^3`$, and the underlying spherical band lies in a great $`S^2`$. The cone-bearing Möbius quotient is a singular surface model, not a smooth totally geodesic submanifold of $`S^3/2I`$.
 
