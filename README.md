@@ -47,7 +47,8 @@ mode-identity-theory/
     │   ├─ bedrock/                # standalone mathematics papers
     │   │   ├─ first-eigenvalue      # twisted Möbius Laplacian operator
     │   │   ├─ coexact-gap           # coexact gap on S³/Γ and the 2I exception
-    │   │   └─ galois-pair           # E8 filling and the tautological charge
+    │   │   ├─ galois-pair           # E8 filling and the tautological charge
+    │   │   └─ surviving-ray         # spin-3 channel filter and the surviving ray
     │   └─ working/                # research in progress: maps and open problems
     ├─ cosmos/                    # the static three-sphere seen whole
     │   ├─ cosmological-constant     # the spectral seed behind Λ
