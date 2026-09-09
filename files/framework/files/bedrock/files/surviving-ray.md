@@ -5,7 +5,7 @@
 
 # 💫 Surviving Ray
 
-<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/surviving_ray.png?raw=true" width="100%" alt="Galois Pair">
+<img src="https://github.com/dmobius3/mode-identity-theory/blob/main/files/assets/surviving_ray.png?raw=true" width="100%" alt="Surviving Ray">
 
 The spin-3 representation admits a four-dimensional family of equivariant cubic self-maps, the
 family known in the spinor-condensate literature as the four total-spin scattering channels. On
